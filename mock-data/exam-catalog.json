@@ -1,0 +1,318 @@
+{
+  "generatedAt": "2026-03-27",
+  "total": 29,
+  "subjects": [
+    "宏观经济",
+    "微积分BC",
+    "微观经济",
+    "心理学",
+    "物理C力学",
+    "物理C电磁",
+    "统计学",
+    "计算机科学A"
+  ],
+  "years": [
+    "2025",
+    "2023",
+    "2021",
+    "2020",
+    "2019",
+    "2018",
+    "2017"
+  ],
+  "paperTypes": [
+    "国际卷",
+    "样题",
+    "练习卷"
+  ],
+  "items": [
+    {
+      "examId": "1902622425591156736",
+      "title": "AP 宏观经济 2023年国际卷",
+      "subject": "宏观经济",
+      "year": "2023",
+      "paperType": "国际卷",
+      "questionCount": 63,
+      "sectionCount": 1
+    },
+    {
+      "examId": "1902622426509709312",
+      "title": "AP 宏观经济 2023年样题1",
+      "subject": "宏观经济",
+      "year": "2023",
+      "paperType": "样题",
+      "questionCount": 63,
+      "sectionCount": 1
+    },
+    {
+      "examId": "1902622426048335872",
+      "title": "AP 宏观经济 2023年样题2",
+      "subject": "宏观经济",
+      "year": "2023",
+      "paperType": "样题",
+      "questionCount": 63,
+      "sectionCount": 1
+    },
+    {
+      "examId": "1902622426966888448",
+      "title": "AP 宏观经济 2023年样题3",
+      "subject": "宏观经济",
+      "year": "2023",
+      "paperType": "样题",
+      "questionCount": 63,
+      "sectionCount": 1
+    },
+    {
+      "examId": "1902622411338911744",
+      "title": "AP 微积分BC 2017年国际卷",
+      "subject": "微积分BC",
+      "year": "2017",
+      "paperType": "国际卷",
+      "questionCount": 68,
+      "sectionCount": 1
+    },
+    {
+      "examId": "1902622411800285184",
+      "title": "AP 微积分BC 2018年国际卷",
+      "subject": "微积分BC",
+      "year": "2018",
+      "paperType": "国际卷",
+      "questionCount": 69,
+      "sectionCount": 1
+    },
+    {
+      "examId": "1902622412253270016",
+      "title": "AP 微积分BC 2019年国际卷",
+      "subject": "微积分BC",
+      "year": "2019",
+      "paperType": "国际卷",
+      "questionCount": 68,
+      "sectionCount": 1
+    },
+    {
+      "examId": "1902622412714643456",
+      "title": "AP 微积分BC 2021年国际卷",
+      "subject": "微积分BC",
+      "year": "2021",
+      "paperType": "国际卷",
+      "questionCount": 69,
+      "sectionCount": 1
+    },
+    {
+      "examId": "1902622410416164864",
+      "title": "AP 微观经济 2017年国际卷",
+      "subject": "微观经济",
+      "year": "2017",
+      "paperType": "国际卷",
+      "questionCount": 63,
+      "sectionCount": 1
+    },
+    {
+      "examId": "1902622410881732608",
+      "title": "AP 微观经济 2018年国际卷",
+      "subject": "微观经济",
+      "year": "2018",
+      "paperType": "国际卷",
+      "questionCount": 63,
+      "sectionCount": 1
+    },
+    {
+      "examId": "1902622418683138048",
+      "title": "AP 微观经济 2019年国际卷",
+      "subject": "微观经济",
+      "year": "2019",
+      "paperType": "国际卷",
+      "questionCount": 63,
+      "sectionCount": 1
+    },
+    {
+      "examId": "1902622419140317184",
+      "title": "AP 微观经济 2021年国际卷",
+      "subject": "微观经济",
+      "year": "2021",
+      "paperType": "国际卷",
+      "questionCount": 63,
+      "sectionCount": 1
+    },
+    {
+      "examId": "1902622420520243200",
+      "title": "AP 心理 2025年样题1",
+      "subject": "心理学",
+      "year": "2025",
+      "paperType": "样题",
+      "questionCount": 84,
+      "sectionCount": 1
+    },
+    {
+      "examId": "1902622420977422336",
+      "title": "AP 心理 2025年样题2",
+      "subject": "心理学",
+      "year": "2025",
+      "paperType": "样题",
+      "questionCount": 84,
+      "sectionCount": 1
+    },
+    {
+      "examId": "1902622421442990080",
+      "title": "AP 心理 2025年样题3",
+      "subject": "心理学",
+      "year": "2025",
+      "paperType": "样题",
+      "questionCount": 84,
+      "sectionCount": 1
+    },
+    {
+      "examId": "1902622424219619328",
+      "title": "AP 物理C力学 2025年样题1",
+      "subject": "物理C力学",
+      "year": "2025",
+      "paperType": "样题",
+      "questionCount": 57,
+      "sectionCount": 1
+    },
+    {
+      "examId": "1902622423296872448",
+      "title": "AP 物理C力学 2025年样题2",
+      "subject": "物理C力学",
+      "year": "2025",
+      "paperType": "样题",
+      "questionCount": 56,
+      "sectionCount": 1
+    },
+    {
+      "examId": "1902622423758245888",
+      "title": "AP 物理C力学 2025年样题3",
+      "subject": "物理C力学",
+      "year": "2025",
+      "paperType": "样题",
+      "questionCount": 58,
+      "sectionCount": 1
+    },
+    {
+      "examId": "1912795104067575815",
+      "title": "AP 物理C电磁 2025年样题1",
+      "subject": "物理C电磁",
+      "year": "2025",
+      "paperType": "样题",
+      "questionCount": 57,
+      "sectionCount": 1
+    },
+    {
+      "examId": "1912795104067575816",
+      "title": "AP 物理C电磁 2025年样题2",
+      "subject": "物理C电磁",
+      "year": "2025",
+      "paperType": "样题",
+      "questionCount": 57,
+      "sectionCount": 1
+    },
+    {
+      "examId": "1912795104067575817",
+      "title": "AP 物理C电磁 2025年样题3",
+      "subject": "物理C电磁",
+      "year": "2025",
+      "paperType": "样题",
+      "questionCount": 58,
+      "sectionCount": 1
+    },
+    {
+      "examId": "1902622413180211200",
+      "title": "AP 统计 2017年国际卷",
+      "subject": "统计学",
+      "year": "2017",
+      "paperType": "国际卷",
+      "questionCount": 46,
+      "sectionCount": 1
+    },
+    {
+      "examId": "1902622413633196032",
+      "title": "AP 统计 2018年国际卷",
+      "subject": "统计学",
+      "year": "2018",
+      "paperType": "国际卷",
+      "questionCount": 61,
+      "sectionCount": 1
+    },
+    {
+      "examId": "1902622414081986560",
+      "title": "AP 统计 2019年国际卷",
+      "subject": "统计学",
+      "year": "2019",
+      "paperType": "国际卷",
+      "questionCount": 62,
+      "sectionCount": 1
+    },
+    {
+      "examId": "1902622414539165696",
+      "title": "AP 统计 2021年国际卷",
+      "subject": "统计学",
+      "year": "2021",
+      "paperType": "国际卷",
+      "questionCount": 61,
+      "sectionCount": 1
+    },
+    {
+      "examId": "1902622416850227200",
+      "title": "AP CSA 2020年样题",
+      "subject": "计算机科学A",
+      "year": "2020",
+      "paperType": "样题",
+      "questionCount": 48,
+      "sectionCount": 1
+    },
+    {
+      "examId": "1902622418221764608",
+      "title": "AP CSA 2021年国际卷",
+      "subject": "计算机科学A",
+      "year": "2021",
+      "paperType": "国际卷",
+      "questionCount": 47,
+      "sectionCount": 1
+    },
+    {
+      "examId": "1902622417307406336",
+      "title": "AP CSA 真题拼题1",
+      "subject": "计算机科学A",
+      "year": "??",
+      "paperType": "练习卷",
+      "questionCount": 45,
+      "sectionCount": 1
+    },
+    {
+      "examId": "1902622417764585472",
+      "title": "AP CSA 真题拼题2",
+      "subject": "计算机科学A",
+      "year": "??",
+      "paperType": "练习卷",
+      "questionCount": 45,
+      "sectionCount": 1
+    },
+    {
+      "examId": "2012Intl",
+      "title": "AP 微积分BC 2012年国际卷",
+      "subject": "微积分BC",
+      "year": "2012",
+      "paperType": "国际卷",
+      "questionCount": 49,
+      "sectionCount": 2
+    },
+    {
+      "examId": "2013Intl",
+      "title": "AP 微积分BC 2013年国际卷",
+      "subject": "微积分BC",
+      "year": "2013",
+      "paperType": "国际卷",
+      "questionCount": 50,
+      "sectionCount": 2
+    },
+    {
+      "examId": "2014Intl",
+      "title": "AP 微积分BC 2014年国际卷",
+      "subject": "微积分BC",
+      "year": "2014",
+      "paperType": "国际卷",
+      "questionCount": 51,
+      "sectionCount": 2
+    }
+  ]
+}

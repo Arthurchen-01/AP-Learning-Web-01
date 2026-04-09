@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>套题模考 - AP Learning</title>
+  <style>
+    :root {
+      --bg: #0a0f1c;
+      --card-bg: #111827;
+      --primary: #3b82f6;
+      --success: #22c55e;
+      --warning: #f59e0b;
+      --danger: #ef4444;
+      --text: #f9fafb;
+      --text-muted: #9ca3af;
+      --border: #1f2937;
+      --border-light: #374151;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+    }
+
+    a { color: inherit; text-decoration: none; }
+
+    /* Navigation */
+    .topnav {
+      background: var(--card-bg);
+      border-bottom: 1px solid var(--border);
+      padding: 0 2rem;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+    .topnav-inner {
+      max-width: 1200px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      height: 60px;
+      gap: 2rem;
+    }
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+    }
+    .brand-mark {
+      width: 36px;
+      height: 36px;
+      background: var(--primary);
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 800;
+      font-size: 0.9rem;
+    }
+    .brand-title { font-weight: 600; font-size: 1rem; }
+
+    .nav-links { display: flex; gap: 0.25rem; margin-left: auto; }
+    .nav-links a {
+      padding: 0.5rem 1rem;
+      border-radius: 6px;
+      color: var(--text-muted);
+      font-size: 0.9rem;
+      transition: all 0.15s;
+    }
+    .nav-links a:hover { color: var(--text); background: var(--border); }
+    .nav-links a.active { color: var(--text); background: var(--border-light); }
+
+    .user-avatar {
+      width: 36px;
+      height: 36px;
+      background: linear-gradient(135deg, #8b5cf6, #3b82f6);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 600;
+      font-size: 0.85rem;
+      margin-left: 1rem;
+    }
+
+    /* Main */
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 2rem;
+    }
+
+    h1 { font-size: 1.8rem; margin-bottom: 0.5rem; }
+    .subtitle { color: var(--text-muted); margin-bottom: 2rem; }
+
+    /* Filters */
+    .filters {
+      display: flex;
+      gap: 1rem;
+      margin-bottom: 1.5rem;
+    }
+    .filter-select {
+      padding: 0.5rem 1rem;
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      color: var(--text);
+      font-size: 0.9rem;
+    }
+
+    /* Exam List */
+    .exam-list { display: flex; flex-direction: column; gap: 1rem; }
+
+    .exam-card {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 1.25rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      transition: all 0.2s;
+    }
+    .exam-card:hover { border-color: var(--primary); transform: translateX(4px); }
+
+    .exam-info h3 { font-size: 1.05rem; margin-bottom: 0.5rem; }
+    .exam-meta { display: flex; gap: 1.5rem; color: var(--text-muted); font-size: 0.8rem; }
+    .exam-meta span { display: flex; align-items: center; gap: 0.3rem; }
+
+    .badge {
+      padding: 0.2rem 0.6rem;
+      border-radius: 4px;
+      font-size: 0.7rem;
+      font-weight: 600;
+    }
+    .badge-mcq { background: #3b82f620; color: var(--primary); }
+    .badge-frq { background: #f59e0b20; color: var(--warning); }
+    .badge-calc { background: #22c55e20; color: var(--success); }
+
+    .btn {
+      padding: 0.5rem 1rem;
+      border-radius: 6px;
+      font-weight: 600;
+      cursor: pointer;
+      border: none;
+      transition: all 0.2s;
+      display: inline-block;
+    }
+    .btn-primary { background: var(--primary); color: white; }
+    .btn-primary:hover { background: #2563eb; }
+    .btn-secondary { background: var(--border); color: var(--text); }
+
+    .progress-tag {
+      font-size: 0.75rem;
+      padding: 0.2rem 0.5rem;
+      border-radius: 4px;
+      background: var(--success);
+      color: white;
+    }
+    .progress-tag.not-started { background: var(--text-muted); }
+
+    .loading { text-align: center; padding: 2rem; color: var(--text-muted); }
+  </style>
+</head>
+<body>
+  <header class="topnav">
+    <div class="topnav-inner">
+      <a href="../" class="brand">
+        <span class="brand-mark">AP</span>
+        <span class="brand-title">AP Learning</span>
+      </a>
+      <nav class="nav-links">
+        <a href="../">首页</a>
+        <a href="./" class="active">套题模考</a>
+        <a href="../training/">专项训练</a>
+        <a href="../dashboard/">Dashboard</a>
+      </nav>
+      <div class="user-avatar">OC</div>
+    </div>
+  </header>
+
+  <div class="container">
+    <h1>套题模考</h1>
+    <p class="subtitle">选择试卷，开始计时练习</p>
+
+    <div class="filters">
+      <select class="filter-select" id="subject-filter">
+        <option value="">全部科目</option>
+        <option value="calculus_bc">AP Calculus BC</option>
+        <option value="calculus_ab">AP Calculus AB</option>
+        <option value="statistics">AP Statistics</option>
+        <option value="microeconomics">AP Microeconomics</option>
+      </select>
+      <select class="filter-select" id="year-filter">
+        <option value="">全部年份</option>
+        <option value="2024">2024</option>
+        <option value="2023">2023</option>
+        <option value="2022">2022</option>
+        <option value="2021">2021</option>
+        <option value="2020">2020</option>
+        <option value="2019">2019</option>
+        <option value="2018">2018</option>
+      </select>
+    </div>
+
+    <div class="exam-list" id="exam-list">
+      <div class="loading">加载中...</div>
+    </div>
+  </div>
+
+  <script>
+    const subjectNames = {
+      'calculus_bc': '微积分BC',
+      'calculus_ab': '微积分AB',
+      'statistics': '统计学',
+      'microeconomics': '微观经济',
+      'macroeconomics': '宏观经济'
+    };
+
+    // 默认试卷数据
+    const defaultExams = [
+      {
+        exam_id: 'calc-bc-2018-intl',
+        exam_title: 'AP Calculus BC 2018 国际卷',
+        subject: 'calculus_bc',
+        year: 2018,
+        total_questions: 45,
+        sections: [
+          { part_label: 'Part A', calculator_allowed: false, question_count: 30, time_limit_minutes: 60 },
+          { part_label: 'Part B', calculator_allowed: true, question_count: 15, time_limit_minutes: 45 }
+        ]
+      }
+    ];
+
+    // 从 localStorage 读取进度
+    function getProgress(examId) {
+      try {
+        const raw = localStorage.getItem(`ap-learning-session:${examId}`);
+        if (!raw) return null;
+        const data = JSON.parse(raw);
+        let answered = 0, total = 0;
+        if (data.sections) {
+          data.sections.forEach(s => {
+            if (s.answers) {
+              s.answers.forEach(a => { if (a !== null) answered++; total++; });
+            }
+          });
+        }
+        return { answered, total };
+      } catch (e) { return null; }
+    }
+
+    function getTotalTime(exam) {
+      const totalMins = exam.sections.reduce((sum, s) => sum + (s.time_limit_minutes || 60), 0);
+      const hours = Math.floor(totalMins / 60);
+      const mins = totalMins % 60;
+      return hours > 0 ? `${hours}小时${mins > 0 ? mins + '分钟' : ''}` : `${mins}分钟`;
+    }
+
+    function renderExamList() {
+      const list = document.getElementById('exam-list');
+      list.innerHTML = defaultExams.map(exam => {
+        const progress = getProgress(exam.exam_id);
+
+        return `
+          <div class="exam-card" data-subject="${exam.subject}" data-year="${exam.year}">
+            <div class="exam-info">
+              <h3>${exam.exam_title}</h3>
+              <div class="exam-meta">
+                <span>📚 ${subjectNames[exam.subject] || exam.subject}</span>
+                <span>📝 ${exam.total_questions}题</span>
+                <span>⏱️ ${getTotalTime(exam)}</span>
+                ${progress ? `<span class="progress-tag">${progress.answered}/${progress.total}</span>` : '<span class="progress-tag not-started">未开始</span>'}
+              </div>
+            </div>
+            <div style="display: flex; gap: 0.5rem; align-items: center;">
+              ${exam.sections.map(s =>
+                `<span class="badge ${s.calculator_allowed ? 'badge-calc' : 'badge-mcq'}">${s.part_label}</span>`
+              ).join('')}
+              <a href="../v2/exam/paper.html?exam=${exam.exam_id}" class="btn btn-primary">
+                ${progress && progress.answered > 0 ? '继续' : '开始'}
+              </a>
+            </div>
+          </div>
+        `;
+      }).join('');
+    }
+
+    // 过滤器
+    document.getElementById('subject-filter').addEventListener('change', filterExams);
+    document.getElementById('year-filter').addEventListener('change', filterExams);
+
+    function filterExams() {
+      const subject = document.getElementById('subject-filter').value;
+      const year = document.getElementById('year-filter').value;
+      document.querySelectorAll('.exam-card').forEach(card => {
+        const matchSubject = !subject || card.dataset.subject === subject;
+        const matchYear = !year || card.dataset.year === year;
+        card.style.display = matchSubject && matchYear ? 'flex' : 'none';
+      });
+    }
+
+    renderExamList();
+  </script>
+</body>
+</html>
