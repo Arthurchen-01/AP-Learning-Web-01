@@ -6,6 +6,14 @@
   <title>AP Practice Website</title>
   <meta name="robots" content="noindex">
   <script src="assets/site-base.js"></script>
+  <script>
+    // Fix hero image path BEFORE CSS loads — prevents 404
+    var repoNames = ['AP-Learning-Web-01', 'AP-Learning-Web-02', 'AP-Learning-Web-03', 'AP-Learning-Web-04'];
+    var isGP = location.hostname.endsWith('.github.io');
+    var b = isGP ? '/' + (location.pathname.match(/^\/(AP-Learning-Web-0\d)\//)?.[1] || 'AP-Learning-Web') : '';
+    var imgBase = b + '/assets/images/home-hero.jpg';
+    document.write('<style>:root{--hero-image-url:url("' + imgBase + '")}</style>');
+  </script>
   <script>document.querySelector('link[data-site-css]') || document.head.insertAdjacentHTML('beforeend','<link rel="stylesheet" href="'+window.sitePath('/assets/site.css')+'" data-site-css>');</script>
   <script src="assets/mock-state.js" defer></script>
   <script src="assets/site-pages.js" defer></script>
