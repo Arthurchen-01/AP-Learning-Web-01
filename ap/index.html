@@ -64,7 +64,9 @@
       var brand = document.getElementById('brand-link');
       if (brand) brand.href = window.sitePath('/');
       document.querySelectorAll('[href^="/"]').forEach(function(el) {
-        el.setAttribute('href', window.sitePath(el.getAttribute('href')));
+        var href = el.getAttribute('href');
+        if (href.startsWith(window._b)) return;
+        el.setAttribute('href', window.sitePath(href));
       });
     };
     if (document.readyState === 'loading') {
