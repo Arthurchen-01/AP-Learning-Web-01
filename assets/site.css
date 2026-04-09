@@ -15,7 +15,7 @@
   --radius-lg: 22px;
   --radius-md: 16px;
   --max: 1180px;
-  --hero-image-url: url("/assets/images/home-hero.jpg");
+  --hero-image-url: url("https://arthurchen-01.github.io/AP-Learning-Web-01/assets/images/home-hero.jpg");
   --hero-image:
     linear-gradient(180deg, rgba(255, 248, 241, 0.1), rgba(255, 248, 241, 0.08)),
     radial-gradient(circle at 20% 22%, rgba(255, 255, 255, 0.34), transparent 18%),
