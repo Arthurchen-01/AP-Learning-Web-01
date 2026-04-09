@@ -5,23 +5,21 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>AP 题库</title>
   <meta name="robots" content="noindex">
-  <link rel="stylesheet" href="/ap/catalog.css">
+  <script>var m=location.pathname.match(/^\/(AP-Learning-Web-0\d)(?:\/|$)/);window._b='/'+(m?m[1]:'AP-Learning-Web');</script>
+  <script src="assets/site-base.js"></script>
+  <script>document.write('<link rel="stylesheet" href="'+window.sitePath('/ap/catalog.css')+'">');</script>
 </head>
 <body>
   <header class="site-header">
     <div class="shell nav">
-      <a class="brand" href="/">
+      <a class="brand" id="brand-link" href="/">
         <span class="brand-mark">AP</span>
         <span class="brand-copy">
           <span class="brand-title">MokaoAI Practice</span>
           <span class="brand-subtitle">AP 题库</span>
         </span>
       </a>
-      <nav class="nav-links" aria-label="Primary">
-        <a href="/">首页</a>
-        <a class="is-active" href="/ap/">AP 题库</a>
-        <a href="/ap/exam?examId=1902622411338911744&timekeepingModeOn=false&type=0">做题页</a>
-      </nav>
+      <nav class="nav-links" aria-label="Primary" id="primary-nav"></nav>
     </div>
   </header>
 
@@ -33,10 +31,7 @@
           <h1>AP 题库目录</h1>
           <p>按科目浏览本地可用试卷，支持搜索、年份筛选、卷型筛选，以及本地进度提示。</p>
         </div>
-        <div class="hero-actions">
-          <a class="button button-secondary" href="/">返回首页</a>
-          <a class="button button-primary" href="/ap/start/?examId=1902622411338911744">进入默认准备页</a>
-        </div>
+        <div class="hero-actions" id="hero-actions"></div>
       </div>
     </section>
 
@@ -63,6 +58,19 @@
     </section>
   </main>
 
-  <script type="module" src="/ap/catalog.js"></script>
+  <script>document.write('<scr'+'ipt type="module" src="'+window.sitePath('/ap/catalog.js')+'"><\/scr'+'ipt>');</script>
+  <script>
+    // Fix all absolute paths after site-base loads
+    var _fixPaths = function() {
+      var brand = document.getElementById('brand-link');
+      if (brand) brand.href = window.sitePath('/');
+      document.querySelectorAll('[href^="/"]').forEach(function(el) {
+        el.setAttribute('href', window.sitePath(el.getAttribute('href')));
+      });
+    };
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', _fixPaths);
+    } else { _fixPaths(); }
+  </script>
 </body>
 </html>

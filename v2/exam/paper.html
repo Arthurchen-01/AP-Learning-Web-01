@@ -490,7 +490,7 @@
       // 渲染选项或 FRQ 响应区
       let responseHTML = '';
       if (frq) {
-        const frqImages = section.frqImages || section.frqImages === '' ? section.frqImages : '';
+        const frqImages = section.frqImages ?? '';
         responseHTML = `
           <div style="margin-top:1.5rem">
             <div class="frq-upload-zone ${frqImages ? 'has-image' : ''}" id="frq-upload-zone">
@@ -572,41 +572,48 @@
         // FRQ 图片上传
         const zone = document.getElementById('frq-upload-zone');
         const fileInput = document.getElementById('frq-file-input');
-        if (zone && !frqImages) {
-          zone.addEventListener('click', () => fileInput && fileInput.click());
-          fileInput && fileInput.addEventListener('change', () => {
-            const file = fileInput.files[0];
-            if (!file) return;
-            const url = URL.createObjectURL(file);
-            zone.innerHTML = `<img src="${url}" class="frq-preview" id="frq-preview-img"/>
+        const uploadFile = (file) => {
+          const reader = new FileReader();
+          reader.onload = (e) => {
+            const dataUrl = e.target.result;
+            zone.innerHTML = `<img src="${dataUrl}" class="frq-preview" id="frq-preview-img"/>
               <div class="frq-upload-actions">
                 <button class="btn" id="frq-reupload">重新上传</button>
                 <button class="btn" id="frq-clear" style="color:var(--danger);border-color:var(--danger)">删除</button>
               </div>`;
             zone.classList.add('has-image');
-            section.frqImages = url;
+            section.frqImages = dataUrl;
             saveState(examId, state);
+            attachFRQListeners();
+          };
+          reader.readAsDataURL(file);
+        };
+        if (zone) {
+          if (!frqImages) {
+            zone.addEventListener('click', () => fileInput && fileInput.click());
+            fileInput && fileInput.addEventListener('change', () => {
+              const file = fileInput.files[0];
+              if (file) uploadFile(file);
+            });
+          }
+          attachFRQListeners();
+        }
+        function attachFRQListeners() {
+          document.getElementById('frq-reupload') && document.getElementById('frq-reupload').addEventListener('click', (e) => {
+            e.stopPropagation();
+            const fi = document.createElement('input'); fi.type = 'file'; fi.accept = 'image/*'; fi.style.display = 'none';
+            fi.addEventListener('change', () => {
+              const file = fi.files[0]; if (file) uploadFile(file);
+            });
+            document.body.appendChild(fi); fi.click(); fi.remove();
+          });
+          document.getElementById('frq-clear') && document.getElementById('frq-clear').addEventListener('click', (e) => {
+            e.stopPropagation();
+            section.frqImages = null;
+            saveState(examId, state);
+            renderQuestion();
           });
         }
-        document.getElementById('frq-reupload') && document.getElementById('frq-reupload').addEventListener('click', (e) => {
-          e.stopPropagation();
-          const fi = document.createElement('input');
-          fi.type = 'file'; fi.accept = 'image/*'; fi.style.display = 'none';
-          fi.addEventListener('change', () => {
-            const file = fi.files[0]; if (!file) return;
-            const url = URL.createObjectURL(file);
-            document.getElementById('frq-preview-img').src = url;
-            section.frqImages = url;
-            saveState(examId, state);
-          });
-          document.body.appendChild(fi); fi.click(); fi.remove();
-        });
-        document.getElementById('frq-clear') && document.getElementById('frq-clear').addEventListener('click', (e) => {
-          e.stopPropagation();
-          section.frqImages = null;
-          saveState(examId, state);
-          renderQuestion();
-        });
       } else {
         // MCQ 选项点击
         document.querySelectorAll('.option-row').forEach(row => {
@@ -830,6 +837,20 @@
       });
 
       const accuracy = total > 0 ? Math.round((correct / total) * 100) : 0;
+
+      // 保存完成的练习记录（供仪表盘读取）
+      try {
+        const sessions = JSON.parse(localStorage.getItem('ap-learning-sessions') || '[]');
+        sessions.unshift({
+          examId,
+          name: exam.exam_title || 'AP Practice',
+          completedAt: new Date().toISOString(),
+          answered: total,
+          total: exam.sections.reduce((s, sec) => s + sec.questions.length, 0),
+          accuracy
+        });
+        localStorage.setItem('ap-learning-sessions', JSON.stringify(sessions.slice(0, 20)));
+      } catch(e) {}
 
       document.getElementById('exam-layout').innerHTML = `
         <div class="results-panel">

@@ -535,7 +535,7 @@
           <div class="activity-item">
             <div>
               <div class="activity-name">${session.name}</div>
-              <div class="activity-meta">${session.date} · ${session.answered}/${session.total} 题</div>
+              <div class="activity-meta">${session.completedAt ? new Date(session.completedAt).toLocaleDateString('zh-CN') : ''} · ${session.answered}/${session.total} 题</div>
             </div>
             <div class="activity-score ${level}">${pct}%</div>
           </div>
@@ -545,25 +545,11 @@
 
     function getRecentSessions() {
       // 从 localStorage 读取最近的做题记录
-      const sessions = [];
-      for (let i = 0; i < localStorage.length; i++) {
-        const key = localStorage.key(i);
-        if (key && key.startsWith('ap-learning-session:')) {
-          try {
-            const data = JSON.parse(localStorage.getItem(key));
-            if (data && data.completedAt) {
-              sessions.push({
-                name: 'AP Calculus BC 2018',
-                date: new Date(data.completedAt).toLocaleDateString('zh-CN'),
-                answered: data.answered || 0,
-                total: data.total || 0,
-                accuracy: data.accuracy || 0
-              });
-            }
-          } catch (e) {}
-        }
+      try {
+        return JSON.parse(localStorage.getItem('ap-learning-sessions') || '[]').slice(0, 5);
+      } catch (e) {
+        return [];
       }
-      return sessions.sort((a, b) => new Date(b.date) - new Date(a.date)).slice(0, 5);
     }
 
     init();

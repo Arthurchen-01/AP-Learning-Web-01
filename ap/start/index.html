@@ -5,12 +5,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Choose Full-Length Practice</title>
   <meta name="robots" content="noindex">
-  <link rel="stylesheet" href="/ap/start/start.css">
+  <script>var m=location.pathname.match(/^\/(AP-Learning-Web-0\d)(?:\/|$)/);window._b='/'+(m?m[1]:'AP-Learning-Web');</script>
+  <script src="../assets/site-base.js"></script>
+  <script>document.write('<link rel="stylesheet" href="'+window.sitePath('/ap/start/start.css')+'">');</script>
 </head>
 <body>
   <header class="site-header">
     <div class="shell nav">
-      <a class="brand" href="/">
+      <a class="brand" id="brand-link" href="/">
         <span class="brand-mark">AP</span>
         <span class="brand-copy">
           <span class="brand-title">AP Practice Website</span>
@@ -18,8 +20,8 @@
         </span>
       </a>
       <nav class="nav-links" aria-label="Primary">
-        <a href="/">Home</a>
-        <a href="/mock/">Mock</a>
+        <a id="nav-home" href="/">Home</a>
+        <a id="nav-mock" href="/mock/">Mock</a>
         <a class="is-active" href="#">Start</a>
       </nav>
     </div>
@@ -31,6 +33,19 @@
     </div>
   </main>
 
-  <script type="module" src="/ap/start/start.js"></script>
+  <script>document.write('<scr'+'ipt type="module" src="'+window.sitePath('/ap/start/start.js')+'"><\/scr'+'ipt>');</script>
+  <script>
+    // Fix all absolute href/src after site-base loads
+    document.querySelectorAll('[href^="/"], [src^="/"]').forEach(function(el) {
+      var attr = el.tagName === 'A' ? 'href' : 'src';
+      var val = el.getAttribute(attr);
+      if (val && val.charAt(0) === '/') {
+        el.setAttribute(attr, window.sitePath(val));
+      }
+    });
+    // Fix brand link separately
+    var brand = document.getElementById('brand-link');
+    if (brand) brand.href = window.sitePath('/');
+  </script>
 </body>
 </html>
