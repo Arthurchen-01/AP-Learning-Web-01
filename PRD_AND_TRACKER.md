@@ -54,7 +54,12 @@
   - 所有 v1/v2 页面顶部导航栏添加主题切换按钮
   - 3次连续测试 0 报错
 
-- [ ] **P2.2 - 移动端适配审计**：当前CSS主要针对桌面端。需要逐页面检查touch target、字体大小、滚动交互
+- [x] **P2.2 - 移动端适配审计**：✅ 已完成（2026-04-10）
+  - v2/index.html 添加 720px 断点媒体查询（stats 2列、quick-start 1列、subjects-grid 1列）
+  - v2/dashboard 添加 720px 断点（header换行、container padding缩小、panel min-width:0）
+  - v2/exam/index.html 已有 900px 断点，无需修改
+  - v1 已有完整移动端适配（860px、720px断点）
+  - 3次连续移动端测试 0 报错
 
 - [ ] **P2.3 - 做题进度自动保存**：当前刷新页面会丢失未提交的做题状态（虽然选了答案但没点submit）。需要debounced自动保存
 

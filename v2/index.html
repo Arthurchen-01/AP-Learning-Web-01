@@ -173,6 +173,17 @@
     .exam-item:hover { background: var(--border); }
     .exam-item .name { font-weight: 500; }
     .exam-item .year { color: var(--text-muted); font-size: 0.85rem; }
+
+    @media (max-width: 720px) {
+      .stats { grid-template-columns: repeat(2, 1fr); }
+      .quick-start { grid-template-columns: 1fr; }
+      .subjects-grid { grid-template-columns: 1fr; }
+      header { flex-wrap: wrap; gap: 0.5rem; }
+      header nav { gap: 0.5rem; }
+      .hero { padding: 2rem 1rem; }
+      .hero h1 { font-size: 1.8rem; }
+      .container { padding: 1rem; }
+    }
   </style>
 </head>
 <body>
