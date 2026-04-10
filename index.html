@@ -29,12 +29,12 @@
         </span>
       </a>
       <nav class="nav-main" aria-label="Primary">
-        <a class="is-active" href="/">首页</a>
-        <a href="/mock/">套题模考</a>
-        <a href="/training/">专项训练</a>
-        <a href="/dashboard/">Dashboard</a>
+        <a class="is-active" id="nav-home" href="/">首页</a>
+        <a id="nav-mock">套题模考</a>
+        <a id="nav-training">专项训练</a>
+        <a id="nav-dashboard">Dashboard</a>
       </nav>
-      <a class="avatar-entry" href="/profile/" aria-label="Open profile">
+      <a class="avatar-entry" id="nav-profile" aria-label="Open profile">
         <span class="avatar">OC</span>
         <span class="avatar-meta">
           <strong>Olivia Chen</strong>
@@ -44,6 +44,13 @@
       <button id="theme-toggle-btn" onclick="toggleTheme()" aria-label="Toggle dark mode" style="background:rgba(255,253,249,0.92);border:1px solid rgba(222,169,129,0.42);border-radius:999px;padding:10px 14px;cursor:pointer;font-size:1.1rem;box-shadow:var(--shadow-soft);">🌙</button>
     </div>
   </header>
+  <script>
+    document.getElementById('nav-home').href = window.sitePath('/');
+    document.getElementById('nav-mock').href = window.sitePath('/mock/');
+    document.getElementById('nav-training').href = window.sitePath('/training/');
+    document.getElementById('nav-dashboard').href = window.sitePath('/dashboard/');
+    document.getElementById('nav-profile').href = window.sitePath('/profile/');
+  </script>
 
   <main class="page-main shell">
     <section class="hero">
