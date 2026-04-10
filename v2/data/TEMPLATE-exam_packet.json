@@ -1,11 +1,11 @@
 {
-  "exam_id": "2012Intl",
-  "exam_title": "2012国际卷",
-  "subject": "calculus_bc",
-  "subject_display": "微积分BC",
-  "year": 2012,
-  "form": "international",
-  "total_questions": 49,
+  "exam_id": "{{exam_id}}",
+  "exam_title": "{{exam_title}}",
+  "subject": "{{subject}}",
+  "subject_display": "{{subject_display}}",
+  "year": {{year}},
+  "form": "{{form}}",
+  "total_questions": {{total_questions}},
   "sections": [
     {
       "section_id": "mcq-1",
@@ -13,7 +13,7 @@
       "part_label": "Part A",
       "time_limit_minutes": 60,
       "calculator_allowed": false,
-      "question_count": 28
+      "question_count": {{mcq_part_a_count}}
     },
     {
       "section_id": "mcq-2",
@@ -21,12 +21,11 @@
       "part_label": "Part B",
       "time_limit_minutes": 45,
       "calculator_allowed": true,
-      "question_count": 15
+      "question_count": {{mcq_part_b_count}}
     }
   ],
   "metadata": {
-    "source": "2012Intl.md",
-    "converted_at": "2026-04-08",
-    "language": "en"
+    "language": "en",
+    "notes": "{{notes}}"
   }
 }

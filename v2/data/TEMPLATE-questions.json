@@ -1,0 +1,19 @@
+[
+  {
+    "question_id": "{{q1}}",
+    "exam_id": "{{exam_id}}",
+    "section_id": "mcq-1",
+    "sequence_in_exam": 1,
+    "question_type": "single_choice",
+    "question_html": "{{question text with LaTeX}}",
+    "options": [
+      { "key": "A", "html": "{{LaTeX option A}}" },
+      { "key": "B", "html": "{{LaTeX option B}}" },
+      { "key": "C", "html": "{{LaTeX option C}}" },
+      { "key": "D", "html": "{{LaTeX option D}}" }
+    ],
+    "correct_answer": "{{A|B|C|D}}",
+    "unit": "{{Unit number or empty string}}",
+    "knowledge_points": ["{{Tag1}}", "{{Tag2}}"]
+  }
+]

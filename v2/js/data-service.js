@@ -34,6 +34,32 @@ function getDefaultExams() {
         { section_id: 'mcq-1', part_label: 'Part A', calculator_allowed: false, question_count: 30 },
         { section_id: 'mcq-2', part_label: 'Part B', calculator_allowed: true, question_count: 15 }
       ]
+    },
+    {
+      exam_id: '2013Intl',
+      exam_title: 'AP Calculus BC 2013 国际卷',
+      subject: 'calculus_bc',
+      subject_display: '微积分BC',
+      year: 2013,
+      form: 'international',
+      total_questions: 50,
+      sections: [
+        { section_id: 'mcq-1', part_label: 'Part A', calculator_allowed: false, question_count: 28 },
+        { section_id: 'mcq-2', part_label: 'Part B', calculator_allowed: true, question_count: 16 }
+      ]
+    },
+    {
+      exam_id: '2014Intl',
+      exam_title: 'AP Calculus BC 2014 国际卷',
+      subject: 'calculus_bc',
+      subject_display: '微积分BC',
+      year: 2014,
+      form: 'international',
+      total_questions: 51,
+      sections: [
+        { section_id: 'mcq-1', part_label: 'Part A', calculator_allowed: false, question_count: 28 },
+        { section_id: 'mcq-2', part_label: 'Part B', calculator_allowed: true, question_count: 17 }
+      ]
     }
   ];
 }

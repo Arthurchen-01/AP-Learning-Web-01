@@ -13,7 +13,7 @@
       "part_label": "Part A",
       "time_limit_minutes": 60,
       "calculator_allowed": false,
-      "question_count": 44
+      "question_count": 28
     },
     {
       "section_id": "mcq-2",
@@ -21,7 +21,7 @@
       "part_label": "Part B",
       "time_limit_minutes": 45,
       "calculator_allowed": true,
-      "question_count": 44
+      "question_count": 16
     }
   ],
   "metadata": {

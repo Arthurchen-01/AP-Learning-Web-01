@@ -148,7 +148,7 @@
     <h1>套题模考</h1>
     <p class="subtitle">选择试卷，开始计时练习</p>
 
-    <div class="filters">
+    <div class="filters" style="gap: 0.75rem; flex-wrap: wrap; align-items: center;">
       <select class="filter-select" id="subject-filter">
         <option value="">全部科目</option>
         <option value="calculus_bc">AP Calculus BC</option>
@@ -169,15 +169,11 @@
     </div>
 
     <div class="exam-list" id="exam-list">
-      <!-- 动态加载 -->
-      <div style="color: var(--text-muted); text-align: center; padding: 2rem;">
-        加载中...
-      </div>
-    </div>
   </div>
 
   <script type="module">
     import { loadExamIndex, loadSession } from '../js/data-service.js';
+    import { loadWrongQuestions } from '../js/exam-engine.js';
 
     const subjectNames = {
       'calculus_bc': '微积分BC',
@@ -190,13 +186,34 @@
     async function renderExamList() {
       const exams = await loadExamIndex();
       const list = document.getElementById('exam-list');
+      const wrongQuestions = loadWrongQuestions();
+      const wqCount = wrongQuestions.length;
+
+      let html = '';
+
+      // 错题本入口
+      html += `
+        <div class="exam-card" style="border-color: var(--danger); background: linear-gradient(135deg, rgba(239,68,68,0.06), rgba(239,68,68,0.02));">
+          <div class="exam-info">
+            <h3 style="color: var(--danger);">📝 错题本</h3>
+            <div class="exam-meta">
+              <span>已收录 <strong>${wqCount}</strong> 道错题</span>
+            </div>
+          </div>
+          <div style="display: flex; gap: 0.5rem; align-items: center;">
+            <a href="wrong-notebook.html" class="btn btn-primary" style="background: var(--danger); border-color: var(--danger);">
+              ${wqCount > 0 ? '复习错题' : '查看'}
+            </a>
+          </div>
+        </div>
+      `;
 
       if (!exams || exams.length === 0) {
-        list.innerHTML = '<p style="color: var(--text-muted); text-align: center; padding: 2rem;">暂无试卷</p>';
+        list.innerHTML = html + '<p style="color: var(--text-muted); text-align: center; padding: 2rem;">暂无试卷</p>';
         return;
       }
 
-      list.innerHTML = exams.map(exam => {
+      html += exams.map(exam => {
         const session = loadSession(exam.exam_id);
         const progress = session ? getProgress(session) : null;
 
@@ -222,6 +239,8 @@
           </div>
         `;
       }).join('');
+
+      list.innerHTML = html;
     }
 
     function getTotalTime(exam) {

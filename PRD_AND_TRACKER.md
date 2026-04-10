@@ -75,11 +75,24 @@
 
 ### 阶段三：数据与可扩展性
 
-- [ ] **P3.1 - 题目分类标签系统**：exam JSON中补充知识点标签（knowledge_points数组），前端按标签筛选题目
+- [x] **P3.1 - 题目分类标签系统**：✅ 已完成（2026-04-10）
+  - 给 calc-bc-2018-intl 的 45 道题添加 `knowledge_points[]` 字段
+  - 自动推断标签：Limits、Derivatives、Integrals、Series、Differential Equations、Polar Functions、Parametric & Vectors、Motion
+  - 数据目录添加 `README.md` 说明如何添加新试卷
+  - 添加 `TEMPLATE-exam_packet.json` 和 `TEMPLATE-questions.json` 快速录入模板
+  - 修复 2012Intl/2013Intl/2014Intl 的 exam_packet question_count 错误
+  - data-service.js 注册所有可用试卷（共3套）
+  - 3次连续测试 0 报错
 
-- [ ] **P3.2 - 错题本功能**：自动收集答错题目，生成错题本练习模式
+- [x] **P3.2 - 错题本功能**：✅ 已完成（2026-04-10）
+  - exam-engine.js 新增 `loadWrongQuestions`、`saveWrongQuestion`、`removeWrongQuestion`
+  - `calculateResults` 收集所有答错题目存入 `wrongQuestions[]`
+  - `showResults` 提交后自动将错题写入 localStorage
+  - 创建 `v2/exam/wrong-notebook.html` 错题本页面（展开/折叠、移除、标记掌握）
+  - exam/index.html 顶部显示错题本入口卡片
+  - 3次连续测试 0 报错
 
-- [ ] **P3.3 - 班级排行榜（BaaS）**：接入Firebase或Supabase，实现简单登录+班级刷题量排行榜（可选，非核心）
+- [ ] **P3.3 - 班级排行榜（BaaS）**：⏸ 暂缓（可选功能，需要Firebase/Supabase账号对接）
 
 ### 阶段四：内容充实
 

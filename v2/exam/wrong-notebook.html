@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>错题本 - AP Learning</title>
+  <script>
+    var m = location.pathname.match(/^\/(AP-Learning-Web-0\d)(?:\/|$)/);
+    window._b = m ? '/' + m[1] : '';
+    window.sitePath = function(p) {
+      if (/^(?:[a-z]+:)?\/\//i.test(p)) return p;
+      var n = p.startsWith('/') ? p : '/' + p;
+      return window._b + n;
+    };
+  </script>
+  <script>document.write('<scr'+'ipt src="'+window._b+'/assets/site-base.js"><\/scr'+'ipt>');</script>
+  <style>
+    :root {
+      --bg: #0f172a;
+      --card-bg: #1e293b;
+      --primary: #3b82f6;
+      --success: #22c55e;
+      --warning: #f59e0b;
+      --danger: #ef4444;
+      --text: #f1f5f9;
+      --text-muted: #94a3b8;
+      --border: #334155;
+    }
+
+    [data-theme="light"] {
+      --bg: #fff8f1;
+      --card-bg: #fffdf9;
+      --primary: #e89255;
+      --success: #22c55e;
+      --warning: #f59e0b;
+      --danger: #ef4444;
+      --text: #533624;
+      --text-muted: #86624c;
+      --border: #f0d2b8;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem 2rem;
+      background: var(--card-bg);
+      border-bottom: 1px solid var(--border);
+    }
+    .logo { font-size: 1.5rem; font-weight: 700; color: var(--primary); text-decoration: none; }
+    nav { display: flex; gap: 1.5rem; }
+    nav a { color: var(--text-muted); text-decoration: none; padding: 0.5rem 1rem; border-radius: 6px; }
+    nav a:hover { color: var(--text); background: var(--border); }
+
+    .container { max-width: 900px; margin: 2rem auto; padding: 0 2rem; }
+    h1 { margin-bottom: 0.5rem; }
+    .subtitle { color: var(--text-muted); margin-bottom: 2rem; }
+
+    .stats-bar {
+      display: flex;
+      gap: 1.5rem;
+      margin-bottom: 2rem;
+      padding: 1rem 1.5rem;
+      background: var(--card-bg);
+      border-radius: 12px;
+      border: 1px solid var(--border);
+    }
+    .stat { display: flex; flex-direction: column; }
+    .stat .value { font-size: 1.8rem; font-weight: 700; color: var(--danger); }
+    .stat .label { font-size: 0.8rem; color: var(--text-muted); }
+
+    .empty-state {
+      text-align: center;
+      padding: 4rem 2rem;
+      background: var(--card-bg);
+      border-radius: 12px;
+      border: 1px solid var(--border);
+    }
+    .empty-state .icon { font-size: 3rem; margin-bottom: 1rem; }
+    .empty-state p { color: var(--text-muted); margin-bottom: 1.5rem; }
+
+    .wrong-item {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      margin-bottom: 1rem;
+      overflow: hidden;
+    }
+    .wrong-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem 1.25rem;
+      border-bottom: 1px solid var(--border);
+      cursor: pointer;
+    }
+    .wrong-header:hover { background: rgba(255,255,255,0.02); }
+    .wrong-title { font-weight: 600; font-size: 0.95rem; }
+    .wrong-meta { font-size: 0.8rem; color: var(--text-muted); display: flex; gap: 0.75rem; }
+    .wrong-body { padding: 1.25rem; display: none; }
+    .wrong-body.open { display: block; }
+
+    .wq-question-text {
+      margin-bottom: 1rem;
+      font-size: 0.95rem;
+      line-height: 1.6;
+    }
+    .wq-answers {
+      display: flex;
+      gap: 1rem;
+      margin-bottom: 1rem;
+      font-size: 0.85rem;
+    }
+    .wq-answer { display: flex; gap: 0.5rem; }
+    .wq-answer.wrong { color: var(--danger); }
+    .wq-answer.correct { color: var(--success); }
+
+    .wq-options { display: grid; gap: 0.5rem; margin-bottom: 1rem; }
+    .wq-option {
+      display: flex;
+      align-items: flex-start;
+      gap: 0.75rem;
+      padding: 0.6rem 0.8rem;
+      border-radius: 8px;
+      border: 1px solid var(--border);
+      background: var(--bg);
+      font-size: 0.9rem;
+    }
+    .wq-option.key { font-weight: 700; min-width: 24px; }
+    .wq-option.is-correct { border-color: var(--success); background: rgba(34,197,94,0.08); }
+    .wq-option.is-wrong { border-color: var(--danger); background: rgba(239,68,68,0.08); }
+
+    .wq-actions { display: flex; gap: 0.75rem; justify-content: flex-end; }
+    .btn {
+      padding: 0.5rem 1rem;
+      border-radius: 8px;
+      font-weight: 600;
+      cursor: pointer;
+      border: 1px solid var(--border);
+      background: var(--border);
+      color: var(--text);
+      font-size: 0.85rem;
+      transition: all 0.2s;
+    }
+    .btn:hover { opacity: 0.85; }
+    .btn-primary { background: var(--primary); color: white; border-color: var(--primary); }
+    .btn-danger { color: var(--danger); border-color: var(--danger); background: transparent; }
+    .btn-success { color: var(--success); border-color: var(--success); background: transparent; }
+
+    @media (max-width: 720px) {
+      header { flex-wrap: wrap; gap: 0.5rem; padding: 0.75rem 1rem; }
+      .container { padding: 1rem; }
+      .stats-bar { flex-wrap: wrap; gap: 1rem; padding: 1rem; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <a class="logo" href="../">AP Learning</a>
+    <nav>
+      <a href="../">首页</a>
+      <a href="./">套题模考</a>
+    </nav>
+    <button id="theme-toggle-btn" onclick="toggleTheme()" aria-label="Toggle theme" style="background:var(--border);border:none;border-radius:8px;padding:8px 14px;cursor:pointer;font-size:1.1rem;">🌙</button>
+  </header>
+
+  <div class="container">
+    <h1>错题本</h1>
+    <p class="subtitle" id="subtitle">共收集 <span id="total-count">0</span> 道错题</p>
+
+    <div class="stats-bar">
+      <div class="stat">
+        <span class="value" id="stat-total">0</span>
+        <span class="label">错题总数</span>
+      </div>
+      <div class="stat">
+        <span class="value" id="stat-practiced">0</span>
+        <span class="label">已练习</span>
+      </div>
+      <div class="stat">
+        <span class="value" id="stat-mastered">0</span>
+        <span class="label">已掌握</span>
+      </div>
+    </div>
+
+    <div id="wrong-list"></div>
+    <div id="empty-state" class="empty-state" style="display:none">
+      <div class="icon">📝</div>
+      <p>暂无错题记录<br><span style="font-size:0.85rem">完成试卷后，答错的题目会自动收录到这里</span></p>
+      <a href="./" class="btn btn-primary">去刷题</a>
+    </div>
+  </div>
+
+  <script type="module">
+    import { loadWrongQuestions, removeWrongQuestion, clearWrongQuestions } from '../js/exam-engine.js';
+
+    const WRONG_KEY = 'ap-learning-wrong-questions';
+    const PRACTICED_KEY = 'ap-learning-wrong-practiced';
+
+    let wrongQuestions = [];
+
+    function getPracticed() {
+      try { return JSON.parse(localStorage.getItem(PRACTICED_KEY) || '{}'); } catch { return {}; }
+    }
+
+    function markPracticed(questionId, correct) {
+      const p = getPracticed();
+      p[questionId] = correct ? 'mastered' : 'practiced';
+      localStorage.setItem(PRACTICED_KEY, JSON.stringify(p));
+    }
+
+    function render() {
+      wrongQuestions = loadWrongQuestions();
+      const practiced = getPracticed();
+      const total = wrongQuestions.length;
+      const practicedCount = Object.keys(practiced).length;
+      const masteredCount = Object.values(practiced).filter(v => v === 'mastered').length;
+
+      document.getElementById('total-count').textContent = total;
+      document.getElementById('stat-total').textContent = total;
+      document.getElementById('stat-practiced').textContent = practicedCount;
+      document.getElementById('stat-mastered').textContent = masteredCount;
+
+      const listEl = document.getElementById('wrong-list');
+      const emptyEl = document.getElementById('empty-state');
+
+      if (total === 0) {
+        listEl.innerHTML = '';
+        emptyEl.style.display = 'block';
+        return;
+      }
+      emptyEl.style.display = 'none';
+
+      listEl.innerHTML = wrongQuestions.map((wq, idx) => {
+        const status = practiced[wq.question_id] || '';
+        const statusLabel = status === 'mastered' ? '✅ 已掌握' : status === 'practiced' ? '🔄 待巩固' : '';
+        return `
+          <div class="wrong-item" data-idx="${idx}">
+            <div class="wrong-header" onclick="toggleItem(${idx})">
+              <div>
+                <div class="wrong-title">${escapeHtml(wq.question_text || wq.question_html || '').substring(0, 80)}${(wq.question_text || wq.question_html || '').length > 80 ? '...' : ''}</div>
+                <div class="wrong-meta">
+                  <span>📋 ${wq.exam_id}</span>
+                  <span>❌ 选了 ${wq.userAnswer}</span>
+                  <span>✅ 正确 ${wq.correctAnswer}</span>
+                  ${statusLabel ? `<span>${statusLabel}</span>` : ''}
+                </div>
+              </div>
+              <span class="toggle-icon" id="icon-${idx}">▶</span>
+            </div>
+            <div class="wrong-body" id="body-${idx}">
+              <div class="wq-question-text">${wq.question_html || wq.question_text || ''}</div>
+              <div class="wq-answers">
+                <div class="wq-answer wrong">❌ 你的答案：${wq.userAnswer}</div>
+                <div class="wq-answer correct">✅ 正确答案：${wq.correctAnswer}</div>
+              </div>
+              ${wq.options && wq.options.length > 0 ? `
+              <div class="wq-options">
+                ${wq.options.map(opt => {
+                  const isCorrect = opt.key === wq.correctAnswer;
+                  const isWrong = opt.key === wq.userAnswer && !isCorrect;
+                  return `<div class="wq-option ${isCorrect ? 'is-correct' : ''} ${isWrong ? 'is-wrong' : ''}">
+                    <span class="key">${opt.key}.</span>
+                    <span>${opt.html || opt.text || ''}</span>
+                  </div>`;
+                }).join('')}
+              </div>` : ''}
+              ${wq.explanation ? `<div style="font-size:0.85rem;color:var(--text-muted);margin-bottom:1rem;padding:0.75rem;background:var(--bg);border-radius:8px;">💡 ${wq.explanation}</div>` : ''}
+              <div class="wq-actions">
+                <button class="btn btn-danger" onclick="doRemove('${wq.question_id}', ${idx})">🗑 从错题本移除</button>
+                ${status !== 'mastered' ? `<button class="btn btn-success" onclick="doMastered('${wq.question_id}')">✅ 标记为已掌握</button>` : ''}
+              </div>
+            </div>
+          </div>
+        `;
+      }).join('');
+    }
+
+    window.toggleItem = function(idx) {
+      const body = document.getElementById('body-' + idx);
+      const icon = document.getElementById('icon-' + idx);
+      const isOpen = body.classList.contains('open');
+      body.classList.toggle('open', !isOpen);
+      icon.textContent = isOpen ? '▶' : '▼';
+    };
+
+    window.doRemove = function(questionId, idx) {
+      removeWrongQuestion(questionId);
+      // Remove from practiced tracking
+      const p = getPracticed();
+      delete p[questionId];
+      localStorage.setItem(PRACTICED_KEY, JSON.stringify(p));
+      render();
+    };
+
+    window.doMastered = function(questionId) {
+      markPracticed(questionId, true);
+      render();
+    };
+
+    function escapeHtml(str) {
+      const div = document.createElement('div');
+      div.textContent = str;
+      return div.innerHTML;
+    }
+
+    render();
+  </script>
+</body>
+</html>

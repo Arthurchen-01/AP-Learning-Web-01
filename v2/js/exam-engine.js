@@ -88,13 +88,47 @@ export function formatTime(seconds) {
   return `${mins}:${secs.toString().padStart(2, '0')}`;
 }
 
+// === 错题本 ===
+const WRONG_KEY = 'ap-learning-wrong-questions';
+
+export function loadWrongQuestions() {
+  try {
+    const raw = localStorage.getItem(WRONG_KEY);
+    return raw ? JSON.parse(raw) : [];
+  } catch (e) {
+    return [];
+  }
+}
+
+export function saveWrongQuestion(q) {
+  const list = loadWrongQuestions();
+  // Avoid duplicates by question_id
+  const exists = list.some(wq => wq.question_id === q.question_id);
+  if (!exists) {
+    list.push(q);
+    localStorage.setItem(WRONG_KEY, JSON.stringify(list));
+  }
+  return list;
+}
+
+export function clearWrongQuestions() {
+  localStorage.removeItem(WRONG_KEY);
+}
+
+export function removeWrongQuestion(questionId) {
+  const list = loadWrongQuestions().filter(wq => wq.question_id !== questionId);
+  localStorage.setItem(WRONG_KEY, JSON.stringify(list));
+  return list;
+}
+
 // 计算成绩
 export function calculateResults(exam, state) {
   const results = {
     sections: [],
     totalCorrect: 0,
     totalQuestions: 0,
-    accuracy: 0
+    accuracy: 0,
+    wrongQuestions: []
   };
 
   exam.sections.forEach((section, sIdx) => {
@@ -108,6 +142,22 @@ export function calculateResults(exam, state) {
         answered++;
         if (answer === q.correct_answer) {
           correct++;
+        } else {
+          results.wrongQuestions.push({
+            question_id: q.question_id,
+            exam_id: exam.exam_id,
+            section_id: section.section_id,
+            sectionIndex: sIdx,
+            questionIndex: qIdx,
+            userAnswer: answer,
+            correctAnswer: q.correct_answer,
+            question_text: q.question_text || q.question_html || '',
+            options: q.options || [],
+            explanation: q.explanation || '',
+            unit: q.unit || '',
+            knowledge_points: q.knowledge_points || [],
+            timestamp: Date.now()
+          });
         }
       }
     });
