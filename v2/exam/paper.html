@@ -153,6 +153,54 @@
       padding-top: 0.25rem;
     }
 
+    /* Immediate Feedback */
+    .option-row.correct {
+      border-color: var(--success) !important;
+      background: #22c55e18 !important;
+      animation: correctPulse 0.5s ease;
+    }
+    .option-row.correct .option-key { background: var(--success) !important; }
+    .option-row.incorrect {
+      border-color: var(--danger) !important;
+      background: #ef444418 !important;
+      animation: shake 0.4s ease;
+    }
+    .option-row.incorrect .option-key { background: var(--danger) !important; }
+    .option-row.correct-answer {
+      border-color: var(--success) !important;
+      background: #22c55e18 !important;
+    }
+    .option-row.correct-answer .option-key { background: var(--success) !important; }
+    @keyframes correctPulse {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.01); }
+    }
+    @keyframes shake {
+      0%, 100% { transform: translateX(0); }
+      20% { transform: translateX(-6px); }
+      40% { transform: translateX(6px); }
+      60% { transform: translateX(-4px); }
+      80% { transform: translateX(4px); }
+    }
+
+    /* Feedback Banner */
+    .feedback-banner {
+      margin-top: 1rem;
+      padding: 0.875rem 1rem;
+      border-radius: 8px;
+      font-size: 0.95rem;
+      display: flex;
+      align-items: flex-start;
+      gap: 0.5rem;
+      animation: fadeIn 0.3s ease;
+    }
+    .feedback-banner.correct { background: #22c55e15; border: 1px solid var(--success); color: var(--success); }
+    .feedback-banner.incorrect { background: #ef444415; border: 1px solid var(--danger); color: var(--danger); }
+    .feedback-banner .fb-icon { font-size: 1.1rem; flex-shrink: 0; }
+    .feedback-banner .fb-text { line-height: 1.5; }
+    .feedback-banner .fb-explanation { margin-top: 0.5rem; color: var(--text-muted); font-size: 0.9rem; border-top: 1px solid #334155; padding-top: 0.5rem; }
+    @keyframes fadeIn { from { opacity: 0; transform: translateY(-4px); } to { opacity: 1; transform: translateY(0); } }
+
     /* Question Footer */
     .question-footer {
       display: flex;
@@ -690,27 +738,57 @@
       });
     }
 
-    // 选择选项（跳过已排除的选项）
+    // 选择选项（跳过已排除的选项）— 带即时反馈
     function selectOption(key) {
       const section = state.sections[currentSectionIndex];
-      // 已排除的选项不可选
       if (section.excluded[state.questionIndex] && section.excluded[state.questionIndex].includes(key)) return;
+
+      const currentQ = exam.sections[currentSectionIndex].questions[state.questionIndex];
+      const correctKey = currentQ.correct_answer;
+      const isCorrect = key === correctKey;
+
       section.answers[state.questionIndex] = key;
       saveState(examId, state);
 
       document.querySelectorAll('.option-row').forEach(row => {
         const k = row.dataset.key;
         const isSelected = k === key;
-        row.classList.toggle('selected', isSelected);
-        // 选中时移除排除态
+        row.classList.remove('selected', 'correct', 'incorrect', 'correct-answer');
+        if (isSelected) {
+          row.classList.add(isCorrect ? 'correct' : 'incorrect');
+        } else if (k === correctKey) {
+          row.classList.add('correct-answer');
+        }
         if (isSelected) row.classList.remove('is-excluded');
       });
+
+      // 显示反馈Banner
+      showFeedbackBanner(isCorrect, correctKey, currentQ.explanation || '');
+
+      // 更新nav chip
       document.querySelectorAll('.nav-chip').forEach(chip => {
         if (parseInt(chip.dataset.section) === currentSectionIndex &&
             parseInt(chip.dataset.index) === state.questionIndex) {
           chip.classList.add('answered');
         }
       });
+    }
+
+    function showFeedbackBanner(isCorrect, correctKey, explanation) {
+      // 移除旧的feedback
+      document.querySelectorAll('.feedback-banner').forEach(el => el.remove());
+      const feedbackHTML = `
+        <div class="feedback-banner ${isCorrect ? 'correct' : 'incorrect'}">
+          <span class="fb-icon">${isCorrect ? '✅' : '❌'}</span>
+          <div class="fb-text">
+            <strong>${isCorrect ? 'Correct!' : 'Incorrect'}</strong>
+            ${!isCorrect ? ` &nbsp;正确答案是 <strong>${correctKey}</strong>` : ''}
+            ${explanation ? `<div class="fb-explanation">${explanation}</div>` : ''}
+          </div>
+        </div>`;
+      // 插入到options列表后面
+      const optionsList = document.querySelector('.options-list');
+      if (optionsList) optionsList.insertAdjacentHTML('afterend', feedbackHTML);
     }
 
     // 排除 / 取消排除选项
