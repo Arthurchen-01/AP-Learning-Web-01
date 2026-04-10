@@ -9,6 +9,320 @@
   <script>document.head.insertAdjacentHTML('beforeend','<link rel="stylesheet" href="'+window.sitePath('/assets/site.css')+'" data-site-css>');</script>
   <script src="../assets/mock-state.js" defer></script>
   <script src="../assets/site-pages.js" defer></script>
+  <style>
+    /* Dashboard 特有样式 */
+    .dashboard-main {
+      padding: 0 0 60px;
+    }
+
+    /* Profile Panel */
+    .profile-panel {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: var(--radius-xl);
+      padding: 32px;
+      margin-bottom: 32px;
+      box-shadow: var(--shadow-soft);
+      display: grid;
+      grid-template-columns: auto 1fr auto;
+      gap: 24px;
+      align-items: center;
+    }
+
+    .profile-avatar {
+      display: flex;
+      justify-content: center;
+    }
+
+    .avatar-circle {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      background: linear-gradient(135deg, var(--accent), var(--accent-strong));
+      color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 28px;
+      font-weight: 700;
+      box-shadow: var(--shadow-soft);
+    }
+
+    .profile-info {
+      min-width: 0;
+    }
+
+    .profile-info h1 {
+      margin: 0 0 4px;
+      font-size: 26px;
+      font-weight: 700;
+      color: var(--text);
+    }
+
+    .profile-bio {
+      margin: 0 0 8px;
+      color: var(--text-soft);
+      font-size: 15px;
+    }
+
+    .profile-goal {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: var(--accent-soft);
+      padding: 6px 14px;
+      border-radius: 20px;
+      font-size: 14px;
+      color: var(--accent-strong);
+    }
+
+    .goal-label {
+      font-weight: 600;
+    }
+
+    .profile-stats {
+      display: flex;
+      gap: 24px;
+    }
+
+    .stat {
+      text-align: center;
+      padding: 12px 16px;
+      background: rgba(255, 255, 255, 0.6);
+      border-radius: var(--radius-md);
+      min-width: 100px;
+    }
+
+    .stat-value {
+      font-size: 28px;
+      font-weight: 700;
+      color: var(--accent-strong);
+      line-height: 1.2;
+    }
+
+    .stat-label {
+      font-size: 12px;
+      color: var(--text-soft);
+      margin-top: 4px;
+    }
+
+    /* Subject Cards Grid */
+    .subjects-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 20px;
+      margin-bottom: 32px;
+    }
+
+    .subject-card {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: var(--radius-lg);
+      padding: 24px;
+      cursor: pointer;
+      transition: all 0.25s ease;
+      box-shadow: var(--shadow-soft);
+    }
+
+    .subject-card:hover {
+      transform: translateY(-4px);
+      box-shadow: var(--shadow);
+      border-color: var(--accent);
+    }
+
+    .subject-card-header {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      margin-bottom: 16px;
+    }
+
+    .subject-icon {
+      width: 48px;
+      height: 48px;
+      border-radius: 14px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 22px;
+      background: linear-gradient(135deg, var(--accent-soft), rgba(255, 228, 207, 0.6));
+    }
+
+    .subject-card-title {
+      font-size: 18px;
+      font-weight: 700;
+      color: var(--text);
+      margin: 0 0 2px;
+    }
+
+    .subject-card-subtitle {
+      font-size: 13px;
+      color: var(--text-soft);
+    }
+
+    .subject-card-stats {
+      display: flex;
+      gap: 16px;
+      margin-top: 16px;
+      padding-top: 16px;
+      border-top: 1px solid var(--line);
+    }
+
+    .subject-stat {
+      flex: 1;
+      text-align: center;
+    }
+
+    .subject-stat-value {
+      font-size: 20px;
+      font-weight: 700;
+      color: var(--accent-strong);
+    }
+
+    .subject-stat-label {
+      font-size: 11px;
+      color: var(--text-soft);
+      margin-top: 2px;
+    }
+
+    .progress-bar {
+      height: 8px;
+      background: var(--line);
+      border-radius: 4px;
+      overflow: hidden;
+      margin-top: 12px;
+    }
+
+    .progress-fill {
+      height: 100%;
+      background: linear-gradient(90deg, var(--accent), var(--accent-strong));
+      border-radius: 4px;
+      transition: width 0.5s ease;
+    }
+
+    /* Unit Detail Panel */
+    .unit-detail {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: var(--radius-xl);
+      padding: 32px;
+      box-shadow: var(--shadow);
+      animation: slideUp 0.3s ease;
+    }
+
+    @keyframes slideUp {
+      from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    .unit-detail-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 24px;
+      padding-bottom: 16px;
+      border-bottom: 1px solid var(--line);
+    }
+
+    .unit-detail-header h2 {
+      margin: 0;
+      font-size: 22px;
+      font-weight: 700;
+      color: var(--text);
+    }
+
+    .close-btn {
+      width: 36px;
+      height: 36px;
+      border-radius: 50%;
+      border: 1px solid var(--line);
+      background: var(--bg-elevated);
+      color: var(--text-soft);
+      font-size: 18px;
+      cursor: pointer;
+      transition: all 0.2s ease;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .close-btn:hover {
+      background: var(--accent-soft);
+      color: var(--accent-strong);
+      border-color: var(--accent);
+    }
+
+    .units-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+      gap: 16px;
+    }
+
+    .unit-card {
+      background: rgba(255, 255, 255, 0.6);
+      border: 1px solid var(--line);
+      border-radius: var(--radius-md);
+      padding: 20px;
+      transition: all 0.2s ease;
+    }
+
+    .unit-card:hover {
+      border-color: var(--accent);
+      background: rgba(255, 255, 255, 0.9);
+    }
+
+    .unit-card-title {
+      font-size: 15px;
+      font-weight: 600;
+      color: var(--text);
+      margin-bottom: 8px;
+    }
+
+    .unit-card-progress {
+      font-size: 13px;
+      color: var(--text-soft);
+    }
+
+    .unit-progress-bar {
+      height: 6px;
+      background: var(--line);
+      border-radius: 3px;
+      overflow: hidden;
+      margin-top: 8px;
+    }
+
+    .unit-progress-fill {
+      height: 100%;
+      background: var(--accent);
+      border-radius: 3px;
+    }
+
+    /* 响应式 */
+    @media (max-width: 768px) {
+      .profile-panel {
+        grid-template-columns: 1fr;
+        text-align: center;
+      }
+
+      .profile-stats {
+        justify-content: center;
+      }
+
+      .subjects-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .units-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
 </head>
 <body data-page="dashboard-home">
   <header class="site-header">
@@ -43,14 +357,49 @@
     document.getElementById('nav-profile').href = window.sitePath('/profile/');
   </script>
 
-  <main class="page-main shell">
-    <section class="page-heading">
-      <h1>Dashboard</h1>
-      <p>根据用户报考 AP 科目生成专属学习记录与预测中心。</p>
+  <main class="dashboard-main shell">
+    <!-- Profile Panel -->
+    <section class="profile-panel">
+      <div class="profile-avatar">
+        <div class="avatar-circle" id="user-initials">OC</div>
+      </div>
+      <div class="profile-info">
+        <h1 id="user-name">Olivia Chen</h1>
+        <p class="profile-bio" id="user-bio">自学 AP 考生</p>
+        <div class="profile-goal">
+          <span class="goal-label">目标：</span>
+          <span class="goal-text" id="user-goal">AP 2026 - 8门5分</span>
+        </div>
+      </div>
+      <div class="profile-stats">
+        <div class="stat">
+          <div class="stat-value" id="exam-count">8</div>
+          <div class="stat-label">AP 科目</div>
+        </div>
+        <div class="stat">
+          <div class="stat-value" id="avg-prob">67%</div>
+          <div class="stat-label">平均五分概率</div>
+        </div>
+        <div class="stat">
+          <div class="stat-value" id="days-left">39</div>
+          <div class="stat-label">距最近考试</div>
+        </div>
+      </div>
     </section>
-    <section class="page-panel">
-      <div class="subject-root" id="dashboard-root" data-page-root>
-        <div class="loading-state">正在加载本地进度...</div>
+
+    <!-- Subject Cards Grid -->
+    <section class="subjects-grid" id="subjects-grid">
+      <!-- 渲染由 JS 完成 -->
+    </section>
+
+    <!-- Unit Detail (Expanded) -->
+    <section class="unit-detail" id="unit-detail" style="display:none;">
+      <div class="unit-detail-header">
+        <h2 id="unit-detail-title">Calculus BC</h2>
+        <button class="close-btn" id="close-unit-btn">✕</button>
+      </div>
+      <div class="units-grid" id="units-grid">
+        <!-- 渲染由 JS 完成 -->
       </div>
     </section>
   </main>
@@ -58,5 +407,7 @@
   <footer class="shell footer">
     <p>Local AP practice workspace. Reference folders remain read-only.</p>
   </footer>
+
+  <script src="js/dashboard.js"></script>
 </body>
 </html>
