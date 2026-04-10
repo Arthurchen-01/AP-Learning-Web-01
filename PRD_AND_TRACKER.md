@@ -46,7 +46,13 @@
 
 ### 阶段二：用户体验优化
 
-- [ ] **P2.1 - 全站Dark Mode切换**：v2已是深色，但v1(assets/site.css)是浅色。需要可切换的夜间模式，保存用户偏好到localStorage
+- [x] **P2.1 - 全站Dark Mode切换**：✅ 已完成（2026-04-09）
+  - `assets/site-base.js` 添加主题管理函数 `__getTheme`、`__setTheme`、`toggleTheme`、`__applyTheme`
+  - 主题切换前 CSS 加载（IIFE）防止闪烁
+  - `assets/site.css` 添加 `[data-theme="dark"]` 覆盖（v1暖色→深色）
+  - v2 各页面添加 `[data-theme="light"]` 覆盖（深色→暖色）
+  - 所有 v1/v2 页面顶部导航栏添加主题切换按钮
+  - 3次连续测试 0 报错
 
 - [ ] **P2.2 - 移动端适配审计**：当前CSS主要针对桌面端。需要逐页面检查touch target、字体大小、滚动交互
 

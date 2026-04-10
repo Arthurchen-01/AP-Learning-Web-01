@@ -19,6 +19,25 @@
     return base + normalized;
   };
 
+  // Dark Mode Theme Management
+  const STORAGE_KEY = 'ap-theme';
+  window.__getTheme = function() {
+    return localStorage.getItem(STORAGE_KEY) || 'light';
+  };
+  window.__setTheme = function(theme) {
+    document.documentElement.dataset.theme = theme;
+    localStorage.setItem(STORAGE_KEY, theme);
+    window.__applyTheme(theme);
+  };
+  window.toggleTheme = function() {
+    const current = window.__getTheme();
+    window.__setTheme(current === 'light' ? 'dark' : 'light');
+  };
+  window.__applyTheme = function(theme) {
+    const btn = document.getElementById('theme-toggle-btn');
+    if (btn) btn.textContent = theme === 'dark' ? '☀️' : '🌙';
+  };
+
   // Fix hero image (hardcoded absolute path in CSS)
   if (isGitHubPages && base) {
     document.addEventListener('DOMContentLoaded', function() {
@@ -34,4 +53,11 @@
       }
     });
   }
+})();
+
+// Apply theme BEFORE CSS loads to prevent flash
+(function() {
+  var theme = localStorage.getItem('ap-theme') || 'light';
+  document.documentElement.dataset.theme = theme;
+  window.__applyTheme(theme);
 })();
