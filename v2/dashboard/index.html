@@ -187,7 +187,8 @@
   <script type="module">
     import { loadUserProgress } from '../js/exam-engine.js';
 
-    // ─── Subject definitions ───────────────────────────────────────
+    // ─── Subject definitions (CB 2024-2025 / 2025-2026 CED official) ──
+    // Source: ap-syllabus-config.json (CB official Course and Exam Descriptions)
     const SUBJECTS = {
       calculus_bc: {
         display: '微积分 BC',
@@ -200,7 +201,7 @@
           'Unit 6: Integration and Accumulation of Change',
           'Unit 7: Differential Equations',
           'Unit 8: Applications of Integration',
-          'Unit 9: Parametric Equations, Polar Coordinates, and Vector Functions',
+          'Unit 9: Parametric Equations, Polar Coordinates, and Vector-Valued Functions',
           'Unit 10: Infinite Sequences and Series'
         ]
       },
@@ -223,32 +224,76 @@
           'Unit 1: Exploring One-Variable Data',
           'Unit 2: Exploring Two-Variable Data',
           'Unit 3: Collecting Data',
-          'Unit 4: Probability',
+          'Unit 4: Probability, Random Variables, and Probability Distributions',
           'Unit 5: Sampling Distributions',
-          'Unit 6: Estimation',
-          'Unit 7: Hypothesis Testing'
+          'Unit 6: Inference for Categorical Data: Proportions',
+          'Unit 7: Inference for Quantitative Data: Means',
+          'Unit 8: Inference for Categorical Data: Chi-Square',
+          'Unit 9: Inference for Quantitative Data: Slopes'
+        ]
+      },
+      csa: {
+        display: '计算机科学 A',
+        units: [
+          'Unit 1: Using Objects and Methods',
+          'Unit 2: Selection and Iteration',
+          'Unit 3: Class Creation',
+          'Unit 4: Data Collections'
+        ]
+      },
+      physics_c_mech: {
+        display: '物理 C 力学',
+        units: [
+          'Unit 1: Kinematics',
+          'Unit 2: Force and Translational Dynamics',
+          'Unit 3: Work, Energy, and Power',
+          'Unit 4: Linear Momentum',
+          'Unit 5: Torque and Rotational Dynamics',
+          'Unit 6: Energy and Momentum of Rotating Systems',
+          'Unit 7: Oscillations'
+        ]
+      },
+      physics_c_em: {
+        display: '物理 C 电磁学',
+        units: [
+          "Unit 8: Electric Charges, Fields, and Gauss's Law",
+          'Unit 9: Electric Potential',
+          'Unit 10: Conductors and Capacitors',
+          'Unit 11: Electric Circuits',
+          'Unit 12: Magnetic Fields and Electromagnetism',
+          'Unit 13: Electromagnetic Induction'
         ]
       },
       microeconomics: {
         display: '微观经济',
         units: [
-          'Unit 1: Supply and Demand',
-          'Unit 2: Production and Costs',
-          'Unit 3: Perfect Competition',
+          'Unit 1: Basic Economic Concepts',
+          'Unit 2: Supply and Demand',
+          'Unit 3: Production, Cost, and the Perfect Competition Model',
           'Unit 4: Imperfect Competition',
           'Unit 5: Factor Markets',
-          'Unit 6: Market Failure'
+          'Unit 6: Market Failure and the Role of Government'
         ]
       },
       macroeconomics: {
         display: '宏观经济',
         units: [
           'Unit 1: Basic Economic Concepts',
-          'Unit 2: Measurement of Economic Performance',
+          'Unit 2: Economic Indicators and the Business Cycle',
           'Unit 3: National Income and Price Determination',
           'Unit 4: Financial Sector',
-          'Unit 5: Stabilization Policies',
-          'Unit 6: Economic Growth'
+          'Unit 5: Long-Run Consequences of Stabilization Policies',
+          'Unit 6: Open Economy—International Trade and Finance'
+        ]
+      },
+      psychology: {
+        display: '心理学',
+        units: [
+          'Unit 1: Biological Bases of Behavior',
+          'Unit 2: Cognition',
+          'Unit 3: Development and Learning',
+          'Unit 4: Social Psychology and Personality',
+          'Unit 5: Mental and Physical Health'
         ]
       }
     };
@@ -425,12 +470,13 @@
     function renderWeakPoints(progress) {
       const container = document.getElementById('weak-points');
       const countEl = document.getElementById('weak-count');
-      const emptyEl = document.getElementById('weak-empty');
+      let emptyEl = document.getElementById('weak-empty');
 
       if (!progress || !progress.subjects[currentSubject]) {
-        countEl.textContent = '';
-        emptyEl.style.display = 'block';
+        if (countEl) countEl.textContent = '';
         container.querySelectorAll('.weak-point-tag').forEach(el => el.remove());
+        emptyEl = document.getElementById('weak-empty');
+        if (emptyEl) emptyEl.style.display = 'block';
         return;
       }
 
@@ -438,14 +484,13 @@
       const wps = sub.weakPoints || [];
 
       if (wps.length === 0) {
-        countEl.textContent = '';
-        emptyEl.style.display = 'block';
+        if (countEl) countEl.textContent = '';
         container.innerHTML = '<div class="empty-state" id="weak-empty">薄弱知识点会在练习中自动积累</div>';
         return;
       }
 
-      emptyEl.style.display = 'none';
-      countEl.textContent = `${wps.length} 个知识点`;
+      if (emptyEl) emptyEl.style.display = 'none';
+      if (countEl) countEl.textContent = `${wps.length} 个知识点`;
       container.innerHTML = wps.map(kp => `
         <span class="weak-point-tag">
           <span class="kp-name">${kp}</span>
@@ -510,7 +555,7 @@
               'Unit 6: Integration and Accumulation of Change': { answered: 14, correct: 9, questions: ['q6'], masteryScore: 3.1, lastPracticed: new Date().toISOString() },
               'Unit 7: Differential Equations': { answered: 7, correct: 5, questions: [], masteryScore: 3.5, lastPracticed: new Date().toISOString() },
               'Unit 8: Applications of Integration': { answered: 5, correct: 3, questions: [], masteryScore: 2.9, lastPracticed: new Date().toISOString() },
-              'Unit 9: Parametric Equations, Polar Coordinates, and Vector Functions': { answered: 6, correct: 4, questions: [], masteryScore: 3.3, lastPracticed: new Date().toISOString() },
+              'Unit 9: Parametric Equations, Polar Coordinates, and Vector-Valued Functions': { answered: 6, correct: 4, questions: [], masteryScore: 3.3, lastPracticed: new Date().toISOString() },
               'Unit 10: Infinite Sequences and Series': { answered: 4, correct: 3, questions: [], masteryScore: 3.8, lastPracticed: new Date().toISOString() }
             },
             weakPoints: ['Integrals', 'Series', 'Differential Equations']
@@ -520,16 +565,102 @@
             totalAnswered: 22,
             totalCorrect: 15,
             accuracy: 68,
-            units: {},
-            weakPoints: ['Integrals', 'Limits']
+            units: {
+              'Unit 1: Limits and Continuity': { answered: 8, correct: 6, questions: [], masteryScore: 3.5, lastPracticed: new Date().toISOString() },
+              'Unit 6: Integration and Accumulation of Change': { answered: 14, correct: 9, questions: [], masteryScore: 2.8, lastPracticed: new Date().toISOString() }
+            },
+            weakPoints: ['Integrals']
           },
           statistics: {
             displayName: '统计学',
-            totalAnswered: 0,
-            totalCorrect: 0,
-            accuracy: 0,
-            units: {},
-            weakPoints: []
+            totalAnswered: 34,
+            totalCorrect: 22,
+            accuracy: 65,
+            units: {
+              'Unit 1: Exploring One-Variable Data': { answered: 10, correct: 7, questions: [], masteryScore: 3.4, lastPracticed: new Date().toISOString() },
+              'Unit 4: Probability, Random Variables, and Probability Distributions': { answered: 12, correct: 7, questions: [], masteryScore: 2.9, lastPracticed: new Date().toISOString() },
+              'Unit 6: Inference for Categorical Data: Proportions': { answered: 12, correct: 8, questions: [], masteryScore: 3.3, lastPracticed: new Date().toISOString() }
+            },
+            weakPoints: ['Hypothesis Testing', 'Probability']
+          },
+          csa: {
+            displayName: '计算机科学 A',
+            totalAnswered: 28,
+            totalCorrect: 20,
+            accuracy: 71,
+            units: {
+              'Unit 1: Using Objects and Methods': { answered: 8, correct: 6, questions: [], masteryScore: 3.6, lastPracticed: new Date().toISOString() },
+              'Unit 2: Selection and Iteration': { answered: 10, correct: 8, questions: [], masteryScore: 4.0, lastPracticed: new Date().toISOString() },
+              'Unit 4: Data Collections': { answered: 10, correct: 6, questions: [], masteryScore: 3.0, lastPracticed: new Date().toISOString() }
+            },
+            weakPoints: ['Arrays', 'ArrayList']
+          },
+          physics_c_mech: {
+            displayName: '物理 C 力学',
+            totalAnswered: 45,
+            totalCorrect: 36,
+            accuracy: 80,
+            units: {
+              'Unit 1: Kinematics': { answered: 8, correct: 7, questions: [], masteryScore: 4.3, lastPracticed: new Date().toISOString() },
+              'Unit 2: Force and Translational Dynamics': { answered: 12, correct: 10, questions: [], masteryScore: 4.1, lastPracticed: new Date().toISOString() },
+              'Unit 3: Work, Energy, and Power': { answered: 10, correct: 8, questions: [], masteryScore: 3.9, lastPracticed: new Date().toISOString() },
+              'Unit 5: Torque and Rotational Dynamics': { answered: 8, correct: 6, questions: [], masteryScore: 3.6, lastPracticed: new Date().toISOString() },
+              'Unit 6: Energy and Momentum of Rotating Systems': { answered: 7, correct: 5, questions: [], masteryScore: 3.4, lastPracticed: new Date().toISOString() }
+            },
+            weakPoints: ['Rotation', 'Oscillations']
+          },
+          physics_c_em: {
+            displayName: '物理 C 电磁学',
+            totalAnswered: 18,
+            totalCorrect: 12,
+            accuracy: 67,
+            units: {
+              "Unit 8: Electric Charges, Fields, and Gauss's Law": { answered: 6, correct: 5, questions: [], masteryScore: 4.0, lastPracticed: new Date().toISOString() },
+              'Unit 11: Electric Circuits': { answered: 8, correct: 5, questions: [], masteryScore: 3.1, lastPracticed: new Date().toISOString() },
+              'Unit 13: Electromagnetic Induction': { answered: 4, correct: 2, questions: [], masteryScore: 2.5, lastPracticed: new Date().toISOString() }
+            },
+            weakPoints: ['Magnetic Fields', 'Electromagnetic Induction']
+          },
+          microeconomics: {
+            displayName: '微观经济',
+            totalAnswered: 40,
+            totalCorrect: 30,
+            accuracy: 75,
+            units: {
+              'Unit 1: Basic Economic Concepts': { answered: 6, correct: 5, questions: [], masteryScore: 4.1, lastPracticed: new Date().toISOString() },
+              'Unit 2: Supply and Demand': { answered: 10, correct: 8, questions: [], masteryScore: 3.9, lastPracticed: new Date().toISOString() },
+              'Unit 3: Production, Cost, and the Perfect Competition Model': { answered: 12, correct: 9, questions: [], masteryScore: 3.7, lastPracticed: new Date().toISOString() },
+              'Unit 4: Imperfect Competition': { answered: 8, correct: 5, questions: [], masteryScore: 3.0, lastPracticed: new Date().toISOString() },
+              'Unit 5: Factor Markets': { answered: 4, correct: 3, questions: [], masteryScore: 3.6, lastPracticed: new Date().toISOString() }
+            },
+            weakPoints: ['Imperfect Competition', 'Factor Markets']
+          },
+          macroeconomics: {
+            displayName: '宏观经济',
+            totalAnswered: 30,
+            totalCorrect: 21,
+            accuracy: 70,
+            units: {
+              'Unit 1: Basic Economic Concepts': { answered: 5, correct: 4, questions: [], masteryScore: 3.9, lastPracticed: new Date().toISOString() },
+              'Unit 3: National Income and Price Determination': { answered: 10, correct: 7, questions: [], masteryScore: 3.4, lastPracticed: new Date().toISOString() },
+              'Unit 4: Financial Sector': { answered: 8, correct: 6, questions: [], masteryScore: 3.6, lastPracticed: new Date().toISOString() },
+              'Unit 5: Long-Run Consequences of Stabilization Policies': { answered: 7, correct: 4, questions: [], masteryScore: 2.8, lastPracticed: new Date().toISOString() }
+            },
+            weakPoints: ['Monetary Policy', 'Fiscal Policy']
+          },
+          psychology: {
+            displayName: '心理学',
+            totalAnswered: 50,
+            totalCorrect: 38,
+            accuracy: 76,
+            units: {
+              'Unit 1: Biological Bases of Behavior': { answered: 12, correct: 10, questions: [], masteryScore: 4.1, lastPracticed: new Date().toISOString() },
+              'Unit 2: Cognition': { answered: 10, correct: 8, questions: [], masteryScore: 3.9, lastPracticed: new Date().toISOString() },
+              'Unit 3: Development and Learning': { answered: 10, correct: 7, questions: [], masteryScore: 3.4, lastPracticed: new Date().toISOString() },
+              'Unit 4: Social Psychology and Personality': { answered: 10, correct: 7, questions: [], masteryScore: 3.4, lastPracticed: new Date().toISOString() },
+              'Unit 5: Mental and Physical Health': { answered: 8, correct: 6, questions: [], masteryScore: 3.6, lastPracticed: new Date().toISOString() }
+            },
+            weakPoints: ['Social Psychology', 'Development and Learning']
           }
         },
         examHistory: [
