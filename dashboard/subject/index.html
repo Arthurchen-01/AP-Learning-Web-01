@@ -13,7 +13,7 @@
 <body data-page="dashboard-subject">
   <header class="site-header">
     <div class="shell nav">
-      <a class="brand" href="/">
+      <a class="brand" id="nav-brand">
         <span class="brand-mark">AP</span>
         <span class="brand-copy">
           <span class="brand-title">AP Practice Website</span>
@@ -21,12 +21,12 @@
         </span>
       </a>
       <nav class="nav-main" aria-label="Primary">
-        <a href="/">首页</a>
-        <a href="/mock/">套题模考</a>
-        <a href="/training/">专项训练</a>
-        <a class="is-active" href="/dashboard/">Dashboard</a>
+        <a id="nav-home">首页</a>
+        <a id="nav-mock">套题模考</a>
+        <a id="nav-training">专项训练</a>
+        <a class="is-active" id="nav-dashboard">Dashboard</a>
       </nav>
-      <a class="avatar-entry" href="/profile/" aria-label="Open profile">
+      <a class="avatar-entry" id="nav-profile" aria-label="Open profile">
         <span class="avatar">OC</span>
         <span class="avatar-meta">
           <strong>Olivia Chen</strong>
@@ -35,6 +35,14 @@
       </a>
     </div>
   </header>
+  <script>
+    document.getElementById('nav-brand').href = window.sitePath('/');
+    document.getElementById('nav-home').href = window.sitePath('/');
+    document.getElementById('nav-mock').href = window.sitePath('/mock/');
+    document.getElementById('nav-training').href = window.sitePath('/training/');
+    document.getElementById('nav-dashboard').href = window.sitePath('/dashboard/');
+    document.getElementById('nav-profile').href = window.sitePath('/profile/');
+  </script>
 
   <main class="page-main shell">
     <section class="page-heading">

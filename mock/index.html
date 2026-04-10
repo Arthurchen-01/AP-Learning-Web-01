@@ -4,214 +4,135 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>套题模考 - AP Learning</title>
+  <script>
+    // Fix paths BEFORE anything renders — prevents 404
+    var m = location.pathname.match(/^\/(AP-Learning-Web-0\d)(?:\/|$)/);
+    window._b = m ? '/' + m[1] : '';
+  </script>
+  <script src="../assets/site-base.js"></script>
+  <link rel="stylesheet" href="../assets/global-theme.css">
   <style>
-    :root {
-      --bg: #0a0f1c;
-      --card-bg: #111827;
-      --primary: #3b82f6;
-      --success: #22c55e;
-      --warning: #f59e0b;
-      --danger: #ef4444;
-      --text: #f9fafb;
-      --text-muted: #9ca3af;
-      --border: #1f2937;
-      --border-light: #374151;
-    }
+    body { overflow-x: hidden; }
+  </style>
+</head>
+<body data-page="mock">
+  <header class="site-header">
+    <div class="shell nav">
+      <a class="brand" id="nav-brand">
+        <span class="brand-mark">AP</span>
+        <span class="brand-copy">
+          <span class="brand-title">AP Practice Website</span>
+          <span class="brand-subtitle">自用 AP 练习站</span>
+        </span>
+      </a>
+      <nav class="nav-main" aria-label="Primary">
+        <a id="nav-home">首页</a>
+        <a class="is-active" id="nav-mock">套题模考</a>
+        <a id="nav-training">专项训练</a>
+        <a id="nav-dashboard">Dashboard</a>
+      </nav>
+      <a class="avatar-entry" id="nav-profile" aria-label="Open profile">
+        <span class="avatar">OC</span>
+        <span class="avatar-meta">
+          <strong>Olivia Chen</strong>
+          <span>Profile</span>
+        </span>
+      </a>
+    </div>
+  </header>
+  <script>
+    document.getElementById('nav-brand').href = window.sitePath('/');
+    document.getElementById('nav-home').href = window.sitePath('/');
+    document.getElementById('nav-mock').href = window.sitePath('/mock/');
+    document.getElementById('nav-training').href = window.sitePath('/training/');
+    document.getElementById('nav-dashboard').href = window.sitePath('/dashboard/');
+    document.getElementById('nav-profile').href = window.sitePath('/profile/');
+  </script>
 
-    * { box-sizing: border-box; margin: 0; padding: 0; }
+  <main class="page-main shell">
+    <section class="page-heading">
+      <h1>套题模考</h1>
+      <p>选择试卷，开始计时练习</p>
+    </section>
 
-    body {
-      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-      background: var(--bg);
-      color: var(--text);
-      min-height: 100vh;
-    }
+    <section class="page-panel">
+      <div class="filters" style="padding: 18px 22px 0;">
+        <select class="filter-select" id="subject-filter">
+          <option value="">全部科目</option>
+          <option value="calculus_bc">AP Calculus BC</option>
+          <option value="calculus_ab">AP Calculus AB</option>
+          <option value="statistics">AP Statistics</option>
+          <option value="microeconomics">AP Microeconomics</option>
+        </select>
+        <select class="filter-select" id="year-filter">
+          <option value="">全部年份</option>
+          <option value="2024">2024</option>
+          <option value="2023">2023</option>
+          <option value="2022">2022</option>
+          <option value="2021">2021</option>
+          <option value="2020">2020</option>
+          <option value="2019">2019</option>
+          <option value="2018">2018</option>
+        </select>
+      </div>
+      <div class="exam-list dashboard-list" id="exam-list" style="padding: 16px 22px 22px;">
+        <div class="loading-state">加载中...</div>
+      </div>
+    </section>
+  </main>
 
-    a { color: inherit; text-decoration: none; }
+  <footer class="shell footer">
+    <p>Local AP practice workspace. Reference folders remain read-only.</p>
+  </footer>
 
-    /* Navigation */
-    .topnav {
-      background: var(--card-bg);
-      border-bottom: 1px solid var(--border);
-      padding: 0 2rem;
-      position: sticky;
-      top: 0;
-      z-index: 100;
-    }
-    .topnav-inner {
-      max-width: 1200px;
-      margin: 0 auto;
-      display: flex;
-      align-items: center;
-      height: 60px;
-      gap: 2rem;
-    }
-    .brand {
-      display: flex;
-      align-items: center;
-      gap: 0.75rem;
-    }
-    .brand-mark {
-      width: 36px;
-      height: 36px;
-      background: var(--primary);
-      border-radius: 8px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-weight: 800;
-      font-size: 0.9rem;
-    }
-    .brand-title { font-weight: 600; font-size: 1rem; }
-
-    .nav-links { display: flex; gap: 0.25rem; margin-left: auto; }
-    .nav-links a {
-      padding: 0.5rem 1rem;
-      border-radius: 6px;
-      color: var(--text-muted);
-      font-size: 0.9rem;
-      transition: all 0.15s;
-    }
-    .nav-links a:hover { color: var(--text); background: var(--border); }
-    .nav-links a.active { color: var(--text); background: var(--border-light); }
-
-    .user-avatar {
-      width: 36px;
-      height: 36px;
-      background: linear-gradient(135deg, #8b5cf6, #3b82f6);
-      border-radius: 50%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-weight: 600;
-      font-size: 0.85rem;
-      margin-left: 1rem;
-    }
-
-    /* Main */
-    .container {
-      max-width: 1200px;
-      margin: 0 auto;
-      padding: 2rem;
-    }
-
-    h1 { font-size: 1.8rem; margin-bottom: 0.5rem; }
-    .subtitle { color: var(--text-muted); margin-bottom: 2rem; }
-
-    /* Filters */
-    .filters {
-      display: flex;
-      gap: 1rem;
-      margin-bottom: 1.5rem;
-    }
+  <style>
     .filter-select {
-      padding: 0.5rem 1rem;
-      background: var(--card-bg);
+      padding: 8px 14px;
       border: 1px solid var(--border);
-      border-radius: 6px;
+      border-radius: 999px;
+      background: var(--card-bg);
       color: var(--text);
       font-size: 0.9rem;
+      font-weight: 600;
+      cursor: pointer;
     }
-
-    /* Exam List */
-    .exam-list { display: flex; flex-direction: column; gap: 1rem; }
-
+    .exam-list { display: flex; flex-direction: column; gap: 12px; }
     .exam-card {
-      background: var(--card-bg);
-      border: 1px solid var(--border);
-      border-radius: 12px;
-      padding: 1.25rem;
       display: flex;
       justify-content: space-between;
       align-items: center;
+      padding: 18px 20px;
+      border: 1px solid var(--line);
+      border-radius: var(--radius-md);
+      background: var(--card-bg);
       transition: all 0.2s;
     }
-    .exam-card:hover { border-color: var(--primary); transform: translateX(4px); }
-
-    .exam-info h3 { font-size: 1.05rem; margin-bottom: 0.5rem; }
-    .exam-meta { display: flex; gap: 1.5rem; color: var(--text-muted); font-size: 0.8rem; }
-    .exam-meta span { display: flex; align-items: center; gap: 0.3rem; }
-
-    .badge {
-      padding: 0.2rem 0.6rem;
-      border-radius: 4px;
-      font-size: 0.7rem;
-      font-weight: 600;
-    }
-    .badge-mcq { background: #3b82f620; color: var(--primary); }
-    .badge-frq { background: #f59e0b20; color: var(--warning); }
-    .badge-calc { background: #22c55e20; color: var(--success); }
-
+    .exam-card:hover { border-color: var(--accent); transform: translateX(4px); }
+    .exam-info h3 { font-size: 1rem; margin-bottom: 6px; }
+    .exam-meta { display: flex; flex-wrap: wrap; gap: 12px; color: var(--text-muted); font-size: 0.82rem; }
+    .exam-meta span { display: flex; align-items: center; gap: 4px; }
     .btn {
-      padding: 0.5rem 1rem;
-      border-radius: 6px;
-      font-weight: 600;
+      padding: 8px 18px;
+      border-radius: 999px;
+      font-weight: 800;
       cursor: pointer;
       border: none;
       transition: all 0.2s;
       display: inline-block;
+      font-size: 0.88rem;
     }
-    .btn-primary { background: var(--primary); color: white; }
-    .btn-primary:hover { background: #2563eb; }
-    .btn-secondary { background: var(--border); color: var(--text); }
-
+    .btn-primary { background: var(--accent-soft); color: var(--accent-strong); }
+    .btn-primary:hover { opacity: 0.85; transform: translateY(-1px); }
     .progress-tag {
       font-size: 0.75rem;
-      padding: 0.2rem 0.5rem;
-      border-radius: 4px;
+      padding: 3px 10px;
+      border-radius: 999px;
       background: var(--success);
       color: white;
+      font-weight: 700;
     }
     .progress-tag.not-started { background: var(--text-muted); }
-
-    .loading { text-align: center; padding: 2rem; color: var(--text-muted); }
   </style>
-</head>
-<body>
-  <header class="topnav">
-    <div class="topnav-inner">
-      <a href="../" class="brand">
-        <span class="brand-mark">AP</span>
-        <span class="brand-title">AP Learning</span>
-      </a>
-      <nav class="nav-links">
-        <a href="../">首页</a>
-        <a href="./" class="active">套题模考</a>
-        <a href="../training/">专项训练</a>
-        <a href="../dashboard/">Dashboard</a>
-      </nav>
-      <div class="user-avatar">OC</div>
-    </div>
-  </header>
-
-  <div class="container">
-    <h1>套题模考</h1>
-    <p class="subtitle">选择试卷，开始计时练习</p>
-
-    <div class="filters">
-      <select class="filter-select" id="subject-filter">
-        <option value="">全部科目</option>
-        <option value="calculus_bc">AP Calculus BC</option>
-        <option value="calculus_ab">AP Calculus AB</option>
-        <option value="statistics">AP Statistics</option>
-        <option value="microeconomics">AP Microeconomics</option>
-      </select>
-      <select class="filter-select" id="year-filter">
-        <option value="">全部年份</option>
-        <option value="2024">2024</option>
-        <option value="2023">2023</option>
-        <option value="2022">2022</option>
-        <option value="2021">2021</option>
-        <option value="2020">2020</option>
-        <option value="2019">2019</option>
-        <option value="2018">2018</option>
-      </select>
-    </div>
-
-    <div class="exam-list" id="exam-list">
-      <div class="loading">加载中...</div>
-    </div>
-  </div>
 
   <script>
     const subjectNames = {
@@ -240,7 +161,7 @@
     // 从 localStorage 读取进度
     function getProgress(examId) {
       try {
-        const raw = localStorage.getItem(`ap-learning-session:${examId}`);
+        const raw = localStorage.getItem(`ap-learning-exam:${examId}`);
         if (!raw) return null;
         const data = JSON.parse(raw);
         let answered = 0, total = 0;
@@ -264,8 +185,13 @@
 
     function renderExamList() {
       const list = document.getElementById('exam-list');
+      if (!defaultExams.length) {
+        list.innerHTML = '<div class="empty-state">暂无可用试卷</div>';
+        return;
+      }
       list.innerHTML = defaultExams.map(exam => {
         const progress = getProgress(exam.exam_id);
+        const examPath = window.sitePath('/v2/exam/paper.html?exam=' + exam.exam_id);
 
         return `
           <div class="exam-card" data-subject="${exam.subject}" data-year="${exam.year}">
@@ -278,11 +204,11 @@
                 ${progress ? `<span class="progress-tag">${progress.answered}/${progress.total}</span>` : '<span class="progress-tag not-started">未开始</span>'}
               </div>
             </div>
-            <div style="display: flex; gap: 0.5rem; align-items: center;">
+            <div style="display: flex; gap: 8px; align-items: center; flex-wrap: wrap;">
               ${exam.sections.map(s =>
-                `<span class="badge ${s.calculator_allowed ? 'badge-calc' : 'badge-mcq'}">${s.part_label}</span>`
+                `<span class="chip ${s.calculator_allowed ? 'badge-calc' : 'badge-mcq'}">${s.part_label}</span>`
               ).join('')}
-              <a href="../v2/exam/paper.html?exam=${exam.exam_id}" class="btn btn-primary">
+              <a href="${examPath}" class="btn btn-primary">
                 ${progress && progress.answered > 0 ? '继续' : '开始'}
               </a>
             </div>

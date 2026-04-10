@@ -8,74 +8,21 @@
   <script>
     var m = location.pathname.match(/^\/(AP-Learning-Web-0\d)(?:\/|$)/);
     window._b = m ? '/' + m[1] : '';
-    window.sitePath = function(p) {
-      if (/^(?:[a-z]+:)?\/\//i.test(p)) return p;
-      var n = p.startsWith('/') ? p : '/' + p;
-      return window._b + n;
-    };
   </script>
   <script>document.write('<scr'+'ipt src="'+window._b+'/assets/site-base.js"><\/scr'+'ipt>');</script>
+  <link rel="stylesheet" href="../assets/global-theme.css">
   <style>
-    :root {
-      --bg: #0f172a;
-      --card-bg: #1e293b;
-      --primary: #3b82f6;
-      --success: #22c55e;
-      --warning: #f59e0b;
-      --danger: #ef4444;
-      --text: #f1f5f9;
-      --text-muted: #94a3b8;
-      --border: #334155;
-    }
-
-    [data-theme="light"] {
-      --bg: #fff8f1;
-      --card-bg: #fffdf9;
-      --primary: #e89255;
-      --success: #22c55e;
-      --warning: #f59e0b;
-      --danger: #ef4444;
-      --text: #533624;
-      --text-muted: #86624c;
-      --border: #f0d2b8;
-    }
-
     * { box-sizing: border-box; margin: 0; padding: 0; }
-
-    body {
-      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-      background: var(--bg);
-      color: var(--text);
-      min-height: 100vh;
-    }
+    body { overflow-x: hidden; }
 
     .container { max-width: 1200px; margin: 0 auto; padding: 2rem; }
-
-    header {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      padding: 1rem 2rem;
-      background: var(--card-bg);
-      border-bottom: 1px solid var(--border);
-    }
-
-    .logo { font-size: 1.5rem; font-weight: 700; color: var(--primary); }
-    nav { display: flex; gap: 1.5rem; }
-    nav a {
-      color: var(--text-muted);
-      text-decoration: none;
-      padding: 0.5rem 1rem;
-      border-radius: 6px;
-      transition: all 0.2s;
-    }
-    nav a:hover, nav a.active { color: var(--text); background: var(--border); }
-    nav a.primary { background: var(--primary); color: white; }
 
     .hero {
       text-align: center;
       padding: 4rem 2rem;
       background: linear-gradient(135deg, var(--card-bg) 0%, #0f172a 100%);
+      border-radius: var(--radius-lg);
+      margin-bottom: 2rem;
     }
     .hero h1 { font-size: 2.5rem; margin-bottom: 1rem; }
     .hero p { color: var(--text-muted); font-size: 1.1rem; margin-bottom: 2rem; }
@@ -102,7 +49,6 @@
       gap: 1.5rem;
       padding: 2rem 0;
     }
-
     .subject-card {
       background: var(--card-bg);
       border-radius: 12px;
@@ -114,19 +60,8 @@
     .subject-card:hover { border-color: var(--primary); transform: translateY(-2px); }
     .subject-card h3 { font-size: 1.2rem; margin-bottom: 0.5rem; }
     .subject-card .meta { color: var(--text-muted); font-size: 0.9rem; margin-bottom: 1rem; }
-
-    .mastery-bar {
-      height: 8px;
-      background: var(--border);
-      border-radius: 4px;
-      overflow: hidden;
-      margin: 0.75rem 0;
-    }
-    .mastery-fill {
-      height: 100%;
-      border-radius: 4px;
-      transition: width 0.3s ease;
-    }
+    .mastery-bar { height: 8px; background: var(--border); border-radius: 4px; overflow: hidden; margin: 0.75rem 0; }
+    .mastery-fill { height: 100%; border-radius: 4px; transition: width 0.3s ease; }
     .mastery-fill.high { background: var(--success); }
     .mastery-fill.mid { background: var(--warning); }
     .mastery-fill.low { background: var(--danger); }
@@ -135,7 +70,7 @@
       display: grid;
       grid-template-columns: repeat(4, 1fr);
       gap: 1rem;
-      padding: 2rem;
+      padding: 2rem 0;
     }
     .stat-card {
       background: var(--card-bg);
@@ -178,35 +113,54 @@
       .stats { grid-template-columns: repeat(2, 1fr); }
       .quick-start { grid-template-columns: 1fr; }
       .subjects-grid { grid-template-columns: 1fr; }
-      header { flex-wrap: wrap; gap: 0.5rem; }
-      header nav { gap: 0.5rem; }
-      .hero { padding: 2rem 1rem; }
-      .hero h1 { font-size: 1.8rem; }
-      .container { padding: 1rem; }
     }
   </style>
 </head>
 <body>
-  <header>
-    <div class="logo">AP Learning</div>
-    <nav>
-      <a id="nav-home">首页</a>
-      <a id="nav-exam">套题模考</a>
-      <a id="nav-dashboard">学习面板</a>
-    </nav>
-    <button id="theme-toggle-btn" onclick="toggleTheme()" aria-label="Toggle theme" style="background:var(--border);border:none;border-radius:8px;padding:8px 14px;cursor:pointer;font-size:1.1rem;">🌙</button>
-  </header>
-
-  <section class="hero">
-    <h1>AP 学习平台</h1>
-    <p>高效备考，自主练习，实时掌握学习进度</p>
-    <div class="hero-actions">
-      <a id="hero-start-exam" class="btn btn-primary">开始模考</a>
-      <a id="hero-view-progress" class="btn btn-secondary">查看进度</a>
+  <header class="site-header">
+    <div class="shell nav">
+      <a class="brand" id="nav-brand">
+        <span class="brand-mark">AP</span>
+        <span class="brand-copy">
+          <span class="brand-title">AP Practice Website</span>
+          <span class="brand-subtitle">自用 AP 练习站</span>
+        </span>
+      </a>
+      <nav class="nav-main" aria-label="Primary">
+        <a class="is-active" id="nav-home">首页</a>
+        <a id="nav-mock">套题模考</a>
+        <a id="nav-training">专项训练</a>
+        <a id="nav-dashboard">Dashboard</a>
+      </nav>
+      <a class="avatar-entry" id="nav-profile" aria-label="Open profile">
+        <span class="avatar">OC</span>
+        <span class="avatar-meta">
+          <strong>Olivia Chen</strong>
+          <span>Profile</span>
+        </span>
+      </a>
+      <button id="theme-toggle-btn" onclick="toggleTheme()" aria-label="Toggle dark mode" style="background:rgba(30,41,59,0.92);border:1px solid rgba(51,65,85,0.5);border-radius:999px;padding:10px 14px;cursor:pointer;font-size:1.1rem;box-shadow:var(--shadow-soft);">☀️</button>
     </div>
-  </section>
+  </header>
+  <script>
+    document.getElementById('nav-brand').href = window.sitePath('/');
+    document.getElementById('nav-home').href = window.sitePath('/');
+    document.getElementById('nav-mock').href = window.sitePath('/mock/');
+    document.getElementById('nav-training').href = window.sitePath('/training/');
+    document.getElementById('nav-dashboard').href = window.sitePath('/dashboard/');
+    document.getElementById('nav-profile').href = window.sitePath('/profile/');
+  </script>
 
-  <div class="container">
+  <main class="page-main shell">
+    <section class="hero">
+      <h1>AP 学习平台</h1>
+      <p>高效备考，自主练习，实时掌握学习进度</p>
+      <div class="hero-actions">
+        <a id="hero-start-exam" class="btn btn-primary">开始模考</a>
+        <a id="hero-view-progress" class="btn btn-secondary">查看进度</a>
+      </div>
+    </section>
+
     <div class="stats">
       <div class="stat-card">
         <div class="value" id="total-exams">0</div>
@@ -236,7 +190,7 @@
               <div class="name">AP Calculus BC 2018 国际卷</div>
               <div class="year">45题 | 预计 1小时45分钟</div>
             </div>
-            <a href="v2/exam/paper.html?exam=calc-bc-2018-intl" class="btn btn-primary">做题</a>
+            <a id="hero-exam-link" class="btn btn-primary">做题</a>
           </div>
         </div>
       </div>
@@ -249,65 +203,103 @@
     </div>
 
     <h2 style="margin: 1rem 0;">科目概览</h2>
-    <div class="subjects-grid" id="subjects-grid">
-      <!-- 动态加载 -->
-    </div>
-  </div>
+    <div class="subjects-grid" id="subjects-grid"></div>
+  </main>
+
+  <footer class="shell footer">
+    <p>Local AP practice workspace. Reference folders remain read-only.</p>
+  </footer>
 
   <script type="module">
     import { loadExamIndex } from './js/data-service.js';
+    import { loadUserProgress } from './js/exam-engine.js';
 
-    async function init() {
-      // 设置导航链接
-      document.getElementById('nav-home').href = window.sitePath('/v2/');
-      document.getElementById('nav-exam').href = window.sitePath('/v2/exam/');
-      document.getElementById('nav-dashboard').href = window.sitePath('/v2/dashboard/');
+    // 设置Hero按钮
+    document.getElementById('hero-start-exam').href = window.sitePath('/mock/');
+    document.getElementById('hero-view-progress').href = window.sitePath('/dashboard/');
+    document.getElementById('hero-exam-link').href = window.sitePath('/v2/exam/paper.html?exam=calc-bc-2018-intl');
 
-      // 加载用户进度
-      const progress = JSON.parse(localStorage.getItem('ap-learning-progress') || '{"exams":0,"questions":0,"accuracy":0}');
-      document.getElementById('total-exams').textContent = progress.exams;
-      document.getElementById('total-questions').textContent = progress.questions;
-      document.getElementById('accuracy').textContent = progress.accuracy + '%';
+    // 加载真实进度（AP_USER_PROGRESS）
+    function renderHomeStats() {
+      const up = loadUserProgress();
+      if (up) {
+        // Aggregate across all subjects
+        let totalAnswered = 0, totalCorrect = 0, totalExams = up.examHistory ? up.examHistory.length : 0;
+        Object.values(up.subjects).forEach(s => {
+          totalAnswered += s.totalAnswered || 0;
+          totalCorrect += s.totalCorrect || 0;
+        });
+        const accuracy = totalAnswered > 0 ? Math.round((totalCorrect / totalAnswered) * 100) : 0;
+        document.getElementById('total-exams').textContent = totalExams;
+        document.getElementById('total-questions').textContent = totalAnswered;
+        document.getElementById('accuracy').textContent = accuracy + '%';
+      }
+    }
+    renderHomeStats();
 
-      // 设置Hero按钮
-      document.getElementById('hero-start-exam').href = window.sitePath('/v2/exam/');
-      document.getElementById('hero-view-progress').href = window.sitePath('/v2/dashboard/');
+    // 加载科目网格（真实数据驱动）
+    const SUBJECTS = [
+      { id: 'calculus_bc', name: 'AP Calculus BC', units: 10 },
+      { id: 'calculus_ab', name: 'AP Calculus AB', units: 8 },
+      { id: 'statistics', name: 'AP Statistics', units: 9 },
+      { id: 'microeconomics', name: 'AP Microeconomics', units: 6 },
+      { id: 'macroeconomics', name: 'AP Macroeconomics', units: 6 },
+      { id: 'physics_c_mech', name: 'AP Physics C: Mechanics', units: 8 },
+    ];
 
-      // 加载科目网格
-      const grid = document.getElementById('subjects-grid');
-      const subjects = [
-        { id: 'calculus_bc', name: 'AP Calculus BC', units: 10, mastery: 72 },
-        { id: 'calculus_ab', name: 'AP Calculus AB', units: 8, mastery: 0 },
-        { id: 'statistics', name: 'AP Statistics', units: 9, mastery: 0 },
-        { id: 'microeconomics', name: 'AP Microeconomics', units: 6, mastery: 0 },
-        { id: 'macroeconomics', name: 'AP Macroeconomics', units: 6, mastery: 0 },
-        { id: 'physics_c_mech', name: 'AP Physics C: Mechanics', units: 8, mastery: 0 },
-      ];
-
-      grid.innerHTML = subjects.map(s => `
-        <div class="subject-card" style="cursor:pointer" onclick="location.href='${window.sitePath('/v2/dashboard/?subject='+s.id)}'">
-          <h3>${s.name}</h3>
-          <div class="meta">${s.units} Units</div>
-          <div class="mastery-bar">
-            <div class="mastery-fill ${s.mastery >= 60 ? 'high' : s.mastery >= 30 ? 'mid' : 'low'}"
-                 style="width: ${s.mastery}%"></div>
-          </div>
-          <div style="font-size: 0.85rem; color: var(--text-muted)">
-            ${s.mastery > 0 ? `掌握度 ${s.mastery}%` : '尚未开始'}
-          </div>
+    const grid = document.getElementById('subjects-grid');
+    grid.innerHTML = SUBJECTS.map(s => `
+      <div class="subject-card" style="cursor:pointer" onclick="location.href='${window.sitePath('/v2/dashboard/?subject='+s.id)}'">
+        <h3>${s.name}</h3>
+        <div class="meta">${s.units} Units</div>
+        <div class="mastery-bar">
+          <div class="mastery-fill" id="fill-${s.id}" style="width:0%"></div>
         </div>
-      `).join('');
+        <div class="mastery-label" id="label-${s.id}" style="font-size:0.85rem;color:var(--text-muted);">尚未开始</div>
+      </div>
+    `).join('');
 
-      // 修复快速开始中的试卷链接
-      const examLinks = document.querySelectorAll('.exam-item a[href]');
-      examLinks.forEach(link => {
-        if (link.href.includes('paper.html')) {
-          link.href = window.sitePath('/v2/exam/paper.html') + '?exam=calc-bc-2018-intl';
+    // 用真实数据填充 mastery bar
+    function renderSubjectMastery() {
+      const up = loadUserProgress();
+      if (!up) return;
+      SUBJECTS.forEach(s => {
+        const sub = up.subjects[s.id];
+        if (!sub) return;
+        const fill = sub.accuracy;
+        const el = document.getElementById('fill-' + s.id);
+        const label = document.getElementById('label-' + s.id);
+        if (el) {
+          el.style.width = fill + '%';
+          el.className = 'mastery-fill ' + (fill >= 60 ? 'high' : fill >= 30 ? 'mid' : 'low');
+        }
+        if (label) {
+          label.textContent = fill > 0 ? `掌握度 ${fill}%` : '尚未开始';
         }
       });
     }
+    renderSubjectMastery();
 
-    init();
+    // 加载最近错题
+    function renderRecentWrong() {
+      const wqRaw = localStorage.getItem('ap-learning-wrong-questions');
+      const wq = wqRaw ? JSON.parse(wqRaw) : [];
+      const container = document.getElementById('recent-errors');
+      if (wq.length === 0) {
+        container.innerHTML = '<p style="color:var(--text-muted)">暂无错题记录</p>';
+        return;
+      }
+      container.innerHTML = wq.slice(0, 3).map(w => `
+        <div class="exam-item">
+          <div>
+            <div class="name">${w.exam_id} · Q${w.questionIndex + 1}</div>
+            <div class="year">${w.knowledge_points ? w.knowledge_points.join(', ') : '—'}</div>
+          </div>
+          <a href="${window.sitePath('/v2/exam/paper.html?exam=' + w.exam_id)}" class="btn" style="font-size:0.78rem;padding:4px 12px;">复习</a>
+        </div>
+      `).join('');
+    }
+    renderRecentWrong();
   </script>
 </body>
 </html>

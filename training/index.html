@@ -4,282 +4,58 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>专项训练 - AP Learning</title>
+  <script>
+    var m = location.pathname.match(/^\/(AP-Learning-Web-0\d)(?:\/|$)/);
+    window._b = m ? '/' + m[1] : '';
+  </script>
+  <script src="../assets/site-base.js"></script>
+  <link rel="stylesheet" href="../assets/global-theme.css">
   <style>
-    :root {
-      --bg: #0a0f1c;
-      --card-bg: #111827;
-      --primary: #3b82f6;
-      --success: #22c55e;
-      --warning: #f59e0b;
-      --danger: #ef4444;
-      --text: #f9fafb;
-      --text-muted: #9ca3af;
-      --border: #1f2937;
-      --border-light: #374151;
-    }
-
-    * { box-sizing: border-box; margin: 0; padding: 0; }
-
-    body {
-      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-      background: var(--bg);
-      color: var(--text);
-      min-height: 100vh;
-    }
-
-    a { color: inherit; text-decoration: none; }
-
-    /* Navigation */
-    .topnav {
-      background: var(--card-bg);
-      border-bottom: 1px solid var(--border);
-      padding: 0 2rem;
-      position: sticky;
-      top: 0;
-      z-index: 100;
-    }
-    .topnav-inner {
-      max-width: 1200px;
-      margin: 0 auto;
-      display: flex;
-      align-items: center;
-      height: 60px;
-      gap: 2rem;
-    }
-    .brand {
-      display: flex;
-      align-items: center;
-      gap: 0.75rem;
-    }
-    .brand-mark {
-      width: 36px;
-      height: 36px;
-      background: var(--primary);
-      border-radius: 8px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-weight: 800;
-      font-size: 0.9rem;
-    }
-    .brand-title { font-weight: 600; font-size: 1rem; }
-
-    .nav-links { display: flex; gap: 0.25rem; margin-left: auto; }
-    .nav-links a {
-      padding: 0.5rem 1rem;
-      border-radius: 6px;
-      color: var(--text-muted);
-      font-size: 0.9rem;
-      transition: all 0.15s;
-    }
-    .nav-links a:hover { color: var(--text); background: var(--border); }
-    .nav-links a.active { color: var(--text); background: var(--border-light); }
-
-    .user-avatar {
-      width: 36px;
-      height: 36px;
-      background: linear-gradient(135deg, #8b5cf6, #3b82f6);
-      border-radius: 50%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-weight: 600;
-      font-size: 0.85rem;
-      margin-left: 1rem;
-    }
-
-    /* Main */
-    .container {
-      max-width: 900px;
-      margin: 0 auto;
-      padding: 2rem;
-    }
-
-    h1 { font-size: 1.8rem; margin-bottom: 0.5rem; text-align: center; }
-    .subtitle { color: var(--text-muted); text-align: center; margin-bottom: 2rem; }
-
-    /* Steps */
-    .steps {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      gap: 0.5rem;
-      margin-bottom: 2rem;
-    }
-    .step {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      gap: 0.5rem;
-    }
-    .step-num {
-      width: 40px;
-      height: 40px;
-      border-radius: 50%;
-      background: var(--border);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-weight: 700;
-      color: var(--text-muted);
-    }
-    .step.active .step-num { background: var(--primary); color: white; }
-    .step.done .step-num { background: var(--success); color: white; }
-    .step-label { font-size: 0.75rem; color: var(--text-muted); }
-    .step.active .step-label { color: var(--text); }
-    .step-line { width: 60px; height: 2px; background: var(--border); }
-
-    /* Panels */
-    .step-panel { display: none; }
-    .step-panel.active { display: block; }
-    .step-panel h2 { font-size: 1.2rem; margin-bottom: 1.5rem; text-align: center; }
-
-    /* Subject Grid */
-    .subject-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-      gap: 1rem;
-    }
-    .subject-card {
-      background: var(--card-bg);
-      border: 1px solid var(--border);
-      border-radius: 12px;
-      padding: 1.25rem;
-      text-align: center;
-      cursor: pointer;
-      transition: all 0.2s;
-    }
-    .subject-card:hover { border-color: var(--primary); transform: translateY(-2px); }
-    .subject-card.selected { border-color: var(--primary); background: #3b82f615; }
-    .subject-icon { font-size: 2rem; margin-bottom: 0.5rem; }
-    .subject-name { font-weight: 600; }
-    .subject-count { font-size: 0.8rem; color: var(--text-muted); margin-top: 0.25rem; }
-
-    /* Type Grid */
-    .type-grid {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 1rem;
-      max-width: 600px;
-      margin: 0 auto;
-    }
-    .type-btn {
-      background: var(--card-bg);
-      border: 1px solid var(--border);
-      border-radius: 12px;
-      padding: 1.5rem;
-      text-align: center;
-      cursor: pointer;
-      transition: all 0.2s;
-    }
-    .type-btn:hover { border-color: var(--primary); }
-    .type-btn.selected { border-color: var(--primary); background: #3b82f615; }
-    .type-icon { font-size: 2.5rem; margin-bottom: 0.75rem; }
-    .type-label { font-size: 1.1rem; font-weight: 600; margin-bottom: 0.25rem; }
-    .type-desc { font-size: 0.85rem; color: var(--text-muted); margin-bottom: 0.5rem; }
-    .type-hint { font-size: 0.8rem; color: var(--primary); }
-
-    /* Summary */
-    .summary-card {
-      background: var(--card-bg);
-      border: 1px solid var(--border);
-      border-radius: 12px;
-      padding: 1.5rem;
-      margin-bottom: 1.5rem;
-    }
-    .summary-item {
-      display: flex;
-      justify-content: space-between;
-      padding: 0.75rem 0;
-      border-bottom: 1px solid var(--border);
-    }
-    .summary-item:last-child { border-bottom: none; }
-    .summary-label { color: var(--text-muted); }
-    .summary-value { font-weight: 600; }
-
-    /* Buttons */
-    .btn-group { display: flex; gap: 1rem; justify-content: center; }
-    .btn {
-      padding: 0.75rem 1.5rem;
-      border-radius: 8px;
-      font-weight: 600;
-      cursor: pointer;
-      border: none;
-      transition: all 0.2s;
-    }
-    .btn-primary { background: var(--primary); color: white; }
-    .btn-primary:hover { background: #2563eb; }
-    .btn-secondary { background: var(--border); color: var(--text); }
-    .btn-secondary:hover { background: var(--border-light); }
-
-    .start-btn {
-      width: 100%;
-      max-width: 300px;
-      margin: 0 auto;
-      display: block;
-      padding: 1rem;
-      background: var(--primary);
-      color: white;
-      border: none;
-      border-radius: 12px;
-      font-size: 1.1rem;
-      font-weight: 700;
-      cursor: pointer;
-      transition: all 0.2s;
-    }
-    .start-btn:hover { background: #2563eb; transform: translateY(-2px); }
-
-    .nav-btns {
-      display: flex;
-      justify-content: space-between;
-      margin-top: 2rem;
-    }
-    .nav-btn {
-      padding: 0.5rem 1rem;
-      background: var(--border);
-      border: none;
-      border-radius: 6px;
-      color: var(--text);
-      cursor: pointer;
-    }
-    .nav-btn:disabled { opacity: 0.5; cursor: not-allowed; }
-
-    /* Coming Soon Overlay */
-    .coming-soon {
-      background: var(--card-bg);
-      border: 1px solid var(--border);
-      border-radius: 12px;
-      padding: 3rem;
-      text-align: center;
-    }
-    .coming-soon .icon { font-size: 3rem; margin-bottom: 1rem; }
-    .coming-soon h2 { margin-bottom: 0.5rem; }
-    .coming-soon p { color: var(--text-muted); }
+    body { overflow-x: hidden; }
   </style>
 </head>
-<body>
-  <header class="topnav">
-    <div class="topnav-inner">
-      <a href="../" class="brand">
+<body data-page="training">
+  <header class="site-header">
+    <div class="shell nav">
+      <a class="brand" id="nav-brand">
         <span class="brand-mark">AP</span>
-        <span class="brand-title">AP Learning</span>
+        <span class="brand-copy">
+          <span class="brand-title">AP Practice Website</span>
+          <span class="brand-subtitle">自用 AP 练习站</span>
+        </span>
       </a>
-      <nav class="nav-links">
-        <a href="../">首页</a>
-        <a href="../mock/">套题模考</a>
-        <a href="./" class="active">专项训练</a>
-        <a href="../dashboard/">Dashboard</a>
+      <nav class="nav-main" aria-label="Primary">
+        <a id="nav-home">首页</a>
+        <a id="nav-mock">套题模考</a>
+        <a class="is-active" id="nav-training">专项训练</a>
+        <a id="nav-dashboard">Dashboard</a>
       </nav>
-      <div class="user-avatar">OC</div>
+      <a class="avatar-entry" id="nav-profile" aria-label="Open profile">
+        <span class="avatar">OC</span>
+        <span class="avatar-meta">
+          <strong>Olivia Chen</strong>
+          <span>Profile</span>
+        </span>
+      </a>
     </div>
   </header>
+  <script>
+    document.getElementById('nav-brand').href = window.sitePath('/');
+    document.getElementById('nav-home').href = window.sitePath('/');
+    document.getElementById('nav-mock').href = window.sitePath('/mock/');
+    document.getElementById('nav-training').href = window.sitePath('/training/');
+    document.getElementById('nav-dashboard').href = window.sitePath('/dashboard/');
+    document.getElementById('nav-profile').href = window.sitePath('/profile/');
+  </script>
 
-  <main class="container">
-    <h1>专项训练</h1>
-    <p class="subtitle">选择科目 → 选择题型 → 开始练习</p>
+  <main class="page-main shell">
+    <section class="page-heading" style="text-align:center;">
+      <h1>专项训练</h1>
+      <p>选择科目 → 选择题型 → 开始练习</p>
+    </section>
 
     <!-- Steps -->
-    <div class="steps">
+    <div class="steps" style="justify-content:center;margin-bottom:24px;">
       <div class="step active" data-step="1">
         <div class="step-num">1</div>
         <div class="step-label">科目</div>
@@ -296,87 +72,116 @@
       </div>
     </div>
 
-    <!-- Step 1: Subject -->
-    <section class="step-panel active" id="step-1">
-      <h2>选择科目</h2>
-      <div class="subject-grid">
-        <div class="subject-card" data-subject="calculus_bc">
-          <div class="subject-icon">📐</div>
-          <div class="subject-name">AP Calculus BC</div>
-          <div class="subject-count">10 Units · 45题</div>
+    <section class="page-panel" style="max-width:700px;margin:0 auto;">
+      <!-- Step 1: Subject -->
+      <section class="step-panel active" id="step-1" style="padding:24px;">
+        <h2 style="text-align:center;margin-bottom:18px;">选择科目</h2>
+        <div class="subject-grid" style="grid-template-columns:repeat(2,1fr);">
+          <div class="subject-card" data-subject="calculus_bc">
+            <div class="subject-icon" style="font-size:2rem;margin-bottom:8px;">📐</div>
+            <div class="subject-name">AP Calculus BC</div>
+            <div class="subject-count">10 Units · 45题</div>
+          </div>
+          <div class="subject-card" data-subject="calculus_ab">
+            <div class="subject-icon" style="font-size:2rem;margin-bottom:8px;">📊</div>
+            <div class="subject-name">AP Calculus AB</div>
+            <div class="subject-count">8 Units · 38题</div>
+          </div>
+          <div class="subject-card" data-subject="statistics">
+            <div class="subject-icon" style="font-size:2rem;margin-bottom:8px;">📈</div>
+            <div class="subject-name">AP Statistics</div>
+            <div class="subject-count">9 Units · 40题</div>
+          </div>
+          <div class="subject-card" data-subject="microeconomics">
+            <div class="subject-icon" style="font-size:2rem;margin-bottom:8px;">💰</div>
+            <div class="subject-name">AP Microeconomics</div>
+            <div class="subject-count">6 Units · 30题</div>
+          </div>
         </div>
-        <div class="subject-card" data-subject="calculus_ab">
-          <div class="subject-icon">📊</div>
-          <div class="subject-name">AP Calculus AB</div>
-          <div class="subject-count">8 Units · 38题</div>
+      </section>
+
+      <!-- Step 2: Type -->
+      <section class="step-panel" id="step-2" style="padding:24px;display:none;">
+        <h2 style="text-align:center;margin-bottom:18px;">选择题型</h2>
+        <div class="type-grid" style="max-width:500px;margin:0 auto;">
+          <button class="type-btn" data-type="mcq">
+            <div class="type-icon" style="font-size:2.5rem;margin-bottom:8px;">📝</div>
+            <div class="type-label">MCQ</div>
+            <div class="type-desc">选择题</div>
+            <div class="type-hint">广覆盖，练知识点</div>
+          </button>
+          <button class="type-btn" data-type="frq">
+            <div class="type-icon" style="font-size:2.5rem;margin-bottom:8px;">✍️</div>
+            <div class="type-label">FRQ</div>
+            <div class="type-desc">问答题</div>
+            <div class="type-hint">深度综合，练推导</div>
+          </button>
         </div>
-        <div class="subject-card" data-subject="statistics">
-          <div class="subject-icon">📈</div>
-          <div class="subject-name">AP Statistics</div>
-          <div class="subject-count">9 Units · 40题</div>
+      </section>
+
+      <!-- Step 3: Ready -->
+      <section class="step-panel" id="step-3" style="padding:24px;display:none;">
+        <h2 style="text-align:center;margin-bottom:18px;">确认并开始</h2>
+        <div class="summary-card" style="margin-bottom:18px;">
+          <div class="summary-item">
+            <span class="summary-label">科目</span>
+            <span class="summary-value" id="summary-subject">—</span>
+          </div>
+          <div class="summary-item">
+            <span class="summary-label">题型</span>
+            <span class="summary-value" id="summary-type">—</span>
+          </div>
+          <div class="summary-item">
+            <span class="summary-label">题数</span>
+            <span class="summary-value">5 题</span>
+          </div>
         </div>
-        <div class="subject-card" data-subject="microeconomics">
-          <div class="subject-icon">💰</div>
-          <div class="subject-name">AP Microeconomics</div>
-          <div class="subject-count">6 Units · 30题</div>
+        <button class="start-btn" id="start-btn" style="width:100%;max-width:300px;display:block;margin:0 auto;padding:14px;background:var(--accent-soft);color:var(--accent-strong);border:none;border-radius:999px;font-size:1rem;font-weight:800;cursor:pointer;transition:all 0.2s;">🚀 开始练习</button>
+      </section>
+
+      <!-- Coming Soon -->
+      <section class="step-panel" id="step-soon" style="padding:24px;display:none;">
+        <div class="coming-soon" style="text-align:center;padding:3rem;border:1px solid var(--line);border-radius:var(--radius-lg);">
+          <div class="icon" style="font-size:3rem;margin-bottom:1rem;">🚧</div>
+          <h2 style="margin-bottom:8px;">功能开发中</h2>
+          <p style="color:var(--text-muted);">专项训练功能正在开发中，敬请期待...</p>
         </div>
+      </section>
+
+      <!-- Navigation -->
+      <div class="nav-btns" style="display:flex;justify-content:space-between;padding:0 24px 24px;">
+        <button class="nav-btn" id="prev-btn" disabled style="padding:10px 18px;background:var(--card-bg);border:1px solid var(--border);border-radius:999px;color:var(--text);cursor:pointer;font-weight:700;">← 上一步</button>
+        <button class="nav-btn" id="next-btn" disabled style="padding:10px 18px;background:var(--accent-soft);border:none;border-radius:999px;color:var(--accent-strong);cursor:pointer;font-weight:700;">下一步 →</button>
       </div>
     </section>
-
-    <!-- Step 2: Type -->
-    <section class="step-panel" id="step-2">
-      <h2>选择题型</h2>
-      <div class="type-grid">
-        <button class="type-btn" data-type="mcq">
-          <div class="type-icon">📝</div>
-          <div class="type-label">MCQ</div>
-          <div class="type-desc">选择题</div>
-          <div class="type-hint">广覆盖，练知识点</div>
-        </button>
-        <button class="type-btn" data-type="frq">
-          <div class="type-icon">✍️</div>
-          <div class="type-label">FRQ</div>
-          <div class="type-desc">问答题</div>
-          <div class="type-hint">深度综合，练推导</div>
-        </button>
-      </div>
-    </section>
-
-    <!-- Step 3: Ready -->
-    <section class="step-panel" id="step-3">
-      <h2>确认并开始</h2>
-      <div class="summary-card">
-        <div class="summary-item">
-          <span class="summary-label">科目</span>
-          <span class="summary-value" id="summary-subject">—</span>
-        </div>
-        <div class="summary-item">
-          <span class="summary-label">题型</span>
-          <span class="summary-value" id="summary-type">—</span>
-        </div>
-        <div class="summary-item">
-          <span class="summary-label">题数</span>
-          <span class="summary-value">5 题</span>
-        </div>
-      </div>
-      <button class="start-btn" id="start-btn">🚀 开始练习</button>
-    </section>
-
-    <!-- Coming Soon -->
-    <section class="step-panel" id="step-soon">
-      <div class="coming-soon">
-        <div class="icon">🚧</div>
-        <h2>功能开发中</h2>
-        <p>专项训练功能正在开发中，敬请期待...</p>
-      </div>
-    </section>
-
-    <!-- Navigation -->
-    <div class="nav-btns">
-      <button class="nav-btn" id="prev-btn" disabled>← 上一步</button>
-      <button class="nav-btn" id="next-btn" disabled>下一步 →</button>
-    </div>
   </main>
+
+  <footer class="shell footer">
+    <p>Local AP practice workspace. Reference folders remain read-only.</p>
+  </footer>
+
+  <style>
+    .step { display:flex; flex-direction:column; align-items:center; gap:8px; }
+    .step-num { width:40px; height:40px; border-radius:50%; background:var(--card-bg); border:1px solid var(--border); display:flex; align-items:center; justify-content:center; font-weight:700; color:var(--text-muted); }
+    .step.active .step-num { background:var(--accent); color:#fff; border-color:var(--accent); }
+    .step.done .step-num { background:var(--success); color:#fff; border-color:var(--success); }
+    .step-label { font-size:0.75rem; color:var(--text-muted); }
+    .step.active .step-label { color:var(--accent-strong); font-weight:700; }
+    .step-line { width:60px; height:2px; background:var(--border); }
+    .subject-card { background:var(--card-bg); border:1px solid var(--line); border-radius:var(--radius-md); padding:20px; text-align:center; cursor:pointer; transition:all 0.2s; }
+    .subject-card:hover { border-color:var(--accent); transform:translateY(-2px); }
+    .subject-card.selected { border-color:var(--accent-strong); background:var(--accent-soft); }
+    .type-btn { background:var(--card-bg); border:1px solid var(--line); border-radius:var(--radius-md); padding:24px; text-align:center; cursor:pointer; transition:all 0.2s; }
+    .type-btn:hover { border-color:var(--accent); }
+    .type-btn.selected { border-color:var(--accent-strong); background:var(--accent-soft); }
+    .type-hint { font-size:0.8rem; color:var(--accent-strong); margin-top:6px; }
+    .summary-card { border:1px solid var(--line); border-radius:var(--radius-md); background:var(--card-bg); overflow:hidden; }
+    .summary-item { display:flex; justify-content:space-between; padding:12px 16px; border-bottom:1px solid var(--line); }
+    .summary-item:last-child { border-bottom:none; }
+    .summary-label { color:var(--text-muted); }
+    .summary-value { font-weight:700; }
+    .step-panel.active { display:block !important; }
+  </style>
 
   <script>
     let currentStep = 1;
@@ -396,7 +201,6 @@
     };
 
     function updateUI() {
-      // Update step indicators
       document.querySelectorAll('.step').forEach((step, i) => {
         const stepNum = i + 1;
         step.classList.remove('active', 'done');
@@ -404,17 +208,16 @@
         if (stepNum < currentStep) step.classList.add('done');
       });
 
-      // Update panels
       document.querySelectorAll('.step-panel').forEach(panel => {
-        panel.classList.remove('active');
+        panel.style.display = 'none';
       });
-      document.getElementById(`step-${currentStep}`).classList.add('active');
+      const activePanel = document.getElementById(`step-${currentStep}`);
+      if (activePanel) activePanel.style.display = 'block';
 
-      // Update nav buttons
       document.getElementById('prev-btn').disabled = currentStep === 1;
-      document.getElementById('next-btn').disabled = !canProceed();
+      const nextBtn = document.getElementById('next-btn');
+      nextBtn.disabled = !canProceed();
 
-      // Update summary
       if (selectedSubject) {
         document.getElementById('summary-subject').textContent = subjects[selectedSubject];
       }
@@ -429,7 +232,6 @@
       return true;
     }
 
-    // Subject selection
     document.querySelectorAll('.subject-card').forEach(card => {
       card.addEventListener('click', () => {
         document.querySelectorAll('.subject-card').forEach(c => c.classList.remove('selected'));
@@ -441,7 +243,6 @@
       });
     });
 
-    // Type selection
     document.querySelectorAll('.type-btn').forEach(btn => {
       btn.addEventListener('click', () => {
         document.querySelectorAll('.type-btn').forEach(b => b.classList.remove('selected'));
@@ -453,7 +254,6 @@
       });
     });
 
-    // Navigation
     document.getElementById('next-btn').addEventListener('click', () => {
       if (currentStep < 3) {
         currentStep++;
@@ -468,12 +268,10 @@
       }
     });
 
-    // Start button
     document.getElementById('start-btn').addEventListener('click', () => {
-      // Show coming soon for now
       currentStep = 'soon';
-      document.querySelectorAll('.step-panel').forEach(p => p.classList.remove('active'));
-      document.getElementById('step-soon').classList.add('active');
+      document.querySelectorAll('.step-panel').forEach(p => p.style.display = 'none');
+      document.getElementById('step-soon').style.display = 'block';
       document.querySelector('.nav-btns').style.display = 'none';
       document.querySelector('.steps').style.display = 'none';
     });

@@ -1,0 +1,300 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "AP Learning - Questions Schema",
+  "description": "Single source of truth for all AP question entry. Used by paper.html exam engine.",
+  "_docs": "https://apstudents.collegeboard.org/courses/ap-calculus-bc",
+  "_author": "AP-Learning-Web-01",
+  "_version": "1.0",
+
+  "exam_packet": {
+    "type": "object",
+    "required": ["exam_id", "exam_title", "subject", "total_questions", "sections"],
+    "properties": {
+      "exam_id": {
+        "type": "string",
+        "pattern": "^[a-z0-9-]+$",
+        "examples": ["calc-bc-2018-intl", "calc-ab-2021", "stats-2022-domestic"]
+      },
+      "exam_title": {
+        "type": "string",
+        "examples": ["AP Calculus BC 2018 国际卷", "AP Statistics 2021 美国卷"]
+      },
+      "subject": {
+        "type": "string",
+        "enum": ["calculus_bc", "calculus_ab", "statistics", "microeconomics", "macroeconomics", "physics_c_mech", "physics_c_em", "biology", "chemistry", "physics_1", "physics_2", "psychology", "csa", "ush", "whap"]
+      },
+      "subject_display": {
+        "type": "string",
+        "examples": ["微积分BC", "统计学", "微观经济"]
+      },
+      "year": {
+        "type": "integer",
+        "minimum": 1990,
+        "maximum": 2026
+      },
+      "form": {
+        "type": "string",
+        "enum": ["international", "domestic", "form-k", "form-q"]
+      },
+      "total_questions": {
+        "type": "integer",
+        "minimum": 1
+      },
+      "sections": {
+        "type": "array",
+        "minItems": 1,
+        "items": {
+          "type": "object",
+          "required": ["section_id", "section_type", "part_label", "question_count"],
+          "properties": {
+            "section_id": {
+              "type": "string",
+              "examples": ["mcq-1", "mcq-2", "frq-1", "frq-2"]
+            },
+            "section_type": {
+              "type": "string",
+              "enum": ["mcq", "frq"]
+            },
+            "part_label": {
+              "type": "string",
+              "examples": ["Part A", "Part B", "FRQ 1", "FRQ 2"]
+            },
+            "time_limit_minutes": {
+              "type": "integer",
+              "default": 60
+            },
+            "calculator_allowed": {
+              "type": "boolean",
+              "default": false
+            },
+            "question_count": {
+              "type": "integer"
+            }
+          }
+        }
+      },
+      "metadata": {
+        "type": "object",
+        "properties": {
+          "source": { "type": "string" },
+          "converted_at": { "type": "string", "format": "date" },
+          "language": { "type": "string", "enum": ["en", "zh-CN", "mixed"] },
+          "notes": { "type": "string" }
+        }
+      }
+    }
+  },
+
+  "questions": {
+    "type": "array",
+    "items": {
+      "type": "object",
+      "required": ["question_id", "exam_id", "section_id", "sequence_in_exam", "question_type", "question_html", "correct_answer"],
+      "properties": {
+        "question_id": {
+          "type": "string",
+          "description": "Unique ID within exam, e.g. 'q1', 'q2', 'frq1-1'",
+          "pattern": "^[a-z0-9-]+$"
+        },
+        "exam_id": {
+          "type": "string",
+          "description": "Must match exam_packet.exam_id"
+        },
+        "section_id": {
+          "type": "string",
+          "description": "Must match one of exam_packet.sections[].section_id"
+        },
+        "sequence_in_exam": {
+          "type": "integer",
+          "minimum": 1,
+          "description": "1-based position in full exam"
+        },
+        "question_type": {
+          "type": "string",
+          "enum": ["single_choice", "multi_choice", "frq", "ordering"]
+        },
+        "question_html": {
+          "type": "string",
+          "description": "HTML content. Use $. for inline LaTeX, $$ for display LaTeX. e.g. 'If $y=x^2$ then $y\\'=2x$' or '$$\\int_0^1 x^2 dx$$'",
+          "examples": [
+            "If $y=x\\sqrt{2x+5}$, then $y\\prime=$",
+            "$\\lim_{x\\to0}\\frac{\\sin x}{x}=$"
+          ]
+        },
+        "options": {
+          "type": "array",
+          "description": "Required for MCQ types. Not used for FRQ.",
+          "items": {
+            "type": "object",
+            "required": ["key", "html"],
+            "properties": {
+              "key": {
+                "type": "string",
+                "description": "Option letter or identifier",
+                "examples": ["A", "B", "C", "D"]
+              },
+              "html": {
+                "type": "string",
+                "description": "HTML option content with optional LaTeX"
+              }
+            }
+          }
+        },
+        "correct_answer": {
+          "type": "string",
+          "description": "Single: 'A'|'B'|'C'|'D'. Multi: comma-separated 'A,B'. FRQ: null. Ordering: 'A,B,C,D'",
+          "examples": ["A", "B", "C", "D", "A,B", "A,C,D"]
+        },
+        "unit": {
+          "type": "string",
+          "description": "AP Unit label. MUST match one of the subject's official unit labels. Used for per-Unit mastery tracking.",
+          "examples": [
+            "Unit 1: Limits and Continuity",
+            "Unit 2: Differentiation",
+            "Unit 6: Integration and Accumulation of Change"
+          ],
+          "_calculus_bc_units": [
+            "Unit 1: Limits and Continuity",
+            "Unit 2: Differentiation: Definition and Fundamental Properties",
+            "Unit 3: Differentiation: Composite, Implicit, and Inverse Functions",
+            "Unit 4: Contextual Applications of Differentiation",
+            "Unit 5: Analytical Applications of Differentiation",
+            "Unit 6: Integration and Accumulation of Change",
+            "Unit 7: Differential Equations",
+            "Unit 8: Applications of Integration",
+            "Unit 9: Parametric Equations, Polar Coordinates, and Vector Functions",
+            "Unit 10: Infinite Sequences and Series"
+          ],
+          "_calculus_ab_units": [
+            "Unit 1: Limits and Continuity",
+            "Unit 2: Differentiation: Definition and Fundamental Properties",
+            "Unit 3: Differentiation: Composite, Implicit, and Inverse Functions",
+            "Unit 4: Contextual Applications of Differentiation",
+            "Unit 5: Analytical Applications of Differentiation",
+            "Unit 6: Integration and Accumulation of Change",
+            "Unit 7: Differential Equations",
+            "Unit 8: Applications of Integration"
+          ]
+        },
+        "knowledge_points": {
+          "type": "array",
+          "description": "Fine-grained tags for weak-point analysis. Must match known tags in knowledge taxonomy.",
+          "items": { "type": "string" },
+          "_allowed_tags": [
+            "Limits",
+            "Derivatives",
+            "Integrals",
+            "Series",
+            "Differential Equations",
+            "Polar Functions",
+            "Parametric & Vectors",
+            "Motion",
+            "Area & Volume",
+            "Probability",
+            "Statistics",
+            "Correlation",
+            "Hypothesis Testing"
+          ]
+        },
+        "difficulty": {
+          "type": "string",
+          "enum": ["easy", "medium", "hard"],
+          "default": "medium"
+        },
+        "explanation": {
+          "type": "string",
+          "description": "Post-submission explanation, supports LaTeX"
+        },
+        "image_url": {
+          "type": "string",
+          "format": "uri",
+          "description": "Optional figure/image URL. Use ${base} for repo root: '${base}/assets/images/...'",
+          "examples": ["${base}/assets/images/calc-bc-2018/q5-table.png"]
+        },
+        "frq_prompts": {
+          "type": "array",
+          "description": "Required for FRQ. Each prompt is one sub-question (a), (b), (c)...",
+          "items": {
+            "type": "object",
+            "required": ["sub_question", "prompt_html"],
+            "properties": {
+              "sub_question": {
+                "type": "string",
+                "examples": ["(a)", "(b)", "(c)"]
+              },
+              "prompt_html": {
+                "type": "string"
+              },
+              "max_points": {
+                "type": "integer",
+                "default": 1
+              }
+            }
+          }
+        },
+        "rubric": {
+          "type": "array",
+          "description": "Scoring rubrics for FRQ self-assessment",
+          "items": {
+            "type": "object",
+            "properties": {
+              "criterion": { "type": "string" },
+              "points": { "type": "integer" },
+              "description": { "type": "string" }
+            }
+          }
+        }
+      }
+    }
+  },
+
+  "knowledge_taxonomy": {
+    "calculus_bc": ["Limits", "Derivatives", "Integrals", "Series", "Differential Equations", "Polar Functions", "Parametric & Vectors", "Motion", "Area & Volume", "Probability"],
+    "calculus_ab": ["Limits", "Derivatives", "Integrals", "Differential Equations", "Motion", "Area & Volume"],
+    "statistics": ["Probability", "Sampling Distributions", "Estimation", "Hypothesis Testing", "Correlation", "Regression"],
+    "microeconomics": ["Supply and Demand", "Elasticity", "Producer Theory", "Market Structures", "Factor Markets", "Market Failure"],
+    "macroeconomics": ["National Income", "Money and Banking", " Monetary Policy", "Fiscal Policy", "Economic Growth", "International Trade"]
+  },
+
+  "localStorage_schema": {
+    "AP_USER_PROGRESS": {
+      "key": "AP_USER_PROGRESS",
+      "description": "Primary progress store written by paper.html on exam submission",
+      "structure": {
+        "updatedAt": "ISO timestamp",
+        "subjects": {
+          "[subject_id]": {
+            "displayName": "string",
+            "totalAnswered": "integer",
+            "totalCorrect": "integer",
+            "accuracy": "float 0-100",
+            "units": {
+              "[unit_label]": {
+                "answered": "integer",
+                "correct": "integer",
+                "questions": ["question_id array"],
+                "masteryScore": "float 0-5 (5=mastered)",
+                "lastPracticed": "ISO timestamp"
+              }
+            },
+            "weakPoints": ["knowledge_point strings"]
+          }
+        },
+        "examHistory": [
+          {
+            "examId": "string",
+            "examTitle": "string",
+            "subject": "string",
+            "completedAt": "ISO timestamp",
+            "totalQuestions": "integer",
+            "correct": "integer",
+            "accuracy": "float",
+            "unitBreakdown": {
+              "[unit_label]": { "correct": "integer", "total": "integer" }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

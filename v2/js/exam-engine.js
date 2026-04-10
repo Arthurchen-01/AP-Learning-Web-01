@@ -180,6 +180,140 @@ export function calculateResults(exam, state) {
   return results;
 }
 
+// === AP_USER_PROGRESS — structured per-unit progress ===
+const PROGRESS_KEY = 'AP_USER_PROGRESS';
+
+// Load current progress
+export function loadUserProgress() {
+  try {
+    const raw = localStorage.getItem(PROGRESS_KEY);
+    return raw ? JSON.parse(raw) : null;
+  } catch (e) {
+    return null;
+  }
+}
+
+// Save updated progress after exam submission
+export function updateUserProgress(exam, state, results) {
+  const progress = loadUserProgress() || {
+    updatedAt: null,
+    subjects: {},
+    examHistory: []
+  };
+
+  const subject = exam.subject;
+  const now = new Date().toISOString();
+  progress.updatedAt = now;
+
+  // Init subject if needed
+  if (!progress.subjects[subject]) {
+    progress.subjects[subject] = {
+      displayName: exam.subject_display || exam.subject,
+      totalAnswered: 0,
+      totalCorrect: 0,
+      accuracy: 0,
+      units: {},
+      weakPoints: []
+    };
+  }
+  const sub = progress.subjects[subject];
+
+  // Per-unit breakdown for this exam
+  const unitBreakdown = {};
+  const wrongByKP = {};
+
+  exam.sections.forEach((section, sIdx) => {
+    const secState = state.sections[sIdx];
+    section.questions.forEach((q, qIdx) => {
+      const answer = secState.answers[qIdx];
+      if (answer === null || answer === undefined || answer === '') return;
+
+      const isCorrect = answer === q.correct_answer;
+      const unitLabel = q.unit || 'Unknown';
+
+      // Init unit if needed
+      if (!sub.units[unitLabel]) {
+        sub.units[unitLabel] = {
+          answered: 0,
+          correct: 0,
+          questions: [],
+          masteryScore: 0,
+          lastPracticed: null
+        };
+      }
+      const unit = sub.units[unitLabel];
+
+      // Avoid double-counting same question (in case of re-submission)
+      if (!unit.questions.includes(q.question_id)) {
+        unit.answered++;
+        if (isCorrect) unit.correct++;
+        unit.questions.push(q.question_id);
+        unit.lastPracticed = now;
+      }
+
+      // Track wrong knowledge points
+      if (!isCorrect && q.knowledge_points) {
+        q.knowledge_points.forEach(kp => {
+          wrongByKP[kp] = (wrongByKP[kp] || 0) + 1;
+        });
+      }
+    });
+  });
+
+  // Recalculate subject totals
+  let totalA = 0, totalC = 0;
+  Object.values(sub.units).forEach(u => {
+    totalA += u.answered;
+    totalC += u.correct;
+  });
+  sub.totalAnswered = totalA;
+  sub.totalCorrect = totalC;
+  sub.accuracy = totalA > 0 ? Math.round((totalC / totalA) * 100) : 0;
+
+  // Update mastery scores per unit (Bayesian-ish: starts at 2.5, shifts ±0.5 per result)
+  Object.values(sub.units).forEach(unit => {
+    if (unit.answered >= 3) {
+      const rate = unit.correct / unit.answered;
+      // masteryScore: 0–5 scale, weighted toward experience
+      const weight = Math.min(unit.answered / 20, 1);
+      const score = 1 + rate * 4; // 1.0 to 5.0
+      unit.masteryScore = Math.round((unit.masteryScore * (1 - weight) + score * weight) * 10) / 10;
+    }
+  });
+
+  // Weak points: knowledge points with ≥2 wrong answers
+  const wp = Object.entries(wrongByKP)
+    .filter(([, count]) => count >= 2)
+    .sort((a, b) => b[1] - a[1])
+    .map(([kp]) => kp);
+  sub.weakPoints = wp.slice(0, 5);
+
+  // Exam history entry
+  const historyEntry = {
+    examId: exam.exam_id,
+    examTitle: exam.exam_title,
+    subject,
+    completedAt: now,
+    totalQuestions: results.totalQuestions,
+    correct: results.totalCorrect,
+    accuracy: results.accuracy,
+    unitBreakdown
+  };
+  progress.examHistory.unshift(historyEntry);
+  progress.examHistory = progress.examHistory.slice(0, 50); // keep last 50
+
+  localStorage.setItem(PROGRESS_KEY, JSON.stringify(progress));
+  return progress;
+}
+
+// Get mastery probability (0–5 scale) for a unit
+export function getUnitMasteryScore(subject, unitLabel) {
+  const progress = loadUserProgress();
+  if (!progress || !progress.subjects[subject]) return null;
+  const unit = progress.subjects[subject].units[unitLabel];
+  return unit ? unit.masteryScore : null;
+}
+
 // 答题验证
 export function checkAnswer(exam, sectionIndex, questionIndex, userAnswer) {
   const section = exam.sections[sectionIndex];

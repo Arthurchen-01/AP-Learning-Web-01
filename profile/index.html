@@ -5,28 +5,28 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Profile · AP Practice Website</title>
   <meta name="robots" content="noindex">
-  <link rel="stylesheet" href="../assets/site.css">
   <script src="../assets/site-base.js"></script>
+  <script>document.head.insertAdjacentHTML('beforeend','<link rel="stylesheet" href="'+window.sitePath('/assets/site.css')+'" data-site-css>');</script>
   <script src="../assets/mock-state.js" defer></script>
   <script src="../assets/site-pages.js" defer></script>
 </head>
 <body data-page="profile">
   <header class="site-header">
     <div class="shell nav">
-      <a class="brand" href="../">
+      <a class="brand" id="nav-brand">
         <span class="brand-mark">AP</span>
         <span class="brand-copy">
           <span class="brand-title">AP Practice Website</span>
-          <span class="brand-subtitle">自用 AP 练习�?/span>
+          <span class="brand-subtitle">自用 AP 练习站</span>
         </span>
       </a>
       <nav class="nav-main" aria-label="Primary">
-        <a href="../">首页</a>
-        <a href="../mock/">套题模�?/a>
-        <a href="../training/">专项训练</a>
-        <a href="../dashboard/">Dashboard</a>
+        <a id="nav-home">首页</a>
+        <a id="nav-mock">套题模考</a>
+        <a id="nav-training">专项训练</a>
+        <a id="nav-dashboard">Dashboard</a>
       </nav>
-      <a class="avatar-entry is-active" href="../profile/" aria-label="Open profile">
+      <a class="avatar-entry is-active" id="nav-profile" aria-label="Open profile">
         <span class="avatar">OC</span>
         <span class="avatar-meta">
           <strong>Olivia Chen</strong>
@@ -35,11 +35,19 @@
       </a>
     </div>
   </header>
+  <script>
+    document.getElementById('nav-brand').href = window.sitePath('/');
+    document.getElementById('nav-home').href = window.sitePath('/');
+    document.getElementById('nav-mock').href = window.sitePath('/mock/');
+    document.getElementById('nav-training').href = window.sitePath('/training/');
+    document.getElementById('nav-dashboard').href = window.sitePath('/dashboard/');
+    document.getElementById('nav-profile').href = window.sitePath('/profile/');
+  </script>
 
   <main class="page-main shell">
     <section class="page-heading">
       <h1>Profile</h1>
-      <p>个人信息、简介、目标与学习偏好都先集中放在这里�?/p>
+      <p>个人信息、简介、目标与学习偏好都先集中放在这里。</p>
     </section>
     <section class="page-panel">
       <div id="profile-root" data-page-root>

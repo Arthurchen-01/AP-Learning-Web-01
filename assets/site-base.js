@@ -57,7 +57,7 @@
 
 // Apply theme BEFORE CSS loads to prevent flash
 (function() {
-  var theme = localStorage.getItem('ap-theme') || 'light';
+  var theme = localStorage.getItem('ap-theme') || 'dark';
   document.documentElement.dataset.theme = theme;
   window.__applyTheme(theme);
 })();

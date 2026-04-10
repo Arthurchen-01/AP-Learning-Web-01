@@ -15,31 +15,8 @@
     };
   </script>
   <script>document.write('<scr'+'ipt src="'+window._b+'/assets/site-base.js"><\/scr'+'ipt>');</script>
+  <link rel="stylesheet" href="../../assets/global-theme.css">
   <style>
-    :root {
-      --bg: #0f172a;
-      --card-bg: #1e293b;
-      --primary: #3b82f6;
-      --success: #22c55e;
-      --warning: #f59e0b;
-      --danger: #ef4444;
-      --text: #f1f5f9;
-      --text-muted: #94a3b8;
-      --border: #334155;
-    }
-
-    [data-theme="light"] {
-      --bg: #fff8f1;
-      --card-bg: #fffdf9;
-      --primary: #e89255;
-      --success: #22c55e;
-      --warning: #f59e0b;
-      --danger: #ef4444;
-      --text: #533624;
-      --text-muted: #86624c;
-      --border: #f0d2b8;
-    }
-
     * { box-sizing: border-box; margin: 0; padding: 0; }
 
     body {
@@ -526,7 +503,7 @@
 
   <script type="module">
     import { loadExam, loadExamQuestions } from '../js/data-service.js';
-    import { createFreshState, loadState, saveState, formatTime, ExamTimer, clearState, calculateResults, saveWrongQuestion } from '../js/exam-engine.js';
+    import { createFreshState, loadState, saveState, formatTime, ExamTimer, clearState, calculateResults, saveWrongQuestion, updateUserProgress } from '../js/exam-engine.js';
 
     // 解析 URL 参数
     const params = new URLSearchParams(window.location.search);
@@ -1060,6 +1037,11 @@
         });
         localStorage.setItem('ap-learning-sessions', JSON.stringify(sessions.slice(0, 20)));
       } catch(e) {}
+
+      // ★ 写入 AP_USER_PROGRESS — 结构化 per-Unit 进度
+      try {
+        updateUserProgress(exam, state, results);
+      } catch(e) { console.warn('updateUserProgress failed:', e); }
 
       document.getElementById('exam-layout').innerHTML = `
         <div class="results-panel">
