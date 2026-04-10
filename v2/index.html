@@ -5,6 +5,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>AP Learning - 正式版</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css">
+  <script>
+    // Resolve repo base path for GitHub Pages
+    var m = location.pathname.match(/^\/(AP-Learning-Web-0\d)(?:\/|$)/);
+    window._b = '/' + (m ? m[1] : 'AP-Learning-Web');
+    window.sitePath = function(p) {
+      if (/^(?:[a-z]+:)?\/\//i.test(p)) return p;
+      var n = p.startsWith('/') ? p : '/' + p;
+      return window._b + n;
+    };
+  </script>
   <style>
     :root {
       --bg: #0f172a;
@@ -157,9 +167,9 @@
   <header>
     <div class="logo">AP Learning</div>
     <nav>
-      <a href="v2/" class="active">首页</a>
-      <a href="v2/exam/">套题模考</a>
-      <a href="v2/dashboard/">学习面板</a>
+      <a id="nav-home">首页</a>
+      <a id="nav-exam">套题模考</a>
+      <a id="nav-dashboard">学习面板</a>
     </nav>
   </header>
 
@@ -167,8 +177,8 @@
     <h1>AP 学习平台</h1>
     <p>高效备考，自主练习，实时掌握学习进度</p>
     <div class="hero-actions">
-      <a href="v2/exam/" class="btn btn-primary">开始模考</a>
-      <a href="v2/dashboard/" class="btn btn-secondary">查看进度</a>
+      <a id="hero-start-exam" class="btn btn-primary">开始模考</a>
+      <a id="hero-view-progress" class="btn btn-secondary">查看进度</a>
     </div>
   </section>
 
@@ -224,11 +234,20 @@
     import { loadExamIndex } from './js/data-service.js';
 
     async function init() {
+      // 设置导航链接
+      document.getElementById('nav-home').href = window.sitePath('/v2/');
+      document.getElementById('nav-exam').href = window.sitePath('/v2/exam/');
+      document.getElementById('nav-dashboard').href = window.sitePath('/v2/dashboard/');
+
       // 加载用户进度
       const progress = JSON.parse(localStorage.getItem('ap-learning-progress') || '{"exams":0,"questions":0,"accuracy":0}');
       document.getElementById('total-exams').textContent = progress.exams;
       document.getElementById('total-questions').textContent = progress.questions;
       document.getElementById('accuracy').textContent = progress.accuracy + '%';
+
+      // 设置Hero按钮
+      document.getElementById('hero-start-exam').href = window.sitePath('/v2/exam/');
+      document.getElementById('hero-view-progress').href = window.sitePath('/v2/dashboard/');
 
       // 加载科目网格
       const grid = document.getElementById('subjects-grid');
@@ -242,7 +261,7 @@
       ];
 
       grid.innerHTML = subjects.map(s => `
-        <div class="subject-card" onclick="location.href='v2/dashboard/?subject=${s.id}'">
+        <div class="subject-card" style="cursor:pointer" onclick="location.href='${window.sitePath('/v2/dashboard/?subject='+s.id)}'">
           <h3>${s.name}</h3>
           <div class="meta">${s.units} Units</div>
           <div class="mastery-bar">
@@ -254,6 +273,14 @@
           </div>
         </div>
       `).join('');
+
+      // 修复快速开始中的试卷链接
+      const examLinks = document.querySelectorAll('.exam-item a[href]');
+      examLinks.forEach(link => {
+        if (link.href.includes('paper.html')) {
+          link.href = window.sitePath('/v2/exam/paper.html') + '?exam=calc-bc-2018-intl';
+        }
+      });
     }
 
     init();
