@@ -268,6 +268,38 @@
       margin-top: 2rem;
       padding-top: 1rem;
       border-top: 1px solid var(--border);
+      flex-wrap: wrap;
+      gap: 0.5rem;
+    }
+
+    .question-notes {
+      width: 100%;
+      margin-top: 0.75rem;
+    }
+    .question-notes label {
+      display: block;
+      font-size: 0.8rem;
+      color: var(--text-muted);
+      margin-bottom: 0.35rem;
+      font-weight: 600;
+    }
+    .question-notes textarea {
+      width: 100%;
+      min-height: 64px;
+      padding: 0.6rem 0.8rem;
+      border-radius: 8px;
+      border: 1px solid var(--border);
+      background: var(--bg);
+      color: var(--text);
+      font-size: 0.88rem;
+      font-family: inherit;
+      resize: vertical;
+      transition: border-color 0.2s;
+      box-sizing: border-box;
+    }
+    .question-notes textarea:focus {
+      outline: none;
+      border-color: var(--primary);
     }
 
     .progress-info {
@@ -671,6 +703,11 @@
               <button class="btn" id="btn-next">${qIndex === exam.sections[currentSectionIndex].questions.length - 1 ? '下一部分 →' : '下一题 →'}</button>
             </div>
           </div>
+
+          <div class="question-notes">
+            <label for="question-notes-input">📝 笔记</label>
+            <textarea id="question-notes-input" placeholder="添加笔记...">${section.notes[qIndex] || ''}</textarea>
+          </div>
         </div>
 
         <div class="navigator">
@@ -776,6 +813,16 @@
       // 导航按钮
       document.getElementById('btn-prev').addEventListener('click', prevQuestion);
       document.getElementById('btn-next').addEventListener('click', nextQuestion);
+
+      // 笔记自动保存
+      let notesTimeout = null;
+      document.getElementById('question-notes-input').addEventListener('input', (e) => {
+        section.notes[qIndex] = e.target.value;
+        clearTimeout(notesTimeout);
+        notesTimeout = setTimeout(() => {
+          saveState(examId, state);
+        }, 500);
+      });
 
       renderSidebarNav();
     }

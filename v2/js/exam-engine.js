@@ -54,7 +54,8 @@ export function createFreshState(exam) {
       flagged: new Array(section.question_count).fill(false),
       excluded: new Array(section.question_count).fill(false),
       frqImages: null,
-      selfAssessment: new Array(section.question_count).fill(null)
+      selfAssessment: new Array(section.question_count).fill(null),
+      notes: new Array(section.question_count).fill('')
     })),
     results: null
   };
