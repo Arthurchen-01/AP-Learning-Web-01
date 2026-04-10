@@ -53,7 +53,8 @@ export function createFreshState(exam) {
       answers: new Array(section.question_count).fill(null),
       flagged: new Array(section.question_count).fill(false),
       excluded: new Array(section.question_count).fill(false),
-      frqImages: null
+      frqImages: null,
+      selfAssessment: new Array(section.question_count).fill(null)
     })),
     results: null
   };

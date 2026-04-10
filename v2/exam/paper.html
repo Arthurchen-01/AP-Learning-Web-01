@@ -201,6 +201,43 @@
     .feedback-banner .fb-explanation { margin-top: 0.5rem; color: var(--text-muted); font-size: 0.9rem; border-top: 1px solid #334155; padding-top: 0.5rem; }
     @keyframes fadeIn { from { opacity: 0; transform: translateY(-4px); } to { opacity: 1; transform: translateY(0); } }
 
+    /* FRQ Scoring Points Self-Assessment */
+    .frq-scoring-points {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      margin-bottom: 1rem;
+      overflow: hidden;
+    }
+    .sp-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0.75rem 1rem;
+      background: #1e293b;
+      border-bottom: 1px solid var(--border);
+    }
+    .sp-title { font-size: 0.9rem; font-weight: 600; color: var(--text); }
+    .sp-progress { font-size: 0.8rem; color: var(--primary); background: #3b82f620; padding: 0.2rem 0.6rem; border-radius: 12px; }
+    .sp-row {
+      display: flex;
+      align-items: flex-start;
+      gap: 0.75rem;
+      padding: 0.75rem 1rem;
+      border-bottom: 1px solid var(--border);
+      cursor: pointer;
+      transition: background 0.15s;
+      font-size: 0.88rem;
+      line-height: 1.4;
+    }
+    .sp-row:last-child { border-bottom: none; }
+    .sp-row:hover { background: #ffffff08; }
+    .sp-row.checked { background: #22c55e08; }
+    .sp-row.checked .sp-sign { color: var(--success); }
+    .sp-row input[type=checkbox] { margin-top: 2px; accent-color: var(--success); width: 15px; height: 15px; flex-shrink: 0; cursor: pointer; }
+    .sp-sign { font-weight: 600; color: var(--text-muted); min-width: 28px; }
+    .sp-content { color: var(--text); flex: 1; }
+
     /* Question Footer */
     .question-footer {
       display: flex;
@@ -461,10 +498,11 @@
       if (!state) {
         state = createFreshState(exam);
       } else {
-        // 迁移旧状态：补充 excluded 和 frqImages 字段
+        // 迁移旧状态：补充 excluded、frqImages、selfAssessment 字段
         state.sections.forEach(section => {
           if (!section.excluded) section.excluded = new Array(section.answers.length).fill(false);
           if (!section.frqImages) section.frqImages = null;
+          if (!section.selfAssessment) section.selfAssessment = new Array(section.answers.length).fill(null);
         });
       }
       // 将 questions 附加到 exam（无论新创建还是加载的 state）
@@ -539,8 +577,24 @@
       let responseHTML = '';
       if (frq) {
         const frqImages = section.frqImages ?? '';
+        const selfAssess = section.selfAssessment?.[qIndex] ?? [];
+        const parts = question.subjectiveList || [];
         responseHTML = `
           <div style="margin-top:1.5rem">
+            ${parts.length > 0 ? `
+            <div class="frq-scoring-points">
+              <div class="sp-header">
+                <span class="sp-title">📋 得分点自检</span>
+                <span class="sp-progress">${selfAssess.filter(Boolean).length}/${parts.length}</span>
+              </div>
+              ${parts.map((part, pi) => `
+                <label class="sp-row ${selfAssess[pi] ? 'checked' : ''}">
+                  <input type="checkbox" data-partidx="${pi}" ${selfAssess[pi] ? 'checked' : ''}>
+                  <span class="sp-sign">(${part.partSign})</span>
+                  <span class="sp-content">${part.partContent.replace(/<[^>]+>/g, '').slice(0, 80)}${part.partContent.replace(/<[^>]+>/g, '').length > 80 ? '...' : ''}</span>
+                </label>
+              `).join('')}
+            </div>` : ''}
             <div class="frq-upload-zone ${frqImages ? 'has-image' : ''}" id="frq-upload-zone">
               ${frqImages
                 ? `<img src="${frqImages}" class="frq-preview" id="frq-preview-img"/>
@@ -662,6 +716,21 @@
             renderQuestion();
           });
         }
+        // 得分点自检 Checkbox 事件
+        document.querySelectorAll('.sp-row input[type=checkbox]').forEach(cb => {
+          cb.addEventListener('change', () => {
+            const pi = parseInt(cb.dataset.partidx);
+            if (!section.selfAssessment) section.selfAssessment = {};
+            if (!section.selfAssessment[qIndex]) section.selfAssessment[qIndex] = [];
+            section.selfAssessment[qIndex][pi] = cb.checked;
+            saveState(examId, state);
+            cb.closest('.sp-row').classList.toggle('checked', cb.checked);
+            const checked = section.selfAssessment[qIndex].filter(Boolean).length;
+            const total = (exam.sections[currentSectionIndex].questions[qIndex]?.subjectiveList || []).length;
+            const prog = document.querySelector('.sp-progress');
+            if (prog) prog.textContent = `${checked}/${total}`;
+          });
+        });
       } else {
         // MCQ 选项点击
         document.querySelectorAll('.option-row').forEach(row => {
