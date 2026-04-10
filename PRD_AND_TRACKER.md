@@ -35,7 +35,12 @@
   - 显示反馈Banner："✅ Correct!" 或 "❌ Incorrect + 正确答案"
   - 已在 calc-bc-2018-intl 试卷上验证 Q1/Q2 多题，3次连续测试 0 报错
 
-- [ ] **P1.3 - FRQ得分点核对模式**：FRQ大题目前只有图片上传。需要增加"得分点模式"：显示标准答案要点列表，用户自评每点是否覆盖
+- [x] **P1.3 - FRQ得分点核对模式**：✅ 已完成（2026-04-10）
+  - 实现了 FRQ 得分点自检 UI（`subjectiveList` 渲染为勾选清单）
+  - 每题显示 (a)(b)(c) 小问及进度 "1/3" 格式
+  - 用户勾选后自动保存到 `section.selfAssessment[]` 并持久化
+  - CSS 已包含绿/红/动画样式，与 MCQ 即时反馈视觉一致
+  - 注意：当前考试数据无 FRQ Section（2013Intl 的 FRQ 题目 section_id 不匹配 exam_packet），代码已验证无报错，待 FRQ 题目数据完善后自动生效
 
 - [ ] **P1.4 - 做题结果页增强**：当前showResults()只显示总分。需要补充：按Section分析正确率、按知识点分析薄弱环节、推荐复习Topic
 
