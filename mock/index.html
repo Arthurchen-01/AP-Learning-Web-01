@@ -54,20 +54,43 @@
       <p>选择试卷，开始计时练习</p>
     </section>
 
-    <section class="page-panel">
-      <div class="filters" style="padding: 18px 22px 0;">
-        <select class="filter-select" id="subject-filter">
-          <option value="">全部科目</option>
-        </select>
-        <select class="filter-select" id="year-filter">
-          <option value="">全部年份</option>
-        </select>
-        <select class="filter-select" id="type-filter">
-          <option value="">全部类型</option>
-        </select>
+    <!-- Stats bar -->
+    <div class="stats-bar" id="stats-bar">
+      <div class="stat-item">
+        <span class="stat-number" id="stat-exams">-</span>
+        <span class="stat-label">套试卷</span>
       </div>
-      <div class="exam-list dashboard-list" id="exam-list" style="padding: 16px 22px 22px;">
-        <div class="loading-state">加载中...</div>
+      <div class="stat-divider"></div>
+      <div class="stat-item">
+        <span class="stat-number" id="stat-questions">-</span>
+        <span class="stat-label">道题目</span>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat-item">
+        <span class="stat-number" id="stat-subjects">-</span>
+        <span class="stat-label">个科目</span>
+      </div>
+    </div>
+
+    <!-- Filters -->
+    <section class="page-panel">
+      <div class="filters-bar">
+        <div class="filter-row">
+          <div class="subject-pills" id="subject-pills">
+            <button class="pill active" data-subject="">全部</button>
+          </div>
+        </div>
+        <div class="filter-row filter-row-secondary">
+          <select class="filter-select" id="year-filter" aria-label="按年份筛选">
+            <option value="">全部年份</option>
+          </select>
+          <select class="filter-select" id="type-filter" aria-label="按类型筛选">
+            <option value="">全部类型</option>
+          </select>
+        </div>
+      </div>
+      <div class="exam-groups" id="exam-groups" aria-live="polite" aria-label="考试列表">
+        <div class="loading-state" role="status">加载中...</div>
       </div>
     </section>
   </main>
@@ -77,68 +100,336 @@
   </footer>
 
   <style>
+    /* Stats bar */
+    .stats-bar {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 24px;
+      padding: 16px 24px;
+      background: var(--card-bg);
+      border: 1px solid var(--line);
+      border-radius: var(--radius-md);
+      margin-bottom: 20px;
+    }
+    .stat-item { text-align: center; }
+    .stat-number {
+      display: block;
+      font-size: 1.5rem;
+      font-weight: 800;
+      color: var(--accent);
+      line-height: 1.2;
+    }
+    .stat-label {
+      font-size: 0.8rem;
+      color: var(--text-muted);
+      font-weight: 600;
+    }
+    .stat-divider {
+      width: 1px;
+      height: 32px;
+      background: var(--line);
+    }
+
+    /* Filter area */
+    .filters-bar {
+      padding: 18px 22px 10px;
+    }
+    .filter-row {
+      margin-bottom: 10px;
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+      scrollbar-width: thin;
+    }
+    .filter-row-secondary {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+
+    /* Subject pills */
+    .subject-pills {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+    .pill {
+      padding: 6px 16px;
+      border-radius: 999px;
+      border: 1.5px solid var(--line);
+      background: transparent;
+      color: var(--text);
+      font-size: 0.85rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.2s;
+      white-space: nowrap;
+    }
+    .pill:hover,
+    .pill:focus {
+      border-color: var(--accent);
+      color: var(--accent);
+      outline: 2px solid var(--accent);
+      outline-offset: 2px;
+    }
+    .pill:focus:not(:focus-visible) {
+      outline: none;
+    }
+    .pill.active {
+      background: var(--accent);
+      border-color: var(--accent);
+      color: var(--on-accent, #fff);
+    }
+
+    /* Styled selects */
     .filter-select {
-      padding: 8px 14px;
-      border: 1px solid var(--border);
+      padding: 7px 14px;
+      border: 1.5px solid var(--line);
       border-radius: 999px;
       background: var(--card-bg);
       color: var(--text);
-      font-size: 0.9rem;
+      font-size: 0.85rem;
       font-weight: 600;
       cursor: pointer;
-      margin-right: 8px;
-      margin-bottom: 8px;
+      transition: border-color 0.2s;
+      appearance: auto;
     }
-    .exam-list { display: flex; flex-direction: column; gap: 12px; }
+    .filter-select:hover,
+    .filter-select:focus {
+      border-color: var(--accent);
+      outline: 2px solid var(--accent);
+      outline-offset: 1px;
+    }
+
+    /* Exam groups container */
+    .exam-groups {
+      padding: 10px 22px 22px;
+    }
+
+    /* Subject group */
+    .subject-group {
+      margin-bottom: 24px;
+    }
+    .subject-group-header {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding: 10px 0;
+      cursor: pointer;
+      user-select: none;
+      border-bottom: 1px solid var(--line);
+      margin-bottom: 14px;
+    }
+    .subject-group-header:focus {
+      outline: 2px solid var(--accent);
+      outline-offset: 2px;
+    }
+    .subject-group-header:hover .subject-group-name {
+      color: var(--accent);
+    }
+    .subject-group-icon {
+      font-size: 1.3rem;
+      width: 36px;
+      height: 36px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: var(--accent-soft);
+      border-radius: 10px;
+      flex-shrink: 0;
+    }
+    .subject-group-name {
+      font-size: 1.05rem;
+      font-weight: 700;
+      transition: color 0.2s;
+    }
+    .subject-group-count {
+      font-size: 0.78rem;
+      color: var(--text-muted);
+      background: var(--bg-subtle, var(--line));
+      padding: 2px 10px;
+      border-radius: 999px;
+      font-weight: 600;
+    }
+    .subject-group-chevron {
+      margin-left: auto;
+      font-size: 0.85rem;
+      color: var(--text-muted);
+      transition: transform 0.25s;
+    }
+    .subject-group.collapsed .subject-group-chevron {
+      transform: rotate(-90deg);
+    }
+    .subject-group.collapsed .subject-group-grid {
+      display: none;
+    }
+
+    /* Card grid */
+    .subject-group-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 14px;
+    }
+
+    /* Exam card */
     .exam-card {
       display: flex;
-      justify-content: space-between;
-      align-items: center;
+      flex-direction: column;
       padding: 18px 20px;
       border: 1px solid var(--line);
       border-radius: var(--radius-md);
       background: var(--card-bg);
-      transition: all 0.2s;
-    }
-    .exam-card:hover { border-color: var(--accent); transform: translateX(4px); }
-    .exam-info h3 { font-size: 1rem; margin-bottom: 6px; }
-    .exam-meta { display: flex; flex-wrap: wrap; gap: 12px; color: var(--text-muted); font-size: 0.82rem; }
-    .exam-meta span { display: flex; align-items: center; gap: 4px; }
-    .btn {
-      padding: 8px 18px;
-      border-radius: 999px;
-      font-weight: 800;
+      transition: all 0.22s ease;
       cursor: pointer;
-      border: none;
-      transition: all 0.2s;
-      display: inline-block;
-      font-size: 0.88rem;
+      text-decoration: none;
+      color: var(--text);
+      position: relative;
     }
-    .btn-primary { background: var(--accent-soft); color: var(--accent-strong); }
-    .btn-primary:hover { opacity: 0.85; transform: translateY(-1px); }
+    .exam-card:hover,
+    .exam-card:focus {
+      border-color: var(--accent);
+      transform: translateY(-3px);
+      box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+      outline: 2px solid var(--accent);
+      outline-offset: 2px;
+    }
+    .exam-card:focus:not(:focus-visible) {
+      outline: none;
+    }
+    .exam-card-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      margin-bottom: 10px;
+    }
+    .exam-card-title {
+      font-size: 0.95rem;
+      font-weight: 700;
+      line-height: 1.4;
+      flex: 1;
+      margin-right: 8px;
+    }
+    .year-badge {
+      font-size: 0.72rem;
+      font-weight: 700;
+      padding: 3px 10px;
+      border-radius: 999px;
+      background: var(--accent-soft);
+      color: var(--accent-strong);
+      white-space: nowrap;
+      flex-shrink: 0;
+    }
+    .new-badge {
+      position: absolute;
+      top: -6px;
+      right: -6px;
+      font-size: 0.65rem;
+      font-weight: 800;
+      padding: 2px 8px;
+      border-radius: 999px;
+      background: #ef4444;
+      color: #fff;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+    .exam-card-meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      font-size: 0.8rem;
+      color: var(--text-muted);
+      margin-bottom: 12px;
+    }
+    .exam-card-meta span {
+      display: flex;
+      align-items: center;
+      gap: 4px;
+    }
+    .exam-card-bottom {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: auto;
+      padding-top: 10px;
+      border-top: 1px solid var(--line);
+    }
     .progress-tag {
-      font-size: 0.75rem;
+      font-size: 0.73rem;
       padding: 3px 10px;
       border-radius: 999px;
       background: var(--success);
       color: white;
       font-weight: 700;
     }
-    .progress-tag.not-started { background: var(--text-muted); }
+    .progress-tag.not-started {
+      background: var(--text-muted);
+    }
+    .card-btn {
+      font-size: 0.82rem;
+      font-weight: 700;
+      color: var(--accent-strong);
+      display: flex;
+      align-items: center;
+      gap: 4px;
+    }
+    .card-btn::after {
+      content: '→';
+      transition: transform 0.2s;
+    }
+    .exam-card:hover .card-btn::after {
+      transform: translateX(3px);
+    }
+
+    /* Progress bar on card */
+    .progress-bar-track {
+      height: 4px;
+      background: var(--line);
+      border-radius: 2px;
+      overflow: hidden;
+      margin-bottom: 10px;
+    }
+    .progress-bar-fill {
+      height: 100%;
+      background: var(--accent);
+      border-radius: 2px;
+      transition: width 0.3s;
+    }
+    .progress-bar-fill.complete {
+      background: var(--success);
+    }
+
+    /* Empty and loading states */
     .empty-state {
       text-align: center;
       padding: 40px;
       color: var(--text-muted);
     }
+    .loading-state {
+      text-align: center;
+      padding: 40px;
+      color: var(--text-muted);
+    }
+
+    /* Responsive */
+    @media (max-width: 640px) {
+      .subject-group-grid {
+        grid-template-columns: 1fr;
+      }
+      .stats-bar {
+        gap: 16px;
+        padding: 12px 16px;
+      }
+      .stat-number { font-size: 1.2rem; }
+    }
   </style>
 
   <script>
     let catalogData = null;
+    let activeSubject = '';
 
     const subjectMap = {
       '宏观经济': 'macroeconomics',
       '微积分BC': 'calculus_bc',
-      '微积分AB': 'calculus_ab',
       '微观经济': 'microeconomics',
       '心理学': 'psychology',
       '物理C力学': 'physics_c_mechanics',
@@ -168,24 +459,39 @@
         renderExamList();
       } catch (e) {
         console.error('Failed to load catalog:', e);
-        document.getElementById('exam-list').innerHTML = '<div class="empty-state">加载失败，请刷新重试</div>';
+        document.getElementById('exam-groups').innerHTML = '<div class="empty-state">加载失败，请刷新重试</div>';
       }
     }
 
     function populateFilters() {
       if (!catalogData) return;
 
-      const subjectFilter = document.getElementById('subject-filter');
-      const yearFilter = document.getElementById('year-filter');
-      const typeFilter = document.getElementById('type-filter');
-
+      // Subject pills
+      const pillsContainer = document.getElementById('subject-pills');
       catalogData.subjects.forEach(s => {
-        const opt = document.createElement('option');
-        opt.value = s;
-        opt.textContent = s;
-        subjectFilter.appendChild(opt);
+        const btn = document.createElement('button');
+        btn.className = 'pill';
+        btn.dataset.subject = s;
+        btn.textContent = (subjectIcons[s] || '📚') + ' ' + s;
+        btn.addEventListener('click', () => {
+          activeSubject = s;
+          document.querySelectorAll('#subject-pills .pill').forEach(p => p.classList.remove('active'));
+          btn.classList.add('active');
+          renderExamList();
+        });
+        pillsContainer.appendChild(btn);
       });
 
+      // "All" pill click handler
+      pillsContainer.querySelector('.pill[data-subject=""]').addEventListener('click', () => {
+        activeSubject = '';
+        document.querySelectorAll('#subject-pills .pill').forEach(p => p.classList.remove('active'));
+        pillsContainer.querySelector('.pill[data-subject=""]').classList.add('active');
+        renderExamList();
+      });
+
+      // Year dropdown
+      const yearFilter = document.getElementById('year-filter');
       catalogData.years.forEach(y => {
         const opt = document.createElement('option');
         opt.value = y;
@@ -193,6 +499,8 @@
         yearFilter.appendChild(opt);
       });
 
+      // Type dropdown
+      const typeFilter = document.getElementById('type-filter');
       catalogData.paperTypes.forEach(t => {
         const opt = document.createElement('option');
         opt.value = t;
@@ -221,49 +529,99 @@
     function renderExamList() {
       if (!catalogData) return;
 
-      const list = document.getElementById('exam-list');
-      const subjectFilter = document.getElementById('subject-filter').value;
+      const container = document.getElementById('exam-groups');
       const yearFilter = document.getElementById('year-filter').value;
       const typeFilter = document.getElementById('type-filter').value;
 
-      let items = catalogData.items;
+      // Clone and filter items
+      let items = catalogData.items.slice();
 
-      if (subjectFilter) items = items.filter(i => i.subject === subjectFilter);
+      if (activeSubject) items = items.filter(i => i.subject === activeSubject);
       if (yearFilter) items = items.filter(i => i.year === yearFilter);
       if (typeFilter) items = items.filter(i => i.paperType === typeFilter);
 
+      // SORT: newest year first (numeric), then subject, then paperType
+      items.sort((a, b) => {
+        const ya = parseInt(a.year) || 0;
+        const yb = parseInt(b.year) || 0;
+        if (yb !== ya) return yb - ya;
+        if (a.subject !== b.subject) return a.subject.localeCompare(b.subject, 'zh-CN');
+        return a.paperType.localeCompare(b.paperType, 'zh-CN');
+      });
+
+      // Update stats
+      const totalQuestions = items.reduce((sum, i) => sum + (i.questionCount || 0), 0);
+      document.getElementById('stat-exams').textContent = items.length;
+      document.getElementById('stat-questions').textContent = totalQuestions;
+      const uniqueSubjects = [...new Set(items.map(i => i.subject))];
+      document.getElementById('stat-subjects').textContent = uniqueSubjects.length;
+
       if (items.length === 0) {
-        list.innerHTML = '<div class="empty-state">没有找到匹配的试卷</div>';
+        container.innerHTML = '<div class="empty-state">没有找到匹配的试卷</div>';
         return;
       }
 
-      list.innerHTML = items.map(exam => {
-        const progress = getProgress(exam.examId);
-        const examPath = window.sitePath('/v2/exam/paper.html?exam=' + exam.examId);
-        const icon = subjectIcons[exam.subject] || '📚';
+      // Group by subject
+      const groups = {};
+      items.forEach(exam => {
+        if (!groups[exam.subject]) groups[exam.subject] = [];
+        groups[exam.subject].push(exam);
+      });
 
-        return `
-          <div class="exam-card">
-            <div class="exam-info">
-              <h3>${icon} ${exam.title}</h3>
-              <div class="exam-meta">
-                <span>📚 ${exam.subject}</span>
-                <span>📅 ${exam.year}年</span>
-                <span>📝 ${exam.questionCount}题</span>
-                <span>📋 ${exam.paperType}</span>
-                ${progress ? `<span class="progress-tag">${progress.answered}/${progress.total}</span>` : '<span class="progress-tag not-started">未开始</span>'}
-              </div>
-            </div>
-            <a href="${examPath}" class="btn btn-primary">
-              ${progress && progress.answered > 0 ? '继续' : '开始'}
-            </a>
-          </div>
-        `;
-      }).join('');
+      // Render groups
+      let html = '';
+      for (const subject of Object.keys(groups)) {
+        const exams = groups[subject];
+        const icon = subjectIcons[subject] || '📚';
+
+        html += `<div class="subject-group">`;
+        html += `<div class="subject-group-header" role="button" tabindex="0" aria-expanded="true" onclick="this.parentElement.classList.toggle('collapsed');this.setAttribute('aria-expanded',!this.parentElement.classList.contains('collapsed'))" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();this.click()}">`;
+        html += `<span class="subject-group-icon" aria-hidden="true">${icon}</span>`;
+        html += `<span class="subject-group-name">${subject}</span>`;
+        html += `<span class="subject-group-count">${exams.length} 套</span>`;
+        html += `<span class="subject-group-chevron" aria-hidden="true">▼</span>`;
+        html += `</div>`;
+        html += `<div class="subject-group-grid">`;
+
+        exams.forEach(exam => {
+          const progress = getProgress(exam.examId);
+          const examPath = window.sitePath('/v2/exam/paper.html?exam=' + exam.examId);
+          const isNew = String(exam.year) === '2025';
+          const pct = progress && progress.total > 0 ? Math.round(progress.answered / progress.total * 100) : 0;
+          const btnLabel = progress && progress.answered > 0 ? '继续练习' : '开始练习';
+
+          const ariaLabel = `${exam.title} - ${exam.questionCount}题 - ${progress ? progress.answered + '/' + progress.total + ' 已完成' : '未开始'}`;
+          html += `<a href="${examPath}" class="exam-card" aria-label="${ariaLabel}">`;
+          if (isNew) html += `<span class="new-badge" aria-label="新题">NEW</span>`;
+          html += `<div class="exam-card-top">`;
+          html += `<span class="exam-card-title">${exam.title}</span>`;
+          html += `<span class="year-badge">${exam.year}</span>`;
+          html += `</div>`;
+          html += `<div class="exam-card-meta">`;
+          html += `<span>📝 ${exam.questionCount}题</span>`;
+          html += `<span>📋 ${exam.paperType}</span>`;
+          html += `</div>`;
+          if (progress && progress.total > 0) {
+            html += `<div class="progress-bar-track"><div class="progress-bar-fill${pct === 100 ? ' complete' : ''}" style="width:${pct}%"></div></div>`;
+          }
+          html += `<div class="exam-card-bottom">`;
+          if (progress) {
+            html += `<span class="progress-tag">${progress.answered}/${progress.total}</span>`;
+          } else {
+            html += `<span class="progress-tag not-started">未开始</span>`;
+          }
+          html += `<span class="card-btn">${btnLabel}</span>`;
+          html += `</div>`;
+          html += `</a>`;
+        });
+
+        html += `</div></div>`;
+      }
+
+      container.innerHTML = html;
     }
 
     // Filters
-    document.getElementById('subject-filter').addEventListener('change', renderExamList);
     document.getElementById('year-filter').addEventListener('change', renderExamList);
     document.getElementById('type-filter').addEventListener('change', renderExamList);
 
