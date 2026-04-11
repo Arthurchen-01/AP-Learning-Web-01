@@ -1,0 +1,854 @@
+{
+  "subjects": {
+    "物理C力学": {
+      "id": "physics_c_mechanics",
+      "name": "AP Physics C: Mechanics",
+      "units": [
+        {
+          "id": 1,
+          "name": "Kinematics",
+          "nameZh": "运动学",
+          "weight": "20%",
+          "topics": [
+            "Position, velocity, and acceleration",
+            "Derivatives and integrals in motion",
+            "Free fall",
+            "Projectile motion",
+            "Relative motion"
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Newton's Laws of Motion",
+          "nameZh": "牛顿运动定律",
+          "weight": "15%",
+          "topics": [
+            "Newton's first law (inertia)",
+            "Newton's second law (F=ma)",
+            "Newton's third law (action-reaction)",
+            "Free-body diagrams",
+            "Normal force and contact forces",
+            "Friction (static and kinetic)",
+            "Inclined planes"
+          ]
+        },
+        {
+          "id": 3,
+          "name": "Work, Energy, and Power",
+          "nameZh": "功、能与功率",
+          "weight": "14%",
+          "topics": [
+            "Work done by constant and variable forces",
+            "Kinetic energy",
+            "Potential energy (gravitational and elastic)",
+            "Conservation of energy",
+            "Power",
+            "Work-energy theorem"
+          ]
+        },
+        {
+          "id": 4,
+          "name": "Systems of Particles and Linear Momentum",
+          "nameZh": "质点系与线性动量",
+          "weight": "8%",
+          "topics": [
+            "Center of mass",
+            "Impulse and momentum",
+            "Conservation of linear momentum",
+            "Elastic and inelastic collisions"
+          ]
+        },
+        {
+          "id": 5,
+          "name": "Circular Motion and Rotation",
+          "nameZh": "圆周运动与转动",
+          "weight": "18%",
+          "topics": [
+            "Uniform circular motion",
+            "Centripetal acceleration and force",
+            "Torque",
+            "Rotational kinematics",
+            "Moment of inertia",
+            "Rotational kinetic energy",
+            "Angular momentum",
+            "Conservation of angular momentum",
+            "Rolling without slipping"
+          ]
+        },
+        {
+          "id": 6,
+          "name": "Oscillations and Gravitation",
+          "nameZh": "振动与万有引力",
+          "weight": "6%",
+          "topics": [
+            "Simple harmonic motion",
+            "Spring-mass systems",
+            "Pendulums",
+            "Newton's law of gravitation",
+            "Gravitational potential energy",
+            "Orbits"
+          ]
+        }
+      ]
+    },
+    "物理C电磁": {
+      "id": "physics_c_electricity_magnetism",
+      "name": "AP Physics C: Electricity and Magnetism",
+      "units": [
+        {
+          "id": 1,
+          "name": "Electrostatics",
+          "nameZh": "静电学",
+          "weight": "30%",
+          "topics": [
+            "Electric charge and Coulomb's law",
+            "Electric field and field lines",
+            "Electric flux and Gauss's law",
+            "Electric potential and potential energy",
+            "Capacitors and dielectrics"
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Conductors, Capacitors, Dielectrics",
+          "nameZh": "导体、电容器与电介质",
+          "weight": "14%",
+          "topics": [
+            "Properties of conductors in electrostatic equilibrium",
+            "Capacitance (parallel plate, cylindrical, spherical)",
+            "Energy stored in capacitors",
+            "Dielectrics and polarization"
+          ]
+        },
+        {
+          "id": 3,
+          "name": "Electric Circuits",
+          "nameZh": "电路",
+          "weight": "20%",
+          "topics": [
+            "Current, resistance, and Ohm's law",
+            "DC circuits with resistors",
+            "Kirchhoff's rules",
+            "RC circuits (charging and discharging)",
+            "Power in circuits"
+          ]
+        },
+        {
+          "id": 4,
+          "name": "Magnetic Fields",
+          "nameZh": "磁场",
+          "weight": "20%",
+          "topics": [
+            "Force on moving charges (Lorentz force)",
+            "Force on current-carrying wires",
+            "Biot-Savart law",
+            "Ampere's law",
+            "Magnetic flux"
+          ]
+        },
+        {
+          "id": 5,
+          "name": "Electromagnetism",
+          "nameZh": "电磁学",
+          "weight": "16%",
+          "topics": [
+            "Faraday's law of induction",
+            "Lenz's law",
+            "Inductance and RL circuits",
+            "LC circuits",
+            "Maxwell's equations (qualitative)"
+          ]
+        }
+      ]
+    },
+    "微积分BC": {
+      "id": "calculus_bc",
+      "name": "AP Calculus BC",
+      "units": [
+        {
+          "id": 1,
+          "name": "Limits and Continuity",
+          "nameZh": "极限与连续性",
+          "weight": "4-7%",
+          "topics": [
+            "Introducing limits",
+            "Estimating limit values from graphs",
+            "Determining limits using algebraic properties",
+            "Squeeze theorem",
+            "Types of discontinuities",
+            "Definition of continuity",
+            "Limits at infinity"
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Differentiation: Definition and Fundamental Properties",
+          "nameZh": "导数的定义与基本性质",
+          "weight": "4-7%",
+          "topics": [
+            "Defining average and instantaneous rates of change",
+            "Derivative as a limit definition",
+            "Differentiability",
+            "Power rule, product rule, quotient rule",
+            "Derivatives of trigonometric functions",
+            "Chain rule"
+          ]
+        },
+        {
+          "id": 3,
+          "name": "Differentiation: Composite, Implicit, and Inverse Functions",
+          "nameZh": "复合函数、隐函数与反函数的求导",
+          "weight": "4-7%",
+          "topics": [
+            "Implicit differentiation",
+            "Differentiating inverse functions",
+            "Differentiating inverse trigonometric functions",
+            "Higher-order derivatives"
+          ]
+        },
+        {
+          "id": 4,
+          "name": "Contextual Applications of Differentiation",
+          "nameZh": "导数的实际应用",
+          "weight": "6-9%",
+          "topics": [
+            "Interpreting derivatives in context",
+            "Straight-line motion",
+            "Related rates",
+            "Approximating values using local linearity",
+            "L'Hopital's rule (BC only)"
+          ]
+        },
+        {
+          "id": 5,
+          "name": "Analytical Applications of Differentiation",
+          "nameZh": "导数的分析应用",
+          "weight": "8-11%",
+          "topics": [
+            "Mean Value Theorem",
+            "Extreme Value Theorem",
+            "Finding extrema using derivatives",
+            "Concavity and inflection points",
+            "Optimization problems"
+          ]
+        },
+        {
+          "id": 6,
+          "name": "Integration and Accumulation of Change",
+          "nameZh": "积分与变化积累",
+          "weight": "17-20%",
+          "topics": [
+            "Accumulation functions",
+            "Riemann sums",
+            "Definite integrals",
+            "Fundamental Theorem of Calculus",
+            "Antiderivatives and indefinite integrals",
+            "Integration by substitution",
+            "Integration by parts (BC only)",
+            "Partial fractions (BC only)",
+            "Improper integrals (BC only)"
+          ]
+        },
+        {
+          "id": 7,
+          "name": "Differential Equations",
+          "nameZh": "微分方程",
+          "weight": "6-9%",
+          "topics": [
+            "Modeling with differential equations",
+            "Slope fields",
+            "Separable differential equations",
+            "Euler's method (BC only)"
+          ]
+        },
+        {
+          "id": 8,
+          "name": "Applications of Integration",
+          "nameZh": "积分应用",
+          "weight": "6-9%",
+          "topics": [
+            "Average value of a function",
+            "Position, velocity, and acceleration using integrals",
+            "Area between curves",
+            "Volumes of solids with known cross sections",
+            "Volumes of solids of revolution"
+          ]
+        },
+        {
+          "id": 9,
+          "name": "Parametric Equations, Polar Coordinates, and Vector-Valued Functions",
+          "nameZh": "参数方程、极坐标与向量值函数",
+          "weight": "11-12%",
+          "topics": [
+            "Defining and differentiating parametric equations",
+            "Second derivatives of parametric equations",
+            "Finding arc lengths of parametric curves",
+            "Defining and differentiating vector-valued functions",
+            "Integrating vector-valued functions",
+            "Defining polar coordinates and differentiation in polar form",
+            "Finding area bounded by polar curves"
+          ]
+        },
+        {
+          "id": 10,
+          "name": "Infinite Sequences and Series",
+          "nameZh": "无穷数列与级数",
+          "weight": "17-18%",
+          "topics": [
+            "Convergent and divergent sequences",
+            "Convergent and divergent series",
+            "Geometric series",
+            "Telescoping and harmonic series",
+            "Integral test",
+            "Comparison and limit comparison tests",
+            "Alternating series test",
+            "Ratio test",
+            "Absolute and conditional convergence",
+            "Taylor polynomials",
+            "Taylor and Maclaurin series",
+            "Radius and interval of convergence",
+            "Representing functions as power series"
+          ]
+        }
+      ]
+    },
+    "宏观经济": {
+      "id": "macroeconomics",
+      "name": "AP Macroeconomics",
+      "units": [
+        {
+          "id": 1,
+          "name": "Basic Economic Concepts",
+          "nameZh": "基本经济概念",
+          "weight": "5-7%",
+          "topics": [
+            "Scarcity",
+            "Opportunity cost",
+            "Production possibilities curve",
+            "Comparative advantage and trade",
+            "Economic systems"
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Economic Indicators and the Business Cycle",
+          "nameZh": "经济指标与商业周期",
+          "weight": "12-17%",
+          "topics": [
+            "Gross Domestic Product (GDP)",
+            "Unemployment rate",
+            "Inflation and price indices (CPI)",
+            "Business cycles",
+            "National income accounting"
+          ]
+        },
+        {
+          "id": 3,
+          "name": "National Income and Price Determination",
+          "nameZh": "国民收入与价格决定",
+          "weight": "17-27%",
+          "topics": [
+            "Aggregate demand",
+            "Aggregate supply (short-run and long-run)",
+            "Equilibrium in AD-AS model",
+            "Fiscal policy (government spending and taxation)",
+            "Multiplier effect",
+            "Crowding out"
+          ]
+        },
+        {
+          "id": 4,
+          "name": "Financial Sector",
+          "nameZh": "金融部门",
+          "weight": "18-23%",
+          "topics": [
+            "Money and banking",
+            "Money supply and money demand",
+            "Money creation and the money multiplier",
+            "Monetary policy",
+            "Interest rates",
+            "Loanable funds market",
+            "Quantity theory of money"
+          ]
+        },
+        {
+          "id": 5,
+          "name": "Stabilization Policies",
+          "nameZh": "稳定政策",
+          "weight": "20-30%",
+          "topics": [
+            "Fiscal and monetary policy interactions",
+            "Phillips curve (short-run and long-run)",
+            "Inflation and unemployment trade-off",
+            "Policy lags",
+            "Supply-side and demand-side policies"
+          ]
+        },
+        {
+          "id": 6,
+          "name": "Open Economy: International Trade and Finance",
+          "nameZh": "开放经济：国际贸易与金融",
+          "weight": "10-13%",
+          "topics": [
+            "Balance of payments (current account, capital account)",
+            "Exchange rates",
+            "Foreign exchange market",
+            "Net exports and capital flows",
+            "Effects of monetary and fiscal policy on exchange rates"
+          ]
+        }
+      ]
+    },
+    "微观经济": {
+      "id": "microeconomics",
+      "name": "AP Microeconomics",
+      "units": [
+        {
+          "id": 1,
+          "name": "Basic Economic Concepts",
+          "nameZh": "基本经济概念",
+          "weight": "5-7%",
+          "topics": [
+            "Scarcity, choice, and opportunity cost",
+            "Production possibilities curve",
+            "Comparative advantage and trade",
+            "Economic systems"
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Supply and Demand",
+          "nameZh": "供给与需求",
+          "weight": "15-20%",
+          "topics": [
+            "Demand and law of demand",
+            "Supply and law of supply",
+            "Market equilibrium",
+            "Elasticity (price, income, cross-price)",
+            "Consumer and producer surplus",
+            "Government interventions (price floors, ceilings, taxes)"
+          ]
+        },
+        {
+          "id": 3,
+          "name": "Production, Cost, and the Perfect Competition Model",
+          "nameZh": "生产、成本与完全竞争模型",
+          "weight": "22-25%",
+          "topics": [
+            "Production functions and marginal product",
+            "Short-run and long-run costs",
+            "Economies and diseconomies of scale",
+            "Profit maximization",
+            "Perfect competition (short-run and long-run equilibrium)",
+            "Firm and market supply curves"
+          ]
+        },
+        {
+          "id": 4,
+          "name": "Imperfect Competition",
+          "nameZh": "不完全竞争",
+          "weight": "15-22%",
+          "topics": [
+            "Monopoly",
+            "Price discrimination",
+            "Monopolistic competition",
+            "Oligopoly and game theory",
+            "Barriers to entry"
+          ]
+        },
+        {
+          "id": 5,
+          "name": "Factor Markets",
+          "nameZh": "要素市场",
+          "weight": "10-13%",
+          "topics": [
+            "Derived demand",
+            "Marginal revenue product",
+            "Monopsony",
+            "Wage determination in competitive and non-competitive markets"
+          ]
+        },
+        {
+          "id": 6,
+          "name": "Market Failure and the Role of Government",
+          "nameZh": "市场失灵与政府角色",
+          "weight": "8-13%",
+          "topics": [
+            "Externalities (positive and negative)",
+            "Public goods and free rider problem",
+            "Information asymmetry",
+            "Government intervention and efficiency"
+          ]
+        }
+      ]
+    },
+    "心理学": {
+      "id": "psychology",
+      "name": "AP Psychology",
+      "units": [
+        {
+          "id": 1,
+          "name": "Scientific Foundations of Psychology",
+          "nameZh": "心理学的科学基础",
+          "weight": "10-14%",
+          "topics": [
+            "History of psychology (structuralism, functionalism, behaviorism, etc.)",
+            "Research methods (experimental, correlational, observational)",
+            "Ethical guidelines in research",
+            "Descriptive and inferential statistics"
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Biological Bases of Behavior",
+          "nameZh": "行为的生物学基础",
+          "weight": "8-10%",
+          "topics": [
+            "Neurons and neural communication",
+            "Brain structures and functions",
+            "Nervous system",
+            "Heredity and genetics",
+            "Endocrine system"
+          ]
+        },
+        {
+          "id": 3,
+          "name": "Sensation and Perception",
+          "nameZh": "感觉与知觉",
+          "weight": "6-8%",
+          "topics": [
+            "Sensation and absolute/difference thresholds",
+            "Vision",
+            "Hearing",
+            "Other senses",
+            "Perceptual organization and interpretation"
+          ]
+        },
+        {
+          "id": 4,
+          "name": "Learning",
+          "nameZh": "学习",
+          "weight": "7-9%",
+          "topics": [
+            "Classical conditioning (Pavlov)",
+            "Operant conditioning (Skinner)",
+            "Observational learning (Bandura)",
+            "Biological constraints on learning"
+          ]
+        },
+        {
+          "id": 5,
+          "name": "Cognitive Psychology",
+          "nameZh": "认知心理学",
+          "weight": "13-17%",
+          "topics": [
+            "Memory (encoding, storage, retrieval)",
+            "Forgetting and memory errors",
+            "Language and thought",
+            "Problem solving and decision making",
+            "Intelligence and testing"
+          ]
+        },
+        {
+          "id": 6,
+          "name": "Developmental Psychology",
+          "nameZh": "发展心理学",
+          "weight": "7-9%",
+          "topics": [
+            "Lifespan development",
+            "Physical and cognitive development",
+            "Social and emotional development (Erikson, Piaget, Kohlberg)",
+            "Aging"
+          ]
+        },
+        {
+          "id": 7,
+          "name": "Motivation, Emotion, and Personality",
+          "nameZh": "动机、情绪与人格",
+          "weight": "11-15%",
+          "topics": [
+            "Theories of motivation (Maslow, drive reduction)",
+            "Emotion theories",
+            "Stress and health",
+            "Personality theories (psychoanalytic, humanistic, trait, social-cognitive)"
+          ]
+        },
+        {
+          "id": 8,
+          "name": "Clinical Psychology",
+          "nameZh": "临床心理学",
+          "weight": "12-16%",
+          "topics": [
+            "Psychological disorders (anxiety, mood, schizophrenia, personality)",
+            "Diagnostics and DSM",
+            "Treatment approaches (psychotherapy, biological, cognitive-behavioral)"
+          ]
+        },
+        {
+          "id": 9,
+          "name": "Social Psychology",
+          "nameZh": "社会心理学",
+          "weight": "8-10%",
+          "topics": [
+            "Attribution and social cognition",
+            "Attitudes and attitude change",
+            "Social influence (conformity, obedience, compliance)",
+            "Group dynamics",
+            "Prejudice and discrimination"
+          ]
+        }
+      ]
+    },
+    "统计学": {
+      "id": "statistics",
+      "name": "AP Statistics",
+      "units": [
+        {
+          "id": 1,
+          "name": "Exploring One-Variable Data",
+          "nameZh": "探索单变量数据",
+          "weight": "15-23%",
+          "topics": [
+            "Categorical and quantitative variables",
+            "Representing data (dotplots, histograms, stemplots)",
+            "Describing distributions (shape, center, spread)",
+            "Measures of center (mean, median, mode)",
+            "Measures of spread (range, IQR, standard deviation)",
+            "Normal distribution and z-scores"
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Exploring Two-Variable Data",
+          "nameZh": "探索双变量数据",
+          "weight": "5-7%",
+          "topics": [
+            "Scatterplots",
+            "Correlation",
+            "Least-squares regression line",
+            "Residuals",
+            "Outliers and influential points"
+          ]
+        },
+        {
+          "id": 3,
+          "name": "Collecting Data",
+          "nameZh": "收集数据",
+          "weight": "12-15%",
+          "topics": [
+            "Planning a study",
+            "Sampling methods (simple random, stratified, cluster, systematic)",
+            "Observational studies vs. experiments",
+            "Random assignment",
+            "Bias in sampling",
+            "Designing experiments"
+          ]
+        },
+        {
+          "id": 4,
+          "name": "Probability",
+          "nameZh": "概率",
+          "weight": "10-20%",
+          "topics": [
+            "Randomness and probability",
+            "Probability rules (addition, multiplication, complement)",
+            "Conditional probability",
+            "Independence",
+            "Random variables (discrete and continuous)",
+            "Binomial and geometric distributions"
+          ]
+        },
+        {
+          "id": 5,
+          "name": "Sampling Distributions",
+          "nameZh": "抽样分布",
+          "weight": "7-12%",
+          "topics": [
+            "Sampling distribution of a sample proportion",
+            "Sampling distribution of a sample mean",
+            "Central Limit Theorem",
+            "Biased and unbiased estimators"
+          ]
+        },
+        {
+          "id": 6,
+          "name": "Inference for Categorical Data: Proportions",
+          "nameZh": "分类数据的推断：比例",
+          "weight": "12-15%",
+          "topics": [
+            "Confidence intervals for proportions",
+            "Hypothesis tests for proportions",
+            "Type I and Type II errors",
+            "Significance level and p-value"
+          ]
+        },
+        {
+          "id": 7,
+          "name": "Inference for Quantitative Data: Means",
+          "nameZh": "定量数据的推断：均值",
+          "weight": "10-18%",
+          "topics": [
+            "t-distribution",
+            "Confidence intervals for means",
+            "Hypothesis tests for means (one-sample and two-sample)",
+            "Matched pairs"
+          ]
+        },
+        {
+          "id": 8,
+          "name": "Inference for Categorical Data: Chi-Square",
+          "nameZh": "分类数据的推断：卡方检验",
+          "weight": "2-5%",
+          "topics": [
+            "Chi-square goodness-of-fit test",
+            "Chi-square test for homogeneity",
+            "Chi-square test for independence"
+          ]
+        },
+        {
+          "id": 9,
+          "name": "Inference for Quantitative Data: Slopes",
+          "nameZh": "定量数据的推断：回归斜率",
+          "weight": "2-5%",
+          "topics": [
+            "Confidence intervals for the slope of a regression line",
+            "Hypothesis tests for the slope of a regression line"
+          ]
+        }
+      ]
+    },
+    "计算机科学A": {
+      "id": "computer_science_a",
+      "name": "AP Computer Science A",
+      "units": [
+        {
+          "id": 1,
+          "name": "Primitive Types",
+          "nameZh": "基本数据类型",
+          "weight": "2.5-5%",
+          "topics": [
+            "Variables and data types (int, double, boolean, String)",
+            "Operators and expressions",
+            "Casting and conversion",
+            "Compiling and running a program"
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Using Objects",
+          "nameZh": "使用对象",
+          "weight": "5-7.5%",
+          "topics": [
+            "Objects and classes",
+            "Creating objects using constructors",
+            "Calling methods (String methods, Math class)",
+            "Object references",
+            "Wrapper classes (Integer, Double)"
+          ]
+        },
+        {
+          "id": 3,
+          "name": "Boolean Expressions and if Statements",
+          "nameZh": "布尔表达式与if语句",
+          "weight": "12.5-17.5%",
+          "topics": [
+            "Boolean expressions and logical operators",
+            "if, else if, else statements",
+            "Nested conditionals",
+            "De Morgan's laws"
+          ]
+        },
+        {
+          "id": 4,
+          "name": "Iteration",
+          "nameZh": "迭代",
+          "weight": "17.5-22.5%",
+          "topics": [
+            "while loops",
+            "for loops",
+            "Nested loops",
+            "Loop algorithms (traversing, accumulating, searching)",
+            "Common loop errors"
+          ]
+        },
+        {
+          "id": 5,
+          "name": "Writing Classes",
+          "nameZh": "编写类",
+          "weight": "5-7.5%",
+          "topics": [
+            "Defining instance variables and methods",
+            "Constructors (no-argument and parameterized)",
+            "Access modifiers (public, private)",
+            "The this keyword",
+            "Static variables and methods",
+            "Accessor and mutator methods"
+          ]
+        },
+        {
+          "id": 6,
+          "name": "Array",
+          "nameZh": "数组",
+          "weight": "10-15%",
+          "topics": [
+            "Array creation and initialization",
+            "Accessing and modifying array elements",
+            "Traversing arrays",
+            "Common array algorithms (find max/min, sum, average)",
+            "Two-dimensional arrays"
+          ]
+        },
+        {
+          "id": 7,
+          "name": "ArrayList",
+          "nameZh": "ArrayList",
+          "weight": "2.5-7.5%",
+          "topics": [
+            "ArrayList class and methods",
+            "Adding, removing, and accessing elements",
+            "Traversing an ArrayList",
+            "Wrapper classes and autoboxing"
+          ]
+        },
+        {
+          "id": 8,
+          "name": "2D Array",
+          "nameZh": "二维数组",
+          "weight": "7.5-10%",
+          "topics": [
+            "Declaring and initializing 2D arrays",
+            "Row-major and column-major traversal",
+            "Nested loops with 2D arrays",
+            "Common algorithms with 2D arrays"
+          ]
+        },
+        {
+          "id": 9,
+          "name": "Inheritance",
+          "nameZh": "继承",
+          "weight": "5-10%",
+          "topics": [
+            "Superclasses and subclasses",
+            "The extends keyword",
+            "Method overriding",
+            "The super keyword",
+            "Polymorphism",
+            "The Object class"
+          ]
+        },
+        {
+          "id": 10,
+          "name": "Recursion",
+          "nameZh": "递归",
+          "weight": "5-7.5%",
+          "topics": [
+            "Recursive methods",
+            "Base cases and recursive cases",
+            "Recursive vs. iterative solutions",
+            "Recursive array and string algorithms"
+          ]
+        }
+      ]
+    }
+  }
+}

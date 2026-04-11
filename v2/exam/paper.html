@@ -1031,7 +1031,7 @@
           examId,
           name: exam.exam_title || 'AP Practice',
           completedAt: new Date().toISOString(),
-          answered: total,
+          answered: totalQuestions,
           total: exam.sections.reduce((s, sec) => s + sec.questions.length, 0),
           accuracy
         });

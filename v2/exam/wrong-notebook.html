@@ -15,281 +15,1053 @@
   </script>
   <script>document.write('<scr'+'ipt src="'+window._b+'/assets/site-base.js"><\/scr'+'ipt>');</script>
   <link rel="stylesheet" href="../../assets/global-theme.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css">
   <style>
-    * { box-sizing: border-box; margin: 0; padding: 0; }
-    body {
-      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-      background: var(--bg);
-      color: var(--text);
-      min-height: 100vh;
-    }
+    body { overflow-x: hidden; }
 
-    header {
+    /* ===== Page Heading ===== */
+    .page-heading { margin-bottom: 24px; }
+    .page-heading h1 { font-size: 1.6rem; margin-bottom: 6px; }
+    .page-heading p { color: var(--text-muted); font-size: 0.95rem; }
+
+    /* ===== Stats Row ===== */
+    .stats-row {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 14px;
+      margin-bottom: 24px;
+    }
+    .stat-card {
+      padding: 18px 20px;
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+      background: var(--card-bg);
+      box-shadow: var(--shadow-soft);
+    }
+    .stat-card .stat-value {
+      font-size: 1.8rem;
+      font-weight: 800;
+      line-height: 1.2;
+    }
+    .stat-card .stat-label {
+      font-size: 0.82rem;
+      color: var(--text-muted);
+      margin-top: 4px;
+    }
+    .stat-card.danger .stat-value { color: var(--danger); }
+    .stat-card.warning .stat-value { color: var(--warning); }
+    .stat-card.success .stat-value { color: var(--success); }
+    .stat-card.accent .stat-value { color: var(--accent-strong); }
+
+    /* ===== Mastery Section ===== */
+    .mastery-section {
+      margin-bottom: 28px;
+    }
+    .mastery-section h2 {
+      font-size: 1.1rem;
+      margin-bottom: 14px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .mastery-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+      gap: 14px;
+    }
+    .mastery-card {
+      padding: 16px 18px;
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+      background: var(--card-bg);
+    }
+    .mastery-card-header {
       display: flex;
       justify-content: space-between;
       align-items: center;
-      padding: 1rem 2rem;
-      background: var(--card-bg);
-      border-bottom: 1px solid var(--border);
+      margin-bottom: 10px;
     }
-    .logo { font-size: 1.5rem; font-weight: 700; color: var(--primary); text-decoration: none; }
-    nav { display: flex; gap: 1.5rem; }
-    nav a { color: var(--text-muted); text-decoration: none; padding: 0.5rem 1rem; border-radius: 6px; }
-    nav a:hover { color: var(--text); background: var(--border); }
-
-    .container { max-width: 900px; margin: 2rem auto; padding: 0 2rem; }
-    h1 { margin-bottom: 0.5rem; }
-    .subtitle { color: var(--text-muted); margin-bottom: 2rem; }
-
-    .stats-bar {
-      display: flex;
-      gap: 1.5rem;
-      margin-bottom: 2rem;
-      padding: 1rem 1.5rem;
-      background: var(--card-bg);
-      border-radius: 12px;
-      border: 1px solid var(--border);
+    .mastery-card-header .subject-name {
+      font-weight: 700;
+      font-size: 0.95rem;
     }
-    .stat { display: flex; flex-direction: column; }
-    .stat .value { font-size: 1.8rem; font-weight: 700; color: var(--danger); }
-    .stat .label { font-size: 0.8rem; color: var(--text-muted); }
-
-    .empty-state {
-      text-align: center;
-      padding: 4rem 2rem;
-      background: var(--card-bg);
-      border-radius: 12px;
-      border: 1px solid var(--border);
+    .mastery-card-header .mastery-pct {
+      font-weight: 800;
+      font-size: 1.1rem;
     }
-    .empty-state .icon { font-size: 3rem; margin-bottom: 1rem; }
-    .empty-state p { color: var(--text-muted); margin-bottom: 1.5rem; }
-
-    .wrong-item {
-      background: var(--card-bg);
-      border: 1px solid var(--border);
-      border-radius: 12px;
-      margin-bottom: 1rem;
+    .mastery-bar-track {
+      width: 100%;
+      height: 8px;
+      border-radius: 999px;
+      background: rgba(236, 213, 193, 0.5);
       overflow: hidden;
+      margin-bottom: 8px;
     }
-    .wrong-header {
+    [data-theme="dark"] .mastery-bar-track {
+      background: rgba(51, 65, 85, 0.6);
+    }
+    .mastery-bar-fill {
+      height: 100%;
+      border-radius: inherit;
+      transition: width 0.4s ease;
+    }
+    .mastery-stats {
       display: flex;
       justify-content: space-between;
+      font-size: 0.78rem;
+      color: var(--text-muted);
+    }
+
+    /* ===== Filter Bar ===== */
+    .filter-bar {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-bottom: 20px;
       align-items: center;
-      padding: 1rem 1.25rem;
-      border-bottom: 1px solid var(--border);
+    }
+    .filter-btn {
+      display: inline-flex;
+      align-items: center;
+      min-height: 36px;
+      padding: 0 14px;
+      border: 1px solid var(--border);
+      border-radius: 999px;
+      background: var(--card-bg);
+      color: var(--text-muted);
+      font-size: 0.85rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.15s;
+    }
+    .filter-btn:hover { border-color: var(--accent); color: var(--accent-strong); }
+    .filter-btn.is-active {
+      background: var(--accent-soft);
+      border-color: var(--accent);
+      color: var(--accent-strong);
+    }
+    .filter-select {
+      padding: 8px 14px;
+      border: 1px solid var(--border);
+      border-radius: 999px;
+      background: var(--card-bg);
+      color: var(--text);
+      font-size: 0.85rem;
+      font-weight: 600;
       cursor: pointer;
     }
-    .wrong-header:hover { background: rgba(255,255,255,0.02); }
-    .wrong-title { font-weight: 600; font-size: 0.95rem; }
-    .wrong-meta { font-size: 0.8rem; color: var(--text-muted); display: flex; gap: 0.75rem; }
-    .wrong-body { padding: 1.25rem; display: none; }
-    .wrong-body.open { display: block; }
 
-    .wq-question-text {
-      margin-bottom: 1rem;
-      font-size: 0.95rem;
-      line-height: 1.6;
+    /* ===== Subject Group ===== */
+    .subject-group {
+      margin-bottom: 28px;
     }
-    .wq-answers {
+    .subject-group-header {
       display: flex;
-      gap: 1rem;
-      margin-bottom: 1rem;
-      font-size: 0.85rem;
+      justify-content: space-between;
+      align-items: center;
+      padding: 12px 0;
+      margin-bottom: 12px;
+      border-bottom: 2px solid var(--border);
+      cursor: pointer;
     }
-    .wq-answer { display: flex; gap: 0.5rem; }
-    .wq-answer.wrong { color: var(--danger); }
-    .wq-answer.correct { color: var(--success); }
+    .subject-group-header:hover { border-color: var(--accent); }
+    .subject-group-title {
+      font-size: 1.05rem;
+      font-weight: 700;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .subject-group-title .count-badge {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-width: 24px;
+      height: 24px;
+      padding: 0 6px;
+      border-radius: 999px;
+      background: var(--danger);
+      color: white;
+      font-size: 0.75rem;
+      font-weight: 700;
+    }
+    .subject-group-toggle {
+      font-size: 0.85rem;
+      color: var(--text-muted);
+    }
 
-    .wq-options { display: grid; gap: 0.5rem; margin-bottom: 1rem; }
-    .wq-option {
+    /* ===== Exam Sub-group ===== */
+    .exam-subgroup {
+      margin-bottom: 16px;
+      margin-left: 0;
+    }
+    .exam-subgroup-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 8px 12px;
+      margin-bottom: 8px;
+      background: rgba(232, 146, 85, 0.06);
+      border-radius: 8px;
+      cursor: pointer;
+    }
+    [data-theme="dark"] .exam-subgroup-header {
+      background: rgba(59, 130, 246, 0.06);
+    }
+    .exam-subgroup-header:hover { background: rgba(232, 146, 85, 0.12); }
+    [data-theme="dark"] .exam-subgroup-header:hover { background: rgba(59, 130, 246, 0.12); }
+    .exam-subgroup-title {
+      font-size: 0.9rem;
+      font-weight: 600;
+      color: var(--text);
+    }
+    .exam-subgroup-meta {
+      font-size: 0.78rem;
+      color: var(--text-muted);
+    }
+
+    /* ===== Question Card ===== */
+    .q-card {
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+      background: var(--card-bg);
+      margin-bottom: 10px;
+      overflow: hidden;
+      transition: border-color 0.2s;
+    }
+    .q-card:hover { border-color: var(--accent); }
+    .q-card.is-flagged { border-left: 3px solid var(--warning); }
+
+    .q-card-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      padding: 14px 18px;
+      cursor: pointer;
+      gap: 12px;
+    }
+    .q-card-header:hover { background: rgba(255,255,255,0.02); }
+    [data-theme="dark"] .q-card-header:hover { background: rgba(255,255,255,0.03); }
+
+    .q-card-left { flex: 1; min-width: 0; }
+    .q-card-title {
+      font-size: 0.92rem;
+      font-weight: 600;
+      line-height: 1.5;
+      margin-bottom: 6px;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+    .q-card-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      align-items: center;
+    }
+    .q-tag {
+      display: inline-flex;
+      align-items: center;
+      gap: 3px;
+      font-size: 0.75rem;
+      padding: 2px 8px;
+      border-radius: 999px;
+      font-weight: 600;
+    }
+    .q-tag.wrong { background: rgba(239,68,68,0.1); color: var(--danger); }
+    .q-tag.correct { background: rgba(34,197,94,0.1); color: var(--success); }
+    .q-tag.flagged { background: rgba(245,158,11,0.12); color: var(--warning); }
+    .q-tag.section { background: rgba(59,130,246,0.1); color: #3b82f6; }
+    .q-tag.kp { background: rgba(139,92,246,0.1); color: #8b5cf6; }
+
+    .q-card-toggle {
+      font-size: 1rem;
+      color: var(--text-muted);
+      flex-shrink: 0;
+      margin-top: 2px;
+    }
+
+    .q-card-body {
+      display: none;
+      padding: 0 18px 18px;
+    }
+    .q-card-body.open { display: block; }
+
+    .q-text {
+      font-size: 0.92rem;
+      line-height: 1.7;
+      margin-bottom: 14px;
+      color: var(--text);
+    }
+
+    .q-options {
+      display: grid;
+      gap: 8px;
+      margin-bottom: 14px;
+    }
+    .q-option {
       display: flex;
       align-items: flex-start;
-      gap: 0.75rem;
-      padding: 0.6rem 0.8rem;
-      border-radius: 8px;
+      gap: 10px;
+      padding: 10px 14px;
+      border-radius: 10px;
       border: 1px solid var(--border);
       background: var(--bg);
       font-size: 0.9rem;
+      line-height: 1.5;
     }
-    .wq-option.key { font-weight: 700; min-width: 24px; }
-    .wq-option.is-correct { border-color: var(--success); background: rgba(34,197,94,0.08); }
-    .wq-option.is-wrong { border-color: var(--danger); background: rgba(239,68,68,0.08); }
+    .q-option .opt-key {
+      font-weight: 800;
+      min-width: 22px;
+      flex-shrink: 0;
+    }
+    .q-option.is-correct {
+      border-color: var(--success);
+      background: rgba(34,197,94,0.07);
+    }
+    .q-option.is-correct .opt-key { color: var(--success); }
+    .q-option.is-wrong {
+      border-color: var(--danger);
+      background: rgba(239,68,68,0.07);
+    }
+    .q-option.is-wrong .opt-key { color: var(--danger); }
 
-    .wq-actions { display: flex; gap: 0.75rem; justify-content: flex-end; }
-    .btn {
-      padding: 0.5rem 1rem;
-      border-radius: 8px;
+    .q-answers-row {
+      display: flex;
+      gap: 20px;
+      margin-bottom: 14px;
+      font-size: 0.88rem;
       font-weight: 600;
+    }
+    .q-answers-row .your-answer { color: var(--danger); }
+    .q-answers-row .correct-answer { color: var(--success); }
+
+    .q-explanation {
+      font-size: 0.85rem;
+      line-height: 1.7;
+      color: var(--text-muted);
+      padding: 12px 14px;
+      background: var(--bg);
+      border-radius: 10px;
+      margin-bottom: 14px;
+    }
+    .q-explanation strong { color: var(--text); }
+
+    .q-actions {
+      display: flex;
+      gap: 8px;
+      justify-content: flex-end;
+      flex-wrap: wrap;
+    }
+    .q-btn {
+      padding: 6px 14px;
+      border-radius: 999px;
+      font-size: 0.82rem;
+      font-weight: 700;
       cursor: pointer;
       border: 1px solid var(--border);
-      background: var(--border);
+      background: var(--card-bg);
       color: var(--text);
-      font-size: 0.85rem;
-      transition: all 0.2s;
+      transition: all 0.15s;
     }
-    .btn:hover { opacity: 0.85; }
-    .btn-primary { background: var(--primary); color: white; border-color: var(--primary); }
-    .btn-danger { color: var(--danger); border-color: var(--danger); background: transparent; }
-    .btn-success { color: var(--success); border-color: var(--success); background: transparent; }
+    .q-btn:hover { opacity: 0.85; transform: translateY(-1px); }
+    .q-btn-danger { color: var(--danger); border-color: var(--danger); }
+    .q-btn-success { color: var(--success); border-color: var(--success); }
+    .q-btn-primary {
+      background: var(--accent-soft);
+      color: var(--accent-strong);
+      border-color: var(--accent);
+    }
 
+    /* ===== Empty State ===== */
+    .empty-state {
+      text-align: center;
+      padding: 60px 24px;
+      border: 1px solid var(--border);
+      border-radius: var(--radius-lg);
+      background: var(--card-bg);
+    }
+    .empty-state .icon { font-size: 3.5rem; margin-bottom: 16px; }
+    .empty-state h3 { font-size: 1.1rem; margin-bottom: 8px; }
+    .empty-state p { color: var(--text-muted); font-size: 0.9rem; margin-bottom: 20px; line-height: 1.6; }
+
+    /* ===== Responsive ===== */
     @media (max-width: 720px) {
-      header { flex-wrap: wrap; gap: 0.5rem; padding: 0.75rem 1rem; }
-      .container { padding: 1rem; }
-      .stats-bar { flex-wrap: wrap; gap: 1rem; padding: 1rem; }
+      .stats-row { grid-template-columns: repeat(2, 1fr); gap: 10px; }
+      .stat-card { padding: 14px 16px; }
+      .stat-card .stat-value { font-size: 1.4rem; }
+      .mastery-grid { grid-template-columns: 1fr; }
+      .q-card-header { padding: 12px 14px; }
+      .q-card-body { padding: 0 14px 14px; }
+      .filter-bar { gap: 8px; }
+    }
+    @media (max-width: 480px) {
+      .stats-row { grid-template-columns: 1fr 1fr; }
     }
   </style>
 </head>
-<body>
-  <header>
-    <a class="logo" href="../">AP Learning</a>
-    <nav>
-      <a href="../">首页</a>
-      <a href="./">套题模考</a>
-    </nav>
-    <button id="theme-toggle-btn" onclick="toggleTheme()" aria-label="Toggle theme" style="background:var(--border);border:none;border-radius:8px;padding:8px 14px;cursor:pointer;font-size:1.1rem;">🌙</button>
+<body data-page="v2-wrong-notebook">
+  <header class="site-header">
+    <div class="shell nav">
+      <a class="brand" id="nav-brand">
+        <span class="brand-mark">AP</span>
+        <span class="brand-copy">
+          <span class="brand-title">AP Practice Website</span>
+          <span class="brand-subtitle">自用 AP 练习站</span>
+        </span>
+      </a>
+      <nav class="nav-main" aria-label="Primary">
+        <a id="nav-home">首页</a>
+        <a id="nav-mock">套题模考</a>
+        <a id="nav-training">专项训练</a>
+        <a id="nav-dashboard">Dashboard</a>
+      </nav>
+      <a class="avatar-entry" id="nav-profile" aria-label="Open profile">
+        <span class="avatar">OC</span>
+        <span class="avatar-meta">
+          <strong>Olivia Chen</strong>
+          <span>Profile</span>
+        </span>
+      </a>
+      <button id="theme-toggle-btn" onclick="toggleTheme()" aria-label="Toggle dark mode" style="background:rgba(30,41,59,0.92);border:1px solid rgba(51,65,85,0.5);border-radius:999px;padding:10px 14px;cursor:pointer;font-size:1.1rem;box-shadow:var(--shadow-soft);">☀️</button>
+    </div>
   </header>
+  <script>
+    document.getElementById('nav-brand').href = window.sitePath('/');
+    document.getElementById('nav-home').href = window.sitePath('/');
+    document.getElementById('nav-mock').href = window.sitePath('/v2/exam/');
+    document.getElementById('nav-training').href = window.sitePath('/training/');
+    document.getElementById('nav-dashboard').href = window.sitePath('/v2/dashboard/');
+    document.getElementById('nav-profile').href = window.sitePath('/profile/');
+  </script>
 
-  <div class="container">
-    <h1>错题本</h1>
-    <p class="subtitle" id="subtitle">共收集 <span id="total-count">0</span> 道错题</p>
+  <main class="page-main shell">
+    <section class="page-heading">
+      <h1>📝 错题本</h1>
+      <p id="subtitle">收集所有答错和标记的题目，帮助你巩固薄弱知识点</p>
+    </section>
 
-    <div class="stats-bar">
-      <div class="stat">
-        <span class="value" id="stat-total">0</span>
-        <span class="label">错题总数</span>
+    <!-- Stats Overview -->
+    <div class="stats-row" id="stats-row">
+      <div class="stat-card danger">
+        <div class="stat-value" id="stat-total-wrong">0</div>
+        <div class="stat-label">错题总数</div>
       </div>
-      <div class="stat">
-        <span class="value" id="stat-practiced">0</span>
-        <span class="label">已练习</span>
+      <div class="stat-card warning">
+        <div class="stat-value" id="stat-flagged">0</div>
+        <div class="stat-label">标记待复习</div>
       </div>
-      <div class="stat">
-        <span class="value" id="stat-mastered">0</span>
-        <span class="label">已掌握</span>
+      <div class="stat-card success">
+        <div class="stat-value" id="stat-mastered">0</div>
+        <div class="stat-label">已掌握</div>
+      </div>
+      <div class="stat-card accent">
+        <div class="stat-value" id="stat-subjects">0</div>
+        <div class="stat-label">涉及科目</div>
       </div>
     </div>
 
-    <div id="wrong-list"></div>
-    <div id="empty-state" class="empty-state" style="display:none">
-      <div class="icon">📝</div>
-      <p>暂无错题记录<br><span style="font-size:0.85rem">完成试卷后，答错的题目会自动收录到这里</span></p>
-      <a href="./" class="btn btn-primary">去刷题</a>
+    <!-- Mastery Overview -->
+    <section class="mastery-section" id="mastery-section" style="display:none;">
+      <h2>📊 各科掌握度</h2>
+      <div class="mastery-grid" id="mastery-grid"></div>
+    </section>
+
+    <!-- Filters -->
+    <div class="filter-bar" id="filter-bar">
+      <button class="filter-btn is-active" data-filter="all" onclick="setFilter('all', this)">全部</button>
+      <button class="filter-btn" data-filter="wrong" onclick="setFilter('wrong', this)">❌ 仅错题</button>
+      <button class="filter-btn" data-filter="flagged" onclick="setFilter('flagged', this)">🚩 仅标记</button>
+      <select class="filter-select" id="subject-filter" onchange="applyFilters()">
+        <option value="">全部科目</option>
+      </select>
     </div>
-  </div>
+
+    <!-- Question List -->
+    <div id="question-list"></div>
+
+    <!-- Empty State -->
+    <div id="empty-state" class="empty-state" style="display:none;">
+      <div class="icon">🎉</div>
+      <h3>暂无错题记录</h3>
+      <p>完成试卷后，答错的题目会自动收录到这里。<br>标记为待复习的题目也会显示在此。</p>
+      <a href="index.html" class="q-btn q-btn-primary" style="font-size:0.9rem;padding:10px 24px;">去刷题</a>
+    </div>
+  </main>
+
+  <footer class="shell" style="padding:32px 0;text-align:center;color:var(--text-muted);font-size:0.82rem;">
+    <p>Local AP practice workspace.</p>
+  </footer>
 
   <script type="module">
-    import { loadWrongQuestions, removeWrongQuestion, clearWrongQuestions } from '../js/exam-engine.js';
+    import { loadWrongQuestions, removeWrongQuestion, loadUserProgress } from '../js/exam-engine.js';
+    import { loadExamIndex } from '../js/data-service.js';
 
-    const WRONG_KEY = 'ap-learning-wrong-questions';
+    // ========== Constants ==========
     const PRACTICED_KEY = 'ap-learning-wrong-practiced';
 
-    let wrongQuestions = [];
+    // ========== Subject Name Map ==========
+    const SUBJECT_NAMES = {
+      'calculus_bc': 'AP Calculus BC',
+      'calculus_ab': 'AP Calculus AB',
+      'statistics': 'AP Statistics',
+      'microeconomics': 'AP Microeconomics',
+      'macroeconomics': 'AP Macroeconomics',
+      'physics_1': 'AP Physics 1',
+      'physics_2': 'AP Physics 2',
+      'physics_c_em': 'AP Physics C: E&M',
+      'physics_c_mechanics': 'AP Physics C: Mechanics',
+      'biology': 'AP Biology',
+      'chemistry': 'AP Chemistry',
+      'psychology': 'AP Psychology',
+      'computer_science_a': 'AP Computer Science A',
+      'english_lang': 'AP English Language',
+      'english_lit': 'AP English Literature',
+      'us_history': 'AP US History',
+      'world_history': 'AP World History',
+    };
 
+    // ========== State ==========
+    let allWrongQuestions = [];
+    let flaggedQuestions = [];
+    let examCatalog = [];
+    let currentFilter = 'all';
+    let currentSubject = '';
+    let masteredSet = new Set();
+
+    // ========== Helpers ==========
     function getPracticed() {
       try { return JSON.parse(localStorage.getItem(PRACTICED_KEY) || '{}'); } catch { return {}; }
     }
 
-    function markPracticed(questionId, correct) {
+    function markMastered(questionId) {
       const p = getPracticed();
-      p[questionId] = correct ? 'mastered' : 'practiced';
+      p[questionId] = 'mastered';
       localStorage.setItem(PRACTICED_KEY, JSON.stringify(p));
+      masteredSet.add(questionId);
     }
 
-    function render() {
-      wrongQuestions = loadWrongQuestions();
+    function unmarkMastered(questionId) {
+      const p = getPracticed();
+      delete p[questionId];
+      localStorage.setItem(PRACTICED_KEY, JSON.stringify(p));
+      masteredSet.delete(questionId);
+    }
+
+    function escapeHtml(str) {
+      const div = document.createElement('div');
+      div.textContent = str || '';
+      return div.innerHTML;
+    }
+
+    function truncate(str, len) {
+      str = str || '';
+      return str.length > len ? str.substring(0, len) + '...' : str;
+    }
+
+    function getSubjectName(subjectKey) {
+      return SUBJECT_NAMES[subjectKey] || subjectKey || 'Unknown';
+    }
+
+    function getSubjectFromExamId(examId) {
+      const exam = examCatalog.find(e => e.exam_id === examId);
+      return exam ? exam.subject : '';
+    }
+
+    function getExamTitle(examId) {
+      const exam = examCatalog.find(e => e.exam_id === examId);
+      return exam ? exam.exam_title : examId;
+    }
+
+    function getMasteryColor(pct) {
+      if (pct >= 80) return 'var(--success)';
+      if (pct >= 50) return 'var(--warning)';
+      return 'var(--danger)';
+    }
+
+    // ========== Scan localStorage for exam states with flagged questions ==========
+    function scanExamStatesForFlagged() {
+      const flagged = [];
+      for (let i = 0; i < localStorage.length; i++) {
+        const key = localStorage.key(i);
+        if (!key.startsWith('ap-learning-exam:')) continue;
+        try {
+          const state = JSON.parse(localStorage.getItem(key));
+          if (!state || !state.sections) continue;
+          const examId = key.replace('ap-learning-exam:', '');
+
+          state.sections.forEach((sec, sIdx) => {
+            if (!sec.flagged) return;
+            sec.flagged.forEach((isFlagged, qIdx) => {
+              if (isFlagged) {
+                flagged.push({
+                  exam_id: examId,
+                  sectionIndex: sIdx,
+                  questionIndex: qIdx,
+                  section_id: sec.section_id,
+                  isFlaggedFromState: true
+                });
+              }
+            });
+          });
+        } catch(e) {}
+      }
+      return flagged;
+    }
+
+    // ========== Data Loading ==========
+    async function init() {
+      // Load exam catalog
+      examCatalog = await loadExamIndex();
+
+      // Load wrong questions from dedicated key
+      allWrongQuestions = loadWrongQuestions();
+
+      // Load mastered set
       const practiced = getPracticed();
-      const total = wrongQuestions.length;
-      const practicedCount = Object.keys(practiced).length;
-      const masteredCount = Object.values(practiced).filter(v => v === 'mastered').length;
+      masteredSet = new Set(
+        Object.entries(practiced)
+          .filter(([, v]) => v === 'mastered')
+          .map(([k]) => k)
+      );
 
-      document.getElementById('total-count').textContent = total;
-      document.getElementById('stat-total').textContent = total;
-      document.getElementById('stat-practiced').textContent = practicedCount;
-      document.getElementById('stat-mastered').textContent = masteredCount;
+      // Scan for flagged questions from active exam states
+      const flaggedFromStates = scanExamStatesForFlagged();
+      // Filter out flagged items that are already in wrong questions
+      const wrongQIds = new Set(allWrongQuestions.map(q => q.question_id));
+      const uniqueFlagged = flaggedFromStates.filter(f => {
+        const compositeId = `${f.exam_id}:${f.section_id}:${f.questionIndex}`;
+        return !wrongQIds.has(compositeId) && !wrongQIds.has(`${f.exam_id}_q${f.questionIndex + 1}`);
+      });
 
-      const listEl = document.getElementById('wrong-list');
+      // Enrich flagged questions with question data from exam files
+      flaggedQuestions = await enrichFlaggedQuestions(uniqueFlagged);
+
+      render();
+    }
+
+    async function enrichFlaggedQuestions(flaggedItems) {
+      const enriched = [];
+      const examCache = {};
+
+      for (const item of flaggedItems) {
+        try {
+          if (!examCache[item.exam_id]) {
+            const res = await fetch(`../data/${item.exam_id}/questions.json`);
+            examCache[item.exam_id] = res.ok ? await res.json() : null;
+          }
+          const questions = examCache[item.exam_id];
+          if (!questions) continue;
+
+          // Find the question by section and index
+          const sectionQuestions = questions.filter(q => q.section_id === item.section_id);
+          const q = sectionQuestions[item.questionIndex];
+          if (q) {
+            enriched.push({
+              ...q,
+              isFlagged: true,
+              isFromActiveExam: true,
+              userAnswer: null,
+              correctAnswer: q.correct_answer
+            });
+          }
+        } catch(e) {}
+      }
+      return enriched;
+    }
+
+    // ========== Render ==========
+    function render() {
+      const practiced = getPracticed();
+
+      // Combine wrong + flagged
+      let allItems = [
+        ...allWrongQuestions.map(q => ({ ...q, isWrong: true, isFlagged: q.isFlagged || false })),
+        ...flaggedQuestions.filter(fq => !allWrongQuestions.some(wq => wq.question_id === fq.question_id))
+      ];
+
+      // Apply mastered status
+      allItems = allItems.map(item => ({
+        ...item,
+        isMastered: masteredSet.has(item.question_id)
+      }));
+
+      // Count stats
+      const totalWrong = allWrongQuestions.length;
+      const totalFlagged = flaggedQuestions.length + allWrongQuestions.filter(q => q.isFlagged).length;
+      const totalMastered = allItems.filter(q => q.isMastered).length;
+
+      // Get unique subjects
+      const subjectSet = new Set();
+      allItems.forEach(q => {
+        const subj = q.subject || getSubjectFromExamId(q.exam_id);
+        if (subj) subjectSet.add(subj);
+      });
+
+      // Update stats
+      document.getElementById('stat-total-wrong').textContent = totalWrong;
+      document.getElementById('stat-flagged').textContent = totalFlagged;
+      document.getElementById('stat-mastered').textContent = totalMastered;
+      document.getElementById('stat-subjects').textContent = subjectSet.size;
+      document.getElementById('subtitle').textContent =
+        `共收集 ${totalWrong} 道错题，${totalFlagged} 道标记题，涉及 ${subjectSet.size} 个科目`;
+
+      // Populate subject filter
+      const subjectFilter = document.getElementById('subject-filter');
+      const currentSubjectVal = subjectFilter.value;
+      subjectFilter.innerHTML = '<option value="">全部科目</option>';
+      [...subjectSet].sort().forEach(subj => {
+        const opt = document.createElement('option');
+        opt.value = subj;
+        opt.textContent = getSubjectName(subj);
+        if (subj === currentSubjectVal) opt.selected = true;
+        subjectFilter.appendChild(opt);
+      });
+
+      // Render mastery cards
+      renderMasteryCards(allItems, subjectSet);
+
+      // Apply filters
+      let filtered = allItems;
+      if (currentFilter === 'wrong') {
+        filtered = filtered.filter(q => q.isWrong && !q.isMastered);
+      } else if (currentFilter === 'flagged') {
+        filtered = filtered.filter(q => q.isFlagged);
+      }
+      if (currentSubject) {
+        filtered = filtered.filter(q => {
+          const subj = q.subject || getSubjectFromExamId(q.exam_id);
+          return subj === currentSubject;
+        });
+      }
+
+      // Show/hide empty state
+      const listEl = document.getElementById('question-list');
       const emptyEl = document.getElementById('empty-state');
-
-      if (total === 0) {
+      if (filtered.length === 0) {
         listEl.innerHTML = '';
         emptyEl.style.display = 'block';
         return;
       }
       emptyEl.style.display = 'none';
 
-      listEl.innerHTML = wrongQuestions.map((wq, idx) => {
-        const status = practiced[wq.question_id] || '';
-        const statusLabel = status === 'mastered' ? '✅ 已掌握' : status === 'practiced' ? '🔄 待巩固' : '';
-        return `
-          <div class="wrong-item" data-idx="${idx}">
-            <div class="wrong-header" onclick="toggleItem(${idx})">
-              <div>
-                <div class="wrong-title">${escapeHtml(wq.question_text || wq.question_html || '').substring(0, 80)}${(wq.question_text || wq.question_html || '').length > 80 ? '...' : ''}</div>
-                <div class="wrong-meta">
-                  <span>📋 ${wq.exam_id}</span>
-                  <span>❌ 选了 ${wq.userAnswer}</span>
-                  <span>✅ 正确 ${wq.correctAnswer}</span>
-                  ${statusLabel ? `<span>${statusLabel}</span>` : ''}
-                </div>
-              </div>
-              <span class="toggle-icon" id="icon-${idx}">▶</span>
-            </div>
-            <div class="wrong-body" id="body-${idx}">
-              <div class="wq-question-text">${wq.question_html || wq.question_text || ''}</div>
-              <div class="wq-answers">
-                <div class="wq-answer wrong">❌ 你的答案：${wq.userAnswer}</div>
-                <div class="wq-answer correct">✅ 正确答案：${wq.correctAnswer}</div>
-              </div>
-              ${wq.options && wq.options.length > 0 ? `
-              <div class="wq-options">
-                ${wq.options.map(opt => {
-                  const isCorrect = opt.key === wq.correctAnswer;
-                  const isWrong = opt.key === wq.userAnswer && !isCorrect;
-                  return `<div class="wq-option ${isCorrect ? 'is-correct' : ''} ${isWrong ? 'is-wrong' : ''}">
-                    <span class="key">${opt.key}.</span>
-                    <span>${opt.html || opt.text || ''}</span>
-                  </div>`;
-                }).join('')}
-              </div>` : ''}
-              ${wq.explanation ? `<div style="font-size:0.85rem;color:var(--text-muted);margin-bottom:1rem;padding:0.75rem;background:var(--bg);border-radius:8px;">💡 ${wq.explanation}</div>` : ''}
-              <div class="wq-actions">
-                <button class="btn btn-danger" onclick="doRemove('${wq.question_id}', ${idx})">🗑 从错题本移除</button>
-                ${status !== 'mastered' ? `<button class="btn btn-success" onclick="doMastered('${wq.question_id}')">✅ 标记为已掌握</button>` : ''}
-              </div>
-            </div>
+      // Group by subject, then by exam
+      const grouped = {};
+      filtered.forEach(q => {
+        const subj = q.subject || getSubjectFromExamId(q.exam_id) || 'unknown';
+        if (!grouped[subj]) grouped[subj] = {};
+        const examGroup = q.exam_id || 'unknown';
+        if (!grouped[subj][examGroup]) grouped[subj][examGroup] = [];
+        grouped[subj][examGroup].push(q);
+      });
+
+      let html = '';
+      const subjectKeys = Object.keys(grouped).sort((a, b) => getSubjectName(a).localeCompare(getSubjectName(b)));
+
+      subjectKeys.forEach(subj => {
+        const exams = grouped[subj];
+        const totalInSubject = Object.values(exams).reduce((s, arr) => s + arr.length, 0);
+        const subjectId = 'subj-' + subj.replace(/[^a-zA-Z0-9]/g, '_');
+
+        html += `<div class="subject-group" id="${subjectId}">`;
+        html += `<div class="subject-group-header" onclick="toggleGroup('${subjectId}')">
+          <div class="subject-group-title">
+            📚 ${escapeHtml(getSubjectName(subj))}
+            <span class="count-badge">${totalInSubject}</span>
           </div>
-        `;
-      }).join('');
+          <span class="subject-group-toggle" id="toggle-${subjectId}">▼ 收起</span>
+        </div>`;
+        html += `<div class="subject-group-body" id="body-${subjectId}">`;
+
+        const examKeys = Object.keys(exams).sort();
+        examKeys.forEach(examId => {
+          const questions = exams[examId];
+          const examTitle = getExamTitle(examId);
+          const examGroupId = subjectId + '-' + examId.replace(/[^a-zA-Z0-9]/g, '_');
+
+          html += `<div class="exam-subgroup">`;
+          html += `<div class="exam-subgroup-header" onclick="toggleGroup('${examGroupId}')">
+            <span class="exam-subgroup-title">📄 ${escapeHtml(examTitle)} (${questions.length}题)</span>
+            <span class="exam-subgroup-meta" id="toggle-${examGroupId}">▼</span>
+          </div>`;
+          html += `<div id="body-${examGroupId}">`;
+
+          questions.forEach((q, idx) => {
+            const qId = q.question_id || `${q.exam_id}-${idx}`;
+            const safeId = 'q-' + qId.replace(/[^a-zA-Z0-9]/g, '_') + '-' + idx;
+            const isExpanded = false;
+            const isMastered = q.isMastered;
+            const isWrong = q.isWrong && q.userAnswer !== undefined && q.userAnswer !== null;
+            const isFlagged = q.isFlagged;
+
+            // Build plain text preview
+            const preview = q.question_text || stripHtml(q.question_html || '');
+
+            html += `<div class="q-card ${isFlagged ? 'is-flagged' : ''}" data-id="${escapeHtml(qId)}">`;
+            html += `<div class="q-card-header" onclick="toggleCard('${safeId}')">`;
+            html += `<div class="q-card-left">`;
+            html += `<div class="q-card-title">${escapeHtml(truncate(preview, 120))}</div>`;
+            html += `<div class="q-card-tags">`;
+            if (isWrong) {
+              html += `<span class="q-tag wrong">❌ 选了 ${escapeHtml(String(q.userAnswer))}</span>`;
+              html += `<span class="q-tag correct">✅ ${escapeHtml(String(q.correctAnswer || q.correct_answer))}</span>`;
+            }
+            if (isFlagged) {
+              html += `<span class="q-tag flagged">🚩 标记</span>`;
+            }
+            if (isMastered) {
+              html += `<span class="q-tag correct">✅ 已掌握</span>`;
+            }
+            if (q.section_id) {
+              html += `<span class="q-tag section">${escapeHtml(q.section_id)}</span>`;
+            }
+            if (q.knowledge_points && q.knowledge_points.length > 0) {
+              q.knowledge_points.slice(0, 2).forEach(kp => {
+                html += `<span class="q-tag kp">${escapeHtml(kp)}</span>`;
+              });
+            }
+            html += `</div>`; // tags
+            html += `</div>`; // left
+            html += `<span class="q-card-toggle" id="icon-${safeId}">▶</span>`;
+            html += `</div>`; // header
+
+            html += `<div class="q-card-body" id="body-${safeId}">`;
+
+            // Question text (rendered with HTML/KaTeX)
+            html += `<div class="q-text">${q.question_html || escapeHtml(q.question_text || '')}</div>`;
+
+            // Options
+            if (q.options && q.options.length > 0) {
+              html += `<div class="q-options">`;
+              q.options.forEach(opt => {
+                const correctKey = q.correctAnswer || q.correct_answer;
+                const isCorrect = opt.key === correctKey;
+                const isWrongOpt = isWrong && opt.key === q.userAnswer;
+                const cls = isCorrect ? 'is-correct' : (isWrongOpt ? 'is-wrong' : '');
+                html += `<div class="q-option ${cls}">
+                  <span class="opt-key">${escapeHtml(opt.key)}.</span>
+                  <span>${opt.html || escapeHtml(opt.text || '')}</span>
+                </div>`;
+              });
+              html += `</div>`;
+            }
+
+            // Answer summary
+            if (isWrong) {
+              html += `<div class="q-answers-row">
+                <span class="your-answer">❌ 你的答案：${escapeHtml(String(q.userAnswer))}</span>
+                <span class="correct-answer">✅ 正确答案：${escapeHtml(String(q.correctAnswer || q.correct_answer))}</span>
+              </div>`;
+            }
+
+            // Explanation
+            if (q.explanation) {
+              html += `<div class="q-explanation"><strong>💡 解析：</strong>${q.explanation}</div>`;
+            }
+
+            // Actions
+            html += `<div class="q-actions">`;
+            if (!isMastered) {
+              html += `<button class="q-btn q-btn-success" onclick="event.stopPropagation();doMaster('${escapeHtml(qId)}')">✅ 标记已掌握</button>`;
+            } else {
+              html += `<button class="q-btn" onclick="event.stopPropagation();doUnmaster('${escapeHtml(qId)}')">↩ 取消掌握</button>`;
+            }
+            html += `<button class="q-btn q-btn-danger" onclick="event.stopPropagation();doRemove('${escapeHtml(qId)}')">🗑 移除</button>`;
+            html += `<a class="q-btn q-btn-primary" href="paper.html?exam=${encodeURIComponent(q.exam_id)}" target="_blank">📝 重做此卷</a>`;
+            html += `</div>`;
+
+            html += `</div>`; // body
+            html += `</div>`; // q-card
+          });
+
+          html += `</div></div>`; // exam subgroup body + subgroup
+        });
+
+        html += `</div></div>`; // subject body + group
+      });
+
+      listEl.innerHTML = html;
+
+      // Render math
+      renderKatex();
     }
 
-    window.toggleItem = function(idx) {
-      const body = document.getElementById('body-' + idx);
-      const icon = document.getElementById('icon-' + idx);
+    function renderMasteryCards(allItems, subjectSet) {
+      const section = document.getElementById('mastery-section');
+      const grid = document.getElementById('mastery-grid');
+
+      if (subjectSet.size === 0) {
+        section.style.display = 'none';
+        return;
+      }
+
+      section.style.display = 'block';
+      let html = '';
+
+      // Calculate per-subject stats from user progress AND wrong questions
+      const progress = loadUserProgress();
+      const subjectStats = {};
+
+      // From wrong questions - calculate what we can
+      allItems.forEach(q => {
+        const subj = q.subject || getSubjectFromExamId(q.exam_id) || 'unknown';
+        if (!subjectStats[subj]) {
+          subjectStats[subj] = { wrong: 0, mastered: 0, total: 0 };
+        }
+        subjectStats[subj].total++;
+        if (q.isMastered) {
+          subjectStats[subj].mastered++;
+        } else if (q.isWrong) {
+          subjectStats[subj].wrong++;
+        }
+      });
+
+      // Merge with progress data for overall accuracy
+      [...subjectSet].sort().forEach(subj => {
+        const stats = subjectStats[subj] || { wrong: 0, mastered: 0, total: 0 };
+        const progressData = progress && progress.subjects ? progress.subjects[subj] : null;
+
+        let accuracy = 0;
+        let totalAnswered = 0;
+        let totalCorrect = 0;
+
+        if (progressData) {
+          totalAnswered = progressData.totalAnswered || 0;
+          totalCorrect = progressData.totalCorrect || 0;
+          accuracy = progressData.accuracy || 0;
+        }
+
+        // If we have wrong questions data, estimate accuracy
+        if (stats.total > 0 && !progressData) {
+          const recovered = stats.mastered;
+          const stillWrong = stats.wrong;
+          // Rough estimate: wrong questions are a subset of all answered
+          accuracy = stats.total > 0 ? Math.round((recovered / stats.total) * 100) : 0;
+        }
+
+        const barColor = getMasteryColor(accuracy);
+
+        html += `<div class="mastery-card">
+          <div class="mastery-card-header">
+            <span class="subject-name">${escapeHtml(getSubjectName(subj))}</span>
+            <span class="mastery-pct" style="color:${barColor}">${accuracy}%</span>
+          </div>
+          <div class="mastery-bar-track">
+            <div class="mastery-bar-fill" style="width:${accuracy}%;background:${barColor}"></div>
+          </div>
+          <div class="mastery-stats">
+            <span>❌ ${stats.wrong} 未掌握</span>
+            <span>✅ ${stats.mastered} 已掌握</span>
+            ${totalAnswered > 0 ? `<span>📝 ${totalAnswered} 已答</span>` : ''}
+          </div>
+        </div>`;
+      });
+
+      grid.innerHTML = html;
+    }
+
+    function stripHtml(html) {
+      const div = document.createElement('div');
+      div.innerHTML = html || '';
+      return div.textContent || '';
+    }
+
+    function renderKatex() {
+      if (!window.katex) return;
+      document.querySelectorAll('.math-inline, .q-text .katex, .q-option .katex').forEach(el => {
+        // Already rendered by KaTeX auto-render
+      });
+      // Try auto-render
+      if (window.renderMathInElement) {
+        window.renderMathInElement(document.getElementById('question-list'), {
+          delimiters: [
+            {left: '$$', right: '$$', display: true},
+            {left: '$', right: '$', display: false},
+            {left: '\\(', right: '\\)', display: false},
+            {left: '\\[', right: '\\]', display: true}
+          ]
+        });
+      }
+    }
+
+    // ========== Load KaTeX ==========
+    function loadKatexLib() {
+      return new Promise((resolve) => {
+        if (window.katex) return resolve();
+        const script = document.createElement('script');
+        script.src = 'https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js';
+        script.onload = () => {
+          // Load auto-render
+          const ar = document.createElement('script');
+          ar.src = 'https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js';
+          ar.onload = () => resolve();
+          ar.onerror = () => resolve();
+          document.head.appendChild(ar);
+        };
+        script.onerror = () => resolve();
+        document.head.appendChild(script);
+      });
+    }
+
+    // ========== UI Actions ==========
+    window.toggleCard = function(safeId) {
+      const body = document.getElementById('body-' + safeId);
+      const icon = document.getElementById('icon-' + safeId);
+      if (!body) return;
       const isOpen = body.classList.contains('open');
       body.classList.toggle('open', !isOpen);
-      icon.textContent = isOpen ? '▶' : '▼';
+      if (icon) icon.textContent = isOpen ? '▶' : '▼';
+
+      // Render KaTeX when expanding
+      if (!isOpen) {
+        setTimeout(renderKatex, 50);
+      }
     };
 
-    window.doRemove = function(questionId, idx) {
+    window.toggleGroup = function(groupId) {
+      const body = document.getElementById('body-' + groupId);
+      const toggle = document.getElementById('toggle-' + groupId);
+      if (!body) return;
+      const isHidden = body.style.display === 'none';
+      body.style.display = isHidden ? '' : 'none';
+      if (toggle) {
+        toggle.textContent = isHidden ? '▼ 收起' : '▶ 展开';
+      }
+    };
+
+    window.setFilter = function(filter, btn) {
+      currentFilter = filter;
+      document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('is-active'));
+      if (btn) btn.classList.add('is-active');
+      render();
+    };
+
+    window.applyFilters = function() {
+      currentSubject = document.getElementById('subject-filter').value;
+      render();
+    };
+
+    window.doMaster = function(questionId) {
+      markMastered(questionId);
+      render();
+    };
+
+    window.doUnmaster = function(questionId) {
+      unmarkMastered(questionId);
+      render();
+    };
+
+    window.doRemove = function(questionId) {
       removeWrongQuestion(questionId);
-      // Remove from practiced tracking
-      const p = getPracticed();
-      delete p[questionId];
-      localStorage.setItem(PRACTICED_KEY, JSON.stringify(p));
+      unmarkMastered(questionId);
+      // Also remove from flagged if present
+      flaggedQuestions = flaggedQuestions.filter(q => q.question_id !== questionId);
       render();
     };
 
-    window.doMastered = function(questionId) {
-      markPracticed(questionId, true);
-      render();
-    };
-
-    function escapeHtml(str) {
-      const div = document.createElement('div');
-      div.textContent = str;
-      return div.innerHTML;
-    }
-
-    render();
+    // ========== Init ==========
+    loadKatexLib().then(() => init());
   </script>
 </body>
 </html>

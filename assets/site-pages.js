@@ -1,11 +1,13 @@
 const fallbackSubjectMap = {
-  "瀹忚缁忔祹": "AP Macro",
-  "寰缁忔祹": "AP Micro",
-  "寰Н鍒咮C": "AP Calculus BC",
-  "缁熻瀛?": "AP Statistics",
-  "蹇冪悊": "AP Psychology",
-  "鐗╃悊C鍔涘": "AP Physics C: Mechanics",
-  "鐗╃悊C鐢电": "AP Physics C: E&M",
+  "宏观经济": "AP Macro",
+  "微观经济": "AP Micro",
+  "微积分BC": "AP Calculus BC",
+  "微积分AB": "AP Calculus AB",
+  "统计学": "AP Statistics",
+  "心理学": "AP Psychology",
+  "物理C力学": "AP Physics C: Mechanics",
+  "物理C电磁": "AP Physics C: E&M",
+  "计算机科学A": "AP CSA",
   "CSA": "AP CSA"
 };
 
@@ -92,6 +94,81 @@ async function loadCatalog() {
   }
 }
 
+async function loadUnits() {
+  try {
+    const response = await fetch(window.sitePath("/mock-data/units.json"));
+    if (!response.ok) return {};
+    const data = await response.json();
+    return data.subjects || {};
+  } catch (error) {
+    console.warn("Failed to load units", error);
+    return {};
+  }
+}
+
+// Read all ap-learning-exam:* keys from localStorage and compute per-subject stats
+async function getUserStats() {
+  const stats = {};
+  const examCache = {};
+  const catalogItems = state.catalog?.items || [];
+  const catalogMap = {};
+  for (const item of catalogItems) {
+    catalogMap[item.examId] = item;
+  }
+
+  for (let i = 0; i < localStorage.length; i++) {
+    const key = localStorage.key(i);
+    if (!key.startsWith("ap-learning-exam:")) continue;
+    const examId = key.slice("ap-learning-exam:".length);
+    try {
+      const data = JSON.parse(localStorage.getItem(key));
+      // Fetch exam JSON for question counts (use cache)
+      if (!examCache[examId]) {
+        try {
+          const resp = await fetch(window.sitePath(`/mock-data/ap-exam-${examId}.json`));
+          if (resp.ok) examCache[examId] = await resp.json();
+          else examCache[examId] = null;
+        } catch { examCache[examId] = null; }
+      }
+      const examJson = examCache[examId];
+      if (!examJson) continue;
+
+      // Determine subject
+      const subjectZh = examJson.subjectName || catalogMap[examId]?.subject || "";
+      if (!subjectZh) continue;
+
+      // Initialize stats for this subject
+      if (!stats[subjectZh]) {
+        stats[subjectZh] = { totalAnswered: 0, totalQuestions: 0, examsStarted: 0, examsCompleted: 0 };
+      }
+      const s = stats[subjectZh];
+
+      // Count answered questions
+      let examAnswered = 0;
+      for (let si = 0; si < (data.sections || []).length; si++) {
+        const secState = data.sections[si];
+        if (!secState || !secState.answers) continue;
+        for (const a of secState.answers) {
+          if (a !== null && a !== undefined && a !== "") {
+            examAnswered++;
+          }
+        }
+        // Use exam JSON section for total questions
+        const examSec = examJson.sections?.[si];
+        if (examSec) {
+          s.totalQuestions += (examSec.questions || []).length;
+        }
+      }
+      s.totalAnswered += examAnswered;
+      s.examsStarted++;
+      if (data.results) s.examsCompleted++;
+    } catch (e) {
+      // skip malformed entries
+    }
+  }
+  return stats;
+}
+
 function renderMockPage(root) {
   const items = state.catalog?.items || [];
   if (!items.length) {
@@ -102,96 +179,119 @@ function renderMockPage(root) {
   renderSubjectExamBrowser(root, items, "mock");
 }
 
-function renderTrainingPage(root) {
-  const trainingSubjects = state.mockData.training?.subjects || [];
-  if (!trainingSubjects.length) {
-    root.innerHTML = '<div class="empty-state">专项训练 mock 数据暂未准备好。</div>';
+async function renderTrainingPage(root) {
+  const catalogItems = state.catalog?.items || [];
+  if (!catalogItems.length) {
+    root.innerHTML = '<div class="empty-state">暂无可用试卷数据。</div>';
     return;
   }
 
-  const subject = pickTrainingSubject(trainingSubjects);
-  const path = pickTrainingPath(subject);
-  const items = subject.items[path.id] || [];
-  const selectedItem = pickTrainingItem(items);
+  // Group catalog items by subject
+  const grouped = {};
+  for (const item of catalogItems) {
+    const label = getSubjectLabel(item);
+    if (!grouped[label]) grouped[label] = [];
+    grouped[label].push(item);
+  }
+  const subjectLabels = Object.keys(grouped).sort();
+
+  // Determine selected subject from query
+  const querySubject = getQueryValue("subject");
+  const selectedSubject = querySubject && grouped[querySubject] ? querySubject : subjectLabels[0];
+  const exams = (grouped[selectedSubject] || []).sort(compareExamItems);
+
+  // Determine selected exam from query
+  const queryExamId = getQueryValue("exam");
+  const selectedExam = exams.find(e => e.examId === queryExamId) || exams[0];
 
   root.innerHTML = `
     <section class="overview-card">
       <div class="overview-head">
         <div>
-          <span class="eyebrow">Training Logic</span>
-          <h2>${escapeHtml(subject.label)}</h2>
-          <p>${escapeHtml(subject.summary)}</p>
+          <span class="eyebrow">Training Center</span>
+          <h2>${escapeHtml(selectedSubject)}</h2>
+          <p>共 ${exams.length} 套试卷可用，点击开始练习</p>
         </div>
-        <span class="summary-badge">${escapeHtml(path.stat)}</span>
+        <span class="summary-badge">${exams.length} 套</span>
       </div>
-      <p class="overview-note">${escapeHtml(subject.recommendation)}</p>
+      <p class="overview-note">选择下方试卷开始练习，系统会自动记录你的做题进度。</p>
     </section>
     <div class="subject-tabs" role="tablist" aria-label="专项训练学科切换">
-      ${trainingSubjects.map((item) => `
+      ${subjectLabels.map((label) => `
         <button
-          class="subject-tab${item.id === subject.id ? " is-active" : ""}"
+          class="subject-tab${label === selectedSubject ? " is-active" : ""}"
           type="button"
-          data-subject="${escapeHtml(item.id)}"
+          data-subject="${escapeHtml(label)}"
         >
-          ${escapeHtml(item.label)}
+          ${escapeHtml(label)}
         </button>
       `).join("")}
     </div>
-    <section class="path-grid">
-      ${subject.paths.map((item) => `
-        <button class="path-card${item.id === path.id ? " is-active" : ""}" type="button" data-path="${escapeHtml(item.id)}">
-          <span class="path-title">${escapeHtml(item.title)}</span>
-          <span class="path-copy">${escapeHtml(item.description)}</span>
-          <span class="path-meta">${escapeHtml(item.emphasis)}</span>
-          <span class="summary-badge">${escapeHtml(item.stat)}</span>
-        </button>
-      `).join("")}
-    </section>
     <section class="page-section-grid">
       <article class="page-section-card">
         <div class="section-card-head">
           <div>
-            <span class="eyebrow">Current Path</span>
-            <h3>${escapeHtml(path.title)}</h3>
+            <span class="eyebrow">Available Exams</span>
+            <h3>${escapeHtml(selectedSubject)} 试卷列表</h3>
           </div>
-          <span class="summary-badge">${escapeHtml(path.stat)}</span>
+          <span class="summary-badge">${exams.length} 套</span>
         </div>
+        ${selectedExam ? `
         <article class="launch-card">
-          <span class="eyebrow">Mock Launch</span>
-          <h3>${escapeHtml(selectedItem.title)}</h3>
-          <p>${escapeHtml(selectedItem.unit)} · ${escapeHtml(selectedItem.source)} · ${escapeHtml(selectedItem.difficulty)}</p>
+          <span class="eyebrow">Selected</span>
+          <h3>${escapeHtml(cleanTitle(selectedExam.title, selectedSubject))}</h3>
+          <p>${escapeHtml(normalizeYear(selectedExam.year, selectedExam.title))} · ${escapeHtml(selectedSubject)} · ${escapeHtml(normalizePaperType(selectedExam.paperType, selectedExam.title))}</p>
           <div class="card-meta">
-            ${(selectedItem.tags || []).map((tag) => `<span class="chip">${escapeHtml(tag)}</span>`).join("")}
+            <span class="chip">题量 ${Number(selectedExam.questionCount) || 0}</span>
+            <span class="chip">Sections ${Number(selectedExam.sectionCount) || 0}</span>
           </div>
-          <p>${escapeHtml(selectedItem.reason)}</p>
           <div class="training-footer">
-            <span class="progress-copy">${escapeHtml(selectedItem.progress)}</span>
-            <button class="card-link training-launch-button" type="button">开始</button>
+            <span class="progress-copy">准备就绪</span>
+            <a class="card-link" href="${window.sitePath('/ap/start/?examId='+encodeURIComponent(selectedExam.examId))}">开始</a>
           </div>
         </article>
+        ` : ""}
         <div class="training-list">
-          ${items.map((item) => renderTrainingItem(item)).join("")}
+          ${exams.map((item) => {
+            const year = normalizeYear(item.year, item.title);
+            const paperType = normalizePaperType(item.paperType, item.title);
+            const isActive = selectedExam && item.examId === selectedExam.examId;
+            return `
+            <article class="training-item${isActive ? " is-active" : ""}">
+              <div>
+                <h3>${escapeHtml(cleanTitle(item.title, selectedSubject))}</h3>
+                <p>${escapeHtml(year)} · ${escapeHtml(paperType)} · ${Number(item.questionCount) || 0} 题</p>
+              </div>
+              <div class="card-meta">
+                <span class="chip">${Number(item.sectionCount) || 0} Sections</span>
+              </div>
+              <div class="training-footer">
+                <a class="card-link" href="${window.sitePath('/ap/start/?examId='+encodeURIComponent(item.examId))}">开始</a>
+              </div>
+            </article>
+            `;
+          }).join("")}
         </div>
       </article>
       <aside class="page-section-card">
         <div class="section-card-head">
           <div>
-            <span class="eyebrow">Recommended</span>
-            <h3>训练建议</h3>
+            <span class="eyebrow">Info</span>
+            <h3>训练说明</h3>
           </div>
         </div>
         <div class="insight-list">
           <article class="insight-item">
-            <strong>当前推荐路径</strong>
-            <p>${escapeHtml(path.description)}</p>
+            <strong>当前学科</strong>
+            <p>${escapeHtml(selectedSubject)}</p>
           </article>
           <article class="insight-item">
-            <strong>推荐原因</strong>
-            <p>${escapeHtml(subject.recommendation)}</p>
+            <strong>可用试卷</strong>
+            <p>共 ${exams.length} 套，涵盖多年真题和样题</p>
           </article>
           <article class="insight-item">
-            <strong>路径定位</strong>
-            <p>${escapeHtml(path.emphasis)}</p>
+            <strong>练习建议</strong>
+            <p>建议从最新年份的试卷开始，逐步回溯历年真题</p>
           </article>
         </div>
       </aside>
@@ -202,54 +302,43 @@ function renderTrainingPage(root) {
     button.addEventListener("click", () => {
       const url = new URL(window.location.href);
       url.searchParams.set("subject", button.dataset.subject || "");
-      url.searchParams.delete("path");
-      url.searchParams.delete("item");
+      url.searchParams.delete("exam");
       history.replaceState({}, "", `${url.pathname}${url.search}`);
       renderTrainingPage(root);
     });
   });
-
-  root.querySelectorAll(".path-card").forEach((button) => {
-    button.addEventListener("click", () => {
-      const url = new URL(window.location.href);
-      url.searchParams.set("subject", subject.id);
-      url.searchParams.set("path", button.dataset.path || "");
-      url.searchParams.delete("item");
-      history.replaceState({}, "", `${url.pathname}${url.search}`);
-      renderTrainingPage(root);
-    });
-  });
-
-  root.querySelectorAll(".training-start").forEach((button) => {
-    button.addEventListener("click", () => {
-      const url = new URL(window.location.href);
-      url.searchParams.set("subject", subject.id);
-      url.searchParams.set("path", path.id);
-      url.searchParams.set("item", button.dataset.item || "");
-      history.replaceState({}, "", `${url.pathname}${url.search}`);
-      renderTrainingPage(root);
-    });
-  });
-
-  const launchButton = root.querySelector(".training-launch-button");
-  if (launchButton) {
-    launchButton.addEventListener("click", () => {
-      const url = new URL(window.location.href);
-      url.searchParams.set("subject", subject.id);
-      url.searchParams.set("path", path.id);
-      url.searchParams.set("item", slugify(selectedItem.title));
-      history.replaceState({}, "", `${url.pathname}${url.search}`);
-      renderTrainingPage(root);
-    });
-  }
 }
 
-function renderDashboardHome(root) {
+async function renderDashboardHome(root) {
   const user = state.mockData.user || {};
-  const subjects = getUserDashboardSubjects();
+  const userSubjects = getUserDashboardSubjects();
+  const userStats = await getUserStats();
+
+  // Build subject list from real stats (subjects with exam activity)
+  const realSubjectIds = Object.keys(userStats);
+  const allSubjectMap = {};
+  // Add mock subjects
+  for (const s of userSubjects) {
+    if (s) allSubjectMap[s.id] = s;
+  }
+  // Add real subjects not in mock
+  for (const zhName of realSubjectIds) {
+    const id = getSubjectIdFromZh(zhName);
+    if (!allSubjectMap[id]) {
+      const label = getSubjectEnLabel(zhName);
+      allSubjectMap[id] = {
+        id, label,
+        examDate: "", examTime: "",
+        masteryState: "one_third", fiveRate: 0, overallMastery: 0,
+        mcqPrediction: "-", frqPrediction: "-", knowledgeCoverage: 0,
+        layout: "", overviewMetrics: [], units: []
+      };
+    }
+  }
+  const subjects = Object.values(allSubjectMap);
 
   if (!subjects.length) {
-    root.innerHTML = '<div class="empty-state">当前用户还没有配置报考科目。</div>';
+    root.innerHTML = '<div class="empty-state">当前用户还没有配置报考科目，也没有考试记录。</div>';
     return;
   }
 
@@ -259,28 +348,74 @@ function renderDashboardHome(root) {
         <div>
           <span class="eyebrow">Learning Center</span>
           <h2>${escapeHtml(user.name || "AP Learner")}</h2>
-          <p>${escapeHtml(user.goal || "先用 mock 数据把个人学习记录中心跑起来。")}</p>
+          <p>${escapeHtml(user.goal || "开始做题，实时数据将自动显示在这里。")}</p>
         </div>
-        <span class="summary-badge">${subjects.length} 门报考科目</span>
+        <span class="summary-badge">${subjects.length} 门科目</span>
       </div>
       <div class="card-meta">
-        ${(user.examSubjects || []).map((subjectId) => {
-          const subject = getDashboardSubjectById(subjectId);
-          return subject ? `<span class="chip">${escapeHtml(subject.label)}</span>` : "";
-        }).join("")}
+        ${subjects.map((s) => `<span class="chip">${escapeHtml(s.label)}</span>`).join("")}
       </div>
     </section>
     <section class="dashboard-cards dashboard-cards-${subjects.length > 3 ? "dense" : "open"}">
-      ${subjects.map((subject, index) => renderDashboardHomeCard(subject, index)).join("")}
+      ${subjects.map((subject, index) => renderDashboardHomeCard(subject, index, userStats)).join("")}
     </section>
   `;
 }
 
-function renderDashboardSubject(root) {
+async function renderDashboardSubject(root) {
   const subject = getCurrentDashboardSubject();
+  const userStats = await getUserStats();
+  const unitsData = await loadUnits();
+
   if (!subject) {
     root.innerHTML = '<div class="empty-state">没有找到该学科的 Dashboard 数据。</div>';
     return;
+  }
+
+  // Find real stats for this subject
+  let realStats = null;
+  for (const [zhName, s] of Object.entries(userStats)) {
+    if (getSubjectIdFromZh(zhName) === subject.id) {
+      realStats = s;
+      break;
+    }
+  }
+
+  const answered = realStats ? realStats.totalAnswered : 0;
+  const totalQ = realStats ? realStats.totalQuestions : 0;
+  const started = realStats ? realStats.examsStarted : 0;
+  const completed = realStats ? realStats.examsCompleted : 0;
+
+  // Build real overview metrics
+  const metrics = [
+    { label: "已答题数", value: String(answered) },
+    { label: "总题数", value: String(totalQ) },
+    { label: "开考次数", value: String(started) },
+    { label: "完成次数", value: String(completed) }
+  ];
+
+  // Find matching units data
+  let subjectUnits = subject.units || [];
+  // Try to match from units.json by finding the Chinese subject name
+  const zhSubjectName = Object.keys(unitsData).find(zh => getSubjectIdFromZh(zh) === subject.id);
+  if (zhSubjectName && unitsData[zhSubjectName]?.units) {
+    const jsonUnits = unitsData[zhSubjectName].units;
+    subjectUnits = jsonUnits.map((u) => {
+      // Try to find existing mock unit data for mastery info
+      const existingUnit = (subject.units || []).find(mu => String(mu.id) === String(u.id));
+      return {
+        id: String(u.id),
+        title: u.nameZh || u.name,
+        weight: u.weight || "",
+        masteryState: existingUnit?.masteryState || "one_third",
+        masteryText: existingUnit?.masteryText || `${u.nameZh || u.name} - 尚未开始练习`,
+        skills: existingUnit?.skills || (u.topics || []).map(t => ({
+          title: t,
+          masteryState: "one_third",
+          action: "待练习"
+        }))
+      };
+    });
   }
 
   root.innerHTML = `
@@ -289,12 +424,12 @@ function renderDashboardSubject(root) {
         <div>
           <span class="eyebrow">Subject Overview</span>
           <h2>${escapeHtml(subject.label)}</h2>
-          <p>${escapeHtml(subject.examDate)} · ${escapeHtml(subject.examTime)} · 预测与掌握度总览</p>
+          <p>${escapeHtml(subject.examDate || "未设定考试时间")} ${subject.examTime ? "· " + escapeHtml(subject.examTime) : ""} · 真实做题数据</p>
         </div>
         ${renderMasteryPill(subject.masteryState)}
       </div>
       <div class="summary-grid summary-grid-four">
-        ${subject.overviewMetrics.map((metric) => `
+        ${metrics.map((metric) => `
           <article class="summary-card compact">
             <span class="eyebrow">${escapeHtml(metric.label)}</span>
             <h3>${escapeHtml(metric.value)}</h3>
@@ -310,7 +445,7 @@ function renderDashboardSubject(root) {
         </div>
       </div>
       <div class="unit-map-grid">
-        ${subject.units.map((unit) => renderUnitOverviewCard(subject, unit)).join("")}
+        ${subjectUnits.map((unit) => renderUnitOverviewCard(subject, unit)).join("")}
       </div>
     </section>
   `;
@@ -433,43 +568,59 @@ function renderSubjectExamBrowser(root, items, mode) {
   });
 }
 
-function renderDashboardHomeCard(subject, index) {
+function renderDashboardHomeCard(subject, index, userStats) {
   const stateMeta = getMasteryStateMeta(subject.masteryState);
   const layoutClass = subject.layout === "wide" && index === 0 ? "is-wide" : "";
+
+  // Find real stats for this subject by matching zh name
+  let realStats = null;
+  for (const [zhName, s] of Object.entries(userStats || {})) {
+    if (getSubjectIdFromZh(zhName) === subject.id) {
+      realStats = s;
+      break;
+    }
+  }
+  const answered = realStats ? realStats.totalAnswered : 0;
+  const totalQ = realStats ? realStats.totalQuestions : 0;
+  const started = realStats ? realStats.examsStarted : 0;
+  const completed = realStats ? realStats.examsCompleted : 0;
+  const accuracyPct = realStats && realStats.totalAnswered > 0
+    ? Math.round((realStats.totalAnswered / Math.max(realStats.totalQuestions, 1)) * 100) : 0;
+
   return `
     <a class="dashboard-home-card ${layoutClass}" href="${window.sitePath('/dashboard/subject/?subject='+encodeURIComponent(subject.id))}">
       <div class="dashboard-home-top">
         <div>
           <span class="eyebrow">Exam</span>
           <h3>${escapeHtml(subject.label)}</h3>
-          <p>${escapeHtml(subject.examDate)} · ${escapeHtml(subject.examTime)}</p>
+          <p>${escapeHtml(subject.examDate || "未设定考试时间")} ${subject.examTime ? "· " + escapeHtml(subject.examTime) : ""}</p>
         </div>
         <span class="mastery-chip ${escapeHtml(stateMeta.tone)}">${escapeHtml(stateMeta.label)}</span>
       </div>
       <div class="dashboard-home-metrics">
         <div class="metric-block">
-          <span>5 分概率</span>
-          <strong>${escapeHtml(String(subject.fiveRate))}%</strong>
+          <span>已答题数</span>
+          <strong>${answered}</strong>
         </div>
         <div class="metric-block">
-          <span>整体掌握</span>
-          <strong>${escapeHtml(String(subject.overallMastery))}%</strong>
+          <span>做题进度</span>
+          <strong>${accuracyPct}%</strong>
         </div>
         <div class="metric-block">
-          <span>MCQ 预测</span>
-          <strong>${escapeHtml(subject.mcqPrediction)}</strong>
+          <span>已开考</span>
+          <strong>${started} 次</strong>
         </div>
         <div class="metric-block">
-          <span>FRQ 预测</span>
-          <strong>${escapeHtml(subject.frqPrediction)}</strong>
+          <span>已完成</span>
+          <strong>${completed} 次</strong>
         </div>
       </div>
       <div class="mastery-progress">
-        <span>知识点掌握</span>
+        <span>做题进度</span>
         <div class="progress-track">
           <span class="progress-fill ${escapeHtml(stateMeta.fill)}"></span>
         </div>
-        <strong>${escapeHtml(String(subject.knowledgeCoverage))}%</strong>
+        <strong>${answered}/${totalQ}</strong>
       </div>
     </a>
   `;
@@ -584,7 +735,20 @@ function getDashboardSubjectById(subjectId) {
 function getCurrentDashboardSubject() {
   const userSubjects = getUserDashboardSubjects();
   const subjectId = getQueryValue("subject");
-  return userSubjects.find((item) => item.id === subjectId) || userSubjects[0] || null;
+  const fromMock = userSubjects.find((item) => item.id === subjectId) || userSubjects[0] || null;
+  if (fromMock) return fromMock;
+  // If subjectId is provided but not in mock, create a placeholder
+  if (subjectId) {
+    return {
+      id: subjectId,
+      label: subjectId,
+      examDate: "", examTime: "",
+      masteryState: "one_third", fiveRate: 0, overallMastery: 0,
+      mcqPrediction: "-", frqPrediction: "-", knowledgeCoverage: 0,
+      layout: "", overviewMetrics: [], units: []
+    };
+  }
+  return null;
 }
 
 function getCurrentUnit(subject) {
@@ -640,6 +804,26 @@ function normalizeSubject(subject) {
   return value;
 }
 
+// Map Chinese subject name to a stable subject id used in dashboard links
+function getSubjectIdFromZh(zhName) {
+  const map = {
+    "宏观经济": "macro",
+    "微积分BC": "calc-bc",
+    "微观经济": "micro",
+    "心理学": "psych",
+    "物理C力学": "physics-mech",
+    "物理C电磁": "physics-em",
+    "统计学": "stats",
+    "计算机科学A": "csa"
+  };
+  return map[zhName] || zhName.toLowerCase().replace(/[^a-z0-9]+/g, "-");
+}
+
+// Map Chinese subject name to English label
+function getSubjectEnLabel(zhName) {
+  return fallbackSubjectMap[zhName] || zhName;
+}
+
 function normalizePaperType(paperType, title) {
   const value = String(paperType || "").trim();
   const titleValue = String(title || "").trim();
@@ -667,12 +851,14 @@ function cleanTitle(title, subject) {
 }
 
 function getProgressState(examId) {
-  const storageKey = `mokaoai-local-mock:${examId}`;
+  const storageKey = `ap-learning-exam:${examId}`;
   try {
     const raw = localStorage.getItem(storageKey);
     if (!raw) return { hasProgress: false, inProgress: false, updatedAt: 0 };
     const parsed = JSON.parse(raw);
-    const answers = (parsed.sectionStates || []).flatMap((section) => section.answers || []);
+    // Support both old format (sectionStates) and new format (sections)
+    const sectionsList = parsed.sections || parsed.sectionStates || [];
+    const answers = sectionsList.flatMap((section) => section.answers || []);
     const hasAnswers = answers.some((answer) => Array.isArray(answer) ? answer.length > 0 : String(answer || "").trim().length > 0);
     const hasProgress = Boolean(parsed.startedAt || hasAnswers || parsed.results);
     const inProgress = hasProgress && !parsed.results;
