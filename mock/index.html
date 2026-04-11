@@ -5,7 +5,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>套题模考 - AP Learning</title>
   <script>
-    // Fix paths BEFORE anything renders — prevents 404
     var m = location.pathname.match(/^\/(AP-Learning-Web-0\d)(?:\/|$)/);
     window._b = m ? '/' + m[1] : '';
   </script>
@@ -59,20 +58,12 @@
       <div class="filters" style="padding: 18px 22px 0;">
         <select class="filter-select" id="subject-filter">
           <option value="">全部科目</option>
-          <option value="calculus_bc">AP Calculus BC</option>
-          <option value="calculus_ab">AP Calculus AB</option>
-          <option value="statistics">AP Statistics</option>
-          <option value="microeconomics">AP Microeconomics</option>
         </select>
         <select class="filter-select" id="year-filter">
           <option value="">全部年份</option>
-          <option value="2024">2024</option>
-          <option value="2023">2023</option>
-          <option value="2022">2022</option>
-          <option value="2021">2021</option>
-          <option value="2020">2020</option>
-          <option value="2019">2019</option>
-          <option value="2018">2018</option>
+        </select>
+        <select class="filter-select" id="type-filter">
+          <option value="">全部类型</option>
         </select>
       </div>
       <div class="exam-list dashboard-list" id="exam-list" style="padding: 16px 22px 22px;">
@@ -95,6 +86,8 @@
       font-size: 0.9rem;
       font-weight: 600;
       cursor: pointer;
+      margin-right: 8px;
+      margin-bottom: 8px;
     }
     .exam-list { display: flex; flex-direction: column; gap: 12px; }
     .exam-card {
@@ -132,36 +125,85 @@
       font-weight: 700;
     }
     .progress-tag.not-started { background: var(--text-muted); }
+    .empty-state {
+      text-align: center;
+      padding: 40px;
+      color: var(--text-muted);
+    }
   </style>
 
   <script>
-    const subjectNames = {
-      'calculus_bc': '微积分BC',
-      'calculus_ab': '微积分AB',
-      'statistics': '统计学',
-      'microeconomics': '微观经济',
-      'macroeconomics': '宏观经济'
+    let catalogData = null;
+
+    const subjectMap = {
+      '宏观经济': 'macroeconomics',
+      '微积分BC': 'calculus_bc',
+      '微积分AB': 'calculus_ab',
+      '微观经济': 'microeconomics',
+      '心理学': 'psychology',
+      '物理C力学': 'physics_c_mechanics',
+      '物理C电磁': 'physics_c_em',
+      '统计学': 'statistics',
+      '计算机科学A': 'csa'
     };
 
-    // 默认试卷数据
-    const defaultExams = [
-      {
-        exam_id: 'calc-bc-2018-intl',
-        exam_title: 'AP Calculus BC 2018 国际卷',
-        subject: 'calculus_bc',
-        year: 2018,
-        total_questions: 45,
-        sections: [
-          { part_label: 'Part A', calculator_allowed: false, question_count: 30, time_limit_minutes: 60 },
-          { part_label: 'Part B', calculator_allowed: true, question_count: 15, time_limit_minutes: 45 }
-        ]
-      }
-    ];
+    const subjectIcons = {
+      '宏观经济': '📊',
+      '微积分BC': '∫',
+      '微积分AB': '∫',
+      '微观经济': '📈',
+      '心理学': '🧠',
+      '物理C力学': '⚡',
+      '物理C电磁': '⚡',
+      '统计学': '📉',
+      '计算机科学A': '💻'
+    };
 
-    // 从 localStorage 读取进度
+    // Load catalog
+    async function loadCatalog() {
+      try {
+        const resp = await fetch(window.sitePath('/mock-data/exam-catalog.json'));
+        catalogData = await resp.json();
+        populateFilters();
+        renderExamList();
+      } catch (e) {
+        console.error('Failed to load catalog:', e);
+        document.getElementById('exam-list').innerHTML = '<div class="empty-state">加载失败，请刷新重试</div>';
+      }
+    }
+
+    function populateFilters() {
+      if (!catalogData) return;
+
+      const subjectFilter = document.getElementById('subject-filter');
+      const yearFilter = document.getElementById('year-filter');
+      const typeFilter = document.getElementById('type-filter');
+
+      catalogData.subjects.forEach(s => {
+        const opt = document.createElement('option');
+        opt.value = s;
+        opt.textContent = s;
+        subjectFilter.appendChild(opt);
+      });
+
+      catalogData.years.forEach(y => {
+        const opt = document.createElement('option');
+        opt.value = y;
+        opt.textContent = y + '年';
+        yearFilter.appendChild(opt);
+      });
+
+      catalogData.paperTypes.forEach(t => {
+        const opt = document.createElement('option');
+        opt.value = t;
+        opt.textContent = t;
+        typeFilter.appendChild(opt);
+      });
+    }
+
     function getProgress(examId) {
       try {
-        const raw = localStorage.getItem(`ap-learning-exam:${examId}`);
+        const raw = localStorage.getItem('ap-learning-exam:' + examId);
         if (!raw) return null;
         const data = JSON.parse(raw);
         let answered = 0, total = 0;
@@ -176,62 +218,56 @@
       } catch (e) { return null; }
     }
 
-    function getTotalTime(exam) {
-      const totalMins = exam.sections.reduce((sum, s) => sum + (s.time_limit_minutes || 60), 0);
-      const hours = Math.floor(totalMins / 60);
-      const mins = totalMins % 60;
-      return hours > 0 ? `${hours}小时${mins > 0 ? mins + '分钟' : ''}` : `${mins}分钟`;
-    }
-
     function renderExamList() {
+      if (!catalogData) return;
+
       const list = document.getElementById('exam-list');
-      if (!defaultExams.length) {
-        list.innerHTML = '<div class="empty-state">暂无可用试卷</div>';
+      const subjectFilter = document.getElementById('subject-filter').value;
+      const yearFilter = document.getElementById('year-filter').value;
+      const typeFilter = document.getElementById('type-filter').value;
+
+      let items = catalogData.items;
+
+      if (subjectFilter) items = items.filter(i => i.subject === subjectFilter);
+      if (yearFilter) items = items.filter(i => i.year === yearFilter);
+      if (typeFilter) items = items.filter(i => i.paperType === typeFilter);
+
+      if (items.length === 0) {
+        list.innerHTML = '<div class="empty-state">没有找到匹配的试卷</div>';
         return;
       }
-      list.innerHTML = defaultExams.map(exam => {
-        const progress = getProgress(exam.exam_id);
-        const examPath = window.sitePath('/v2/exam/paper.html?exam=' + exam.exam_id);
+
+      list.innerHTML = items.map(exam => {
+        const progress = getProgress(exam.examId);
+        const examPath = window.sitePath('/v2/exam/paper.html?exam=' + exam.examId);
+        const icon = subjectIcons[exam.subject] || '📚';
 
         return `
-          <div class="exam-card" data-subject="${exam.subject}" data-year="${exam.year}">
+          <div class="exam-card">
             <div class="exam-info">
-              <h3>${exam.exam_title}</h3>
+              <h3>${icon} ${exam.title}</h3>
               <div class="exam-meta">
-                <span>📚 ${subjectNames[exam.subject] || exam.subject}</span>
-                <span>📝 ${exam.total_questions}题</span>
-                <span>⏱️ ${getTotalTime(exam)}</span>
+                <span>📚 ${exam.subject}</span>
+                <span>📅 ${exam.year}年</span>
+                <span>📝 ${exam.questionCount}题</span>
+                <span>📋 ${exam.paperType}</span>
                 ${progress ? `<span class="progress-tag">${progress.answered}/${progress.total}</span>` : '<span class="progress-tag not-started">未开始</span>'}
               </div>
             </div>
-            <div style="display: flex; gap: 8px; align-items: center; flex-wrap: wrap;">
-              ${exam.sections.map(s =>
-                `<span class="chip ${s.calculator_allowed ? 'badge-calc' : 'badge-mcq'}">${s.part_label}</span>`
-              ).join('')}
-              <a href="${examPath}" class="btn btn-primary">
-                ${progress && progress.answered > 0 ? '继续' : '开始'}
-              </a>
-            </div>
+            <a href="${examPath}" class="btn btn-primary">
+              ${progress && progress.answered > 0 ? '继续' : '开始'}
+            </a>
           </div>
         `;
       }).join('');
     }
 
-    // 过滤器
-    document.getElementById('subject-filter').addEventListener('change', filterExams);
-    document.getElementById('year-filter').addEventListener('change', filterExams);
+    // Filters
+    document.getElementById('subject-filter').addEventListener('change', renderExamList);
+    document.getElementById('year-filter').addEventListener('change', renderExamList);
+    document.getElementById('type-filter').addEventListener('change', renderExamList);
 
-    function filterExams() {
-      const subject = document.getElementById('subject-filter').value;
-      const year = document.getElementById('year-filter').value;
-      document.querySelectorAll('.exam-card').forEach(card => {
-        const matchSubject = !subject || card.dataset.subject === subject;
-        const matchYear = !year || card.dataset.year === year;
-        card.style.display = matchSubject && matchYear ? 'flex' : 'none';
-      });
-    }
-
-    renderExamList();
+    loadCatalog();
   </script>
 </body>
 </html>
