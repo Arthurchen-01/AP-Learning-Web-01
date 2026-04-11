@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-04-11",
-  "total": 58,
+  "total": 91,
   "subjects": [
     "宏观经济",
     "微积分BC",
@@ -555,6 +555,303 @@
       "year": "2024",
       "paperType": "国际卷",
       "questionCount": 32,
+      "sectionCount": 1
+    },
+    {
+      "examId": "phys2018NA",
+      "title": "AP 物理C力学 2018年北美卷",
+      "subject": "物理C力学",
+      "year": "2018",
+      "paperType": "练习卷",
+      "questionCount": 3,
+      "sectionCount": 1
+    },
+    {
+      "examId": "phys2019NASet1",
+      "title": "AP 物理C力学 2019年北美卷Set1",
+      "subject": "物理C力学",
+      "year": "2019",
+      "paperType": "练习卷",
+      "questionCount": 3,
+      "sectionCount": 1
+    },
+    {
+      "examId": "phys2019NASet2",
+      "title": "AP 物理C力学 2019年北美卷Set2",
+      "subject": "物理C力学",
+      "year": "2019",
+      "paperType": "练习卷",
+      "questionCount": 3,
+      "sectionCount": 1
+    },
+    {
+      "examId": "phys2021NASet1",
+      "title": "AP 物理C力学 2021年北美卷Set1",
+      "subject": "物理C力学",
+      "year": "2021",
+      "paperType": "练习卷",
+      "questionCount": 3,
+      "sectionCount": 1
+    },
+    {
+      "examId": "phys2021NASet2",
+      "title": "AP 物理C力学 2021年北美卷Set2",
+      "subject": "物理C力学",
+      "year": "2021",
+      "paperType": "练习卷",
+      "questionCount": 3,
+      "sectionCount": 1
+    },
+    {
+      "examId": "phys2022NASet1",
+      "title": "AP 物理C力学 2022年北美卷Set1",
+      "subject": "物理C力学",
+      "year": "2022",
+      "paperType": "练习卷",
+      "questionCount": 3,
+      "sectionCount": 1
+    },
+    {
+      "examId": "phys2022NASet2",
+      "title": "AP 物理C力学 2022年北美卷Set2",
+      "subject": "物理C力学",
+      "year": "2022",
+      "paperType": "练习卷",
+      "questionCount": 3,
+      "sectionCount": 1
+    },
+    {
+      "examId": "phys2023NASet1",
+      "title": "AP 物理C力学 2023年北美卷Set1",
+      "subject": "物理C力学",
+      "year": "2023",
+      "paperType": "练习卷",
+      "questionCount": 3,
+      "sectionCount": 1
+    },
+    {
+      "examId": "phys2023NASet2",
+      "title": "AP 物理C力学 2023年北美卷Set2",
+      "subject": "物理C力学",
+      "year": "2023",
+      "paperType": "练习卷",
+      "questionCount": 3,
+      "sectionCount": 1
+    },
+    {
+      "examId": "phys2024NASet1",
+      "title": "AP 物理C力学 2024年北美卷Set1",
+      "subject": "物理C力学",
+      "year": "2024",
+      "paperType": "练习卷",
+      "questionCount": 3,
+      "sectionCount": 1
+    },
+    {
+      "examId": "phys2024NASet2",
+      "title": "AP 物理C力学 2024年北美卷Set2",
+      "subject": "物理C力学",
+      "year": "2024",
+      "paperType": "练习卷",
+      "questionCount": 3,
+      "sectionCount": 1
+    },
+    {
+      "examId": "phys2025NA",
+      "title": "AP 物理C力学 2025年北美卷",
+      "subject": "物理C力学",
+      "year": "2025",
+      "paperType": "练习卷",
+      "questionCount": 3,
+      "sectionCount": 1
+    },
+    {
+      "examId": "em2012Intl_EM",
+      "title": "AP 物理C电磁 2012年国际卷",
+      "subject": "物理C电磁",
+      "year": "2012",
+      "paperType": "国际卷",
+      "questionCount": 39,
+      "sectionCount": 2
+    },
+    {
+      "examId": "em2013Intl_EM",
+      "title": "AP 物理C电磁 2013年国际卷",
+      "subject": "物理C电磁",
+      "year": "2013",
+      "paperType": "国际卷",
+      "questionCount": 39,
+      "sectionCount": 2
+    },
+    {
+      "examId": "em2014Intl_EM",
+      "title": "AP 物理C电磁 2014年国际卷",
+      "subject": "物理C电磁",
+      "year": "2014",
+      "paperType": "国际卷",
+      "questionCount": 39,
+      "sectionCount": 2
+    },
+    {
+      "examId": "em2015Intl_EM",
+      "title": "AP 物理C电磁 2015年国际卷",
+      "subject": "物理C电磁",
+      "year": "2015",
+      "paperType": "国际卷",
+      "questionCount": 39,
+      "sectionCount": 2
+    },
+    {
+      "examId": "em2016Intl_EM",
+      "title": "AP 物理C电磁 2016年国际卷",
+      "subject": "物理C电磁",
+      "year": "2016",
+      "paperType": "国际卷",
+      "questionCount": 39,
+      "sectionCount": 2
+    },
+    {
+      "examId": "em2017Intl_EM",
+      "title": "AP 物理C电磁 2017年国际卷",
+      "subject": "物理C电磁",
+      "year": "2017",
+      "paperType": "国际卷",
+      "questionCount": 39,
+      "sectionCount": 2
+    },
+    {
+      "examId": "em2018Intl_EM",
+      "title": "AP 物理C电磁 2018年国际卷",
+      "subject": "物理C电磁",
+      "year": "2018",
+      "paperType": "国际卷",
+      "questionCount": 39,
+      "sectionCount": 2
+    },
+    {
+      "examId": "em2018NA_EM",
+      "title": "AP 物理C电磁 2018年北美卷",
+      "subject": "物理C电磁",
+      "year": "2018",
+      "paperType": "北美卷",
+      "questionCount": 6,
+      "sectionCount": 2
+    },
+    {
+      "examId": "em2019Intl_EM",
+      "title": "AP 物理C电磁 2019年国际卷",
+      "subject": "物理C电磁",
+      "year": "2019",
+      "paperType": "国际卷",
+      "questionCount": 39,
+      "sectionCount": 2
+    },
+    {
+      "examId": "em2019NASet1_EM",
+      "title": "AP 物理C电磁 2019年北美Set1",
+      "subject": "物理C电磁",
+      "year": "2019",
+      "paperType": "北美Set1",
+      "questionCount": 4,
+      "sectionCount": 2
+    },
+    {
+      "examId": "em2019NASet2_EM",
+      "title": "AP 物理C电磁 2019年北美Set2",
+      "subject": "物理C电磁",
+      "year": "2019",
+      "paperType": "北美Set2",
+      "questionCount": 5,
+      "sectionCount": 2
+    },
+    {
+      "examId": "em2021NA_EM",
+      "title": "AP 物理C电磁 2021年北美卷",
+      "subject": "物理C电磁",
+      "year": "2021",
+      "paperType": "北美卷",
+      "questionCount": 7,
+      "sectionCount": 2
+    },
+    {
+      "examId": "em2022NASet1_EM",
+      "title": "AP 物理C电磁 2022年北美Set1",
+      "subject": "物理C电磁",
+      "year": "2022",
+      "paperType": "北美Set1",
+      "questionCount": 5,
+      "sectionCount": 2
+    },
+    {
+      "examId": "em2022NASet2_EM",
+      "title": "AP 物理C电磁 2022年北美Set2",
+      "subject": "物理C电磁",
+      "year": "2022",
+      "paperType": "北美Set2",
+      "questionCount": 5,
+      "sectionCount": 2
+    },
+    {
+      "examId": "em2023NASet1_EM",
+      "title": "AP 物理C电磁 2023年北美Set1",
+      "subject": "物理C电磁",
+      "year": "2023",
+      "paperType": "北美Set1",
+      "questionCount": 5,
+      "sectionCount": 2
+    },
+    {
+      "examId": "em2023NASet2_EM",
+      "title": "AP 物理C电磁 2023年北美Set2",
+      "subject": "物理C电磁",
+      "year": "2023",
+      "paperType": "北美Set2",
+      "questionCount": 5,
+      "sectionCount": 2
+    },
+    {
+      "examId": "em2024Intl_EM",
+      "title": "AP 物理C电磁 2024年国际卷",
+      "subject": "物理C电磁",
+      "year": "2024",
+      "paperType": "国际卷",
+      "questionCount": 39,
+      "sectionCount": 2
+    },
+    {
+      "examId": "em2024NASet1_EM",
+      "title": "AP 物理C电磁 2024年北美Set1",
+      "subject": "物理C电磁",
+      "year": "2024",
+      "paperType": "北美Set1",
+      "questionCount": 5,
+      "sectionCount": 2
+    },
+    {
+      "examId": "em2024NASet2_EM",
+      "title": "AP 物理C电磁 2024年北美Set2",
+      "subject": "物理C电磁",
+      "year": "2024",
+      "paperType": "北美Set2",
+      "questionCount": 5,
+      "sectionCount": 2
+    },
+    {
+      "examId": "em2025Intl_EM",
+      "title": "AP 物理C电磁 2025年国际卷",
+      "subject": "物理C电磁",
+      "year": "2025",
+      "paperType": "国际卷",
+      "questionCount": 29,
+      "sectionCount": 1
+    },
+    {
+      "examId": "em2025NA_EM",
+      "title": "AP 物理C电磁 2025年北美卷",
+      "subject": "物理C电磁",
+      "year": "2025",
+      "paperType": "北美卷",
+      "questionCount": 3,
       "sectionCount": 1
     }
   ]

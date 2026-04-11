@@ -8,25 +8,1258 @@
   "scoring": null,
   "sections": [
     {
+      "title": "Section I: Multiple Choice",
+      "type": "mcq",
+      "questions": [
+        {
+          "id": "1",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">1. A projectile is launched with a speed of $40 \\mathrm{~m} / \\mathrm{s}$ at an angle of $30^{\\circ}$ above the horizontal, as shown in the figure above. The projectile lands on a plateau 3 s later. The height $\\Delta y$ of the plateau is most nearly</p>",
+          "options": [
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "2",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">2. A small sphere hangs from a string attached to the ceiling of a uniformly accelerating train car. It is observed that the string makes an angle of $37^{\\circ}$ with respect to the vertical. The magnitude of the acceleration $a$ of the train car is most nearly</p>",
+          "options": [
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "3",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">3. Which of the following statements must be true for a falling object that has been dropped from rest near the surface of Earth?</p>",
+          "options": [
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "4",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">4. The position $x$ as a function of time $t$ for an object moving in a straight line is shown in the graph above. Which of the following best describes the object's speed and direction of motion during the time interval shown?  \\begin{tabular}{lll}  & Speed & \\\\</p>",
+          "options": [
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "5",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">5. The force $F$ exerted on a ball during a collision with a wall is given as a function of time $t$ by the equation $F(t)=\\alpha t-\\beta t^{2}$, where $\\alpha=400 \\mathrm{~N} / \\mathrm{s}$ and $\\beta=4000 \\mathrm{~N} / \\mathrm{s}^{2}$. The ball first contacts the wall at $t=0$, and the collision lasts for 0.10 s . What is the magnitude of the change in momentum of the ball?</p>",
+          "options": [
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "6",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">6. Two spheres of uniform density are located a distance $L$ apart, as shown in the figure above. The left sphere has a mass $M_{1}$, and the right sphere has a mass $M_{2}$. The center of mass of the two spheres is labeled point $P$. Which of the following is a correct expression for the distance from point $P$ to the center of the left sphere?</p>",
+          "options": [
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "7",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">7. The change in the kinetic energy of the block after moving a distance of 3 m is most nearly</p>",
+          "options": [
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "8",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">8. The magnitude of the force exerted on the block by the table is most nearly</p>",
+          "options": [
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "9",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">9. A wheel of radius $R$ is fixed to an axle of radius $R / 3$ and rotates at constant angular speed $\\omega$, as shown in the figure above. A force of magnitude $F_{1}$ is applied tangent to the outer edge of the wheel. A second force of magnitude $F_{2}$ is applied tangent to the edge of the axle to keep the wheel rotating at constant angular speed $\\omega$. The magnitude $F_{2}$ is equal to</p>",
+          "options": [
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "10",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">10. Which of the following best represents the minimum coefficient of static friction required for the race car to continue to follow the circular path shown?</p>",
+          "options": [
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "11",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">11. The car is now going around a banked curve, as shown in the figure above. The banked curve is higher toward the outside of the circular turn. The car can now travel at a higher speed without sliding because the banked curve</p>",
+          "options": [
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "12",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">12. A horizontal uniform plank is supported by ropes I and II at points $P$ and $Q$, respectively, as shown above. The two ropes have negligible mass. The tension in rope I is 150 N . The point at which rope II is attached to the plank is now moved to point $R$ halfway between point $Q$ and point $C$, the center of the plank. The plank remains horizontal. Which of the following are most nearly the new tensions in the two ropes?  \\begin{tabular}{lcll}  & Tension in I & & Tension in II \\\\</p>",
+          "options": [
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "13",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">13. The potential energy $U$ as a function of the position $x$ of an object is given by $U(x)=-400 / x$, where $U$ is in joules and $x$ is in meters. The object is released from rest at position $x=30 \\mathrm{~m}$ and is free to move along the $x$-axis. When the object has moved a distance of 10 m from its initial position, the magnitude of the force associated with this potential energy function is</p>",
+          "options": [
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "14",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">14. A student pushes a box across a rough horizontal floor. If the amount of work done by the student on the box is 100 J and the amount of energy dissipated by friction is 40 J , what is the change in kinetic energy of the box?</p>",
+          "options": [
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "15",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">15. Three blocks of masses $m, 3 m$, and $2 m$ resting on a frictionless horizontal surface are connected to identical ideal springs, as shown above. A force of magnitude $F$ directed to the left is then applied to the left end of spring $A$. Which spring is stretched the most when the blocks are all moving with the same acceleration?</p>",
+          "options": [
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "16",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">16. At time $t=0$, a ball is thrown with initial speed $v_{0}$ at an angle $\\theta$ above the horizontal. Air resistance is negligible. Which of the following best represents the speed of the ball as a function of time $t$ while the ball is in flight?</p>",
+          "options": [
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "17",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">17. The position $x$ of an object is given as a function of time $t$ by the equation $x=8+4 t-6 t^{3}$, where $x$ is in meters and $t$ is in seconds. What is the maximum positive velocity attained by this object?</p>",
+          "options": [
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "18",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">18. Two balls, $A$ and $B$, have the same mass and diameter but are made from different types of rubber. The balls are dropped from the same height above the floor. After colliding with the floor, ball $A$ bounces higher than ball $B$ bounces. Which of the following quantities must necessarily be larger for ball $A$ than for ball $B$ ?</p>",
+          "options": [
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "19",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">19. Object $A$ of mass $M$ is moving east at speed $v$. It collides with object $B$ of mass $2 M$ that was initially at rest. The motion of the objects before and after the collision is along the same line. After the collision, object $A$ is moving west at a speed of $v / 3$. What is the speed of object $B$ immediately after the collision?</p>",
+          "options": [
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "20",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">20. Which of the following is equal to the magnitude of the angular acceleration of the wheel?</p>",
+          "options": [
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "21",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">21. The retarding force $F$ finally stops the rotation of the wheel. Which of the following best represents the total reduction in mechanical energy in the process of stopping the wheel?</p>",
+          "options": [
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "22",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">22. An airplane travels horizontally at a constant velocity $\\vec{v}$. An object is dropped from the plane, and one second later another object is dropped from the plane. If air resistance is negligible, what happens to the vertical distance between the two objects while they are both falling?</p>",
+          "options": [
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "23",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">23. A boat moves across a river. The river's velocity relative to the land is $\\vec{v}_{R L}$, and the boat's velocity relative to the river is $\\vec{v}_{B R}$. Which of the following best represents the velocity of the boat relative to the land?</p>",
+          "options": [
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "24",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">24. The work done on the object by the force $\\vec{F}$ during the first 10 m of travel is most nearly</p>",
+          "options": [
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "25",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">25. The kinetic energy of the 2 kg object when $d$ equals 20 m is the same as when $d$ is most nearly</p>",
+          "options": [
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "26",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">26. The acceleration due to gravity on the surface of the Moon is about $1 / 6$ of that on the surface of Earth. An astronaut weighs 600 N on Earth. The astronaut's mass on the Moon is most nearly</p>",
+          "options": [
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "27",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">27. Planet $X$ has a mass $M$, radius $R$, and no atmosphere. An object of mass $m$ is located a distance $2 R$ above the surface of planet $X$, as shown in the figure above. The object is released from rest and falls to the surface of the planet. What is the speed of the object just before it reaches the surface of planet $X$ ?</p>",
+          "options": [
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "28",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">28. A ball is kicked from the ground with an initial speed $v_{0}$ at an angle $\\theta$ above the horizontal. Which of the following best describes the magnitudes of the velocity and acceleration of the ball when it reaches the highest point of its  Velocity</p>",
+          "options": [
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "29",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">29. A block of mass $m$ is attached to a spring and placed on an inclined plane. The spring has a spring constant $k$, and there is negligible friction between the block and inclined plane. The block is released from rest at the position shown in the figure above with the spring initially unstretched. What distance $d$ does the block slide down the plane before coming momentarily to rest?</p>",
+          "options": [
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "30",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">30. A 5.0 kg object suspended on a spring oscillates such that its position $x$ as a function of time $t$ is given by the equation $x(t)=A \\cos (\\omega t)$, where $A=0.80 \\mathrm{~m}$ and $\\omega=2.0 \\mathrm{~s}^{-1}$. What is the magnitude of the maximum net force on the object during the motion?</p>",
+          "options": [
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "31",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">31. Consider Earth to be stationary, and the Moon as orbiting Earth in a circle of radius $R$. If the masses of Earth and the Moon are $M_{E}$ and $M_{M}$, respectively, which of the following best represents the total mechanical energy of the Earth-Moon system?</p>",
+          "options": [
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "32",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">32. A small rock is launched straight upward from the surface of a planet with no atmosphere. The initial speed of the rock is twice the escape speed $v_{e}$ of the rock from the planet. If gravitational effects from other objects are negligible, the speed of the rock at a very great distance from the planet will approach a value of</p>",
+          "options": [
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "33",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">33. Identical blocks 1 and 2 start from rest at height $h$ and travel down two differently shaped tracks onto identical rough horizontal surfaces, as shown in the figures above. Both tracks are frictionless, and both blocks make a smooth transition onto the rough horizontal surfaces. Block 1 comes to rest at a horizontal distance $d_{1}$ from the bottom of the track. Which of the following best describes and explains the horizontal distance $d_{2}$ that block 2 travels before coming to rest?</p>",
+          "options": [
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "34",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">34. In an experiment, two blocks of different roughness are placed on the same rough wooden board. The table above shows three values for each block: the mass, the area of the block in contact with the board, and the coefficient of static friction $\\mu_{s}$ between the block and the board. The experiment begins with the board horizontal. One end of the board is then slowly raised. Which of the following correctly identifies the block that will start sliding down the board first and why?</p>",
+          "options": [
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "35",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">35. An equation for the motion of an object is given as $2 v t-4 x=B t^{2}$, where $B$ is a constant. The variable $v$ indicates velocity, in meters per second; $t$ indicates time, in seconds; and $x$ indicates displacement, in meters. What is the unit of measure for $B$ ?</p>",
+          "options": [
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        }
+      ]
+    },
+    {
       "title": "Section II: Free Response",
       "type": "frq",
       "questions": [
         {
           "id": "1",
           "type": "free-response",
-          "prompt": "<p class=\"stem_paragraph\">4.}\n4. Unless I check the box below, I grant the College Board the unlimited right to use, reproduce, and publish my free-response materials, both written and oral, for educational research and instructional purposes. My name and the name of my school will not be used in any way in connection with my free-response materials. I understand that I am free to mark \"No\" with no effect on my score or its reporting.\nNo, I do not grant the College Board these rights. □</p>",
-          "parts": [],
+          "prompt": "<p class=\"stem_paragraph\">A block of mass $m_{B}$ is being pulled up a ramp by a hanging object of mass $m_{H}$, as shown in the figure above. The blocks are attached to each other by a light string that passes over a pulley of negligible mass and friction. Both the block and the hanging object are moving at constant speed, and the angle of the ramp with the horizontal is $\\theta$. The coefficient of kinetic friction between the block and the ramp is $\\mu_{k}$.</p>",
+          "parts": [
+            {
+              "partSign": "a",
+              "partContent": "On the dots below, which represent the block and the hanging object, draw and label the forces (not components) that act on the block and the hanging object. Each force must be represented by a distinct arrow starting on, and pointing away from, the appropriate dot.\n\n\n\nHanging Object"
+            },
+            {
+              "partSign": "b",
+              "partContent": "Derive an expression for the mass $m_{H}$ of the hanging object. Express your answer in terms of $m_{B}, \\theta$, $\\mu_{k}$, and physical constants, as appropriate. If you need to draw anything other than what you have shown in part"
+            },
+            {
+              "partSign": "a",
+              "partContent": "to assist in your solution, use the space below. Do NOT add anything to the figure in part"
+            },
+            {
+              "partSign": "c",
+              "partContent": "i. Calculate the magnitude of the acceleration of the block immediately after the string is cut.\nii. What is the direction of the acceleration of the block immediately after the string is cut?\n$\\_\\_\\_\\_$ Up the ramp $\\_\\_\\_\\_$ Down the ramp\n$\\_\\_\\_\\_$ No direction, because the acceleration is zero\niii. Determine the magnitude of the acceleration of the hanging object immediately after the string is cut."
+            },
+            {
+              "partSign": "d",
+              "partContent": "Assume the block is moving up the ramp at $2.0 \\mathrm{~m} / \\mathrm{s}$ when the string is cut. Calculate how far the block travels up the ramp from the time the string is cut until the block stops, assuming there is sufficient distance on the ramp.\n\n"
+            }
+          ],
           "answer": "",
           "explanation": ""
         },
         {
           "id": "2",
           "type": "free-response",
-          "prompt": "<p class=\"stem_paragraph\">Question 1 (continued)}\n\nDistribution of points\nii. $\\quad 1$ point\n\nFor selecting \"Down the ramp\"\niii. 1 point\n\nFor a correct answer\n$\\mathrm{a}=g=9.81 \\mathrm{~m} / \\mathrm{s}^{2}$ (Note: $\\mathrm{a}=g=10 \\mathrm{~m} / \\mathrm{s}^{2}$ is also acceptable)\nNote: No work needs to be shown for this part</p>",
+          "prompt": "<p class=\"stem_paragraph\">}\n\nAn experiment is performed on a frictionless surface consisting of a horizontal section and a ramp inclined at a $20^{\\circ}$ angle. Block $A$ of mass 3.0 kg rests on the horizontal section against but not attached to an ideal spring at its equilibrium length, as shown in the figure above. The spring has a spring constant of $k=700 \\mathrm{~N} / \\mathrm{m}$. Block $A$ is pushed to the left, compressing the spring 0.15 m , and then released.</p>",
           "parts": [
             {
+              "partSign": "a",
+              "partContent": "Calculate the speed of block $A$ when it leaves the spring."
+            },
+            {
+              "partSign": "b",
+              "partContent": "Calculate the maximum distance $d$ block $A$ travels up the ramp."
+            },
+            {
+              "partSign": "c",
+              "partContent": "On the axis below, sketch a graph of the speed $v$ of block $A$ as a function of time $t$ from $t=0$ to $t=t_{3}$. Block $A$ is released at time $t=0$, loses contact with the spring at time $t=t_{1}$, transitions to the ramp at time $t=t_{2}$, and reaches its maximum height at time $t=t_{3}$.\n\n\nNote: Time intervals not to scale.\n\n\n\nIn a second experiment, block $B$, of mass 0.50 kg , is placed on the ramp a distance of $d$ from the bottom of the ramp and held in place. Block $A$ is released from the spring as in the first experiment. Block $B$ is released from rest so that it collides with block $A$ as block $A$ travels up the ramp. The two blocks collide at a distance of $d / 2$ up the ramp. The blocks stick together after the collision."
+            },
+            {
               "partSign": "d",
-              "partContent": "3 points"
+              "partContent": "i. Calculate the speed of the two blocks immediately after the collision.\nii. In what direction, if any, are the two blocks moving immediately after the collision?\n$\\_\\_\\_\\_$ Up the ramp $\\_\\_\\_\\_$ Down the ramp\n$\\_\\_\\_\\_$ Undefined, because the blocks momentarily come to rest after the collision"
+            },
+            {
+              "partSign": "e",
+              "partContent": "i. Calculate the magnitude of the impulse exerted on block $A$ by block $B$.\nii. In what direction, if any, is the impulse exerted on block $A$ by block $B$ ?\n$\\_\\_\\_\\_$ Up the ramp $\\_\\_\\_\\_$ Down the ramp\n$\\_\\_\\_\\_$ Undefined, because the impulse is zero\n"
             }
           ],
           "answer": "",
@@ -35,74 +1268,87 @@
         {
           "id": "3",
           "type": "free-response",
-          "prompt": "<p class=\"stem_paragraph\">Question 2 (continued)}</p>",
-          "parts": [],
-          "answer": "",
-          "explanation": ""
-        },
-        {
-          "id": "4",
-          "type": "free-response",
-          "prompt": "<p class=\"stem_paragraph\">Question 2 (continued)}</p>",
+          "prompt": "<p class=\"stem_paragraph\">A uniform rod of mass $M$ and length $L$ is pivoted at a point a distance $L / 3$ from the top end, as shown above. The rod is pulled back so that it makes a small angle with the vertical and is then released.</p>",
           "parts": [
             {
-              "partSign": "d",
-              "partContent": "i. $\\quad 5$ points"
-            }
-          ],
-          "answer": "",
-          "explanation": ""
-        },
-        {
-          "id": "5",
-          "type": "free-response",
-          "prompt": "<p class=\"stem_paragraph\">Question 2 (continued)}\n\nDistribution of points\n\nFor correctly substituting into a correct kinematic equation\n$$\n\\begin{aligned}\n& v_{f A}^{2}=v_{0 A}^{2}+2 a(d / 2) \\\\\n& v_{f A}^{2}=(2.29 \\mathrm{~m} / \\mathrm{s})^{2}+2\\left(-3.35 \\mathrm{~m} / \\mathrm{s}^{2}\\right)\\left(\\frac{0.783 \\mathrm{~m}}{2}\\right)\n\\end{aligned}\n$$\n\nFor a correct answer\n$$\nv_{A}=1.62 \\mathrm{~m} / \\mathrm{s} \\quad\\left(\\text { Note }: v_{A}=1.60 \\mathrm{~m} / \\mathrm{s} \\text { if } g=10 \\mathrm{~m} / \\mathrm{s}^{2} \\text { is used }\\right)\n$$\n\nFor using a correct kinematic equation to determine the speed of block $B$\n$$\n\\begin{aligned}\nv_{f B}^{2} & =v_{0}^{2}+2 a(d / 2) \\\\\nv_{f B}^{2} & =0+2\\left(3.35 \\mathrm{~m} / \\mathrm{s}^{2}\\right)\\left(\\frac{0.783 \\mathrm{~m}}{2}\\right) \\\\\nv_{f B} & =1.62 \\mathrm{~m} / \\mathrm{s}\n\\end{aligned}\n$$\n\nFor correctly using conservation of momentum to determine the speed of the blocks after the collision\n$$\n\\begin{aligned}\n& m_{A} V_{A}+m_{B} V_{B}=\\left(m_{A}+m_{B}\\right) V_{f} \\\\\n& V_{f}=\\frac{(3.0 \\mathrm{~kg})(1.62 \\mathrm{~m} / \\mathrm{s})+(0.50 \\mathrm{~kg})(-1.62 \\mathrm{~m} / \\mathrm{s})}{(3.0 \\mathrm{~kg}+0.50 \\mathrm{~kg})}\n\\end{aligned}\n$$\n\nCorrect answer\n$$\nv_{f}=1.16 \\mathrm{~m} / \\mathrm{s} \\quad\\left(\\text { Note }: v_{f}=1.14 \\mathrm{~m} / \\mathrm{s} \\text { if } g=10 \\mathrm{~m} / \\mathrm{s}^{2} \\text { is used }\\right)\n$$\nii. 1 point\n\nFor selecting \"Up the ramp\"</p>",
-          "parts": [
-            {
-              "partSign": "e",
-              "partContent": "i. $\\quad 1$ point"
+              "partSign": "a",
+              "partContent": "Using integral calculus, show that the rotational inertia for the rod around its pivot is $M L^{2} / 9$."
             },
-            {
-              "partSign": "d",
-              "partContent": "$J=-1.38 \\mathrm{~N} \\bullet$ s (Note: $J=-1.38 \\mathrm{~N} \\bullet$ s if $g=10 \\mathrm{~m} / \\mathrm{s}^{2}$ is used)"
-            }
-          ],
-          "answer": "",
-          "explanation": ""
-        },
-        {
-          "id": "6",
-          "type": "free-response",
-          "prompt": "<p class=\"stem_paragraph\">Question 3 (continued)}</p>",
-          "parts": [
             {
               "partSign": "b",
-              "partContent": "i. $\\quad 2$ points"
+              "partContent": "i. Using Newton's 2nd law in rotational form, write but do NOT solve a differential equation in terms of $M, L$, and physical constants, as appropriate, that can be used to determine the angular displacement theta as a function of time $t$.\nii. Using the differential equation from part"
             },
             {
               "partSign": "c",
-              "partContent": "1 point"
-            }
-          ],
-          "answer": "",
-          "explanation": ""
-        },
-        {
-          "id": "7",
-          "type": "free-response",
-          "prompt": "<p class=\"stem_paragraph\">Question 3 (continued)}</p>",
-          "parts": [
+              "partContent": "Indicate below which quantities should be graphed to yield a straight line whose slope could be used to calculate a numerical value for the acceleration due to gravity $g$.\n\nHorizontal axis: $\\_\\_\\_\\_$\nVertical axis: $\\_\\_\\_\\_$\nUse the remaining rows in the table above, as needed, to record any quantities that you indicated that are not given."
+            },
             {
               "partSign": "d",
-              "partContent": "4 points"
-            },
-            {
-              "partSign": "c",
-              "partContent": "1 point"
+              "partContent": "Plot the straight line data points on the graph below. Clearly scale and label all axes, including units if appropriate. Draw a straight line that best represents the data.\n"
             },
             {
               "partSign": "e",
-              "partContent": "3 points"
+              "partContent": "Using your straight line, determine an experimental value for $g$.\n\nSTOP\n\n\\author{\nEND OF EXAM\n}\n\nTHE FOLLOWING INSTRUCTIONS APPLY TO THE COVERS OF THE SECTION II BOOKLET.\n- MAKE SURE YOU HAVE COMPLETED THE IDENTIFICATION INFORMATION AS REQUESTED ON THE FRONT AND BACK COVERS OF THE SECTION II BOOKLET.\n- CHECK TO SEE THAT YOUR AP NUMBER LABEL APPEARS IN THE BOX ON THE COVER.\n- MAKE SURE YOU HAVE USED THE SAME SET OF AP NUMBER LABELS ON ALL AP EXAMS YOU HAVE TAKEN THIS YEAR."
+            },
+            {
+              "partSign": "b",
+              "partContent": "3 points\n\nFor a correct Newton's 2nd law equation of the two-block system\n$$\n\n$$\n\nFor setting the acceleration of the two-block system equal to zero either implicitly or explicitly\n$$\nm_{H} g-m_{B} g \\sin \\theta-\\mu_{k} m_{B} g \\cos \\theta=0\n$$\n\nFor a correct answer\n$m_{H}=m_{B}\\left(\\sin \\theta+\\mu_{k} \\cos \\theta\\right)$"
+            },
+            {
+              "partSign": "c",
+              "partContent": "i.\n\n3 points\nFor correctly applying Newton's second law to the block\n$-m_{B} g \\sin \\theta-\\mu_{k} m_{B} g \\cos \\theta=m_{B} a$\n$-g\\left(\\sin \\theta+\\mu_{k} \\cos \\theta\\right)=a$\nFor correctly substituting into the above equation\n$a=-\\left(9.8 \\mathrm{~m} / \\mathrm{s}^{2}\\right)((0.10) \\cos 30+\\sin 30)$\nFor a correct answer\n$a=5.75 \\mathrm{~m} / \\mathrm{s}^{2}$ (Note: $a=5.87 \\mathrm{~m} / \\mathrm{s}^{2}$ if $g=10 \\mathrm{~m} / \\mathrm{s}^{2}$ is used)"
+            },
+            {
+              "partSign": "d",
+              "partContent": "3 points\n\nFor using a correct kinematics equation for calculating the distance traveled by the block\n$v_{2}^{2}=v_{1}^{2}+2 a d$\nFor setting the final velocity of the block equal to zero\n$0=v_{1}^{2}+2 a d$\n$d=\\frac{-v_{1}^{2}}{2 a}=\\frac{-(2.0 \\mathrm{~m} / \\mathrm{s})^{2}}{(2)\\left(-5.75 \\mathrm{~m} / \\mathrm{s}^{2}\\right)}$\nFor a correct answer\n$d=0.348 \\mathrm{~m}$ (Note: $d=0.341 \\mathrm{~m}$ if $g=10 \\mathrm{~m} / \\mathrm{s}^{2}$ is used)"
+            },
+            {
+              "partSign": "a",
+              "partContent": "2 points\n\nFor correctly using conservation of energy to determine the speed of block A\n$$\n\n$$\n\nFor a correct answer\n$v=2.29 \\mathrm{~m} / \\mathrm{s}$"
+            },
+            {
+              "partSign": "b",
+              "partContent": "2 points\n\nFor correctly using conservation of energy to determine the distance block A travels up the ramp\n$K_{1}=U_{g 2}$\n$\\frac{1}{2} m v^{2}=m g h=m g d \\sin \\theta$\n$d=\\frac{m v^{2}}{2 m g \\sin \\theta}=\\frac{(3.0 \\mathrm{~kg})(2.29 \\mathrm{~m} / \\mathrm{s})^{2}}{(2)(3.0 \\mathrm{~kg})\\left(9.8 \\mathrm{~m} / \\mathrm{s}^{2}\\right)(\\sin 20)}$\nFor a correct answer\n$d=0.783 \\mathrm{~m}$ (Note: $d=0.767 \\mathrm{~m}$ if $g=10 \\mathrm{~m} / \\mathrm{s}^{2}$ is used)"
+            },
+            {
+              "partSign": "c",
+              "partContent": "3 points\n\n\nFor a concave down curve that starts at the origin $t=0$ and becomes horizontal as $t=t_{1}$\n\nFor a horizontal line from $t=t_{1}$ to $t=t_{2}$ that is continuous with first section\n\nFor a straight line with a negative slope from $t=t_{2}$ to the horizontal axis at $t=t_{3}$ that is continuous with second section"
+            },
+            {
+              "partSign": "d",
+              "partContent": "i. $\\quad 5$ points\n\nFor correctly using conservation of energy to determine speed of block A\n$K_{1}=U_{g 2}+K_{2}$\n$\\frac{1}{2} m v_{1}^{2}=m g h+\\frac{1}{2} m v_{2}^{2}$\n$\\frac{1}{2} m v_{1}^{2}=m g \\frac{d}{2} \\sin \\theta+\\frac{1}{2} m v_{2}^{2}$\nFor correctly substituting into the equation above\n$v_{1}^{2}=g d \\sin \\theta+v_{2}^{2}$\n$(2.29 \\mathrm{~m} / \\mathrm{s})^{2}=\\left(9.8 \\mathrm{~m} / \\mathrm{s}^{2}\\right)(0.783 \\mathrm{~m})(\\sin 20)+v^{2}$\nFor a correct answer\n$V_{A}=1.62 \\mathrm{~m} / \\mathrm{s}$ (Note: $V_{A}=1.60 \\mathrm{~m} / \\mathrm{s}$ if $g=10 \\mathrm{~m} / \\mathrm{s}^{2}$ is used)\nFor correctly using conservation of energy to determine speed of block B\n$U_{g 1}=K_{2}$\n$m g h=\\frac{1}{2} m v^{2}$\n$m g \\frac{d}{2} \\sin \\theta=\\frac{1}{2} m v^{2}$\n$v=\\sqrt{\\left(9.8 \\mathrm{~m} / \\mathrm{s}^{2}\\right)(0.783)(\\sin 20)}$\nCorrect answer\n$v_{B}=1.62 \\mathrm{~m} / \\mathrm{s}$ (Note: $v_{B}=1.64 \\mathrm{~m} / \\mathrm{s}$ if $g=10 \\mathrm{~m} / \\mathrm{s}^{2}$ is used)\nFor correctly using conservation of momentum to determine the speed of the blocks after the collision\n$$\n\n$$\n\nCorrect answer\n$V_{f}=1.16 \\mathrm{~m} / \\mathrm{s}$ (Note: $V_{f}=1.14 \\mathrm{~m} / \\mathrm{s}$ if $g=10 \\mathrm{~m} / \\mathrm{s}^{2}$ is used)"
+            },
+            {
+              "partSign": "e",
+              "partContent": "i. $\\quad 1$ point\n\nCorrectly using the impulse equation\n$J=m\\left(v_{2}-v_{1}\\right)$\n$J=(3.0 \\mathrm{~kg})(1.16 \\mathrm{~m} / \\mathrm{s}-1.62 \\mathrm{~m} / \\mathrm{s})$\nFor an answer consistent with the speed of the blocks determined in part"
+            },
+            {
+              "partSign": "d",
+              "partContent": "$J=-1.38 \\mathrm{~N} \\bullet$ s (Note: $J=-1.38 \\mathrm{~N} \\bullet$ s if $g=10 \\mathrm{~m} / \\mathrm{s}^{2}$ is used)\nNote: The negative sign is not needed since the question asks for magnitude\nii.\n\n1 point\nFor selecting \"Down the ramp\""
+            },
+            {
+              "partSign": "a",
+              "partContent": "3 points\n\nDistribution of points\n\nFor using integral calculus to attempt to calculate the rotational inertia of the rod\n$$\n\n$$\n\nFor correctly integrating the formula above\n$$\nI=\\lambda\\left[\\frac{r^{3}}{3}\\right]\n$$\n\nFor integrating using the correct limits or correct constant of integration\n$$\n\n$$\n\nCorrect answer:\n$$\nI=M L^{2} / 9\n$$"
+            },
+            {
+              "partSign": "b",
+              "partContent": "i. $\\quad 2$ points\n\nFor using a correct expression of Newton's 2nd law for the rotation of the rod\n$\\tau=F r_{\\perp}=I \\alpha$\n$-M g\\left(\\frac{L}{6}\\right) \\sin \\theta=\\frac{M L^{2}}{9} \\alpha$\nFor expressing the equation as a differential equation\n$-\\frac{3}{2} \\frac{g}{L} \\sin \\theta=\\frac{d^{2} \\theta}{d t^{2}}$\nii. 2 points\n\nFor using the small-angle approximation; where $\\sin \\theta \\approx \\theta$\n$-\\frac{3}{2} \\frac{g}{L} \\theta=\\frac{d^{2} \\theta}{d t^{2}}$\nFor comparing above equation to the rotational form of simple harmonic motion or for solving the differential equation\n$$\n\n$$\n\nCorrect answer:\n$T=2 \\pi \\sqrt{\\frac{2 L}{3 g}}$"
+            },
+            {
+              "partSign": "c",
+              "partContent": "1 point\n\nFor selecting appropriate variable to create a straight line relationship\n\nExample:\nHorizontal axis: Length\nVertical axis: Period Squared\nNote: Square root of Length and Period is also acceptable as is reversing the axes"
+            },
+            {
+              "partSign": "d",
+              "partContent": "4 points\n\n\nFor labeling both axes with appropriate variables and units\n\nFor a correct scale that uses more than half the grid\n\nFor correctly plotting data indicated in part"
+            },
+            {
+              "partSign": "c",
+              "partContent": "1 point\nFor drawing a straight line consistent with the given data"
+            },
+            {
+              "partSign": "e",
+              "partContent": "3 points\n\nFor correctly calculating slope using the best-fit straight line and not data points\nslope $=\\frac{\\left(y_{2}-y_{1}\\right)}{\\left(x_{2}-x_{1}\\right)}=\\frac{(6.0-2.0)}{(2.20-0.80)}=2.86 \\mathrm{~s}^{2} / \\mathrm{m}$\nNote: linear regression gives slope $=2.67 \\mathrm{~s}^{2} / \\mathrm{m}$\nFor correctly relating $g$ to the slope\n$T=2 \\pi \\sqrt{\\frac{2 L}{3 g}} \\quad T^{2}=\\frac{\\left(4 \\pi^{2}\\right) 2 L}{3 g} \\quad$ slope $=\\frac{\\left(4 \\pi^{2}\\right) \\times 2}{3 g}$\n$g=\\frac{8 \\pi^{2}}{3 \\times \\text { slope }}=\\frac{8 \\pi^{2}}{3 \\times\\left(2.86 \\mathrm{~s}^{2} / \\mathrm{m}\\right)}$\nFor a correct answer\n$g=9.20 \\mathrm{~m} / \\mathrm{s}^{2}$\nNote: linear regression gives $g=9.86 \\mathrm{~m} / \\mathrm{s}^{2}$"
             }
           ],
           "answer": "",

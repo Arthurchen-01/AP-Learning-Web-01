@@ -1,0 +1,1291 @@
+{
+  "examId": "em2016Intl_EM",
+  "title": "AP 物理C电磁 2016年国际卷",
+  "subjectName": "Physics C: Electricity and Magnetism",
+  "yearLabel": "2016",
+  "description": "AP Physics C: Electricity and Magnetism 2016年",
+  "answerKeyAvailable": false,
+  "scoring": null,
+  "sections": [
+    {
+      "title": "Section I: Multiple Choice",
+      "type": "mcq",
+      "questions": [
+        {
+          "id": "1",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">A small object of charge $-1.0 \\mu C$ that is 0.10 m above a long, straight wire moves at a speed of $0.050 ~m / s$ parallel to the wire, as shown in the figure above. The current in the wire is 2 A . What is the magnitude and direction of the magnetic force on the object? <img src=\"https://cdn.mathpix.com/cropped/a43bfbd2-d827-4b62-93cf-e87582e72adf-04.jpg?height=272&width=521&top_left_y=583&top_left_x=1281\" /></p>",
+          "options": [
+            {
+              "key": "A",
+              "text": "<div class=\"choiceTxt\">$2 \\times 10^{-13} ~N$, toward the wire</div>",
+              "html": "<div class=\"choiceTxt\">$2 \\times 10^{-13} ~N$, toward the wire</div>"
+            },
+            {
+              "key": "B",
+              "text": "<div class=\"choiceTxt\">$2 \\times 10^{-13} ~N$, away from the wire</div>",
+              "html": "<div class=\"choiceTxt\">$2 \\times 10^{-13} ~N$, away from the wire</div>"
+            },
+            {
+              "key": "C",
+              "text": "<div class=\"choiceTxt\">$4 \\pi \\times 10^{-13} ~N$, toward the wire</div>",
+              "html": "<div class=\"choiceTxt\">$4 \\pi \\times 10^{-13} ~N$, toward the wire</div>"
+            },
+            {
+              "key": "D",
+              "text": "<div class=\"choiceTxt\">$4 \\pi \\times 10^{-13} ~N$, away from the wire</div>",
+              "html": "<div class=\"choiceTxt\">$4 \\pi \\times 10^{-13} ~N$, away from the wire</div>"
+            },
+            {
+              "key": "E",
+              "text": "<div class=\"choiceTxt\">0 , direction is undefined</div>",
+              "html": "<div class=\"choiceTxt\">0 , direction is undefined</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "2",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">An electron travels through a uniform magnetic field $B$ directed to the right. The electron's velocity $v$ is directed out of the page, as shown in the figure above. The direction of the force on the electron due to the magnetic field at the instant shown is</p>",
+          "options": [
+            {
+              "key": "A",
+              "text": "<div class=\"choiceTxt\">toward the top of the page</div>",
+              "html": "<div class=\"choiceTxt\">toward the top of the page</div>"
+            },
+            {
+              "key": "B",
+              "text": "<div class=\"choiceTxt\">toward the bottom of the page</div>",
+              "html": "<div class=\"choiceTxt\">toward the bottom of the page</div>"
+            },
+            {
+              "key": "C",
+              "text": "<div class=\"choiceTxt\">to the left</div>",
+              "html": "<div class=\"choiceTxt\">to the left</div>"
+            },
+            {
+              "key": "D",
+              "text": "<div class=\"choiceTxt\">to the right</div>",
+              "html": "<div class=\"choiceTxt\">to the right</div>"
+            },
+            {
+              "key": "E",
+              "text": "<div class=\"choiceTxt\">into the page</div>",
+              "html": "<div class=\"choiceTxt\">into the page</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "3",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">Two long parallel wires have currents of $I_{1}$ and $I_{2}$ and are a distance $d$ apart. The force per unit length exerted by one wire on the other is $F / L$. The current in each wire is doubled, and the distance between the wires is reduced to $d / 2$. The new force per unit length is \\section*{Questions 4-5} A capacitor is constructed of two large, identical, parallel metal plates separated by a small distance $d$. A battery fully charges the capacitor and is then disconnected.</p>",
+          "options": [
+            {
+              "key": "A",
+              "text": "<div class=\"choiceTxt\">$F{2 L}$</div>",
+              "html": "<div class=\"choiceTxt\">$F{2 L}$</div>"
+            },
+            {
+              "key": "B",
+              "text": "<div class=\"choiceTxt\">$F{L}$</div>",
+              "html": "<div class=\"choiceTxt\">$F{L}$</div>"
+            },
+            {
+              "key": "C",
+              "text": "<div class=\"choiceTxt\">$2 F{L}$</div>",
+              "html": "<div class=\"choiceTxt\">$2 F{L}$</div>"
+            },
+            {
+              "key": "D",
+              "text": "<div class=\"choiceTxt\">$4 F{L}$</div>",
+              "html": "<div class=\"choiceTxt\">$4 F{L}$</div>"
+            },
+            {
+              "key": "E",
+              "text": "<div class=\"choiceTxt\">$8 F{L}$</div>",
+              "html": "<div class=\"choiceTxt\">$8 F{L}$</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "4",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">The plate separation is now increased to a distance $2 d$. Which of the following correctly describes the change, if any, of the voltage across the capacitor, the electric field between the plates, and the energy stored in the capacitor? & Voltage & Electric Field & Energy \\\\</p>",
+          "options": [
+            {
+              "key": "A",
+              "text": "<div class=\"choiceTxt\">Does not change & Does not change & & Does not change \\\\</div>",
+              "html": "<div class=\"choiceTxt\">Does not change & Does not change & & Does not change \\\\</div>"
+            },
+            {
+              "key": "B",
+              "text": "<div class=\"choiceTxt\">Does not change & Doubles & & Does not change \\\\</div>",
+              "html": "<div class=\"choiceTxt\">Does not change & Doubles & & Does not change \\\\</div>"
+            },
+            {
+              "key": "C",
+              "text": "<div class=\"choiceTxt\">Doubles & Doubles & & Does not change \\\\</div>",
+              "html": "<div class=\"choiceTxt\">Doubles & Doubles & & Does not change \\\\</div>"
+            },
+            {
+              "key": "D",
+              "text": "<div class=\"choiceTxt\">Doubles & Does not change & & Doubles \\\\</div>",
+              "html": "<div class=\"choiceTxt\">Doubles & Does not change & & Doubles \\\\</div>"
+            },
+            {
+              "key": "E",
+              "text": "<div class=\"choiceTxt\">Doubles & Doubles & & Doubles</div>",
+              "html": "<div class=\"choiceTxt\">Doubles & Doubles & & Doubles</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "5",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">If, instead of separating the plates, the empty space between the plates is filled with a slab of insulating material that has a dielectric constant $K=2$, which of the following correctly describes the change, if any, of the voltage across the capacitor, the electric field between the plates, and the energy stored in the capacitor? & Voltage & Electric Field & Energy \\\\ Does not change</p>",
+          "options": [
+            {
+              "key": "A",
+              "text": "<div class=\"choiceTxt\">& Halves & Halves & \\\\</div>",
+              "html": "<div class=\"choiceTxt\">& Halves & Halves & \\\\</div>"
+            },
+            {
+              "key": "B",
+              "text": "<div class=\"choiceTxt\">& Halves & Halves & \\\\</div>",
+              "html": "<div class=\"choiceTxt\">& Halves & Halves & \\\\</div>"
+            },
+            {
+              "key": "C",
+              "text": "<div class=\"choiceTxt\">& Does not change & Does not change & \\\\</div>",
+              "html": "<div class=\"choiceTxt\">& Does not change & Does not change & \\\\</div>"
+            },
+            {
+              "key": "D",
+              "text": "<div class=\"choiceTxt\">Does not change & Halves & Halves \\\\</div>",
+              "html": "<div class=\"choiceTxt\">Does not change & Halves & Halves \\\\</div>"
+            },
+            {
+              "key": "E",
+              "text": "<div class=\"choiceTxt\">Does not change & Does not change & Halves \\\\</div>",
+              "html": "<div class=\"choiceTxt\">Does not change & Does not change & Halves \\\\</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "6",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">A capacitor stores energy $U_{1}$ when it holds charge $Q$. The same capacitor stores energy $U_{2}$ when it holds charge $16 Q$. What is the ratio $U_{2} / U_{1}$ ? \\section*{Questions 7-8} <img src=\"https://cdn.mathpix.com/cropped/a43bfbd2-d827-4b62-93cf-e87582e72adf-06.jpg?height=278&width=604&top_left_y=237&top_left_x=281\" /> Switch $S$ in the circuit shown above has been closed for a long time.</p>",
+          "options": [
+            {
+              "key": "A",
+              "text": "<div class=\"choiceTxt\">8</div>",
+              "html": "<div class=\"choiceTxt\">8</div>"
+            },
+            {
+              "key": "B",
+              "text": "<div class=\"choiceTxt\">16</div>",
+              "html": "<div class=\"choiceTxt\">16</div>"
+            },
+            {
+              "key": "C",
+              "text": "<div class=\"choiceTxt\">64</div>",
+              "html": "<div class=\"choiceTxt\">64</div>"
+            },
+            {
+              "key": "D",
+              "text": "<div class=\"choiceTxt\">128</div>",
+              "html": "<div class=\"choiceTxt\">128</div>"
+            },
+            {
+              "key": "E",
+              "text": "<div class=\"choiceTxt\">256</div>",
+              "html": "<div class=\"choiceTxt\">256</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "7",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">Which of the following is the correct expression for the current in the resistor?</p>",
+          "options": [
+            {
+              "key": "A",
+              "text": "<div class=\"choiceTxt\">$\\mathcal{E}{R}$</div>",
+              "html": "<div class=\"choiceTxt\">$\\mathcal{E}{R}$</div>"
+            },
+            {
+              "key": "B",
+              "text": "<div class=\"choiceTxt\">$C \\mathcal{E}{R}$</div>",
+              "html": "<div class=\"choiceTxt\">$C \\mathcal{E}{R}$</div>"
+            },
+            {
+              "key": "C",
+              "text": "<div class=\"choiceTxt\">$C E$</div>",
+              "html": "<div class=\"choiceTxt\">$C E$</div>"
+            },
+            {
+              "key": "D",
+              "text": "<div class=\"choiceTxt\">$\\varepsilon{R C}$</div>",
+              "html": "<div class=\"choiceTxt\">$\\varepsilon{R C}$</div>"
+            },
+            {
+              "key": "E",
+              "text": "<div class=\"choiceTxt\">Zero</div>",
+              "html": "<div class=\"choiceTxt\">Zero</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "8",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">Suppose that the switch is opened at time $t=0$. Which of the following combinations of a differential equation and an initial condition can be used to solve for the charge $Q(t)$ on the upper plate of the capacitor as a function of \\section*{Differential Equation} \\section*{Initial Condition} $$ Q(0)=C E $$ $$ Q(0)=0 $$ $$ Q(0)=C \\varepsilon $$ $$ Q(0)=0 $$ $$ Q(0)=C \\varepsilon $$</p>",
+          "options": [
+            {
+              "key": "A",
+              "text": "<div class=\"choiceTxt\">$Q{C}-R d Q{d t}=0$</div>",
+              "html": "<div class=\"choiceTxt\">$Q{C}-R d Q{d t}=0$</div>"
+            },
+            {
+              "key": "B",
+              "text": "<div class=\"choiceTxt\">$Q{C}-R d Q{d t}=\\varepsilon$</div>",
+              "html": "<div class=\"choiceTxt\">$Q{C}-R d Q{d t}=\\varepsilon$</div>"
+            },
+            {
+              "key": "C",
+              "text": "<div class=\"choiceTxt\">$Q{C}+R d Q{d t}=\\varepsilon$</div>",
+              "html": "<div class=\"choiceTxt\">$Q{C}+R d Q{d t}=\\varepsilon$</div>"
+            },
+            {
+              "key": "D",
+              "text": "<div class=\"choiceTxt\">$Q{C}+R d Q{d t}=0$</div>",
+              "html": "<div class=\"choiceTxt\">$Q{C}+R d Q{d t}=0$</div>"
+            },
+            {
+              "key": "E",
+              "text": "<div class=\"choiceTxt\">$Q{C}+R d Q{d t}=0$ time $t$ ?</div>",
+              "html": "<div class=\"choiceTxt\">$Q{C}+R d Q{d t}=0$ time $t$ ?</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "9",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">A nonconducting sphere of radius $R$ has a uniform volume charge density $\\rho$. At the surface of the sphere, the electric field strength is $E$. If a second sphere of radius $2 R$ was created of the same material and with the same charge density, what would be the strength of the electric field at the surface of the second sphere? \\section*{Questions 10-11} <img src=\"https://cdn.mathpix.com/cropped/a43bfbd2-d827-4b62-93cf-e87582e72adf-07.jpg?height=398&width=774&top_left_y=239&top_left_x=197\" /> Note: Figure not drawn to scale. The figure above shows a thin, circular nonconducting sheet of positive charge uniformly distributed over its area. The radius of the sheet is $R$. Point $O$ is at the center of the sheet. Point $S$ is a distance $x$ from the center of the sheet, and point $T$ is a distance $4 x$ from the center of the sheet. Assume $R \\gg x$.</p>",
+          "options": [
+            {
+              "key": "A",
+              "text": "<div class=\"choiceTxt\">$E / 4$</div>",
+              "html": "<div class=\"choiceTxt\">$E / 4$</div>"
+            },
+            {
+              "key": "B",
+              "text": "<div class=\"choiceTxt\">$E / 2$</div>",
+              "html": "<div class=\"choiceTxt\">$E / 2$</div>"
+            },
+            {
+              "key": "C",
+              "text": "<div class=\"choiceTxt\">$E$</div>",
+              "html": "<div class=\"choiceTxt\">$E$</div>"
+            },
+            {
+              "key": "D",
+              "text": "<div class=\"choiceTxt\">$2 E$</div>",
+              "html": "<div class=\"choiceTxt\">$2 E$</div>"
+            },
+            {
+              "key": "E",
+              "text": "<div class=\"choiceTxt\">$4 E$</div>",
+              "html": "<div class=\"choiceTxt\">$4 E$</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "10",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">If the magnitude of the electric field at point $T$ is $E_{T}$, which of the following best represents the magnitude of the electric field at point $S$ ?</p>",
+          "options": [
+            {
+              "key": "A",
+              "text": "<div class=\"choiceTxt\">$\\quad E_{T} / 16$</div>",
+              "html": "<div class=\"choiceTxt\">$\\quad E_{T} / 16$</div>"
+            },
+            {
+              "key": "B",
+              "text": "<div class=\"choiceTxt\">$\\quad E_{T} / 4$</div>",
+              "html": "<div class=\"choiceTxt\">$\\quad E_{T} / 4$</div>"
+            },
+            {
+              "key": "C",
+              "text": "<div class=\"choiceTxt\">$E_{T}$</div>",
+              "html": "<div class=\"choiceTxt\">$E_{T}$</div>"
+            },
+            {
+              "key": "D",
+              "text": "<div class=\"choiceTxt\">$4 E_{T}$</div>",
+              "html": "<div class=\"choiceTxt\">$4 E_{T}$</div>"
+            },
+            {
+              "key": "E",
+              "text": "<div class=\"choiceTxt\">$16 E_{T}$</div>",
+              "html": "<div class=\"choiceTxt\">$16 E_{T}$</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "11",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">A small sphere of mass $m$ and charge $-q$ is released from rest at point $T$. If the electric potentials at points $S$ and $T$ are $V_{S}$ and $V_{T}$, respectively, what is the speed of the sphere when it reaches point $S$ ? Ignore the effects of gravity. \\section*{Questions 12-13} \\hline Capacitor & $K$ & $L$ & $M$ & $N$ \\\\ \\hline Plate area & $A$ & $A$ & $2 A$ & $2 A$ \\\\ \\hline Plate separation & $d$ & $2 d$ & $d$ & $2 d$ \\\\ \\hline The chart above shows the plate area and separation for four different air-filled parallel-plate capacitors: $K, L, M$, and $N$.</p>",
+          "options": [
+            {
+              "key": "A",
+              "text": "<div class=\"choiceTxt\">$2 q{m}\\left(V_{S}+V_{T}\\right)$</div>",
+              "html": "<div class=\"choiceTxt\">$2 q{m}\\left(V_{S}+V_{T}\\right)$</div>"
+            },
+            {
+              "key": "B",
+              "text": "<div class=\"choiceTxt\">$4 q{m}\\left(V_{S}+V_{T}\\right)$</div>",
+              "html": "<div class=\"choiceTxt\">$4 q{m}\\left(V_{S}+V_{T}\\right)$</div>"
+            },
+            {
+              "key": "C",
+              "text": "<div class=\"choiceTxt\">$\\frac{q{2 m}\\left(V_{S}-V_{T}\\right)}$</div>",
+              "html": "<div class=\"choiceTxt\">$\\frac{q{2 m}\\left(V_{S}-V_{T}\\right)}$</div>"
+            },
+            {
+              "key": "D",
+              "text": "<div class=\"choiceTxt\">$\\frac{q{2 m}\\left(V_{S}+V_{T}\\right)}$</div>",
+              "html": "<div class=\"choiceTxt\">$\\frac{q{2 m}\\left(V_{S}+V_{T}\\right)}$</div>"
+            },
+            {
+              "key": "E",
+              "text": "<div class=\"choiceTxt\">$\\frac{2 q{m}\\left(V_{S}-V_{T}\\right)}$</div>",
+              "html": "<div class=\"choiceTxt\">$\\frac{2 q{m}\\left(V_{S}-V_{T}\\right)}$</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "12",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">Each capacitor is charged such that the same electric field is created between the plates. Which of the following correctly ranks the charge stored on each capacitor?</p>",
+          "options": [
+            {
+              "key": "A",
+              "text": "<div class=\"choiceTxt\">$\\left(Q_{M}=Q_{N}\\right)>\\left(Q_{K}=Q_{L}\\right)$</div>",
+              "html": "<div class=\"choiceTxt\">$\\left(Q_{M}=Q_{N}\\right)>\\left(Q_{K}=Q_{L}\\right)$</div>"
+            },
+            {
+              "key": "B",
+              "text": "<div class=\"choiceTxt\">$Q_{M}>Q_{K}>Q_{N}>Q_{L}$</div>",
+              "html": "<div class=\"choiceTxt\">$Q_{M}>Q_{K}>Q_{N}>Q_{L}$</div>"
+            },
+            {
+              "key": "C",
+              "text": "<div class=\"choiceTxt\">$\\left(Q_{K}=Q_{M}\\right)>\\left(Q_{L}=Q_{N}\\right)$</div>",
+              "html": "<div class=\"choiceTxt\">$\\left(Q_{K}=Q_{M}\\right)>\\left(Q_{L}=Q_{N}\\right)$</div>"
+            },
+            {
+              "key": "D",
+              "text": "<div class=\"choiceTxt\">$Q_{K}=Q_{L}=Q_{M}=Q_{N}$</div>",
+              "html": "<div class=\"choiceTxt\">$Q_{K}=Q_{L}=Q_{M}=Q_{N}$</div>"
+            },
+            {
+              "key": "E",
+              "text": "<div class=\"choiceTxt\">$Q_{M}>\\left(Q_{K}=Q_{N}\\right)>Q_{L}$</div>",
+              "html": "<div class=\"choiceTxt\">$Q_{M}>\\left(Q_{K}=Q_{N}\\right)>Q_{L}$</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "13",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">Each capacitor is charged such that the same potential difference exists across the plates. Which of the following correctly ranks the magnitude of electric field between the plates of each capacitor?</p>",
+          "options": [
+            {
+              "key": "A",
+              "text": "<div class=\"choiceTxt\">$\\left(E_{M}=E_{N}\\right)>\\left(E_{K}=E_{L}\\right)$</div>",
+              "html": "<div class=\"choiceTxt\">$\\left(E_{M}=E_{N}\\right)>\\left(E_{K}=E_{L}\\right)$</div>"
+            },
+            {
+              "key": "B",
+              "text": "<div class=\"choiceTxt\">$E_{M}>E_{K}>E_{N}>E_{L}$</div>",
+              "html": "<div class=\"choiceTxt\">$E_{M}>E_{K}>E_{N}>E_{L}$</div>"
+            },
+            {
+              "key": "C",
+              "text": "<div class=\"choiceTxt\">$\\left(E_{K}=E_{M}\\right)>\\left(E_{L}=E_{N}\\right)$</div>",
+              "html": "<div class=\"choiceTxt\">$\\left(E_{K}=E_{M}\\right)>\\left(E_{L}=E_{N}\\right)$</div>"
+            },
+            {
+              "key": "D",
+              "text": "<div class=\"choiceTxt\">$E_{K}=E_{L}=E_{M}=E_{N}$</div>",
+              "html": "<div class=\"choiceTxt\">$E_{K}=E_{L}=E_{M}=E_{N}$</div>"
+            },
+            {
+              "key": "E",
+              "text": "<div class=\"choiceTxt\">$E_{L}>\\left(E_{K}=E_{N}\\right)>E_{M}$</div>",
+              "html": "<div class=\"choiceTxt\">$E_{L}>\\left(E_{K}=E_{N}\\right)>E_{M}$</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "14",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">A parallel-plate capacitor stores 240 nC when fully charged by the application of a 12 V potential difference across its plates. What is its capacitance?</p>",
+          "options": [
+            {
+              "key": "A",
+              "text": "<div class=\"choiceTxt\">$5.0 \\times 10^{-11} ~F$</div>",
+              "html": "<div class=\"choiceTxt\">$5.0 \\times 10^{-11} ~F$</div>"
+            },
+            {
+              "key": "B",
+              "text": "<div class=\"choiceTxt\">$1.7 \\times 10^{-9} ~F$</div>",
+              "html": "<div class=\"choiceTxt\">$1.7 \\times 10^{-9} ~F$</div>"
+            },
+            {
+              "key": "C",
+              "text": "<div class=\"choiceTxt\">$2.0 \\times 10^{-8} ~F$</div>",
+              "html": "<div class=\"choiceTxt\">$2.0 \\times 10^{-8} ~F$</div>"
+            },
+            {
+              "key": "D",
+              "text": "<div class=\"choiceTxt\">$2.9 \\times 10^{-6} ~F$</div>",
+              "html": "<div class=\"choiceTxt\">$2.9 \\times 10^{-6} ~F$</div>"
+            },
+            {
+              "key": "E",
+              "text": "<div class=\"choiceTxt\">$4.8 \\times 10^{-6} ~F$</div>",
+              "html": "<div class=\"choiceTxt\">$4.8 \\times 10^{-6} ~F$</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "15",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">Identical resistors and identical uncharged capacitors are connected to identical ideal batteries of emf $\\varepsilon$ in the circuits shown below. Each circuit has a switch $S$ in the open position. In which circuit will the capacitors reach half their maximum charge in the least amount of time when switch $S$ is closed? <img src=\"https://cdn.mathpix.com/cropped/a43bfbd2-d827-4b62-93cf-e87582e72adf-08.jpg?height=239&width=320&top_left_y=478&top_left_x=1247\" /> <img src=\"https://cdn.mathpix.com/cropped/a43bfbd2-d827-4b62-93cf-e87582e72adf-08.jpg?height=249&width=320&top_left_y=745&top_left_x=1247\" /> <img src=\"https://cdn.mathpix.com/cropped/a43bfbd2-d827-4b62-93cf-e87582e72adf-08.jpg?height=255&width=293&top_left_y=1020&top_left_x=1247\" /> <img src=\"https://cdn.mathpix.com/cropped/a43bfbd2-d827-4b62-93cf-e87582e72adf-08.jpg?height=234&width=314&top_left_y=1304&top_left_x=1247\" /> <img src=\"https://cdn.mathpix.com/cropped/a43bfbd2-d827-4b62-93cf-e87582e72adf-08.jpg?height=281&width=314&top_left_y=1570&top_left_x=1247\" /> <img src=\"https://cdn.mathpix.com/cropped/a43bfbd2-d827-4b62-93cf-e87582e72adf-09.jpg?height=131&width=195&top_left_y=224&top_left_x=354 /> <img src=\"https://cdn.mathpix.com/cropped/a43bfbd2-d827-4b62-93cf-e87582e72adf-09.jpg?height=243&width=211&top_left_y=495&top_left_x=348 /> <img src=\"https://cdn.mathpix.com/cropped/a43bfbd2-d827-4b62-93cf-e87582e72adf-09.jpg?height=204&width=188&top_left_y=151&top_left_x=634 /> <img src=\"https://cdn.mathpix.com/cropped/a43bfbd2-d827-4b62-93cf-e87582e72adf-09.jpg?height=278&width=182&top_left_y=457&top_left_x=640 /></p>",
+          "options": [
+            {
+              "key": "A",
+              "text": "<div class=\"choiceTxt\"></div>",
+              "html": "<div class=\"choiceTxt\"></div>"
+            },
+            {
+              "key": "B",
+              "text": "<div class=\"choiceTxt\"></div>",
+              "html": "<div class=\"choiceTxt\"></div>"
+            },
+            {
+              "key": "C",
+              "text": "<div class=\"choiceTxt\"></div>",
+              "html": "<div class=\"choiceTxt\"></div>"
+            },
+            {
+              "key": "D",
+              "text": "<div class=\"choiceTxt\"></div>",
+              "html": "<div class=\"choiceTxt\"></div>"
+            },
+            {
+              "key": "E",
+              "text": "<div class=\"choiceTxt\"></div>",
+              "html": "<div class=\"choiceTxt\"></div>"
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "16",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">All four circuits shown above contain identical ideal batteries and identical resistors. Which circuits draw the most and least power from the battery? \\section*{Most Power} \\section*{Least Power} II V III I III</p>",
+          "options": [
+            {
+              "key": "A",
+              "text": "<div class=\"choiceTxt\">I</div>",
+              "html": "<div class=\"choiceTxt\">I</div>"
+            },
+            {
+              "key": "B",
+              "text": "<div class=\"choiceTxt\"></div>",
+              "html": "<div class=\"choiceTxt\"></div>"
+            },
+            {
+              "key": "C",
+              "text": "<div class=\"choiceTxt\">II</div>",
+              "html": "<div class=\"choiceTxt\">II</div>"
+            },
+            {
+              "key": "D",
+              "text": "<div class=\"choiceTxt\">IV</div>",
+              "html": "<div class=\"choiceTxt\">IV</div>"
+            },
+            {
+              "key": "E",
+              "text": "<div class=\"choiceTxt\">IV</div>",
+              "html": "<div class=\"choiceTxt\">IV</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "17",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">The current in a $10 \\Omega$ resistor is given as a function of time $t$ by the equation $I=I_{0} e^{-\\alpha t}$, where $I_{0}=4 ~A$ and $\\alpha=2 ~s^{-1}$. What is the total energy dissipated in the resistor from time $t=0$ until the current becomes zero? <img src=\"https://cdn.mathpix.com/cropped/a43bfbd2-d827-4b62-93cf-e87582e72adf-09.jpg?height=263&width=295&top_left_y=764&top_left_x=1264\" /> <img src=\"https://cdn.mathpix.com/cropped/a43bfbd2-d827-4b62-93cf-e87582e72adf-09.jpg?height=211&width=205&top_left_y=795&top_left_x=1612\" /></p>",
+          "options": [
+            {
+              "key": "A",
+              "text": "<div class=\"choiceTxt\">20 J</div>",
+              "html": "<div class=\"choiceTxt\">20 J</div>"
+            },
+            {
+              "key": "B",
+              "text": "<div class=\"choiceTxt\">40 J</div>",
+              "html": "<div class=\"choiceTxt\">40 J</div>"
+            },
+            {
+              "key": "C",
+              "text": "<div class=\"choiceTxt\">80 J</div>",
+              "html": "<div class=\"choiceTxt\">80 J</div>"
+            },
+            {
+              "key": "D",
+              "text": "<div class=\"choiceTxt\">160 J</div>",
+              "html": "<div class=\"choiceTxt\">160 J</div>"
+            },
+            {
+              "key": "E",
+              "text": "<div class=\"choiceTxt\">320 J</div>",
+              "html": "<div class=\"choiceTxt\">320 J</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "18",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">Four conducting wires perpendicular to the plane of the page are at the corners of a square, as shown in cross section in the figure above. The wires carry equal currents in the same direction. What is the direction of the total magnetic force on wire $X$ caused by the other three wires? <img src=\"https://cdn.mathpix.com/cropped/a43bfbd2-d827-4b62-93cf-e87582e72adf-10.jpg?height=549&width=549&top_left_y=151&top_left_x=310\" /></p>",
+          "options": [
+            {
+              "key": "A",
+              "text": "<div class=\"choiceTxt\">To the north</div>",
+              "html": "<div class=\"choiceTxt\">To the north</div>"
+            },
+            {
+              "key": "B",
+              "text": "<div class=\"choiceTxt\">To the south</div>",
+              "html": "<div class=\"choiceTxt\">To the south</div>"
+            },
+            {
+              "key": "C",
+              "text": "<div class=\"choiceTxt\">To the east</div>",
+              "html": "<div class=\"choiceTxt\">To the east</div>"
+            },
+            {
+              "key": "D",
+              "text": "<div class=\"choiceTxt\">To the west</div>",
+              "html": "<div class=\"choiceTxt\">To the west</div>"
+            },
+            {
+              "key": "E",
+              "text": "<div class=\"choiceTxt\">In none of the directions above, since the magnitude of the force is zero</div>",
+              "html": "<div class=\"choiceTxt\">In none of the directions above, since the magnitude of the force is zero</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "19",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">Two long, hollow, concentric conducting cylinders carry currents in opposite directions into and out of the plane of the page, as shown in the cross section above. The currents are unequal, but the current density $J$ is the same for both cylinders. In which of the following regions can the net magnetic field be zero at some nonzero finite distance $r$ from the central axis? <img src=\"https://cdn.mathpix.com/cropped/a43bfbd2-d827-4b62-93cf-e87582e72adf-10.jpg?height=291&width=855&top_left_y=144&top_left_x=1116\" /></p>",
+          "options": [
+            {
+              "key": "A",
+              "text": "<div class=\"choiceTxt\">$r<R$ only</div>",
+              "html": "<div class=\"choiceTxt\">$r<R$ only</div>"
+            },
+            {
+              "key": "B",
+              "text": "<div class=\"choiceTxt\">Both $r<R$ and $R<r<2 R$</div>",
+              "html": "<div class=\"choiceTxt\">Both $r<R$ and $R<r<2 R$</div>"
+            },
+            {
+              "key": "C",
+              "text": "<div class=\"choiceTxt\">Both $r<R$ and $2 R<r<3 R$</div>",
+              "html": "<div class=\"choiceTxt\">Both $r<R$ and $2 R<r<3 R$</div>"
+            },
+            {
+              "key": "D",
+              "text": "<div class=\"choiceTxt\">Both $r<R$ and $3 R<r<4 R$</div>",
+              "html": "<div class=\"choiceTxt\">Both $r<R$ and $3 R<r<4 R$</div>"
+            },
+            {
+              "key": "E",
+              "text": "<div class=\"choiceTxt\">$r>4 R$ only</div>",
+              "html": "<div class=\"choiceTxt\">$r>4 R$ only</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "20",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">The middle sections of two long, straight wires are each bent into semicircular shapes. The two wires are placed close to each other in a plane as shown above. Point $A$ is the center of the circle formed by the two wires. There is a current $I$ in each wire. Which of the following best represents the direction of the magnetic field, if any, at point $A$ due to the currents? <img src=\"https://cdn.mathpix.com/cropped/a43bfbd2-d827-4b62-93cf-e87582e72adf-10.jpg?height=133&width=32&top_left_y=829&top_left_x=1247\" /> <img src=\"https://cdn.mathpix.com/cropped/a43bfbd2-d827-4b62-93cf-e87582e72adf-10.jpg?height=133&width=28&top_left_y=978&top_left_x=1247\" /> - (Out of the page) (x) (Into the page) <img src=\"https://cdn.mathpix.com/cropped/a43bfbd2-d827-4b62-93cf-e87582e72adf-11.jpg?height=373&width=367&top_left_y=159&top_left_x=879\" /></p>",
+          "options": [
+            {
+              "key": "A",
+              "text": "<div class=\"choiceTxt\"></div>",
+              "html": "<div class=\"choiceTxt\"></div>"
+            },
+            {
+              "key": "B",
+              "text": "<div class=\"choiceTxt\"></div>",
+              "html": "<div class=\"choiceTxt\"></div>"
+            },
+            {
+              "key": "C",
+              "text": "<div class=\"choiceTxt\"></div>",
+              "html": "<div class=\"choiceTxt\"></div>"
+            },
+            {
+              "key": "D",
+              "text": "<div class=\"choiceTxt\"></div>",
+              "html": "<div class=\"choiceTxt\"></div>"
+            },
+            {
+              "key": "E",
+              "text": "<div class=\"choiceTxt\">There is no direction, because the magnetic field is zero.</div>",
+              "html": "<div class=\"choiceTxt\">There is no direction, because the magnetic field is zero.</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "21",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">A long straight wire is located at the origin of an $x y$-coordinate system and is perpendicular to the $x y$-plane. The wire has a current that is directed into the page, as shown in the figure above. Which of the following graphs best represents the magnetic field $B$ due to the current as a function of the position $x$ along the $x$-axis? Assume a positive magnetic field to be directed in the $+y$ direction. <img src=\"https://cdn.mathpix.com/cropped/a43bfbd2-d827-4b62-93cf-e87582e72adf-11.jpg?height=387&width=364&top_left_y=783&top_left_x=287\" /> <img src=\"https://cdn.mathpix.com/cropped/a43bfbd2-d827-4b62-93cf-e87582e72adf-11.jpg?height=385&width=358&top_left_y=785&top_left_x=867\" /> <img src=\"https://cdn.mathpix.com/cropped/a43bfbd2-d827-4b62-93cf-e87582e72adf-11.jpg?height=385&width=364&top_left_y=785&top_left_x=1440\" /> <img src=\"https://cdn.mathpix.com/cropped/a43bfbd2-d827-4b62-93cf-e87582e72adf-11.jpg?height=383&width=362&top_left_y=1245&top_left_x=287\" /> <img src=\"https://cdn.mathpix.com/cropped/a43bfbd2-d827-4b62-93cf-e87582e72adf-11.jpg?height=381&width=358&top_left_y=1247&top_left_x=867\" /> <img src=\"https://cdn.mathpix.com/cropped/a43bfbd2-d827-4b62-93cf-e87582e72adf-12.jpg?height=500&width=561&top_left_y=151&top_left_x=781\" /></p>",
+          "options": [
+            {
+              "key": "A",
+              "text": "<div class=\"choiceTxt\"></div>",
+              "html": "<div class=\"choiceTxt\"></div>"
+            },
+            {
+              "key": "B",
+              "text": "<div class=\"choiceTxt\"></div>",
+              "html": "<div class=\"choiceTxt\"></div>"
+            },
+            {
+              "key": "C",
+              "text": "<div class=\"choiceTxt\"></div>",
+              "html": "<div class=\"choiceTxt\"></div>"
+            },
+            {
+              "key": "D",
+              "text": "<div class=\"choiceTxt\"></div>",
+              "html": "<div class=\"choiceTxt\"></div>"
+            },
+            {
+              "key": "E",
+              "text": "<div class=\"choiceTxt\"></div>",
+              "html": "<div class=\"choiceTxt\"></div>"
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "22",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">A loop of wire at location $X$ is moving toward the right with constant speed $v$ in a region of uniform magnetic field $B$, which is perpendicular to the plane of the loop. The magnetic field region ends at the dashed line, as shown in the figure above. Later, the loop is at location $Y$ and exiting the magnetic field with the same constant speed $v$. The process is then repeated with the loop moving at a speed of $2 v$. Which of the following best describes the emf in the loop at the two positions shown when the process is repeated at a speed of $2 v$ ? 2{c}{ Emf at Location $X$} \\\\ Emf at Location $Y$ Nonzero and halved $~$ Nonzero and doubled $~$ (B) Nonzero and doubled Zero at both speeds $~$ (C) Nonzero and doubled Zero at both speeds $~$ (D) Zero at both speeds Nonzero and doubled</p>",
+          "options": [
+            {
+              "key": "A",
+              "text": "<div class=\"choiceTxt\">Nonzero and halved</div>",
+              "html": "<div class=\"choiceTxt\">Nonzero and halved</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "23",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">A long solenoid has 300 loops. The region inside the solenoid has a uniform magnetic field that is directed parallel to the axis of the solenoid. Each loop has an area $2 \\times 10^{-4} ~m^{2}$. The magnetic field decreases at a constant rate from 0.5 T to zero. What is the time duration for the change in magnetic field if a potential difference of 10 V is induced between the ends of the solenoid while the field is decreasing? <img src=\"https://cdn.mathpix.com/cropped/a43bfbd2-d827-4b62-93cf-e87582e72adf-13.jpg?height=501&width=661&top_left_y=153&top_left_x=1211\" /> \\section*{Questions 24-25} The circuit represented in the figure above contains four resistors and a battery. The 45 V battery has a $1 \\Omega$ internal resistance.</p>",
+          "options": [
+            {
+              "key": "A",
+              "text": "<div class=\"choiceTxt\">$1 \\times 10^{-5} ~s$</div>",
+              "html": "<div class=\"choiceTxt\">$1 \\times 10^{-5} ~s$</div>"
+            },
+            {
+              "key": "B",
+              "text": "<div class=\"choiceTxt\">$3 \\times 10^{-5} ~s$</div>",
+              "html": "<div class=\"choiceTxt\">$3 \\times 10^{-5} ~s$</div>"
+            },
+            {
+              "key": "C",
+              "text": "<div class=\"choiceTxt\">$3 \\times 10^{-3} ~s$</div>",
+              "html": "<div class=\"choiceTxt\">$3 \\times 10^{-3} ~s$</div>"
+            },
+            {
+              "key": "D",
+              "text": "<div class=\"choiceTxt\">$1 \\times 10^{-2} ~s$</div>",
+              "html": "<div class=\"choiceTxt\">$1 \\times 10^{-2} ~s$</div>"
+            },
+            {
+              "key": "E",
+              "text": "<div class=\"choiceTxt\">$3 \\times 10^{-2} ~s$</div>",
+              "html": "<div class=\"choiceTxt\">$3 \\times 10^{-2} ~s$</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "24",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">Which of the following ranks the absolute values of the potential differences $\\Delta V$ across the resistors from highest to lowest?</p>",
+          "options": [
+            {
+              "key": "A",
+              "text": "<div class=\"choiceTxt\">$\\Delta V_{3}>\\Delta V_{1}>\\Delta V_{2}>\\Delta V_{4}$</div>",
+              "html": "<div class=\"choiceTxt\">$\\Delta V_{3}>\\Delta V_{1}>\\Delta V_{2}>\\Delta V_{4}$</div>"
+            },
+            {
+              "key": "B",
+              "text": "<div class=\"choiceTxt\">$\\Delta V_{4}>\\Delta V_{2}>\\Delta V_{1}>\\Delta V_{3}$</div>",
+              "html": "<div class=\"choiceTxt\">$\\Delta V_{4}>\\Delta V_{2}>\\Delta V_{1}>\\Delta V_{3}$</div>"
+            },
+            {
+              "key": "C",
+              "text": "<div class=\"choiceTxt\">$\\Delta V_{1}>\\Delta V_{4}>\\Delta V_{2}>\\Delta V_{3}$</div>",
+              "html": "<div class=\"choiceTxt\">$\\Delta V_{1}>\\Delta V_{4}>\\Delta V_{2}>\\Delta V_{3}$</div>"
+            },
+            {
+              "key": "D",
+              "text": "<div class=\"choiceTxt\">$\\Delta V_{1}>\\left(\\Delta V_{2}=\\Delta V_{3}\\right)>\\Delta V_{4}$</div>",
+              "html": "<div class=\"choiceTxt\">$\\Delta V_{1}>\\left(\\Delta V_{2}=\\Delta V_{3}\\right)>\\Delta V_{4}$</div>"
+            },
+            {
+              "key": "E",
+              "text": "<div class=\"choiceTxt\">$\\Delta V_{4}>\\left(\\Delta V_{2}=\\Delta V_{3}\\right)>\\Delta V_{1}$</div>",
+              "html": "<div class=\"choiceTxt\">$\\Delta V_{4}>\\left(\\Delta V_{2}=\\Delta V_{3}\\right)>\\Delta V_{1}$</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "25",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">How much energy is dissipated by the battery's internal resistance in 60 s? <img src=\"https://cdn.mathpix.com/cropped/a43bfbd2-d827-4b62-93cf-e87582e72adf-14.jpg?height=232&width=444&top_left_y=157&top_left_x=361\" /></p>",
+          "options": [
+            {
+              "key": "A",
+              "text": "<div class=\"choiceTxt\">9 J</div>",
+              "html": "<div class=\"choiceTxt\">9 J</div>"
+            },
+            {
+              "key": "B",
+              "text": "<div class=\"choiceTxt\">180 J</div>",
+              "html": "<div class=\"choiceTxt\">180 J</div>"
+            },
+            {
+              "key": "C",
+              "text": "<div class=\"choiceTxt\">540 J</div>",
+              "html": "<div class=\"choiceTxt\">540 J</div>"
+            },
+            {
+              "key": "D",
+              "text": "<div class=\"choiceTxt\">900 J</div>",
+              "html": "<div class=\"choiceTxt\">900 J</div>"
+            },
+            {
+              "key": "E",
+              "text": "<div class=\"choiceTxt\">8100 J</div>",
+              "html": "<div class=\"choiceTxt\">8100 J</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "26",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">A closed cylindrical shell of volume $\\pi r^{2} h$ is placed close to an object with a charge of $Q$, as shown in the figure above. There are no other charged objects nearby. The electric flux through the closed cylindrical shell is</p>",
+          "options": [
+            {
+              "key": "A",
+              "text": "<div class=\"choiceTxt\">0</div>",
+              "html": "<div class=\"choiceTxt\">0</div>"
+            },
+            {
+              "key": "B",
+              "text": "<div class=\"choiceTxt\">$Q / \\varepsilon_{0}$</div>",
+              "html": "<div class=\"choiceTxt\">$Q / \\varepsilon_{0}$</div>"
+            },
+            {
+              "key": "C",
+              "text": "<div class=\"choiceTxt\">$\\pi r^{2} Q$</div>",
+              "html": "<div class=\"choiceTxt\">$\\pi r^{2} Q$</div>"
+            },
+            {
+              "key": "D",
+              "text": "<div class=\"choiceTxt\">$2 \\pi r h Q$</div>",
+              "html": "<div class=\"choiceTxt\">$2 \\pi r h Q$</div>"
+            },
+            {
+              "key": "E",
+              "text": "<div class=\"choiceTxt\">$2 \\pi r^{2} Q+2 \\pi r h Q$</div>",
+              "html": "<div class=\"choiceTxt\">$2 \\pi r^{2} Q+2 \\pi r h Q$</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "27",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">The electric field is zero everywhere within a certain region of space. The electric potential everywhere within the region</p>",
+          "options": [
+            {
+              "key": "A",
+              "text": "<div class=\"choiceTxt\">must be zero</div>",
+              "html": "<div class=\"choiceTxt\">must be zero</div>"
+            },
+            {
+              "key": "B",
+              "text": "<div class=\"choiceTxt\">must be uniform</div>",
+              "html": "<div class=\"choiceTxt\">must be uniform</div>"
+            },
+            {
+              "key": "C",
+              "text": "<div class=\"choiceTxt\">must be positive</div>",
+              "html": "<div class=\"choiceTxt\">must be positive</div>"
+            },
+            {
+              "key": "D",
+              "text": "<div class=\"choiceTxt\">must be negative</div>",
+              "html": "<div class=\"choiceTxt\">must be negative</div>"
+            },
+            {
+              "key": "E",
+              "text": "<div class=\"choiceTxt\">can be both positive and negative in different parts of the region</div>",
+              "html": "<div class=\"choiceTxt\">can be both positive and negative in different parts of the region</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "28",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">Two particles with positive charges $q_{1}$ and $q_{2}$ are both at rest and are very far apart. How much work would be done by external forces to bring the particles to rest at a distance $d$ apart? <img src=\"https://cdn.mathpix.com/cropped/a43bfbd2-d827-4b62-93cf-e87582e72adf-14.jpg?height=125&width=701&top_left_y=289&top_left_x=1194\" /> $m=2.0 \\times 10^{-6} ~kg$</p>",
+          "options": [
+            {
+              "key": "A",
+              "text": "<div class=\"choiceTxt\">Zero</div>",
+              "html": "<div class=\"choiceTxt\">Zero</div>"
+            },
+            {
+              "key": "B",
+              "text": "<div class=\"choiceTxt\">$k q_{1 q_{2}}{d}$</div>",
+              "html": "<div class=\"choiceTxt\">$k q_{1 q_{2}}{d}$</div>"
+            },
+            {
+              "key": "C",
+              "text": "<div class=\"choiceTxt\">$-k q_{1 q_{2}}{d}$</div>",
+              "html": "<div class=\"choiceTxt\">$-k q_{1 q_{2}}{d}$</div>"
+            },
+            {
+              "key": "D",
+              "text": "<div class=\"choiceTxt\">$2 k q_{1 q_{2}}{d}$</div>",
+              "html": "<div class=\"choiceTxt\">$2 k q_{1 q_{2}}{d}$</div>"
+            },
+            {
+              "key": "E",
+              "text": "<div class=\"choiceTxt\">$-2 k q_{1 q_{2}}{d}$</div>",
+              "html": "<div class=\"choiceTxt\">$-2 k q_{1 q_{2}}{d}$</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "29",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">A small object with a charge of $q=+3.0 \\mu C$ and a mass $m=2.0 \\times 10^{-6} ~kg$ enters a magnetic field of magnitude $B=0.20 ~T$ directed into the page, as shown in the figure above. If the speed of the object is $1000 ~m / s$, the object's acceleration at the moment it enters the field is most nearly</p>",
+          "options": [
+            {
+              "key": "A",
+              "text": "<div class=\"choiceTxt\">zero because the velocity is perpendicular to the magnetic field</div>",
+              "html": "<div class=\"choiceTxt\">zero because the velocity is perpendicular to the magnetic field</div>"
+            },
+            {
+              "key": "B",
+              "text": "<div class=\"choiceTxt\">$300 ~m / s^{2}$ toward the bottom of the page</div>",
+              "html": "<div class=\"choiceTxt\">$300 ~m / s^{2}$ toward the bottom of the page</div>"
+            },
+            {
+              "key": "C",
+              "text": "<div class=\"choiceTxt\">$300 ~m / s^{2}$ toward the top of the page</div>",
+              "html": "<div class=\"choiceTxt\">$300 ~m / s^{2}$ toward the top of the page</div>"
+            },
+            {
+              "key": "D",
+              "text": "<div class=\"choiceTxt\">$600 ~m / s^{2}$ toward the bottom of the page</div>",
+              "html": "<div class=\"choiceTxt\">$600 ~m / s^{2}$ toward the bottom of the page</div>"
+            },
+            {
+              "key": "E",
+              "text": "<div class=\"choiceTxt\">$600 ~m / s^{2}$ toward the top of the page</div>",
+              "html": "<div class=\"choiceTxt\">$600 ~m / s^{2}$ toward the top of the page</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "30",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">A 0.20 m long wire carries a current of 15 A and lies perpendicular to a magnetic field. The magnetic force on the wire is measured to be 0.060 N . What is the magnitude of the magnetic field? <img src=\"https://cdn.mathpix.com/cropped/a43bfbd2-d827-4b62-93cf-e87582e72adf-15.jpg?height=255&width=667&top_left_y=151&top_left_x=730\" /></p>",
+          "options": [
+            {
+              "key": "A",
+              "text": "<div class=\"choiceTxt\">0.010 T</div>",
+              "html": "<div class=\"choiceTxt\">0.010 T</div>"
+            },
+            {
+              "key": "B",
+              "text": "<div class=\"choiceTxt\">0.020 T</div>",
+              "html": "<div class=\"choiceTxt\">0.020 T</div>"
+            },
+            {
+              "key": "C",
+              "text": "<div class=\"choiceTxt\">0.040 T</div>",
+              "html": "<div class=\"choiceTxt\">0.040 T</div>"
+            },
+            {
+              "key": "D",
+              "text": "<div class=\"choiceTxt\">0.060 T</div>",
+              "html": "<div class=\"choiceTxt\">0.060 T</div>"
+            },
+            {
+              "key": "E",
+              "text": "<div class=\"choiceTxt\">0.080 T</div>",
+              "html": "<div class=\"choiceTxt\">0.080 T</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "31",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">Uniform magnetic and electric fields exist between the two oppositely charged parallel plates shown in the figure above. An electron travels horizontally between the plates. Assuming gravitational effects to be negligible, which of the following diagrams shows a combination of electric and magnetic field directions that will allow the electron to travel undeflected? <img src=\"https://cdn.mathpix.com/cropped/a43bfbd2-d827-4b62-93cf-e87582e72adf-15.jpg?height=255&width=303&top_left_y=644&top_left_x=304\" /> <img src=\"https://cdn.mathpix.com/cropped/a43bfbd2-d827-4b62-93cf-e87582e72adf-15.jpg?height=251&width=301&top_left_y=646&top_left_x=886\" /> <img src=\"https://cdn.mathpix.com/cropped/a43bfbd2-d827-4b62-93cf-e87582e72adf-15.jpg?height=253&width=295&top_left_y=646&top_left_x=1465\" /> <img src=\"https://cdn.mathpix.com/cropped/a43bfbd2-d827-4b62-93cf-e87582e72adf-15.jpg?height=255&width=314&top_left_y=974&top_left_x=289\" /> <img src=\"https://cdn.mathpix.com/cropped/a43bfbd2-d827-4b62-93cf-e87582e72adf-15.jpg?height=259&width=322&top_left_y=970&top_left_x=884\" /> <img src=\"https://cdn.mathpix.com/cropped/a43bfbd2-d827-4b62-93cf-e87582e72adf-16.jpg?height=547&width=532&top_left_y=155&top_left_x=315\" /></p>",
+          "options": [
+            {
+              "key": "A",
+              "text": "<div class=\"choiceTxt\"></div>",
+              "html": "<div class=\"choiceTxt\"></div>"
+            },
+            {
+              "key": "B",
+              "text": "<div class=\"choiceTxt\"></div>",
+              "html": "<div class=\"choiceTxt\"></div>"
+            },
+            {
+              "key": "C",
+              "text": "<div class=\"choiceTxt\"></div>",
+              "html": "<div class=\"choiceTxt\"></div>"
+            },
+            {
+              "key": "D",
+              "text": "<div class=\"choiceTxt\"></div>",
+              "html": "<div class=\"choiceTxt\"></div>"
+            },
+            {
+              "key": "E",
+              "text": "<div class=\"choiceTxt\"></div>",
+              "html": "<div class=\"choiceTxt\"></div>"
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "32",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">Four long, straight wires are perpendicular to the $x y$-plane. Each wire is the same distance from the origin $O$, as shown in the figure above. The wires have equal currents that are in the directions shown. Which of the following best represents the direction of the net magnetic field, if any, at the origin due to the four currents? <img src=\"https://cdn.mathpix.com/cropped/a43bfbd2-d827-4b62-93cf-e87582e72adf-16.jpg?height=154&width=104&top_left_y=1058&top_left_x=264\" /> <img src=\"https://cdn.mathpix.com/cropped/a43bfbd2-d827-4b62-93cf-e87582e72adf-16.jpg?height=156&width=152&top_left_y=1346&top_left_x=289\" /> <img src=\"https://cdn.mathpix.com/cropped/a43bfbd2-d827-4b62-93cf-e87582e72adf-16.jpg?height=213&width=253&top_left_y=151&top_left_x=1228 /> <img src=\"https://cdn.mathpix.com/cropped/a43bfbd2-d827-4b62-93cf-e87582e72adf-16.jpg?height=209&width=316&top_left_y=151&top_left_x=1541 /> Voltage across Capacitor $Y$ Voltage across Capacitor Z</p>",
+          "options": [
+            {
+              "key": "A",
+              "text": "<div class=\"choiceTxt\"></div>",
+              "html": "<div class=\"choiceTxt\"></div>"
+            },
+            {
+              "key": "B",
+              "text": "<div class=\"choiceTxt\">⟶</div>",
+              "html": "<div class=\"choiceTxt\">⟶</div>"
+            },
+            {
+              "key": "C",
+              "text": "<div class=\"choiceTxt\"></div>",
+              "html": "<div class=\"choiceTxt\"></div>"
+            },
+            {
+              "key": "D",
+              "text": "<div class=\"choiceTxt\"></div>",
+              "html": "<div class=\"choiceTxt\"></div>"
+            },
+            {
+              "key": "E",
+              "text": "<div class=\"choiceTxt\">Undefined because the net field is zero.</div>",
+              "html": "<div class=\"choiceTxt\">Undefined because the net field is zero.</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "33",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">Two identical capacitors, Y and Z , are connected in series with an ideal battery, as shown in figure 1 above, and fully charged. Each capacitor Decreases Increases Remains the same Decreases Increases has a dielectric slab of dielectric constant $\\kappa>1$ between its plates. If the dielectric slab is removed from capacitor Z, which of the following describes what happens to the voltage across each capacitor? <img src=\"https://cdn.mathpix.com/cropped/a43bfbd2-d827-4b62-93cf-e87582e72adf-17.jpg?height=230&width=763&top_left_y=155&top_left_x=201\" /></p>",
+          "options": [],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "34",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">A particle of charge $+q$ is released from rest at position $B$, which is a distance $2 d$ from the center of a fixed nonconducting sphere that has a charge of $-Q$ distributed uniformly throughout its volume, as shown in the figure above. When the particle reaches position $A$, which is a distance $d$ from the center of the charged sphere, its kinetic energy is $K_{0}$. The same particle is now released from rest at position $C$, which is a distance $4 d$ from the center of the nonconducting sphere. The kinetic energy of the particle when it again reaches position $A$ is <img src=\"https://cdn.mathpix.com/cropped/a43bfbd2-d827-4b62-93cf-e87582e72adf-17.jpg?height=463&width=505&top_left_y=155&top_left_x=1289\" /></p>",
+          "options": [
+            {
+              "key": "A",
+              "text": "<div class=\"choiceTxt\">$K_{0}$</div>",
+              "html": "<div class=\"choiceTxt\">$K_{0}$</div>"
+            },
+            {
+              "key": "B",
+              "text": "<div class=\"choiceTxt\">$3 K_{0} / 2$</div>",
+              "html": "<div class=\"choiceTxt\">$3 K_{0} / 2$</div>"
+            },
+            {
+              "key": "C",
+              "text": "<div class=\"choiceTxt\">$2 K_{0}$</div>",
+              "html": "<div class=\"choiceTxt\">$2 K_{0}$</div>"
+            },
+            {
+              "key": "D",
+              "text": "<div class=\"choiceTxt\">$5 K_{0} / 2$</div>",
+              "html": "<div class=\"choiceTxt\">$5 K_{0} / 2$</div>"
+            },
+            {
+              "key": "E",
+              "text": "<div class=\"choiceTxt\">$3 K_{0}$</div>",
+              "html": "<div class=\"choiceTxt\">$3 K_{0}$</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "35",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">Four point charges of equal magnitude but different signs are arranged on the corners of a square as shown above. Which of the vectors shown represents the direction of the net force acting on the charge at the upper left-hand corner of the square due to the other charges?</p>",
+          "options": [
+            {
+              "key": "A",
+              "text": "<div class=\"choiceTxt\">$A$</div>",
+              "html": "<div class=\"choiceTxt\">$A$</div>"
+            },
+            {
+              "key": "B",
+              "text": "<div class=\"choiceTxt\">$B$</div>",
+              "html": "<div class=\"choiceTxt\">$B$</div>"
+            },
+            {
+              "key": "C",
+              "text": "<div class=\"choiceTxt\">$C$</div>",
+              "html": "<div class=\"choiceTxt\">$C$</div>"
+            },
+            {
+              "key": "D",
+              "text": "<div class=\"choiceTxt\">$D$</div>",
+              "html": "<div class=\"choiceTxt\">$D$</div>"
+            },
+            {
+              "key": "E",
+              "text": "<div class=\"choiceTxt\">It has no direction because the force is zero.</div>",
+              "html": "<div class=\"choiceTxt\">It has no direction because the force is zero.</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "title": "Section II: Free Response",
+      "type": "frq",
+      "questions": [
+        {
+          "id": "1",
+          "type": "free-response",
+          "prompt": "<p class=\"stem_paragraph\">A rod of length $L$ lies along the $x$-axis with its left end at the origin, as shown in the figure above. The rod has a nonuniform linear charge density $\\lambda=\\alpha x$, where $\\alpha$ is a positive constant.</p>",
+          "parts": [
+            {
+              "partSign": "a",
+              "partContent": "<p class=\"stem_paragraph\">Determine the units of the constant $\\alpha$.</p>"
+            },
+            {
+              "partSign": "b",
+              "partContent": "<p class=\"stem_paragraph\">Derive an expression for the total charge on the rod. Express your answer in terms of $\\alpha, L$, and physical constants, as appropriate. The rod is replaced with one of the same length but with a uniform positive linear charge density $\\lambda_{0}$.</p>"
+            },
+            {
+              "partSign": "c",
+              "partContent": "<p class=\"stem_paragraph\">Show that the electric field at point $A$, which is a distance $b$ to the left of the rod, has a magnitude of $$ E=\\lambda_{0 L}{4 \\pi \\varepsilon_{0} b(b+L)} $$</p>"
+            },
+            {
+              "partSign": "d",
+              "partContent": "<p class=\"stem_paragraph\">A proton is placed at point $A$, at position ( $-b, 0$ ), near the positively charged rod and released from rest. i. Sketch a graph of the horizontal component of the acceleration of the proton $a_{x}$ as a function of its position $x$ for the region in which the proton travels after it is released. Sketch any asymptote, but do not indicate its value. <img src=\"https://cdn.mathpix.com/cropped/a43bfbd2-d827-4b62-93cf-e87582e72adf-24.jpg?height=408&width=671&top_left_y=1270&top_left_x=726\" /> ii. Sketch a graph of the horizontal component of the velocity of the proton $v_{x}$ as a function of its position $x$ for the region in which the proton travels after it is released. Sketch any asymptote but do not indicate its value. <img src=\"https://cdn.mathpix.com/cropped/a43bfbd2-d827-4b62-93cf-e87582e72adf-24.jpg?height=400&width=671&top_left_y=1934&top_left_x=726\" /> iii. Instead of a proton, an alpha particle (a particle with twice the charge and four times the mass of a proton) is now placed at point $A$. Is the magnitude of the initial acceleration of the alpha particle greater than, less than, or equal to the magnitude of the initial acceleration of the proton from part (d)i? ___ Greater than $\\_\\_\\_\\_$ Less than $\\_\\_\\_\\_$ Equal to</p>"
+            },
+            {
+              "partSign": "e",
+              "partContent": "<p class=\"stem_paragraph\">Using the equation from part (c), show that the magnitude of the electric field at a point on the $x$-axis very far away from the rod is approximately equal to the electric field due to a point charge of magnitude $Q=\\lambda_{0} L$ located at the origin. THIS PAGE MAY BE USED FOR SCRATCH WORK. <img src=\"https://cdn.mathpix.com/cropped/a43bfbd2-d827-4b62-93cf-e87582e72adf-27.jpg?height=360&width=402&top_left_y=151&top_left_x=861\" /></p>"
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "2",
+          "type": "free-response",
+          "prompt": "<p class=\"stem_paragraph\">The circuit above consists of a variable DC power supply, an ammeter A, a switch $S$, and a resistor of unknown resistance $R_{0}$ connected in series with a test space into which different circuit elements can be placed. In order to determine $R_{0}$, a wire of negligible resistance is placed in the test space. The power supply is set at various potential differences, and the current in the circuit is measured. The data are shown below.</p>",
+          "parts": [
+            {
+              "partSign": "a",
+              "partContent": "<p class=\"stem_paragraph\">Indicate below which quantities should be graphed to yield a straight line that has a slope that could be used to calculate a numerical value for the resistance $R_{0}$. Horizontal axis: $\\_\\_\\_\\_$ Vertical axis: $\\_\\_\\_\\_$ Use the remaining rows in the table above, as needed, to record any quantities that you indicated that are not given.</p>"
+            },
+            {
+              "partSign": "b",
+              "partContent": "<p class=\"stem_paragraph\">Plot the straight line data points on the graph below. Clearly scale and label all axes, including units, if appropriate. Draw a straight line that best represents the data. <img src=\"https://cdn.mathpix.com/cropped/a43bfbd2-d827-4b62-93cf-e87582e72adf-28.jpg?height=719&width=1137&top_left_y=258&top_left_x=495\" /></p>"
+            },
+            {
+              "partSign": "c",
+              "partContent": "<p class=\"stem_paragraph\">Using your straight line, calculate an experimental value for $R_{0}$.</p>"
+            },
+            {
+              "partSign": "d",
+              "partContent": "<p class=\"stem_paragraph\">The power supply is set to 4.00 V and an uncharged, air-filled capacitor is placed in the test space. The switch is closed at time $t=0$, and the capacitor is allowed to fully charge. i. On the axes shown, sketch the current $I$ through the ammeter as a function of time $t$. Explicitly label any intercepts, asymptotes, maxima, or minima with numerical values or algebraic expressions, as appropriate. <img src=\"https://cdn.mathpix.com/cropped/a43bfbd2-d827-4b62-93cf-e87582e72adf-29.jpg?height=385&width=528&top_left_y=411&top_left_x=798\" /> ii. It is determined that the time constant is 0.045 s . The capacitor is charged to 4 V . Calculate the energy stored in the capacitor. iii. The graph below shows the charge $Q$ on the capacitor as a function of time $t$. The capacitor is discharged, and a dielectric with dielectric constant $\\kappa=2$ is inserted between the plates. The same charging procedure is repeated. On the graph below, sketch the curve showing the charge $Q$ on the dielectric-filled capacitor as a function of time $t$. <img src=\"https://cdn.mathpix.com/cropped/a43bfbd2-d827-4b62-93cf-e87582e72adf-29.jpg?height=474&width=662&top_left_y=1503&top_left_x=743\" /> THIS PAGE MAY BE USED FOR SCRATCH WORK. <img src=\"https://cdn.mathpix.com/cropped/a43bfbd2-d827-4b62-93cf-e87582e72adf-31.jpg?height=536&width=849&top_left_y=155&top_left_x=638\" /></p>"
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "3",
+          "type": "free-response",
+          "prompt": "<p class=\"stem_paragraph\">An ideal battery is connected to three resistors, an ideal inductor, and two switches, as shown in the circuit above. Both switches are initially open. Switch $S_{2}$ is then closed.</p>",
+          "parts": [
+            {
+              "partSign": "a",
+              "partContent": "<p class=\"stem_paragraph\">Calculate the voltage across resistor $R_{2}$. Switch $S_{1}$ is then closed.</p>"
+            },
+            {
+              "partSign": "b",
+              "partContent": "<p class=\"stem_paragraph\">Calculate the magnitude of the rate of change of the current through the inductor immediately after switch $S_{1}$ is closed.</p>"
+            },
+            {
+              "partSign": "c",
+              "partContent": "<p class=\"stem_paragraph\">At time $t$ after switch $S_{1}$ is closed, the instantaneous current through resistor $R_{2}$ is measured to be 0.020 A . i. Calculate the current through resistor $R_{3}$ at time $t$. ii. Calculate the energy stored in the inductor at time $t$. After a long time, the currents reach a steady value. Switch $S_{2}$ is then opened.</p>"
+            },
+            {
+              "partSign": "d",
+              "partContent": "<p class=\"stem_paragraph\">Calculate the current through the inductor immediately after switch $S_{2}$ is opened.</p>"
+            },
+            {
+              "partSign": "e",
+              "partContent": "<p class=\"stem_paragraph\">Write, but do NOT solve, a differential equation that can be used to determine the current through resistor $R_{2}$ at time $t$ after switch $S_{2}$ is opened.</p>"
+            },
+            {
+              "partSign": "f",
+              "partContent": "<p class=\"stem_paragraph\">Using the differential equation from part (e), derive an expression for the current through resistor $R_{2}$ as a function of time $t$ after switch $S_{2}$ is opened.</p>"
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "4",
+          "type": "free-response",
+          "prompt": "<p class=\"stem_paragraph\">An ideal battery is connected to three resistors, an ideal inductor, and two switches, as shown in the circuit above. Both switches are initially open. Switch $S_{2}$ is then closed.</p>",
+          "parts": [
+            {
+              "partSign": "a",
+              "partContent": "<p class=\"stem_paragraph\">Calculate the voltage across resistor $R_{2}$. Switch $S_{1}$ is then closed.</p>"
+            },
+            {
+              "partSign": "b",
+              "partContent": "<p class=\"stem_paragraph\">Calculate the magnitude of the rate of change of the current through the inductor immediately after switch $S_{1}$ is closed.</p>"
+            },
+            {
+              "partSign": "c",
+              "partContent": "<p class=\"stem_paragraph\">At time $t$ after switch $S_{1}$ is closed, the instantaneous current through resistor $R_{2}$ is measured to be 0.020 A . i. Calculate the current through resistor $R_{3}$ at time $t$. ii. Calculate the energy stored in the inductor at time $t$. After a long time, the currents reach a steady value. Switch $S_{2}$ is then opened.</p>"
+            },
+            {
+              "partSign": "d",
+              "partContent": "<p class=\"stem_paragraph\">Calculate the current through the inductor immediately after switch $S_{2}$ is opened.</p>"
+            },
+            {
+              "partSign": "e",
+              "partContent": "<p class=\"stem_paragraph\">Write, but do NOT solve, a differential equation that can be used to determine the current through resistor $R_{2}$ at time $t$ after switch $S_{2}$ is opened.</p>"
+            },
+            {
+              "partSign": "f",
+              "partContent": "<p class=\"stem_paragraph\">Using the differential equation from part (e), derive an expression for the current through resistor $R_{2}$ as a function of time $t$ after switch $S_{2}$ is opened.</p>"
+            },
+            {
+              "partSign": "f",
+              "partContent": "<p class=\"stem_paragraph\">Using the differential equation from part (e), derive an expression for the current through resistor $R_{2}$ as a function of time $t$ after switch $S_{2}$ is opened.</p>"
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        }
+      ]
+    }
+  ]
+}

@@ -14,37 +14,32 @@
         {
           "id": "1",
           "type": "single",
-          "prompt": "<p class=\"stem_paragraph\">2. Do you regularly speak or hear the language at home? ◯ Yes ◯ No  \\section*{QUESTIONS 1-75}  Indicate your answers to the exam questions in this section (pages 2 and 3). Mark only one response per question for Questions 1 through 120. If a question has only four answer options, do not mark option E. Answers written in the multiple-choice booklet will not be scored.  \\section*{EXAMPLES OF INCOMPLETE MARKS} ![](https://cdn.mathpix.com/cropped/77e1fbc9-7bb5-4200-b904-aef9dfe53ad9-13.jpg?height=126&width=209&top_left_y=964&top_left_x=700)  You must use a No. 2 pencil and marks must be complete. Do not use mechanical pencil. It is very important that you fill in the entire circle darkly and completely. If you change your response, erase as completely as possible. Incomplete marks or erasures may affect your score.  \\begin{tabular}{|l|l|l|l|l|l|l|} \\hline 1 & (A) (B) (C) (D) (E) & 26 & (A) (B) (C) (D) (E) & & & \\\\ \\hline 2 & (A) (B) (C) (D) (E) & 27 & (A) (B) (C) (D) (E) & & & \\\\ \\hline 3 & (A) (B) (C) (D) (E) & 28 & (A) (B) (C) (D) (E) & & & \\\\ \\hline 4 & (A) (B) (C) (D) (E) & 29 & (A) (B) (C) (D) (E) & & & \\\\ \\hline 5 & (A) (B) (C) (D) (E) & 30 & (A) (B) (C) (D) (E) & & & \\\\ \\hline 6 & (A) (B) (C) (D) (E) & 31 & (A) (B) (C) (D) (E) & & & \\\\ \\hline 7 & (A) (B) (C) (D) (E) & 32 & (A) (B) (C) (D) (E) & & & \\\\ \\hline 8 & (A) (B) (C) (D) (E) & 33 & (A) & (B) & (C) (D) & (E) \\\\ \\hline 9 & (A) (B) (C) (D) (E) & 34 & (A) & (B) & (C) & (D) \\\\ \\hline 10 & (A) & 35 & (A) & (B) & (C) & (D) \\\\ \\hline 11 & (A) & 36 & (A) & (B) & (C) & (D) \\\\ \\hline 12 & (A) & 37 & (A) & (B) & (C) & (D) \\\\ \\hline 13 & (A) & 38 & (A) & (B) & (C) & (D) \\\\ \\hline 14 & (A) & 39 & (A) & (B) & (C) & (D) \\\\ \\hline 15 & (A) & 40 & (A) & (B) & (C) & (D) \\\\ \\hline 16 & (A) & 41 & (A) & (B) & (C) & (D) \\\\ \\hline 17 & (A) & 42 & (A) & (C) & (D) & (E) \\\\ \\hline 18 & (A) & 43 & (A) & (B) & (C) & (D) \\\\ \\hline 19 & (A) & 44 & (A) & (B) & (C) & (D) \\\\ \\hline 20 & (A) & 45 & (A) & (B) & (D) & (E) \\\\ \\hline 21 & (A) & 46 & (A) & (B) & (C) & (D) \\\\ \\hline 22 & (A) & 47 & (A) & (B) & (C) & (D) \\\\ \\hline 23 & (A) & 48 & (A) & (C) & (D) & (E) \\\\ \\hline 24 & (A) & 49 & (A) & (C) & (D) & (E) \\\\ \\hline 25 & (A) & 50 & (A) & (C) & (D) & (E) \\\\ \\hline \\end{tabular}  \\begin{tabular}{|l|l|} \\hline 51 & (A) (B) (C) (D) (E) \\\\ \\hline 52 & (A) (B) (C) (D) (E) \\\\ \\hline 53 & (A) (B) (C) (D) (E) \\\\ \\hline 54 & (A) (B) (C) (D) (E) \\\\ \\hline 55 & (A) (B) (C) (D) (E) \\\\ \\hline 56 & (A) (B) (C) (D) (E) \\\\ \\hline 57 & (A) (B) (C) (D) (E) \\\\ \\hline 58 & (A) (B) (C) (D) (E) \\\\ \\hline 59 & (A) (B) (C) (D) (E) \\\\ \\hline 60 & (A) (B) (C) (D) (E) \\\\ \\hline 61 & (A) (B) (C) (D) (E) \\\\ \\hline 62 & (A) (B) (C) (D) (E) \\\\ \\hline 63 & (A) (B) (C) (D) (E) \\\\ \\hline 64 & (A) (B) (C) (D) (E) \\\\ \\hline 65 & (A) (B) (C) (D) (E) \\\\ \\hline 66 & (A) (B) (C) (D) (E) \\\\ \\hline 67 & (A) (B) (C) (D) (E) \\\\ \\hline 68 & (A) (B) (C) (D) (E) \\\\ \\hline 69 & (A) (B) (C) (D) (E) \\\\ \\hline 70 & (A) (B) (C) (D) (E) \\\\ \\hline 71 & (A) (B) (C) (D) (E) \\\\ \\hline 72 & (A) (B) (C) (D) (E) \\\\ \\hline 73 & (A) (B) (C) (D) (E) \\\\ \\hline 74 & (A) (B) (C) (D) (E) \\\\ \\hline 75 & (A) (B) (C) (D) (E) \\\\ \\hline \\end{tabular}  \\begin{tabular}{|l|l|l|l|l|l|l|l|} \\hline SELECTED MEDIA EXAMS & R & W & 0 & OTHER EXAMS & R & W & 0 \\\\ \\hline PT02 & & & & TOTAL & & & \\\\ \\hline PT03 & & & & Subscore (if applicable) & & & \\\\ \\hline PT04 & & & & Subscore (if applicable) & & & \\\\ \\hline \\end{tabular}  Be sure each mark is dark and completely fills the circle．If a question has only four answer options，do not mark option E．  \\begin{tabular}{|l|l|l|l|l|l|} \\hline 76 & （A）（B）（C）（D）（E） & 91 & （A）（B）（C）（D）（E） & 106 & （A）（B）（C）（D）（E） \\\\ \\hline 77 & （A）（B）（C）（D）（E） & 92 & （A）（B）（C）（D）（E） & 107 & （A）（B）（C）（D）（E） \\\\ \\hline 78 & （A）（B）（C）（D）（E） & 93 & （A）（B）（C）（D）（E） & 108 & （A）（B）（C）（D）（E） \\\\ \\hline 79 & （A）（B）（C）（D）（E） & 94 & （A）（B）（C）（D）（E） & 109 & （A）（B）（C）（D）（E） \\\\ \\hline 80 & （A）（B）（C）（D）（E） & 95 & （A）（B）（C）（D）（E） & 110 & （A）（B）（C）（D）（E） \\\\ \\hline 81 & （A）（B）（C）（D）（E） & 96 & （A）（B）（C）（D）（E） & 111 & （A）（B）（C）（D）（E） \\\\ \\hline 82 & （A）（B）（C）（D）（E） & 97 & （A）（B）（C）（D）（E） & 112 & （A）（B）（C）（D）（E） \\\\ \\hline 83 & （A）（B）（C）（D）（E） & 98 & （A）（B）（C）（D）（E） & 113 & （A）（B）（C）（D）（E） \\\\ \\hline 84 & （A）（B）（C）（D）（E） & 99 & （A）（B）（C）（D）（E） & 114 & （A）（B）（C）（D）（E） \\\\ \\hline 85 & （A）（B）（C）（D）（E） & 100 & （A）（B）（C）（D）（E） & 115 & （A）（B）（C）（D）（E） \\\\ \\hline 86 & （A）（B）（C）（D）（E） & 101 & （A）（B）（C）（D）（E） & 116 & （A）（B）（C）（D）（E） \\\\ \\hline 87 & （A）（B）（C）（D）（E） & 102 & （A）（B）（C）（D）（E） & 117 & （A）（B）（C）（D）（E） \\\\ \\hline 88 & （A）（B）（C）（D）（E） & 103 & （A）（B）（C）（D）（E） & 118 & （A）（B）（C）（D）（E） \\\\ \\hline 89 & （A）（B）（C）（D）（E） & 104 & （A）（B）（C）（D）（E） & 119 & （A）（B）（C）（D）（E） \\\\ \\hline 90 & （A）（B）（C）（D）（E） & 105 & （A）（B）（C）（D）（E） & 120 & （A）（B）（C）（D）（E） \\\\ \\hline \\end{tabular}  \\section*{QUESTIONS 121－126}  \\section*{QUESTIONS 131－142}  \\section*{For Students Taking AP Biology}  Write your answer in the boxes at the top of the griddable area and fill in the corresponding circles． Mark only one circle in any column．You will receive credit only if the circles are filled in correctly． ![](https://cdn.mathpix.com/cropped/77e1fbc9-7bb5-4200-b904-aef9dfe53ad9-14.jpg?height=599&width=265&top_left_y=1140&top_left_x=180) ![](https://cdn.mathpix.com/cropped/77e1fbc9-7bb5-4200-b904-aef9dfe53ad9-14.jpg?height=599&width=270&top_left_y=1140&top_left_x=472) ![](https://cdn.mathpix.com/cropped/77e1fbc9-7bb5-4200-b904-aef9dfe53ad9-14.jpg?height=599&width=270&top_left_y=1140&top_left_x=764) ![](https://cdn.mathpix.com/cropped/77e1fbc9-7bb5-4200-b904-aef9dfe53ad9-14.jpg?height=601&width=269&top_left_y=1138&top_left_x=1057) ![](https://cdn.mathpix.com/cropped/77e1fbc9-7bb5-4200-b904-aef9dfe53ad9-14.jpg?height=601&width=269&top_left_y=1138&top_left_x=1349) ![](https://cdn.mathpix.com/cropped/77e1fbc9-7bb5-4200-b904-aef9dfe53ad9-14.jpg?height=605&width=273&top_left_y=1138&top_left_x=1637) ![](https://cdn.mathpix.com/cropped/77e1fbc9-7bb5-4200-b904-aef9dfe53ad9-14.jpg?height=36&width=107&top_left_y=1740&top_left_x=1796&polygon=36,0,75,2,94,4,105,8,107,10,107,32,94,34,66,36,62,36,10,34,4,32,2,30,0,23,0,8,8,2,15,0) ![](https://cdn.mathpix.com/cropped/77e1fbc9-7bb5-4200-b904-aef9dfe53ad9-15.jpg?height=1907&width=2643&top_left_y=38&top_left_x=77)  \\begin{tabular}{|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|} \\hline Address & & \\multicolumn{11}{|l|}{City} & \\multicolumn{11}{|l|}{State or Province} & Country & & & & & & & & ZIP or Postal Code & & & & & \\\\ \\hline U. EMAIL ADDRESS & By providing your email address, you are granting the College Board permission to use your email address in accordance with the policies in the 2016-17 Bulletin for AP Students and Parents. & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & \\\\ \\hline \\end{tabular}  \\section*{Section I: Multiple-Choice Questions}  This is the multiple-choice section of the 2017 AP exam. It includes cover material and other administrative instructions to help familiarize students with the mechanics of the exam. (Note that future exams may differ in look from the following content.)  \\section*{AP ${ }^{\\text {® }}$ Physics C: Mechanics Exam}  \\section*{SECTION I: Multiple Choice}  \\section*{DO NOT OPEN THIS BOOKLET UNTIL YOU ARE TOLD TO DO SO.}  \\section*{At a Glance}  Total Time 45 minutes Number of Questions 35 Percent of Total Score 50\\% Writing Instrument Pencil required Electronic Device Calculator allowed  \\section*{Instructions}  Section I of this exam contains 35 multiple-choice questions. For these questions, fill in only the circles for numbers 1 through 35 on your answer sheet. A table of information and lists of equations that may be helpful are in the booklet. Calculators, rulers and straightedges may be used in this section.  Indicate all of your answers to the multiple-choice questions on the answer sheet. No credit will be given for anything written in this exam booklet, but you may use the booklet for notes or scratch work. After you have decided which of the suggested answers is best, completely fill in the corresponding circle on the answer sheet. Give only one answer to each question. If you change an answer, be sure that the previous mark is erased completely. Here is a sample question and answer.  Sample Question Sample Answer Chicago is a</p>",
+          "prompt": "<p class=\"stem_paragraph\">1. A plane starts at rest on a straight runway. For the first 30 s , the plane's acceleration $a$ is given as a function of time $t$ by the equation $a=\\beta t^{2}$, where $\\beta=1 / 90 \\mathrm{~m} / \\mathrm{s}^{4}$ and $t$ is in seconds.  What is the plane's speed at $t=30 \\mathrm{~s}$ ?</p>",
           "options": [
             {
-              "key": "A",
-              "text": "<div class=\"choiceTxt\">$($ C $)($ D $)($ E $)$</div>",
-              "html": "<div class=\"choiceTxt\">$($ C $)($ D $)($ E $)$</div>"
+              "key": "",
+              "text": "",
+              "html": ""
             },
             {
-              "key": "A",
-              "text": "<div class=\"choiceTxt\">state</div>",
-              "html": "<div class=\"choiceTxt\">state</div>"
+              "key": "",
+              "text": "",
+              "html": ""
             },
             {
-              "key": "B",
-              "text": "<div class=\"choiceTxt\">city</div>",
-              "html": "<div class=\"choiceTxt\">city</div>"
+              "key": "",
+              "text": "",
+              "html": ""
             },
             {
-              "key": "C",
-              "text": "<div class=\"choiceTxt\">country</div>",
-              "html": "<div class=\"choiceTxt\">country</div>"
+              "key": "",
+              "text": "",
+              "html": ""
             },
             {
-              "key": "D",
-              "text": "<div class=\"choiceTxt\">continent</div>",
-              "html": "<div class=\"choiceTxt\">continent</div>"
-            },
-            {
-              "key": "E",
-              "text": "<div class=\"choiceTxt\">village\n\nUse your time effectively, working as quickly as you can without losing accuracy. Do not spend too much time on any one question. Go on to other questions and come back to the ones you have not answered if you have time. It is not expected that everyone will know the answers to all of the multiple-choice questions.\n\nYour total score on the multiple-choice section is based only on the number of questions answered correctly. Points are not deducted for incorrect answers or unanswered questions.\n\n\\begin{table}\n\\captionsetup{labelformat=empty}\n\\caption{ADVANCED PLACEMENT PHYSICS C TABLE OF INFORMATION}\n\\begin{tabular}{|l|l|}\n\\hline \\multicolumn{2}{|c|}{CONSTANTS AND CONVERSION FACTORS} \\\\\n\\hline \\begin{tabular}{l}\nProton mass, $m_{p}=1.67 \\times 10^{-27} \\mathrm{~kg}$ \\\\\nNeutron mass, $m_{n}=1.67 \\times 10^{-27} \\mathrm{~kg}$ \\\\\nElectron mass, $m_{e}=9.11 \\times 10^{-31} \\mathrm{~kg}$ \\\\\nAvogadro's number, $N_{0}=6.02 \\times 10^{23} \\mathrm{~mol}^{-1}$ \\\\\nUniversal gas constant, $\\quad R=8.31 \\mathrm{~J} /(\\mathrm{mol} \\cdot \\mathrm{K})$ \\\\\nBoltzmann's constant, $k_{B}=1.38 \\times 10^{-23} \\mathrm{~J} / \\mathrm{K}$\n\\end{tabular} & \\begin{tabular}{l}\nElectron charge magnitude, $\\quad e=1.60 \\times 10^{-19} \\mathrm{C}$ \\\\\n1 electron volt, $1 \\mathrm{eV}=1.60 \\times 10^{-19} \\mathrm{~J}$ \\\\\nSpeed of light, $\\quad c=3.00 \\times 10^{8} \\mathrm{~m} / \\mathrm{s}$ \\\\\n$\\begin{array}{r}\\text { Universal gravitational } \\\\ \\text { constant, }\\end{array} \\quad G=6.67 \\times 10^{-11}\\left(\\mathrm{~N} \\cdot \\mathrm{~m}^{2}\\right) / \\mathrm{kg}^{2}$ \\\\\nAcceleration due to gravity $\\quad g=9.8 \\mathrm{~m} / \\mathrm{s}^{2}$\n\\end{tabular} \\\\\n\\hline \\multicolumn{2}{|c|}{\\begin{tabular}{l}\n1 unified atomic mass unit, \\\\\nPlanck's constant, \\\\\nVacuum permittivity,\n$$\n\\begin{aligned}\n1 \\mathrm{u} & =1.66 \\times 10^{-27} \\mathrm{~kg}=931 \\mathrm{MeV} / c^{2} \\\\\nh & =6.63 \\times 10^{-34} \\mathrm{~J} \\cdot \\mathrm{~s}=4.14 \\times 10^{-15} \\mathrm{eV} \\cdot \\mathrm{~s} \\\\\nh c & =1.99 \\times 10^{-25} \\mathrm{~J} \\cdot \\mathrm{~m}=1.24 \\times 10^{3} \\mathrm{eV} \\cdot \\mathrm{~nm} \\\\\n\\varepsilon_{0} & =8.85 \\times 10^{-12} \\mathrm{C}^{2} /\\left(\\mathrm{N} \\cdot \\mathrm{~m}^{2}\\right)\n\\end{aligned}\n$$ \\\\\nCoulomb's law constant,\n$$\nk=1 /\\left(4 \\pi \\varepsilon_{0}\\right)=9.0 \\times 10^{9}\\left(\\mathrm{~N} \\cdot \\mathrm{~m}^{2}\\right) / \\mathrm{C}^{2}\n$$\n$$\n\\mu_{0}=4 \\pi \\times 10^{-7}(\\mathrm{~T} \\cdot \\mathrm{~m}) / \\mathrm{A}\n$$ \\\\\n$1 \\mathrm{~atm}=1.0 \\times 10^{5} \\mathrm{~N} / \\mathrm{m}^{2}=1.0 \\times 10^{5} \\mathrm{~Pa}$\n\\end{tabular}} \\\\\n\\hline\n\\end{tabular}\n\\end{table}\n\n\\begin{tabular}{|l|l|l|l|l|l|l|l|l|}\n\\hline \\multirow{5}{*}{UNIT SYMBOLS} & meter, & m & mole, & mol & watt, & W & farad, & F \\\\\n\\hline & kilogram, & kg & hertz, & Hz & coulomb, & C & tesla, & T \\\\\n\\hline & second, & s & newton, & N & volt, & V & degree Celsius, & ${ }^{\\circ} \\mathrm{C}$ \\\\\n\\hline & ampere, & A & pascal, & Pa & ohm, & $\\Omega$ & electron volt, & eV \\\\\n\\hline & kelvin, & K & joule, & J & henry, & H & & \\\\\n\\hline\n\\end{tabular}\n\n\\begin{tabular}{|c|c|c|}\n\\hline \\multicolumn{3}{|c|}{ PREFIXES } \\\\\n\\hline Factor & Prefix & Symbol \\\\\n\\hline $10^{9}$ & giga & G \\\\\n\\hline $10^{6}$ & mega & M \\\\\n\\hline $10^{3}$ & kilo & k \\\\\n\\hline $10^{-2}$ & centi & c \\\\\n\\hline $10^{-3}$ & milli & m \\\\\n\\hline $10^{-6}$ & micro & $\\mu$ \\\\\n\\hline $10^{-9}$ & nano & n \\\\\n\\hline $10^{-12}$ & pico & p \\\\\n\\hline\n\\end{tabular}\n\n\\begin{tabular}{|l|l|l|l|l|l|l|l|}\n\\hline \\multicolumn{8}{|l|}{VALUES OF TRIGONOMETRIC FUNCTIONS FOR COMMON ANGLES} \\\\\n\\hline $\\theta$ & $0^{\\circ}$ & $30^{\\circ}$ & $37^{\\circ}$ & $45^{\\circ}$ & $53^{\\circ}$ & $60^{\\circ}$ & $90^{\\circ}$ \\\\\n\\hline $\\sin \\theta$ & 0 & 1/2 & 3/5 & $\\sqrt{2} / 2$ & 4/5 & $\\sqrt{3} / 2$ & 1 \\\\\n\\hline $\\cos \\theta$ & 1 & $\\sqrt{3} / 2$ & 4/5 & $\\sqrt{2} / 2$ & 3/5 & 1/2 & 0 \\\\\n\\hline $\\tan \\theta$ & 0 & $\\sqrt{3} / 3$ & 3/4 & 1 & 4/3 & $\\sqrt{3}$ & $\\infty$ \\\\\n\\hline\n\\end{tabular}\n\nThe following assumptions are used in this exam.\nI. The frame of reference of any problem is inertial unless otherwise stated.\nII. The direction of current is the direction in which positive charges would drift.\nIII. The electric potential is zero at an infinite distance from an isolated point charge.\nIV. All batteries and meters are ideal unless otherwise stated.\nV. Edge effects for the electric field of a parallel plate capacitor are negligible unless otherwise stated.\n\n\\section*{MECHANICS}\n$$\n\\begin{aligned}\n& v_{x}=v_{x 0}+a_{x} t \\\\\n& x=x_{0}+v_{x 0} t+\\frac{1}{2} a_{x} t^{2} \\\\\n& v_{x}^{2}=v_{x 0}^{2}+2 a_{x}\\left(x-x_{0}\\right) \\\\\n& \\vec{a}=\\frac{\\sum \\vec{F}}{m}=\\frac{\\vec{F}_{n e t}}{m} \\\\\n& \\vec{F}=\\frac{d \\vec{p}}{d t} \\\\\n& \\vec{J}=\\int \\vec{F} d t=\\Delta \\vec{p} \\\\\n& \\vec{p}=m \\vec{v} \\\\\n& |\\vec{F} f| \\leq \\mu\\left|\\vec{F}_{N}\\right| \\\\\n& \\Delta E=W=\\int \\vec{F} \\bullet d \\vec{r} \\\\\n& K=\\frac{1}{2} m v^{2} \\\\\n& P=\\frac{d E}{d t} \\\\\n& P=\\vec{F} \\cdot \\vec{v} \\\\\n& \\Delta U_{g}=m g \\Delta h \\\\\n& a_{c}=\\frac{v^{2}}{r}=\\omega^{2} r \\\\\n& \\vec{\\tau}=\\vec{r} \\times \\vec{F} \\\\\n& \\vec{\\alpha}=\\frac{\\sum \\vec{\\tau}}{I}=\\frac{\\vec{\\tau}_{n e t}}{I} \\\\\n& I=\\int r^{2} d m=\\sum m r^{2} \\\\\n& x_{c m}=\\frac{\\sum m_{i} x_{i}}{\\sum m_{i}} \\\\\n& v=r \\omega \\\\\n& \\vec{L}=\\vec{r} \\times \\vec{p}=I \\vec{\\omega} \\\\\n& K=\\frac{1}{2} I \\omega^{2} \\\\\n& \\omega=\\omega_{0}+\\alpha t \\\\\n& \\theta=\\theta_{0}+\\omega_{0} t+\\frac{1}{2} \\alpha t^{2}\n\\end{aligned}\n$$\n$T_{S}=2 \\pi \\sqrt{\\frac{m}{k}}$\n$T_{p}=2 \\pi \\sqrt{\\frac{\\ell}{g}}$\n$\\left|\\vec{F}_{G}\\right|=\\frac{G m_{1} m_{2}}{r^{2}}$\n$E=$ energy\n$F=$ force\n$f=$ frequency\n$h=$ height\n$J=$ impulse\n$\\ell=$ length\n$m=$ mass\n$P=$ power\n$T=$ period\n$t=$ time\n$x=$ position\n$\\theta=$ angle\n$\\tau=$ torque\n$\\vec{F}_{S}=-k \\Delta \\vec{x}$\n$U_{S}=\\frac{1}{2} k(\\Delta x)^{2}$\n\n\\section*{ELECTRICITY AND MAGNETISM}\n$$\n\\begin{aligned}\n& \\left|\\vec{F}_{E}\\right|=\\frac{1}{4 \\pi \\varepsilon_{0}}\\left|\\frac{q_{1} q_{2}}{r^{2}}\\right| \\\\\n& \\vec{E}=\\frac{\\vec{F}_{E}}{q} \\\\\n& \\oint \\vec{E} \\cdot d \\vec{A}=\\frac{Q}{\\varepsilon_{0}} \\\\\n& E_{x}=-\\frac{d V}{d x} \\\\\n& \\Delta V=-\\int \\vec{E} \\cdot d \\vec{r} \\\\\n& V=\\frac{1}{4 \\pi \\varepsilon_{0}} \\sum_{i} \\frac{q_{i}}{r_{i}} \\\\\n& U_{E}=q V=\\frac{1}{4 \\pi \\varepsilon_{0}} \\frac{q_{1} q_{2}}{r} \\\\\n& \\Delta V=\\frac{Q}{C} \\\\\n& C=\\frac{\\kappa \\varepsilon_{0} A}{d} \\\\\n& C_{p}=\\sum_{i} C_{i} \\\\\n& \\frac{1}{C_{S}}=\\sum_{i} \\frac{1}{C_{i}} \\\\\n& I=\\frac{d Q}{d t} \\\\\n& U_{C}=\\frac{1}{2} Q \\Delta V=\\frac{1}{2} C(\\Delta V)^{2} \\\\\n& d \\vec{B}=\\frac{\\mu_{0}}{4 \\pi} \\frac{I d \\vec{\\ell} \\times \\hat{r}}{r^{2}} \\\\\n& R=\\frac{\\rho \\ell}{A} \\\\\n& \\vec{F}=\\int I d \\vec{\\ell} \\times \\vec{B} \\\\\n& \\vec{E}=\\rho \\vec{J} \\\\\n& B_{s}=\\mu_{0} n I \\\\\n& I=N e v_{d} A \\\\\n& \\Phi_{B}=\\int \\vec{B} \\cdot d \\vec{A} \\\\\n& I=\\frac{\\Delta V}{R} \\\\\n& \\boldsymbol{\\varepsilon}=\\oint \\vec{E} \\cdot d \\vec{\\ell}=-\\frac{d \\Phi_{B}}{d t} \\\\\n& R_{s}=\\sum_{i} R_{i} \\\\\n& \\frac{1}{R_{p}}=\\sum_{i} \\frac{1}{R_{i}} \\\\\n& A=\\text { area } \\\\\n& B=\\text { magnetic field } \\\\\n& C=\\text { capacitance } \\\\\n& d=\\text { distance } \\\\\n& E=\\text { electric field } \\\\\n& \\boldsymbol{\\varepsilon}=\\mathrm{emf} \\\\\n& F=\\text { force } \\\\\n& I=\\text { current } \\\\\n& J=\\text { current density } \\\\\n& L=\\text { inductance } \\\\\n& \\ell=\\text { length } \\\\\n& n=\\text { number of loops of wire } \\\\\n& \\text { per unit length } \\\\\n& N=\\text { number of charge carriers } \\\\\n& \\text { per unit volume } \\\\\n& P=\\text { power } \\\\\n& Q=\\text { charge } \\\\\n& q=\\text { point charge } \\\\\n& R=\\text { resistance } \\\\\n& r=\\text { radius or distance } \\\\\n& t=\\text { time } \\\\\n& U=\\text { potential or stored energy } \\\\\n& V=\\text { electric potential } \\\\\n& v=\\text { velocity or speed } \\\\\n& \\rho=\\text { resistivity } \\\\\n& \\Phi=\\text { flux } \\\\\n& \\kappa=\\text { dielectric constant } \\\\\n& \\vec{F}_{M}=q \\vec{v} \\times \\vec{B} \\\\\n& \\oint \\vec{B} \\cdot d \\vec{\\ell}=\\mu_{0} I \\\\\n& d \\vec{B}=\\frac{\\mu_{0}}{4 \\pi} \\frac{I d \\vec{\\ell} \\times \\hat{r}}{r^{2}} \\\\\n& P=I \\Delta V \\\\\n& R=\\frac{\\rho}{A} \\\\\n& \\vec{F}=\\int I d \\vec{\\ell} \\times \\vec{B} \\\\\n& \\text { T } \\\\\n& \\text { \" } \\\\\n& \\text { L } \\\\\n& \\text { 墐 } \\\\\n& \\text { T } \\\\\n& I=\\frac{\\Delta V}{R} \\\\\n& \\boldsymbol{\\varepsilon}=\\oint \\vec{E} \\cdot d \\vec{\\ell}=-\\frac{d \\Phi_{B}}{d t} \\\\\n& R_{s}\n\\end{aligned}\n$$\n$U_{G}=-\\frac{G m_{1} m_{2}}{r}$\n$a=$ acceleration\n$I=$ rotational inertia\n$K=$ kinetic energy\n$k=$ spring constant\n$L=$ angular momentum\n$p=$ momentum\n$r=$ radius or distance\n$U=$ potential energy\n$v=$ velocity or speed\n$W=$ work done on a system\n$\\mu=$ coefficient of friction\n$\\omega=$ angular speed\n$\\alpha=$ angular acceleration\n$\\phi=$ phase angle\n$x=x_{\\text {max }} \\cos (\\omega t+\\phi)$\n$$\nT=\\frac{2 \\pi}{\\omega}=\\frac{1}{f}\n$$\n\n\\section*{GEOMETRY AND TRIGONOMETRY}\n\nRectangle\n$$\nA=b h\n$$\n\nTriangle\n$$\nA=\\frac{1}{2} b h\n$$\n\nCircle\n$$\n\\begin{aligned}\n& A=\\pi r^{2} \\\\\n& C=2 \\pi r \\\\\n& s=r \\theta\n\\end{aligned}\n$$$A=$ area\n$C=$ circumference\n$V=$ volume\n$S$ =surface area\n$b=$ base\n$h=$ height\n$\\ell=$ length\n$w=$ width\n$r=$ radius\n$s=$ arc length\n$\\theta=$ angle\n\nRectangular Solid\n$$\nV=\\ell w h\n$$\n\nCylinder\n$$\n\\begin{aligned}\n& V=\\pi r^{2} \\ell \\\\\n& S=2 \\pi r \\ell+2 \\pi r^{2}\n\\end{aligned}\n$$\n\nSphere\n$$\n\\begin{aligned}\nV & =\\frac{4}{3} \\pi r^{3} \\\\\nS & =4 \\pi r^{2}\n\\end{aligned}\n$$\n\nRight Triangle\n$$\n\\begin{aligned}\n& a^{2}+b^{2}=c^{2} \\\\\n& \\sin \\theta=\\frac{a}{c} \\\\\n& \\cos \\theta=\\frac{b}{c} \\\\\n& \\tan \\theta=\\frac{a}{b}\n\\end{aligned}\n$$\n![](https://cdn.mathpix.com/cropped/77e1fbc9-7bb5-4200-b904-aef9dfe53ad9-20.jpg?height=332&width=326&top_left_y=893&top_left_x=704)\n\n\\section*{CALCULUS}\n$\\frac{d f}{d x}=\\frac{d f}{d u} \\frac{d u}{d x}$\n$\\frac{d}{d x}\\left(x^{n}\\right)=n x^{n-1}$\n$\\frac{d}{d x}\\left(e^{a x}\\right)=a e^{a x}$\n$\\frac{d}{d x}(\\ln a x)=\\frac{1}{x}$\n$\\frac{d}{d x}[\\sin (a x)]=a \\cos (a x)$\n$\\frac{d}{d x}[\\cos (a x)]=-a \\sin (a x)$\n$\\int x^{n} d x=\\frac{1}{n+1} x^{n+1}, n \\neq-1$\n$\\int e^{a x} d x=\\frac{1}{a} e^{a x}$\n$\\int \\frac{d x}{x+a}=\\ln |x+a|$\n$\\int \\cos (a x) d x=\\frac{1}{a} \\sin (a x)$\n$\\int \\sin (a x) d x=-\\frac{1}{a} \\cos (a x)$\n\n\\section*{VECTOR PRODUCTS}\n$$\n\\begin{aligned}\n& \\vec{A} \\cdot \\vec{B}=A B \\cos \\theta \\\\\n& |\\vec{A} \\times \\vec{B}|=A B \\sin \\theta\n\\end{aligned}\n$$\n\n\\title{\nPHYSICS C: MECHANICS \\\\ SECTION I \\\\ Time-45 minutes \\\\ 35 Questions\n}\n\nDirections: Each of the questions or incomplete statements below is followed by five suggested answers or completions. Select the one that is best in each case and then fill in the corresponding circle on the answer sheet.\n\nNote: To simplify calculations, you may use $g=10 \\mathrm{~m} / \\mathrm{s}^{2}$ in all problems.</div>",
-              "html": "<div class=\"choiceTxt\">village\n\nUse your time effectively, working as quickly as you can without losing accuracy. Do not spend too much time on any one question. Go on to other questions and come back to the ones you have not answered if you have time. It is not expected that everyone will know the answers to all of the multiple-choice questions.\n\nYour total score on the multiple-choice section is based only on the number of questions answered correctly. Points are not deducted for incorrect answers or unanswered questions.\n\n\\begin{table}\n\\captionsetup{labelformat=empty}\n\\caption{ADVANCED PLACEMENT PHYSICS C TABLE OF INFORMATION}\n\\begin{tabular}{|l|l|}\n\\hline \\multicolumn{2}{|c|}{CONSTANTS AND CONVERSION FACTORS} \\\\\n\\hline \\begin{tabular}{l}\nProton mass, $m_{p}=1.67 \\times 10^{-27} \\mathrm{~kg}$ \\\\\nNeutron mass, $m_{n}=1.67 \\times 10^{-27} \\mathrm{~kg}$ \\\\\nElectron mass, $m_{e}=9.11 \\times 10^{-31} \\mathrm{~kg}$ \\\\\nAvogadro's number, $N_{0}=6.02 \\times 10^{23} \\mathrm{~mol}^{-1}$ \\\\\nUniversal gas constant, $\\quad R=8.31 \\mathrm{~J} /(\\mathrm{mol} \\cdot \\mathrm{K})$ \\\\\nBoltzmann's constant, $k_{B}=1.38 \\times 10^{-23} \\mathrm{~J} / \\mathrm{K}$\n\\end{tabular} & \\begin{tabular}{l}\nElectron charge magnitude, $\\quad e=1.60 \\times 10^{-19} \\mathrm{C}$ \\\\\n1 electron volt, $1 \\mathrm{eV}=1.60 \\times 10^{-19} \\mathrm{~J}$ \\\\\nSpeed of light, $\\quad c=3.00 \\times 10^{8} \\mathrm{~m} / \\mathrm{s}$ \\\\\n$\\begin{array}{r}\\text { Universal gravitational } \\\\ \\text { constant, }\\end{array} \\quad G=6.67 \\times 10^{-11}\\left(\\mathrm{~N} \\cdot \\mathrm{~m}^{2}\\right) / \\mathrm{kg}^{2}$ \\\\\nAcceleration due to gravity $\\quad g=9.8 \\mathrm{~m} / \\mathrm{s}^{2}$\n\\end{tabular} \\\\\n\\hline \\multicolumn{2}{|c|}{\\begin{tabular}{l}\n1 unified atomic mass unit, \\\\\nPlanck's constant, \\\\\nVacuum permittivity,\n$$\n\\begin{aligned}\n1 \\mathrm{u} & =1.66 \\times 10^{-27} \\mathrm{~kg}=931 \\mathrm{MeV} / c^{2} \\\\\nh & =6.63 \\times 10^{-34} \\mathrm{~J} \\cdot \\mathrm{~s}=4.14 \\times 10^{-15} \\mathrm{eV} \\cdot \\mathrm{~s} \\\\\nh c & =1.99 \\times 10^{-25} \\mathrm{~J} \\cdot \\mathrm{~m}=1.24 \\times 10^{3} \\mathrm{eV} \\cdot \\mathrm{~nm} \\\\\n\\varepsilon_{0} & =8.85 \\times 10^{-12} \\mathrm{C}^{2} /\\left(\\mathrm{N} \\cdot \\mathrm{~m}^{2}\\right)\n\\end{aligned}\n$$ \\\\\nCoulomb's law constant,\n$$\nk=1 /\\left(4 \\pi \\varepsilon_{0}\\right)=9.0 \\times 10^{9}\\left(\\mathrm{~N} \\cdot \\mathrm{~m}^{2}\\right) / \\mathrm{C}^{2}\n$$\n$$\n\\mu_{0}=4 \\pi \\times 10^{-7}(\\mathrm{~T} \\cdot \\mathrm{~m}) / \\mathrm{A}\n$$ \\\\\n$1 \\mathrm{~atm}=1.0 \\times 10^{5} \\mathrm{~N} / \\mathrm{m}^{2}=1.0 \\times 10^{5} \\mathrm{~Pa}$\n\\end{tabular}} \\\\\n\\hline\n\\end{tabular}\n\\end{table}\n\n\\begin{tabular}{|l|l|l|l|l|l|l|l|l|}\n\\hline \\multirow{5}{*}{UNIT SYMBOLS} & meter, & m & mole, & mol & watt, & W & farad, & F \\\\\n\\hline & kilogram, & kg & hertz, & Hz & coulomb, & C & tesla, & T \\\\\n\\hline & second, & s & newton, & N & volt, & V & degree Celsius, & ${ }^{\\circ} \\mathrm{C}$ \\\\\n\\hline & ampere, & A & pascal, & Pa & ohm, & $\\Omega$ & electron volt, & eV \\\\\n\\hline & kelvin, & K & joule, & J & henry, & H & & \\\\\n\\hline\n\\end{tabular}\n\n\\begin{tabular}{|c|c|c|}\n\\hline \\multicolumn{3}{|c|}{ PREFIXES } \\\\\n\\hline Factor & Prefix & Symbol \\\\\n\\hline $10^{9}$ & giga & G \\\\\n\\hline $10^{6}$ & mega & M \\\\\n\\hline $10^{3}$ & kilo & k \\\\\n\\hline $10^{-2}$ & centi & c \\\\\n\\hline $10^{-3}$ & milli & m \\\\\n\\hline $10^{-6}$ & micro & $\\mu$ \\\\\n\\hline $10^{-9}$ & nano & n \\\\\n\\hline $10^{-12}$ & pico & p \\\\\n\\hline\n\\end{tabular}\n\n\\begin{tabular}{|l|l|l|l|l|l|l|l|}\n\\hline \\multicolumn{8}{|l|}{VALUES OF TRIGONOMETRIC FUNCTIONS FOR COMMON ANGLES} \\\\\n\\hline $\\theta$ & $0^{\\circ}$ & $30^{\\circ}$ & $37^{\\circ}$ & $45^{\\circ}$ & $53^{\\circ}$ & $60^{\\circ}$ & $90^{\\circ}$ \\\\\n\\hline $\\sin \\theta$ & 0 & 1/2 & 3/5 & $\\sqrt{2} / 2$ & 4/5 & $\\sqrt{3} / 2$ & 1 \\\\\n\\hline $\\cos \\theta$ & 1 & $\\sqrt{3} / 2$ & 4/5 & $\\sqrt{2} / 2$ & 3/5 & 1/2 & 0 \\\\\n\\hline $\\tan \\theta$ & 0 & $\\sqrt{3} / 3$ & 3/4 & 1 & 4/3 & $\\sqrt{3}$ & $\\infty$ \\\\\n\\hline\n\\end{tabular}\n\nThe following assumptions are used in this exam.\nI. The frame of reference of any problem is inertial unless otherwise stated.\nII. The direction of current is the direction in which positive charges would drift.\nIII. The electric potential is zero at an infinite distance from an isolated point charge.\nIV. All batteries and meters are ideal unless otherwise stated.\nV. Edge effects for the electric field of a parallel plate capacitor are negligible unless otherwise stated.\n\n\\section*{MECHANICS}\n$$\n\\begin{aligned}\n& v_{x}=v_{x 0}+a_{x} t \\\\\n& x=x_{0}+v_{x 0} t+\\frac{1}{2} a_{x} t^{2} \\\\\n& v_{x}^{2}=v_{x 0}^{2}+2 a_{x}\\left(x-x_{0}\\right) \\\\\n& \\vec{a}=\\frac{\\sum \\vec{F}}{m}=\\frac{\\vec{F}_{n e t}}{m} \\\\\n& \\vec{F}=\\frac{d \\vec{p}}{d t} \\\\\n& \\vec{J}=\\int \\vec{F} d t=\\Delta \\vec{p} \\\\\n& \\vec{p}=m \\vec{v} \\\\\n& |\\vec{F} f| \\leq \\mu\\left|\\vec{F}_{N}\\right| \\\\\n& \\Delta E=W=\\int \\vec{F} \\bullet d \\vec{r} \\\\\n& K=\\frac{1}{2} m v^{2} \\\\\n& P=\\frac{d E}{d t} \\\\\n& P=\\vec{F} \\cdot \\vec{v} \\\\\n& \\Delta U_{g}=m g \\Delta h \\\\\n& a_{c}=\\frac{v^{2}}{r}=\\omega^{2} r \\\\\n& \\vec{\\tau}=\\vec{r} \\times \\vec{F} \\\\\n& \\vec{\\alpha}=\\frac{\\sum \\vec{\\tau}}{I}=\\frac{\\vec{\\tau}_{n e t}}{I} \\\\\n& I=\\int r^{2} d m=\\sum m r^{2} \\\\\n& x_{c m}=\\frac{\\sum m_{i} x_{i}}{\\sum m_{i}} \\\\\n& v=r \\omega \\\\\n& \\vec{L}=\\vec{r} \\times \\vec{p}=I \\vec{\\omega} \\\\\n& K=\\frac{1}{2} I \\omega^{2} \\\\\n& \\omega=\\omega_{0}+\\alpha t \\\\\n& \\theta=\\theta_{0}+\\omega_{0} t+\\frac{1}{2} \\alpha t^{2}\n\\end{aligned}\n$$\n$T_{S}=2 \\pi \\sqrt{\\frac{m}{k}}$\n$T_{p}=2 \\pi \\sqrt{\\frac{\\ell}{g}}$\n$\\left|\\vec{F}_{G}\\right|=\\frac{G m_{1} m_{2}}{r^{2}}$\n$E=$ energy\n$F=$ force\n$f=$ frequency\n$h=$ height\n$J=$ impulse\n$\\ell=$ length\n$m=$ mass\n$P=$ power\n$T=$ period\n$t=$ time\n$x=$ position\n$\\theta=$ angle\n$\\tau=$ torque\n$\\vec{F}_{S}=-k \\Delta \\vec{x}$\n$U_{S}=\\frac{1}{2} k(\\Delta x)^{2}$\n\n\\section*{ELECTRICITY AND MAGNETISM}\n$$\n\\begin{aligned}\n& \\left|\\vec{F}_{E}\\right|=\\frac{1}{4 \\pi \\varepsilon_{0}}\\left|\\frac{q_{1} q_{2}}{r^{2}}\\right| \\\\\n& \\vec{E}=\\frac{\\vec{F}_{E}}{q} \\\\\n& \\oint \\vec{E} \\cdot d \\vec{A}=\\frac{Q}{\\varepsilon_{0}} \\\\\n& E_{x}=-\\frac{d V}{d x} \\\\\n& \\Delta V=-\\int \\vec{E} \\cdot d \\vec{r} \\\\\n& V=\\frac{1}{4 \\pi \\varepsilon_{0}} \\sum_{i} \\frac{q_{i}}{r_{i}} \\\\\n& U_{E}=q V=\\frac{1}{4 \\pi \\varepsilon_{0}} \\frac{q_{1} q_{2}}{r} \\\\\n& \\Delta V=\\frac{Q}{C} \\\\\n& C=\\frac{\\kappa \\varepsilon_{0} A}{d} \\\\\n& C_{p}=\\sum_{i} C_{i} \\\\\n& \\frac{1}{C_{S}}=\\sum_{i} \\frac{1}{C_{i}} \\\\\n& I=\\frac{d Q}{d t} \\\\\n& U_{C}=\\frac{1}{2} Q \\Delta V=\\frac{1}{2} C(\\Delta V)^{2} \\\\\n& d \\vec{B}=\\frac{\\mu_{0}}{4 \\pi} \\frac{I d \\vec{\\ell} \\times \\hat{r}}{r^{2}} \\\\\n& R=\\frac{\\rho \\ell}{A} \\\\\n& \\vec{F}=\\int I d \\vec{\\ell} \\times \\vec{B} \\\\\n& \\vec{E}=\\rho \\vec{J} \\\\\n& B_{s}=\\mu_{0} n I \\\\\n& I=N e v_{d} A \\\\\n& \\Phi_{B}=\\int \\vec{B} \\cdot d \\vec{A} \\\\\n& I=\\frac{\\Delta V}{R} \\\\\n& \\boldsymbol{\\varepsilon}=\\oint \\vec{E} \\cdot d \\vec{\\ell}=-\\frac{d \\Phi_{B}}{d t} \\\\\n& R_{s}=\\sum_{i} R_{i} \\\\\n& \\frac{1}{R_{p}}=\\sum_{i} \\frac{1}{R_{i}} \\\\\n& A=\\text { area } \\\\\n& B=\\text { magnetic field } \\\\\n& C=\\text { capacitance } \\\\\n& d=\\text { distance } \\\\\n& E=\\text { electric field } \\\\\n& \\boldsymbol{\\varepsilon}=\\mathrm{emf} \\\\\n& F=\\text { force } \\\\\n& I=\\text { current } \\\\\n& J=\\text { current density } \\\\\n& L=\\text { inductance } \\\\\n& \\ell=\\text { length } \\\\\n& n=\\text { number of loops of wire } \\\\\n& \\text { per unit length } \\\\\n& N=\\text { number of charge carriers } \\\\\n& \\text { per unit volume } \\\\\n& P=\\text { power } \\\\\n& Q=\\text { charge } \\\\\n& q=\\text { point charge } \\\\\n& R=\\text { resistance } \\\\\n& r=\\text { radius or distance } \\\\\n& t=\\text { time } \\\\\n& U=\\text { potential or stored energy } \\\\\n& V=\\text { electric potential } \\\\\n& v=\\text { velocity or speed } \\\\\n& \\rho=\\text { resistivity } \\\\\n& \\Phi=\\text { flux } \\\\\n& \\kappa=\\text { dielectric constant } \\\\\n& \\vec{F}_{M}=q \\vec{v} \\times \\vec{B} \\\\\n& \\oint \\vec{B} \\cdot d \\vec{\\ell}=\\mu_{0} I \\\\\n& d \\vec{B}=\\frac{\\mu_{0}}{4 \\pi} \\frac{I d \\vec{\\ell} \\times \\hat{r}}{r^{2}} \\\\\n& P=I \\Delta V \\\\\n& R=\\frac{\\rho}{A} \\\\\n& \\vec{F}=\\int I d \\vec{\\ell} \\times \\vec{B} \\\\\n& \\text { T } \\\\\n& \\text { \" } \\\\\n& \\text { L } \\\\\n& \\text { 墐 } \\\\\n& \\text { T } \\\\\n& I=\\frac{\\Delta V}{R} \\\\\n& \\boldsymbol{\\varepsilon}=\\oint \\vec{E} \\cdot d \\vec{\\ell}=-\\frac{d \\Phi_{B}}{d t} \\\\\n& R_{s}\n\\end{aligned}\n$$\n$U_{G}=-\\frac{G m_{1} m_{2}}{r}$\n$a=$ acceleration\n$I=$ rotational inertia\n$K=$ kinetic energy\n$k=$ spring constant\n$L=$ angular momentum\n$p=$ momentum\n$r=$ radius or distance\n$U=$ potential energy\n$v=$ velocity or speed\n$W=$ work done on a system\n$\\mu=$ coefficient of friction\n$\\omega=$ angular speed\n$\\alpha=$ angular acceleration\n$\\phi=$ phase angle\n$x=x_{\\text {max }} \\cos (\\omega t+\\phi)$\n$$\nT=\\frac{2 \\pi}{\\omega}=\\frac{1}{f}\n$$\n\n\\section*{GEOMETRY AND TRIGONOMETRY}\n\nRectangle\n$$\nA=b h\n$$\n\nTriangle\n$$\nA=\\frac{1}{2} b h\n$$\n\nCircle\n$$\n\\begin{aligned}\n& A=\\pi r^{2} \\\\\n& C=2 \\pi r \\\\\n& s=r \\theta\n\\end{aligned}\n$$$A=$ area\n$C=$ circumference\n$V=$ volume\n$S$ =surface area\n$b=$ base\n$h=$ height\n$\\ell=$ length\n$w=$ width\n$r=$ radius\n$s=$ arc length\n$\\theta=$ angle\n\nRectangular Solid\n$$\nV=\\ell w h\n$$\n\nCylinder\n$$\n\\begin{aligned}\n& V=\\pi r^{2} \\ell \\\\\n& S=2 \\pi r \\ell+2 \\pi r^{2}\n\\end{aligned}\n$$\n\nSphere\n$$\n\\begin{aligned}\nV & =\\frac{4}{3} \\pi r^{3} \\\\\nS & =4 \\pi r^{2}\n\\end{aligned}\n$$\n\nRight Triangle\n$$\n\\begin{aligned}\n& a^{2}+b^{2}=c^{2} \\\\\n& \\sin \\theta=\\frac{a}{c} \\\\\n& \\cos \\theta=\\frac{b}{c} \\\\\n& \\tan \\theta=\\frac{a}{b}\n\\end{aligned}\n$$\n![](https://cdn.mathpix.com/cropped/77e1fbc9-7bb5-4200-b904-aef9dfe53ad9-20.jpg?height=332&width=326&top_left_y=893&top_left_x=704)\n\n\\section*{CALCULUS}\n$\\frac{d f}{d x}=\\frac{d f}{d u} \\frac{d u}{d x}$\n$\\frac{d}{d x}\\left(x^{n}\\right)=n x^{n-1}$\n$\\frac{d}{d x}\\left(e^{a x}\\right)=a e^{a x}$\n$\\frac{d}{d x}(\\ln a x)=\\frac{1}{x}$\n$\\frac{d}{d x}[\\sin (a x)]=a \\cos (a x)$\n$\\frac{d}{d x}[\\cos (a x)]=-a \\sin (a x)$\n$\\int x^{n} d x=\\frac{1}{n+1} x^{n+1}, n \\neq-1$\n$\\int e^{a x} d x=\\frac{1}{a} e^{a x}$\n$\\int \\frac{d x}{x+a}=\\ln |x+a|$\n$\\int \\cos (a x) d x=\\frac{1}{a} \\sin (a x)$\n$\\int \\sin (a x) d x=-\\frac{1}{a} \\cos (a x)$\n\n\\section*{VECTOR PRODUCTS}\n$$\n\\begin{aligned}\n& \\vec{A} \\cdot \\vec{B}=A B \\cos \\theta \\\\\n& |\\vec{A} \\times \\vec{B}|=A B \\sin \\theta\n\\end{aligned}\n$$\n\n\\title{\nPHYSICS C: MECHANICS \\\\ SECTION I \\\\ Time-45 minutes \\\\ 35 Questions\n}\n\nDirections: Each of the questions or incomplete statements below is followed by five suggested answers or completions. Select the one that is best in each case and then fill in the corresponding circle on the answer sheet.\n\nNote: To simplify calculations, you may use $g=10 \\mathrm{~m} / \\mathrm{s}^{2}$ in all problems.</div>"
+              "key": "",
+              "text": "",
+              "html": ""
             }
           ],
           "answer": "",
@@ -53,32 +48,32 @@
         {
           "id": "2",
           "type": "single",
-          "prompt": "<p class=\"stem_paragraph\">1. A plane starts at rest on a straight runway. For the first 30 s , the plane's acceleration $a$ is given as a function of time $t$ by the equation $a=\\beta t^{2}$, where $\\beta=1 / 90 \\mathrm{~m} / \\mathrm{s}^{4}$ and $t$ is in seconds.  What is the plane's speed at $t=30 \\mathrm{~s}$ ?</p>",
+          "prompt": "<p class=\"stem_paragraph\">2. Student 1 is standing on a cart holding a small stone, while student 2 is standing at rest on the ground, as shown in the figure above. The cart is moving at a constant speed $v$ in the $+x$-direction, as indicated by the coordinate system shown. Student 1 drops the stone precisely when passing student 2. Which of the following best represents the path of the falling stone relative to student 1 and the path of the falling stone relative to  \\section*{Student 1}</p>",
           "options": [
             {
-              "key": "A",
-              "text": "<div class=\"choiceTxt\">$10 \\mathrm{~m} / \\mathrm{s}$</div>",
-              "html": "<div class=\"choiceTxt\">$10 \\mathrm{~m} / \\mathrm{s}$</div>"
+              "key": "",
+              "text": "",
+              "html": ""
             },
             {
-              "key": "B",
-              "text": "<div class=\"choiceTxt\">$30 \\mathrm{~m} / \\mathrm{s}$</div>",
-              "html": "<div class=\"choiceTxt\">$30 \\mathrm{~m} / \\mathrm{s}$</div>"
+              "key": "",
+              "text": "",
+              "html": ""
             },
             {
-              "key": "C",
-              "text": "<div class=\"choiceTxt\">$100 \\mathrm{~m} / \\mathrm{s}$</div>",
-              "html": "<div class=\"choiceTxt\">$100 \\mathrm{~m} / \\mathrm{s}$</div>"
+              "key": "",
+              "text": "",
+              "html": ""
             },
             {
-              "key": "D",
-              "text": "<div class=\"choiceTxt\">$150 \\mathrm{~m} / \\mathrm{s}$</div>",
-              "html": "<div class=\"choiceTxt\">$150 \\mathrm{~m} / \\mathrm{s}$</div>"
+              "key": "",
+              "text": "",
+              "html": ""
             },
             {
-              "key": "E",
-              "text": "<div class=\"choiceTxt\">$300 \\mathrm{~m} / \\mathrm{s}$\n![](https://cdn.mathpix.com/cropped/77e1fbc9-7bb5-4200-b904-aef9dfe53ad9-22.jpg?height=423&width=728&top_left_y=163&top_left_x=222)</div>",
-              "html": "<div class=\"choiceTxt\">$300 \\mathrm{~m} / \\mathrm{s}$\n![](https://cdn.mathpix.com/cropped/77e1fbc9-7bb5-4200-b904-aef9dfe53ad9-22.jpg?height=423&width=728&top_left_y=163&top_left_x=222)</div>"
+              "key": "",
+              "text": "",
+              "html": ""
             }
           ],
           "answer": "",
@@ -87,32 +82,32 @@
         {
           "id": "3",
           "type": "single",
-          "prompt": "<p class=\"stem_paragraph\">2. Student 1 is standing on a cart holding a small stone, while student 2 is standing at rest on the ground, as shown in the figure above. The cart is moving at a constant speed $v$ in the $+x$-direction, as indicated by the coordinate system shown. Student 1 drops the stone precisely when passing student 2. Which of the following best represents the path of the falling stone relative to student 1 and the path of the falling stone relative to  \\section*{Student 1}</p>",
+          "prompt": "<p class=\"stem_paragraph\">3. A particle of mass 2.0 kg is moving in the $x y$-plane at a constant speed of $0.80 \\mathrm{~m} / \\mathrm{s}$ in the $+x$-direction along the line $y=4 \\mathrm{~m}$. As the particle travels from $x=-3 \\mathrm{~m}$ to $x=+3 \\mathrm{~m}$, the magnitude of its angular momentum with respect to the origin is</p>",
           "options": [
             {
-              "key": "A",
-              "text": "<div class=\"choiceTxt\">![](https://cdn.mathpix.com/cropped/77e1fbc9-7bb5-4200-b904-aef9dfe53ad9-22.jpg?height=196&width=209&top_left_y=1138&top_left_x=289)</div>",
-              "html": "<div class=\"choiceTxt\">![](https://cdn.mathpix.com/cropped/77e1fbc9-7bb5-4200-b904-aef9dfe53ad9-22.jpg?height=196&width=209&top_left_y=1138&top_left_x=289)</div>"
+              "key": "",
+              "text": "",
+              "html": ""
             },
             {
-              "key": "B",
-              "text": "<div class=\"choiceTxt\">![](https://cdn.mathpix.com/cropped/77e1fbc9-7bb5-4200-b904-aef9dfe53ad9-22.jpg?height=192&width=209&top_left_y=1402&top_left_x=289)</div>",
-              "html": "<div class=\"choiceTxt\">![](https://cdn.mathpix.com/cropped/77e1fbc9-7bb5-4200-b904-aef9dfe53ad9-22.jpg?height=192&width=209&top_left_y=1402&top_left_x=289)</div>"
+              "key": "",
+              "text": "",
+              "html": ""
             },
             {
-              "key": "C",
-              "text": "<div class=\"choiceTxt\">![](https://cdn.mathpix.com/cropped/77e1fbc9-7bb5-4200-b904-aef9dfe53ad9-22.jpg?height=192&width=209&top_left_y=1667&top_left_x=289)</div>",
-              "html": "<div class=\"choiceTxt\">![](https://cdn.mathpix.com/cropped/77e1fbc9-7bb5-4200-b904-aef9dfe53ad9-22.jpg?height=192&width=209&top_left_y=1667&top_left_x=289)</div>"
+              "key": "",
+              "text": "",
+              "html": ""
             },
             {
-              "key": "D",
-              "text": "<div class=\"choiceTxt\">![](https://cdn.mathpix.com/cropped/77e1fbc9-7bb5-4200-b904-aef9dfe53ad9-22.jpg?height=197&width=209&top_left_y=1927&top_left_x=289)</div>",
-              "html": "<div class=\"choiceTxt\">![](https://cdn.mathpix.com/cropped/77e1fbc9-7bb5-4200-b904-aef9dfe53ad9-22.jpg?height=197&width=209&top_left_y=1927&top_left_x=289)</div>"
+              "key": "",
+              "text": "",
+              "html": ""
             },
             {
-              "key": "E",
-              "text": "<div class=\"choiceTxt\">![](https://cdn.mathpix.com/cropped/77e1fbc9-7bb5-4200-b904-aef9dfe53ad9-22.jpg?height=192&width=207&top_left_y=2175&top_left_x=289)\nstudent 2 ?\n\n\\section*{Student 2}\n![](https://cdn.mathpix.com/cropped/77e1fbc9-7bb5-4200-b904-aef9dfe53ad9-22.jpg?height=188&width=205&top_left_y=1142&top_left_x=659)\n![](https://cdn.mathpix.com/cropped/77e1fbc9-7bb5-4200-b904-aef9dfe53ad9-22.jpg?height=187&width=205&top_left_y=1407&top_left_x=659)\n![](https://cdn.mathpix.com/cropped/77e1fbc9-7bb5-4200-b904-aef9dfe53ad9-22.jpg?height=188&width=205&top_left_y=1671&top_left_x=659)\n![](https://cdn.mathpix.com/cropped/77e1fbc9-7bb5-4200-b904-aef9dfe53ad9-22.jpg?height=192&width=205&top_left_y=1932&top_left_x=659)\n![](https://cdn.mathpix.com/cropped/77e1fbc9-7bb5-4200-b904-aef9dfe53ad9-22.jpg?height=190&width=205&top_left_y=2175&top_left_x=659)</div>",
-              "html": "<div class=\"choiceTxt\">![](https://cdn.mathpix.com/cropped/77e1fbc9-7bb5-4200-b904-aef9dfe53ad9-22.jpg?height=192&width=207&top_left_y=2175&top_left_x=289)\nstudent 2 ?\n\n\\section*{Student 2}\n![](https://cdn.mathpix.com/cropped/77e1fbc9-7bb5-4200-b904-aef9dfe53ad9-22.jpg?height=188&width=205&top_left_y=1142&top_left_x=659)\n![](https://cdn.mathpix.com/cropped/77e1fbc9-7bb5-4200-b904-aef9dfe53ad9-22.jpg?height=187&width=205&top_left_y=1407&top_left_x=659)\n![](https://cdn.mathpix.com/cropped/77e1fbc9-7bb5-4200-b904-aef9dfe53ad9-22.jpg?height=188&width=205&top_left_y=1671&top_left_x=659)\n![](https://cdn.mathpix.com/cropped/77e1fbc9-7bb5-4200-b904-aef9dfe53ad9-22.jpg?height=192&width=205&top_left_y=1932&top_left_x=659)\n![](https://cdn.mathpix.com/cropped/77e1fbc9-7bb5-4200-b904-aef9dfe53ad9-22.jpg?height=190&width=205&top_left_y=2175&top_left_x=659)</div>"
+              "key": "",
+              "text": "",
+              "html": ""
             }
           ],
           "answer": "",
@@ -121,32 +116,32 @@
         {
           "id": "4",
           "type": "single",
-          "prompt": "<p class=\"stem_paragraph\">3. A particle of mass 2.0 kg is moving in the $x y$-plane at a constant speed of $0.80 \\mathrm{~m} / \\mathrm{s}$ in the $+x$-direction along the line $y=4 \\mathrm{~m}$. As the particle travels from $x=-3 \\mathrm{~m}$ to $x=+3 \\mathrm{~m}$, the magnitude of its angular momentum with respect to the origin is</p>",
+          "prompt": "<p class=\"stem_paragraph\">4. Suppose that a spherical star spinning at an initial angular velocity $\\omega$ suddenly collapses to half of its original radius without any loss of mass. Assume the star has uniform density before and after the collapse. What will the angular velocity of the star be after the collapse?</p>",
           "options": [
             {
-              "key": "A",
-              "text": "<div class=\"choiceTxt\">not constant</div>",
-              "html": "<div class=\"choiceTxt\">not constant</div>"
+              "key": "",
+              "text": "",
+              "html": ""
             },
             {
-              "key": "B",
-              "text": "<div class=\"choiceTxt\">0</div>",
-              "html": "<div class=\"choiceTxt\">0</div>"
+              "key": "",
+              "text": "",
+              "html": ""
             },
             {
-              "key": "C",
-              "text": "<div class=\"choiceTxt\">$4.8 \\mathrm{~kg} \\cdot \\mathrm{~m}^{2} / \\mathrm{s}$</div>",
-              "html": "<div class=\"choiceTxt\">$4.8 \\mathrm{~kg} \\cdot \\mathrm{~m}^{2} / \\mathrm{s}$</div>"
+              "key": "",
+              "text": "",
+              "html": ""
             },
             {
-              "key": "D",
-              "text": "<div class=\"choiceTxt\">$6.4 \\mathrm{~kg} \\cdot \\mathrm{~m}^{2} / \\mathrm{s}$</div>",
-              "html": "<div class=\"choiceTxt\">$6.4 \\mathrm{~kg} \\cdot \\mathrm{~m}^{2} / \\mathrm{s}$</div>"
+              "key": "",
+              "text": "",
+              "html": ""
             },
             {
-              "key": "E",
-              "text": "<div class=\"choiceTxt\">$8.0 \\mathrm{~kg} \\cdot \\mathrm{~m}^{2} / \\mathrm{s}$</div>",
-              "html": "<div class=\"choiceTxt\">$8.0 \\mathrm{~kg} \\cdot \\mathrm{~m}^{2} / \\mathrm{s}$</div>"
+              "key": "",
+              "text": "",
+              "html": ""
             }
           ],
           "answer": "",
@@ -155,32 +150,32 @@
         {
           "id": "5",
           "type": "single",
-          "prompt": "<p class=\"stem_paragraph\">4. Suppose that a spherical star spinning at an initial angular velocity $\\omega$ suddenly collapses to half of its original radius without any loss of mass. Assume the star has uniform density before and after the collapse. What will the angular velocity of the star be after the collapse?</p>",
+          "prompt": "<p class=\"stem_paragraph\">5. Two identical, unlabeled boxes are transported to an orbiting space station. The astronauts know that one box is filled with a light sample of ants for an experiment, and the other is filled with heavy tools for repairs. How can the astronauts tell, without opening the boxes, which box has the tools?</p>",
           "options": [
             {
-              "key": "A",
-              "text": "<div class=\"choiceTxt\">$\\omega / 4$</div>",
-              "html": "<div class=\"choiceTxt\">$\\omega / 4$</div>"
+              "key": "",
+              "text": "",
+              "html": ""
             },
             {
-              "key": "B",
-              "text": "<div class=\"choiceTxt\">$\\omega / 2$</div>",
-              "html": "<div class=\"choiceTxt\">$\\omega / 2$</div>"
+              "key": "",
+              "text": "",
+              "html": ""
             },
             {
-              "key": "C",
-              "text": "<div class=\"choiceTxt\">$\\omega$</div>",
-              "html": "<div class=\"choiceTxt\">$\\omega$</div>"
+              "key": "",
+              "text": "",
+              "html": ""
             },
             {
-              "key": "D",
-              "text": "<div class=\"choiceTxt\">$2 \\omega$</div>",
-              "html": "<div class=\"choiceTxt\">$2 \\omega$</div>"
+              "key": "",
+              "text": "",
+              "html": ""
             },
             {
-              "key": "E",
-              "text": "<div class=\"choiceTxt\">$4 \\omega$</div>",
-              "html": "<div class=\"choiceTxt\">$4 \\omega$</div>"
+              "key": "",
+              "text": "",
+              "html": ""
             }
           ],
           "answer": "",
@@ -189,32 +184,32 @@
         {
           "id": "6",
           "type": "single",
-          "prompt": "<p class=\"stem_paragraph\">5. Two identical, unlabeled boxes are transported to an orbiting space station. The astronauts know that one box is filled with a light sample of ants for an experiment, and the other is filled with heavy tools for repairs. How can the astronauts tell, without opening the boxes, which box has the tools?</p>",
+          "prompt": "<p class=\"stem_paragraph\">8. A ball of mass $m$ is dropped from rest from a height $h$ and collides elastically with the floor, rebounding to its original height. What is the magnitude of the average force applied by the floor on the ball during the time the ball is in contact with the floor?</p>",
           "options": [
             {
-              "key": "A",
-              "text": "<div class=\"choiceTxt\">Weigh each box on a spring scale. The box with the tools will have a higher reading.</div>",
-              "html": "<div class=\"choiceTxt\">Weigh each box on a spring scale. The box with the tools will have a higher reading.</div>"
+              "key": "",
+              "text": "",
+              "html": ""
             },
             {
-              "key": "B",
-              "text": "<div class=\"choiceTxt\">Shake each box. The box with the tools will be harder to move back and forth.</div>",
-              "html": "<div class=\"choiceTxt\">Shake each box. The box with the tools will be harder to move back and forth.</div>"
+              "key": "",
+              "text": "",
+              "html": ""
             },
             {
-              "key": "C",
-              "text": "<div class=\"choiceTxt\">Push each box. The box with the tools will travel farther before it stops.</div>",
-              "html": "<div class=\"choiceTxt\">Push each box. The box with the tools will travel farther before it stops.</div>"
+              "key": "",
+              "text": "",
+              "html": ""
             },
             {
-              "key": "D",
-              "text": "<div class=\"choiceTxt\">Place each box on opposite sides of a balance. The box on the side that goes down lower will be the box with the tools.</div>",
-              "html": "<div class=\"choiceTxt\">Place each box on opposite sides of a balance. The box on the side that goes down lower will be the box with the tools.</div>"
+              "key": "",
+              "text": "",
+              "html": ""
             },
             {
-              "key": "E",
-              "text": "<div class=\"choiceTxt\">Toss each box straight up. The box with the tools will go higher before coming back down.\n![](https://cdn.mathpix.com/cropped/77e1fbc9-7bb5-4200-b904-aef9dfe53ad9-23.jpg?height=379&width=618&top_left_y=151&top_left_x=275)</div>",
-              "html": "<div class=\"choiceTxt\">Toss each box straight up. The box with the tools will go higher before coming back down.\n![](https://cdn.mathpix.com/cropped/77e1fbc9-7bb5-4200-b904-aef9dfe53ad9-23.jpg?height=379&width=618&top_left_y=151&top_left_x=275)</div>"
+              "key": "",
+              "text": "",
+              "html": ""
             }
           ],
           "answer": "",
@@ -223,57 +218,32 @@
         {
           "id": "7",
           "type": "single",
-          "prompt": "<p class=\"stem_paragraph\">6. A block of mass $M_{1}$ is connected by a string to a sphere of mass $M_{2}$. The block is on a frictionless plane inclined at an angle of $30^{\\circ}$, as shown in the figure above. The string passes over a pulley of negligible mass and friction, and the sphere hangs freely. Which of the following is always true if the block is accelerating down the incline?</p>",
+          "prompt": "<p class=\"stem_paragraph\">9. At time $t=T_{1}$, particle $A$ is observed to be traveling with speed $2 v_{0} / 3$ to the left. The speed and direction of motion of particle $B$ is</p>",
           "options": [
             {
-              "key": "A",
-              "text": "<div class=\"choiceTxt\">$M_{1}<M_{2}$</div>",
-              "html": "<div class=\"choiceTxt\">$M_{1}<M_{2}$</div>"
+              "key": "",
+              "text": "",
+              "html": ""
             },
             {
-              "key": "B",
-              "text": "<div class=\"choiceTxt\">$M_{1}=M_{2}$</div>",
-              "html": "<div class=\"choiceTxt\">$M_{1}=M_{2}$</div>"
+              "key": "",
+              "text": "",
+              "html": ""
             },
             {
-              "key": "C",
-              "text": "<div class=\"choiceTxt\">$M_{1}<M_{2}\\left(\\sin 30^{\\circ}\\right)$</div>",
-              "html": "<div class=\"choiceTxt\">$M_{1}<M_{2}\\left(\\sin 30^{\\circ}\\right)$</div>"
+              "key": "",
+              "text": "",
+              "html": ""
             },
             {
-              "key": "D",
-              "text": "<div class=\"choiceTxt\">$M_{1}\\left(\\sin 30^{\\circ}\\right)<M_{2}$</div>",
-              "html": "<div class=\"choiceTxt\">$M_{1}\\left(\\sin 30^{\\circ}\\right)<M_{2}$</div>"
+              "key": "",
+              "text": "",
+              "html": ""
             },
             {
-              "key": "E",
-              "text": "<div class=\"choiceTxt\">$M_{1}\\left(\\sin 30^{\\circ}\\right)>M_{2}$\n\nKinetic energy</div>",
-              "html": "<div class=\"choiceTxt\">$M_{1}\\left(\\sin 30^{\\circ}\\right)>M_{2}$\n\nKinetic energy</div>"
-            },
-            {
-              "key": "A",
-              "text": "<div class=\"choiceTxt\">Increases</div>",
-              "html": "<div class=\"choiceTxt\">Increases</div>"
-            },
-            {
-              "key": "B",
-              "text": "<div class=\"choiceTxt\">Increases</div>",
-              "html": "<div class=\"choiceTxt\">Increases</div>"
-            },
-            {
-              "key": "C",
-              "text": "<div class=\"choiceTxt\">Increases</div>",
-              "html": "<div class=\"choiceTxt\">Increases</div>"
-            },
-            {
-              "key": "D",
-              "text": "<div class=\"choiceTxt\">Stays the same</div>",
-              "html": "<div class=\"choiceTxt\">Stays the same</div>"
-            },
-            {
-              "key": "E",
-              "text": "<div class=\"choiceTxt\">Stays the same\n\n\\begin{figure}\n\\includegraphics[alt={},max width=\\textwidth]{https://cdn.mathpix.com/cropped/77e1fbc9-7bb5-4200-b904-aef9dfe53ad9-23.jpg?height=134&width=619&top_left_y=146&top_left_x=1232}\n\\captionsetup{labelformat=empty}\n\\caption{Figure 1}\n\\end{figure}\n\n\\begin{figure}\n\\includegraphics[alt={},max width=\\textwidth]{https://cdn.mathpix.com/cropped/77e1fbc9-7bb5-4200-b904-aef9dfe53ad9-23.jpg?height=129&width=617&top_left_y=432&top_left_x=1234}\n\\captionsetup{labelformat=empty}\n\\caption{Figure 2}\n\\end{figure}</div>",
-              "html": "<div class=\"choiceTxt\">Stays the same\n\n\\begin{figure}\n\\includegraphics[alt={},max width=\\textwidth]{https://cdn.mathpix.com/cropped/77e1fbc9-7bb5-4200-b904-aef9dfe53ad9-23.jpg?height=134&width=619&top_left_y=146&top_left_x=1232}\n\\captionsetup{labelformat=empty}\n\\caption{Figure 1}\n\\end{figure}\n\n\\begin{figure}\n\\includegraphics[alt={},max width=\\textwidth]{https://cdn.mathpix.com/cropped/77e1fbc9-7bb5-4200-b904-aef9dfe53ad9-23.jpg?height=129&width=617&top_left_y=432&top_left_x=1234}\n\\captionsetup{labelformat=empty}\n\\caption{Figure 2}\n\\end{figure}</div>"
+              "key": "",
+              "text": "",
+              "html": ""
             }
           ],
           "answer": "",
@@ -282,32 +252,32 @@
         {
           "id": "8",
           "type": "single",
-          "prompt": "<p class=\"stem_paragraph\">8. A ball of mass $m$ is dropped from rest from a height $h$ and collides elastically with the floor, rebounding to its original height. What is the magnitude of the average force applied by the floor on the ball during the time the ball is in contact with the floor?</p>",
+          "prompt": "<p class=\"stem_paragraph\">11. A 2 kg object is released from rest from a height of 3 m above Earth's surface. How much kinetic energy does the object have when it reaches a height of 1 m ?</p>",
           "options": [
             {
-              "key": "A",
-              "text": "<div class=\"choiceTxt\">Zero</div>",
-              "html": "<div class=\"choiceTxt\">Zero</div>"
+              "key": "",
+              "text": "",
+              "html": ""
             },
             {
-              "key": "B",
-              "text": "<div class=\"choiceTxt\">$m g$</div>",
-              "html": "<div class=\"choiceTxt\">$m g$</div>"
+              "key": "",
+              "text": "",
+              "html": ""
             },
             {
-              "key": "C",
-              "text": "<div class=\"choiceTxt\">$2 m g$</div>",
-              "html": "<div class=\"choiceTxt\">$2 m g$</div>"
+              "key": "",
+              "text": "",
+              "html": ""
             },
             {
-              "key": "D",
-              "text": "<div class=\"choiceTxt\">$4 m g$</div>",
-              "html": "<div class=\"choiceTxt\">$4 m g$</div>"
+              "key": "",
+              "text": "",
+              "html": ""
             },
             {
-              "key": "E",
-              "text": "<div class=\"choiceTxt\">It cannot be determined without knowing the length of time that the ball is in contact with the floor.\n\n\\section*{Questions 9-10}\n![](https://cdn.mathpix.com/cropped/77e1fbc9-7bb5-4200-b904-aef9dfe53ad9-24.jpg?height=171&width=608&top_left_y=239&top_left_x=279)\n\nParticle $A$ and particle $B$, each of mass $M$, move along the $x$-axis exerting a force on each other. The potential energy of the system of two particles associated with the force is given by the equation $U=\\beta / r^{2}$, where $r$ is the distance between the two particles and $\\beta$ is a positive constant. At time $t=0$, particle $A$ is located at $x=2 D$ with an initial speed of $v_{0}$ to the left, and particle $B$ is at rest at the origin, as shown in the figure above.</div>",
-              "html": "<div class=\"choiceTxt\">It cannot be determined without knowing the length of time that the ball is in contact with the floor.\n\n\\section*{Questions 9-10}\n![](https://cdn.mathpix.com/cropped/77e1fbc9-7bb5-4200-b904-aef9dfe53ad9-24.jpg?height=171&width=608&top_left_y=239&top_left_x=279)\n\nParticle $A$ and particle $B$, each of mass $M$, move along the $x$-axis exerting a force on each other. The potential energy of the system of two particles associated with the force is given by the equation $U=\\beta / r^{2}$, where $r$ is the distance between the two particles and $\\beta$ is a positive constant. At time $t=0$, particle $A$ is located at $x=2 D$ with an initial speed of $v_{0}$ to the left, and particle $B$ is at rest at the origin, as shown in the figure above.</div>"
+              "key": "",
+              "text": "",
+              "html": ""
             }
           ],
           "answer": "",
@@ -316,32 +286,32 @@
         {
           "id": "9",
           "type": "single",
-          "prompt": "<p class=\"stem_paragraph\">9. At time $t=T_{1}$, particle $A$ is observed to be traveling with speed $2 v_{0} / 3$ to the left. The speed and direction of motion of particle $B$ is</p>",
+          "prompt": "<p class=\"stem_paragraph\">12. A sphere of mass $m$ hangs from two strings that each make an angle of $30^{\\circ}$ with the horizontal, as shown in the figure above. What is the tension $T$ in one of the strings?</p>",
           "options": [
             {
-              "key": "A",
-              "text": "<div class=\"choiceTxt\">$2 v_{0} / 3$ to the left</div>",
-              "html": "<div class=\"choiceTxt\">$2 v_{0} / 3$ to the left</div>"
+              "key": "",
+              "text": "",
+              "html": ""
             },
             {
-              "key": "B",
-              "text": "<div class=\"choiceTxt\">$v_{0} / 3$ to the left</div>",
-              "html": "<div class=\"choiceTxt\">$v_{0} / 3$ to the left</div>"
+              "key": "",
+              "text": "",
+              "html": ""
             },
             {
-              "key": "C",
-              "text": "<div class=\"choiceTxt\">$v_{0} / 3$ to the right</div>",
-              "html": "<div class=\"choiceTxt\">$v_{0} / 3$ to the right</div>"
+              "key": "",
+              "text": "",
+              "html": ""
             },
             {
-              "key": "D",
-              "text": "<div class=\"choiceTxt\">$2 v_{0} / 3$ to the right</div>",
-              "html": "<div class=\"choiceTxt\">$2 v_{0} / 3$ to the right</div>"
+              "key": "",
+              "text": "",
+              "html": ""
             },
             {
-              "key": "E",
-              "text": "<div class=\"choiceTxt\">$5 v_{0} / 3$ to the right</div>",
-              "html": "<div class=\"choiceTxt\">$5 v_{0} / 3$ to the right</div>"
+              "key": "",
+              "text": "",
+              "html": ""
             }
           ],
           "answer": "",
@@ -350,32 +320,32 @@
         {
           "id": "10",
           "type": "single",
-          "prompt": "<p class=\"stem_paragraph\">11. A 2 kg object is released from rest from a height of 3 m above Earth's surface. How much kinetic energy does the object have when it reaches a height of 1 m ?</p>",
+          "prompt": "<p class=\"stem_paragraph\">13. A skier is traveling down a slope that is inclined $30^{\\circ}$ above the horizontal. The coefficient of kinetic friction between the skier and the slope is 0.10 . Which of the following best describes the acceleration of the skier?</p>",
           "options": [
             {
-              "key": "A",
-              "text": "<div class=\"choiceTxt\">2.5 J</div>",
-              "html": "<div class=\"choiceTxt\">2.5 J</div>"
+              "key": "",
+              "text": "",
+              "html": ""
             },
             {
-              "key": "B",
-              "text": "<div class=\"choiceTxt\">10 J</div>",
-              "html": "<div class=\"choiceTxt\">10 J</div>"
+              "key": "",
+              "text": "",
+              "html": ""
             },
             {
-              "key": "C",
-              "text": "<div class=\"choiceTxt\">20 J</div>",
-              "html": "<div class=\"choiceTxt\">20 J</div>"
+              "key": "",
+              "text": "",
+              "html": ""
             },
             {
-              "key": "D",
-              "text": "<div class=\"choiceTxt\">30 J</div>",
-              "html": "<div class=\"choiceTxt\">30 J</div>"
+              "key": "",
+              "text": "",
+              "html": ""
             },
             {
-              "key": "E",
-              "text": "<div class=\"choiceTxt\">40 J\n![](https://cdn.mathpix.com/cropped/77e1fbc9-7bb5-4200-b904-aef9dfe53ad9-24.jpg?height=175&width=567&top_left_y=642&top_left_x=1260)</div>",
-              "html": "<div class=\"choiceTxt\">40 J\n![](https://cdn.mathpix.com/cropped/77e1fbc9-7bb5-4200-b904-aef9dfe53ad9-24.jpg?height=175&width=567&top_left_y=642&top_left_x=1260)</div>"
+              "key": "",
+              "text": "",
+              "html": ""
             }
           ],
           "answer": "",
@@ -384,32 +354,32 @@
         {
           "id": "11",
           "type": "single",
-          "prompt": "<p class=\"stem_paragraph\">12. A sphere of mass $m$ hangs from two strings that each make an angle of $30^{\\circ}$ with the horizontal, as shown in the figure above. What is the tension $T$ in one of the strings?</p>",
+          "prompt": "<p class=\"stem_paragraph\">14. What is the ball's acceleration at time $t=1 \\mathrm{~s}$ ?</p>",
           "options": [
             {
-              "key": "A",
-              "text": "<div class=\"choiceTxt\">$m g / 6$</div>",
-              "html": "<div class=\"choiceTxt\">$m g / 6$</div>"
+              "key": "",
+              "text": "",
+              "html": ""
             },
             {
-              "key": "B",
-              "text": "<div class=\"choiceTxt\">$m g / 4$</div>",
-              "html": "<div class=\"choiceTxt\">$m g / 4$</div>"
+              "key": "",
+              "text": "",
+              "html": ""
             },
             {
-              "key": "C",
-              "text": "<div class=\"choiceTxt\">$m g / 2$</div>",
-              "html": "<div class=\"choiceTxt\">$m g / 2$</div>"
+              "key": "",
+              "text": "",
+              "html": ""
             },
             {
-              "key": "D",
-              "text": "<div class=\"choiceTxt\">$m g$</div>",
-              "html": "<div class=\"choiceTxt\">$m g$</div>"
+              "key": "",
+              "text": "",
+              "html": ""
             },
             {
-              "key": "E",
-              "text": "<div class=\"choiceTxt\">$3 m g / 2$</div>",
-              "html": "<div class=\"choiceTxt\">$3 m g / 2$</div>"
+              "key": "",
+              "text": "",
+              "html": ""
             }
           ],
           "answer": "",
@@ -418,32 +388,32 @@
         {
           "id": "12",
           "type": "single",
-          "prompt": "<p class=\"stem_paragraph\">13. A skier is traveling down a slope that is inclined $30^{\\circ}$ above the horizontal. The coefficient of kinetic friction between the skier and the slope is 0.10 . Which of the following best describes the acceleration of the skier?</p>",
+          "prompt": "<p class=\"stem_paragraph\">15. At what time does the ball reach its maximum height above the building?</p>",
           "options": [
             {
-              "key": "A",
-              "text": "<div class=\"choiceTxt\">It is zero.</div>",
-              "html": "<div class=\"choiceTxt\">It is zero.</div>"
+              "key": "",
+              "text": "",
+              "html": ""
             },
             {
-              "key": "B",
-              "text": "<div class=\"choiceTxt\">It is about $4.0 \\mathrm{~m} / \\mathrm{s}^{2}$.</div>",
-              "html": "<div class=\"choiceTxt\">It is about $4.0 \\mathrm{~m} / \\mathrm{s}^{2}$.</div>"
+              "key": "",
+              "text": "",
+              "html": ""
             },
             {
-              "key": "C",
-              "text": "<div class=\"choiceTxt\">It is about $9.0 \\mathrm{~m} / \\mathrm{s}^{2}$.</div>",
-              "html": "<div class=\"choiceTxt\">It is about $9.0 \\mathrm{~m} / \\mathrm{s}^{2}$.</div>"
+              "key": "",
+              "text": "",
+              "html": ""
             },
             {
-              "key": "D",
-              "text": "<div class=\"choiceTxt\">It is about $10 \\mathrm{~m} / \\mathrm{s}^{2}$.</div>",
-              "html": "<div class=\"choiceTxt\">It is about $10 \\mathrm{~m} / \\mathrm{s}^{2}$.</div>"
+              "key": "",
+              "text": "",
+              "html": ""
             },
             {
-              "key": "E",
-              "text": "<div class=\"choiceTxt\">It cannot be determined without knowing the mass of the skier.\n\n\\section*{Questions 14-16}\n\nA ball of mass 2.0 kg is thrown vertically upward from the top of a building. The ball's velocity $v$ is given as a function of time $t$ by the equation $v(t)=R-S t$, where $R=5 \\mathrm{~m} / \\mathrm{s}$ and $S=10 \\mathrm{~m} / \\mathrm{s}^{2}$. The positive direction is upward.</div>",
-              "html": "<div class=\"choiceTxt\">It cannot be determined without knowing the mass of the skier.\n\n\\section*{Questions 14-16}\n\nA ball of mass 2.0 kg is thrown vertically upward from the top of a building. The ball's velocity $v$ is given as a function of time $t$ by the equation $v(t)=R-S t$, where $R=5 \\mathrm{~m} / \\mathrm{s}$ and $S=10 \\mathrm{~m} / \\mathrm{s}^{2}$. The positive direction is upward.</div>"
+              "key": "",
+              "text": "",
+              "html": ""
             }
           ],
           "answer": "",
@@ -452,32 +422,32 @@
         {
           "id": "13",
           "type": "single",
-          "prompt": "<p class=\"stem_paragraph\">14. What is the ball's acceleration at time $t=1 \\mathrm{~s}$ ?</p>",
+          "prompt": "<p class=\"stem_paragraph\">16. If the ball reaches the ground at $t=2.0 \\mathrm{~s}$, what is the height of the building?</p>",
           "options": [
             {
-              "key": "A",
-              "text": "<div class=\"choiceTxt\">$-10 \\mathrm{~m} / \\mathrm{s}^{2}$</div>",
-              "html": "<div class=\"choiceTxt\">$-10 \\mathrm{~m} / \\mathrm{s}^{2}$</div>"
+              "key": "",
+              "text": "",
+              "html": ""
             },
             {
-              "key": "B",
-              "text": "<div class=\"choiceTxt\">$-5 \\mathrm{~m} / \\mathrm{s}^{2}$</div>",
-              "html": "<div class=\"choiceTxt\">$-5 \\mathrm{~m} / \\mathrm{s}^{2}$</div>"
+              "key": "",
+              "text": "",
+              "html": ""
             },
             {
-              "key": "C",
-              "text": "<div class=\"choiceTxt\">0</div>",
-              "html": "<div class=\"choiceTxt\">0</div>"
+              "key": "",
+              "text": "",
+              "html": ""
             },
             {
-              "key": "D",
-              "text": "<div class=\"choiceTxt\">$5 \\mathrm{~m} / \\mathrm{s}^{2}$</div>",
-              "html": "<div class=\"choiceTxt\">$5 \\mathrm{~m} / \\mathrm{s}^{2}$</div>"
+              "key": "",
+              "text": "",
+              "html": ""
             },
             {
-              "key": "E",
-              "text": "<div class=\"choiceTxt\">$10 \\mathrm{~m} / \\mathrm{s}^{2}$</div>",
-              "html": "<div class=\"choiceTxt\">$10 \\mathrm{~m} / \\mathrm{s}^{2}$</div>"
+              "key": "",
+              "text": "",
+              "html": ""
             }
           ],
           "answer": "",
@@ -486,32 +456,32 @@
         {
           "id": "14",
           "type": "single",
-          "prompt": "<p class=\"stem_paragraph\">15. At what time does the ball reach its maximum height above the building?</p>",
+          "prompt": "<p class=\"stem_paragraph\">17. Which of the following properties of the two-disk system must be conserved between the time the second disk is dropped on the first disk and the time that the two disks begin rotating with the same speed?</p>",
           "options": [
             {
-              "key": "A",
-              "text": "<div class=\"choiceTxt\">0.2 s</div>",
-              "html": "<div class=\"choiceTxt\">0.2 s</div>"
+              "key": "",
+              "text": "",
+              "html": ""
             },
             {
-              "key": "B",
-              "text": "<div class=\"choiceTxt\">0.4 s</div>",
-              "html": "<div class=\"choiceTxt\">0.4 s</div>"
+              "key": "",
+              "text": "",
+              "html": ""
             },
             {
-              "key": "C",
-              "text": "<div class=\"choiceTxt\">0.5 s</div>",
-              "html": "<div class=\"choiceTxt\">0.5 s</div>"
+              "key": "",
+              "text": "",
+              "html": ""
             },
             {
-              "key": "D",
-              "text": "<div class=\"choiceTxt\">1.0 s</div>",
-              "html": "<div class=\"choiceTxt\">1.0 s</div>"
+              "key": "",
+              "text": "",
+              "html": ""
             },
             {
-              "key": "E",
-              "text": "<div class=\"choiceTxt\">2.0 s</div>",
-              "html": "<div class=\"choiceTxt\">2.0 s</div>"
+              "key": "",
+              "text": "",
+              "html": ""
             }
           ],
           "answer": "",
@@ -520,32 +490,32 @@
         {
           "id": "15",
           "type": "single",
-          "prompt": "<p class=\"stem_paragraph\">16. If the ball reaches the ground at $t=2.0 \\mathrm{~s}$, what is the height of the building?</p>",
+          "prompt": "<p class=\"stem_paragraph\">18. The interval of time $\\Delta t$ is the elapsed time from the moment of first contact between the two disks until they are both spinning at the same angular velocity. Which of the following expressions gives the magnitude of the average torque that the first disk exerts on the second disk?</p>",
           "options": [
             {
-              "key": "A",
-              "text": "<div class=\"choiceTxt\">5 m</div>",
-              "html": "<div class=\"choiceTxt\">5 m</div>"
+              "key": "",
+              "text": "",
+              "html": ""
             },
             {
-              "key": "B",
-              "text": "<div class=\"choiceTxt\">10 m</div>",
-              "html": "<div class=\"choiceTxt\">10 m</div>"
+              "key": "",
+              "text": "",
+              "html": ""
             },
             {
-              "key": "C",
-              "text": "<div class=\"choiceTxt\">15 m</div>",
-              "html": "<div class=\"choiceTxt\">15 m</div>"
+              "key": "",
+              "text": "",
+              "html": ""
             },
             {
-              "key": "D",
-              "text": "<div class=\"choiceTxt\">20 m</div>",
-              "html": "<div class=\"choiceTxt\">20 m</div>"
+              "key": "",
+              "text": "",
+              "html": ""
             },
             {
-              "key": "E",
-              "text": "<div class=\"choiceTxt\">30 m\n\n\\section*{Questions 17-19}\n![](https://cdn.mathpix.com/cropped/77e1fbc9-7bb5-4200-b904-aef9dfe53ad9-26.jpg?height=444&width=343&top_left_y=235&top_left_x=411)\n\nA solid disk of mass $M$ and radius $R$ is freely rotating horizontally in a counterclockwise direction with angular speed $\\omega$ about a vertical axis through its center with negligible friction. The rotational inertia of the disk is $M R^{2} / 2$. A second identical disk is at rest and suspended above the first disk with the centers of the two disks aligned, as shown in the figure above. There is no contact between the disks. The second disk is dropped onto the first disk, and after a short time they rotate counterclockwise with the same angular speed $\\omega_{f}$.</div>",
-              "html": "<div class=\"choiceTxt\">30 m\n\n\\section*{Questions 17-19}\n![](https://cdn.mathpix.com/cropped/77e1fbc9-7bb5-4200-b904-aef9dfe53ad9-26.jpg?height=444&width=343&top_left_y=235&top_left_x=411)\n\nA solid disk of mass $M$ and radius $R$ is freely rotating horizontally in a counterclockwise direction with angular speed $\\omega$ about a vertical axis through its center with negligible friction. The rotational inertia of the disk is $M R^{2} / 2$. A second identical disk is at rest and suspended above the first disk with the centers of the two disks aligned, as shown in the figure above. There is no contact between the disks. The second disk is dropped onto the first disk, and after a short time they rotate counterclockwise with the same angular speed $\\omega_{f}$.</div>"
+              "key": "",
+              "text": "",
+              "html": ""
             }
           ],
           "answer": "",
@@ -554,32 +524,32 @@
         {
           "id": "16",
           "type": "single",
-          "prompt": "<p class=\"stem_paragraph\">17. Which of the following properties of the two-disk system must be conserved between the time the second disk is dropped on the first disk and the time that the two disks begin rotating with the same speed?</p>",
+          "prompt": "<p class=\"stem_paragraph\">19. The two disks are now shifted so that the axis of rotation goes through a point on the edge of the disks. The rotational inertia of the two-disk system is now</p>",
           "options": [
             {
-              "key": "A",
-              "text": "<div class=\"choiceTxt\">Kinetic energy only</div>",
-              "html": "<div class=\"choiceTxt\">Kinetic energy only</div>"
+              "key": "",
+              "text": "",
+              "html": ""
             },
             {
-              "key": "B",
-              "text": "<div class=\"choiceTxt\">Angular momentum only</div>",
-              "html": "<div class=\"choiceTxt\">Angular momentum only</div>"
+              "key": "",
+              "text": "",
+              "html": ""
             },
             {
-              "key": "C",
-              "text": "<div class=\"choiceTxt\">Both kinetic energy and angular momentum</div>",
-              "html": "<div class=\"choiceTxt\">Both kinetic energy and angular momentum</div>"
+              "key": "",
+              "text": "",
+              "html": ""
             },
             {
-              "key": "D",
-              "text": "<div class=\"choiceTxt\">Neither kinetic energy nor angular momentum</div>",
-              "html": "<div class=\"choiceTxt\">Neither kinetic energy nor angular momentum</div>"
+              "key": "",
+              "text": "",
+              "html": ""
             },
             {
-              "key": "E",
-              "text": "<div class=\"choiceTxt\">It cannot be determined without knowing the nature of the forces between the two disks.</div>",
-              "html": "<div class=\"choiceTxt\">It cannot be determined without knowing the nature of the forces between the two disks.</div>"
+              "key": "",
+              "text": "",
+              "html": ""
             }
           ],
           "answer": "",
@@ -588,32 +558,32 @@
         {
           "id": "17",
           "type": "single",
-          "prompt": "<p class=\"stem_paragraph\">18. The interval of time $\\Delta t$ is the elapsed time from the moment of first contact between the two disks until they are both spinning at the same angular velocity. Which of the following expressions gives the magnitude of the average torque that the first disk exerts on the second disk?</p>",
+          "prompt": "<p class=\"stem_paragraph\">20. A student throws a metal sphere, which follows the path shown above. If air resistance is negligible, which of the following is a correct relationship between the magnitudes of the accelerations $a_{K}, a_{L}$, and $a_{M}$ at the three points shown?</p>",
           "options": [
             {
-              "key": "A",
-              "text": "<div class=\"choiceTxt\">$M R^{2} \\omega_{f}$</div>",
-              "html": "<div class=\"choiceTxt\">$M R^{2} \\omega_{f}$</div>"
+              "key": "",
+              "text": "",
+              "html": ""
             },
             {
-              "key": "B",
-              "text": "<div class=\"choiceTxt\">$\\frac{M R^{2} \\omega_{f}}{\\Delta t}$</div>",
-              "html": "<div class=\"choiceTxt\">$\\frac{M R^{2} \\omega_{f}}{\\Delta t}$</div>"
+              "key": "",
+              "text": "",
+              "html": ""
             },
             {
-              "key": "C",
-              "text": "<div class=\"choiceTxt\">$\\frac{M R^{2} \\omega_{f}}{2 \\Delta t}$</div>",
-              "html": "<div class=\"choiceTxt\">$\\frac{M R^{2} \\omega_{f}}{2 \\Delta t}$</div>"
+              "key": "",
+              "text": "",
+              "html": ""
             },
             {
-              "key": "D",
-              "text": "<div class=\"choiceTxt\">$\\frac{2 M R^{2} \\omega_{f}}{\\Delta t}$</div>",
-              "html": "<div class=\"choiceTxt\">$\\frac{2 M R^{2} \\omega_{f}}{\\Delta t}$</div>"
+              "key": "",
+              "text": "",
+              "html": ""
             },
             {
-              "key": "E",
-              "text": "<div class=\"choiceTxt\">It cannot be determined without knowing the nature of the forces between the two disks.</div>",
-              "html": "<div class=\"choiceTxt\">It cannot be determined without knowing the nature of the forces between the two disks.</div>"
+              "key": "",
+              "text": "",
+              "html": ""
             }
           ],
           "answer": "",
@@ -622,32 +592,32 @@
         {
           "id": "18",
           "type": "single",
-          "prompt": "<p class=\"stem_paragraph\">19. The two disks are now shifted so that the axis of rotation goes through a point on the edge of the disks. The rotational inertia of the two-disk system is now</p>",
+          "prompt": "<p class=\"stem_paragraph\">21. A cannonball is shot from the top of a 30 m high hill at a velocity of $25 \\mathrm{~m} / \\mathrm{s}$ and at an angle of $40^{\\circ}$ above the horizontal and lands on the ground below. The speed of the cannonball at the top of its path is most nearly</p>",
           "options": [
             {
-              "key": "A",
-              "text": "<div class=\"choiceTxt\">$2 M R^{2}$</div>",
-              "html": "<div class=\"choiceTxt\">$2 M R^{2}$</div>"
+              "key": "",
+              "text": "",
+              "html": ""
             },
             {
-              "key": "B",
-              "text": "<div class=\"choiceTxt\">$3 M R^{2}$</div>",
-              "html": "<div class=\"choiceTxt\">$3 M R^{2}$</div>"
+              "key": "",
+              "text": "",
+              "html": ""
             },
             {
-              "key": "C",
-              "text": "<div class=\"choiceTxt\">$4 M R^{2}$</div>",
-              "html": "<div class=\"choiceTxt\">$4 M R^{2}$</div>"
+              "key": "",
+              "text": "",
+              "html": ""
             },
             {
-              "key": "D",
-              "text": "<div class=\"choiceTxt\">$5 M R^{2}$</div>",
-              "html": "<div class=\"choiceTxt\">$5 M R^{2}$</div>"
+              "key": "",
+              "text": "",
+              "html": ""
             },
             {
-              "key": "E",
-              "text": "<div class=\"choiceTxt\">$10 M R^{2}$\n![](https://cdn.mathpix.com/cropped/77e1fbc9-7bb5-4200-b904-aef9dfe53ad9-27.jpg?height=255&width=694&top_left_y=151&top_left_x=237)</div>",
-              "html": "<div class=\"choiceTxt\">$10 M R^{2}$\n![](https://cdn.mathpix.com/cropped/77e1fbc9-7bb5-4200-b904-aef9dfe53ad9-27.jpg?height=255&width=694&top_left_y=151&top_left_x=237)</div>"
+              "key": "",
+              "text": "",
+              "html": ""
             }
           ],
           "answer": "",
@@ -656,32 +626,32 @@
         {
           "id": "19",
           "type": "single",
-          "prompt": "<p class=\"stem_paragraph\">20. A student throws a metal sphere, which follows the path shown above. If air resistance is negligible, which of the following is a correct relationship between the magnitudes of the accelerations $a_{K}, a_{L}$, and $a_{M}$ at the three points shown?</p>",
+          "prompt": "<p class=\"stem_paragraph\">22. A 1500 kg car is pushing a 4000 kg truck. The car and truck are accelerating at $2.0 \\mathrm{~m} / \\mathrm{s}^{2}$. Assuming that the frictional force on the truck is negligible, what force is the truck exerting on the car?</p>",
           "options": [
             {
-              "key": "A",
-              "text": "<div class=\"choiceTxt\">$a_{K}=a_{L}=a_{M}$</div>",
-              "html": "<div class=\"choiceTxt\">$a_{K}=a_{L}=a_{M}$</div>"
+              "key": "",
+              "text": "",
+              "html": ""
             },
             {
-              "key": "B",
-              "text": "<div class=\"choiceTxt\">$a_{K}=a_{L}>a_{M}$</div>",
-              "html": "<div class=\"choiceTxt\">$a_{K}=a_{L}>a_{M}$</div>"
+              "key": "",
+              "text": "",
+              "html": ""
             },
             {
-              "key": "C",
-              "text": "<div class=\"choiceTxt\">$a_{K}=a_{M}>a_{L}$</div>",
-              "html": "<div class=\"choiceTxt\">$a_{K}=a_{M}>a_{L}$</div>"
+              "key": "",
+              "text": "",
+              "html": ""
             },
             {
-              "key": "D",
-              "text": "<div class=\"choiceTxt\">$a_{K}>a_{L}=a_{M}$</div>",
-              "html": "<div class=\"choiceTxt\">$a_{K}>a_{L}=a_{M}$</div>"
+              "key": "",
+              "text": "",
+              "html": ""
             },
             {
-              "key": "E",
-              "text": "<div class=\"choiceTxt\">$a_{K}>a_{M}>a_{L}$</div>",
-              "html": "<div class=\"choiceTxt\">$a_{K}>a_{M}>a_{L}$</div>"
+              "key": "",
+              "text": "",
+              "html": ""
             }
           ],
           "answer": "",
@@ -690,32 +660,32 @@
         {
           "id": "20",
           "type": "single",
-          "prompt": "<p class=\"stem_paragraph\">21. A cannonball is shot from the top of a 30 m high hill at a velocity of $25 \\mathrm{~m} / \\mathrm{s}$ and at an angle of $40^{\\circ}$ above the horizontal and lands on the ground below. The speed of the cannonball at the top of its path is most nearly</p>",
+          "prompt": "<p class=\"stem_paragraph\">24. The ratio of the speeds $v_{1} / v_{2}$ is</p>",
           "options": [
             {
-              "key": "A",
-              "text": "<div class=\"choiceTxt\">0</div>",
-              "html": "<div class=\"choiceTxt\">0</div>"
+              "key": "",
+              "text": "",
+              "html": ""
             },
             {
-              "key": "B",
-              "text": "<div class=\"choiceTxt\">$16 \\mathrm{~m} / \\mathrm{s}$</div>",
-              "html": "<div class=\"choiceTxt\">$16 \\mathrm{~m} / \\mathrm{s}$</div>"
+              "key": "",
+              "text": "",
+              "html": ""
             },
             {
-              "key": "C",
-              "text": "<div class=\"choiceTxt\">$19 \\mathrm{~m} / \\mathrm{s}$</div>",
-              "html": "<div class=\"choiceTxt\">$19 \\mathrm{~m} / \\mathrm{s}$</div>"
+              "key": "",
+              "text": "",
+              "html": ""
             },
             {
-              "key": "D",
-              "text": "<div class=\"choiceTxt\">$25 \\mathrm{~m} / \\mathrm{s}$</div>",
-              "html": "<div class=\"choiceTxt\">$25 \\mathrm{~m} / \\mathrm{s}$</div>"
+              "key": "",
+              "text": "",
+              "html": ""
             },
             {
-              "key": "E",
-              "text": "<div class=\"choiceTxt\">$29 \\mathrm{~m} / \\mathrm{s}$</div>",
-              "html": "<div class=\"choiceTxt\">$29 \\mathrm{~m} / \\mathrm{s}$</div>"
+              "key": "",
+              "text": "",
+              "html": ""
             }
           ],
           "answer": "",
@@ -724,32 +694,32 @@
         {
           "id": "21",
           "type": "single",
-          "prompt": "<p class=\"stem_paragraph\">22. A 1500 kg car is pushing a 4000 kg truck. The car and truck are accelerating at $2.0 \\mathrm{~m} / \\mathrm{s}^{2}$. Assuming that the frictional force on the truck is negligible, what force is the truck exerting on the car?</p>",
+          "prompt": "<p class=\"stem_paragraph\">25. The magnitude of the angular momentum of the two-satellite system is best represented by</p>",
           "options": [
             {
-              "key": "A",
-              "text": "<div class=\"choiceTxt\">0 N</div>",
-              "html": "<div class=\"choiceTxt\">0 N</div>"
+              "key": "",
+              "text": "",
+              "html": ""
             },
             {
-              "key": "B",
-              "text": "<div class=\"choiceTxt\">3000 N</div>",
-              "html": "<div class=\"choiceTxt\">3000 N</div>"
+              "key": "",
+              "text": "",
+              "html": ""
             },
             {
-              "key": "C",
-              "text": "<div class=\"choiceTxt\">5000 N</div>",
-              "html": "<div class=\"choiceTxt\">5000 N</div>"
+              "key": "",
+              "text": "",
+              "html": ""
             },
             {
-              "key": "D",
-              "text": "<div class=\"choiceTxt\">8000 N</div>",
-              "html": "<div class=\"choiceTxt\">8000 N</div>"
+              "key": "",
+              "text": "",
+              "html": ""
             },
             {
-              "key": "E",
-              "text": "<div class=\"choiceTxt\">$11,000 \\mathrm{~N}$\n![](https://cdn.mathpix.com/cropped/77e1fbc9-7bb5-4200-b904-aef9dfe53ad9-27.jpg?height=299&width=209&top_left_y=678&top_left_x=1436)</div>",
-              "html": "<div class=\"choiceTxt\">$11,000 \\mathrm{~N}$\n![](https://cdn.mathpix.com/cropped/77e1fbc9-7bb5-4200-b904-aef9dfe53ad9-27.jpg?height=299&width=209&top_left_y=678&top_left_x=1436)</div>"
+              "key": "",
+              "text": "",
+              "html": ""
             }
           ],
           "answer": "",
@@ -758,22 +728,32 @@
         {
           "id": "22",
           "type": "single",
-          "prompt": "<p class=\"stem_paragraph\">23. The figure above shows the directions and relative magnitudes of all three forces that are acting on an object. Which of the following best shows the direction of the object's acceleration?</p>",
+          "prompt": "<p class=\"stem_paragraph\">26. If $U_{1}$ is the potential energy of the planet-satellite system containing the satellite of mass $m_{1}$ and $U_{2}$ is the potential energy of the planet-satellite system containing the satellite of mass $m_{2}$, which of the following expressions best represents the ratio $U_{1} / U_{2}$ ?</p>",
           "options": [
             {
-              "key": "A",
-              "text": "<div class=\"choiceTxt\">![](https://cdn.mathpix.com/cropped/77e1fbc9-7bb5-4200-b904-aef9dfe53ad9-27.jpg?height=74&width=154&top_left_y=1205&top_left_x=1247)</div>",
-              "html": "<div class=\"choiceTxt\">![](https://cdn.mathpix.com/cropped/77e1fbc9-7bb5-4200-b904-aef9dfe53ad9-27.jpg?height=74&width=154&top_left_y=1205&top_left_x=1247)</div>"
+              "key": "",
+              "text": "",
+              "html": ""
             },
             {
-              "key": "B",
-              "text": "<div class=\"choiceTxt\">![](https://cdn.mathpix.com/cropped/77e1fbc9-7bb5-4200-b904-aef9dfe53ad9-27.jpg?height=121&width=125&top_left_y=1356&top_left_x=1247)</div>",
-              "html": "<div class=\"choiceTxt\">![](https://cdn.mathpix.com/cropped/77e1fbc9-7bb5-4200-b904-aef9dfe53ad9-27.jpg?height=121&width=125&top_left_y=1356&top_left_x=1247)</div>"
+              "key": "",
+              "text": "",
+              "html": ""
             },
             {
-              "key": "C",
-              "text": "<div class=\"choiceTxt\">![](https://cdn.mathpix.com/cropped/77e1fbc9-7bb5-4200-b904-aef9dfe53ad9-27.jpg?height=339&width=163&top_left_y=1514&top_left_x=1238)\n\n\\section*{Questions 24-26}\n![](https://cdn.mathpix.com/cropped/77e1fbc9-7bb5-4200-b904-aef9dfe53ad9-28.jpg?height=534&width=494&top_left_y=237&top_left_x=336)\n\nNote: Figure not drawn to scale.\nTwo satellites of masses $m_{1}$ and $m_{2}$ orbit a planet of mass $M$ in circular orbits. The satellites travel in opposite directions with speeds $v_{1}$ and $v_{2}$, as shown in the figure above. Their orbital radii are $R_{1}$ and $R_{2}$, respectively. Assume that $M \\gg m_{2}>m_{1}$.</div>",
-              "html": "<div class=\"choiceTxt\">![](https://cdn.mathpix.com/cropped/77e1fbc9-7bb5-4200-b904-aef9dfe53ad9-27.jpg?height=339&width=163&top_left_y=1514&top_left_x=1238)\n\n\\section*{Questions 24-26}\n![](https://cdn.mathpix.com/cropped/77e1fbc9-7bb5-4200-b904-aef9dfe53ad9-28.jpg?height=534&width=494&top_left_y=237&top_left_x=336)\n\nNote: Figure not drawn to scale.\nTwo satellites of masses $m_{1}$ and $m_{2}$ orbit a planet of mass $M$ in circular orbits. The satellites travel in opposite directions with speeds $v_{1}$ and $v_{2}$, as shown in the figure above. Their orbital radii are $R_{1}$ and $R_{2}$, respectively. Assume that $M \\gg m_{2}>m_{1}$.</div>"
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
             }
           ],
           "answer": "",
@@ -782,32 +762,32 @@
         {
           "id": "23",
           "type": "single",
-          "prompt": "<p class=\"stem_paragraph\">24. The ratio of the speeds $v_{1} / v_{2}$ is</p>",
+          "prompt": "<p class=\"stem_paragraph\">27. The graph above shows a variable force $F$ that acts on an object as it moves along a straight line as a function of time $t$. What is the change in momentum of the object from $t=2 \\mathrm{~s}$ to $t=4 \\mathrm{~s}$ ?</p>",
           "options": [
             {
-              "key": "A",
-              "text": "<div class=\"choiceTxt\">$\\sqrt{R_{2} / R_{1}}$</div>",
-              "html": "<div class=\"choiceTxt\">$\\sqrt{R_{2} / R_{1}}$</div>"
+              "key": "",
+              "text": "",
+              "html": ""
             },
             {
-              "key": "B",
-              "text": "<div class=\"choiceTxt\">$\\sqrt{R_{1} / R_{2}}$</div>",
-              "html": "<div class=\"choiceTxt\">$\\sqrt{R_{1} / R_{2}}$</div>"
+              "key": "",
+              "text": "",
+              "html": ""
             },
             {
-              "key": "C",
-              "text": "<div class=\"choiceTxt\">$\\sqrt{m_{2} / m_{1}}$</div>",
-              "html": "<div class=\"choiceTxt\">$\\sqrt{m_{2} / m_{1}}$</div>"
+              "key": "",
+              "text": "",
+              "html": ""
             },
             {
-              "key": "D",
-              "text": "<div class=\"choiceTxt\">$\\sqrt{m_{1} / m_{2}}$</div>",
-              "html": "<div class=\"choiceTxt\">$\\sqrt{m_{1} / m_{2}}$</div>"
+              "key": "",
+              "text": "",
+              "html": ""
             },
             {
-              "key": "E",
-              "text": "<div class=\"choiceTxt\">1</div>",
-              "html": "<div class=\"choiceTxt\">1</div>"
+              "key": "",
+              "text": "",
+              "html": ""
             }
           ],
           "answer": "",
@@ -816,32 +796,32 @@
         {
           "id": "24",
           "type": "single",
-          "prompt": "<p class=\"stem_paragraph\">25. The magnitude of the angular momentum of the two-satellite system is best represented by</p>",
+          "prompt": "<p class=\"stem_paragraph\">28. Blocks $\\mathrm{A}, \\mathrm{B}$, and C are aligned along a straight line on a horizontal frictionless surface. The masses of the blocks are $M, 2 M$, and $3 M$, respectively. Block A is initially moving to the right along the same line at a speed $v$, as shown in the figure above. Blocks B and C are initially at rest. Block A collides with and sticks to block B. The two blocks then collide with and stick to block C. What is the speed of block C after the collisions?</p>",
           "options": [
             {
-              "key": "A",
-              "text": "<div class=\"choiceTxt\">$\\left|m_{1} v_{1}+m_{2} v_{2}\\right|$</div>",
-              "html": "<div class=\"choiceTxt\">$\\left|m_{1} v_{1}+m_{2} v_{2}\\right|$</div>"
+              "key": "",
+              "text": "",
+              "html": ""
             },
             {
-              "key": "B",
-              "text": "<div class=\"choiceTxt\">$\\left|m_{1} v_{1}-m_{2} v_{2}\\right|$</div>",
-              "html": "<div class=\"choiceTxt\">$\\left|m_{1} v_{1}-m_{2} v_{2}\\right|$</div>"
+              "key": "",
+              "text": "",
+              "html": ""
             },
             {
-              "key": "C",
-              "text": "<div class=\"choiceTxt\">$\\left|m_{1} v_{1} R_{1}+m_{2} v_{2} R_{2}\\right|$</div>",
-              "html": "<div class=\"choiceTxt\">$\\left|m_{1} v_{1} R_{1}+m_{2} v_{2} R_{2}\\right|$</div>"
+              "key": "",
+              "text": "",
+              "html": ""
             },
             {
-              "key": "D",
-              "text": "<div class=\"choiceTxt\">$\\left|m_{1} v_{1} R_{1}-m_{2} v_{2} R_{2}\\right|$</div>",
-              "html": "<div class=\"choiceTxt\">$\\left|m_{1} v_{1} R_{1}-m_{2} v_{2} R_{2}\\right|$</div>"
+              "key": "",
+              "text": "",
+              "html": ""
             },
             {
-              "key": "E",
-              "text": "<div class=\"choiceTxt\">$\\left|m_{1} v_{1} / R_{1}+m_{2} v_{2} / R_{2}\\right|$</div>",
-              "html": "<div class=\"choiceTxt\">$\\left|m_{1} v_{1} / R_{1}+m_{2} v_{2} / R_{2}\\right|$</div>"
+              "key": "",
+              "text": "",
+              "html": ""
             }
           ],
           "answer": "",
@@ -850,32 +830,32 @@
         {
           "id": "25",
           "type": "single",
-          "prompt": "<p class=\"stem_paragraph\">26. If $U_{1}$ is the potential energy of the planet-satellite system containing the satellite of mass $m_{1}$ and $U_{2}$ is the potential energy of the planet-satellite system containing the satellite of mass $m_{2}$, which of the following expressions best represents the ratio $U_{1} / U_{2}$ ?</p>",
+          "prompt": "<p class=\"stem_paragraph\">29. The graph above shows a conservative force $F_{x}$ as a function of position $x$ acting on an object in a closed system. If this is the only force acting on the object, what happens to the potential energy of the system as the object moves from 0 m to 0.10 m ?</p>",
           "options": [
             {
-              "key": "A",
-              "text": "<div class=\"choiceTxt\">$\\frac{m_{1} R_{1}}{m_{2} R_{2}}$</div>",
-              "html": "<div class=\"choiceTxt\">$\\frac{m_{1} R_{1}}{m_{2} R_{2}}$</div>"
+              "key": "",
+              "text": "",
+              "html": ""
             },
             {
-              "key": "B",
-              "text": "<div class=\"choiceTxt\">$\\frac{m_{2} R_{2}}{m_{1} R_{1}}$</div>",
-              "html": "<div class=\"choiceTxt\">$\\frac{m_{2} R_{2}}{m_{1} R_{1}}$</div>"
+              "key": "",
+              "text": "",
+              "html": ""
             },
             {
-              "key": "C",
-              "text": "<div class=\"choiceTxt\">$\\frac{m_{1} R_{2}}{m_{2} R_{1}}$</div>",
-              "html": "<div class=\"choiceTxt\">$\\frac{m_{1} R_{2}}{m_{2} R_{1}}$</div>"
+              "key": "",
+              "text": "",
+              "html": ""
             },
             {
-              "key": "D",
-              "text": "<div class=\"choiceTxt\">$\\frac{m_{2} R_{1}}{m_{1} R_{2}}$</div>",
-              "html": "<div class=\"choiceTxt\">$\\frac{m_{2} R_{1}}{m_{1} R_{2}}$</div>"
+              "key": "",
+              "text": "",
+              "html": ""
             },
             {
-              "key": "E",
-              "text": "<div class=\"choiceTxt\">$\\frac{m_{1} R_{2}^{2}}{m_{2} R_{1}^{2}}$\n![](https://cdn.mathpix.com/cropped/77e1fbc9-7bb5-4200-b904-aef9dfe53ad9-29.jpg?height=476&width=475&top_left_y=157&top_left_x=344)</div>",
-              "html": "<div class=\"choiceTxt\">$\\frac{m_{1} R_{2}^{2}}{m_{2} R_{1}^{2}}$\n![](https://cdn.mathpix.com/cropped/77e1fbc9-7bb5-4200-b904-aef9dfe53ad9-29.jpg?height=476&width=475&top_left_y=157&top_left_x=344)</div>"
+              "key": "",
+              "text": "",
+              "html": ""
             }
           ],
           "answer": "",
@@ -884,32 +864,32 @@
         {
           "id": "26",
           "type": "single",
-          "prompt": "<p class=\"stem_paragraph\">27. The graph above shows a variable force $F$ that acts on an object as it moves along a straight line as a function of time $t$. What is the change in momentum of the object from $t=2 \\mathrm{~s}$ to $t=4 \\mathrm{~s}$ ?</p>",
+          "prompt": "<p class=\"stem_paragraph\">30. How does the work required to accelerate a particle from $10 \\mathrm{~m} / \\mathrm{s}$ to $20 \\mathrm{~m} / \\mathrm{s}$ compare to that required to accelerate it from $20 \\mathrm{~m} / \\mathrm{s}$ to $30 \\mathrm{~m} / \\mathrm{s}$ ?</p>",
           "options": [
             {
-              "key": "A",
-              "text": "<div class=\"choiceTxt\">$1 \\mathrm{~kg} \\cdot \\mathrm{~m} / \\mathrm{s}$</div>",
-              "html": "<div class=\"choiceTxt\">$1 \\mathrm{~kg} \\cdot \\mathrm{~m} / \\mathrm{s}$</div>"
+              "key": "",
+              "text": "",
+              "html": ""
             },
             {
-              "key": "B",
-              "text": "<div class=\"choiceTxt\">$2 \\mathrm{~kg} \\cdot \\mathrm{~m} / \\mathrm{s}$</div>",
-              "html": "<div class=\"choiceTxt\">$2 \\mathrm{~kg} \\cdot \\mathrm{~m} / \\mathrm{s}$</div>"
+              "key": "",
+              "text": "",
+              "html": ""
             },
             {
-              "key": "C",
-              "text": "<div class=\"choiceTxt\">$4 \\mathrm{~kg} \\cdot \\mathrm{~m} / \\mathrm{s}$</div>",
-              "html": "<div class=\"choiceTxt\">$4 \\mathrm{~kg} \\cdot \\mathrm{~m} / \\mathrm{s}$</div>"
+              "key": "",
+              "text": "",
+              "html": ""
             },
             {
-              "key": "D",
-              "text": "<div class=\"choiceTxt\">$6 \\mathrm{~kg} \\cdot \\mathrm{~m} / \\mathrm{s}$</div>",
-              "html": "<div class=\"choiceTxt\">$6 \\mathrm{~kg} \\cdot \\mathrm{~m} / \\mathrm{s}$</div>"
+              "key": "",
+              "text": "",
+              "html": ""
             },
             {
-              "key": "E",
-              "text": "<div class=\"choiceTxt\">$8 \\mathrm{~kg} \\cdot \\mathrm{~m} / \\mathrm{s}$\n![](https://cdn.mathpix.com/cropped/77e1fbc9-7bb5-4200-b904-aef9dfe53ad9-29.jpg?height=194&width=847&top_left_y=163&top_left_x=1121)</div>",
-              "html": "<div class=\"choiceTxt\">$8 \\mathrm{~kg} \\cdot \\mathrm{~m} / \\mathrm{s}$\n![](https://cdn.mathpix.com/cropped/77e1fbc9-7bb5-4200-b904-aef9dfe53ad9-29.jpg?height=194&width=847&top_left_y=163&top_left_x=1121)</div>"
+              "key": "",
+              "text": "",
+              "html": ""
             }
           ],
           "answer": "",
@@ -918,32 +898,32 @@
         {
           "id": "27",
           "type": "single",
-          "prompt": "<p class=\"stem_paragraph\">28. Blocks $\\mathrm{A}, \\mathrm{B}$, and C are aligned along a straight line on a horizontal frictionless surface. The masses of the blocks are $M, 2 M$, and $3 M$, respectively. Block A is initially moving to the right along the same line at a speed $v$, as shown in the figure above. Blocks B and C are initially at rest. Block A collides with and sticks to block B. The two blocks then collide with and stick to block C. What is the speed of block C after the collisions?</p>",
+          "prompt": "<p class=\"stem_paragraph\">31. Which of the following best describes the acceleration vector for the particle at the moment shown in the diagram?</p>",
           "options": [
             {
-              "key": "A",
-              "text": "<div class=\"choiceTxt\">0</div>",
-              "html": "<div class=\"choiceTxt\">0</div>"
+              "key": "",
+              "text": "",
+              "html": ""
             },
             {
-              "key": "B",
-              "text": "<div class=\"choiceTxt\">$v / 6$</div>",
-              "html": "<div class=\"choiceTxt\">$v / 6$</div>"
+              "key": "",
+              "text": "",
+              "html": ""
             },
             {
-              "key": "C",
-              "text": "<div class=\"choiceTxt\">$v / 3$</div>",
-              "html": "<div class=\"choiceTxt\">$v / 3$</div>"
+              "key": "",
+              "text": "",
+              "html": ""
             },
             {
-              "key": "D",
-              "text": "<div class=\"choiceTxt\">$v / 2$</div>",
-              "html": "<div class=\"choiceTxt\">$v / 2$</div>"
+              "key": "",
+              "text": "",
+              "html": ""
             },
             {
-              "key": "E",
-              "text": "<div class=\"choiceTxt\">$6 v$\n![](https://cdn.mathpix.com/cropped/77e1fbc9-7bb5-4200-b904-aef9dfe53ad9-30.jpg?height=362&width=553&top_left_y=155&top_left_x=306)</div>",
-              "html": "<div class=\"choiceTxt\">$6 v$\n![](https://cdn.mathpix.com/cropped/77e1fbc9-7bb5-4200-b904-aef9dfe53ad9-30.jpg?height=362&width=553&top_left_y=155&top_left_x=306)</div>"
+              "key": "",
+              "text": "",
+              "html": ""
             }
           ],
           "answer": "",
@@ -952,32 +932,32 @@
         {
           "id": "28",
           "type": "single",
-          "prompt": "<p class=\"stem_paragraph\">29. The graph above shows a conservative force $F_{x}$ as a function of position $x$ acting on an object in a closed system. If this is the only force acting on the object, what happens to the potential energy of the system as the object moves from 0 m to 0.10 m ?</p>",
+          "prompt": "<p class=\"stem_paragraph\">32. What is the magnitude of the angular momentum of the particle about the center of the circle as a function of time?</p>",
           "options": [
             {
-              "key": "A",
-              "text": "<div class=\"choiceTxt\">It increases only.</div>",
-              "html": "<div class=\"choiceTxt\">It increases only.</div>"
+              "key": "",
+              "text": "",
+              "html": ""
             },
             {
-              "key": "B",
-              "text": "<div class=\"choiceTxt\">It decreases only.</div>",
-              "html": "<div class=\"choiceTxt\">It decreases only.</div>"
+              "key": "",
+              "text": "",
+              "html": ""
             },
             {
-              "key": "C",
-              "text": "<div class=\"choiceTxt\">It increases and then decreases.</div>",
-              "html": "<div class=\"choiceTxt\">It increases and then decreases.</div>"
+              "key": "",
+              "text": "",
+              "html": ""
             },
             {
-              "key": "D",
-              "text": "<div class=\"choiceTxt\">It decreases and then increases.</div>",
-              "html": "<div class=\"choiceTxt\">It decreases and then increases.</div>"
+              "key": "",
+              "text": "",
+              "html": ""
             },
             {
-              "key": "E",
-              "text": "<div class=\"choiceTxt\">It does not change.</div>",
-              "html": "<div class=\"choiceTxt\">It does not change.</div>"
+              "key": "",
+              "text": "",
+              "html": ""
             }
           ],
           "answer": "",
@@ -986,32 +966,32 @@
         {
           "id": "29",
           "type": "single",
-          "prompt": "<p class=\"stem_paragraph\">30. How does the work required to accelerate a particle from $10 \\mathrm{~m} / \\mathrm{s}$ to $20 \\mathrm{~m} / \\mathrm{s}$ compare to that required to accelerate it from $20 \\mathrm{~m} / \\mathrm{s}$ to $30 \\mathrm{~m} / \\mathrm{s}$ ?</p>",
+          "prompt": "<p class=\"stem_paragraph\">33. What is the position of the object at $t=3.0 \\mathrm{~s}$ ?</p>",
           "options": [
             {
-              "key": "A",
-              "text": "<div class=\"choiceTxt\">It is less.</div>",
-              "html": "<div class=\"choiceTxt\">It is less.</div>"
+              "key": "",
+              "text": "",
+              "html": ""
             },
             {
-              "key": "B",
-              "text": "<div class=\"choiceTxt\">It is the same.</div>",
-              "html": "<div class=\"choiceTxt\">It is the same.</div>"
+              "key": "",
+              "text": "",
+              "html": ""
             },
             {
-              "key": "C",
-              "text": "<div class=\"choiceTxt\">It is greater.</div>",
-              "html": "<div class=\"choiceTxt\">It is greater.</div>"
+              "key": "",
+              "text": "",
+              "html": ""
             },
             {
-              "key": "D",
-              "text": "<div class=\"choiceTxt\">It cannot be determined without knowing the magnitude of the force exerted on the particle.</div>",
-              "html": "<div class=\"choiceTxt\">It cannot be determined without knowing the magnitude of the force exerted on the particle.</div>"
+              "key": "",
+              "text": "",
+              "html": ""
             },
             {
-              "key": "E",
-              "text": "<div class=\"choiceTxt\">It cannot be determined without knowing the mass of the particle.\n\n\\section*{Questions 31-32}\n\n\\begin{figure}\n\\includegraphics[alt={},max width=\\textwidth]{https://cdn.mathpix.com/cropped/77e1fbc9-7bb5-4200-b904-aef9dfe53ad9-30.jpg?height=318&width=318&top_left_y=243&top_left_x=1381}\n\\captionsetup{labelformat=empty}\n\\caption{Top View}\n\\end{figure}\n\nA particle of mass $m$ moves counterclockwise around a horizontal circle of radius $r$, as shown above. The angular speed of the particle is given as a function of time $t$ by $\\omega(t)=b t$, where $b$ is a positive constant and $t \\geq 0$.</div>",
-              "html": "<div class=\"choiceTxt\">It cannot be determined without knowing the mass of the particle.\n\n\\section*{Questions 31-32}\n\n\\begin{figure}\n\\includegraphics[alt={},max width=\\textwidth]{https://cdn.mathpix.com/cropped/77e1fbc9-7bb5-4200-b904-aef9dfe53ad9-30.jpg?height=318&width=318&top_left_y=243&top_left_x=1381}\n\\captionsetup{labelformat=empty}\n\\caption{Top View}\n\\end{figure}\n\nA particle of mass $m$ moves counterclockwise around a horizontal circle of radius $r$, as shown above. The angular speed of the particle is given as a function of time $t$ by $\\omega(t)=b t$, where $b$ is a positive constant and $t \\geq 0$.</div>"
+              "key": "",
+              "text": "",
+              "html": ""
             }
           ],
           "answer": "",
@@ -1020,32 +1000,32 @@
         {
           "id": "30",
           "type": "single",
-          "prompt": "<p class=\"stem_paragraph\">31. Which of the following best describes the acceleration vector for the particle at the moment shown in the diagram?</p>",
+          "prompt": "<p class=\"stem_paragraph\">34. What is the total distance traveled by the object during the first 2.0 s of its motion?</p>",
           "options": [
             {
-              "key": "A",
-              "text": "<div class=\"choiceTxt\">It is directed toward the left.</div>",
-              "html": "<div class=\"choiceTxt\">It is directed toward the left.</div>"
+              "key": "",
+              "text": "",
+              "html": ""
             },
             {
-              "key": "B",
-              "text": "<div class=\"choiceTxt\">It is directed toward the bottom of the page.</div>",
-              "html": "<div class=\"choiceTxt\">It is directed toward the bottom of the page.</div>"
+              "key": "",
+              "text": "",
+              "html": ""
             },
             {
-              "key": "C",
-              "text": "<div class=\"choiceTxt\">It is directed toward the top of the page.</div>",
-              "html": "<div class=\"choiceTxt\">It is directed toward the top of the page.</div>"
+              "key": "",
+              "text": "",
+              "html": ""
             },
             {
-              "key": "D",
-              "text": "<div class=\"choiceTxt\">It has components directed toward the right and toward the bottom of the page.</div>",
-              "html": "<div class=\"choiceTxt\">It has components directed toward the right and toward the bottom of the page.</div>"
+              "key": "",
+              "text": "",
+              "html": ""
             },
             {
-              "key": "E",
-              "text": "<div class=\"choiceTxt\">It has components directed toward the left and toward the bottom of the page.</div>",
-              "html": "<div class=\"choiceTxt\">It has components directed toward the left and toward the bottom of the page.</div>"
+              "key": "",
+              "text": "",
+              "html": ""
             }
           ],
           "answer": "",
@@ -1054,134 +1034,32 @@
         {
           "id": "31",
           "type": "single",
-          "prompt": "<p class=\"stem_paragraph\">32. What is the magnitude of the angular momentum of the particle about the center of the circle as a function of time?</p>",
-          "options": [
-            {
-              "key": "A",
-              "text": "<div class=\"choiceTxt\">$m b t / r$</div>",
-              "html": "<div class=\"choiceTxt\">$m b t / r$</div>"
-            },
-            {
-              "key": "B",
-              "text": "<div class=\"choiceTxt\">mbrt</div>",
-              "html": "<div class=\"choiceTxt\">mbrt</div>"
-            },
-            {
-              "key": "C",
-              "text": "<div class=\"choiceTxt\">$m b r^{2} t$</div>",
-              "html": "<div class=\"choiceTxt\">$m b r^{2} t$</div>"
-            },
-            {
-              "key": "D",
-              "text": "<div class=\"choiceTxt\">$m b^{2} r t^{2}$</div>",
-              "html": "<div class=\"choiceTxt\">$m b^{2} r t^{2}$</div>"
-            },
-            {
-              "key": "E",
-              "text": "<div class=\"choiceTxt\">$m b^{2} r^{2} t^{2}$\n\n\\section*{Questions 33-35}\n![](https://cdn.mathpix.com/cropped/77e1fbc9-7bb5-4200-b904-aef9dfe53ad9-31.jpg?height=419&width=629&top_left_y=222&top_left_x=268)\n\nAn object is initially hanging in equilibrium from a vertical spring. The object is pulled down 15 cm from its equilibrium position, as illustrated above, and released at time $t=0$. The object then oscillates with a period of 2.0 s . Let $x=0$ be the equilibrium position and let the positive direction be upward.</div>",
-              "html": "<div class=\"choiceTxt\">$m b^{2} r^{2} t^{2}$\n\n\\section*{Questions 33-35}\n![](https://cdn.mathpix.com/cropped/77e1fbc9-7bb5-4200-b904-aef9dfe53ad9-31.jpg?height=419&width=629&top_left_y=222&top_left_x=268)\n\nAn object is initially hanging in equilibrium from a vertical spring. The object is pulled down 15 cm from its equilibrium position, as illustrated above, and released at time $t=0$. The object then oscillates with a period of 2.0 s . Let $x=0$ be the equilibrium position and let the positive direction be upward.</div>"
-            }
-          ],
-          "answer": "",
-          "explanation": ""
-        },
-        {
-          "id": "32",
-          "type": "single",
-          "prompt": "<p class=\"stem_paragraph\">33. What is the position of the object at $t=3.0 \\mathrm{~s}$ ?</p>",
-          "options": [
-            {
-              "key": "A",
-              "text": "<div class=\"choiceTxt\">15 cm</div>",
-              "html": "<div class=\"choiceTxt\">15 cm</div>"
-            },
-            {
-              "key": "B",
-              "text": "<div class=\"choiceTxt\">7.5 cm</div>",
-              "html": "<div class=\"choiceTxt\">7.5 cm</div>"
-            },
-            {
-              "key": "C",
-              "text": "<div class=\"choiceTxt\">0 cm</div>",
-              "html": "<div class=\"choiceTxt\">0 cm</div>"
-            },
-            {
-              "key": "D",
-              "text": "<div class=\"choiceTxt\">-7.5 cm</div>",
-              "html": "<div class=\"choiceTxt\">-7.5 cm</div>"
-            },
-            {
-              "key": "E",
-              "text": "<div class=\"choiceTxt\">-15 cm</div>",
-              "html": "<div class=\"choiceTxt\">-15 cm</div>"
-            }
-          ],
-          "answer": "",
-          "explanation": ""
-        },
-        {
-          "id": "33",
-          "type": "single",
-          "prompt": "<p class=\"stem_paragraph\">34. What is the total distance traveled by the object during the first 2.0 s of its motion?</p>",
-          "options": [
-            {
-              "key": "A",
-              "text": "<div class=\"choiceTxt\">90 cm</div>",
-              "html": "<div class=\"choiceTxt\">90 cm</div>"
-            },
-            {
-              "key": "B",
-              "text": "<div class=\"choiceTxt\">75 cm</div>",
-              "html": "<div class=\"choiceTxt\">75 cm</div>"
-            },
-            {
-              "key": "C",
-              "text": "<div class=\"choiceTxt\">60 cm</div>",
-              "html": "<div class=\"choiceTxt\">60 cm</div>"
-            },
-            {
-              "key": "D",
-              "text": "<div class=\"choiceTxt\">45 cm</div>",
-              "html": "<div class=\"choiceTxt\">45 cm</div>"
-            },
-            {
-              "key": "E",
-              "text": "<div class=\"choiceTxt\">30 cm</div>",
-              "html": "<div class=\"choiceTxt\">30 cm</div>"
-            }
-          ],
-          "answer": "",
-          "explanation": ""
-        },
-        {
-          "id": "34",
-          "type": "single",
           "prompt": "<p class=\"stem_paragraph\">35. Which of the following statements is true of the magnitude of the acceleration of the object at time $t=1.0 \\mathrm{~s}$ ?</p>",
           "options": [
             {
-              "key": "A",
-              "text": "<div class=\"choiceTxt\">It is equal to zero.</div>",
-              "html": "<div class=\"choiceTxt\">It is equal to zero.</div>"
+              "key": "",
+              "text": "",
+              "html": ""
             },
             {
-              "key": "B",
-              "text": "<div class=\"choiceTxt\">It is equal to $g$.</div>",
-              "html": "<div class=\"choiceTxt\">It is equal to $g$.</div>"
+              "key": "",
+              "text": "",
+              "html": ""
             },
             {
-              "key": "C",
-              "text": "<div class=\"choiceTxt\">It has its minimum value that is not zero.</div>",
-              "html": "<div class=\"choiceTxt\">It has its minimum value that is not zero.</div>"
+              "key": "",
+              "text": "",
+              "html": ""
             },
             {
-              "key": "D",
-              "text": "<div class=\"choiceTxt\">It has its maximum value.</div>",
-              "html": "<div class=\"choiceTxt\">It has its maximum value.</div>"
+              "key": "",
+              "text": "",
+              "html": ""
             },
             {
-              "key": "E",
-              "text": "<div class=\"choiceTxt\">It has a value between zero and its maximum value.\n\n\\section*{STOP}\n\n\\section*{END OF MECHANICS SECTION I}\n\nIF YOU FINISH BEFORE TIME IS CALLED, YOU MAY CHECK YOUR WORK ON MECHANICS SECTION I ONLY.\n\nDO NOT TURN TO ANY OTHER TEST MATERIALS.\n\nMAKE SURE YOU HAVE DONE THE FOLLOWING.\n- PLACED YOUR AP NUMBER LABEL ON YOUR ANSWER SHEET\n- WRITTEN AND GRIDDED YOUR AP NUMBER CORRECTLY ON YOUR ANSWER SHEET\n- TAKEN THE AP EXAM LABEL FROM THE FRONT OF THIS BOOKLET AND PLACED IT ON YOUR ANSWER SHEET\n\n\\section*{Section II: Free-Response Questions}\n\nThis is the free-response section of the 2017 AP exam. It includes cover material and other administrative instructions to help familiarize students with the mechanics of the exam. (Note that future exams may differ in look from the following content.)\n\n\\section*{SECTION II: Free Response}\n\nDO NOT OPEN THIS BOOKLET UNTIL YOU ARE TOLD TO DO SO.\n\n\\section*{At a Glance}\n\n\\section*{Total Time}\n\n45 minutes\nNumber of Questions 3\nPercent of Total Score 50\\%\n\n\\section*{Writing Instrument}\n\nEither pencil or pen with black or dark blue ink\nElectronic Device\nCalculator allowed\nWeight\nThe questions are weighted equally.\n\n\\begin{figure}\n\\includegraphics[alt={},max width=\\textwidth]{https://cdn.mathpix.com/cropped/77e1fbc9-7bb5-4200-b904-aef9dfe53ad9-34.jpg?height=61&width=96&top_left_y=777&top_left_x=747}\n\\captionsetup{labelformat=empty}\n\\caption{Month}\n\\end{figure}\n\n\\begin{figure}\n\\includegraphics[alt={},max width=\\textwidth]{https://cdn.mathpix.com/cropped/77e1fbc9-7bb5-4200-b904-aef9dfe53ad9-34.jpg?height=61&width=98&top_left_y=777&top_left_x=856}\n\\captionsetup{labelformat=empty}\n\\caption{Day}\n\\end{figure}\n\n\\begin{figure}\n\\includegraphics[alt={},max width=\\textwidth]{https://cdn.mathpix.com/cropped/77e1fbc9-7bb5-4200-b904-aef9dfe53ad9-34.jpg?height=66&width=192&top_left_y=777&top_left_x=970}\n\\captionsetup{labelformat=empty}\n\\caption{Year}\n\\end{figure}</div>",
-              "html": "<div class=\"choiceTxt\">It has a value between zero and its maximum value.\n\n\\section*{STOP}\n\n\\section*{END OF MECHANICS SECTION I}\n\nIF YOU FINISH BEFORE TIME IS CALLED, YOU MAY CHECK YOUR WORK ON MECHANICS SECTION I ONLY.\n\nDO NOT TURN TO ANY OTHER TEST MATERIALS.\n\nMAKE SURE YOU HAVE DONE THE FOLLOWING.\n- PLACED YOUR AP NUMBER LABEL ON YOUR ANSWER SHEET\n- WRITTEN AND GRIDDED YOUR AP NUMBER CORRECTLY ON YOUR ANSWER SHEET\n- TAKEN THE AP EXAM LABEL FROM THE FRONT OF THIS BOOKLET AND PLACED IT ON YOUR ANSWER SHEET\n\n\\section*{Section II: Free-Response Questions}\n\nThis is the free-response section of the 2017 AP exam. It includes cover material and other administrative instructions to help familiarize students with the mechanics of the exam. (Note that future exams may differ in look from the following content.)\n\n\\section*{SECTION II: Free Response}\n\nDO NOT OPEN THIS BOOKLET UNTIL YOU ARE TOLD TO DO SO.\n\n\\section*{At a Glance}\n\n\\section*{Total Time}\n\n45 minutes\nNumber of Questions 3\nPercent of Total Score 50\\%\n\n\\section*{Writing Instrument}\n\nEither pencil or pen with black or dark blue ink\nElectronic Device\nCalculator allowed\nWeight\nThe questions are weighted equally.\n\n\\begin{figure}\n\\includegraphics[alt={},max width=\\textwidth]{https://cdn.mathpix.com/cropped/77e1fbc9-7bb5-4200-b904-aef9dfe53ad9-34.jpg?height=61&width=96&top_left_y=777&top_left_x=747}\n\\captionsetup{labelformat=empty}\n\\caption{Month}\n\\end{figure}\n\n\\begin{figure}\n\\includegraphics[alt={},max width=\\textwidth]{https://cdn.mathpix.com/cropped/77e1fbc9-7bb5-4200-b904-aef9dfe53ad9-34.jpg?height=61&width=98&top_left_y=777&top_left_x=856}\n\\captionsetup{labelformat=empty}\n\\caption{Day}\n\\end{figure}\n\n\\begin{figure}\n\\includegraphics[alt={},max width=\\textwidth]{https://cdn.mathpix.com/cropped/77e1fbc9-7bb5-4200-b904-aef9dfe53ad9-34.jpg?height=66&width=192&top_left_y=777&top_left_x=970}\n\\captionsetup{labelformat=empty}\n\\caption{Year}\n\\end{figure}</div>"
+              "key": "",
+              "text": "",
+              "html": ""
             }
           ],
           "answer": "",
@@ -1196,19 +1074,40 @@
         {
           "id": "1",
           "type": "free-response",
-          "prompt": "<p class=\"stem_paragraph\">1.}\n4. Unless I check the box below, I grant the College Board the unlimited right to use, reproduce, and publish my free-response materials, both written and oral, for educational research and instructional purposes. My name and the name of my school will not be used in any way in connection with my free-response materials. I understand that I am free to mark \"No\" with no effect on my score or its reporting.\nNo, I do not grant the College Board these rights. □</p>",
-          "parts": [],
+          "prompt": "<p class=\"stem_paragraph\">plane starts at rest on a straight runway. For the first 30 s , the plane's acceleration $a$ is given as a function of time $t$ by the equation $a=\\beta t^{2}$, where $\\beta=1 / 90 \\mathrm{~m} / \\mathrm{s}^{4}$ and $t$ is in seconds.\n\nWhat is the plane's speed at $t=30 \\mathrm{~s}$ ?</p>",
+          "parts": [
+            {
+              "partSign": "A",
+              "partContent": "$10 \\mathrm{~m} / \\mathrm{s}$"
+            },
+            {
+              "partSign": "B",
+              "partContent": "$30 \\mathrm{~m} / \\mathrm{s}$"
+            },
+            {
+              "partSign": "C",
+              "partContent": "$100 \\mathrm{~m} / \\mathrm{s}$"
+            },
+            {
+              "partSign": "D",
+              "partContent": "$150 \\mathrm{~m} / \\mathrm{s}$"
+            },
+            {
+              "partSign": "E",
+              "partContent": "$300 \\mathrm{~m} / \\mathrm{s}$\n"
+            }
+          ],
           "answer": "",
           "explanation": ""
         },
         {
           "id": "2",
           "type": "free-response",
-          "prompt": "<p class=\"stem_paragraph\">Question 1 (continued)}\n\nDistribution of points</p>",
+          "prompt": "<p class=\"stem_paragraph\">tudent 1 is standing on a cart holding a small stone, while student 2 is standing at rest on the ground, as shown in the figure above. The cart is moving at a constant speed $v$ in the $+x$-direction, as indicated by the coordinate system shown. Student 1 drops the stone precisely when passing student 2. Which of the following best represents the path of the falling stone relative to student 1 and the path of the falling stone relative to</p>",
           "parts": [
             {
-              "partSign": "d",
-              "partContent": "i) 2 points"
+              "partSign": "E",
+              "partContent": "\nstudent 2 ?"
             }
           ],
           "answer": "",
@@ -1217,69 +1116,23 @@
         {
           "id": "3",
           "type": "free-response",
-          "prompt": "<p class=\"stem_paragraph\">Question 1 (continued)}\n(f) 2 points\n\nFor correctly selecting \"Greater than\" and attempting to justify the selection\n\nFor a correct justification\n\nExample: Since kinetic energy is conserved in an elastic collision, the speed of the target object (block) will be greater after the collision with the rubber ball than it was with the piece of clay.\nNote: If incorrect selection is made, the justification cannot earn credit.</p>",
-          "parts": [],
-          "answer": "",
-          "explanation": ""
-        },
-        {
-          "id": "4",
-          "type": "free-response",
-          "prompt": "<p class=\"stem_paragraph\">Question 2 (continued)}</p>",
+          "prompt": "<p class=\"stem_paragraph\">particle of mass 2.0 kg is moving in the $x y$-plane at a constant speed of $0.80 \\mathrm{~m} / \\mathrm{s}$ in the $+x$-direction along the line $y=4 \\mathrm{~m}$. As the particle travels from $x=-3 \\mathrm{~m}$ to $x=+3 \\mathrm{~m}$, the magnitude of its angular momentum with respect to the origin is</p>",
           "parts": [
             {
-              "partSign": "c",
-              "partContent": "(continued)"
+              "partSign": "A",
+              "partContent": "not constant"
             },
             {
-              "partSign": "d",
-              "partContent": "i) 2 points"
-            }
-          ],
-          "answer": "",
-          "explanation": ""
-        },
-        {
-          "id": "5",
-          "type": "free-response",
-          "prompt": "<p class=\"stem_paragraph\">Question 2 (continued)}</p>",
-          "parts": [],
-          "answer": "",
-          "explanation": ""
-        },
-        {
-          "id": "6",
-          "type": "free-response",
-          "prompt": "<p class=\"stem_paragraph\">Question 3}\n\n15 points total</p>",
-          "parts": [
-            {
-              "partSign": "a",
-              "partContent": "3 points"
+              "partSign": "C",
+              "partContent": "$4.8 \\mathrm{~kg} \\cdot \\mathrm{~m}^{2} / \\mathrm{s}$"
             },
             {
-              "partSign": "b",
-              "partContent": "i) 2 points"
-            }
-          ],
-          "answer": "",
-          "explanation": ""
-        },
-        {
-          "id": "7",
-          "type": "free-response",
-          "prompt": "<p class=\"stem_paragraph\">Question 3 (continued)}</p>",
-          "parts": [],
-          "answer": "",
-          "explanation": ""
-        },
-        {
-          "id": "8",
-          "type": "free-response",
-          "prompt": "<p class=\"stem_paragraph\">Question 3 (continued)}\n\nDistribution of points</p>",
-          "parts": [
+              "partSign": "D",
+              "partContent": "$6.4 \\mathrm{~kg} \\cdot \\mathrm{~m}^{2} / \\mathrm{s}$"
+            },
             {
-              "partSign": "e",
-              "partContent": "(continued)"
+              "partSign": "E",
+              "partContent": "$8.0 \\mathrm{~kg} \\cdot \\mathrm{~m}^{2} / \\mathrm{s}$"
             }
           ],
           "answer": "",

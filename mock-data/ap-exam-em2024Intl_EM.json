@@ -1,0 +1,1274 @@
+{
+  "examId": "em2024Intl_EM",
+  "title": "AP 物理C电磁 2024年国际卷",
+  "subjectName": "Physics C: Electricity and Magnetism",
+  "yearLabel": "2024",
+  "description": "AP Physics C: Electricity and Magnetism 2024年",
+  "answerKeyAvailable": false,
+  "scoring": null,
+  "sections": [
+    {
+      "title": "Section I: Multiple Choice",
+      "type": "mcq",
+      "questions": [
+        {
+          "id": "1",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">The circuit shown consists of four identical lightbulbs and a battery. Which of the following diagrams b/ represents the circuit?</p>",
+          "options": [
+            {
+              "key": "A",
+              "text": "<div class=\"choiceTxt\"><img src=\"https://cdn.mathpix.com/cropped/f4817aae-1e9b-4e9c-bc6b-bee8a2cec98b-01.jpg?height=286&width=352&top_left_y=1606&top_left_x=376\" /></div>",
+              "html": "<div class=\"choiceTxt\"><img src=\"https://cdn.mathpix.com/cropped/f4817aae-1e9b-4e9c-bc6b-bee8a2cec98b-01.jpg?height=286&width=352&top_left_y=1606&top_left_x=376\" /></div>"
+            },
+            {
+              "key": "B",
+              "text": "<div class=\"choiceTxt\"><img src=\"https://cdn.mathpix.com/cropped/f4817aae-1e9b-4e9c-bc6b-bee8a2cec98b-01.jpg?height=282&width=313&top_left_y=1615&top_left_x=1054\" /></div>",
+              "html": "<div class=\"choiceTxt\"><img src=\"https://cdn.mathpix.com/cropped/f4817aae-1e9b-4e9c-bc6b-bee8a2cec98b-01.jpg?height=282&width=313&top_left_y=1615&top_left_x=1054\" /></div>"
+            },
+            {
+              "key": "C",
+              "text": "<div class=\"choiceTxt\"><img src=\"https://cdn.mathpix.com/cropped/f4817aae-1e9b-4e9c-bc6b-bee8a2cec98b-01.jpg?height=277&width=346&top_left_y=1928&top_left_x=378\" /></div>",
+              "html": "<div class=\"choiceTxt\"><img src=\"https://cdn.mathpix.com/cropped/f4817aae-1e9b-4e9c-bc6b-bee8a2cec98b-01.jpg?height=277&width=346&top_left_y=1928&top_left_x=378\" /></div>"
+            },
+            {
+              "key": "D",
+              "text": "<div class=\"choiceTxt\"><img src=\"https://cdn.mathpix.com/cropped/f4817aae-1e9b-4e9c-bc6b-bee8a2cec98b-01.jpg?height=318&width=325&top_left_y=1930&top_left_x=1047\" /></div>",
+              "html": "<div class=\"choiceTxt\"><img src=\"https://cdn.mathpix.com/cropped/f4817aae-1e9b-4e9c-bc6b-bee8a2cec98b-01.jpg?height=318&width=325&top_left_y=1930&top_left_x=1047\" /></div>"
+            },
+            {
+              "key": "E",
+              "text": "<div class=\"choiceTxt\"><img src=\"https://cdn.mathpix.com/cropped/f4817aae-1e9b-4e9c-bc6b-bee8a2cec98b-01.jpg?height=286&width=352&top_left_y=2284&top_left_x=365\" /></div>",
+              "html": "<div class=\"choiceTxt\"><img src=\"https://cdn.mathpix.com/cropped/f4817aae-1e9b-4e9c-bc6b-bee8a2cec98b-01.jpg?height=286&width=352&top_left_y=2284&top_left_x=365\" /></div>"
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "2",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">A solid, nonconducting sphere of radius $R$ has charge $Q$ distributed uniformly throughout its volume. Which of the following is equal to the magnitude of the electric field at distance $R{2}$ from the center of the sphere? <img src=\"https://cdn.mathpix.com/cropped/f4817aae-1e9b-4e9c-bc6b-bee8a2cec98b-03.jpg?height=336&width=546&top_left_y=214&top_left_x=931\" /></p>",
+          "options": [
+            {
+              "key": "A",
+              "text": "<div class=\"choiceTxt\">Zero</div>",
+              "html": "<div class=\"choiceTxt\">Zero</div>"
+            },
+            {
+              "key": "B",
+              "text": "<div class=\"choiceTxt\">$1{2} k Q{R^{2}}$</div>",
+              "html": "<div class=\"choiceTxt\">$1{2} k Q{R^{2}}$</div>"
+            },
+            {
+              "key": "C",
+              "text": "<div class=\"choiceTxt\">$k Q{R^{2}}$</div>",
+              "html": "<div class=\"choiceTxt\">$k Q{R^{2}}$</div>"
+            },
+            {
+              "key": "D",
+              "text": "<div class=\"choiceTxt\">$2 k Q{R^{2}}$</div>",
+              "html": "<div class=\"choiceTxt\">$2 k Q{R^{2}}$</div>"
+            },
+            {
+              "key": "E",
+              "text": "<div class=\"choiceTxt\">$4 k Q{R^{2}}$</div>",
+              "html": "<div class=\"choiceTxt\">$4 k Q{R^{2}}$</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "3",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">A resistor of resistance $R$ and a capacitor of capacitance $C$ are connected to an ideal battery, as shown. circuit has time constant $\\tau$. Which of the following circuits also has time constant $\\tau$ ? <img src=\"https://cdn.mathpix.com/cropped/f4817aae-1e9b-4e9c-bc6b-bee8a2cec98b-04.jpg?height=665&width=621&top_left_y=314&top_left_x=340\" /></p>",
+          "options": [
+            {
+              "key": "A",
+              "text": "<div class=\"choiceTxt\"><img src=\"https://cdn.mathpix.com/cropped/f4817aae-1e9b-4e9c-bc6b-bee8a2cec98b-03.jpg?height=389&width=542&top_left_y=698&top_left_x=467\" /></div>",
+              "html": "<div class=\"choiceTxt\"><img src=\"https://cdn.mathpix.com/cropped/f4817aae-1e9b-4e9c-bc6b-bee8a2cec98b-03.jpg?height=389&width=542&top_left_y=698&top_left_x=467\" /></div>"
+            },
+            {
+              "key": "B",
+              "text": "<div class=\"choiceTxt\"><img src=\"https://cdn.mathpix.com/cropped/f4817aae-1e9b-4e9c-bc6b-bee8a2cec98b-03.jpg?height=398&width=574&top_left_y=700&top_left_x=1309\" /></div>",
+              "html": "<div class=\"choiceTxt\"><img src=\"https://cdn.mathpix.com/cropped/f4817aae-1e9b-4e9c-bc6b-bee8a2cec98b-03.jpg?height=398&width=574&top_left_y=700&top_left_x=1309\" /></div>"
+            },
+            {
+              "key": "C",
+              "text": "<div class=\"choiceTxt\"><img src=\"https://cdn.mathpix.com/cropped/f4817aae-1e9b-4e9c-bc6b-bee8a2cec98b-03.jpg?height=382&width=544&top_left_y=1127&top_left_x=463\" /></div>",
+              "html": "<div class=\"choiceTxt\"><img src=\"https://cdn.mathpix.com/cropped/f4817aae-1e9b-4e9c-bc6b-bee8a2cec98b-03.jpg?height=382&width=544&top_left_y=1127&top_left_x=463\" /></div>"
+            },
+            {
+              "key": "D",
+              "text": "<div class=\"choiceTxt\"><img src=\"https://cdn.mathpix.com/cropped/f4817aae-1e9b-4e9c-bc6b-bee8a2cec98b-03.jpg?height=428&width=571&top_left_y=1136&top_left_x=1305\" /></div>",
+              "html": "<div class=\"choiceTxt\"><img src=\"https://cdn.mathpix.com/cropped/f4817aae-1e9b-4e9c-bc6b-bee8a2cec98b-03.jpg?height=428&width=571&top_left_y=1136&top_left_x=1305\" /></div>"
+            },
+            {
+              "key": "E",
+              "text": "<div class=\"choiceTxt\"><img src=\"https://cdn.mathpix.com/cropped/f4817aae-1e9b-4e9c-bc6b-bee8a2cec98b-03.jpg?height=407&width=538&top_left_y=1579&top_left_x=460\" /></div>",
+              "html": "<div class=\"choiceTxt\"><img src=\"https://cdn.mathpix.com/cropped/f4817aae-1e9b-4e9c-bc6b-bee8a2cec98b-03.jpg?height=407&width=538&top_left_y=1579&top_left_x=460\" /></div>"
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "4",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">A conducting spherical shell has a net positive charge $+Q$, as shown. Which of the following indicates the net charge on the inner surface of the shell and the net charge inside of the shell (shaded region)? & Inner Surface & Inside Shell \\\\ \\hline A & Zero & Zero \\\\ B & $-Q$ & $-Q$ \\\\ C & Zero & $-Q$ \\\\ D & $-Q$ & Zero \\\\ E & $+Q$ & Zero</p>",
+          "options": [
+            {
+              "key": "A",
+              "text": "<div class=\"choiceTxt\">A</div>",
+              "html": "<div class=\"choiceTxt\">A</div>"
+            },
+            {
+              "key": "B",
+              "text": "<div class=\"choiceTxt\">B</div>",
+              "html": "<div class=\"choiceTxt\">B</div>"
+            },
+            {
+              "key": "C",
+              "text": "<div class=\"choiceTxt\">C</div>",
+              "html": "<div class=\"choiceTxt\">C</div>"
+            },
+            {
+              "key": "D",
+              "text": "<div class=\"choiceTxt\">D</div>",
+              "html": "<div class=\"choiceTxt\">D</div>"
+            },
+            {
+              "key": "E",
+              "text": "<div class=\"choiceTxt\">E</div>",
+              "html": "<div class=\"choiceTxt\">E</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "5",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">An air-filled parallel plate capacitor stores $8.85 \\times 10^{-10} ~J$ of energy when the potential difference across the plates is 20.0 V and the plates are separated by a distance of $1.00 \\times 10^{-3} ~m$. What is the area of each plate of the capacitor? \\hline$d(~m)$ & $a\\left(~m / s^{2}\\right)$ \\\\ \\hline 0.1 & 90 \\\\ \\hline 0.2 & 90 \\\\ \\hline 0.3 & 90 \\\\ \\hline 0.4 & 90 \\\\ \\hline</p>",
+          "options": [
+            {
+              "key": "A",
+              "text": "<div class=\"choiceTxt\">$1.25 \\times 10^{-4} ~m^{2}$</div>",
+              "html": "<div class=\"choiceTxt\">$1.25 \\times 10^{-4} ~m^{2}$</div>"
+            },
+            {
+              "key": "B",
+              "text": "<div class=\"choiceTxt\">$2.50 \\times 10^{-4} ~m^{2}$</div>",
+              "html": "<div class=\"choiceTxt\">$2.50 \\times 10^{-4} ~m^{2}$</div>"
+            },
+            {
+              "key": "C",
+              "text": "<div class=\"choiceTxt\">$5.00 \\times 10^{-4} ~m^{2}$</div>",
+              "html": "<div class=\"choiceTxt\">$5.00 \\times 10^{-4} ~m^{2}$</div>"
+            },
+            {
+              "key": "D",
+              "text": "<div class=\"choiceTxt\">$1.00 \\times 10^{-3} ~m^{2}$</div>",
+              "html": "<div class=\"choiceTxt\">$1.00 \\times 10^{-3} ~m^{2}$</div>"
+            },
+            {
+              "key": "E",
+              "text": "<div class=\"choiceTxt\">$1.50 \\times 10^{-3} ~m^{2}$</div>",
+              "html": "<div class=\"choiceTxt\">$1.50 \\times 10^{-3} ~m^{2}$</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "6",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">Identical nonconducting spheres 1 and 2 , each with equal amounts of positive net charge, are initially held at rest near each other so that the force between the spheres is nonnegligible. Sphere 2 is then released while Sphere 1 remains at rest. The table shows the acceleration $a$ of Sphere 2 along a straight path as a function of the separation distance $d$ between the centers of the spheres. Which of the following claims can be supported by data in the table? <img src=\"https://cdn.mathpix.com/cropped/f4817aae-1e9b-4e9c-bc6b-bee8a2cec98b-05.jpg?height=537&width=733&top_left_y=319&top_left_x=1305\" /></p>",
+          "options": [
+            {
+              "key": "A",
+              "text": "<div class=\"choiceTxt\">The spheres are isolated from other objects and fields.</div>",
+              "html": "<div class=\"choiceTxt\">The spheres are isolated from other objects and fields.</div>"
+            },
+            {
+              "key": "B",
+              "text": "<div class=\"choiceTxt\">The spheres are in a region of external uniform electric field only.</div>",
+              "html": "<div class=\"choiceTxt\">The spheres are in a region of external uniform electric field only.</div>"
+            },
+            {
+              "key": "C",
+              "text": "<div class=\"choiceTxt\">The spheres are in a region of external nonuniform electric field only.</div>",
+              "html": "<div class=\"choiceTxt\">The spheres are in a region of external nonuniform electric field only.</div>"
+            },
+            {
+              "key": "D",
+              "text": "<div class=\"choiceTxt\">The spheres are in a region of external uniform magnetic field only.</div>",
+              "html": "<div class=\"choiceTxt\">The spheres are in a region of external uniform magnetic field only.</div>"
+            },
+            {
+              "key": "E",
+              "text": "<div class=\"choiceTxt\">The spheres are in a region of external uniform electric and magnetic fields only.</div>",
+              "html": "<div class=\"choiceTxt\">The spheres are in a region of external uniform electric and magnetic fields only.</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "7",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">The figure shows equipotential lines in a $F A, B, C, D, E$, and F are points in the pla Which of the following claims is correct? \\hline$d(~m)$ & $a\\left(~m / s^{2}\\right)$ \\\\ \\hline 0.1 & 90 \\\\ \\hline 0.2 & 90 \\\\ \\hline 0.3 & 90 \\\\ \\hline 0.4 & 90 \\\\ \\hline</p>",
+          "options": [
+            {
+              "key": "A",
+              "text": "<div class=\"choiceTxt\">The electric field at Point A is direct toward Point B.</div>",
+              "html": "<div class=\"choiceTxt\">The electric field at Point A is direct toward Point B.</div>"
+            },
+            {
+              "key": "B",
+              "text": "<div class=\"choiceTxt\">The electric field at Point C is direct toward Point D.</div>",
+              "html": "<div class=\"choiceTxt\">The electric field at Point C is direct toward Point D.</div>"
+            },
+            {
+              "key": "C",
+              "text": "<div class=\"choiceTxt\">The magnitude of the electric field is greater at Point B than at Point E.</div>",
+              "html": "<div class=\"choiceTxt\">The magnitude of the electric field is greater at Point B than at Point E.</div>"
+            },
+            {
+              "key": "D",
+              "text": "<div class=\"choiceTxt\">The magnitude of the average electri is greater between points F and E between points A and B .</div>",
+              "html": "<div class=\"choiceTxt\">The magnitude of the average electri is greater between points F and E between points A and B .</div>"
+            },
+            {
+              "key": "E",
+              "text": "<div class=\"choiceTxt\">The magnitude of the average electri is greater between points B and C between points E and D .</div>",
+              "html": "<div class=\"choiceTxt\">The magnitude of the average electri is greater between points B and C between points E and D .</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "8",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">Identical nonconducting spheres 1 and 2 , each with equal amounts of positive net charge, are initially held at rest near each other so that the force between the spheres is nonnegligible. Sphere 2 is then released while Sphere 1 remains at rest. The table shows the acceleration $a$ of Sphere 2 along a straight path as a function of the separation distance $d$ between the centers of the spheres. Which of the following claims can be supported by data in the table? <img src=\"https://cdn.mathpix.com/cropped/f4817aae-1e9b-4e9c-bc6b-bee8a2cec98b-06.jpg?height=535&width=727&top_left_y=314&top_left_x=1316\" /></p>",
+          "options": [
+            {
+              "key": "A",
+              "text": "<div class=\"choiceTxt\">The spheres are isolated from other objects and fields.</div>",
+              "html": "<div class=\"choiceTxt\">The spheres are isolated from other objects and fields.</div>"
+            },
+            {
+              "key": "B",
+              "text": "<div class=\"choiceTxt\">The spheres are in a region of external uniform electric field only.</div>",
+              "html": "<div class=\"choiceTxt\">The spheres are in a region of external uniform electric field only.</div>"
+            },
+            {
+              "key": "C",
+              "text": "<div class=\"choiceTxt\">The spheres are in a region of external nonuniform electric field only.</div>",
+              "html": "<div class=\"choiceTxt\">The spheres are in a region of external nonuniform electric field only.</div>"
+            },
+            {
+              "key": "D",
+              "text": "<div class=\"choiceTxt\">The spheres are in a region of external uniform magnetic field only.</div>",
+              "html": "<div class=\"choiceTxt\">The spheres are in a region of external uniform magnetic field only.</div>"
+            },
+            {
+              "key": "E",
+              "text": "<div class=\"choiceTxt\">The spheres are in a region of external uniform electric and magnetic fields only.</div>",
+              "html": "<div class=\"choiceTxt\">The spheres are in a region of external uniform electric and magnetic fields only.</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "9",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">The figure shows equipotential lines in a $I A, B, C, D, E$, and F are points in the pla Which of the following claims is correct?</p>",
+          "options": [
+            {
+              "key": "A",
+              "text": "<div class=\"choiceTxt\">The electric field at Point A is direct toward Point B.</div>",
+              "html": "<div class=\"choiceTxt\">The electric field at Point A is direct toward Point B.</div>"
+            },
+            {
+              "key": "B",
+              "text": "<div class=\"choiceTxt\">The electric field at Point C is direct toward Point D.</div>",
+              "html": "<div class=\"choiceTxt\">The electric field at Point C is direct toward Point D.</div>"
+            },
+            {
+              "key": "C",
+              "text": "<div class=\"choiceTxt\">The magnitude of the electric field is greater at Point B than at Point E.</div>",
+              "html": "<div class=\"choiceTxt\">The magnitude of the electric field is greater at Point B than at Point E.</div>"
+            },
+            {
+              "key": "D",
+              "text": "<div class=\"choiceTxt\">The magnitude of the average electri is greater between points F and E between points A and B .</div>",
+              "html": "<div class=\"choiceTxt\">The magnitude of the average electri is greater between points F and E between points A and B .</div>"
+            },
+            {
+              "key": "E",
+              "text": "<div class=\"choiceTxt\">The magnitude of the average electri is greater between points B and C between points E and D .</div>",
+              "html": "<div class=\"choiceTxt\">The magnitude of the average electri is greater between points B and C between points E and D .</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "10",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">Nonconducting Sphere 1 has a positive net charge and is held at rest. Conducting Sphere 2, which is near Sphere 1, has no net charge and is given an initial speed moving away from Sphere 1. All forces other than the electric force are negligible. Which of the following claims is correct for when Sphere 2 moves away from Sphere 1? <img src=\"https://cdn.mathpix.com/cropped/f4817aae-1e9b-4e9c-bc6b-bee8a2cec98b-08.jpg?height=158&width=182&top_left_y=292&top_left_x=1455\" /> <img src=\"https://cdn.mathpix.com/cropped/f4817aae-1e9b-4e9c-bc6b-bee8a2cec98b-08.jpg?height=307&width=795&top_left_y=447&top_left_x=750\" /> \\section*{Top View}</p>",
+          "options": [
+            {
+              "key": "A",
+              "text": "<div class=\"choiceTxt\">The acceleration of Sphere 2 is toward Sphere 1.</div>",
+              "html": "<div class=\"choiceTxt\">The acceleration of Sphere 2 is toward Sphere 1.</div>"
+            },
+            {
+              "key": "B",
+              "text": "<div class=\"choiceTxt\">The momentum of Sphere 2 is increasing.</div>",
+              "html": "<div class=\"choiceTxt\">The momentum of Sphere 2 is increasing.</div>"
+            },
+            {
+              "key": "C",
+              "text": "<div class=\"choiceTxt\">The net force exerted on Sphere 2 is zero.</div>",
+              "html": "<div class=\"choiceTxt\">The net force exerted on Sphere 2 is zero.</div>"
+            },
+            {
+              "key": "D",
+              "text": "<div class=\"choiceTxt\">The kinetic energy of Sphere 2 is constant.</div>",
+              "html": "<div class=\"choiceTxt\">The kinetic energy of Sphere 2 is constant.</div>"
+            },
+            {
+              "key": "E",
+              "text": "<div class=\"choiceTxt\">The electric potential energy of the Sphere 1-Sphere 2 system is decreasing.</div>",
+              "html": "<div class=\"choiceTxt\">The electric potential energy of the Sphere 1-Sphere 2 system is decreasing.</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "11",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">A conducting loop is beneath a long, straight, insulated wire. The loop and the wire are in the plane of the At the instant shown, the current in the wire and the current in Segment PQ of the loop are $I$ in the $+x$-direction. Which of the following indicates the direction, if any, of the net magnetic force $F_{M}$ exer Segment RS of the loop and provides a valid justification? <img src=\"https://cdn.mathpix.com/cropped/f4817aae-1e9b-4e9c-bc6b-bee8a2cec98b-09.jpg?height=336&width=528&top_left_y=390&top_left_x=559 /> <img src=\"https://cdn.mathpix.com/cropped/f4817aae-1e9b-4e9c-bc6b-bee8a2cec98b-09.jpg?height=378&width=519&top_left_y=360&top_left_x=1182 /></p>",
+          "options": [
+            {
+              "key": "A",
+              "text": "<div class=\"choiceTxt\">$+y$, because the currents in Segment RS and the wire create magnetic fields that produce an attractiv force.</div>",
+              "html": "<div class=\"choiceTxt\">$+y$, because the currents in Segment RS and the wire create magnetic fields that produce an attractiv force.</div>"
+            },
+            {
+              "key": "B",
+              "text": "<div class=\"choiceTxt\">$+y$, because the currents in segments RS and PQ create magnetic fields that produce an attractive f</div>",
+              "html": "<div class=\"choiceTxt\">$+y$, because the currents in segments RS and PQ create magnetic fields that produce an attractive f</div>"
+            },
+            {
+              "key": "C",
+              "text": "<div class=\"choiceTxt\">No direction, because the currents in Segment RS and the wire are constant.</div>",
+              "html": "<div class=\"choiceTxt\">No direction, because the currents in Segment RS and the wire are constant.</div>"
+            },
+            {
+              "key": "D",
+              "text": "<div class=\"choiceTxt\">$-y$, because the currents in Segment RS and the wire create magnetic fields that produce a repulsivs force.</div>",
+              "html": "<div class=\"choiceTxt\">$-y$, because the currents in Segment RS and the wire create magnetic fields that produce a repulsivs force.</div>"
+            },
+            {
+              "key": "E",
+              "text": "<div class=\"choiceTxt\">$-y$, because in the region between Segment RS and the wire, the magnetic field from Segment RS directed in the opposite direction from the magnetic field from the wire.</div>",
+              "html": "<div class=\"choiceTxt\">$-y$, because in the region between Segment RS and the wire, the magnetic field from Segment RS directed in the opposite direction from the magnetic field from the wire.</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "12",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">Circuits 1 and 2 shown each consist of an ideal battery of cmf $E$ and resistors with resistances of $R, 2 R$, and $3 R$. The rates at which thermal energy is dissipated by the resistor with resistance $R$ in circuits 1 and 2 are $P_{1}$ and $P_{2}$, respectively. Which of the following correctly compares $P_{2}$ to $P_{1}$ and provides a valid justification? <img src=\"https://cdn.mathpix.com/cropped/f4817aae-1e9b-4e9c-bc6b-bee8a2cec98b-10.jpg?height=558&width=975&top_left_y=281&top_left_x=673\" /></p>",
+          "options": [
+            {
+              "key": "A",
+              "text": "<div class=\"choiceTxt\">$P_{2}=P_{1}$, because the resistance of the resistor is the same in each circuit.</div>",
+              "html": "<div class=\"choiceTxt\">$P_{2}=P_{1}$, because the resistance of the resistor is the same in each circuit.</div>"
+            },
+            {
+              "key": "B",
+              "text": "<div class=\"choiceTxt\">$P_{2}>P_{1}$, because the equivalent resistance of Circuit 1 is smaller than the equivalent resistance of Circuit 2.</div>",
+              "html": "<div class=\"choiceTxt\">$P_{2}>P_{1}$, because the equivalent resistance of Circuit 1 is smaller than the equivalent resistance of Circuit 2.</div>"
+            },
+            {
+              "key": "C",
+              "text": "<div class=\"choiceTxt\">$P_{2}>P_{1}$, because the current in the resistor for Circuit 1 is smaller than the current in the resistor for Circuit 2.</div>",
+              "html": "<div class=\"choiceTxt\">$P_{2}>P_{1}$, because the current in the resistor for Circuit 1 is smaller than the current in the resistor for Circuit 2.</div>"
+            },
+            {
+              "key": "D",
+              "text": "<div class=\"choiceTxt\">$P_{2}<P_{1}$, because the equivalent resistance of Circuit 1 is larger than the equivalent resistance of Circuit 2.</div>",
+              "html": "<div class=\"choiceTxt\">$P_{2}<P_{1}$, because the equivalent resistance of Circuit 1 is larger than the equivalent resistance of Circuit 2.</div>"
+            },
+            {
+              "key": "E",
+              "text": "<div class=\"choiceTxt\">$P_{2}<P_{1}$, because the current in the resistor for Circuit 1 is larger than the current in the resistor for Circuit 2.</div>",
+              "html": "<div class=\"choiceTxt\">$P_{2}<P_{1}$, because the current in the resistor for Circuit 1 is larger than the current in the resistor for Circuit 2.</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "13",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">The resistance between the left side $X$ and right side $Y$ of two separate pleces, 1 and 2 , of the same resistimaterial is measured. The dimensions of the pieces are shown. The resistances of pieces 1 and 2 are $R_{1}$ and $R_{2}$, respectively. Which of the following correctly relates $R_{2}$ and $R_{1} ?$ <img src=\"https://cdn.mathpix.com/cropped/f4817aae-1e9b-4e9c-bc6b-bee8a2cec98b-11.jpg?height=387&width=350&top_left_y=246&top_left_x=447\" /></p>",
+          "options": [
+            {
+              "key": "A",
+              "text": "<div class=\"choiceTxt\">$R_{2}=1{4} R_{1}$</div>",
+              "html": "<div class=\"choiceTxt\">$R_{2}=1{4} R_{1}$</div>"
+            },
+            {
+              "key": "B",
+              "text": "<div class=\"choiceTxt\">$R_{2}=1{2} R_{1}$</div>",
+              "html": "<div class=\"choiceTxt\">$R_{2}=1{2} R_{1}$</div>"
+            },
+            {
+              "key": "C",
+              "text": "<div class=\"choiceTxt\">$R_{2}=R_{1}$</div>",
+              "html": "<div class=\"choiceTxt\">$R_{2}=R_{1}$</div>"
+            },
+            {
+              "key": "D",
+              "text": "<div class=\"choiceTxt\">$R_{2}=2 R_{1}$</div>",
+              "html": "<div class=\"choiceTxt\">$R_{2}=2 R_{1}$</div>"
+            },
+            {
+              "key": "E",
+              "text": "<div class=\"choiceTxt\">$R_{2}=4 R_{1}$</div>",
+              "html": "<div class=\"choiceTxt\">$R_{2}=4 R_{1}$</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "14",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">Wires $T, U$, and $V$ each carry current and are oriented perpendicular to the plane of the page. Wire T carries current $I$ out of the page. Wire U carries current $2 I$ into the page. The value and direction of the current in Wire V are unknown. The line integral of the magnetic field $B$ taken counterclockwise around the dashed path shown, $\\oint B \\cdot d l$, is equal to $2 \\mu_{0} I$. Which of the following indicates the value and direction of the current in Wire V ? <img src=\"https://cdn.mathpix.com/cropped/f4817aae-1e9b-4e9c-bc6b-bee8a2cec98b-11.jpg?height=377&width=532&top_left_y=269&top_left_x=1264 /></p>",
+          "options": [
+            {
+              "key": "A",
+              "text": "<div class=\"choiceTxt\">I out of the page</div>",
+              "html": "<div class=\"choiceTxt\">I out of the page</div>"
+            },
+            {
+              "key": "B",
+              "text": "<div class=\"choiceTxt\">$2 I$ out of the page</div>",
+              "html": "<div class=\"choiceTxt\">$2 I$ out of the page</div>"
+            },
+            {
+              "key": "C",
+              "text": "<div class=\"choiceTxt\">$2 I$ into the page</div>",
+              "html": "<div class=\"choiceTxt\">$2 I$ into the page</div>"
+            },
+            {
+              "key": "D",
+              "text": "<div class=\"choiceTxt\">$3 I$ out of thé page</div>",
+              "html": "<div class=\"choiceTxt\">$3 I$ out of thé page</div>"
+            },
+            {
+              "key": "E",
+              "text": "<div class=\"choiceTxt\">$3 I$ into the page</div>",
+              "html": "<div class=\"choiceTxt\">$3 I$ into the page</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "15",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">A metal rod of mass $m$ and resistance $R$ is in contact with the rails of a U-shaped conductor of width $d$ and negligible resistance. The rails rest on a horizontal surface. The coefficient of kinetic friction between the rod and rails is $\\mu$. The rod and rails are in a uniform magnetic field of magnitude $B$ that is directed into the surface, as shown. An external force of magnitude $F$ is exerted on the rod so that the rod has constant speed $v$ to the left. Which of the following expressions is equal to the power delivered to the rod by the force? <img src=\"https://cdn.mathpix.com/cropped/f4817aae-1e9b-4e9c-bc6b-bee8a2cec98b-12.jpg?height=539&width=515&top_left_y=205&top_left_x=953\" /> \\hline Point & Direction of $E$ \\\\ \\hline X & No direction \\\\ \\hline Y & Toward Sphere 4 \\\\ \\hline</p>",
+          "options": [
+            {
+              "key": "A",
+              "text": "<div class=\"choiceTxt\">$B d v{R^{\\prime}}$</div>",
+              "html": "<div class=\"choiceTxt\">$B d v{R^{\\prime}}$</div>"
+            },
+            {
+              "key": "B",
+              "text": "<div class=\"choiceTxt\">$B d v{R}+\\mu m g v$</div>",
+              "html": "<div class=\"choiceTxt\">$B d v{R}+\\mu m g v$</div>"
+            },
+            {
+              "key": "C",
+              "text": "<div class=\"choiceTxt\">$B^{2 d^{2} v^{2}}{R}$</div>",
+              "html": "<div class=\"choiceTxt\">$B^{2 d^{2} v^{2}}{R}$</div>"
+            },
+            {
+              "key": "D",
+              "text": "<div class=\"choiceTxt\">$B^{2 d^{2} v^{2}}{R}+\\mu m g v$</div>",
+              "html": "<div class=\"choiceTxt\">$B^{2 d^{2} v^{2}}{R}+\\mu m g v$</div>"
+            },
+            {
+              "key": "E",
+              "text": "<div class=\"choiceTxt\">$B^{2 d^{2} v^{2}}{R}-\\mu m g v$</div>",
+              "html": "<div class=\"choiceTxt\">$B^{2 d^{2} v^{2}}{R}-\\mu m g v$</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "16",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">The figure shown represents the electric field resulting from the square arrangement of charged spheres 1 and 4. The directions, if any, of the electric field $E$ at points $X$ and $Y$ are given in the table. Which of th following identifies the signs of the charges on the spheres, consistent with the collected data? \\hline & Positively Charged & Negatively Charged \\\\ \\hline A & $1,2,3$, and 4 & None \\\\ \\hline B & 1,2 , and 3 & 4 \\\\ \\hline C & 1 and 4 & 2 and 3 \\\\ \\hline D & 2 and 3 & 1 and 4 \\\\ \\hline E & None & $1,2,3$, and 4 \\\\ \\hline <img src=\"https://cdn.mathpix.com/cropped/f4817aae-1e9b-4e9c-bc6b-bee8a2cec98b-13.jpg?height=491&width=665&top_left_y=324&top_left_x=305\" /> Note: Figure not drawn to scale.</p>",
+          "options": [
+            {
+              "key": "A",
+              "text": "<div class=\"choiceTxt\">A</div>",
+              "html": "<div class=\"choiceTxt\">A</div>"
+            },
+            {
+              "key": "B",
+              "text": "<div class=\"choiceTxt\">B</div>",
+              "html": "<div class=\"choiceTxt\">B</div>"
+            },
+            {
+              "key": "C",
+              "text": "<div class=\"choiceTxt\">C</div>",
+              "html": "<div class=\"choiceTxt\">C</div>"
+            },
+            {
+              "key": "D",
+              "text": "<div class=\"choiceTxt\">D</div>",
+              "html": "<div class=\"choiceTxt\">D</div>"
+            },
+            {
+              "key": "E",
+              "text": "<div class=\"choiceTxt\">E</div>",
+              "html": "<div class=\"choiceTxt\">E</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "17",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">Conducting spheres I and 2 are each on an insulating stand. The distance between the spheres is large compared to their diameters. Sphere 1 has a known amount of charge on it, and Sphere 2 is initially neutral. A wire is then connected between the spheres for a long time, as shown. Which of the following indicates the fewest measurable quantities necessary to calculate the electric potential at the surface of each sphere?</p>",
+          "options": [
+            {
+              "key": "A",
+              "text": "<div class=\"choiceTxt\">The diameter of Sphere 1</div>",
+              "html": "<div class=\"choiceTxt\">The diameter of Sphere 1</div>"
+            },
+            {
+              "key": "B",
+              "text": "<div class=\"choiceTxt\">The diameter of Sphere 2</div>",
+              "html": "<div class=\"choiceTxt\">The diameter of Sphere 2</div>"
+            },
+            {
+              "key": "C",
+              "text": "<div class=\"choiceTxt\">The diameters of both spheres</div>",
+              "html": "<div class=\"choiceTxt\">The diameters of both spheres</div>"
+            },
+            {
+              "key": "D",
+              "text": "<div class=\"choiceTxt\">The diameters of both spheres and the length of the wire</div>",
+              "html": "<div class=\"choiceTxt\">The diameters of both spheres and the length of the wire</div>"
+            },
+            {
+              "key": "E",
+              "text": "<div class=\"choiceTxt\">The diameters of both spheres, the length of the wire, and the heights of both stands</div>",
+              "html": "<div class=\"choiceTxt\">The diameters of both spheres, the length of the wire, and the heights of both stands</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "18",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">A long, cylindrical-shaped solenoid has length $\\ell$ and $N$ loops. The diameter of one loop is $d$. Which of the following expressions is equal to the inductance of the solenoid? <img src=\"https://cdn.mathpix.com/cropped/f4817aae-1e9b-4e9c-bc6b-bee8a2cec98b-14.jpg?height=314&width=314&top_left_y=232&top_left_x=1008\" /></p>",
+          "options": [
+            {
+              "key": "A",
+              "text": "<div class=\"choiceTxt\">$1{4} N \\mu_{0 \\pi d^{2}}{\\ell}$</div>",
+              "html": "<div class=\"choiceTxt\">$1{4} N \\mu_{0 \\pi d^{2}}{\\ell}$</div>"
+            },
+            {
+              "key": "B",
+              "text": "<div class=\"choiceTxt\">$1{2} N \\mu_{0 \\pi d^{2}}{\\ell}$</div>",
+              "html": "<div class=\"choiceTxt\">$1{2} N \\mu_{0 \\pi d^{2}}{\\ell}$</div>"
+            },
+            {
+              "key": "C",
+              "text": "<div class=\"choiceTxt\">$1{4} N^{2 \\mu_{0} \\pi d^{2}}{\\ell}$</div>",
+              "html": "<div class=\"choiceTxt\">$1{4} N^{2 \\mu_{0} \\pi d^{2}}{\\ell}$</div>"
+            },
+            {
+              "key": "D",
+              "text": "<div class=\"choiceTxt\">$1{2} N^{2 \\mu_{0} \\pi d^{2}}{\\ell}$</div>",
+              "html": "<div class=\"choiceTxt\">$1{2} N^{2 \\mu_{0} \\pi d^{2}}{\\ell}$</div>"
+            },
+            {
+              "key": "E",
+              "text": "<div class=\"choiceTxt\">$N^{2 \\mu_{0} \\pi d^{2}}{\\ell}$</div>",
+              "html": "<div class=\"choiceTxt\">$N^{2 \\mu_{0} \\pi d^{2}}{\\ell}$</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "19",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">The circuit shown consists of a battery and four identical resistors. Which of the following circuits correctl shows how a fifth identical resistor can be added to the circuit such that the equivalent resistance of the circ is doubled? <img src=\"https://cdn.mathpix.com/cropped/f4817aae-1e9b-4e9c-bc6b-bee8a2cec98b-15.jpg?height=418&width=718&top_left_y=292&top_left_x=426 /> <img src=\"https://cdn.mathpix.com/cropped/f4817aae-1e9b-4e9c-bc6b-bee8a2cec98b-15.jpg?height=201&width=510&top_left_y=413&top_left_x=1264 /></p>",
+          "options": [
+            {
+              "key": "A",
+              "text": "<div class=\"choiceTxt\"><img src=\"https://cdn.mathpix.com/cropped/f4817aae-1e9b-4e9c-bc6b-bee8a2cec98b-14.jpg?height=437&width=321&top_left_y=762&top_left_x=442\" /></div>",
+              "html": "<div class=\"choiceTxt\"><img src=\"https://cdn.mathpix.com/cropped/f4817aae-1e9b-4e9c-bc6b-bee8a2cec98b-14.jpg?height=437&width=321&top_left_y=762&top_left_x=442\" /></div>"
+            },
+            {
+              "key": "B",
+              "text": "<div class=\"choiceTxt\"><img src=\"https://cdn.mathpix.com/cropped/f4817aae-1e9b-4e9c-bc6b-bee8a2cec98b-14.jpg?height=332&width=327&top_left_y=766&top_left_x=1273\" /></div>",
+              "html": "<div class=\"choiceTxt\"><img src=\"https://cdn.mathpix.com/cropped/f4817aae-1e9b-4e9c-bc6b-bee8a2cec98b-14.jpg?height=332&width=327&top_left_y=766&top_left_x=1273\" /></div>"
+            },
+            {
+              "key": "C",
+              "text": "<div class=\"choiceTxt\"><img src=\"https://cdn.mathpix.com/cropped/f4817aae-1e9b-4e9c-bc6b-bee8a2cec98b-14.jpg?height=332&width=380&top_left_y=1277&top_left_x=444\" /></div>",
+              "html": "<div class=\"choiceTxt\"><img src=\"https://cdn.mathpix.com/cropped/f4817aae-1e9b-4e9c-bc6b-bee8a2cec98b-14.jpg?height=332&width=380&top_left_y=1277&top_left_x=444\" /></div>"
+            },
+            {
+              "key": "D",
+              "text": "<div class=\"choiceTxt\"><img src=\"https://cdn.mathpix.com/cropped/f4817aae-1e9b-4e9c-bc6b-bee8a2cec98b-14.jpg?height=350&width=325&top_left_y=1282&top_left_x=1277\" /></div>",
+              "html": "<div class=\"choiceTxt\"><img src=\"https://cdn.mathpix.com/cropped/f4817aae-1e9b-4e9c-bc6b-bee8a2cec98b-14.jpg?height=350&width=325&top_left_y=1282&top_left_x=1277\" /></div>"
+            },
+            {
+              "key": "E",
+              "text": "<div class=\"choiceTxt\"><img src=\"https://cdn.mathpix.com/cropped/f4817aae-1e9b-4e9c-bc6b-bee8a2cec98b-14.jpg?height=334&width=321&top_left_y=1649&top_left_x=442\" /></div>",
+              "html": "<div class=\"choiceTxt\"><img src=\"https://cdn.mathpix.com/cropped/f4817aae-1e9b-4e9c-bc6b-bee8a2cec98b-14.jpg?height=334&width=321&top_left_y=1649&top_left_x=442\" /></div>"
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "20",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">The circuit represented in Figure 1 consists of a battery, a resistor, a switch that has been closed for a long time, and a capacitor. Electric potentials $V_{X}$ and $V_{Y}$ are measured at positions X and Y , respectively, at the terminals of the battery. Figure 2 shows the direction of the electric field $E$ between plates 1 and 2 of the capacitor. Which of the following correctly indicates whether Plate 1 or Plate 2 contains positive charge and indicates the correct sign, if any, of the potential difference $\\Delta V_{X Y}=V_{X}-V_{Y}$ ? \\hline & Plate Containing Positive Charge & Sign of $\\Delta V_{X Y}$ \\\\ \\hline A & 1 & + \\\\ \\hline B & 1 . & - \\\\ \\hline C & 2 & None \\\\ \\hline D & 2 & + \\\\ \\hline E & 2 & - \\\\ \\hline <img src=\"https://cdn.mathpix.com/cropped/f4817aae-1e9b-4e9c-bc6b-bee8a2cec98b-16.jpg?height=490&width=419&top_left_y=355&top_left_x=533 /> <img src=\"https://cdn.mathpix.com/cropped/f4817aae-1e9b-4e9c-bc6b-bee8a2cec98b-16.jpg?height=451&width=850&top_left_y=392&top_left_x=1010 /></p>",
+          "options": [
+            {
+              "key": "A",
+              "text": "<div class=\"choiceTxt\">A</div>",
+              "html": "<div class=\"choiceTxt\">A</div>"
+            },
+            {
+              "key": "B",
+              "text": "<div class=\"choiceTxt\">B</div>",
+              "html": "<div class=\"choiceTxt\">B</div>"
+            },
+            {
+              "key": "C",
+              "text": "<div class=\"choiceTxt\">C</div>",
+              "html": "<div class=\"choiceTxt\">C</div>"
+            },
+            {
+              "key": "D",
+              "text": "<div class=\"choiceTxt\">D</div>",
+              "html": "<div class=\"choiceTxt\">D</div>"
+            },
+            {
+              "key": "E",
+              "text": "<div class=\"choiceTxt\">E</div>",
+              "html": "<div class=\"choiceTxt\">E</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "21",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">A sphere of charge $+2.0 \\times 10^{-8} C$ is launched with different speeds $v$ in the $4 x$-direction toward a region of external uniform magnetic field of magnitude $B$ represented by the dashed square in Figure 1. The magnetic field is perpendicular to the velocity of the sphere but not shown. The resulting magnetic force exerted on th sphere has magnitude $F_{M}$ and is directed in the $+y$-direction immediately after the sphere enters the region. The trend line in Figure 2 represents the best-fit line to the graph of $F_{M}$ as a function of $v$ immediately afte the sphere enters the region. Which of the following best approximates $B$ and indicates the direction of the magnetic field? \\hline & $B(~T)$ & Direction \\\\ \\hline A & 0.5 & +z \\\\ \\hline B & 0.5 & -z \\\\ \\hline C & 1.0 & +z \\\\ \\hline D & 1.0 & -2 \\\\ \\hline E & 1.0 & +y \\\\ \\hline <img src=\"https://cdn.mathpix.com/cropped/f4817aae-1e9b-4e9c-bc6b-bee8a2cec98b-17.jpg?height=845&width=729&top_left_y=351&top_left_x=264\" /></p>",
+          "options": [
+            {
+              "key": "A",
+              "text": "<div class=\"choiceTxt\">A</div>",
+              "html": "<div class=\"choiceTxt\">A</div>"
+            },
+            {
+              "key": "B",
+              "text": "<div class=\"choiceTxt\">B</div>",
+              "html": "<div class=\"choiceTxt\">B</div>"
+            },
+            {
+              "key": "C",
+              "text": "<div class=\"choiceTxt\">C</div>",
+              "html": "<div class=\"choiceTxt\">C</div>"
+            },
+            {
+              "key": "D",
+              "text": "<div class=\"choiceTxt\">D</div>",
+              "html": "<div class=\"choiceTxt\">D</div>"
+            },
+            {
+              "key": "E",
+              "text": "<div class=\"choiceTxt\">E</div>",
+              "html": "<div class=\"choiceTxt\">E</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "22",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">An external force moves a sphere with negative charge $-Q$ at a constant speed through a . uniform electric field of magnitude $E$ that is directed $60^{\\circ}$ above the horizontal, as shown. Which of the following represents the work done by the external force to move the sphere a horizontal distance $L$ ?</p>",
+          "options": [
+            {
+              "key": "A",
+              "text": "<div class=\"choiceTxt\">$-\\sqrt{3}{2} Q E L$</div>",
+              "html": "<div class=\"choiceTxt\">$-\\sqrt{3}{2} Q E L$</div>"
+            },
+            {
+              "key": "B",
+              "text": "<div class=\"choiceTxt\">$-Q E L$</div>",
+              "html": "<div class=\"choiceTxt\">$-Q E L$</div>"
+            },
+            {
+              "key": "C",
+              "text": "<div class=\"choiceTxt\">$-1{2} Q E L$</div>",
+              "html": "<div class=\"choiceTxt\">$-1{2} Q E L$</div>"
+            },
+            {
+              "key": "D",
+              "text": "<div class=\"choiceTxt\">$1{2} Q E L$</div>",
+              "html": "<div class=\"choiceTxt\">$1{2} Q E L$</div>"
+            },
+            {
+              "key": "E",
+              "text": "<div class=\"choiceTxt\">$\\sqrt{3}{2} Q E L$</div>",
+              "html": "<div class=\"choiceTxt\">$\\sqrt{3}{2} Q E L$</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "23",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">Spheres 1, 2, and 3 each have net positive charge $+Q$ and radius $r$. Sphere 1 is a thin conducting shell. Sphere 2 is a solid conductor. Sphere 3 is a solid nonconductor with uniform charge distribution throughout its volume. Each sphere is isolated from the other spheres. The magnitudes of the electric fields at a distance $r{5}$ from the centers of the spheres are $E_{1}, E_{2}$, and $E_{3}$ for spheres 1,2 , and 3 , respectively. Which of the following correctly compares $E_{1}, E_{2}$, and $E_{3}$ ? <img src=\"https://cdn.mathpix.com/cropped/f4817aae-1e9b-4e9c-bc6b-bee8a2cec98b-18.jpg?height=448&width=387&top_left_y=157&top_left_x=1017\" /></p>",
+          "options": [
+            {
+              "key": "A",
+              "text": "<div class=\"choiceTxt\">$E_{1}=E_{2}=E_{3}$</div>",
+              "html": "<div class=\"choiceTxt\">$E_{1}=E_{2}=E_{3}$</div>"
+            },
+            {
+              "key": "B",
+              "text": "<div class=\"choiceTxt\">$\\left(E_{1}=E_{2}\\right)<E_{3}$</div>",
+              "html": "<div class=\"choiceTxt\">$\\left(E_{1}=E_{2}\\right)<E_{3}$</div>"
+            },
+            {
+              "key": "C",
+              "text": "<div class=\"choiceTxt\">$E_{1}<\\left(E_{2}=E_{3}\\right)$</div>",
+              "html": "<div class=\"choiceTxt\">$E_{1}<\\left(E_{2}=E_{3}\\right)$</div>"
+            },
+            {
+              "key": "D",
+              "text": "<div class=\"choiceTxt\">$E_{1}<E_{2}<E_{3}$</div>",
+              "html": "<div class=\"choiceTxt\">$E_{1}<E_{2}<E_{3}$</div>"
+            },
+            {
+              "key": "E",
+              "text": "<div class=\"choiceTxt\">$E_{1}>\\left(E_{2}=E_{3}\\right)$</div>",
+              "html": "<div class=\"choiceTxt\">$E_{1}>\\left(E_{2}=E_{3}\\right)$</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "24",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">A student connects resistors $R_{1}$ and $R_{2}$ separately to a power supply of variable potential difference $\\Delta V$. Fo: each circuit, the student measures the current $I$ in the power supply for different values of $\\Delta V$. The student then creates the graph shown of $\\Delta V$ as a function of $I$ for Circuit 1 , which contains only Resistor $R_{1}$, and Circuit 2 , which contains only Resistor $R_{2}$. The student then creates Circuit $S$ with resistors $R_{1}$ and $R_{2}$ in series and Circuit $P$ with resistors $R_{1}$ and $R_{2}$ in parallel and repeats the measurements. Which of the follow graphs best represents $\\Delta V$ as a function of $I$ for circuits $S$ and $P$ ? (The lines for circuits $I$ and 2 are inclu for reference.) A parallel plate capacitor is connected to a battery for a long time and stores 5 J of energy. The separation distance between the plates is $d$. The battery is then disconnected from the capacitor. Which of the following is equal to the work required to move the plates to separation distance $2 d$ ? <img src=\"https://cdn.mathpix.com/cropped/f4817aae-1e9b-4e9c-bc6b-bee8a2cec98b-20.jpg?height=480&width=382&top_left_y=317&top_left_x=794\" /> <img src=\"https://cdn.mathpix.com/cropped/f4817aae-1e9b-4e9c-bc6b-bee8a2cec98b-20.jpg?height=214&width=227&top_left_y=330&top_left_x=1223\" /></p>",
+          "options": [
+            {
+              "key": "A",
+              "text": "<div class=\"choiceTxt\"><img src=\"https://cdn.mathpix.com/cropped/f4817aae-1e9b-4e9c-bc6b-bee8a2cec98b-18.jpg?height=446&width=416&top_left_y=1026&top_left_x=518\" /></div>",
+              "html": "<div class=\"choiceTxt\"><img src=\"https://cdn.mathpix.com/cropped/f4817aae-1e9b-4e9c-bc6b-bee8a2cec98b-18.jpg?height=446&width=416&top_left_y=1026&top_left_x=518\" /></div>"
+            },
+            {
+              "key": "B",
+              "text": "<div class=\"choiceTxt\"><img src=\"https://cdn.mathpix.com/cropped/f4817aae-1e9b-4e9c-bc6b-bee8a2cec98b-18.jpg?height=437&width=392&top_left_y=1026&top_left_x=1204\" /></div>",
+              "html": "<div class=\"choiceTxt\"><img src=\"https://cdn.mathpix.com/cropped/f4817aae-1e9b-4e9c-bc6b-bee8a2cec98b-18.jpg?height=437&width=392&top_left_y=1026&top_left_x=1204\" /></div>"
+            },
+            {
+              "key": "C",
+              "text": "<div class=\"choiceTxt\"><img src=\"https://cdn.mathpix.com/cropped/f4817aae-1e9b-4e9c-bc6b-bee8a2cec98b-18.jpg?height=437&width=393&top_left_y=1519&top_left_x=518\" /></div>",
+              "html": "<div class=\"choiceTxt\"><img src=\"https://cdn.mathpix.com/cropped/f4817aae-1e9b-4e9c-bc6b-bee8a2cec98b-18.jpg?height=437&width=393&top_left_y=1519&top_left_x=518\" /></div>"
+            },
+            {
+              "key": "D",
+              "text": "<div class=\"choiceTxt\"><img src=\"https://cdn.mathpix.com/cropped/f4817aae-1e9b-4e9c-bc6b-bee8a2cec98b-18.jpg?height=423&width=394&top_left_y=1510&top_left_x=1204\" /></div>",
+              "html": "<div class=\"choiceTxt\"><img src=\"https://cdn.mathpix.com/cropped/f4817aae-1e9b-4e9c-bc6b-bee8a2cec98b-18.jpg?height=423&width=394&top_left_y=1510&top_left_x=1204\" /></div>"
+            },
+            {
+              "key": "E",
+              "text": "<div class=\"choiceTxt\"><img src=\"https://cdn.mathpix.com/cropped/f4817aae-1e9b-4e9c-bc6b-bee8a2cec98b-18.jpg?height=437&width=391&top_left_y=2008&top_left_x=506\" /></div>",
+              "html": "<div class=\"choiceTxt\"><img src=\"https://cdn.mathpix.com/cropped/f4817aae-1e9b-4e9c-bc6b-bee8a2cec98b-18.jpg?height=437&width=391&top_left_y=2008&top_left_x=506\" /></div>"
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "25",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">A conducting loop with labeled sides 1 and 2 is held at rest in a region of an external uniform magnetic field magnitude $B$ that is directed in the $-z$-direction, as shown. Starting at time $t=0, B$ is increased linearly as : function of $t$. The magnetic forces exerted on sides 1 and 2 are $F_{1}$ and $F_{2}$, respectively. Which of the follow best describes $F_{1}$ and $F_{2}$ immediately after $t=0$ ? \\hline & $F_{1}$ & $F_{2}$ \\\\ \\hline A & In the $+x$-direction and increasing & In the $-y$-direction and increasing \\\\ \\hline B & In the $+y$-direction and increasing & In the $+x$-direction and increasing \\\\ \\hline C & In the $-y$-direction and increasing & In the $-x$-direction and increasing \\\\ \\hline D & In the $+x$-direction and decreasing & In the $-y$-direction and decreasing \\\\ \\hline E & In the $-y$-direction and decreasing & In the $-x$-direction and decreasing \\\\ \\hline <img src=\"https://cdn.mathpix.com/cropped/f4817aae-1e9b-4e9c-bc6b-bee8a2cec98b-21.jpg?height=241&width=638&top_left_y=319&top_left_x=200 /> <img src=\"https://cdn.mathpix.com/cropped/f4817aae-1e9b-4e9c-bc6b-bee8a2cec98b-21.jpg?height=232&width=807&top_left_y=330&top_left_x=967 /> i. Small spheres 1,2 , and 3 of charges $+Q,-Q$, and $+Q$, respectively, are held at rest on the $x$-axis. When the centers of spheres 1 and 2 are distance $r$ apart and the centers of spheres 1 and 3 are $2 r$ apart, as shown in Figure 1, the magnitude of the net electric force exerted on Sphere 1 is $F$. Sphere 3 is then moved in the $+x$-direction and held at rest so that the centers of spheres 1 and 3 are $3 r$ apart, as shown in Figure 2. Which of the following is equal to the magnitude of the resulting net electric force exerted on Sphere 1 in Figure 2? <img src=\"https://cdn.mathpix.com/cropped/f4817aae-1e9b-4e9c-bc6b-bee8a2cec98b-22.jpg?height=222&width=430&top_left_y=429&top_left_x=547 /> <img src=\"https://cdn.mathpix.com/cropped/f4817aae-1e9b-4e9c-bc6b-bee8a2cec98b-22.jpg?height=330&width=701&top_left_y=367&top_left_x=1086 /></p>",
+          "options": [
+            {
+              "key": "A",
+              "text": "<div class=\"choiceTxt\">A</div>",
+              "html": "<div class=\"choiceTxt\">A</div>"
+            },
+            {
+              "key": "B",
+              "text": "<div class=\"choiceTxt\">B</div>",
+              "html": "<div class=\"choiceTxt\">B</div>"
+            },
+            {
+              "key": "C",
+              "text": "<div class=\"choiceTxt\">C</div>",
+              "html": "<div class=\"choiceTxt\">C</div>"
+            },
+            {
+              "key": "D",
+              "text": "<div class=\"choiceTxt\">D</div>",
+              "html": "<div class=\"choiceTxt\">D</div>"
+            },
+            {
+              "key": "E",
+              "text": "<div class=\"choiceTxt\">E</div>",
+              "html": "<div class=\"choiceTxt\">E</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "26",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">A rectangular loop of wire has side lengths of 0.40 m and 0.20 m , as shown in Figure 1. The loop is placed ir uniform magnetic field $B$ of magnitude 10.0 mT that is directed at an angle of $37^{\\circ}$ to the plane of and throu the loop, as shown in Figure 2. What is the magnetic flux through the loop?</p>",
+          "options": [
+            {
+              "key": "A",
+              "text": "<div class=\"choiceTxt\">$0.48 mT \\cdot m^{2}$</div>",
+              "html": "<div class=\"choiceTxt\">$0.48 mT \\cdot m^{2}$</div>"
+            },
+            {
+              "key": "B",
+              "text": "<div class=\"choiceTxt\">$0.60 mT \\cdot m^{2}$</div>",
+              "html": "<div class=\"choiceTxt\">$0.60 mT \\cdot m^{2}$</div>"
+            },
+            {
+              "key": "C",
+              "text": "<div class=\"choiceTxt\">$0.64 mT \\cdot m^{2}$</div>",
+              "html": "<div class=\"choiceTxt\">$0.64 mT \\cdot m^{2}$</div>"
+            },
+            {
+              "key": "D",
+              "text": "<div class=\"choiceTxt\">$0.80 mT \\cdot m^{2}$</div>",
+              "html": "<div class=\"choiceTxt\">$0.80 mT \\cdot m^{2}$</div>"
+            },
+            {
+              "key": "E",
+              "text": "<div class=\"choiceTxt\">$1.39 mT \\cdot m^{2}$</div>",
+              "html": "<div class=\"choiceTxt\">$1.39 mT \\cdot m^{2}$</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "27",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">Parallel-plate capacitors 1 and 2 each have identical plate areas. Capacitor 1 is filled with air, has a plate separation of $4.0 \\times 10^{-3} ~m$, and has a capacitance of $2.0 \\mu ~F$. Capacitor 2 is filled with a material of dielectric constant $x=3$, and the plates are separated by a distance of $2.0 \\times 10^{-3} ~m$. Which of the following is equal to the capacitance of Capacitor 2 ? <img src=\"https://cdn.mathpix.com/cropped/f4817aae-1e9b-4e9c-bc6b-bee8a2cec98b-23.jpg?height=640&width=360&top_left_y=214&top_left_x=200 /> <img src=\"https://cdn.mathpix.com/cropped/f4817aae-1e9b-4e9c-bc6b-bee8a2cec98b-23.jpg?height=629&width=930&top_left_y=264&top_left_x=889 /> - A long, straight wire is parallel to the $y$-axis, as shown in Figure 1. The wire carries current 1. A graph of the $z$-component $B_{z}$. of the magnetic field as a function of position $x$ outside of the wire is shown in Figure 2. Which of the following correctly indicates the direction of $I$ and provides a valid justification? <img src=\"https://cdn.mathpix.com/cropped/f4817aae-1e9b-4e9c-bc6b-bee8a2cec98b-24.jpg?height=503&width=789&top_left_y=214&top_left_x=330\" /></p>",
+          "options": [
+            {
+              "key": "A",
+              "text": "<div class=\"choiceTxt\">$0.20 \\mu ~F$</div>",
+              "html": "<div class=\"choiceTxt\">$0.20 \\mu ~F$</div>"
+            },
+            {
+              "key": "B",
+              "text": "<div class=\"choiceTxt\">$0.30 \\mu ~F$</div>",
+              "html": "<div class=\"choiceTxt\">$0.30 \\mu ~F$</div>"
+            },
+            {
+              "key": "C",
+              "text": "<div class=\"choiceTxt\">$2.0 \\mu ~F$</div>",
+              "html": "<div class=\"choiceTxt\">$2.0 \\mu ~F$</div>"
+            },
+            {
+              "key": "D",
+              "text": "<div class=\"choiceTxt\">$6.0 \\mu ~F$</div>",
+              "html": "<div class=\"choiceTxt\">$6.0 \\mu ~F$</div>"
+            },
+            {
+              "key": "E",
+              "text": "<div class=\"choiceTxt\">$12 \\mu ~F$</div>",
+              "html": "<div class=\"choiceTxt\">$12 \\mu ~F$</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "28",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">The graph shows the electric potential $V$ in a region of space as a function of position $x$. The electric field is parallel to the $x$-axis. Which of the following claims about the electric field is correct? <img src=\"https://cdn.mathpix.com/cropped/f4817aae-1e9b-4e9c-bc6b-bee8a2cec98b-25.jpg?height=674&width=611&top_left_y=269&top_left_x=314 /> <img src=\"https://cdn.mathpix.com/cropped/f4817aae-1e9b-4e9c-bc6b-bee8a2cec98b-25.jpg?height=642&width=606&top_left_y=292&top_left_x=1115 /></p>",
+          "options": [
+            {
+              "key": "A",
+              "text": "<div class=\"choiceTxt\">The electric field is zero at $x=1.0 ~m$.</div>",
+              "html": "<div class=\"choiceTxt\">The electric field is zero at $x=1.0 ~m$.</div>"
+            },
+            {
+              "key": "B",
+              "text": "<div class=\"choiceTxt\">The electric field changes direction between $x=2.0 ~m$ and $x=4.0 ~m$.</div>",
+              "html": "<div class=\"choiceTxt\">The electric field changes direction between $x=2.0 ~m$ and $x=4.0 ~m$.</div>"
+            },
+            {
+              "key": "C",
+              "text": "<div class=\"choiceTxt\">The magnitude of the electric field is a maximum at $x=4.0 ~m$.</div>",
+              "html": "<div class=\"choiceTxt\">The magnitude of the electric field is a maximum at $x=4.0 ~m$.</div>"
+            },
+            {
+              "key": "D",
+              "text": "<div class=\"choiceTxt\">The electric field is zero at $x=5.0 ~m$.</div>",
+              "html": "<div class=\"choiceTxt\">The electric field is zero at $x=5.0 ~m$.</div>"
+            },
+            {
+              "key": "E",
+              "text": "<div class=\"choiceTxt\">The magnitude of the electric field is a maximum at $x=5.0 ~m$.</div>",
+              "html": "<div class=\"choiceTxt\">The magnitude of the electric field is a maximum at $x=5.0 ~m$.</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "29",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">An isolated sphere with positive charge $+Q$ is positioned at the origin of an $x y$-coordinate system. Point P has coordinates $(0, d)$, as shown in Figure 1. The magnitude of the electric field at Point P due to the sphere is $E_{0}$ Additional points $A, B, C, D$, and E and their respective coordinates are labeled in Figure 2. At which of the following labeled points should the sphere be placed so the magnitude of the electric field at Point P is $E_{0}{2}$ ? <img src=\"https://cdn.mathpix.com/cropped/f4817aae-1e9b-4e9c-bc6b-bee8a2cec98b-26.jpg?height=282&width=624&top_left_y=273&top_left_x=378\" /></p>",
+          "options": [
+            {
+              "key": "A",
+              "text": "<div class=\"choiceTxt\">A</div>",
+              "html": "<div class=\"choiceTxt\">A</div>"
+            },
+            {
+              "key": "B",
+              "text": "<div class=\"choiceTxt\">B</div>",
+              "html": "<div class=\"choiceTxt\">B</div>"
+            },
+            {
+              "key": "C",
+              "text": "<div class=\"choiceTxt\">C</div>",
+              "html": "<div class=\"choiceTxt\">C</div>"
+            },
+            {
+              "key": "D",
+              "text": "<div class=\"choiceTxt\">D</div>",
+              "html": "<div class=\"choiceTxt\">D</div>"
+            },
+            {
+              "key": "E",
+              "text": "<div class=\"choiceTxt\">E</div>",
+              "html": "<div class=\"choiceTxt\">E</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "30",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">An air-filled capacitor is connected in series to another capacitor that contains a dielectric material of dielectric constant $x$ that completely fills the region between the plates. The plates of each capacitor are separated by distance $d$ and each plate has area $A$, as shown. Which of the following is equal to the equivalent capacitance of the capacitors? <img src=\"https://cdn.mathpix.com/cropped/f4817aae-1e9b-4e9c-bc6b-bee8a2cec98b-26.jpg?height=437&width=435&top_left_y=278&top_left_x=1419\" /></p>",
+          "options": [
+            {
+              "key": "A",
+              "text": "<div class=\"choiceTxt\">$1{2} \\kappa \\varepsilon_{0 A}{d}$</div>",
+              "html": "<div class=\"choiceTxt\">$1{2} \\kappa \\varepsilon_{0 A}{d}$</div>"
+            },
+            {
+              "key": "B",
+              "text": "<div class=\"choiceTxt\">$\\varepsilon_{0 A}{d}(1+\\kappa)$</div>",
+              "html": "<div class=\"choiceTxt\">$\\varepsilon_{0 A}{d}(1+\\kappa)$</div>"
+            },
+            {
+              "key": "C",
+              "text": "<div class=\"choiceTxt\">$1{2} \\varepsilon_{0 A}{d}\\left(\\kappa{\\kappa+1}\\right)$.</div>",
+              "html": "<div class=\"choiceTxt\">$1{2} \\varepsilon_{0 A}{d}\\left(\\kappa{\\kappa+1}\\right)$.</div>"
+            },
+            {
+              "key": "D",
+              "text": "<div class=\"choiceTxt\">$\\varepsilon_{0 A}{d}\\left(\\kappa{\\kappa+1}\\right)$</div>",
+              "html": "<div class=\"choiceTxt\">$\\varepsilon_{0 A}{d}\\left(\\kappa{\\kappa+1}\\right)$</div>"
+            },
+            {
+              "key": "E",
+              "text": "<div class=\"choiceTxt\">$\\varepsilon_{0 A}{d}\\left(\\kappa+1{\\kappa}\\right)$</div>",
+              "html": "<div class=\"choiceTxt\">$\\varepsilon_{0 A}{d}\\left(\\kappa+1{\\kappa}\\right)$</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "31",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">A charged particle of mass $m$, charge $q$, and with speed $v$ enters a region of uniform magnetic field of magnitude $B_{0}$ that is directe into the page. The particle travels in a circula path of radius $R_{1}$, as shown. A second particl mass $m$, charge $3 q$, and with speed $v{2}$ then enters the field along the same direction as t first particle. The second particle moves in : circular path of radius $R_{2}$. Which of the following correctly relates $R_{2}$ and $R_{1}$ ? <img src=\"https://cdn.mathpix.com/cropped/f4817aae-1e9b-4e9c-bc6b-bee8a2cec98b-27.jpg?height=487&width=802&top_left_y=264&top_left_x=123\" /></p>",
+          "options": [
+            {
+              "key": "A",
+              "text": "<div class=\"choiceTxt\">$R_{2}=6 R_{1}$</div>",
+              "html": "<div class=\"choiceTxt\">$R_{2}=6 R_{1}$</div>"
+            },
+            {
+              "key": "B",
+              "text": "<div class=\"choiceTxt\">$R_{2}=3{2} R_{1}$</div>",
+              "html": "<div class=\"choiceTxt\">$R_{2}=3{2} R_{1}$</div>"
+            },
+            {
+              "key": "C",
+              "text": "<div class=\"choiceTxt\">$R_{2}=2{3} R_{1}$</div>",
+              "html": "<div class=\"choiceTxt\">$R_{2}=2{3} R_{1}$</div>"
+            },
+            {
+              "key": "D",
+              "text": "<div class=\"choiceTxt\">$R_{2}=1{5} R_{1}$</div>",
+              "html": "<div class=\"choiceTxt\">$R_{2}=1{5} R_{1}$</div>"
+            },
+            {
+              "key": "E",
+              "text": "<div class=\"choiceTxt\">$R_{2}=1{6} R_{1}$</div>",
+              "html": "<div class=\"choiceTxt\">$R_{2}=1{6} R_{1}$</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "32",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">Two resistors, each of resistance $R$, are connected to a rectangular loop of wire that has height $h$ and width $w$. The loop moves with speed $v$ toward a region of external uniform magnetic field of magnitude $B$ that is directed out of the page, as shown. Point $\\mathrm{P}$ is located on the side of the loop that is closest to the magnetic field, as shown. A magnetic force of magnitude $F_{M}$ is exerted on the loop. immediately after Point P enters the magnetic field. Which of the following expressions is equal to $F_{M}$ ? <img src=\"https://cdn.mathpix.com/cropped/f4817aae-1e9b-4e9c-bc6b-bee8a2cec98b-27.jpg?height=350&width=355&top_left_y=264&top_left_x=1131 /> <img src=\"https://cdn.mathpix.com/cropped/f4817aae-1e9b-4e9c-bc6b-bee8a2cec98b-27.jpg?height=469&width=366&top_left_y=273&top_left_x=1595 /></p>",
+          "options": [
+            {
+              "key": "A",
+              "text": "<div class=\"choiceTxt\">$1{2} B^{2 w^{2} v}{R}$.</div>",
+              "html": "<div class=\"choiceTxt\">$1{2} B^{2 w^{2} v}{R}$.</div>"
+            },
+            {
+              "key": "B",
+              "text": "<div class=\"choiceTxt\">$2 B^{2 w^{2} v}{R}$</div>",
+              "html": "<div class=\"choiceTxt\">$2 B^{2 w^{2} v}{R}$</div>"
+            },
+            {
+              "key": "C",
+              "text": "<div class=\"choiceTxt\">$1{2} B^{2 h^{2} v}{R}$</div>",
+              "html": "<div class=\"choiceTxt\">$1{2} B^{2 h^{2} v}{R}$</div>"
+            },
+            {
+              "key": "D",
+              "text": "<div class=\"choiceTxt\">$2 B^{2 h^{2} v}{R}$</div>",
+              "html": "<div class=\"choiceTxt\">$2 B^{2 h^{2} v}{R}$</div>"
+            },
+            {
+              "key": "E",
+              "text": "<div class=\"choiceTxt\">$2 B^{2 w h v}{R}$</div>",
+              "html": "<div class=\"choiceTxt\">$2 B^{2 w h v}{R}$</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "33",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">The circuit in Figure 1 consists of an ideal battery, two resistors, each of resistance $R$, and ammeter A that measures current $I_{1}$. The circuit in Figure 2 consists of the battery, three resistors, each of resistance $R$, and ammeter A that measures current $I_{2}$. Which of the following is equal to $I_{2}$ ? <img src=\"https://cdn.mathpix.com/cropped/f4817aae-1e9b-4e9c-bc6b-bee8a2cec98b-28.jpg?height=505&width=724&top_left_y=255&top_left_x=310\" /></p>",
+          "options": [
+            {
+              "key": "A",
+              "text": "<div class=\"choiceTxt\">$1{3} I_{1}$</div>",
+              "html": "<div class=\"choiceTxt\">$1{3} I_{1}$</div>"
+            },
+            {
+              "key": "B",
+              "text": "<div class=\"choiceTxt\">$1{2} I_{1}$</div>",
+              "html": "<div class=\"choiceTxt\">$1{2} I_{1}$</div>"
+            },
+            {
+              "key": "C",
+              "text": "<div class=\"choiceTxt\">$3{4} I_{1}$</div>",
+              "html": "<div class=\"choiceTxt\">$3{4} I_{1}$</div>"
+            },
+            {
+              "key": "D",
+              "text": "<div class=\"choiceTxt\">$I_{1}$</div>",
+              "html": "<div class=\"choiceTxt\">$I_{1}$</div>"
+            },
+            {
+              "key": "E",
+              "text": "<div class=\"choiceTxt\">$4{3} I_{1}$</div>",
+              "html": "<div class=\"choiceTxt\">$4{3} I_{1}$</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "34",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">A circular conducting loop of radius $r$ rotates with angular frequency $\\omega$ about a central axis that is parallel to the $y$-axis. The loop is in a region of external uniform magnetic field of magnitude $B$ that is in the $+z$-direction, as shown. Which of the following expressions is equal to the maximum induced emf in the loop? \\section*{Question 1} Begin your response to QUESTION 1 on this page. PHYSICS C: ELECTRICITY AND MAGNETISM SECTION II Time-45 minutes 3 Questions Directions: Answer all three questions. The suggested time is about 15 minutes for answering each of the questions, which are worth 15 points each. The parts within a question may not have equal weight. Show all your work in this booklet in the spaces provided after each part. <img src=\"https://cdn.mathpix.com/cropped/f4817aae-1e9b-4e9c-bc6b-bee8a2cec98b-29.jpg?height=1019&width=644&top_left_y=1044&top_left_x=830 /> Note: Figure not drawn to scale.</p>",
+          "options": [
+            {
+              "key": "A",
+              "text": "<div class=\"choiceTxt\">$1{4} B \\pi r^{2} \\omega$</div>",
+              "html": "<div class=\"choiceTxt\">$1{4} B \\pi r^{2} \\omega$</div>"
+            },
+            {
+              "key": "B",
+              "text": "<div class=\"choiceTxt\">$1{2} B \\pi r^{2} \\omega$</div>",
+              "html": "<div class=\"choiceTxt\">$1{2} B \\pi r^{2} \\omega$</div>"
+            },
+            {
+              "key": "C",
+              "text": "<div class=\"choiceTxt\">$B \\pi r^{2} \\omega$</div>",
+              "html": "<div class=\"choiceTxt\">$B \\pi r^{2} \\omega$</div>"
+            },
+            {
+              "key": "D",
+              "text": "<div class=\"choiceTxt\">$2 B \\pi r^{2} \\omega$</div>",
+              "html": "<div class=\"choiceTxt\">$2 B \\pi r^{2} \\omega$</div>"
+            },
+            {
+              "key": "E",
+              "text": "<div class=\"choiceTxt\">$4 B \\pi r^{2} \\omega$</div>",
+              "html": "<div class=\"choiceTxt\">$4 B \\pi r^{2} \\omega$</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "35",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">Conducting Sphere A of radius $2 r$ and positive net charge $+Q$ is attached to an insulated stand. Neutral conducting Sphere B of radius $r$ and mass $M$ is suspended by an insulated string so that Sphere B is at rest directly above Sphere A. The tension force exerted on Sphere B by the string has magnitude $T_{1}$. The centers of the spheres are separated by distance $d$, as shown in Figure 1, where $r$ \\& $d$. Point $S$ is midway between the centers of the spheres. Unauthorized copying or reuse of this page is Illegal. Page 2 GO ON TO THE NEXT PAGE Use a pencll or a pen with black or dark blue Ink. Do NOT write your name. Do NOT write outside the box. \\section*{Question 1} Continue your response to QUESTION 1 on this page. (a) The dots in Figure 2 represent the center of Sphere A, Point S, and the center of Sphere B. In Figure 2, draw a single arrow on each dot to represent the direction of the net electric field at the location of the dot. Each arrow must start on and point away from the dot. If the net electric field is zero, write \" $E=0$ \" next to the dot. <img src=\"https://cdn.mathpix.com/cropped/f4817aae-1e9b-4e9c-bc6b-bee8a2cec98b-30.jpg?height=1030&width=617&top_left_y=611&top_left_x=839\" /> HELIDIDIDERNINM Note: Figure not drawn to scale. \\section*{Continue your response to QUESTION 1 on this page.} <img src=\"https://cdn.mathpix.com/cropped/f4817aae-1e9b-4e9c-bc6b-bee8a2cec98b-31.jpg?height=1106&width=880&top_left_y=314&top_left_x=798 /> Note: Figure not drawn to scale. At time $t=0$, a lightbulb of resistance $R$ and conducting wires are connected between the spheres, as sho Figure 3. The lightbulb remains connected between the spheres for a long time $t_{1}$. \\section*{Question 1} Continue your response to QUESTION 1 on this page. (b) Consider time interval $0 \\leq t \\leq t_{1}$. i. On the axes shown, sketch a graph of the electrical power $p$ dissipated by the lightbulb as a function of $t$ during $0 \\leq t \\leq t_{1}$. Explicitly label the vertical intercept in terms of $r, Q, M, t_{1}, d, R$, and physical constants, as appropriate. <img src=\"https://cdn.mathpix.com/cropped/f4817aae-1e9b-4e9c-bc6b-bee8a2cec98b-32.jpg?height=537&width=638&top_left_y=769&top_left_x=880\" /> ii. $Q_{A}(t)$ and $Q_{B}(t)$ represent the net charges on spheres A and B , respectively, as functions of $t$. $V_{A}(t)$ and $V_{B}(t)$ represent the electric potentials at the centers of spheres $A$ and $B$, respectively, as functions of $t$. - Derive an expression for the potential difference $\\Delta V(t)$ between the spheres as a function of $t$, where $\\Delta V(t)=V_{A}(t)-V_{B}(t)$, to show that $\\Delta V(t)=k\\left(3 Q_{\\mathrm{A}(t)}{2 r}-Q{r}\\right)$, where $k=1{4 \\pi \\varepsilon_{0}}$. (c) After $t_{1}$, the lightbulb and wires are removed without disturbing the charges on spheres $A$ and $B \\cdot Q_{A}$ is charge on Sphere A , and $\\ell_{B}$ is the net charge on Sphere B. i. Calculate the ratio $Q_{\\mathrm{B}}{Q_{A}}$. ii. The magnitude of the net electric field at Point $S$ is now $E_{nc W}$. Derive an expression for $E_{new}$ in ter of $r, Q, M, t_{1}, d, R$, and physical constants, is appropriate. Continue your response to QUESTION 1 on this page. <img src=\"https://cdn.mathpix.com/cropped/f4817aae-1e9b-4e9c-bc6b-bee8a2cec98b-34.jpg?height=838&width=556&top_left_y=618&top_left_x=880 /> (d) Sphere $B$ is replaced with nonconducting Sphere $C$ of the same radius $r$, the same mass $M$, and the same charge $\\ell_{B}$ as those of Sphere B in part (c). Sphere A is replaced by nonconducting Sphere D of the same radius $2 r$ and the same charge $Q_{A}$ as those of Sphere A in part (c). The charge is distributed uniformly throughout the volume of each sphere. Sphere D is moved close to Sphere C. Sphere D is then held at rest directly underneath Sphere C such that $r \\ll d$ is no longer assumed, as shown in Figure 4. i. Describe the changes, if any, in the distribution of charge on Sphere D as Sphere D is moved closer to Sphere C. ii. The tension force exerted on Sphere C by the string has magnitude $T_{2}$ after Sphere D is brought to rest. Indicate whether $T_{2}$ is greater than, less than, or equal to $T_{1}$, the magnitude of the tension force exerted on Sphere B in Figure 1. Briefly justify your answer. Begin your response to QUESTION 2 on this page. \\hline Capacitor & Switch & Resistor & Battery & Connecting \\\\ Wires & Ammeter \\\\ \\hline- & - & - & - & - & - (A) \\\\ \\hline</p>",
+          "options": [],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "36",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">Students are asked to determine an experimental value for the capacitance $C_{\\text {EXP }}$ of an initially uncharged capacitor. The students use the capacitor, a switch, two $3.3 \\times 10^{5} \\Omega$ resistors, a 9.0 V battery, connecting win and an ammeter that measures current as a function of time. (a) A circuit is assembled that maximizes the time constant $\\tau$ of the circuit. The circuit can be used to determine $C_{EXP}$. i. Using the symbols shown, draw a schematic diagram of the circuit that includes both resistors. ii. Describe a procedure for collecting data as the capacitor is being charged that would allow the stud to determine $C_{\\text {EXP }}$. Provide enough detail so that another student could replicate the experiment. \\section*{Question 2} \\section*{Continue your response to QUESTION 2 on this page.} (b) It is determined that $\\tau=3.1 ~s$. Calculate $C_{BXP}$. At time $t=3.1 ~s$, the charge on the positive plate of the capacitor was $Q_{1}$. After the experiment, it is determined that the ammeter that was used was nonideal. The experiment is repeated with an ideal ammeter. At time $t=3.1 ~s$, the charge on the positive plate of the capacitor is $\\ell_{2}$. (c) Indicate whether $Q_{2}$ is greater than, less than, or equal to $Q_{1}$. $\\_\\_\\_\\_$ $\\ell_{2}>\\ell_{1}$ $\\_\\_\\_\\_$ $Q_{2}<Q_{1}$ $\\_\\_\\_\\_$ $\\ell_{2}=\\ell_{1}$ Justify your answer. <img src=\"https://cdn.mathpix.com/cropped/f4817aae-1e9b-4e9c-bc6b-bee8a2cec98b-36.jpg?height=2511&width=111&top_left_y=276&top_left_x=1932\" /> \\section*{Question 2} Continue your response to QUESTION 2 on this page. <img src=\"https://cdn.mathpix.com/cropped/f4817aae-1e9b-4e9c-bc6b-bee8a2cec98b-37.jpg?height=433&width=364&top_left_y=483&top_left_x=748 /> <img src=\"https://cdn.mathpix.com/cropped/f4817aae-1e9b-4e9c-bc6b-bee8a2cec98b-37.jpg?height=291&width=236&top_left_y=577&top_left_x=1186 /> <img src=\"https://cdn.mathpix.com/cropped/f4817aae-1e9b-4e9c-bc6b-bee8a2cec98b-37.jpg?height=49&width=131&top_left_y=867&top_left_x=1195 /> In a different experiment, students are asked to determine an experimental value for the dielectric constant $\\kappa$ of a type of plastic. The students have two parallel conducting plates and six different slabs made of the plastic. The slabs differ in thickness. For each trial, one slab is inserted between the plates to make a capacitor. The plate separation $d$ is adjusted so that $d$ is the slab thickness. The capacitance $C$ of the capacitor is then determined. The capacitor for two trials is shown. Collected data are used to plot the following graph of $C$ as a function of $1{d}$. <img src=\"https://cdn.mathpix.com/cropped/f4817aae-1e9b-4e9c-bc6b-bee8a2cec98b-37.jpg?height=649&width=1206&top_left_y=1490&top_left_x=451\" /> (d) i. Draw the best-fit line for the data. Use a pencil or a pen with black or dark blue ink. Do NOT write your name. Do NOT write outside the box. \\section*{Questión 2} Continue your response to QUESTION 2 on this page. ii. Using the best-fit line, calculate the experimental value for $\\kappa$. Each plate has area $5.0 \\times 10^{-2} ~m^{2}$. LUBSLION - Begin your response to QUESTION 3 on this page. \\section*{Wire 1 \\\\ Wire 2 \\\\ Figure 1. Side Vlew}</p>",
+          "options": [],
+          "answer": "",
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "title": "Section II: Free Response",
+      "type": "frq",
+      "questions": [
+        {
+          "id": "1",
+          "type": "free-response",
+          "prompt": "<p class=\"stem_paragraph\">Conducting Sphere A of radius $2 r$ and positive net charge $+Q$ is attached to an insulated stand. Neutral conducting Sphere B of radius $r$ and mass $M$ is suspended by an insulated string so that Sphere B is at rest directly above Sphere A. The tension force exerted on Sphere B by the string has magnitude $T_{1}$. The centers of the spheres are separated by distance $d$, as shown in Figure 1, where $r$ \\& $d$. Point $S$ is midway between the centers of the spheres. Unauthorized copying or reuse of this page is Illegal. Page 2 GO ON TO THE NEXT PAGE Use a pencll or a pen with black or dark blue Ink. Do NOT write your name. Do NOT write outside the box. Continue your response to QUESTION 1 on this page.</p>",
+          "parts": [
+            {
+              "partSign": "a",
+              "partContent": "<p class=\"stem_paragraph\">The dots in Figure 2 represent the center of Sphere A, Point S, and the center of Sphere B. In Figure 2, draw a single arrow on each dot to represent the direction of the net electric field at the location of the dot. Each arrow must start on and point away from the dot. If the net electric field is zero, write \" $E=0$ \" next to the dot. <img src=\"https://cdn.mathpix.com/cropped/f4817aae-1e9b-4e9c-bc6b-bee8a2cec98b-30.jpg?height=1030&width=617&top_left_y=611&top_left_x=839\" /> HELIDIDIDERNINM Note: Figure not drawn to scale. \\includegraphics[alt={},max width=\\textwidth]{https://cdn.mathpix.com/cropped/f4817aae-1e9b-4e9c-bc6b-bee8a2cec98b-31.jpg?height=1106&width=880&top_left_y=314&top_left_x=798} Note: Figure not drawn to scale. At time $t=0$, a lightbulb of resistance $R$ and conducting wires are connected between the spheres, as sho Figure 3. The lightbulb remains connected between the spheres for a long time $t_{1}$. Continue your response to QUESTION 1 on this page.</p>"
+            },
+            {
+              "partSign": "b",
+              "partContent": "<p class=\"stem_paragraph\">Consider time interval $0 \\leq t \\leq t_{1}$. i. On the axes shown, sketch a graph of the electrical power $p$ dissipated by the lightbulb as a function of $t$ during $0 \\leq t \\leq t_{1}$. Explicitly label the vertical intercept in terms of $r, Q, M, t_{1}, d, R$, and physical constants, as appropriate. <img src=\"https://cdn.mathpix.com/cropped/f4817aae-1e9b-4e9c-bc6b-bee8a2cec98b-32.jpg?height=537&width=638&top_left_y=769&top_left_x=880\" /> ii. $Q_{A}(t)$ and $Q_{B}(t)$ represent the net charges on spheres A and B , respectively, as functions of $t$. $V_{A}(t)$ and $V_{B}(t)$ represent the electric potentials at the centers of spheres $A$ and $B$, respectively, as functions of $t$. - Derive an expression for the potential difference $\\Delta V(t)$ between the spheres as a function of $t$, where $\\Delta V(t)=V_{A}(t)-V_{B}(t)$, to show that $\\Delta V(t)=k\\left(3 Q_{\\mathrm{A}(t)}{2 r}-Q{r}\\right)$, where $k=1{4 \\pi \\varepsilon_{0}}$.</p>"
+            },
+            {
+              "partSign": "c",
+              "partContent": "<p class=\"stem_paragraph\">After $t_{1}$, the lightbulb and wires are removed without disturbing the charges on spheres $A$ and $B \\cdot Q_{A}$ is charge on Sphere A , and $\\ell_{B}$ is the net charge on Sphere B. i. Calculate the ratio $Q_{\\mathrm{B}}{Q_{A}}$. ii. The magnitude of the net electric field at Point $S$ is now $E_{nc W}$. Derive an expression for $E_{new}$ in ter of $r, Q, M, t_{1}, d, R$, and physical constants, is appropriate. Continue your response to QUESTION 1 on this page. \\includegraphics[alt={},max width=\\textwidth]{https://cdn.mathpix.com/cropped/f4817aae-1e9b-4e9c-bc6b-bee8a2cec98b-34.jpg?height=838&width=556&top_left_y=618&top_left_x=880}</p>"
+            },
+            {
+              "partSign": "d",
+              "partContent": "<p class=\"stem_paragraph\">Sphere $B$ is replaced with nonconducting Sphere $C$ of the same radius $r$, the same mass $M$, and the same charge $\\ell_{B}$ as those of Sphere B in part (c). Sphere A is replaced by nonconducting Sphere D of the same radius $2 r$ and the same charge $Q_{A}$ as those of Sphere A in part (c). The charge is distributed uniformly throughout the volume of each sphere. Sphere D is moved close to Sphere C. Sphere D is then held at rest directly underneath Sphere C such that $r \\ll d$ is no longer assumed, as shown in Figure 4. i. Describe the changes, if any, in the distribution of charge on Sphere D as Sphere D is moved closer to Sphere C. ii. The tension force exerted on Sphere C by the string has magnitude $T_{2}$ after Sphere D is brought to rest. Indicate whether $T_{2}$ is greater than, less than, or equal to $T_{1}$, the magnitude of the tension force exerted on Sphere B in Figure 1. Briefly justify your answer. Begin your response to QUESTION 2 on this page. \\hline- & - & - & - & - & - (A) \\\\ \\hline</p>"
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "2",
+          "type": "free-response",
+          "prompt": "<p class=\"stem_paragraph\">Students are asked to determine an experimental value for the capacitance $C_{\\text {EXP }}$ of an initially uncharged capacitor. The students use the capacitor, a switch, two $3.3 \\times 10^{5} \\Omega$ resistors, a 9.0 V battery, connecting win and an ammeter that measures current as a function of time.</p>",
+          "parts": [
+            {
+              "partSign": "a",
+              "partContent": "<p class=\"stem_paragraph\">A circuit is assembled that maximizes the time constant $\\tau$ of the circuit. The circuit can be used to determine $C_{EXP}$. i. Using the symbols shown, draw a schematic diagram of the circuit that includes both resistors. ii. Describe a procedure for collecting data as the capacitor is being charged that would allow the stud to determine $C_{\\text {EXP }}$. Provide enough detail so that another student could replicate the experiment.</p>"
+            },
+            {
+              "partSign": "b",
+              "partContent": "<p class=\"stem_paragraph\">It is determined that $\\tau=3.1 ~s$. Calculate $C_{BXP}$. At time $t=3.1 ~s$, the charge on the positive plate of the capacitor was $Q_{1}$. After the experiment, it is determined that the ammeter that was used was nonideal. The experiment is repeated with an ideal ammeter. At time $t=3.1 ~s$, the charge on the positive plate of the capacitor is $\\ell_{2}$.</p>"
+            },
+            {
+              "partSign": "c",
+              "partContent": "<p class=\"stem_paragraph\">Indicate whether $Q_{2}$ is greater than, less than, or equal to $Q_{1}$. $\\_\\_\\_\\_$ $\\ell_{2}>\\ell_{1}$ $\\_\\_\\_\\_$ $Q_{2}<Q_{1}$ $\\_\\_\\_\\_$ $\\ell_{2}=\\ell_{1}$ Justify your answer. <img src=\"https://cdn.mathpix.com/cropped/f4817aae-1e9b-4e9c-bc6b-bee8a2cec98b-36.jpg?height=2511&width=111&top_left_y=276&top_left_x=1932\" /> Continue your response to QUESTION 2 on this page. \\includegraphics[alt={},max width=\\textwidth]{https://cdn.mathpix.com/cropped/f4817aae-1e9b-4e9c-bc6b-bee8a2cec98b-37.jpg?height=433&width=364&top_left_y=483&top_left_x=748} \\includegraphics[alt={},max width=\\textwidth]{https://cdn.mathpix.com/cropped/f4817aae-1e9b-4e9c-bc6b-bee8a2cec98b-37.jpg?height=291&width=236&top_left_y=577&top_left_x=1186} \\includegraphics[alt={},max width=\\textwidth]{https://cdn.mathpix.com/cropped/f4817aae-1e9b-4e9c-bc6b-bee8a2cec98b-37.jpg?height=49&width=131&top_left_y=867&top_left_x=1195} In a different experiment, students are asked to determine an experimental value for the dielectric constant $\\kappa$ of a type of plastic. The students have two parallel conducting plates and six different slabs made of the plastic. The slabs differ in thickness. For each trial, one slab is inserted between the plates to make a capacitor. The plate separation $d$ is adjusted so that $d$ is the slab thickness. The capacitance $C$ of the capacitor is then determined. The capacitor for two trials is shown. Collected data are used to plot the following graph of $C$ as a function of $1{d}$. <img src=\"https://cdn.mathpix.com/cropped/f4817aae-1e9b-4e9c-bc6b-bee8a2cec98b-37.jpg?height=649&width=1206&top_left_y=1490&top_left_x=451\" /></p>"
+            },
+            {
+              "partSign": "d",
+              "partContent": "<p class=\"stem_paragraph\">i. Draw the best-fit line for the data. Use a pencil or a pen with black or dark blue ink. Do NOT write your name. Do NOT write outside the box. Continue your response to QUESTION 2 on this page. ii. Using the best-fit line, calculate the experimental value for $\\kappa$. Each plate has area $5.0 \\times 10^{-2} ~m^{2}$. LUBSLION - Begin your response to QUESTION 3 on this page.</p>"
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "3",
+          "type": "free-response",
+          "prompt": "<p class=\"stem_paragraph\">Long parallel wires 1 and 2 are positioned horizontally and are separated by vertical distance druirel lefined in place and has current $I_{1}$ in the $+x$-direction. Wire 2 is initially held in place but can be released racritye has linear mass density $\\lambda$ and resistance per length $R{\\ell}$. Point P is midway between wires 1 and 2 of showy in the sidervew in Figure 1.</p>",
+          "parts": [
+            {
+              "partSign": "a",
+              "partContent": "<p class=\"stem_paragraph\">Dran your answers to parts (a)(i) and (a)(ii) on the cross sectional view shown in Figure-2 - Wire I -P ◯ Wire 2 Figure 2. Cross-Sectional View i. On Figure 2, draw an appropriate Amperian loop that can be used to determinat the magnituderol the magnetic field at the location of Wire 2 due to Wire 1. ii On Figure 2, dray an arroy starting on, and pointing away from, the do representing Pont Pt to show the direction of the magnetic field at Point P due to Wire 1. <img src=\"https://cdn.mathpix.com/cropped/f4817aae-1e9b-4e9c-bc6b-bee8a2cec98b-40.jpg?height=305&width=400&top_left_y=273&top_left_x=675\" /> iii. Using Ampere's law, derive an expression for the magnitude of the magnetic field $B$ at the location of Wire 2 due to Wire 1 . Express your answer in terms of $d, I_{1}$, and physical constants, as appropriate. Consider the situation in which Wire 2 has current $I_{2}$ and there is a gravitational force exerted on Wire 2 in the $-y$-direction. Wire 2 is then released but remains at rest.</p>"
+            },
+            {
+              "partSign": "b",
+              "partContent": "<p class=\"stem_paragraph\">Derive an expression for $I_{2}$ in terms of $d, I_{1}, \\lambda$, and physical constants, as appropriate. Consider the situation in which Wire 1 has these properties: $I_{1}=5.0 ~A$ and $R{\\ell}=0.12 \\Omega{~m}$.</p>"
+            },
+            {
+              "partSign": "c",
+              "partContent": "<p class=\"stem_paragraph\">Calculate the total energy $\\Delta E$ dissipated in a section of Wire $I$ of length $L=0.40 ~m$ for a time interval of $\\Delta t=3.0 ~s$. <img src=\"https://cdn.mathpix.com/cropped/f4817aae-1e9b-4e9c-bc6b-bee8a2cec98b-41.jpg?height=2389&width=71&top_left_y=396&top_left_x=78\" /> Continue your response to QUESTION 3 on this page. \\includegraphics[alt={},max width=\\textwidth]{https://cdn.mathpix.com/cropped/f4817aae-1e9b-4e9c-bc6b-bee8a2cec98b-41.jpg?height=669&width=1356&top_left_y=593&top_left_x=422} Wire 2 is removed. Wire 1 has current $I_{1}=5.0 ~A$ in the $+x$-direction. A circular conducting loop is placed directly below Wire 1. The loop is moved toward Wire 1 in the $+y$-direction at constant speed $v=0.15 ~m / s$, as shown in the side view in Figure 3.</p>"
+            },
+            {
+              "partSign": "d",
+              "partContent": "<p class=\"stem_paragraph\">Indicate whether the direction of the induced current in the loop is clockwise, counterclockwise, or zero as the loop is moved toward Wire 1. $\\_\\_\\_\\_$ Clockwise $\\_\\_\\_\\_$ Counterclockwise $\\_\\_\\_\\_$ Zero Briefly justify your answer. Continue your response to QUESTION 3 on this page. The rate of change of the magnitude of the magnetic field at the center of the moving loop due to Wire 1 is $d B{d t}$. The distance between the center of Wire 1 and the center of the moving loop is $h$, which varies as a function of time.</p>"
+            },
+            {
+              "partSign": "e",
+              "partContent": "<p class=\"stem_paragraph\">Derive the relationship between the magnitude of $d B{d t}$ and $h$ to verify that $\\left|d B{d t}\\right|=\\left(1.5 \\times 10^{-7} \\mathrm{~T \\cdot ~m^{2}}{~s}\\right)\\left(1{h^{2}}\\right)$. Write your expression in terms of numerical values and $h$ only.</p>"
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        }
+      ]
+    }
+  ]
+}
