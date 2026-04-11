@@ -42,7 +42,8 @@
       "year": "2023",
       "paperType": "国际卷",
       "questionCount": 63,
-      "sectionCount": 1
+      "sectionCount": 1,
+      "subjectId": "macroeconomics"
     },
     {
       "examId": "1902622426509709312",
@@ -51,7 +52,8 @@
       "year": "2023",
       "paperType": "样题",
       "questionCount": 63,
-      "sectionCount": 1
+      "sectionCount": 1,
+      "subjectId": "macroeconomics"
     },
     {
       "examId": "1902622426048335872",
@@ -60,7 +62,8 @@
       "year": "2023",
       "paperType": "样题",
       "questionCount": 63,
-      "sectionCount": 1
+      "sectionCount": 1,
+      "subjectId": "macroeconomics"
     },
     {
       "examId": "1902622426966888448",
@@ -69,7 +72,8 @@
       "year": "2023",
       "paperType": "样题",
       "questionCount": 63,
-      "sectionCount": 1
+      "sectionCount": 1,
+      "subjectId": "macroeconomics"
     },
     {
       "examId": "1902622411338911744",
@@ -78,7 +82,8 @@
       "year": "2017",
       "paperType": "国际卷",
       "questionCount": 68,
-      "sectionCount": 1
+      "sectionCount": 1,
+      "subjectId": "calculus_bc"
     },
     {
       "examId": "1902622411800285184",
@@ -87,7 +92,8 @@
       "year": "2018",
       "paperType": "国际卷",
       "questionCount": 69,
-      "sectionCount": 1
+      "sectionCount": 1,
+      "subjectId": "calculus_bc"
     },
     {
       "examId": "1902622412253270016",
@@ -96,7 +102,8 @@
       "year": "2019",
       "paperType": "国际卷",
       "questionCount": 68,
-      "sectionCount": 1
+      "sectionCount": 1,
+      "subjectId": "calculus_bc"
     },
     {
       "examId": "1902622412714643456",
@@ -105,7 +112,8 @@
       "year": "2021",
       "paperType": "国际卷",
       "questionCount": 69,
-      "sectionCount": 1
+      "sectionCount": 1,
+      "subjectId": "calculus_bc"
     },
     {
       "examId": "1902622410416164864",
@@ -114,7 +122,8 @@
       "year": "2017",
       "paperType": "国际卷",
       "questionCount": 63,
-      "sectionCount": 1
+      "sectionCount": 1,
+      "subjectId": "microeconomics"
     },
     {
       "examId": "1902622410881732608",
@@ -123,7 +132,8 @@
       "year": "2018",
       "paperType": "国际卷",
       "questionCount": 63,
-      "sectionCount": 1
+      "sectionCount": 1,
+      "subjectId": "microeconomics"
     },
     {
       "examId": "1902622418683138048",
@@ -132,7 +142,8 @@
       "year": "2019",
       "paperType": "国际卷",
       "questionCount": 63,
-      "sectionCount": 1
+      "sectionCount": 1,
+      "subjectId": "microeconomics"
     },
     {
       "examId": "1902622419140317184",
@@ -141,7 +152,8 @@
       "year": "2021",
       "paperType": "国际卷",
       "questionCount": 63,
-      "sectionCount": 1
+      "sectionCount": 1,
+      "subjectId": "microeconomics"
     },
     {
       "examId": "1902622420520243200",
@@ -150,7 +162,8 @@
       "year": "2025",
       "paperType": "样题",
       "questionCount": 84,
-      "sectionCount": 1
+      "sectionCount": 1,
+      "subjectId": "psychology"
     },
     {
       "examId": "1902622420977422336",
@@ -159,7 +172,8 @@
       "year": "2025",
       "paperType": "样题",
       "questionCount": 84,
-      "sectionCount": 1
+      "sectionCount": 1,
+      "subjectId": "psychology"
     },
     {
       "examId": "1902622421442990080",
@@ -168,7 +182,8 @@
       "year": "2025",
       "paperType": "样题",
       "questionCount": 84,
-      "sectionCount": 1
+      "sectionCount": 1,
+      "subjectId": "psychology"
     },
     {
       "examId": "1902622424219619328",
@@ -177,7 +192,8 @@
       "year": "2025",
       "paperType": "样题",
       "questionCount": 57,
-      "sectionCount": 1
+      "sectionCount": 1,
+      "subjectId": "physics_c_mechanics"
     },
     {
       "examId": "1902622423296872448",
@@ -186,7 +202,8 @@
       "year": "2025",
       "paperType": "样题",
       "questionCount": 56,
-      "sectionCount": 1
+      "sectionCount": 1,
+      "subjectId": "physics_c_mechanics"
     },
     {
       "examId": "1902622423758245888",
@@ -195,7 +212,8 @@
       "year": "2025",
       "paperType": "样题",
       "questionCount": 58,
-      "sectionCount": 1
+      "sectionCount": 1,
+      "subjectId": "physics_c_mechanics"
     },
     {
       "examId": "1912795104067575815",
@@ -204,7 +222,8 @@
       "year": "2025",
       "paperType": "样题",
       "questionCount": 57,
-      "sectionCount": 1
+      "sectionCount": 1,
+      "subjectId": "physics_c_electricity_magnetism"
     },
     {
       "examId": "1912795104067575816",
@@ -213,7 +232,8 @@
       "year": "2025",
       "paperType": "样题",
       "questionCount": 57,
-      "sectionCount": 1
+      "sectionCount": 1,
+      "subjectId": "physics_c_electricity_magnetism"
     },
     {
       "examId": "1912795104067575817",
@@ -222,7 +242,8 @@
       "year": "2025",
       "paperType": "样题",
       "questionCount": 58,
-      "sectionCount": 1
+      "sectionCount": 1,
+      "subjectId": "physics_c_electricity_magnetism"
     },
     {
       "examId": "1902622413180211200",
@@ -231,7 +252,8 @@
       "year": "2017",
       "paperType": "国际卷",
       "questionCount": 46,
-      "sectionCount": 1
+      "sectionCount": 1,
+      "subjectId": "statistics"
     },
     {
       "examId": "1902622413633196032",
@@ -240,7 +262,8 @@
       "year": "2018",
       "paperType": "国际卷",
       "questionCount": 61,
-      "sectionCount": 1
+      "sectionCount": 1,
+      "subjectId": "statistics"
     },
     {
       "examId": "1902622414081986560",
@@ -249,7 +272,8 @@
       "year": "2019",
       "paperType": "国际卷",
       "questionCount": 62,
-      "sectionCount": 1
+      "sectionCount": 1,
+      "subjectId": "statistics"
     },
     {
       "examId": "1902622414539165696",
@@ -258,7 +282,8 @@
       "year": "2021",
       "paperType": "国际卷",
       "questionCount": 61,
-      "sectionCount": 1
+      "sectionCount": 1,
+      "subjectId": "statistics"
     },
     {
       "examId": "1902622416850227200",
@@ -267,7 +292,8 @@
       "year": "2020",
       "paperType": "样题",
       "questionCount": 48,
-      "sectionCount": 1
+      "sectionCount": 1,
+      "subjectId": "computer_science_a"
     },
     {
       "examId": "1902622418221764608",
@@ -276,7 +302,8 @@
       "year": "2021",
       "paperType": "国际卷",
       "questionCount": 47,
-      "sectionCount": 1
+      "sectionCount": 1,
+      "subjectId": "computer_science_a"
     },
     {
       "examId": "1902622417307406336",
@@ -285,7 +312,8 @@
       "year": "??",
       "paperType": "练习卷",
       "questionCount": 45,
-      "sectionCount": 1
+      "sectionCount": 1,
+      "subjectId": "computer_science_a"
     },
     {
       "examId": "1902622417764585472",
@@ -294,7 +322,8 @@
       "year": "??",
       "paperType": "练习卷",
       "questionCount": 45,
-      "sectionCount": 1
+      "sectionCount": 1,
+      "subjectId": "computer_science_a"
     },
     {
       "examId": "2012Intl",
@@ -303,7 +332,8 @@
       "year": "2012",
       "paperType": "国际卷",
       "questionCount": 49,
-      "sectionCount": 2
+      "sectionCount": 2,
+      "subjectId": "calculus_bc"
     },
     {
       "examId": "2013Intl",
@@ -312,7 +342,8 @@
       "year": "2013",
       "paperType": "国际卷",
       "questionCount": 50,
-      "sectionCount": 2
+      "sectionCount": 2,
+      "subjectId": "calculus_bc"
     },
     {
       "examId": "2014Intl",
@@ -321,7 +352,8 @@
       "year": "2014",
       "paperType": "国际卷",
       "questionCount": 51,
-      "sectionCount": 2
+      "sectionCount": 2,
+      "subjectId": "calculus_bc"
     },
     {
       "examId": "2008Intl",
@@ -330,7 +362,8 @@
       "year": "2008",
       "paperType": "国际卷",
       "questionCount": 51,
-      "sectionCount": 1
+      "sectionCount": 1,
+      "subjectId": "calculus_bc"
     },
     {
       "examId": "2015Intl",
@@ -339,7 +372,8 @@
       "year": "2015",
       "paperType": "国际卷",
       "questionCount": 45,
-      "sectionCount": 1
+      "sectionCount": 1,
+      "subjectId": "calculus_bc"
     },
     {
       "examId": "2016Intl",
@@ -348,7 +382,8 @@
       "year": "2016",
       "paperType": "国际卷",
       "questionCount": 45,
-      "sectionCount": 1
+      "sectionCount": 1,
+      "subjectId": "calculus_bc"
     },
     {
       "examId": "2016SQ",
@@ -357,7 +392,8 @@
       "year": "2016",
       "paperType": "练习卷",
       "questionCount": 44,
-      "sectionCount": 1
+      "sectionCount": 1,
+      "subjectId": "calculus_bc"
     },
     {
       "examId": "2017Intl",
@@ -366,7 +402,8 @@
       "year": "2017",
       "paperType": "国际卷",
       "questionCount": 45,
-      "sectionCount": 1
+      "sectionCount": 1,
+      "subjectId": "calculus_bc"
     },
     {
       "examId": "2018Intl",
@@ -375,7 +412,8 @@
       "year": "2018",
       "paperType": "国际卷",
       "questionCount": 46,
-      "sectionCount": 1
+      "sectionCount": 1,
+      "subjectId": "calculus_bc"
     },
     {
       "examId": "2018NA",
@@ -384,7 +422,8 @@
       "year": "2018",
       "paperType": "练习卷",
       "questionCount": 6,
-      "sectionCount": 1
+      "sectionCount": 1,
+      "subjectId": "calculus_bc"
     },
     {
       "examId": "2019Intl",
@@ -393,7 +432,8 @@
       "year": "2019",
       "paperType": "国际卷",
       "questionCount": 57,
-      "sectionCount": 1
+      "sectionCount": 1,
+      "subjectId": "calculus_bc"
     },
     {
       "examId": "2019NA",
@@ -402,7 +442,8 @@
       "year": "2019",
       "paperType": "练习卷",
       "questionCount": 6,
-      "sectionCount": 1
+      "sectionCount": 1,
+      "subjectId": "calculus_bc"
     },
     {
       "examId": "2021NA",
@@ -411,7 +452,8 @@
       "year": "2021",
       "paperType": "练习卷",
       "questionCount": 6,
-      "sectionCount": 1
+      "sectionCount": 1,
+      "subjectId": "calculus_bc"
     },
     {
       "examId": "2022NA",
@@ -420,7 +462,8 @@
       "year": "2022",
       "paperType": "练习卷",
       "questionCount": 6,
-      "sectionCount": 1
+      "sectionCount": 1,
+      "subjectId": "calculus_bc"
     },
     {
       "examId": "2023Intl",
@@ -429,7 +472,8 @@
       "year": "2023",
       "paperType": "国际卷",
       "questionCount": 28,
-      "sectionCount": 1
+      "sectionCount": 1,
+      "subjectId": "calculus_bc"
     },
     {
       "examId": "2023NA",
@@ -438,7 +482,8 @@
       "year": "2023",
       "paperType": "练习卷",
       "questionCount": 6,
-      "sectionCount": 1
+      "sectionCount": 1,
+      "subjectId": "calculus_bc"
     },
     {
       "examId": "2024Intl",
@@ -447,7 +492,8 @@
       "year": "2024",
       "paperType": "国际卷",
       "questionCount": 26,
-      "sectionCount": 1
+      "sectionCount": 1,
+      "subjectId": "calculus_bc"
     },
     {
       "examId": "2025Intl",
@@ -456,7 +502,8 @@
       "year": "2025",
       "paperType": "国际卷",
       "questionCount": 49,
-      "sectionCount": 1
+      "sectionCount": 1,
+      "subjectId": "calculus_bc"
     },
     {
       "examId": "2025NA",
@@ -465,7 +512,8 @@
       "year": "2025",
       "paperType": "练习卷",
       "questionCount": 6,
-      "sectionCount": 1
+      "sectionCount": 1,
+      "subjectId": "calculus_bc"
     },
     {
       "examId": "phys2009Intl",
@@ -474,7 +522,8 @@
       "year": "2009",
       "paperType": "国际卷",
       "questionCount": 15,
-      "sectionCount": 1
+      "sectionCount": 1,
+      "subjectId": "physics_c_mechanics"
     },
     {
       "examId": "phys2012Intl",
@@ -483,7 +532,8 @@
       "year": "2012",
       "paperType": "国际卷",
       "questionCount": 10,
-      "sectionCount": 1
+      "sectionCount": 1,
+      "subjectId": "physics_c_mechanics"
     },
     {
       "examId": "phys2013Intl",
@@ -492,7 +542,8 @@
       "year": "2013",
       "paperType": "国际卷",
       "questionCount": 6,
-      "sectionCount": 1
+      "sectionCount": 1,
+      "subjectId": "physics_c_mechanics"
     },
     {
       "examId": "phys2014Intl",
@@ -501,7 +552,8 @@
       "year": "2014",
       "paperType": "国际卷",
       "questionCount": 41,
-      "sectionCount": 2
+      "sectionCount": 2,
+      "subjectId": "physics_c_mechanics"
     },
     {
       "examId": "phys2015Intl",
@@ -510,7 +562,8 @@
       "year": "2015",
       "paperType": "国际卷",
       "questionCount": 39,
-      "sectionCount": 2
+      "sectionCount": 2,
+      "subjectId": "physics_c_mechanics"
     },
     {
       "examId": "phys2016Intl",
@@ -519,7 +572,8 @@
       "year": "2016",
       "paperType": "国际卷",
       "questionCount": 7,
-      "sectionCount": 1
+      "sectionCount": 1,
+      "subjectId": "physics_c_mechanics"
     },
     {
       "examId": "phys2017Intl",
@@ -528,7 +582,8 @@
       "year": "2017",
       "paperType": "国际卷",
       "questionCount": 42,
-      "sectionCount": 2
+      "sectionCount": 2,
+      "subjectId": "physics_c_mechanics"
     },
     {
       "examId": "phys2018Intl",
@@ -537,7 +592,8 @@
       "year": "2018",
       "paperType": "国际卷",
       "questionCount": 46,
-      "sectionCount": 2
+      "sectionCount": 2,
+      "subjectId": "physics_c_mechanics"
     },
     {
       "examId": "phys2019Intl",
@@ -546,7 +602,8 @@
       "year": "2019",
       "paperType": "国际卷",
       "questionCount": 14,
-      "sectionCount": 1
+      "sectionCount": 1,
+      "subjectId": "physics_c_mechanics"
     },
     {
       "examId": "phys2024Intl",
@@ -555,7 +612,8 @@
       "year": "2024",
       "paperType": "国际卷",
       "questionCount": 32,
-      "sectionCount": 1
+      "sectionCount": 1,
+      "subjectId": "physics_c_mechanics"
     },
     {
       "examId": "phys2018NA",
@@ -564,7 +622,8 @@
       "year": "2018",
       "paperType": "练习卷",
       "questionCount": 3,
-      "sectionCount": 1
+      "sectionCount": 1,
+      "subjectId": "physics_c_mechanics"
     },
     {
       "examId": "phys2019NASet1",
@@ -573,7 +632,8 @@
       "year": "2019",
       "paperType": "练习卷",
       "questionCount": 3,
-      "sectionCount": 1
+      "sectionCount": 1,
+      "subjectId": "physics_c_mechanics"
     },
     {
       "examId": "phys2019NASet2",
@@ -582,7 +642,8 @@
       "year": "2019",
       "paperType": "练习卷",
       "questionCount": 3,
-      "sectionCount": 1
+      "sectionCount": 1,
+      "subjectId": "physics_c_mechanics"
     },
     {
       "examId": "phys2021NASet1",
@@ -591,7 +652,8 @@
       "year": "2021",
       "paperType": "练习卷",
       "questionCount": 3,
-      "sectionCount": 1
+      "sectionCount": 1,
+      "subjectId": "physics_c_mechanics"
     },
     {
       "examId": "phys2021NASet2",
@@ -600,7 +662,8 @@
       "year": "2021",
       "paperType": "练习卷",
       "questionCount": 3,
-      "sectionCount": 1
+      "sectionCount": 1,
+      "subjectId": "physics_c_mechanics"
     },
     {
       "examId": "phys2022NASet1",
@@ -609,7 +672,8 @@
       "year": "2022",
       "paperType": "练习卷",
       "questionCount": 3,
-      "sectionCount": 1
+      "sectionCount": 1,
+      "subjectId": "physics_c_mechanics"
     },
     {
       "examId": "phys2022NASet2",
@@ -618,7 +682,8 @@
       "year": "2022",
       "paperType": "练习卷",
       "questionCount": 3,
-      "sectionCount": 1
+      "sectionCount": 1,
+      "subjectId": "physics_c_mechanics"
     },
     {
       "examId": "phys2023NASet1",
@@ -627,7 +692,8 @@
       "year": "2023",
       "paperType": "练习卷",
       "questionCount": 3,
-      "sectionCount": 1
+      "sectionCount": 1,
+      "subjectId": "physics_c_mechanics"
     },
     {
       "examId": "phys2023NASet2",
@@ -636,7 +702,8 @@
       "year": "2023",
       "paperType": "练习卷",
       "questionCount": 3,
-      "sectionCount": 1
+      "sectionCount": 1,
+      "subjectId": "physics_c_mechanics"
     },
     {
       "examId": "phys2024NASet1",
@@ -645,7 +712,8 @@
       "year": "2024",
       "paperType": "练习卷",
       "questionCount": 3,
-      "sectionCount": 1
+      "sectionCount": 1,
+      "subjectId": "physics_c_mechanics"
     },
     {
       "examId": "phys2024NASet2",
@@ -654,7 +722,8 @@
       "year": "2024",
       "paperType": "练习卷",
       "questionCount": 3,
-      "sectionCount": 1
+      "sectionCount": 1,
+      "subjectId": "physics_c_mechanics"
     },
     {
       "examId": "phys2025NA",
@@ -663,7 +732,8 @@
       "year": "2025",
       "paperType": "练习卷",
       "questionCount": 3,
-      "sectionCount": 1
+      "sectionCount": 1,
+      "subjectId": "physics_c_mechanics"
     },
     {
       "examId": "em2012Intl_EM",
@@ -672,7 +742,8 @@
       "year": "2012",
       "paperType": "国际卷",
       "questionCount": 39,
-      "sectionCount": 2
+      "sectionCount": 2,
+      "subjectId": "physics_c_electricity_magnetism"
     },
     {
       "examId": "em2013Intl_EM",
@@ -681,7 +752,8 @@
       "year": "2013",
       "paperType": "国际卷",
       "questionCount": 39,
-      "sectionCount": 2
+      "sectionCount": 2,
+      "subjectId": "physics_c_electricity_magnetism"
     },
     {
       "examId": "em2014Intl_EM",
@@ -690,7 +762,8 @@
       "year": "2014",
       "paperType": "国际卷",
       "questionCount": 39,
-      "sectionCount": 2
+      "sectionCount": 2,
+      "subjectId": "physics_c_electricity_magnetism"
     },
     {
       "examId": "em2015Intl_EM",
@@ -699,7 +772,8 @@
       "year": "2015",
       "paperType": "国际卷",
       "questionCount": 39,
-      "sectionCount": 2
+      "sectionCount": 2,
+      "subjectId": "physics_c_electricity_magnetism"
     },
     {
       "examId": "em2016Intl_EM",
@@ -708,7 +782,8 @@
       "year": "2016",
       "paperType": "国际卷",
       "questionCount": 39,
-      "sectionCount": 2
+      "sectionCount": 2,
+      "subjectId": "physics_c_electricity_magnetism"
     },
     {
       "examId": "em2017Intl_EM",
@@ -717,7 +792,8 @@
       "year": "2017",
       "paperType": "国际卷",
       "questionCount": 39,
-      "sectionCount": 2
+      "sectionCount": 2,
+      "subjectId": "physics_c_electricity_magnetism"
     },
     {
       "examId": "em2018Intl_EM",
@@ -726,7 +802,8 @@
       "year": "2018",
       "paperType": "国际卷",
       "questionCount": 39,
-      "sectionCount": 2
+      "sectionCount": 2,
+      "subjectId": "physics_c_electricity_magnetism"
     },
     {
       "examId": "em2018NA_EM",
@@ -735,7 +812,8 @@
       "year": "2018",
       "paperType": "北美卷",
       "questionCount": 6,
-      "sectionCount": 2
+      "sectionCount": 2,
+      "subjectId": "physics_c_electricity_magnetism"
     },
     {
       "examId": "em2019Intl_EM",
@@ -744,7 +822,8 @@
       "year": "2019",
       "paperType": "国际卷",
       "questionCount": 39,
-      "sectionCount": 2
+      "sectionCount": 2,
+      "subjectId": "physics_c_electricity_magnetism"
     },
     {
       "examId": "em2019NASet1_EM",
@@ -753,7 +832,8 @@
       "year": "2019",
       "paperType": "北美Set1",
       "questionCount": 4,
-      "sectionCount": 2
+      "sectionCount": 2,
+      "subjectId": "physics_c_electricity_magnetism"
     },
     {
       "examId": "em2019NASet2_EM",
@@ -762,7 +842,8 @@
       "year": "2019",
       "paperType": "北美Set2",
       "questionCount": 5,
-      "sectionCount": 2
+      "sectionCount": 2,
+      "subjectId": "physics_c_electricity_magnetism"
     },
     {
       "examId": "em2021NA_EM",
@@ -771,7 +852,8 @@
       "year": "2021",
       "paperType": "北美卷",
       "questionCount": 7,
-      "sectionCount": 2
+      "sectionCount": 2,
+      "subjectId": "physics_c_electricity_magnetism"
     },
     {
       "examId": "em2022NASet1_EM",
@@ -780,7 +862,8 @@
       "year": "2022",
       "paperType": "北美Set1",
       "questionCount": 5,
-      "sectionCount": 2
+      "sectionCount": 2,
+      "subjectId": "physics_c_electricity_magnetism"
     },
     {
       "examId": "em2022NASet2_EM",
@@ -789,7 +872,8 @@
       "year": "2022",
       "paperType": "北美Set2",
       "questionCount": 5,
-      "sectionCount": 2
+      "sectionCount": 2,
+      "subjectId": "physics_c_electricity_magnetism"
     },
     {
       "examId": "em2023NASet1_EM",
@@ -798,7 +882,8 @@
       "year": "2023",
       "paperType": "北美Set1",
       "questionCount": 5,
-      "sectionCount": 2
+      "sectionCount": 2,
+      "subjectId": "physics_c_electricity_magnetism"
     },
     {
       "examId": "em2023NASet2_EM",
@@ -807,7 +892,8 @@
       "year": "2023",
       "paperType": "北美Set2",
       "questionCount": 5,
-      "sectionCount": 2
+      "sectionCount": 2,
+      "subjectId": "physics_c_electricity_magnetism"
     },
     {
       "examId": "em2024Intl_EM",
@@ -816,7 +902,8 @@
       "year": "2024",
       "paperType": "国际卷",
       "questionCount": 39,
-      "sectionCount": 2
+      "sectionCount": 2,
+      "subjectId": "physics_c_electricity_magnetism"
     },
     {
       "examId": "em2024NASet1_EM",
@@ -825,7 +912,8 @@
       "year": "2024",
       "paperType": "北美Set1",
       "questionCount": 5,
-      "sectionCount": 2
+      "sectionCount": 2,
+      "subjectId": "physics_c_electricity_magnetism"
     },
     {
       "examId": "em2024NASet2_EM",
@@ -834,7 +922,8 @@
       "year": "2024",
       "paperType": "北美Set2",
       "questionCount": 5,
-      "sectionCount": 2
+      "sectionCount": 2,
+      "subjectId": "physics_c_electricity_magnetism"
     },
     {
       "examId": "em2025Intl_EM",
@@ -843,7 +932,8 @@
       "year": "2025",
       "paperType": "国际卷",
       "questionCount": 29,
-      "sectionCount": 1
+      "sectionCount": 1,
+      "subjectId": "physics_c_electricity_magnetism"
     },
     {
       "examId": "em2025NA_EM",
@@ -852,7 +942,8 @@
       "year": "2025",
       "paperType": "北美卷",
       "questionCount": 3,
-      "sectionCount": 1
+      "sectionCount": 1,
+      "subjectId": "physics_c_electricity_magnetism"
     }
   ]
 }

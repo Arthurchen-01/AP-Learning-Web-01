@@ -52,7 +52,7 @@ export function createFreshState(exam) {
       timeRemainingSec: (section.time_limit_minutes || 60) * 60,
       answers: new Array(section.question_count).fill(null),
       flagged: new Array(section.question_count).fill(false),
-      excluded: new Array(section.question_count).fill(false),
+      excluded: new Array(section.question_count).fill(null).map(() => []),
       frqImages: null,
       selfAssessment: new Array(section.question_count).fill(null),
       notes: new Array(section.question_count).fill('')

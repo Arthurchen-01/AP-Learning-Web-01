@@ -27,11 +27,12 @@ async function init() {
   const page = document.body.dataset.page;
   hydrateAvatarEntry();
 
+  state.catalog = await loadCatalog();
+
   if (!page || page === "home") {
+    renderHomePage(document.getElementById("home-dashboard"));
     return;
   }
-
-  state.catalog = await loadCatalog();
 
   if (page === "mock") {
     renderMockPage(document.getElementById("mock-root"));
@@ -61,6 +62,237 @@ async function init() {
   if (page === "profile") {
     renderProfilePage(document.getElementById("profile-root"));
   }
+}
+
+async function renderHomePage(root) {
+  if (!root) return;
+  const user = state.mockData.user || {};
+  const userName = user.name || "AP Learner";
+
+  // Format today's date
+  const now = new Date();
+  const dateOpts = { weekday: "long", year: "numeric", month: "long", day: "numeric" };
+  const dateStr = now.toLocaleDateString("zh-CN", dateOpts);
+
+  // Collect all exam data from localStorage
+  const examSessions = [];
+  let totalAnswered = 0;
+  let totalQuestions = 0;
+  const subjectStats = {};
+
+  for (let i = 0; i < localStorage.length; i++) {
+    const key = localStorage.key(i);
+    if (!key.startsWith("ap-learning-exam:")) continue;
+    const examId = key.slice("ap-learning-exam:".length);
+    try {
+      const data = JSON.parse(localStorage.getItem(key));
+      const sectionsList = data.sections || data.sectionStates || [];
+      let examAnswered = 0;
+      let examTotal = 0;
+
+      // Try to get subject name from stored data
+      let subjectName = data.subjectName || "";
+
+      for (const sec of sectionsList) {
+        if (!sec || !sec.answers) continue;
+        for (const a of sec.answers) {
+          if (a !== null && a !== undefined && a !== "") {
+            examAnswered++;
+          }
+        }
+        examTotal += (sec.questionCount || (sec.answers ? sec.answers.length : 0));
+      }
+
+      totalAnswered += examAnswered;
+      totalQuestions += examTotal;
+
+      // Track per-subject
+      if (subjectName) {
+        if (!subjectStats[subjectName]) {
+          subjectStats[subjectName] = { answered: 0, total: 0, sessions: 0, completed: 0 };
+        }
+        subjectStats[subjectName].answered += examAnswered;
+        subjectStats[subjectName].total += examTotal;
+        subjectStats[subjectName].sessions++;
+        if (data.results) subjectStats[subjectName].completed++;
+      }
+
+      const updatedAt = data.updatedAt || data.startedAt || "";
+      const isCompleted = !!data.results;
+
+      examSessions.push({
+        examId,
+        subjectName,
+        title: data.examTitle || examId,
+        updatedAt: updatedAt ? new Date(updatedAt) : new Date(0),
+        isCompleted,
+        answered: examAnswered,
+        total: examTotal
+      });
+    } catch (e) { /* skip malformed */ }
+  }
+
+  // Sort by most recent
+  examSessions.sort((a, b) => b.updatedAt - a.updatedAt);
+
+  // Find most recent in-progress exam
+  const inProgressExam = examSessions.find(s => !s.isCompleted && s.answered > 0);
+
+  // Format date helper
+  function fmtDate(d) {
+    if (!d || d.getTime() === 0) return "未知时间";
+    const diff = now - d;
+    const mins = Math.floor(diff / 60000);
+    if (mins < 1) return "刚刚";
+    if (mins < 60) return mins + " 分钟前";
+    const hrs = Math.floor(mins / 60);
+    if (hrs < 24) return hrs + " 小时前";
+    const days = Math.floor(hrs / 24);
+    if (days < 7) return days + " 天前";
+    return d.toLocaleDateString("zh-CN", { month: "short", day: "numeric" });
+  }
+
+  // Quick actions
+  const actions = [
+    { icon: "\uD83D\uDCDD", title: "\u5957\u9898\u6A21\u8003", desc: "\u5B8C\u6574\u8BD5\u5377\u6A21\u62DF\uFF0C\u68C0\u9A8C\u5B66\u4E60\u6210\u679C", href: window.sitePath("/mock/") },
+    { icon: "\uD83D\uDCDA", title: "\u4E13\u9878\u8BAD\u7EC3", desc: "\u6309\u77E5\u8BC6\u70B9\u5206\u7C7B\u5237\u9898\uFF0C\u67E5\u7F3A\u8865\u6F0F", href: window.sitePath("/training/") },
+    { icon: "\u274C", title: "\u9519\u9898\u672C", desc: "\u590D\u76D8\u5386\u6B21\u9519\u9898\uFF0C\u5DE9\u56FA\u8584\u5F31\u73AF\u8282", href: window.sitePath("/v2/exam/wrong-notebook.html") },
+    { icon: "\uD83D\uDCCA", title: "Dashboard", desc: "\u67E5\u770B\u5B66\u4E60\u6570\u636E\u3001\u638C\u63E1\u5EA6\u5206\u6790\u548C\u8FDB\u5EA6\u8FFD\u8E2A", href: window.sitePath("/dashboard/") }
+  ];
+
+  // Build subject overview from subjectStats + mock data
+  const dashboardSubjects = state.mockData.dashboard?.subjects || [];
+  const subjectOverview = [];
+
+  // Add subjects from mock dashboard first
+  for (const ds of dashboardSubjects) {
+    const realStat = subjectStats[ds.label] || subjectStats[ds.shortLabel] || null;
+    subjectOverview.push({
+      id: ds.id,
+      label: ds.label,
+      answered: realStat ? realStat.answered : 0,
+      total: realStat ? realStat.total : (ds.overallMastery || 0) * 5,
+      progress: ds.overallMastery || 0,
+      accuracy: realStat && realStat.answered > 0
+        ? Math.round((realStat.answered / Math.max(realStat.total, 1)) * 100) : (ds.overallMastery || 0),
+      sessions: realStat ? realStat.sessions : 0
+    });
+  }
+
+  // Add any real subjects not in mock
+  for (const [zhName, s] of Object.entries(subjectStats)) {
+    const exists = subjectOverview.some(o => o.label === zhName);
+    if (!exists) {
+      const enLabel = fallbackSubjectMap[zhName] || zhName;
+      subjectOverview.push({
+        id: getSubjectIdFromZh(zhName),
+        label: enLabel,
+        answered: s.answered,
+        total: s.total,
+        progress: s.total > 0 ? Math.round((s.answered / s.total) * 100) : 0,
+        accuracy: s.total > 0 ? Math.round((s.answered / s.total) * 100) : 0,
+        sessions: s.sessions
+      });
+    }
+  }
+
+  root.innerHTML = `
+    <section class="dashboard-welcome">
+      <h1>\u6B22\u8FCE\u56DE\u6765\uFF0C${escapeHtml(userName.split(" ")[0] || userName)}</h1>
+      <span class="welcome-date">${escapeHtml(dateStr)}</span>
+      <div class="stats-row">
+        <div class="stat-card">
+          <span class="stat-value">${totalAnswered}</span>
+          <span class="stat-label">\u5DF2\u7B54\u9898\u6570</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-value">${examSessions.length}</span>
+          <span class="stat-label">\u505A\u9898\u4F1A\u8BDD</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-value">${totalQuestions > 0 ? Math.round((totalAnswered / totalQuestions) * 100) + "%" : "0%"}</span>
+          <span class="stat-label">\u5B8C\u6210\u7387</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="continue-card">
+      ${inProgressExam ? `
+        <div class="continue-info">
+          <h3>\u7EE7\u7EED\u4F60\u7684\u7EC3\u4E60</h3>
+          <p>${escapeHtml(inProgressExam.title)} \u00B7 \u5DF2\u7B54 ${inProgressExam.answered} \u9898</p>
+        </div>
+        <a class="continue-btn" href="${window.sitePath('/ap/start/?examId=' + encodeURIComponent(inProgressExam.examId))}">\u7EE7\u7EED \u2192</a>
+      ` : examSessions.length > 0 ? `
+        <div class="continue-info">
+          <h3>\u6240\u6709\u8BD5\u5377\u5DF2\u5B8C\u6210</h3>
+          <p>\u5F00\u59CB\u4E00\u5957\u65B0\u7684\u6A21\u8003\u8BD5\u5377\u5427</p>
+        </div>
+        <a class="continue-btn" href="${window.sitePath('/mock/')}">\u5F00\u59CB\u65B0\u8BD5\u5377 \u2192</a>
+      ` : `
+        <div class="continue-info">
+          <h3>\u5F00\u59CB\u4F60\u7684\u7B2C\u4E00\u6B21\u7EC3\u4E60</h3>
+          <p>\u9009\u62E9\u4E00\u5957\u8BD5\u5377\u5F00\u59CB\u505A\u9898\u5427</p>
+        </div>
+        <a class="continue-btn" href="${window.sitePath('/mock/')}">\u6D4F\u89C8\u8BD5\u5377 \u2192</a>
+      `}
+    </section>
+
+    <h2 class="section-title">\u5FEB\u901F\u5F00\u59CB</h2>
+    <div class="quick-actions">
+      ${actions.map(a => `
+        <a class="action-card" href="${a.href}">
+          <span class="action-icon">${a.icon}</span>
+          <span class="action-title">${a.title}</span>
+          <span class="action-desc">${a.desc}</span>
+          <span class="action-arrow">\u2192</span>
+        </a>
+      `).join("")}
+    </div>
+
+    <h2 class="section-title">\u6700\u8FD1\u6D3B\u52A8</h2>
+    ${examSessions.length > 0 ? `
+      <div class="activity-list">
+        ${examSessions.slice(0, 5).map(s => `
+          <div class="activity-item">
+            <div class="activity-left">
+              <h4>${escapeHtml(s.title)}</h4>
+              <p>${fmtDate(s.updatedAt)}${s.subjectName ? " \u00B7 " + escapeHtml(s.subjectName) : ""}</p>
+            </div>
+            <div class="activity-right">
+              <span class="activity-status ${s.isCompleted ? "is-done" : "is-progress"}">
+                ${s.isCompleted ? "\u5DF2\u5B8C\u6210" : "\u8FDB\u884C\u4E2D"}
+              </span>
+              <a class="activity-link" href="${window.sitePath('/ap/start/?examId=' + encodeURIComponent(s.examId))}">
+                ${s.isCompleted ? "\u590D\u76D8" : "\u7EE7\u7EED"}
+              </a>
+            </div>
+          </div>
+        `).join("")}
+      </div>
+    ` : `<div class="empty-activity">\u6682\u65E0\u505A\u9898\u8BB0\u5F55\uFF0C\u5F00\u59CB\u4F60\u7684\u7B2C\u4E00\u6B21\u7EC3\u4E60\u5427\uFF01</div>`}
+
+    ${subjectOverview.length > 0 ? `
+      <h2 class="section-title">\u79D1\u76EE\u6982\u89C8</h2>
+      <div class="subject-overview-grid">
+        ${subjectOverview.map(s => `
+          <a class="subject-mini-card" href="${window.sitePath('/dashboard/subject/?subject=' + encodeURIComponent(s.id))}">
+            <div class="subject-mini-head">
+              <h4>${escapeHtml(s.label)}</h4>
+              <span class="chip">${s.sessions} \u6B21</span>
+            </div>
+            <div class="progress-track">
+              <span class="progress-fill" style="width: ${Math.min(s.progress, 100)}%"></span>
+            </div>
+            <div class="subject-mini-stats">
+              <span>\u5B8C\u6210\u5EA6<strong>${s.progress}%</strong></span>
+              <span>\u5DF2\u7B54\u9898<strong>${s.answered}</strong></span>
+            </div>
+          </a>
+        `).join("")}
+      </div>
+    ` : ""}
+  `;
 }
 
 function hydrateAvatarEntry() {

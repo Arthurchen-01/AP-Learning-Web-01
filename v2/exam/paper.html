@@ -456,6 +456,137 @@
       margin-left: 0.75rem;
     }
     @keyframes spin { to { transform: rotate(360deg); } }
+
+    /* ── Text Highlighting ── */
+    .user-highlight {
+      background: #fef08a;
+      border-radius: 2px;
+      padding: 0 2px;
+      cursor: pointer;
+    }
+    .user-highlight:hover {
+      background: #fde047;
+    }
+    .btn-highlight.active {
+      background: #eab308 !important;
+      border-color: #eab308 !important;
+      color: #1a1a1a !important;
+    }
+    .highlight-mode .question-text,
+    .highlight-mode .option-content {
+      cursor: text;
+      user-select: text;
+    }
+
+    /* ── Option Selection Checkmark Animation ── */
+    .option-key-inner {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      height: 100%;
+      transition: all 0.15s;
+    }
+    .option-row.selected .option-key-inner .option-letter {
+      display: none;
+    }
+    .option-row.selected .option-key-inner .option-check {
+      display: inline;
+      animation: popIn 0.2s ease;
+    }
+    .option-check {
+      display: none;
+      font-size: 1rem;
+    }
+    .option-letter {
+      display: inline;
+    }
+    @keyframes popIn {
+      from { transform: scale(0); opacity: 0; }
+      to { transform: scale(1); opacity: 1; }
+    }
+
+    /* ── Review Summary ── */
+    .review-summary {
+      background: var(--card-bg);
+      border-radius: 12px;
+      border: 1px solid var(--border);
+      padding: 2rem;
+      animation: fadeIn 0.3s ease;
+    }
+    .review-summary h2 {
+      font-size: 1.3rem;
+      margin-bottom: 0.5rem;
+    }
+    .review-meta {
+      font-size: 0.9rem;
+      color: var(--text-muted);
+      margin-bottom: 1.5rem;
+    }
+    .review-stats {
+      display: flex;
+      gap: 1.5rem;
+      margin-bottom: 1.5rem;
+      flex-wrap: wrap;
+    }
+    .review-stat {
+      display: flex;
+      align-items: center;
+      gap: 0.4rem;
+      font-size: 0.9rem;
+    }
+    .review-stat .dot {
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      flex-shrink: 0;
+    }
+    .dot.answered { background: var(--primary); }
+    .dot.flagged { background: var(--warning); }
+    .dot.empty { background: var(--border); }
+    .review-grid {
+      display: grid;
+      grid-template-columns: repeat(6, 1fr);
+      gap: 0.6rem;
+      margin-bottom: 2rem;
+    }
+    .review-chip {
+      aspect-ratio: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background: var(--bg);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      cursor: pointer;
+      transition: all 0.15s;
+      font-size: 0.9rem;
+      font-weight: 600;
+      position: relative;
+      gap: 2px;
+    }
+    .review-chip:hover { border-color: var(--primary); }
+    .review-chip.answered { background: var(--primary); border-color: var(--primary); color: white; }
+    .review-chip.flagged:not(.answered) { border-color: var(--warning); }
+    .review-chip .chip-icon {
+      font-size: 0.6rem;
+      position: absolute;
+      top: 3px;
+      right: 5px;
+    }
+    .review-actions {
+      display: flex;
+      gap: 1rem;
+      justify-content: flex-end;
+    }
+    .btn-submit-section {
+      background: var(--success);
+      border-color: var(--success);
+      color: white;
+      padding: 0.6rem 1.5rem;
+      font-size: 0.95rem;
+    }
   </style>
 </head>
 <body>
@@ -468,6 +599,7 @@
     </div>
     <div class="topbar-right">
       <button id="theme-toggle-btn" onclick="toggleTheme()" aria-label="Toggle theme" style="background:var(--border);border:none;border-radius:6px;padding:6px 10px;cursor:pointer;font-size:1rem;">🌙</button>
+      <button class="btn btn-highlight" id="btn-highlight" title="高亮标记文字">🖍 Highlight</button>
       <button class="btn" id="btn-flag" title="标记此题">🚩 Flag</button>
       <button class="btn" id="btn-navigator" title="题目导航">☰ Navigator</button>
       <button class="btn" id="btn-submit" style="background: var(--success); border-color: var(--success);">Submit</button>
@@ -514,6 +646,8 @@
     let state = null;
     let timer = null;
     let currentSectionIndex = 0;
+    let highlightMode = false;
+    let showingReview = false;
 
     // 初始化
     async function init() {
@@ -529,12 +663,17 @@
       state = loadState(examId);
       if (!state) {
         state = createFreshState(exam);
+        // Initialize highlights for fresh state
+        state.sections.forEach(section => {
+          if (!section.highlights) section.highlights = new Array(section.answers.length).fill(null).map(() => []);
+        });
       } else {
         // 迁移旧状态：补充 excluded、frqImages、selfAssessment 字段
         state.sections.forEach(section => {
           if (!section.excluded) section.excluded = new Array(section.answers.length).fill(false);
           if (!section.frqImages) section.frqImages = null;
           if (!section.selfAssessment) section.selfAssessment = new Array(section.answers.length).fill(null);
+          if (!section.highlights) section.highlights = new Array(section.answers.length).fill(null).map(() => []);
         });
       }
       // 将 questions 附加到 exam（无论新创建还是加载的 state）
@@ -560,6 +699,7 @@
       renderNavigator();
 
       // 事件绑定
+      document.getElementById('btn-highlight').addEventListener('click', toggleHighlightMode);
       document.getElementById('btn-flag').addEventListener('click', toggleFlag);
       document.getElementById('btn-navigator').addEventListener('click', () => {
         document.getElementById('navigator-modal').style.display = 'flex';
@@ -648,7 +788,7 @@
               const isExcluded = excludedKeys.includes(opt.key);
               return `
                 <div class="option-row ${isSelected ? 'selected' : ''} ${isExcluded ? 'is-excluded' : ''}" data-key="${opt.key}">
-                  <div class="option-key">${opt.key}</div>
+                  <div class="option-key"><span class="option-key-inner"><span class="option-letter">${opt.key}</span><span class="option-check">✓</span></span></div>
                   <div class="option-content">${opt.html}</div>
                   <button class="opt-exclude-btn ${isExcluded ? 'is-active' : ''}" title="排除此选项" data-action="exclude" data-key="${opt.key}">✕</button>
                 </div>`;
@@ -705,6 +845,20 @@
             } catch(e) { return '$' + latex + '$'; }
           });
         });
+      }
+
+      // Re-apply saved highlights
+      reapplyHighlights();
+
+      // Highlight mode: capture text selection
+      if (highlightMode) {
+        document.body.classList.add('highlight-mode');
+        const qPanel = document.querySelector('.question-panel');
+        if (qPanel) {
+          qPanel.addEventListener('mouseup', handleHighlightSelection);
+        }
+      } else {
+        document.body.classList.remove('highlight-mode');
       }
 
       if (frq) {
@@ -979,15 +1133,12 @@
       const section = exam.sections[currentSectionIndex];
       if (state.questionIndex < section.questions.length - 1) {
         state.questionIndex++;
-      } else if (currentSectionIndex < exam.sections.length - 1) {
-        // 切换到下一个 section
-        currentSectionIndex++;
-        state.questionIndex = 0;
-        const nextSection = state.sections[currentSectionIndex];
-        timer.start(nextSection.timeRemainingSec);
+        saveState(examId, state);
+        renderQuestion();
+      } else {
+        // On last question: show review summary instead of auto-advance
+        showReviewSummary();
       }
-      saveState(examId, state);
-      renderQuestion();
     }
 
     // 计时器
@@ -1092,6 +1243,172 @@
             window.location.href = `paper.html?exam=${examId}`;
           }
         );
+      });
+    }
+
+    // ── Highlighting ──
+    function toggleHighlightMode() {
+      highlightMode = !highlightMode;
+      document.getElementById('btn-highlight').classList.toggle('active', highlightMode);
+      document.body.classList.toggle('highlight-mode', highlightMode);
+      const qPanel = document.querySelector('.question-panel');
+      if (highlightMode && qPanel) {
+        qPanel.addEventListener('mouseup', handleHighlightSelection);
+      } else if (qPanel) {
+        qPanel.removeEventListener('mouseup', handleHighlightSelection);
+      }
+    }
+
+    function handleHighlightSelection() {
+      const sel = window.getSelection();
+      if (!sel || sel.isCollapsed) return;
+      const range = sel.getRangeAt(0);
+
+      // Only highlight within question-panel
+      const qPanel = document.querySelector('.question-panel');
+      if (!qPanel || !qPanel.contains(range.startContainer) || !qPanel.contains(range.endContainer)) return;
+
+      const selectedText = sel.toString().trim();
+      if (!selectedText) return;
+
+      // Save highlight data
+      const section = state.sections[currentSectionIndex];
+      const qIdx = state.questionIndex;
+      if (!section.highlights) section.highlights = [];
+      if (!section.highlights[qIdx]) section.highlights[qIdx] = [];
+      section.highlights[qIdx].push({ text: selectedText });
+      saveState(examId, state);
+
+      // Wrap in <mark>
+      try {
+        const mark = document.createElement('mark');
+        mark.className = 'user-highlight';
+        mark.title = 'Click to remove highlight';
+        range.surroundContents(mark);
+        mark.addEventListener('click', () => removeHighlight(mark, selectedText));
+      } catch(e) {
+        // If surroundContents fails (cross-element), skip
+      }
+      sel.removeAllRanges();
+    }
+
+    function removeHighlight(markEl, text) {
+      const section = state.sections[currentSectionIndex];
+      const qIdx = state.questionIndex;
+      if (section.highlights && section.highlights[qIdx]) {
+        const arr = section.highlights[qIdx];
+        const idx = arr.findIndex(h => h.text === text);
+        if (idx >= 0) arr.splice(idx, 1);
+        saveState(examId, state);
+      }
+      // Unwrap the mark
+      const parent = markEl.parentNode;
+      while (markEl.firstChild) parent.insertBefore(markEl.firstChild, markEl);
+      parent.removeChild(markEl);
+    }
+
+    function reapplyHighlights() {
+      const section = state.sections[currentSectionIndex];
+      const qIdx = state.questionIndex;
+      const highlights = section.highlights?.[qIdx] || [];
+      if (highlights.length === 0) return;
+
+      const qPanel = document.querySelector('.question-panel');
+      if (!qPanel) return;
+
+      highlights.forEach(hl => {
+        // Find the text node and wrap it
+        const walker = document.createTreeWalker(qPanel, NodeFilter.SHOW_TEXT, null, false);
+        let node;
+        while ((node = walker.nextNode())) {
+          const idx = node.textContent.indexOf(hl.text);
+          if (idx >= 0) {
+            const range = document.createRange();
+            range.setStart(node, idx);
+            range.setEnd(node, idx + hl.text.length);
+            try {
+              const mark = document.createElement('mark');
+              mark.className = 'user-highlight';
+              mark.title = 'Click to remove highlight';
+              range.surroundContents(mark);
+              mark.addEventListener('click', () => removeHighlight(mark, hl.text));
+            } catch(e) {}
+            break; // Only first match per highlight entry
+          }
+        }
+      });
+    }
+
+    // ── Review Summary ──
+    function showReviewSummary() {
+      showingReview = true;
+      const section = state.sections[currentSectionIndex];
+      const secData = exam.sections[currentSectionIndex];
+      const totalQ = secData.questions.length;
+      const answered = section.answers.filter(a => a !== null).length;
+      const flagged = section.flagged.filter(Boolean).length;
+      const unanswered = totalQ - answered;
+
+      const layout = document.getElementById('exam-layout');
+      layout.innerHTML = `
+        <div class="review-summary" style="grid-column: 1 / -1;">
+          <h2>📋 ${secData.part_label} — Review</h2>
+          <div class="review-meta">
+            Time remaining: <strong>${formatTime(timer ? section.timeRemainingSec : 0)}</strong>
+            &nbsp;·&nbsp; ${exam.exam_title}
+          </div>
+          <div class="review-stats">
+            <div class="review-stat"><div class="dot answered"></div> Answered: ${answered}/${totalQ}</div>
+            <div class="review-stat"><div class="dot flagged"></div> Flagged: ${flagged}</div>
+            <div class="review-stat"><div class="dot empty"></div> Unanswered: ${unanswered}</div>
+          </div>
+          <div class="review-grid">
+            ${secData.questions.map((q, i) => {
+              const isAnswered = section.answers[i] !== null;
+              const isFlagged = section.flagged[i];
+              let icon = '';
+              if (isFlagged) icon = '★';
+              else if (!isAnswered) icon = '○';
+              return `<div class="review-chip ${isAnswered ? 'answered' : ''} ${isFlagged ? 'flagged' : ''}"
+                           data-index="${i}">
+                ${i + 1}
+                ${icon ? `<span class="chip-icon">${icon}</span>` : ''}
+              </div>`;
+            }).join('')}
+          </div>
+          <div class="review-actions">
+            <button class="btn" id="review-back">← Back to Questions</button>
+            <button class="btn btn-submit-section" id="review-submit">Submit Section ✓</button>
+          </div>
+        </div>
+      `;
+
+      // Back button
+      document.getElementById('review-back').addEventListener('click', () => {
+        showingReview = false;
+        renderQuestion();
+      });
+
+      // Submit button
+      document.getElementById('review-submit').addEventListener('click', () => {
+        showConfirm(
+          'Confirm Submit',
+          'Submit this section? You cannot change answers after submission.',
+          () => {
+            showingReview = false;
+            submitSection();
+          }
+        );
+      });
+
+      // Click on review chip to go to that question
+      document.querySelectorAll('.review-chip').forEach(chip => {
+        chip.addEventListener('click', () => {
+          state.questionIndex = parseInt(chip.dataset.index);
+          showingReview = false;
+          saveState(examId, state);
+          renderQuestion();
+        });
       });
     }
 
