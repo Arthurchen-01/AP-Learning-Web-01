@@ -1,0 +1,446 @@
+======================================================================
+AP EXAM TEST - ROUND 3
+Testing E&M + Other Subjects + 1902622* broken file handling
+======================================================================
+
+Found 21 E&M exam files
+Found 4 Macro, 2 Micro, 4 Psych, 4 Stats, 4 CSA files
+
+----------------------------------------------------------------------
+SECTION 1: Physics C: E&M Exams
+----------------------------------------------------------------------
+
+Testing: em2012Intl_EM
+  Subject: Physics C: Electricity and Magnetism
+  Title: AP 物理C电磁 2012年国际卷
+  Sections: 2
+  Status: fully_working
+  Questions: 39 total, 39 valid, 0 broken
+
+Testing: em2013Intl_EM
+  Subject: Physics C: Electricity and Magnetism
+  Title: AP 物理C电磁 2013年国际卷
+  Sections: 2
+  Status: fully_working
+  Questions: 39 total, 39 valid, 0 broken
+
+Testing: em2014Intl_EM
+  Subject: Physics C: Electricity and Magnetism
+  Title: AP 物理C电磁 2014年国际卷
+  Sections: 2
+  Status: partially_working
+  Questions: 39 total, 38 valid, 1 broken
+  Issue: Q27: only 0 options
+
+Testing: em2015Intl_EM
+  Subject: Physics C: Electricity and Magnetism
+  Title: AP 物理C电磁 2015年国际卷
+  Sections: 2
+  Status: partially_working
+  Questions: 39 total, 38 valid, 1 broken
+  Issue: Q35: only 0 options
+
+Testing: em2016Intl_EM
+  Subject: Physics C: Electricity and Magnetism
+  Title: AP 物理C电磁 2016年国际卷
+  Sections: 2
+  Status: partially_working
+  Questions: 39 total, 37 valid, 2 broken
+  Issue: Q22: only 1 options
+  Issue: Q33: only 0 options
+
+Testing: em2017Intl_EM
+  Subject: Physics C: Electricity and Magnetism
+  Title: AP 物理C电磁 2017年国际卷
+  Sections: 2
+  Status: partially_working
+  Questions: 39 total, 37 valid, 2 broken
+  Issue: Q10: only 0 options
+  Issue: Q35: only 0 options
+
+Testing: em2018Intl_EM
+  Subject: Physics C: Electricity and Magnetism
+  Title: AP 物理C电磁 2018年国际卷
+  Sections: 2
+  Status: partially_working
+  Questions: 39 total, 38 valid, 1 broken
+  Issue: Q26: only 0 options
+
+Testing: em2018NA_EM
+  Subject: Physics C: Electricity and Magnetism
+  Title: AP 物理C电磁 2018年北美卷
+  Sections: 2
+  Status: partially_working
+  Questions: 6 total, 4 valid, 2 broken
+  Issue: Q1: only 0 options
+  Issue: Q2: only 0 options
+
+Testing: em2019Intl_EM
+  Subject: Physics C: Electricity and Magnetism
+  Title: AP 物理C电磁 2019年国际卷
+  Sections: 2
+  Status: fully_working
+  Questions: 39 total, 39 valid, 0 broken
+
+Testing: em2019NASet1_EM
+  Subject: Physics C: Electricity and Magnetism
+  Title: AP 物理C电磁 2019年北美Set1
+  Sections: 2
+  Status: partially_working
+  Questions: 4 total, 2 valid, 2 broken
+  Issue: Q1: only 0 options
+  Issue: Q2: only 0 options
+
+Testing: em2019NASet2_EM
+  Subject: Physics C: Electricity and Magnetism
+  Title: AP 物理C电磁 2019年北美Set2
+  Sections: 2
+  Status: partially_working
+  Questions: 5 total, 2 valid, 3 broken
+  Issue: Q1: only 0 options
+  Issue: Q2: only 0 options
+  Issue: Q3: only 0 options
+
+Testing: em2021NA_EM
+  Subject: Physics C: Electricity and Magnetism
+  Title: AP 物理C电磁 2021年北美卷
+  Sections: 2
+  Status: partially_working
+  Questions: 7 total, 4 valid, 3 broken
+  Issue: Q1: only 0 options
+  Issue: Q2: only 0 options
+  Issue: Q3: only 0 options
+
+Testing: em2022NASet1_EM
+  Subject: Physics C: Electricity and Magnetism
+  Title: AP 物理C电磁 2022年北美Set1
+  Sections: 2
+  Status: partially_working
+  Questions: 5 total, 2 valid, 3 broken
+  Issue: Q1: only 0 options
+  Issue: Q2: only 0 options
+  Issue: Q3: only 0 options
+
+Testing: em2022NASet2_EM
+  Subject: Physics C: Electricity and Magnetism
+  Title: AP 物理C电磁 2022年北美Set2
+  Sections: 2
+  Status: partially_working
+  Questions: 5 total, 2 valid, 3 broken
+  Issue: Q1: only 0 options
+  Issue: Q2: only 0 options
+  Issue: Q3: only 0 options
+
+Testing: em2023NASet1_EM
+  Subject: Physics C: Electricity and Magnetism
+  Title: AP 物理C电磁 2023年北美Set1
+  Sections: 2
+  Status: partially_working
+  Questions: 5 total, 2 valid, 3 broken
+  Issue: Q1: only 0 options
+  Issue: Q2: only 0 options
+  Issue: Q3: only 0 options
+
+Testing: em2023NASet2_EM
+  Subject: Physics C: Electricity and Magnetism
+  Title: AP 物理C电磁 2023年北美Set2
+  Sections: 2
+  Status: partially_working
+  Questions: 5 total, 2 valid, 3 broken
+  Issue: Q1: only 0 options
+  Issue: Q2: only 0 options
+  Issue: Q3: only 0 options
+
+Testing: em2024Intl_EM
+  Subject: Physics C: Electricity and Magnetism
+  Title: AP 物理C电磁 2024年国际卷
+  Sections: 2
+  Status: partially_working
+  Questions: 39 total, 37 valid, 2 broken
+  Issue: Q35: only 0 options
+  Issue: Q36: only 0 options
+
+Testing: em2024NASet1_EM
+  Subject: Physics C: Electricity and Magnetism
+  Title: AP 物理C电磁 2024年北美Set1
+  Sections: 2
+  Status: partially_working
+  Questions: 5 total, 2 valid, 3 broken
+  Issue: Q1: only 0 options
+  Issue: Q2: only 0 options
+  Issue: Q3: only 0 options
+
+Testing: em2024NASet2_EM
+  Subject: Physics C: Electricity and Magnetism
+  Title: AP 物理C电磁 2024年北美Set2
+  Sections: 2
+  Status: partially_working
+  Questions: 5 total, 2 valid, 3 broken
+  Issue: Q1: only 0 options
+  Issue: Q2: only 0 options
+  Issue: Q3: only 0 options
+
+Testing: em2025Intl_EM
+  Subject: Physics C: Electricity and Magnetism
+  Title: AP 物理C电磁 2025年国际卷
+  Sections: 1
+  Status: broken
+  Questions: 29 total, 0 valid, 29 broken
+  Issue: Q1: only 0 options
+  Issue: Q2: only 0 options
+  Issue: Q3: only 0 options
+  Issue: Q4: only 0 options
+  Issue: Q5: only 0 options
+  ... and 24 more issues
+
+Testing: em2025NA_EM
+  Subject: Physics C: Electricity and Magnetism
+  Title: AP 物理C电磁 2025年北美卷
+  Sections: 1
+  Status: broken
+  Questions: 3 total, 0 valid, 3 broken
+  Issue: Q1: only 0 options
+  Issue: Q2: only 0 options
+  Issue: Q3: only 0 options
+
+----------------------------------------------------------------------
+SECTION 2: Other Subjects (Macro, Micro, Psych, Stats, CSA)
+----------------------------------------------------------------------
+
+--- MACRO ---
+Testing: 1902622425591156736
+  Subject: 宏观经济
+  Title: AP 宏观经济 2023年国际卷
+  Sections: 1
+  Status: partially_working
+  Questions: 63 total, 60 valid, 3 broken
+  Renderable: 60/63
+  Issue: Q34493: empty prompt, only 0 options
+  Issue: Q34499: empty prompt, only 0 options
+  Issue: Q34471: empty prompt, only 0 options
+
+Testing: 1902622426509709312
+  Subject: 宏观经济
+  Title: AP 宏观经济 2023年样题1
+  Sections: 1
+  Status: partially_working
+  Questions: 63 total, 60 valid, 3 broken
+  Renderable: 60/63
+  Issue: Q22302: empty prompt, only 0 options
+  Issue: Q23186: empty prompt, only 0 options
+  Issue: Q23271: empty prompt, only 0 options
+
+Testing: 1902622426048335872
+  Subject: 宏观经济
+  Title: AP 宏观经济 2023年样题2
+  Sections: 1
+  Status: partially_working
+  Questions: 63 total, 60 valid, 3 broken
+  Renderable: 60/63
+  Issue: Q23202: empty prompt, only 0 options
+  Issue: Q2693: empty prompt, only 0 options
+  Issue: Q23486: empty prompt, only 0 options
+
+Testing: 1902622426966888448
+  Subject: 宏观经济
+  Title: AP 宏观经济 2023年样题3
+  Sections: 1
+  Status: partially_working
+  Questions: 63 total, 60 valid, 3 broken
+  Renderable: 60/63
+  Issue: Q23145: empty prompt, only 0 options
+  Issue: Q22655: empty prompt, only 0 options
+  Issue: Q22786: empty prompt, only 0 options
+
+--- MICRO ---
+Testing: 1902622410416164864
+  Subject: 微观经济
+  Title: AP 微观经济 2017年国际卷
+  Sections: 1
+  Status: partially_working
+  Questions: 63 total, 60 valid, 3 broken
+  Renderable: 60/63
+  Issue: Q8685: empty prompt, only 0 options
+  Issue: Q8256: empty prompt, only 0 options
+  Issue: Q8537: empty prompt, only 0 options
+
+Testing: 1902622410881732608
+  Subject: 微观经济
+  Title: AP 微观经济 2018年国际卷
+  Sections: 1
+  Status: partially_working
+  Questions: 63 total, 60 valid, 3 broken
+  Renderable: 60/63
+  Issue: Q8973: empty prompt, only 0 options
+  Issue: Q8552: empty prompt, only 0 options
+  Issue: Q8797: empty prompt, only 0 options
+
+--- PSYCH ---
+Testing: 1902622414081986560
+  Subject: 统计学
+  Title: AP 统计 2019年国际卷
+  Sections: 1
+  Status: partially_working
+  Questions: 62 total, 40 valid, 22 broken
+  Renderable: 40/62
+  Issue: Q1414: empty prompt, only 0 options
+  Issue: Q1414: empty prompt, only 0 options
+  Issue: Q1572: empty prompt, only 0 options
+  ... and 19 more issues
+
+Testing: 1902622414539165696
+  Subject: 统计学
+  Title: AP 统计 2021年国际卷
+  Sections: 1
+  Status: partially_working
+  Questions: 61 total, 40 valid, 21 broken
+  Renderable: 40/61
+  Issue: Q22003: empty prompt, only 0 options
+  Issue: Q22003: empty prompt, only 0 options
+  Issue: Q22003: empty prompt, only 0 options
+  ... and 18 more issues
+
+Testing: 1902622417764585472
+  Subject: 计算机科学A
+  Title: AP CSA 真题拼题2
+  Sections: 1
+  Status: partially_working
+  Questions: 45 total, 40 valid, 5 broken
+  Renderable: 40/45
+  Issue: Q3437: empty prompt, only 0 options
+  Issue: Q3435: empty prompt, only 0 options
+  Issue: Q31306: empty prompt, only 0 options
+  ... and 2 more issues
+
+Testing: 1902622418221764608
+  Subject: 计算机科学A
+  Title: AP CSA 2021年国际卷
+  Sections: 1
+  Status: partially_working
+  Questions: 47 total, 40 valid, 7 broken
+  Renderable: 40/47
+  Issue: Q31323: empty prompt, only 0 options
+  Issue: Q31323: empty prompt, only 0 options
+  Issue: Q31291: empty prompt, only 0 options
+  ... and 4 more issues
+
+--- STATS ---
+Testing: 1902622413180211200
+  Subject: 统计学
+  Title: AP 统计 2017年国际卷
+  Sections: 1
+  Status: partially_working
+  Questions: 46 total, 40 valid, 6 broken
+  Renderable: 40/46
+  Issue: Q1415: empty prompt, only 0 options
+  Issue: Q1830: empty prompt, only 0 options
+  Issue: Q1959: empty prompt, only 0 options
+  ... and 3 more issues
+
+Testing: 1902622413633196032
+  Subject: 统计学
+  Title: AP 统计 2018年国际卷
+  Sections: 1
+  Status: partially_working
+  Questions: 61 total, 40 valid, 21 broken
+  Renderable: 40/61
+  Issue: Q1421: empty prompt, only 0 options
+  Issue: Q1421: empty prompt, only 0 options
+  Issue: Q1421: empty prompt, only 0 options
+  ... and 18 more issues
+
+Testing: 1902622416850227200
+  Subject: 计算机科学A
+  Title: AP CSA 2020年样题
+  Sections: 1
+  Status: partially_working
+  Questions: 48 total, 40 valid, 8 broken
+  Renderable: 40/48
+  Issue: Q11082: empty prompt, only 0 options
+  Issue: Q11082: empty prompt, only 0 options
+  Issue: Q11082: empty prompt, only 0 options
+  ... and 5 more issues
+
+Testing: 1902622417307406336
+  Subject: 计算机科学A
+  Title: AP CSA 真题拼题1
+  Sections: 1
+  Status: partially_working
+  Questions: 45 total, 40 valid, 5 broken
+  Renderable: 40/45
+  Issue: Q31285: empty prompt, only 0 options
+  Issue: Q31285: empty prompt, only 0 options
+  Issue: Q10866: empty prompt, only 0 options
+  ... and 2 more issues
+
+--- CSA ---
+Testing: 1902622412253270016
+  Subject: 微积分BC
+  Title: AP 微积分BC 2019年国际卷
+  Sections: 1
+  Status: partially_working
+  Questions: 68 total, 45 valid, 23 broken
+  Renderable: 45/68
+  Issue: Q4123: empty prompt, only 0 options
+  Issue: Q4123: empty prompt, only 0 options
+  Issue: Q4123: empty prompt, only 0 options
+  ... and 20 more issues
+
+Testing: 1902622412714643456
+  Subject: 微积分BC
+  Title: AP 微积分BC 2021年国际卷
+  Sections: 1
+  Status: partially_working
+  Questions: 69 total, 45 valid, 24 broken
+  Renderable: 45/69
+  Issue: Q22091: empty prompt, only 0 options
+  Issue: Q22091: empty prompt, only 0 options
+  Issue: Q22091: empty prompt, only 0 options
+  ... and 21 more issues
+
+Testing: 1902622419140317184
+  Subject: 微观经济
+  Title: AP 微观经济 2021年国际卷
+  Sections: 1
+  Status: partially_working
+  Questions: 63 total, 60 valid, 3 broken
+  Renderable: 60/63
+  Issue: Q23643: empty prompt, only 0 options
+  Issue: Q23564: empty prompt, only 0 options
+  Issue: Q23658: empty prompt, only 0 options
+
+Testing: 1902622420520243200
+  Subject: 心理学
+  Title: AP 心理 2025年样题1
+  Sections: 1
+  Status: partially_working
+  Questions: 84 total, 75 valid, 9 broken
+  Renderable: 75/84
+  Issue: Q36147: empty prompt, only 0 options
+  Issue: Q36147: empty prompt, only 0 options
+  Issue: Q36147: empty prompt, only 0 options
+  ... and 6 more issues
+
+----------------------------------------------------------------------
+SECTION 3: Broken File Handling Verification
+----------------------------------------------------------------------
+
+Testing normalizeQuestion() with edge cases:
+
+  Empty prompt: question_html="" => EMPTY (should be skipped)
+  No options: options.length=0 => INSUFFICIENT (should show placeholder)
+  One option: options.length=1 => INSUFFICIENT (should show placeholder)
+  Null prompt: question_html="" => EMPTY (should be skipped)
+  Missing options key: options.length=0 => INSUFFICIENT
+
+======================================================================
+ROUND 3 SUMMARY
+======================================================================
+
+Total exams tested: 39
+  Fully working: 3
+  Partially working: 34
+  Broken: 2
+
+E&M Results: 3 full, 16 partial, 2 broken
+1902622* Results: 0 full, 18 partial, 0 broken

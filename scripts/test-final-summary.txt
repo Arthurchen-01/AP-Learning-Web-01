@@ -1,0 +1,139 @@
+======================================================================
+FINAL SUMMARY - ALL 104 AP EXAMS
+Generated: 2026-04-11T13:06:19.130Z
+======================================================================
+
+Total exam JSON files in mock-data: 104
+
+OVERALL RESULTS:
+  Total exams: 104
+  Fully working: 45
+  Partially working (some questions broken): 49
+  Broken: 10
+
+BY SUBJECT:
+  Subject                   Total  Full  Partial  Broken
+  -------------------------------------------------------
+  calculus_bc                  23    19        4       0
+  computer_science             17     1        8       8
+  economics                     8     0        8       0
+  physics                      49    25       22       2
+  psychology                    3     0        3       0
+  statistics                    4     0        4       0
+
+FULLY WORKING EXAM IDs:
+--------------------------------------------------
+  2008Intl
+  2012Intl
+  2013Intl
+  2014Intl
+  2015Intl
+  2016Intl
+  2016SQ
+  2017Intl
+  2018Intl
+  2018NA
+  2019Intl
+  2019NA
+  2021NA
+  2022NA
+  2023Intl
+  2023NA
+  2024Intl
+  2025Intl
+  2025NA
+  csa_46e0d151
+  em2012Intl_EM
+  em2013Intl_EM
+  em2019Intl_EM
+  phys2009Intl
+  phys2012Intl
+  phys2013Intl
+  phys2014Intl
+  phys2015Intl
+  phys2016Intl
+  phys2017Intl
+  phys2018Intl
+  phys2018NA
+  phys2019Intl
+  phys2019NASet1
+  phys2019NASet2
+  phys2021NASet1
+  phys2021NASet2
+  phys2022NASet1
+  phys2022NASet2
+  phys2023NASet1
+  phys2023NASet2
+  phys2024Intl
+  phys2024NASet1
+  phys2024NASet2
+  phys2025NA
+
+PARTIALLY WORKING EXAM IDs (with issue count):
+--------------------------------------------------
+  1902622410416164864: 60/63 valid, 3 broken
+  1902622410881732608: 60/63 valid, 3 broken
+  1902622411338911744: 45/68 valid, 23 broken
+  1902622411800285184: 45/69 valid, 24 broken
+  1902622412253270016: 45/68 valid, 23 broken
+  1902622412714643456: 45/69 valid, 24 broken
+  1902622413180211200: 40/46 valid, 6 broken
+  1902622413633196032: 40/61 valid, 21 broken
+  1902622414081986560: 40/62 valid, 22 broken
+  1902622414539165696: 40/61 valid, 21 broken
+  1902622416850227200: 40/48 valid, 8 broken
+  1902622417307406336: 40/45 valid, 5 broken
+  1902622417764585472: 40/45 valid, 5 broken
+  1902622418221764608: 40/47 valid, 7 broken
+  1902622418683138048: 60/63 valid, 3 broken
+  1902622419140317184: 60/63 valid, 3 broken
+  1902622420520243200: 75/84 valid, 9 broken
+  1902622420977422336: 75/84 valid, 9 broken
+  1902622421442990080: 75/84 valid, 9 broken
+  1902622423296872448: 40/56 valid, 16 broken
+  1902622423758245888: 40/58 valid, 18 broken
+  1902622424219619328: 40/57 valid, 17 broken
+  1902622425591156736: 60/63 valid, 3 broken
+  1902622426048335872: 60/63 valid, 3 broken
+  1902622426509709312: 60/63 valid, 3 broken
+  1902622426966888448: 60/63 valid, 3 broken
+  1912795104067575815: 40/57 valid, 17 broken
+  1912795104067575816: 40/57 valid, 17 broken
+  1912795104067575817: 40/58 valid, 18 broken
+  csa_1b5d268d: 25/29 valid, 4 broken
+  csa_616416b3: 25/29 valid, 4 broken
+  csa_8a49a395: 40/44 valid, 4 broken
+  csa_d6c9f6e1: 40/46 valid, 6 broken
+  em2014Intl_EM: 38/39 valid, 1 broken
+  em2015Intl_EM: 38/39 valid, 1 broken
+  em2016Intl_EM: 37/39 valid, 2 broken
+  em2017Intl_EM: 37/39 valid, 2 broken
+  em2018Intl_EM: 38/39 valid, 1 broken
+  em2018NA_EM: 4/6 valid, 2 broken
+  em2019NASet1_EM: 2/4 valid, 2 broken
+  em2019NASet2_EM: 2/5 valid, 3 broken
+  em2021NA_EM: 4/7 valid, 3 broken
+  em2022NASet1_EM: 2/5 valid, 3 broken
+  em2022NASet2_EM: 2/5 valid, 3 broken
+  em2023NASet1_EM: 2/5 valid, 3 broken
+  em2023NASet2_EM: 2/5 valid, 3 broken
+  em2024Intl_EM: 37/39 valid, 2 broken
+  em2024NASet1_EM: 2/5 valid, 3 broken
+  em2024NASet2_EM: 2/5 valid, 3 broken
+
+BROKEN EXAM IDs:
+--------------------------------------------------
+  csa_0252da8e: Qcsa_frq_0: only 0 options; Qcsa_frq_1: only 0 options; Qcsa_frq_2: only 0 options; Qcsa_frq_3: only 0 options
+  csa_22cf90e6: Qcsa_frq_0: only 0 options; Qcsa_frq_1: only 0 options; Qcsa_frq_2: only 0 options; Qcsa_frq_3: only 0 options
+  csa_6841b8ec: Qcsa_frq_0: only 0 options; Qcsa_frq_1: only 0 options; Qcsa_frq_2: only 0 options; Qcsa_frq_3: only 0 options
+  csa_6f490a42: Qcsa_frq_0: only 0 options; Qcsa_frq_1: only 0 options; Qcsa_frq_2: only 0 options; Qcsa_frq_3: only 0 options; Qcsa_frq_4: only 0 options; Qcsa_frq_5: only 0 options; Qcsa_frq_6: only 0 options; Qcsa_frq_7: only 0 options; Qcsa_frq_8: only 0 options
+  csa_78345a86: Qcsa_frq_0: only 0 options; Qcsa_frq_1: only 0 options; Qcsa_frq_2: only 0 options; Qcsa_frq_3: only 0 options
+  csa_87cfbf83: Qcsa_frq_0: only 0 options; Qcsa_frq_1: only 0 options; Qcsa_frq_2: only 0 options; Qcsa_frq_3: only 0 options
+  csa_ab00fbd9: Qcsa_frq_0: only 0 options; Qcsa_frq_1: only 0 options; Qcsa_frq_2: only 0 options; Qcsa_frq_3: only 0 options
+  csa_e104d5e5: Qcsa_frq_0: only 0 options; Qcsa_frq_1: only 0 options; Qcsa_frq_2: only 0 options; Qcsa_frq_3: only 0 options
+  em2025Intl_EM: Q1: only 0 options; Q2: only 0 options; Q3: only 0 options; Q4: only 0 options; Q5: only 0 options; Q6: only 0 options; Q7: only 0 options; Q8: only 0 options; Q9: only 0 options; Q10: only 0 options; Q11: only 0 options; Q12: only 0 options; Q13: only 0 options; Q14: only 0 options; Q15: only 0 options; Q16: only 0 options; Q17: only 0 options; Q18: only 0 options; Q19: only 0 options; Q20: only 0 options; Q21: only 0 options; Q22: only 0 options; Q23: only 0 options; Q24: only 0 options; Q25: only 0 options; Q26: only 0 options; Q27: only 0 options; Q28: only 0 options; Q29: only 0 options
+  em2025NA_EM: Q1: only 0 options; Q2: only 0 options; Q3: only 0 options
+
+======================================================================
+END OF FINAL SUMMARY
+======================================================================

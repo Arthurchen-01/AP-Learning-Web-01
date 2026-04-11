@@ -781,19 +781,64 @@
             </div>
           </div>`;
       } else {
+        // 检查是否已提交
+        const isSubmitted = section.status === 'completed' || section.status === 'submitted';
+        const currentQ = exam.sections[currentSectionIndex].questions[qIndex];
+        const correctKey = currentQ ? (currentQ.correct_answer || currentQ.answer) : null;
+        
+        // Handle missing options gracefully
+        if (!question.options || question.options.length === 0) {
+          responseHTML = `
+            <div style="padding: 2rem; text-align: center; color: var(--text-muted); border: 1px dashed var(--border); border-radius: 8px; margin-top: 1rem;">
+              <div style="font-size: 1.5rem; margin-bottom: 0.5rem;">⚠️</div>
+              <div>This question has no answer options available.</div>
+              <div style="font-size: 0.85rem; margin-top: 0.5rem;">The data for this question may be incomplete.</div>
+            </div>`;
+        } else {
+        
         responseHTML = `
           <div class="options-list">
             ${question.options.map(opt => {
               const isSelected = section.answers[qIndex] === opt.key;
               const isExcluded = excludedKeys.includes(opt.key);
+              
+              // 计算正确/错误状态（仅在已提交时显示）
+              let statusClass = '';
+              if (isSubmitted && !frq) {
+                if (isSelected && opt.key === correctKey) {
+                  statusClass = 'correct';
+                } else if (isSelected && opt.key !== correctKey) {
+                  statusClass = 'incorrect';
+                } else if (!isSelected && opt.key === correctKey) {
+                  statusClass = 'correct-answer';
+                }
+              }
+              
               return `
-                <div class="option-row ${isSelected ? 'selected' : ''} ${isExcluded ? 'is-excluded' : ''}" data-key="${opt.key}">
+                <div class="option-row ${isSelected ? 'selected' : ''} ${isExcluded ? 'is-excluded' : ''} ${statusClass}" data-key="${opt.key}">
                   <div class="option-key"><span class="option-key-inner"><span class="option-letter">${opt.key}</span><span class="option-check">✓</span></span></div>
                   <div class="option-content">${opt.html}</div>
                   <button class="opt-exclude-btn ${isExcluded ? 'is-active' : ''}" title="排除此选项" data-action="exclude" data-key="${opt.key}">✕</button>
                 </div>`;
             }).join('')}
           </div>`;
+        
+        // 如果已提交，显示反馈banner
+        if (isSubmitted && !frq && correctKey) {
+          const userAnswer = section.answers[qIndex];
+          const isCorrect = userAnswer === correctKey;
+          const explanation = currentQ.explanation || '';
+          responseHTML += `
+            <div class="feedback-banner ${isCorrect ? 'correct' : 'incorrect'}">
+              <span class="fb-icon">${isCorrect ? '✅' : '❌'}</span>
+              <div class="fb-text">
+                <strong>${isCorrect ? 'Correct!' : 'Incorrect'}</strong>
+                ${!isCorrect ? ` &nbsp;正确答案是 <strong>${correctKey}</strong>` : ''}
+                ${explanation ? `<div class="fb-explanation">${explanation}</div>` : ''}
+              </div>
+            </div>`;
+        }
+        } // end else (has options)
       }
 
       const layout = document.getElementById('exam-layout');
@@ -1008,14 +1053,13 @@
       });
     }
 
-    // 选择选项（跳过已排除的选项）— 带即时反馈
+    // 选择选项（跳过已排除的选项）— 仅显示选中状态，不显示对错
     function selectOption(key) {
       const section = state.sections[currentSectionIndex];
       if (section.excluded[state.questionIndex] && section.excluded[state.questionIndex].includes(key)) return;
 
-      const currentQ = exam.sections[currentSectionIndex].questions[state.questionIndex];
-      const correctKey = currentQ.correct_answer;
-      const isCorrect = key === correctKey;
+      // 如果已经提交过，不允许更改答案
+      if (section.status === 'completed' || section.status === 'submitted') return;
 
       section.answers[state.questionIndex] = key;
       saveState(examId, state);
@@ -1025,15 +1069,10 @@
         const isSelected = k === key;
         row.classList.remove('selected', 'correct', 'incorrect', 'correct-answer');
         if (isSelected) {
-          row.classList.add(isCorrect ? 'correct' : 'incorrect');
-        } else if (k === correctKey) {
-          row.classList.add('correct-answer');
+          row.classList.add('selected');
         }
         if (isSelected) row.classList.remove('is-excluded');
       });
-
-      // 显示反馈Banner
-      showFeedbackBanner(isCorrect, correctKey, currentQ.explanation || '');
 
       // 更新nav chip
       document.querySelectorAll('.nav-chip').forEach(chip => {

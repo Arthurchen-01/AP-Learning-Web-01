@@ -1,0 +1,729 @@
+============================================================
+ROUND 1 TEST: Calculus BC Exam Files - Data Pipeline
+Date: 2026-04-11T13:03:08.484Z
+============================================================
+
+Found 19 exam files to test:
+  - ap-exam-2008Intl.json
+  - ap-exam-2012Intl.json
+  - ap-exam-2013Intl.json
+  - ap-exam-2014Intl.json
+  - ap-exam-2015Intl.json
+  - ap-exam-2016Intl.json
+  - ap-exam-2016SQ.json
+  - ap-exam-2017Intl.json
+  - ap-exam-2018Intl.json
+  - ap-exam-2018NA.json
+  - ap-exam-2019Intl.json
+  - ap-exam-2019NA.json
+  - ap-exam-2021NA.json
+  - ap-exam-2022NA.json
+  - ap-exam-2023Intl.json
+  - ap-exam-2023NA.json
+  - ap-exam-2024Intl.json
+  - ap-exam-2025Intl.json
+  - ap-exam-2025NA.json
+
+--- Testing: ap-exam-2008Intl.json ---
+  Parsed OK. Raw examId: 2008Intl
+  exam_id: 2008Intl, subject: calculus_bc, total_questions: 51
+  PASS
+
+--- Testing: ap-exam-2012Intl.json ---
+  Parsed OK. Raw examId: 2012Intl
+  exam_id: 2012Intl, subject: calculus_bc, total_questions: 49
+  PASS
+
+--- Testing: ap-exam-2013Intl.json ---
+  Parsed OK. Raw examId: 2013Intl
+  exam_id: 2013Intl, subject: calculus_bc, total_questions: 50
+  PASS
+
+--- Testing: ap-exam-2014Intl.json ---
+  Parsed OK. Raw examId: 2014Intl
+  exam_id: 2014Intl, subject: calculus_bc, total_questions: 51
+  PASS
+
+--- Testing: ap-exam-2015Intl.json ---
+  Parsed OK. Raw examId: 2015Intl
+  exam_id: 2015Intl, subject: calculus_bc, total_questions: 45
+  FAIL - 45 error(s):
+    ERROR: S0 Q0: duplicate option keys: ,,,,
+    ERROR: S0 Q1: duplicate option keys: ,,,,
+    ERROR: S0 Q2: duplicate option keys: ,,,,
+    ERROR: S0 Q3: duplicate option keys: ,,,,
+    ERROR: S0 Q4: duplicate option keys: ,,,,
+    ERROR: S0 Q5: duplicate option keys: ,,,,
+    ERROR: S0 Q6: duplicate option keys: ,,,,
+    ERROR: S0 Q7: duplicate option keys: ,,,,
+    ERROR: S0 Q8: duplicate option keys: ,,,,
+    ERROR: S0 Q9: duplicate option keys: ,,,,
+    ERROR: S0 Q10: duplicate option keys: ,,,,
+    ERROR: S0 Q11: duplicate option keys: ,,,,
+    ERROR: S0 Q12: duplicate option keys: ,,,,
+    ERROR: S0 Q13: duplicate option keys: ,,,,
+    ERROR: S0 Q14: duplicate option keys: ,,,,
+    ERROR: S0 Q15: duplicate option keys: ,,,,
+    ERROR: S0 Q16: duplicate option keys: ,,,,
+    ERROR: S0 Q17: duplicate option keys: ,,,,
+    ERROR: S0 Q18: duplicate option keys: ,,,,
+    ERROR: S0 Q19: duplicate option keys: ,,,,
+    ERROR: S0 Q20: duplicate option keys: ,,,,
+    ERROR: S0 Q21: duplicate option keys: ,,,,
+    ERROR: S0 Q22: duplicate option keys: ,,,,
+    ERROR: S0 Q23: duplicate option keys: ,,,,
+    ERROR: S0 Q24: duplicate option keys: ,,,,
+    ERROR: S0 Q25: duplicate option keys: ,,,,
+    ERROR: S0 Q26: duplicate option keys: ,,,,
+    ERROR: S0 Q27: duplicate option keys: ,,,,
+    ERROR: S0 Q28: duplicate option keys: ,,,,
+    ERROR: S0 Q29: duplicate option keys: ,,,,
+    ERROR: S0 Q30: duplicate option keys: ,,,,
+    ERROR: S0 Q31: duplicate option keys: ,,,,
+    ERROR: S0 Q32: duplicate option keys: ,,,,
+    ERROR: S0 Q33: duplicate option keys: ,,,,
+    ERROR: S0 Q34: duplicate option keys: ,,,,
+    ERROR: S0 Q35: duplicate option keys: ,,,,
+    ERROR: S0 Q36: duplicate option keys: ,,,,
+    ERROR: S0 Q37: duplicate option keys: ,,,,
+    ERROR: S0 Q38: duplicate option keys: ,,,,
+    ERROR: S0 Q39: duplicate option keys: ,,,,
+    ERROR: S0 Q40: duplicate option keys: ,,,,
+    ERROR: S0 Q41: duplicate option keys: ,,,,
+    ERROR: S0 Q42: duplicate option keys: ,,,,
+    ERROR: S0 Q43: duplicate option keys: ,,,,
+    ERROR: S0 Q44: duplicate option keys: ,,,,
+
+--- Testing: ap-exam-2016Intl.json ---
+  Parsed OK. Raw examId: 2016Intl
+  exam_id: 2016Intl, subject: calculus_bc, total_questions: 45
+  FAIL - 45 error(s):
+    ERROR: S0 Q0: duplicate option keys: ,,,,
+    ERROR: S0 Q1: duplicate option keys: ,,,,
+    ERROR: S0 Q2: duplicate option keys: ,,,,
+    ERROR: S0 Q3: duplicate option keys: ,,,,
+    ERROR: S0 Q4: duplicate option keys: ,,,,
+    ERROR: S0 Q5: duplicate option keys: ,,,,
+    ERROR: S0 Q6: duplicate option keys: ,,,,
+    ERROR: S0 Q7: duplicate option keys: ,,,,
+    ERROR: S0 Q8: duplicate option keys: ,,,,
+    ERROR: S0 Q9: duplicate option keys: ,,,,
+    ERROR: S0 Q10: duplicate option keys: ,,,,
+    ERROR: S0 Q11: duplicate option keys: ,,,,
+    ERROR: S0 Q12: duplicate option keys: ,,,,
+    ERROR: S0 Q13: duplicate option keys: ,,,,
+    ERROR: S0 Q14: duplicate option keys: ,,,,
+    ERROR: S0 Q15: duplicate option keys: ,,,,
+    ERROR: S0 Q16: duplicate option keys: ,,,,
+    ERROR: S0 Q17: duplicate option keys: ,,,,
+    ERROR: S0 Q18: duplicate option keys: ,,,,
+    ERROR: S0 Q19: duplicate option keys: ,,,,
+    ERROR: S0 Q20: duplicate option keys: ,,,,
+    ERROR: S0 Q21: duplicate option keys: ,,,,
+    ERROR: S0 Q22: duplicate option keys: ,,,,
+    ERROR: S0 Q23: duplicate option keys: ,,,,
+    ERROR: S0 Q24: duplicate option keys: ,,,,
+    ERROR: S0 Q25: duplicate option keys: ,,,,
+    ERROR: S0 Q26: duplicate option keys: ,,,,
+    ERROR: S0 Q27: duplicate option keys: ,,,,
+    ERROR: S0 Q28: duplicate option keys: ,,,,
+    ERROR: S0 Q29: duplicate option keys: ,,,,
+    ERROR: S0 Q30: duplicate option keys: ,,,,
+    ERROR: S0 Q31: duplicate option keys: ,,,,
+    ERROR: S0 Q32: duplicate option keys: ,,,,
+    ERROR: S0 Q33: duplicate option keys: ,,,,
+    ERROR: S0 Q34: duplicate option keys: ,,,,
+    ERROR: S0 Q35: duplicate option keys: ,,,,
+    ERROR: S0 Q36: duplicate option keys: ,,,,
+    ERROR: S0 Q37: duplicate option keys: ,,,,
+    ERROR: S0 Q38: duplicate option keys: ,,,,
+    ERROR: S0 Q39: duplicate option keys: ,,,,
+    ERROR: S0 Q40: duplicate option keys: ,,,,
+    ERROR: S0 Q41: duplicate option keys: ,,,,
+    ERROR: S0 Q42: duplicate option keys: ,,,,
+    ERROR: S0 Q43: duplicate option keys: ,,,,
+    ERROR: S0 Q44: duplicate option keys: ,,,,
+
+--- Testing: ap-exam-2016SQ.json ---
+  Parsed OK. Raw examId: 2016SQ
+  exam_id: 2016SQ, subject: calculus_bc, total_questions: 44
+  FAIL - 44 error(s):
+    ERROR: S0 Q0: duplicate option keys: ,,,
+    ERROR: S0 Q1: duplicate option keys: ,,,
+    ERROR: S0 Q2: duplicate option keys: ,,,
+    ERROR: S0 Q3: duplicate option keys: ,,,
+    ERROR: S0 Q4: duplicate option keys: ,,,
+    ERROR: S0 Q5: duplicate option keys: ,,,
+    ERROR: S0 Q6: duplicate option keys: ,,,
+    ERROR: S0 Q7: duplicate option keys: ,,,
+    ERROR: S0 Q8: duplicate option keys: ,,,
+    ERROR: S0 Q9: duplicate option keys: ,,,
+    ERROR: S0 Q10: duplicate option keys: ,,,
+    ERROR: S0 Q11: duplicate option keys: ,,,
+    ERROR: S0 Q12: duplicate option keys: ,,,
+    ERROR: S0 Q13: duplicate option keys: ,,,
+    ERROR: S0 Q14: duplicate option keys: ,,,
+    ERROR: S0 Q15: duplicate option keys: ,,,
+    ERROR: S0 Q16: duplicate option keys: ,,,
+    ERROR: S0 Q17: duplicate option keys: ,,,
+    ERROR: S0 Q18: duplicate option keys: ,,,
+    ERROR: S0 Q19: duplicate option keys: ,,,
+    ERROR: S0 Q20: duplicate option keys: ,,,
+    ERROR: S0 Q21: duplicate option keys: ,,,
+    ERROR: S0 Q22: duplicate option keys: ,,,
+    ERROR: S0 Q23: duplicate option keys: ,,,
+    ERROR: S0 Q24: duplicate option keys: ,,,
+    ERROR: S0 Q25: duplicate option keys: ,,,
+    ERROR: S0 Q26: duplicate option keys: ,,,
+    ERROR: S0 Q27: duplicate option keys: ,,,
+    ERROR: S0 Q28: duplicate option keys: ,,,
+    ERROR: S0 Q29: duplicate option keys: ,,,
+    ERROR: S0 Q30: duplicate option keys: ,,,
+    ERROR: S0 Q31: duplicate option keys: ,,,
+    ERROR: S0 Q32: duplicate option keys: ,,,
+    ERROR: S0 Q33: duplicate option keys: ,,,
+    ERROR: S0 Q34: duplicate option keys: ,,,
+    ERROR: S0 Q35: duplicate option keys: ,,,
+    ERROR: S0 Q36: duplicate option keys: ,,,
+    ERROR: S0 Q37: duplicate option keys: ,,,
+    ERROR: S0 Q38: duplicate option keys: ,,,
+    ERROR: S0 Q39: duplicate option keys: ,,,
+    ERROR: S0 Q40: duplicate option keys: ,,,
+    ERROR: S0 Q41: duplicate option keys: ,,,
+    ERROR: S0 Q42: duplicate option keys: ,,,
+    ERROR: S0 Q43: duplicate option keys: ,,,
+
+--- Testing: ap-exam-2017Intl.json ---
+  Parsed OK. Raw examId: 2017Intl
+  exam_id: 2017Intl, subject: calculus_bc, total_questions: 45
+  FAIL - 45 error(s):
+    ERROR: S0 Q0: duplicate option keys: ,,,
+    ERROR: S0 Q1: duplicate option keys: ,,,
+    ERROR: S0 Q2: duplicate option keys: ,,,
+    ERROR: S0 Q3: duplicate option keys: ,,,
+    ERROR: S0 Q4: duplicate option keys: ,,,
+    ERROR: S0 Q5: duplicate option keys: ,,,
+    ERROR: S0 Q6: duplicate option keys: ,,,
+    ERROR: S0 Q7: duplicate option keys: ,,,
+    ERROR: S0 Q8: duplicate option keys: ,,,
+    ERROR: S0 Q9: duplicate option keys: ,,,
+    ERROR: S0 Q10: duplicate option keys: ,,,
+    ERROR: S0 Q11: duplicate option keys: ,,,
+    ERROR: S0 Q12: duplicate option keys: ,,,
+    ERROR: S0 Q13: duplicate option keys: ,,,
+    ERROR: S0 Q14: duplicate option keys: ,,,
+    ERROR: S0 Q15: duplicate option keys: ,,,
+    ERROR: S0 Q16: duplicate option keys: ,,,
+    ERROR: S0 Q17: duplicate option keys: ,,,
+    ERROR: S0 Q18: duplicate option keys: ,,,
+    ERROR: S0 Q19: duplicate option keys: ,,,
+    ERROR: S0 Q20: duplicate option keys: ,,,
+    ERROR: S0 Q21: duplicate option keys: ,,,
+    ERROR: S0 Q22: duplicate option keys: ,,,
+    ERROR: S0 Q23: duplicate option keys: ,,,
+    ERROR: S0 Q24: duplicate option keys: ,,,
+    ERROR: S0 Q25: duplicate option keys: ,,,
+    ERROR: S0 Q26: duplicate option keys: ,,,
+    ERROR: S0 Q27: duplicate option keys: ,,,
+    ERROR: S0 Q28: duplicate option keys: ,,,
+    ERROR: S0 Q29: duplicate option keys: ,,,
+    ERROR: S0 Q30: duplicate option keys: ,,,
+    ERROR: S0 Q31: duplicate option keys: ,,,
+    ERROR: S0 Q32: duplicate option keys: ,,,
+    ERROR: S0 Q33: duplicate option keys: ,,,
+    ERROR: S0 Q34: duplicate option keys: ,,,
+    ERROR: S0 Q35: duplicate option keys: ,,,
+    ERROR: S0 Q36: duplicate option keys: ,,,
+    ERROR: S0 Q37: duplicate option keys: ,,,
+    ERROR: S0 Q38: duplicate option keys: ,,,
+    ERROR: S0 Q39: duplicate option keys: ,,,
+    ERROR: S0 Q40: duplicate option keys: ,,,
+    ERROR: S0 Q41: duplicate option keys: ,,,
+    ERROR: S0 Q42: duplicate option keys: ,,,
+    ERROR: S0 Q43: duplicate option keys: ,,,
+    ERROR: S0 Q44: duplicate option keys: ,,,
+
+--- Testing: ap-exam-2018Intl.json ---
+  Parsed OK. Raw examId: 2018Intl
+  exam_id: 2018Intl, subject: calculus_bc, total_questions: 46
+  FAIL - 46 error(s):
+    ERROR: S0 Q0: duplicate option keys: ,,,
+    ERROR: S0 Q1: duplicate option keys: ,,,
+    ERROR: S0 Q2: duplicate option keys: ,,,
+    ERROR: S0 Q3: duplicate option keys: ,,,
+    ERROR: S0 Q4: duplicate option keys: ,,,
+    ERROR: S0 Q5: duplicate option keys: ,,,
+    ERROR: S0 Q6: duplicate option keys: ,,,
+    ERROR: S0 Q7: duplicate option keys: ,,,
+    ERROR: S0 Q8: duplicate option keys: ,,,
+    ERROR: S0 Q9: duplicate option keys: ,,,
+    ERROR: S0 Q10: duplicate option keys: ,,,
+    ERROR: S0 Q11: duplicate option keys: ,,,
+    ERROR: S0 Q12: duplicate option keys: ,,,
+    ERROR: S0 Q13: duplicate option keys: ,,,
+    ERROR: S0 Q14: duplicate option keys: ,,,
+    ERROR: S0 Q15: duplicate option keys: ,,,
+    ERROR: S0 Q16: duplicate option keys: ,,,
+    ERROR: S0 Q17: duplicate option keys: ,,,
+    ERROR: S0 Q18: duplicate option keys: ,,,
+    ERROR: S0 Q19: duplicate option keys: ,,,
+    ERROR: S0 Q20: duplicate option keys: ,,,
+    ERROR: S0 Q21: duplicate option keys: ,,,
+    ERROR: S0 Q22: duplicate option keys: ,,,
+    ERROR: S0 Q23: duplicate option keys: ,,,
+    ERROR: S0 Q24: duplicate option keys: ,,,
+    ERROR: S0 Q25: duplicate option keys: ,,,
+    ERROR: S0 Q26: duplicate option keys: ,,,
+    ERROR: S0 Q27: duplicate option keys: ,,,
+    ERROR: S0 Q28: duplicate option keys: ,,,
+    ERROR: S0 Q29: duplicate option keys: ,,,
+    ERROR: S0 Q30: duplicate option keys: ,,,
+    ERROR: S0 Q31: duplicate option keys: ,,,
+    ERROR: S0 Q32: duplicate option keys: ,,,
+    ERROR: S0 Q33: duplicate option keys: ,,,
+    ERROR: S0 Q34: duplicate option keys: ,,,
+    ERROR: S0 Q35: duplicate option keys: ,,,
+    ERROR: S0 Q36: duplicate option keys: ,,,
+    ERROR: S0 Q37: duplicate option keys: ,,,
+    ERROR: S0 Q38: duplicate option keys: ,,,
+    ERROR: S0 Q39: duplicate option keys: ,,,
+    ERROR: S0 Q40: duplicate option keys: ,,,
+    ERROR: S0 Q41: duplicate option keys: ,,,
+    ERROR: S0 Q42: duplicate option keys: ,,,
+    ERROR: S0 Q43: duplicate option keys: ,,,
+    ERROR: S0 Q44: duplicate option keys: ,,,
+    ERROR: S0 Q45: duplicate option keys: ,,,
+
+--- Testing: ap-exam-2018NA.json ---
+  Parsed OK. Raw examId: 2018NA
+  exam_id: 2018NA, subject: calculus_bc, total_questions: 6
+  PASS
+
+--- Testing: ap-exam-2019Intl.json ---
+  Parsed OK. Raw examId: 2019Intl
+  exam_id: 2019Intl, subject: calculus_bc, total_questions: 57
+  PASS
+
+--- Testing: ap-exam-2019NA.json ---
+  Parsed OK. Raw examId: 2019NA
+  exam_id: 2019NA, subject: calculus_bc, total_questions: 6
+  PASS
+
+--- Testing: ap-exam-2021NA.json ---
+  Parsed OK. Raw examId: 2021NA
+  exam_id: 2021NA, subject: calculus_bc, total_questions: 6
+  PASS
+
+--- Testing: ap-exam-2022NA.json ---
+  Parsed OK. Raw examId: 2022NA
+  exam_id: 2022NA, subject: calculus_bc, total_questions: 6
+  PASS
+
+--- Testing: ap-exam-2023Intl.json ---
+  Parsed OK. Raw examId: 2023Intl
+  exam_id: 2023Intl, subject: calculus_bc, total_questions: 28
+  FAIL - 28 error(s):
+    ERROR: S0 Q0: duplicate option keys: ,,,
+    ERROR: S0 Q1: duplicate option keys: ,,,
+    ERROR: S0 Q2: duplicate option keys: ,,,
+    ERROR: S0 Q3: duplicate option keys: ,,,
+    ERROR: S0 Q4: duplicate option keys: ,,,
+    ERROR: S0 Q5: duplicate option keys: ,,,
+    ERROR: S0 Q6: duplicate option keys: ,,,
+    ERROR: S0 Q7: duplicate option keys: ,,,
+    ERROR: S0 Q8: duplicate option keys: ,,,
+    ERROR: S0 Q9: duplicate option keys: ,,,
+    ERROR: S0 Q10: duplicate option keys: ,,,
+    ERROR: S0 Q11: duplicate option keys: ,,,
+    ERROR: S0 Q12: duplicate option keys: ,,,
+    ERROR: S0 Q13: duplicate option keys: ,,,
+    ERROR: S0 Q14: duplicate option keys: ,,,
+    ERROR: S0 Q15: duplicate option keys: ,,,
+    ERROR: S0 Q16: duplicate option keys: ,,,
+    ERROR: S0 Q17: duplicate option keys: ,,,
+    ERROR: S0 Q18: duplicate option keys: ,,,
+    ERROR: S0 Q19: duplicate option keys: ,,,
+    ERROR: S0 Q20: duplicate option keys: ,,,
+    ERROR: S0 Q21: duplicate option keys: ,,,
+    ERROR: S0 Q22: duplicate option keys: ,,,
+    ERROR: S0 Q23: duplicate option keys: ,,,
+    ERROR: S0 Q24: duplicate option keys: ,,,
+    ERROR: S0 Q25: duplicate option keys: ,,,
+    ERROR: S0 Q26: duplicate option keys: ,,,
+    ERROR: S0 Q27: duplicate option keys: ,,,
+
+--- Testing: ap-exam-2023NA.json ---
+  Parsed OK. Raw examId: 2023NA
+  exam_id: 2023NA, subject: calculus_bc, total_questions: 6
+  PASS
+
+--- Testing: ap-exam-2024Intl.json ---
+  Parsed OK. Raw examId: 2024Intl
+  exam_id: 2024Intl, subject: calculus_bc, total_questions: 26
+  FAIL - 26 error(s):
+    ERROR: S0 Q0: duplicate option keys: ,,,
+    ERROR: S0 Q1: duplicate option keys: ,,,
+    ERROR: S0 Q2: duplicate option keys: ,,,
+    ERROR: S0 Q3: duplicate option keys: ,,,
+    ERROR: S0 Q4: duplicate option keys: ,,,
+    ERROR: S0 Q5: duplicate option keys: ,,,
+    ERROR: S0 Q6: duplicate option keys: ,,,
+    ERROR: S0 Q7: duplicate option keys: ,,,
+    ERROR: S0 Q8: duplicate option keys: ,,,
+    ERROR: S0 Q9: duplicate option keys: ,,,
+    ERROR: S0 Q10: duplicate option keys: ,,,
+    ERROR: S0 Q11: duplicate option keys: ,,,
+    ERROR: S0 Q12: duplicate option keys: ,,,
+    ERROR: S0 Q13: duplicate option keys: ,,,
+    ERROR: S0 Q14: duplicate option keys: ,,,
+    ERROR: S0 Q15: duplicate option keys: ,,,
+    ERROR: S0 Q16: duplicate option keys: ,,,
+    ERROR: S0 Q17: duplicate option keys: ,,,
+    ERROR: S0 Q18: duplicate option keys: ,,,
+    ERROR: S0 Q19: duplicate option keys: ,,,
+    ERROR: S0 Q20: duplicate option keys: ,,,
+    ERROR: S0 Q21: duplicate option keys: ,,,
+    ERROR: S0 Q22: duplicate option keys: ,,,
+    ERROR: S0 Q23: duplicate option keys: ,,,
+    ERROR: S0 Q24: duplicate option keys: ,,,
+    ERROR: S0 Q25: duplicate option keys: ,,,,
+
+--- Testing: ap-exam-2025Intl.json ---
+  Parsed OK. Raw examId: 2025Intl
+  exam_id: 2025Intl, subject: calculus_bc, total_questions: 49
+  PASS
+
+--- Testing: ap-exam-2025NA.json ---
+  Parsed OK. Raw examId: 2025NA
+  exam_id: 2025NA, subject: calculus_bc, total_questions: 6
+  PASS
+
+============================================================
+SUMMARY
+============================================================
+Total files tested: 19
+Passed: 12
+Failed: 7
+Total warnings: 0
+
+RENDERING COMPATIBILITY CHECKS:
+  Questions with LaTeX ($...$): 612
+  Questions with images (img tags): 3
+  Questions with tables: 5
+  MCQ sections: 12
+  FRQ sections: 10
+  Empty sections: 0
+  Option structure variants: string,string,string,string,string | string,string,string,string
+
+FAILED FILES:
+  ap-exam-2015Intl.json: S0 Q0: duplicate option keys: ,,,,; S0 Q1: duplicate option keys: ,,,,; S0 Q2: duplicate option keys: ,,,,; S0 Q3: duplicate option keys: ,,,,; S0 Q4: duplicate option keys: ,,,,; S0 Q5: duplicate option keys: ,,,,; S0 Q6: duplicate option keys: ,,,,; S0 Q7: duplicate option keys: ,,,,; S0 Q8: duplicate option keys: ,,,,; S0 Q9: duplicate option keys: ,,,,; S0 Q10: duplicate option keys: ,,,,; S0 Q11: duplicate option keys: ,,,,; S0 Q12: duplicate option keys: ,,,,; S0 Q13: duplicate option keys: ,,,,; S0 Q14: duplicate option keys: ,,,,; S0 Q15: duplicate option keys: ,,,,; S0 Q16: duplicate option keys: ,,,,; S0 Q17: duplicate option keys: ,,,,; S0 Q18: duplicate option keys: ,,,,; S0 Q19: duplicate option keys: ,,,,; S0 Q20: duplicate option keys: ,,,,; S0 Q21: duplicate option keys: ,,,,; S0 Q22: duplicate option keys: ,,,,; S0 Q23: duplicate option keys: ,,,,; S0 Q24: duplicate option keys: ,,,,; S0 Q25: duplicate option keys: ,,,,; S0 Q26: duplicate option keys: ,,,,; S0 Q27: duplicate option keys: ,,,,; S0 Q28: duplicate option keys: ,,,,; S0 Q29: duplicate option keys: ,,,,; S0 Q30: duplicate option keys: ,,,,; S0 Q31: duplicate option keys: ,,,,; S0 Q32: duplicate option keys: ,,,,; S0 Q33: duplicate option keys: ,,,,; S0 Q34: duplicate option keys: ,,,,; S0 Q35: duplicate option keys: ,,,,; S0 Q36: duplicate option keys: ,,,,; S0 Q37: duplicate option keys: ,,,,; S0 Q38: duplicate option keys: ,,,,; S0 Q39: duplicate option keys: ,,,,; S0 Q40: duplicate option keys: ,,,,; S0 Q41: duplicate option keys: ,,,,; S0 Q42: duplicate option keys: ,,,,; S0 Q43: duplicate option keys: ,,,,; S0 Q44: duplicate option keys: ,,,,
+  ap-exam-2016Intl.json: S0 Q0: duplicate option keys: ,,,,; S0 Q1: duplicate option keys: ,,,,; S0 Q2: duplicate option keys: ,,,,; S0 Q3: duplicate option keys: ,,,,; S0 Q4: duplicate option keys: ,,,,; S0 Q5: duplicate option keys: ,,,,; S0 Q6: duplicate option keys: ,,,,; S0 Q7: duplicate option keys: ,,,,; S0 Q8: duplicate option keys: ,,,,; S0 Q9: duplicate option keys: ,,,,; S0 Q10: duplicate option keys: ,,,,; S0 Q11: duplicate option keys: ,,,,; S0 Q12: duplicate option keys: ,,,,; S0 Q13: duplicate option keys: ,,,,; S0 Q14: duplicate option keys: ,,,,; S0 Q15: duplicate option keys: ,,,,; S0 Q16: duplicate option keys: ,,,,; S0 Q17: duplicate option keys: ,,,,; S0 Q18: duplicate option keys: ,,,,; S0 Q19: duplicate option keys: ,,,,; S0 Q20: duplicate option keys: ,,,,; S0 Q21: duplicate option keys: ,,,,; S0 Q22: duplicate option keys: ,,,,; S0 Q23: duplicate option keys: ,,,,; S0 Q24: duplicate option keys: ,,,,; S0 Q25: duplicate option keys: ,,,,; S0 Q26: duplicate option keys: ,,,,; S0 Q27: duplicate option keys: ,,,,; S0 Q28: duplicate option keys: ,,,,; S0 Q29: duplicate option keys: ,,,,; S0 Q30: duplicate option keys: ,,,,; S0 Q31: duplicate option keys: ,,,,; S0 Q32: duplicate option keys: ,,,,; S0 Q33: duplicate option keys: ,,,,; S0 Q34: duplicate option keys: ,,,,; S0 Q35: duplicate option keys: ,,,,; S0 Q36: duplicate option keys: ,,,,; S0 Q37: duplicate option keys: ,,,,; S0 Q38: duplicate option keys: ,,,,; S0 Q39: duplicate option keys: ,,,,; S0 Q40: duplicate option keys: ,,,,; S0 Q41: duplicate option keys: ,,,,; S0 Q42: duplicate option keys: ,,,,; S0 Q43: duplicate option keys: ,,,,; S0 Q44: duplicate option keys: ,,,,
+  ap-exam-2016SQ.json: S0 Q0: duplicate option keys: ,,,; S0 Q1: duplicate option keys: ,,,; S0 Q2: duplicate option keys: ,,,; S0 Q3: duplicate option keys: ,,,; S0 Q4: duplicate option keys: ,,,; S0 Q5: duplicate option keys: ,,,; S0 Q6: duplicate option keys: ,,,; S0 Q7: duplicate option keys: ,,,; S0 Q8: duplicate option keys: ,,,; S0 Q9: duplicate option keys: ,,,; S0 Q10: duplicate option keys: ,,,; S0 Q11: duplicate option keys: ,,,; S0 Q12: duplicate option keys: ,,,; S0 Q13: duplicate option keys: ,,,; S0 Q14: duplicate option keys: ,,,; S0 Q15: duplicate option keys: ,,,; S0 Q16: duplicate option keys: ,,,; S0 Q17: duplicate option keys: ,,,; S0 Q18: duplicate option keys: ,,,; S0 Q19: duplicate option keys: ,,,; S0 Q20: duplicate option keys: ,,,; S0 Q21: duplicate option keys: ,,,; S0 Q22: duplicate option keys: ,,,; S0 Q23: duplicate option keys: ,,,; S0 Q24: duplicate option keys: ,,,; S0 Q25: duplicate option keys: ,,,; S0 Q26: duplicate option keys: ,,,; S0 Q27: duplicate option keys: ,,,; S0 Q28: duplicate option keys: ,,,; S0 Q29: duplicate option keys: ,,,; S0 Q30: duplicate option keys: ,,,; S0 Q31: duplicate option keys: ,,,; S0 Q32: duplicate option keys: ,,,; S0 Q33: duplicate option keys: ,,,; S0 Q34: duplicate option keys: ,,,; S0 Q35: duplicate option keys: ,,,; S0 Q36: duplicate option keys: ,,,; S0 Q37: duplicate option keys: ,,,; S0 Q38: duplicate option keys: ,,,; S0 Q39: duplicate option keys: ,,,; S0 Q40: duplicate option keys: ,,,; S0 Q41: duplicate option keys: ,,,; S0 Q42: duplicate option keys: ,,,; S0 Q43: duplicate option keys: ,,,
+  ap-exam-2017Intl.json: S0 Q0: duplicate option keys: ,,,; S0 Q1: duplicate option keys: ,,,; S0 Q2: duplicate option keys: ,,,; S0 Q3: duplicate option keys: ,,,; S0 Q4: duplicate option keys: ,,,; S0 Q5: duplicate option keys: ,,,; S0 Q6: duplicate option keys: ,,,; S0 Q7: duplicate option keys: ,,,; S0 Q8: duplicate option keys: ,,,; S0 Q9: duplicate option keys: ,,,; S0 Q10: duplicate option keys: ,,,; S0 Q11: duplicate option keys: ,,,; S0 Q12: duplicate option keys: ,,,; S0 Q13: duplicate option keys: ,,,; S0 Q14: duplicate option keys: ,,,; S0 Q15: duplicate option keys: ,,,; S0 Q16: duplicate option keys: ,,,; S0 Q17: duplicate option keys: ,,,; S0 Q18: duplicate option keys: ,,,; S0 Q19: duplicate option keys: ,,,; S0 Q20: duplicate option keys: ,,,; S0 Q21: duplicate option keys: ,,,; S0 Q22: duplicate option keys: ,,,; S0 Q23: duplicate option keys: ,,,; S0 Q24: duplicate option keys: ,,,; S0 Q25: duplicate option keys: ,,,; S0 Q26: duplicate option keys: ,,,; S0 Q27: duplicate option keys: ,,,; S0 Q28: duplicate option keys: ,,,; S0 Q29: duplicate option keys: ,,,; S0 Q30: duplicate option keys: ,,,; S0 Q31: duplicate option keys: ,,,; S0 Q32: duplicate option keys: ,,,; S0 Q33: duplicate option keys: ,,,; S0 Q34: duplicate option keys: ,,,; S0 Q35: duplicate option keys: ,,,; S0 Q36: duplicate option keys: ,,,; S0 Q37: duplicate option keys: ,,,; S0 Q38: duplicate option keys: ,,,; S0 Q39: duplicate option keys: ,,,; S0 Q40: duplicate option keys: ,,,; S0 Q41: duplicate option keys: ,,,; S0 Q42: duplicate option keys: ,,,; S0 Q43: duplicate option keys: ,,,; S0 Q44: duplicate option keys: ,,,
+  ap-exam-2018Intl.json: S0 Q0: duplicate option keys: ,,,; S0 Q1: duplicate option keys: ,,,; S0 Q2: duplicate option keys: ,,,; S0 Q3: duplicate option keys: ,,,; S0 Q4: duplicate option keys: ,,,; S0 Q5: duplicate option keys: ,,,; S0 Q6: duplicate option keys: ,,,; S0 Q7: duplicate option keys: ,,,; S0 Q8: duplicate option keys: ,,,; S0 Q9: duplicate option keys: ,,,; S0 Q10: duplicate option keys: ,,,; S0 Q11: duplicate option keys: ,,,; S0 Q12: duplicate option keys: ,,,; S0 Q13: duplicate option keys: ,,,; S0 Q14: duplicate option keys: ,,,; S0 Q15: duplicate option keys: ,,,; S0 Q16: duplicate option keys: ,,,; S0 Q17: duplicate option keys: ,,,; S0 Q18: duplicate option keys: ,,,; S0 Q19: duplicate option keys: ,,,; S0 Q20: duplicate option keys: ,,,; S0 Q21: duplicate option keys: ,,,; S0 Q22: duplicate option keys: ,,,; S0 Q23: duplicate option keys: ,,,; S0 Q24: duplicate option keys: ,,,; S0 Q25: duplicate option keys: ,,,; S0 Q26: duplicate option keys: ,,,; S0 Q27: duplicate option keys: ,,,; S0 Q28: duplicate option keys: ,,,; S0 Q29: duplicate option keys: ,,,; S0 Q30: duplicate option keys: ,,,; S0 Q31: duplicate option keys: ,,,; S0 Q32: duplicate option keys: ,,,; S0 Q33: duplicate option keys: ,,,; S0 Q34: duplicate option keys: ,,,; S0 Q35: duplicate option keys: ,,,; S0 Q36: duplicate option keys: ,,,; S0 Q37: duplicate option keys: ,,,; S0 Q38: duplicate option keys: ,,,; S0 Q39: duplicate option keys: ,,,; S0 Q40: duplicate option keys: ,,,; S0 Q41: duplicate option keys: ,,,; S0 Q42: duplicate option keys: ,,,; S0 Q43: duplicate option keys: ,,,; S0 Q44: duplicate option keys: ,,,; S0 Q45: duplicate option keys: ,,,
+  ap-exam-2023Intl.json: S0 Q0: duplicate option keys: ,,,; S0 Q1: duplicate option keys: ,,,; S0 Q2: duplicate option keys: ,,,; S0 Q3: duplicate option keys: ,,,; S0 Q4: duplicate option keys: ,,,; S0 Q5: duplicate option keys: ,,,; S0 Q6: duplicate option keys: ,,,; S0 Q7: duplicate option keys: ,,,; S0 Q8: duplicate option keys: ,,,; S0 Q9: duplicate option keys: ,,,; S0 Q10: duplicate option keys: ,,,; S0 Q11: duplicate option keys: ,,,; S0 Q12: duplicate option keys: ,,,; S0 Q13: duplicate option keys: ,,,; S0 Q14: duplicate option keys: ,,,; S0 Q15: duplicate option keys: ,,,; S0 Q16: duplicate option keys: ,,,; S0 Q17: duplicate option keys: ,,,; S0 Q18: duplicate option keys: ,,,; S0 Q19: duplicate option keys: ,,,; S0 Q20: duplicate option keys: ,,,; S0 Q21: duplicate option keys: ,,,; S0 Q22: duplicate option keys: ,,,; S0 Q23: duplicate option keys: ,,,; S0 Q24: duplicate option keys: ,,,; S0 Q25: duplicate option keys: ,,,; S0 Q26: duplicate option keys: ,,,; S0 Q27: duplicate option keys: ,,,
+  ap-exam-2024Intl.json: S0 Q0: duplicate option keys: ,,,; S0 Q1: duplicate option keys: ,,,; S0 Q2: duplicate option keys: ,,,; S0 Q3: duplicate option keys: ,,,; S0 Q4: duplicate option keys: ,,,; S0 Q5: duplicate option keys: ,,,; S0 Q6: duplicate option keys: ,,,; S0 Q7: duplicate option keys: ,,,; S0 Q8: duplicate option keys: ,,,; S0 Q9: duplicate option keys: ,,,; S0 Q10: duplicate option keys: ,,,; S0 Q11: duplicate option keys: ,,,; S0 Q12: duplicate option keys: ,,,; S0 Q13: duplicate option keys: ,,,; S0 Q14: duplicate option keys: ,,,; S0 Q15: duplicate option keys: ,,,; S0 Q16: duplicate option keys: ,,,; S0 Q17: duplicate option keys: ,,,; S0 Q18: duplicate option keys: ,,,; S0 Q19: duplicate option keys: ,,,; S0 Q20: duplicate option keys: ,,,; S0 Q21: duplicate option keys: ,,,; S0 Q22: duplicate option keys: ,,,; S0 Q23: duplicate option keys: ,,,; S0 Q24: duplicate option keys: ,,,; S0 Q25: duplicate option keys: ,,,,
+
+============================================================
+PASS/FAIL per file:
+============================================================
+  [PASS] ap-exam-2008Intl.json (2008Intl, 51q, 1s)
+  [PASS] ap-exam-2012Intl.json (2012Intl, 49q, 2s)
+  [PASS] ap-exam-2013Intl.json (2013Intl, 50q, 2s)
+  [PASS] ap-exam-2014Intl.json (2014Intl, 51q, 2s)
+  [FAIL] ap-exam-2015Intl.json (2015Intl, 45q, 1s)
+         ERROR: S0 Q0: duplicate option keys: ,,,,
+         ERROR: S0 Q1: duplicate option keys: ,,,,
+         ERROR: S0 Q2: duplicate option keys: ,,,,
+         ERROR: S0 Q3: duplicate option keys: ,,,,
+         ERROR: S0 Q4: duplicate option keys: ,,,,
+         ERROR: S0 Q5: duplicate option keys: ,,,,
+         ERROR: S0 Q6: duplicate option keys: ,,,,
+         ERROR: S0 Q7: duplicate option keys: ,,,,
+         ERROR: S0 Q8: duplicate option keys: ,,,,
+         ERROR: S0 Q9: duplicate option keys: ,,,,
+         ERROR: S0 Q10: duplicate option keys: ,,,,
+         ERROR: S0 Q11: duplicate option keys: ,,,,
+         ERROR: S0 Q12: duplicate option keys: ,,,,
+         ERROR: S0 Q13: duplicate option keys: ,,,,
+         ERROR: S0 Q14: duplicate option keys: ,,,,
+         ERROR: S0 Q15: duplicate option keys: ,,,,
+         ERROR: S0 Q16: duplicate option keys: ,,,,
+         ERROR: S0 Q17: duplicate option keys: ,,,,
+         ERROR: S0 Q18: duplicate option keys: ,,,,
+         ERROR: S0 Q19: duplicate option keys: ,,,,
+         ERROR: S0 Q20: duplicate option keys: ,,,,
+         ERROR: S0 Q21: duplicate option keys: ,,,,
+         ERROR: S0 Q22: duplicate option keys: ,,,,
+         ERROR: S0 Q23: duplicate option keys: ,,,,
+         ERROR: S0 Q24: duplicate option keys: ,,,,
+         ERROR: S0 Q25: duplicate option keys: ,,,,
+         ERROR: S0 Q26: duplicate option keys: ,,,,
+         ERROR: S0 Q27: duplicate option keys: ,,,,
+         ERROR: S0 Q28: duplicate option keys: ,,,,
+         ERROR: S0 Q29: duplicate option keys: ,,,,
+         ERROR: S0 Q30: duplicate option keys: ,,,,
+         ERROR: S0 Q31: duplicate option keys: ,,,,
+         ERROR: S0 Q32: duplicate option keys: ,,,,
+         ERROR: S0 Q33: duplicate option keys: ,,,,
+         ERROR: S0 Q34: duplicate option keys: ,,,,
+         ERROR: S0 Q35: duplicate option keys: ,,,,
+         ERROR: S0 Q36: duplicate option keys: ,,,,
+         ERROR: S0 Q37: duplicate option keys: ,,,,
+         ERROR: S0 Q38: duplicate option keys: ,,,,
+         ERROR: S0 Q39: duplicate option keys: ,,,,
+         ERROR: S0 Q40: duplicate option keys: ,,,,
+         ERROR: S0 Q41: duplicate option keys: ,,,,
+         ERROR: S0 Q42: duplicate option keys: ,,,,
+         ERROR: S0 Q43: duplicate option keys: ,,,,
+         ERROR: S0 Q44: duplicate option keys: ,,,,
+  [FAIL] ap-exam-2016Intl.json (2016Intl, 45q, 1s)
+         ERROR: S0 Q0: duplicate option keys: ,,,,
+         ERROR: S0 Q1: duplicate option keys: ,,,,
+         ERROR: S0 Q2: duplicate option keys: ,,,,
+         ERROR: S0 Q3: duplicate option keys: ,,,,
+         ERROR: S0 Q4: duplicate option keys: ,,,,
+         ERROR: S0 Q5: duplicate option keys: ,,,,
+         ERROR: S0 Q6: duplicate option keys: ,,,,
+         ERROR: S0 Q7: duplicate option keys: ,,,,
+         ERROR: S0 Q8: duplicate option keys: ,,,,
+         ERROR: S0 Q9: duplicate option keys: ,,,,
+         ERROR: S0 Q10: duplicate option keys: ,,,,
+         ERROR: S0 Q11: duplicate option keys: ,,,,
+         ERROR: S0 Q12: duplicate option keys: ,,,,
+         ERROR: S0 Q13: duplicate option keys: ,,,,
+         ERROR: S0 Q14: duplicate option keys: ,,,,
+         ERROR: S0 Q15: duplicate option keys: ,,,,
+         ERROR: S0 Q16: duplicate option keys: ,,,,
+         ERROR: S0 Q17: duplicate option keys: ,,,,
+         ERROR: S0 Q18: duplicate option keys: ,,,,
+         ERROR: S0 Q19: duplicate option keys: ,,,,
+         ERROR: S0 Q20: duplicate option keys: ,,,,
+         ERROR: S0 Q21: duplicate option keys: ,,,,
+         ERROR: S0 Q22: duplicate option keys: ,,,,
+         ERROR: S0 Q23: duplicate option keys: ,,,,
+         ERROR: S0 Q24: duplicate option keys: ,,,,
+         ERROR: S0 Q25: duplicate option keys: ,,,,
+         ERROR: S0 Q26: duplicate option keys: ,,,,
+         ERROR: S0 Q27: duplicate option keys: ,,,,
+         ERROR: S0 Q28: duplicate option keys: ,,,,
+         ERROR: S0 Q29: duplicate option keys: ,,,,
+         ERROR: S0 Q30: duplicate option keys: ,,,,
+         ERROR: S0 Q31: duplicate option keys: ,,,,
+         ERROR: S0 Q32: duplicate option keys: ,,,,
+         ERROR: S0 Q33: duplicate option keys: ,,,,
+         ERROR: S0 Q34: duplicate option keys: ,,,,
+         ERROR: S0 Q35: duplicate option keys: ,,,,
+         ERROR: S0 Q36: duplicate option keys: ,,,,
+         ERROR: S0 Q37: duplicate option keys: ,,,,
+         ERROR: S0 Q38: duplicate option keys: ,,,,
+         ERROR: S0 Q39: duplicate option keys: ,,,,
+         ERROR: S0 Q40: duplicate option keys: ,,,,
+         ERROR: S0 Q41: duplicate option keys: ,,,,
+         ERROR: S0 Q42: duplicate option keys: ,,,,
+         ERROR: S0 Q43: duplicate option keys: ,,,,
+         ERROR: S0 Q44: duplicate option keys: ,,,,
+  [FAIL] ap-exam-2016SQ.json (2016SQ, 44q, 1s)
+         ERROR: S0 Q0: duplicate option keys: ,,,
+         ERROR: S0 Q1: duplicate option keys: ,,,
+         ERROR: S0 Q2: duplicate option keys: ,,,
+         ERROR: S0 Q3: duplicate option keys: ,,,
+         ERROR: S0 Q4: duplicate option keys: ,,,
+         ERROR: S0 Q5: duplicate option keys: ,,,
+         ERROR: S0 Q6: duplicate option keys: ,,,
+         ERROR: S0 Q7: duplicate option keys: ,,,
+         ERROR: S0 Q8: duplicate option keys: ,,,
+         ERROR: S0 Q9: duplicate option keys: ,,,
+         ERROR: S0 Q10: duplicate option keys: ,,,
+         ERROR: S0 Q11: duplicate option keys: ,,,
+         ERROR: S0 Q12: duplicate option keys: ,,,
+         ERROR: S0 Q13: duplicate option keys: ,,,
+         ERROR: S0 Q14: duplicate option keys: ,,,
+         ERROR: S0 Q15: duplicate option keys: ,,,
+         ERROR: S0 Q16: duplicate option keys: ,,,
+         ERROR: S0 Q17: duplicate option keys: ,,,
+         ERROR: S0 Q18: duplicate option keys: ,,,
+         ERROR: S0 Q19: duplicate option keys: ,,,
+         ERROR: S0 Q20: duplicate option keys: ,,,
+         ERROR: S0 Q21: duplicate option keys: ,,,
+         ERROR: S0 Q22: duplicate option keys: ,,,
+         ERROR: S0 Q23: duplicate option keys: ,,,
+         ERROR: S0 Q24: duplicate option keys: ,,,
+         ERROR: S0 Q25: duplicate option keys: ,,,
+         ERROR: S0 Q26: duplicate option keys: ,,,
+         ERROR: S0 Q27: duplicate option keys: ,,,
+         ERROR: S0 Q28: duplicate option keys: ,,,
+         ERROR: S0 Q29: duplicate option keys: ,,,
+         ERROR: S0 Q30: duplicate option keys: ,,,
+         ERROR: S0 Q31: duplicate option keys: ,,,
+         ERROR: S0 Q32: duplicate option keys: ,,,
+         ERROR: S0 Q33: duplicate option keys: ,,,
+         ERROR: S0 Q34: duplicate option keys: ,,,
+         ERROR: S0 Q35: duplicate option keys: ,,,
+         ERROR: S0 Q36: duplicate option keys: ,,,
+         ERROR: S0 Q37: duplicate option keys: ,,,
+         ERROR: S0 Q38: duplicate option keys: ,,,
+         ERROR: S0 Q39: duplicate option keys: ,,,
+         ERROR: S0 Q40: duplicate option keys: ,,,
+         ERROR: S0 Q41: duplicate option keys: ,,,
+         ERROR: S0 Q42: duplicate option keys: ,,,
+         ERROR: S0 Q43: duplicate option keys: ,,,
+  [FAIL] ap-exam-2017Intl.json (2017Intl, 45q, 1s)
+         ERROR: S0 Q0: duplicate option keys: ,,,
+         ERROR: S0 Q1: duplicate option keys: ,,,
+         ERROR: S0 Q2: duplicate option keys: ,,,
+         ERROR: S0 Q3: duplicate option keys: ,,,
+         ERROR: S0 Q4: duplicate option keys: ,,,
+         ERROR: S0 Q5: duplicate option keys: ,,,
+         ERROR: S0 Q6: duplicate option keys: ,,,
+         ERROR: S0 Q7: duplicate option keys: ,,,
+         ERROR: S0 Q8: duplicate option keys: ,,,
+         ERROR: S0 Q9: duplicate option keys: ,,,
+         ERROR: S0 Q10: duplicate option keys: ,,,
+         ERROR: S0 Q11: duplicate option keys: ,,,
+         ERROR: S0 Q12: duplicate option keys: ,,,
+         ERROR: S0 Q13: duplicate option keys: ,,,
+         ERROR: S0 Q14: duplicate option keys: ,,,
+         ERROR: S0 Q15: duplicate option keys: ,,,
+         ERROR: S0 Q16: duplicate option keys: ,,,
+         ERROR: S0 Q17: duplicate option keys: ,,,
+         ERROR: S0 Q18: duplicate option keys: ,,,
+         ERROR: S0 Q19: duplicate option keys: ,,,
+         ERROR: S0 Q20: duplicate option keys: ,,,
+         ERROR: S0 Q21: duplicate option keys: ,,,
+         ERROR: S0 Q22: duplicate option keys: ,,,
+         ERROR: S0 Q23: duplicate option keys: ,,,
+         ERROR: S0 Q24: duplicate option keys: ,,,
+         ERROR: S0 Q25: duplicate option keys: ,,,
+         ERROR: S0 Q26: duplicate option keys: ,,,
+         ERROR: S0 Q27: duplicate option keys: ,,,
+         ERROR: S0 Q28: duplicate option keys: ,,,
+         ERROR: S0 Q29: duplicate option keys: ,,,
+         ERROR: S0 Q30: duplicate option keys: ,,,
+         ERROR: S0 Q31: duplicate option keys: ,,,
+         ERROR: S0 Q32: duplicate option keys: ,,,
+         ERROR: S0 Q33: duplicate option keys: ,,,
+         ERROR: S0 Q34: duplicate option keys: ,,,
+         ERROR: S0 Q35: duplicate option keys: ,,,
+         ERROR: S0 Q36: duplicate option keys: ,,,
+         ERROR: S0 Q37: duplicate option keys: ,,,
+         ERROR: S0 Q38: duplicate option keys: ,,,
+         ERROR: S0 Q39: duplicate option keys: ,,,
+         ERROR: S0 Q40: duplicate option keys: ,,,
+         ERROR: S0 Q41: duplicate option keys: ,,,
+         ERROR: S0 Q42: duplicate option keys: ,,,
+         ERROR: S0 Q43: duplicate option keys: ,,,
+         ERROR: S0 Q44: duplicate option keys: ,,,
+  [FAIL] ap-exam-2018Intl.json (2018Intl, 46q, 1s)
+         ERROR: S0 Q0: duplicate option keys: ,,,
+         ERROR: S0 Q1: duplicate option keys: ,,,
+         ERROR: S0 Q2: duplicate option keys: ,,,
+         ERROR: S0 Q3: duplicate option keys: ,,,
+         ERROR: S0 Q4: duplicate option keys: ,,,
+         ERROR: S0 Q5: duplicate option keys: ,,,
+         ERROR: S0 Q6: duplicate option keys: ,,,
+         ERROR: S0 Q7: duplicate option keys: ,,,
+         ERROR: S0 Q8: duplicate option keys: ,,,
+         ERROR: S0 Q9: duplicate option keys: ,,,
+         ERROR: S0 Q10: duplicate option keys: ,,,
+         ERROR: S0 Q11: duplicate option keys: ,,,
+         ERROR: S0 Q12: duplicate option keys: ,,,
+         ERROR: S0 Q13: duplicate option keys: ,,,
+         ERROR: S0 Q14: duplicate option keys: ,,,
+         ERROR: S0 Q15: duplicate option keys: ,,,
+         ERROR: S0 Q16: duplicate option keys: ,,,
+         ERROR: S0 Q17: duplicate option keys: ,,,
+         ERROR: S0 Q18: duplicate option keys: ,,,
+         ERROR: S0 Q19: duplicate option keys: ,,,
+         ERROR: S0 Q20: duplicate option keys: ,,,
+         ERROR: S0 Q21: duplicate option keys: ,,,
+         ERROR: S0 Q22: duplicate option keys: ,,,
+         ERROR: S0 Q23: duplicate option keys: ,,,
+         ERROR: S0 Q24: duplicate option keys: ,,,
+         ERROR: S0 Q25: duplicate option keys: ,,,
+         ERROR: S0 Q26: duplicate option keys: ,,,
+         ERROR: S0 Q27: duplicate option keys: ,,,
+         ERROR: S0 Q28: duplicate option keys: ,,,
+         ERROR: S0 Q29: duplicate option keys: ,,,
+         ERROR: S0 Q30: duplicate option keys: ,,,
+         ERROR: S0 Q31: duplicate option keys: ,,,
+         ERROR: S0 Q32: duplicate option keys: ,,,
+         ERROR: S0 Q33: duplicate option keys: ,,,
+         ERROR: S0 Q34: duplicate option keys: ,,,
+         ERROR: S0 Q35: duplicate option keys: ,,,
+         ERROR: S0 Q36: duplicate option keys: ,,,
+         ERROR: S0 Q37: duplicate option keys: ,,,
+         ERROR: S0 Q38: duplicate option keys: ,,,
+         ERROR: S0 Q39: duplicate option keys: ,,,
+         ERROR: S0 Q40: duplicate option keys: ,,,
+         ERROR: S0 Q41: duplicate option keys: ,,,
+         ERROR: S0 Q42: duplicate option keys: ,,,
+         ERROR: S0 Q43: duplicate option keys: ,,,
+         ERROR: S0 Q44: duplicate option keys: ,,,
+         ERROR: S0 Q45: duplicate option keys: ,,,
+  [PASS] ap-exam-2018NA.json (2018NA, 6q, 1s)
+  [PASS] ap-exam-2019Intl.json (2019Intl, 57q, 1s)
+  [PASS] ap-exam-2019NA.json (2019NA, 6q, 1s)
+  [PASS] ap-exam-2021NA.json (2021NA, 6q, 1s)
+  [PASS] ap-exam-2022NA.json (2022NA, 6q, 1s)
+  [FAIL] ap-exam-2023Intl.json (2023Intl, 28q, 1s)
+         ERROR: S0 Q0: duplicate option keys: ,,,
+         ERROR: S0 Q1: duplicate option keys: ,,,
+         ERROR: S0 Q2: duplicate option keys: ,,,
+         ERROR: S0 Q3: duplicate option keys: ,,,
+         ERROR: S0 Q4: duplicate option keys: ,,,
+         ERROR: S0 Q5: duplicate option keys: ,,,
+         ERROR: S0 Q6: duplicate option keys: ,,,
+         ERROR: S0 Q7: duplicate option keys: ,,,
+         ERROR: S0 Q8: duplicate option keys: ,,,
+         ERROR: S0 Q9: duplicate option keys: ,,,
+         ERROR: S0 Q10: duplicate option keys: ,,,
+         ERROR: S0 Q11: duplicate option keys: ,,,
+         ERROR: S0 Q12: duplicate option keys: ,,,
+         ERROR: S0 Q13: duplicate option keys: ,,,
+         ERROR: S0 Q14: duplicate option keys: ,,,
+         ERROR: S0 Q15: duplicate option keys: ,,,
+         ERROR: S0 Q16: duplicate option keys: ,,,
+         ERROR: S0 Q17: duplicate option keys: ,,,
+         ERROR: S0 Q18: duplicate option keys: ,,,
+         ERROR: S0 Q19: duplicate option keys: ,,,
+         ERROR: S0 Q20: duplicate option keys: ,,,
+         ERROR: S0 Q21: duplicate option keys: ,,,
+         ERROR: S0 Q22: duplicate option keys: ,,,
+         ERROR: S0 Q23: duplicate option keys: ,,,
+         ERROR: S0 Q24: duplicate option keys: ,,,
+         ERROR: S0 Q25: duplicate option keys: ,,,
+         ERROR: S0 Q26: duplicate option keys: ,,,
+         ERROR: S0 Q27: duplicate option keys: ,,,
+  [PASS] ap-exam-2023NA.json (2023NA, 6q, 1s)
+  [FAIL] ap-exam-2024Intl.json (2024Intl, 26q, 1s)
+         ERROR: S0 Q0: duplicate option keys: ,,,
+         ERROR: S0 Q1: duplicate option keys: ,,,
+         ERROR: S0 Q2: duplicate option keys: ,,,
+         ERROR: S0 Q3: duplicate option keys: ,,,
+         ERROR: S0 Q4: duplicate option keys: ,,,
+         ERROR: S0 Q5: duplicate option keys: ,,,
+         ERROR: S0 Q6: duplicate option keys: ,,,
+         ERROR: S0 Q7: duplicate option keys: ,,,
+         ERROR: S0 Q8: duplicate option keys: ,,,
+         ERROR: S0 Q9: duplicate option keys: ,,,
+         ERROR: S0 Q10: duplicate option keys: ,,,
+         ERROR: S0 Q11: duplicate option keys: ,,,
+         ERROR: S0 Q12: duplicate option keys: ,,,
+         ERROR: S0 Q13: duplicate option keys: ,,,
+         ERROR: S0 Q14: duplicate option keys: ,,,
+         ERROR: S0 Q15: duplicate option keys: ,,,
+         ERROR: S0 Q16: duplicate option keys: ,,,
+         ERROR: S0 Q17: duplicate option keys: ,,,
+         ERROR: S0 Q18: duplicate option keys: ,,,
+         ERROR: S0 Q19: duplicate option keys: ,,,
+         ERROR: S0 Q20: duplicate option keys: ,,,
+         ERROR: S0 Q21: duplicate option keys: ,,,
+         ERROR: S0 Q22: duplicate option keys: ,,,
+         ERROR: S0 Q23: duplicate option keys: ,,,
+         ERROR: S0 Q24: duplicate option keys: ,,,
+         ERROR: S0 Q25: duplicate option keys: ,,,,
+  [PASS] ap-exam-2025Intl.json (2025Intl, 49q, 1s)
+  [PASS] ap-exam-2025NA.json (2025NA, 6q, 1s)
+
+Test complete.

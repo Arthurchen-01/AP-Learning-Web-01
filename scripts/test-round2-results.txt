@@ -1,0 +1,2139 @@
+================================================================
+Round 2: Physics C: Mechanics Exam Testing
+Date: 2026-04-11T13:03:24.985Z
+================================================================
+Found 22 physics exam files
+
+
+=== ap-exam-phys2009Intl.json ===
+  PASS: JSON parse
+  PASS: normalizeExam returned result
+  PASS: exam_id = "phys2009Intl"
+  PASS: exam_title = "AP 物理C力学 2009年国际卷"
+  PASS: subject = "physics"
+  PASS: year = 2009
+  PASS: total_questions = 28
+  Sections: 1 total (MCQ=true, FRQ=false)
+  INFO: MCQ-only exam (no FRQ section)
+  Section 0: type=mcq, label="Section I: Multiple Choice", questions=28
+  WARN: section[0].questions[0].options -- 5/5 options have empty html
+  WARN: section[0].questions[0].options -- no option has a key set
+  INFO: section[0].questions[0] has no correct_answer (answer key not available)
+  WARN: section[0].questions[1].options -- 5/5 options have empty html
+  WARN: section[0].questions[1].options -- no option has a key set
+  INFO: section[0].questions[1] has no correct_answer (answer key not available)
+  WARN: section[0].questions[2].options -- 5/5 options have empty html
+  WARN: section[0].questions[2].options -- no option has a key set
+  INFO: section[0].questions[2] has no correct_answer (answer key not available)
+  WARN: section[0].questions[3].options -- 5/5 options have empty html
+  WARN: section[0].questions[3].options -- no option has a key set
+  INFO: section[0].questions[3] has no correct_answer (answer key not available)
+  WARN: section[0].questions[4].options -- 5/5 options have empty html
+  WARN: section[0].questions[4].options -- no option has a key set
+  INFO: section[0].questions[4] has no correct_answer (answer key not available)
+  WARN: section[0].questions[5].options -- 5/5 options have empty html
+  WARN: section[0].questions[5].options -- no option has a key set
+  INFO: section[0].questions[5] has no correct_answer (answer key not available)
+  WARN: section[0].questions[6].options -- 5/5 options have empty html
+  WARN: section[0].questions[6].options -- no option has a key set
+  INFO: section[0].questions[6] has no correct_answer (answer key not available)
+  WARN: section[0].questions[7].options -- 5/5 options have empty html
+  WARN: section[0].questions[7].options -- no option has a key set
+  INFO: section[0].questions[7] has no correct_answer (answer key not available)
+  WARN: section[0].questions[8].options -- 5/5 options have empty html
+  WARN: section[0].questions[8].options -- no option has a key set
+  INFO: section[0].questions[8] has no correct_answer (answer key not available)
+  WARN: section[0].questions[9].options -- 5/5 options have empty html
+  WARN: section[0].questions[9].options -- no option has a key set
+  INFO: section[0].questions[9] has no correct_answer (answer key not available)
+  WARN: section[0].questions[10].options -- 5/5 options have empty html
+  WARN: section[0].questions[10].options -- no option has a key set
+  INFO: section[0].questions[10] has no correct_answer (answer key not available)
+  WARN: section[0].questions[11].options -- 5/5 options have empty html
+  WARN: section[0].questions[11].options -- no option has a key set
+  INFO: section[0].questions[11] has no correct_answer (answer key not available)
+  WARN: section[0].questions[12].options -- 5/5 options have empty html
+  WARN: section[0].questions[12].options -- no option has a key set
+  INFO: section[0].questions[12] has no correct_answer (answer key not available)
+  WARN: section[0].questions[13].options -- 5/5 options have empty html
+  WARN: section[0].questions[13].options -- no option has a key set
+  INFO: section[0].questions[13] has no correct_answer (answer key not available)
+  WARN: section[0].questions[14].options -- 5/5 options have empty html
+  WARN: section[0].questions[14].options -- no option has a key set
+  INFO: section[0].questions[14] has no correct_answer (answer key not available)
+  WARN: section[0].questions[15].options -- 5/5 options have empty html
+  WARN: section[0].questions[15].options -- no option has a key set
+  INFO: section[0].questions[15] has no correct_answer (answer key not available)
+  WARN: section[0].questions[16].options -- 5/5 options have empty html
+  WARN: section[0].questions[16].options -- no option has a key set
+  INFO: section[0].questions[16] has no correct_answer (answer key not available)
+  WARN: section[0].questions[17].options -- 5/5 options have empty html
+  WARN: section[0].questions[17].options -- no option has a key set
+  INFO: section[0].questions[17] has no correct_answer (answer key not available)
+  WARN: section[0].questions[18].options -- 5/5 options have empty html
+  WARN: section[0].questions[18].options -- no option has a key set
+  INFO: section[0].questions[18] has no correct_answer (answer key not available)
+  WARN: section[0].questions[19].options -- 5/5 options have empty html
+  WARN: section[0].questions[19].options -- no option has a key set
+  INFO: section[0].questions[19] has no correct_answer (answer key not available)
+  WARN: section[0].questions[20].options -- 5/5 options have empty html
+  WARN: section[0].questions[20].options -- no option has a key set
+  INFO: section[0].questions[20] has no correct_answer (answer key not available)
+  WARN: section[0].questions[21].options -- 5/5 options have empty html
+  WARN: section[0].questions[21].options -- no option has a key set
+  INFO: section[0].questions[21] has no correct_answer (answer key not available)
+  WARN: section[0].questions[22].options -- 5/5 options have empty html
+  WARN: section[0].questions[22].options -- no option has a key set
+  INFO: section[0].questions[22] has no correct_answer (answer key not available)
+  WARN: section[0].questions[23].options -- 5/5 options have empty html
+  WARN: section[0].questions[23].options -- no option has a key set
+  INFO: section[0].questions[23] has no correct_answer (answer key not available)
+  WARN: section[0].questions[24].options -- 5/5 options have empty html
+  WARN: section[0].questions[24].options -- no option has a key set
+  INFO: section[0].questions[24] has no correct_answer (answer key not available)
+  WARN: section[0].questions[25].options -- 5/5 options have empty html
+  WARN: section[0].questions[25].options -- no option has a key set
+  INFO: section[0].questions[25] has no correct_answer (answer key not available)
+  WARN: section[0].questions[26].options -- 5/5 options have empty html
+  WARN: section[0].questions[26].options -- no option has a key set
+  INFO: section[0].questions[26] has no correct_answer (answer key not available)
+  WARN: section[0].questions[27].options -- 5/5 options have empty html
+  WARN: section[0].questions[27].options -- no option has a key set
+  INFO: section[0].questions[27] has no correct_answer (answer key not available)
+  PASS: LaTeX detected in 18 text fields (inline $...$)
+  PASS: state.sections.length matches exam
+  PASS: JSON round-trip preserves structure
+  PASS: state mutation: can set answer
+  Paper.html compatibility:
+
+=== ap-exam-phys2012Intl.json ===
+  PASS: JSON parse
+  PASS: normalizeExam returned result
+  PASS: exam_id = "phys2012Intl"
+  PASS: exam_title = "AP 物理C力学 2012年国际卷"
+  PASS: subject = "physics"
+  PASS: year = 2012
+  PASS: total_questions = 36
+  Sections: 2 total (MCQ=true, FRQ=true)
+  PASS: section order: MCQ before FRQ
+  Section 0: type=mcq, label="Section I: Multiple Choice", questions=33
+  WARN: section[0].questions[0].options -- 5/5 options have empty html
+  WARN: section[0].questions[0].options -- no option has a key set
+  INFO: section[0].questions[0] has no correct_answer (answer key not available)
+  WARN: section[0].questions[1].options -- 5/5 options have empty html
+  WARN: section[0].questions[1].options -- no option has a key set
+  INFO: section[0].questions[1] has no correct_answer (answer key not available)
+  WARN: section[0].questions[2].options -- 5/5 options have empty html
+  WARN: section[0].questions[2].options -- no option has a key set
+  INFO: section[0].questions[2] has no correct_answer (answer key not available)
+  WARN: section[0].questions[3].options -- 5/5 options have empty html
+  WARN: section[0].questions[3].options -- no option has a key set
+  INFO: section[0].questions[3] has no correct_answer (answer key not available)
+  WARN: section[0].questions[4].options -- 5/5 options have empty html
+  WARN: section[0].questions[4].options -- no option has a key set
+  INFO: section[0].questions[4] has no correct_answer (answer key not available)
+  WARN: section[0].questions[5].options -- 5/5 options have empty html
+  WARN: section[0].questions[5].options -- no option has a key set
+  INFO: section[0].questions[5] has no correct_answer (answer key not available)
+  WARN: section[0].questions[6].options -- 5/5 options have empty html
+  WARN: section[0].questions[6].options -- no option has a key set
+  INFO: section[0].questions[6] has no correct_answer (answer key not available)
+  WARN: section[0].questions[7].options -- 5/5 options have empty html
+  WARN: section[0].questions[7].options -- no option has a key set
+  INFO: section[0].questions[7] has no correct_answer (answer key not available)
+  WARN: section[0].questions[8].options -- 5/5 options have empty html
+  WARN: section[0].questions[8].options -- no option has a key set
+  INFO: section[0].questions[8] has no correct_answer (answer key not available)
+  WARN: section[0].questions[9].options -- 5/5 options have empty html
+  WARN: section[0].questions[9].options -- no option has a key set
+  INFO: section[0].questions[9] has no correct_answer (answer key not available)
+  WARN: section[0].questions[10].options -- 5/5 options have empty html
+  WARN: section[0].questions[10].options -- no option has a key set
+  INFO: section[0].questions[10] has no correct_answer (answer key not available)
+  WARN: section[0].questions[11].options -- 5/5 options have empty html
+  WARN: section[0].questions[11].options -- no option has a key set
+  INFO: section[0].questions[11] has no correct_answer (answer key not available)
+  WARN: section[0].questions[12].options -- 5/5 options have empty html
+  WARN: section[0].questions[12].options -- no option has a key set
+  INFO: section[0].questions[12] has no correct_answer (answer key not available)
+  WARN: section[0].questions[13].options -- 5/5 options have empty html
+  WARN: section[0].questions[13].options -- no option has a key set
+  INFO: section[0].questions[13] has no correct_answer (answer key not available)
+  WARN: section[0].questions[14].options -- 5/5 options have empty html
+  WARN: section[0].questions[14].options -- no option has a key set
+  INFO: section[0].questions[14] has no correct_answer (answer key not available)
+  WARN: section[0].questions[15].options -- 5/5 options have empty html
+  WARN: section[0].questions[15].options -- no option has a key set
+  INFO: section[0].questions[15] has no correct_answer (answer key not available)
+  WARN: section[0].questions[16].options -- 5/5 options have empty html
+  WARN: section[0].questions[16].options -- no option has a key set
+  INFO: section[0].questions[16] has no correct_answer (answer key not available)
+  WARN: section[0].questions[17].options -- 5/5 options have empty html
+  WARN: section[0].questions[17].options -- no option has a key set
+  INFO: section[0].questions[17] has no correct_answer (answer key not available)
+  WARN: section[0].questions[18].options -- 5/5 options have empty html
+  WARN: section[0].questions[18].options -- no option has a key set
+  INFO: section[0].questions[18] has no correct_answer (answer key not available)
+  WARN: section[0].questions[19].options -- 5/5 options have empty html
+  WARN: section[0].questions[19].options -- no option has a key set
+  INFO: section[0].questions[19] has no correct_answer (answer key not available)
+  WARN: section[0].questions[20].options -- 5/5 options have empty html
+  WARN: section[0].questions[20].options -- no option has a key set
+  INFO: section[0].questions[20] has no correct_answer (answer key not available)
+  WARN: section[0].questions[21].options -- 5/5 options have empty html
+  WARN: section[0].questions[21].options -- no option has a key set
+  INFO: section[0].questions[21] has no correct_answer (answer key not available)
+  WARN: section[0].questions[22].options -- 5/5 options have empty html
+  WARN: section[0].questions[22].options -- no option has a key set
+  INFO: section[0].questions[22] has no correct_answer (answer key not available)
+  WARN: section[0].questions[23].options -- 5/5 options have empty html
+  WARN: section[0].questions[23].options -- no option has a key set
+  INFO: section[0].questions[23] has no correct_answer (answer key not available)
+  WARN: section[0].questions[24].options -- 5/5 options have empty html
+  WARN: section[0].questions[24].options -- no option has a key set
+  INFO: section[0].questions[24] has no correct_answer (answer key not available)
+  WARN: section[0].questions[25].options -- 5/5 options have empty html
+  WARN: section[0].questions[25].options -- no option has a key set
+  INFO: section[0].questions[25] has no correct_answer (answer key not available)
+  WARN: section[0].questions[26].options -- 5/5 options have empty html
+  WARN: section[0].questions[26].options -- no option has a key set
+  INFO: section[0].questions[26] has no correct_answer (answer key not available)
+  WARN: section[0].questions[27].options -- 5/5 options have empty html
+  WARN: section[0].questions[27].options -- no option has a key set
+  INFO: section[0].questions[27] has no correct_answer (answer key not available)
+  WARN: section[0].questions[28].options -- 5/5 options have empty html
+  WARN: section[0].questions[28].options -- no option has a key set
+  INFO: section[0].questions[28] has no correct_answer (answer key not available)
+  WARN: section[0].questions[29].options -- 5/5 options have empty html
+  WARN: section[0].questions[29].options -- no option has a key set
+  INFO: section[0].questions[29] has no correct_answer (answer key not available)
+  WARN: section[0].questions[30].options -- 5/5 options have empty html
+  WARN: section[0].questions[30].options -- no option has a key set
+  INFO: section[0].questions[30] has no correct_answer (answer key not available)
+  WARN: section[0].questions[31].options -- 5/5 options have empty html
+  WARN: section[0].questions[31].options -- no option has a key set
+  INFO: section[0].questions[31] has no correct_answer (answer key not available)
+  WARN: section[0].questions[32].options -- 5/5 options have empty html
+  WARN: section[0].questions[32].options -- no option has a key set
+  INFO: section[0].questions[32] has no correct_answer (answer key not available)
+  Section 1: type=frq, label="Section II: Free Response", questions=3
+  INFO: section[1].questions[0] has no correct_answer (answer key not available)
+  INFO: section[1].questions[1] has no correct_answer (answer key not available)
+  INFO: section[1].questions[2] has no correct_answer (answer key not available)
+  PASS: LaTeX detected in 22 text fields (inline $...$)
+  PASS: state.sections.length matches exam
+  PASS: JSON round-trip preserves structure
+  PASS: state mutation: can set answer
+  Paper.html compatibility:
+
+=== ap-exam-phys2013Intl.json ===
+  PASS: JSON parse
+  PASS: normalizeExam returned result
+  PASS: exam_id = "phys2013Intl"
+  PASS: exam_title = "AP 物理C力学 2013年国际卷"
+  PASS: subject = "physics"
+  PASS: year = 2013
+  PASS: total_questions = 38
+  Sections: 2 total (MCQ=true, FRQ=true)
+  PASS: section order: MCQ before FRQ
+  Section 0: type=mcq, label="Section I: Multiple Choice", questions=35
+  WARN: section[0].questions[0].options -- 5/5 options have empty html
+  WARN: section[0].questions[0].options -- no option has a key set
+  INFO: section[0].questions[0] has no correct_answer (answer key not available)
+  WARN: section[0].questions[1].options -- 5/5 options have empty html
+  WARN: section[0].questions[1].options -- no option has a key set
+  INFO: section[0].questions[1] has no correct_answer (answer key not available)
+  WARN: section[0].questions[2].options -- 5/5 options have empty html
+  WARN: section[0].questions[2].options -- no option has a key set
+  INFO: section[0].questions[2] has no correct_answer (answer key not available)
+  WARN: section[0].questions[3].options -- 5/5 options have empty html
+  WARN: section[0].questions[3].options -- no option has a key set
+  INFO: section[0].questions[3] has no correct_answer (answer key not available)
+  WARN: section[0].questions[4].options -- 5/5 options have empty html
+  WARN: section[0].questions[4].options -- no option has a key set
+  INFO: section[0].questions[4] has no correct_answer (answer key not available)
+  WARN: section[0].questions[5].options -- 5/5 options have empty html
+  WARN: section[0].questions[5].options -- no option has a key set
+  INFO: section[0].questions[5] has no correct_answer (answer key not available)
+  WARN: section[0].questions[6].options -- 5/5 options have empty html
+  WARN: section[0].questions[6].options -- no option has a key set
+  INFO: section[0].questions[6] has no correct_answer (answer key not available)
+  WARN: section[0].questions[7].options -- 5/5 options have empty html
+  WARN: section[0].questions[7].options -- no option has a key set
+  INFO: section[0].questions[7] has no correct_answer (answer key not available)
+  WARN: section[0].questions[8].options -- 5/5 options have empty html
+  WARN: section[0].questions[8].options -- no option has a key set
+  INFO: section[0].questions[8] has no correct_answer (answer key not available)
+  WARN: section[0].questions[9].options -- 5/5 options have empty html
+  WARN: section[0].questions[9].options -- no option has a key set
+  INFO: section[0].questions[9] has no correct_answer (answer key not available)
+  WARN: section[0].questions[10].options -- 5/5 options have empty html
+  WARN: section[0].questions[10].options -- no option has a key set
+  INFO: section[0].questions[10] has no correct_answer (answer key not available)
+  WARN: section[0].questions[11].options -- 5/5 options have empty html
+  WARN: section[0].questions[11].options -- no option has a key set
+  INFO: section[0].questions[11] has no correct_answer (answer key not available)
+  WARN: section[0].questions[12].options -- 5/5 options have empty html
+  WARN: section[0].questions[12].options -- no option has a key set
+  INFO: section[0].questions[12] has no correct_answer (answer key not available)
+  WARN: section[0].questions[13].options -- 5/5 options have empty html
+  WARN: section[0].questions[13].options -- no option has a key set
+  INFO: section[0].questions[13] has no correct_answer (answer key not available)
+  WARN: section[0].questions[14].options -- 5/5 options have empty html
+  WARN: section[0].questions[14].options -- no option has a key set
+  INFO: section[0].questions[14] has no correct_answer (answer key not available)
+  WARN: section[0].questions[15].options -- 5/5 options have empty html
+  WARN: section[0].questions[15].options -- no option has a key set
+  INFO: section[0].questions[15] has no correct_answer (answer key not available)
+  WARN: section[0].questions[16].options -- 5/5 options have empty html
+  WARN: section[0].questions[16].options -- no option has a key set
+  INFO: section[0].questions[16] has no correct_answer (answer key not available)
+  WARN: section[0].questions[17].options -- 5/5 options have empty html
+  WARN: section[0].questions[17].options -- no option has a key set
+  INFO: section[0].questions[17] has no correct_answer (answer key not available)
+  WARN: section[0].questions[18].options -- 5/5 options have empty html
+  WARN: section[0].questions[18].options -- no option has a key set
+  INFO: section[0].questions[18] has no correct_answer (answer key not available)
+  WARN: section[0].questions[19].options -- 5/5 options have empty html
+  WARN: section[0].questions[19].options -- no option has a key set
+  INFO: section[0].questions[19] has no correct_answer (answer key not available)
+  WARN: section[0].questions[20].options -- 5/5 options have empty html
+  WARN: section[0].questions[20].options -- no option has a key set
+  INFO: section[0].questions[20] has no correct_answer (answer key not available)
+  WARN: section[0].questions[21].options -- 5/5 options have empty html
+  WARN: section[0].questions[21].options -- no option has a key set
+  INFO: section[0].questions[21] has no correct_answer (answer key not available)
+  WARN: section[0].questions[22].options -- 5/5 options have empty html
+  WARN: section[0].questions[22].options -- no option has a key set
+  INFO: section[0].questions[22] has no correct_answer (answer key not available)
+  WARN: section[0].questions[23].options -- 5/5 options have empty html
+  WARN: section[0].questions[23].options -- no option has a key set
+  INFO: section[0].questions[23] has no correct_answer (answer key not available)
+  WARN: section[0].questions[24].options -- 5/5 options have empty html
+  WARN: section[0].questions[24].options -- no option has a key set
+  INFO: section[0].questions[24] has no correct_answer (answer key not available)
+  WARN: section[0].questions[25].options -- 5/5 options have empty html
+  WARN: section[0].questions[25].options -- no option has a key set
+  INFO: section[0].questions[25] has no correct_answer (answer key not available)
+  WARN: section[0].questions[26].options -- 5/5 options have empty html
+  WARN: section[0].questions[26].options -- no option has a key set
+  INFO: section[0].questions[26] has no correct_answer (answer key not available)
+  WARN: section[0].questions[27].options -- 5/5 options have empty html
+  WARN: section[0].questions[27].options -- no option has a key set
+  INFO: section[0].questions[27] has no correct_answer (answer key not available)
+  WARN: section[0].questions[28].options -- 5/5 options have empty html
+  WARN: section[0].questions[28].options -- no option has a key set
+  INFO: section[0].questions[28] has no correct_answer (answer key not available)
+  WARN: section[0].questions[29].options -- 5/5 options have empty html
+  WARN: section[0].questions[29].options -- no option has a key set
+  INFO: section[0].questions[29] has no correct_answer (answer key not available)
+  WARN: section[0].questions[30].options -- 5/5 options have empty html
+  WARN: section[0].questions[30].options -- no option has a key set
+  INFO: section[0].questions[30] has no correct_answer (answer key not available)
+  WARN: section[0].questions[31].options -- 5/5 options have empty html
+  WARN: section[0].questions[31].options -- no option has a key set
+  INFO: section[0].questions[31] has no correct_answer (answer key not available)
+  WARN: section[0].questions[32].options -- 5/5 options have empty html
+  WARN: section[0].questions[32].options -- no option has a key set
+  INFO: section[0].questions[32] has no correct_answer (answer key not available)
+  WARN: section[0].questions[33].options -- 5/5 options have empty html
+  WARN: section[0].questions[33].options -- no option has a key set
+  INFO: section[0].questions[33] has no correct_answer (answer key not available)
+  WARN: section[0].questions[34].options -- 5/5 options have empty html
+  WARN: section[0].questions[34].options -- no option has a key set
+  INFO: section[0].questions[34] has no correct_answer (answer key not available)
+  Section 1: type=frq, label="Section II: Free Response", questions=3
+  INFO: section[1].questions[0] has no correct_answer (answer key not available)
+  INFO: section[1].questions[1] has no correct_answer (answer key not available)
+  INFO: section[1].questions[2] has no correct_answer (answer key not available)
+  PASS: LaTeX detected in 28 text fields (inline $...$)
+  PASS: state.sections.length matches exam
+  PASS: JSON round-trip preserves structure
+  PASS: state mutation: can set answer
+  Paper.html compatibility:
+
+=== ap-exam-phys2014Intl.json ===
+  PASS: JSON parse
+  PASS: normalizeExam returned result
+  PASS: exam_id = "phys2014Intl"
+  PASS: exam_title = "AP 物理C力学 2014年国际卷"
+  PASS: subject = "physics"
+  PASS: year = 2014
+  PASS: total_questions = 36
+  Sections: 2 total (MCQ=true, FRQ=true)
+  PASS: section order: MCQ before FRQ
+  Section 0: type=mcq, label="Section I: Multiple Choice", questions=34
+  WARN: section[0].questions[0].options -- 5/5 options have empty html
+  WARN: section[0].questions[0].options -- no option has a key set
+  INFO: section[0].questions[0] has no correct_answer (answer key not available)
+  WARN: section[0].questions[1].options -- 5/5 options have empty html
+  WARN: section[0].questions[1].options -- no option has a key set
+  INFO: section[0].questions[1] has no correct_answer (answer key not available)
+  WARN: section[0].questions[2].options -- 5/5 options have empty html
+  WARN: section[0].questions[2].options -- no option has a key set
+  INFO: section[0].questions[2] has no correct_answer (answer key not available)
+  WARN: section[0].questions[3].options -- 5/5 options have empty html
+  WARN: section[0].questions[3].options -- no option has a key set
+  INFO: section[0].questions[3] has no correct_answer (answer key not available)
+  WARN: section[0].questions[4].options -- 5/5 options have empty html
+  WARN: section[0].questions[4].options -- no option has a key set
+  INFO: section[0].questions[4] has no correct_answer (answer key not available)
+  WARN: section[0].questions[5].options -- 5/5 options have empty html
+  WARN: section[0].questions[5].options -- no option has a key set
+  INFO: section[0].questions[5] has no correct_answer (answer key not available)
+  WARN: section[0].questions[6].options -- 5/5 options have empty html
+  WARN: section[0].questions[6].options -- no option has a key set
+  INFO: section[0].questions[6] has no correct_answer (answer key not available)
+  WARN: section[0].questions[7].options -- 5/5 options have empty html
+  WARN: section[0].questions[7].options -- no option has a key set
+  INFO: section[0].questions[7] has no correct_answer (answer key not available)
+  WARN: section[0].questions[8].options -- 5/5 options have empty html
+  WARN: section[0].questions[8].options -- no option has a key set
+  INFO: section[0].questions[8] has no correct_answer (answer key not available)
+  WARN: section[0].questions[9].options -- 5/5 options have empty html
+  WARN: section[0].questions[9].options -- no option has a key set
+  INFO: section[0].questions[9] has no correct_answer (answer key not available)
+  WARN: section[0].questions[10].options -- 5/5 options have empty html
+  WARN: section[0].questions[10].options -- no option has a key set
+  INFO: section[0].questions[10] has no correct_answer (answer key not available)
+  WARN: section[0].questions[11].options -- 5/5 options have empty html
+  WARN: section[0].questions[11].options -- no option has a key set
+  INFO: section[0].questions[11] has no correct_answer (answer key not available)
+  WARN: section[0].questions[12].options -- 5/5 options have empty html
+  WARN: section[0].questions[12].options -- no option has a key set
+  INFO: section[0].questions[12] has no correct_answer (answer key not available)
+  WARN: section[0].questions[13].options -- 5/5 options have empty html
+  WARN: section[0].questions[13].options -- no option has a key set
+  INFO: section[0].questions[13] has no correct_answer (answer key not available)
+  WARN: section[0].questions[14].options -- 5/5 options have empty html
+  WARN: section[0].questions[14].options -- no option has a key set
+  INFO: section[0].questions[14] has no correct_answer (answer key not available)
+  WARN: section[0].questions[15].options -- 5/5 options have empty html
+  WARN: section[0].questions[15].options -- no option has a key set
+  INFO: section[0].questions[15] has no correct_answer (answer key not available)
+  WARN: section[0].questions[16].options -- 5/5 options have empty html
+  WARN: section[0].questions[16].options -- no option has a key set
+  INFO: section[0].questions[16] has no correct_answer (answer key not available)
+  WARN: section[0].questions[17].options -- 5/5 options have empty html
+  WARN: section[0].questions[17].options -- no option has a key set
+  INFO: section[0].questions[17] has no correct_answer (answer key not available)
+  WARN: section[0].questions[18].options -- 5/5 options have empty html
+  WARN: section[0].questions[18].options -- no option has a key set
+  INFO: section[0].questions[18] has no correct_answer (answer key not available)
+  WARN: section[0].questions[19].options -- 5/5 options have empty html
+  WARN: section[0].questions[19].options -- no option has a key set
+  INFO: section[0].questions[19] has no correct_answer (answer key not available)
+  WARN: section[0].questions[20].options -- 5/5 options have empty html
+  WARN: section[0].questions[20].options -- no option has a key set
+  INFO: section[0].questions[20] has no correct_answer (answer key not available)
+  WARN: section[0].questions[21].options -- 5/5 options have empty html
+  WARN: section[0].questions[21].options -- no option has a key set
+  INFO: section[0].questions[21] has no correct_answer (answer key not available)
+  WARN: section[0].questions[22].options -- 5/5 options have empty html
+  WARN: section[0].questions[22].options -- no option has a key set
+  INFO: section[0].questions[22] has no correct_answer (answer key not available)
+  WARN: section[0].questions[23].options -- 5/5 options have empty html
+  WARN: section[0].questions[23].options -- no option has a key set
+  INFO: section[0].questions[23] has no correct_answer (answer key not available)
+  WARN: section[0].questions[24].options -- 5/5 options have empty html
+  WARN: section[0].questions[24].options -- no option has a key set
+  INFO: section[0].questions[24] has no correct_answer (answer key not available)
+  WARN: section[0].questions[25].options -- 5/5 options have empty html
+  WARN: section[0].questions[25].options -- no option has a key set
+  INFO: section[0].questions[25] has no correct_answer (answer key not available)
+  WARN: section[0].questions[26].options -- 5/5 options have empty html
+  WARN: section[0].questions[26].options -- no option has a key set
+  INFO: section[0].questions[26] has no correct_answer (answer key not available)
+  WARN: section[0].questions[27].options -- 5/5 options have empty html
+  WARN: section[0].questions[27].options -- no option has a key set
+  INFO: section[0].questions[27] has no correct_answer (answer key not available)
+  WARN: section[0].questions[28].options -- 5/5 options have empty html
+  WARN: section[0].questions[28].options -- no option has a key set
+  INFO: section[0].questions[28] has no correct_answer (answer key not available)
+  WARN: section[0].questions[29].options -- 5/5 options have empty html
+  WARN: section[0].questions[29].options -- no option has a key set
+  INFO: section[0].questions[29] has no correct_answer (answer key not available)
+  WARN: section[0].questions[30].options -- 5/5 options have empty html
+  WARN: section[0].questions[30].options -- no option has a key set
+  INFO: section[0].questions[30] has no correct_answer (answer key not available)
+  WARN: section[0].questions[31].options -- 5/5 options have empty html
+  WARN: section[0].questions[31].options -- no option has a key set
+  INFO: section[0].questions[31] has no correct_answer (answer key not available)
+  WARN: section[0].questions[32].options -- 5/5 options have empty html
+  WARN: section[0].questions[32].options -- no option has a key set
+  INFO: section[0].questions[32] has no correct_answer (answer key not available)
+  WARN: section[0].questions[33].options -- 5/5 options have empty html
+  WARN: section[0].questions[33].options -- no option has a key set
+  INFO: section[0].questions[33] has no correct_answer (answer key not available)
+  Section 1: type=frq, label="Section II: Free Response", questions=2
+  INFO: section[1].questions[0] has no correct_answer (answer key not available)
+  INFO: section[1].questions[1] has no correct_answer (answer key not available)
+  PASS: LaTeX detected in 19 text fields (inline $...$)
+  PASS: state.sections.length matches exam
+  PASS: JSON round-trip preserves structure
+  PASS: state mutation: can set answer
+  Paper.html compatibility:
+
+=== ap-exam-phys2015Intl.json ===
+  PASS: JSON parse
+  PASS: normalizeExam returned result
+  PASS: exam_id = "phys2015Intl"
+  PASS: exam_title = "AP 物理C力学 2015年国际卷"
+  PASS: subject = "physics"
+  PASS: year = 2015
+  PASS: total_questions = 38
+  Sections: 2 total (MCQ=true, FRQ=true)
+  PASS: section order: MCQ before FRQ
+  Section 0: type=mcq, label="Section I: Multiple Choice", questions=35
+  WARN: section[0].questions[0].options -- 5/5 options have empty html
+  WARN: section[0].questions[0].options -- no option has a key set
+  INFO: section[0].questions[0] has no correct_answer (answer key not available)
+  WARN: section[0].questions[1].options -- 5/5 options have empty html
+  WARN: section[0].questions[1].options -- no option has a key set
+  INFO: section[0].questions[1] has no correct_answer (answer key not available)
+  WARN: section[0].questions[2].options -- 5/5 options have empty html
+  WARN: section[0].questions[2].options -- no option has a key set
+  INFO: section[0].questions[2] has no correct_answer (answer key not available)
+  WARN: section[0].questions[3].options -- 5/5 options have empty html
+  WARN: section[0].questions[3].options -- no option has a key set
+  INFO: section[0].questions[3] has no correct_answer (answer key not available)
+  WARN: section[0].questions[4].options -- 5/5 options have empty html
+  WARN: section[0].questions[4].options -- no option has a key set
+  INFO: section[0].questions[4] has no correct_answer (answer key not available)
+  WARN: section[0].questions[5].options -- 5/5 options have empty html
+  WARN: section[0].questions[5].options -- no option has a key set
+  INFO: section[0].questions[5] has no correct_answer (answer key not available)
+  WARN: section[0].questions[6].options -- 5/5 options have empty html
+  WARN: section[0].questions[6].options -- no option has a key set
+  INFO: section[0].questions[6] has no correct_answer (answer key not available)
+  WARN: section[0].questions[7].options -- 5/5 options have empty html
+  WARN: section[0].questions[7].options -- no option has a key set
+  INFO: section[0].questions[7] has no correct_answer (answer key not available)
+  WARN: section[0].questions[8].options -- 5/5 options have empty html
+  WARN: section[0].questions[8].options -- no option has a key set
+  INFO: section[0].questions[8] has no correct_answer (answer key not available)
+  WARN: section[0].questions[9].options -- 5/5 options have empty html
+  WARN: section[0].questions[9].options -- no option has a key set
+  INFO: section[0].questions[9] has no correct_answer (answer key not available)
+  WARN: section[0].questions[10].options -- 5/5 options have empty html
+  WARN: section[0].questions[10].options -- no option has a key set
+  INFO: section[0].questions[10] has no correct_answer (answer key not available)
+  WARN: section[0].questions[11].options -- 5/5 options have empty html
+  WARN: section[0].questions[11].options -- no option has a key set
+  INFO: section[0].questions[11] has no correct_answer (answer key not available)
+  WARN: section[0].questions[12].options -- 5/5 options have empty html
+  WARN: section[0].questions[12].options -- no option has a key set
+  INFO: section[0].questions[12] has no correct_answer (answer key not available)
+  WARN: section[0].questions[13].options -- 5/5 options have empty html
+  WARN: section[0].questions[13].options -- no option has a key set
+  INFO: section[0].questions[13] has no correct_answer (answer key not available)
+  WARN: section[0].questions[14].options -- 5/5 options have empty html
+  WARN: section[0].questions[14].options -- no option has a key set
+  INFO: section[0].questions[14] has no correct_answer (answer key not available)
+  WARN: section[0].questions[15].options -- 5/5 options have empty html
+  WARN: section[0].questions[15].options -- no option has a key set
+  INFO: section[0].questions[15] has no correct_answer (answer key not available)
+  WARN: section[0].questions[16].options -- 5/5 options have empty html
+  WARN: section[0].questions[16].options -- no option has a key set
+  INFO: section[0].questions[16] has no correct_answer (answer key not available)
+  WARN: section[0].questions[17].options -- 5/5 options have empty html
+  WARN: section[0].questions[17].options -- no option has a key set
+  INFO: section[0].questions[17] has no correct_answer (answer key not available)
+  WARN: section[0].questions[18].options -- 5/5 options have empty html
+  WARN: section[0].questions[18].options -- no option has a key set
+  INFO: section[0].questions[18] has no correct_answer (answer key not available)
+  WARN: section[0].questions[19].options -- 5/5 options have empty html
+  WARN: section[0].questions[19].options -- no option has a key set
+  INFO: section[0].questions[19] has no correct_answer (answer key not available)
+  WARN: section[0].questions[20].options -- 5/5 options have empty html
+  WARN: section[0].questions[20].options -- no option has a key set
+  INFO: section[0].questions[20] has no correct_answer (answer key not available)
+  WARN: section[0].questions[21].options -- 5/5 options have empty html
+  WARN: section[0].questions[21].options -- no option has a key set
+  INFO: section[0].questions[21] has no correct_answer (answer key not available)
+  WARN: section[0].questions[22].options -- 5/5 options have empty html
+  WARN: section[0].questions[22].options -- no option has a key set
+  INFO: section[0].questions[22] has no correct_answer (answer key not available)
+  WARN: section[0].questions[23].options -- 5/5 options have empty html
+  WARN: section[0].questions[23].options -- no option has a key set
+  INFO: section[0].questions[23] has no correct_answer (answer key not available)
+  WARN: section[0].questions[24].options -- 5/5 options have empty html
+  WARN: section[0].questions[24].options -- no option has a key set
+  INFO: section[0].questions[24] has no correct_answer (answer key not available)
+  WARN: section[0].questions[25].options -- 5/5 options have empty html
+  WARN: section[0].questions[25].options -- no option has a key set
+  INFO: section[0].questions[25] has no correct_answer (answer key not available)
+  WARN: section[0].questions[26].options -- 5/5 options have empty html
+  WARN: section[0].questions[26].options -- no option has a key set
+  INFO: section[0].questions[26] has no correct_answer (answer key not available)
+  WARN: section[0].questions[27].options -- 5/5 options have empty html
+  WARN: section[0].questions[27].options -- no option has a key set
+  INFO: section[0].questions[27] has no correct_answer (answer key not available)
+  WARN: section[0].questions[28].options -- 5/5 options have empty html
+  WARN: section[0].questions[28].options -- no option has a key set
+  INFO: section[0].questions[28] has no correct_answer (answer key not available)
+  WARN: section[0].questions[29].options -- 5/5 options have empty html
+  WARN: section[0].questions[29].options -- no option has a key set
+  INFO: section[0].questions[29] has no correct_answer (answer key not available)
+  WARN: section[0].questions[30].options -- 5/5 options have empty html
+  WARN: section[0].questions[30].options -- no option has a key set
+  INFO: section[0].questions[30] has no correct_answer (answer key not available)
+  WARN: section[0].questions[31].options -- 5/5 options have empty html
+  WARN: section[0].questions[31].options -- no option has a key set
+  INFO: section[0].questions[31] has no correct_answer (answer key not available)
+  WARN: section[0].questions[32].options -- 5/5 options have empty html
+  WARN: section[0].questions[32].options -- no option has a key set
+  INFO: section[0].questions[32] has no correct_answer (answer key not available)
+  WARN: section[0].questions[33].options -- 5/5 options have empty html
+  WARN: section[0].questions[33].options -- no option has a key set
+  INFO: section[0].questions[33] has no correct_answer (answer key not available)
+  WARN: section[0].questions[34].options -- 5/5 options have empty html
+  WARN: section[0].questions[34].options -- no option has a key set
+  INFO: section[0].questions[34] has no correct_answer (answer key not available)
+  Section 1: type=frq, label="Section II: Free Response", questions=3
+  INFO: section[1].questions[0] has no correct_answer (answer key not available)
+  INFO: section[1].questions[1] has no correct_answer (answer key not available)
+  INFO: section[1].questions[2] has no correct_answer (answer key not available)
+  PASS: LaTeX detected in 23 text fields (inline $...$)
+  PASS: state.sections.length matches exam
+  PASS: JSON round-trip preserves structure
+  PASS: state mutation: can set answer
+  Paper.html compatibility:
+
+=== ap-exam-phys2016Intl.json ===
+  PASS: JSON parse
+  PASS: normalizeExam returned result
+  PASS: exam_id = "phys2016Intl"
+  PASS: exam_title = "AP 物理C力学 2016年国际卷"
+  PASS: subject = "physics"
+  PASS: year = 2016
+  PASS: total_questions = 38
+  Sections: 2 total (MCQ=true, FRQ=true)
+  PASS: section order: MCQ before FRQ
+  Section 0: type=mcq, label="Section I: Multiple Choice", questions=35
+  WARN: section[0].questions[0].options -- 5/5 options have empty html
+  WARN: section[0].questions[0].options -- no option has a key set
+  INFO: section[0].questions[0] has no correct_answer (answer key not available)
+  WARN: section[0].questions[1].options -- 5/5 options have empty html
+  WARN: section[0].questions[1].options -- no option has a key set
+  INFO: section[0].questions[1] has no correct_answer (answer key not available)
+  WARN: section[0].questions[2].options -- 5/5 options have empty html
+  WARN: section[0].questions[2].options -- no option has a key set
+  INFO: section[0].questions[2] has no correct_answer (answer key not available)
+  WARN: section[0].questions[3].options -- 5/5 options have empty html
+  WARN: section[0].questions[3].options -- no option has a key set
+  INFO: section[0].questions[3] has no correct_answer (answer key not available)
+  WARN: section[0].questions[4].options -- 5/5 options have empty html
+  WARN: section[0].questions[4].options -- no option has a key set
+  INFO: section[0].questions[4] has no correct_answer (answer key not available)
+  WARN: section[0].questions[5].options -- 5/5 options have empty html
+  WARN: section[0].questions[5].options -- no option has a key set
+  INFO: section[0].questions[5] has no correct_answer (answer key not available)
+  WARN: section[0].questions[6].options -- 5/5 options have empty html
+  WARN: section[0].questions[6].options -- no option has a key set
+  INFO: section[0].questions[6] has no correct_answer (answer key not available)
+  WARN: section[0].questions[7].options -- 5/5 options have empty html
+  WARN: section[0].questions[7].options -- no option has a key set
+  INFO: section[0].questions[7] has no correct_answer (answer key not available)
+  WARN: section[0].questions[8].options -- 5/5 options have empty html
+  WARN: section[0].questions[8].options -- no option has a key set
+  INFO: section[0].questions[8] has no correct_answer (answer key not available)
+  WARN: section[0].questions[9].options -- 5/5 options have empty html
+  WARN: section[0].questions[9].options -- no option has a key set
+  INFO: section[0].questions[9] has no correct_answer (answer key not available)
+  WARN: section[0].questions[10].options -- 5/5 options have empty html
+  WARN: section[0].questions[10].options -- no option has a key set
+  INFO: section[0].questions[10] has no correct_answer (answer key not available)
+  WARN: section[0].questions[11].options -- 5/5 options have empty html
+  WARN: section[0].questions[11].options -- no option has a key set
+  INFO: section[0].questions[11] has no correct_answer (answer key not available)
+  WARN: section[0].questions[12].options -- 5/5 options have empty html
+  WARN: section[0].questions[12].options -- no option has a key set
+  INFO: section[0].questions[12] has no correct_answer (answer key not available)
+  WARN: section[0].questions[13].options -- 5/5 options have empty html
+  WARN: section[0].questions[13].options -- no option has a key set
+  INFO: section[0].questions[13] has no correct_answer (answer key not available)
+  WARN: section[0].questions[14].options -- 5/5 options have empty html
+  WARN: section[0].questions[14].options -- no option has a key set
+  INFO: section[0].questions[14] has no correct_answer (answer key not available)
+  WARN: section[0].questions[15].options -- 5/5 options have empty html
+  WARN: section[0].questions[15].options -- no option has a key set
+  INFO: section[0].questions[15] has no correct_answer (answer key not available)
+  WARN: section[0].questions[16].options -- 5/5 options have empty html
+  WARN: section[0].questions[16].options -- no option has a key set
+  INFO: section[0].questions[16] has no correct_answer (answer key not available)
+  WARN: section[0].questions[17].options -- 5/5 options have empty html
+  WARN: section[0].questions[17].options -- no option has a key set
+  INFO: section[0].questions[17] has no correct_answer (answer key not available)
+  WARN: section[0].questions[18].options -- 5/5 options have empty html
+  WARN: section[0].questions[18].options -- no option has a key set
+  INFO: section[0].questions[18] has no correct_answer (answer key not available)
+  WARN: section[0].questions[19].options -- 5/5 options have empty html
+  WARN: section[0].questions[19].options -- no option has a key set
+  INFO: section[0].questions[19] has no correct_answer (answer key not available)
+  WARN: section[0].questions[20].options -- 5/5 options have empty html
+  WARN: section[0].questions[20].options -- no option has a key set
+  INFO: section[0].questions[20] has no correct_answer (answer key not available)
+  WARN: section[0].questions[21].options -- 5/5 options have empty html
+  WARN: section[0].questions[21].options -- no option has a key set
+  INFO: section[0].questions[21] has no correct_answer (answer key not available)
+  WARN: section[0].questions[22].options -- 5/5 options have empty html
+  WARN: section[0].questions[22].options -- no option has a key set
+  INFO: section[0].questions[22] has no correct_answer (answer key not available)
+  WARN: section[0].questions[23].options -- 5/5 options have empty html
+  WARN: section[0].questions[23].options -- no option has a key set
+  INFO: section[0].questions[23] has no correct_answer (answer key not available)
+  WARN: section[0].questions[24].options -- 5/5 options have empty html
+  WARN: section[0].questions[24].options -- no option has a key set
+  INFO: section[0].questions[24] has no correct_answer (answer key not available)
+  WARN: section[0].questions[25].options -- 5/5 options have empty html
+  WARN: section[0].questions[25].options -- no option has a key set
+  INFO: section[0].questions[25] has no correct_answer (answer key not available)
+  WARN: section[0].questions[26].options -- 5/5 options have empty html
+  WARN: section[0].questions[26].options -- no option has a key set
+  INFO: section[0].questions[26] has no correct_answer (answer key not available)
+  WARN: section[0].questions[27].options -- 5/5 options have empty html
+  WARN: section[0].questions[27].options -- no option has a key set
+  INFO: section[0].questions[27] has no correct_answer (answer key not available)
+  WARN: section[0].questions[28].options -- 5/5 options have empty html
+  WARN: section[0].questions[28].options -- no option has a key set
+  INFO: section[0].questions[28] has no correct_answer (answer key not available)
+  WARN: section[0].questions[29].options -- 5/5 options have empty html
+  WARN: section[0].questions[29].options -- no option has a key set
+  INFO: section[0].questions[29] has no correct_answer (answer key not available)
+  WARN: section[0].questions[30].options -- 5/5 options have empty html
+  WARN: section[0].questions[30].options -- no option has a key set
+  INFO: section[0].questions[30] has no correct_answer (answer key not available)
+  WARN: section[0].questions[31].options -- 5/5 options have empty html
+  WARN: section[0].questions[31].options -- no option has a key set
+  INFO: section[0].questions[31] has no correct_answer (answer key not available)
+  WARN: section[0].questions[32].options -- 5/5 options have empty html
+  WARN: section[0].questions[32].options -- no option has a key set
+  INFO: section[0].questions[32] has no correct_answer (answer key not available)
+  WARN: section[0].questions[33].options -- 5/5 options have empty html
+  WARN: section[0].questions[33].options -- no option has a key set
+  INFO: section[0].questions[33] has no correct_answer (answer key not available)
+  WARN: section[0].questions[34].options -- 5/5 options have empty html
+  WARN: section[0].questions[34].options -- no option has a key set
+  INFO: section[0].questions[34] has no correct_answer (answer key not available)
+  Section 1: type=frq, label="Section II: Free Response", questions=3
+  INFO: section[1].questions[0] has no correct_answer (answer key not available)
+  INFO: section[1].questions[1] has no correct_answer (answer key not available)
+  INFO: section[1].questions[2] has no correct_answer (answer key not available)
+  PASS: LaTeX detected in 31 text fields (inline $...$)
+  PASS: state.sections.length matches exam
+  PASS: JSON round-trip preserves structure
+  PASS: state mutation: can set answer
+  Paper.html compatibility:
+
+=== ap-exam-phys2017Intl.json ===
+  PASS: JSON parse
+  PASS: normalizeExam returned result
+  PASS: exam_id = "phys2017Intl"
+  PASS: exam_title = "AP 物理C力学 2017年国际卷"
+  PASS: subject = "physics"
+  PASS: year = 2017
+  PASS: total_questions = 34
+  Sections: 2 total (MCQ=true, FRQ=true)
+  PASS: section order: MCQ before FRQ
+  Section 0: type=mcq, label="Section I: Multiple Choice", questions=31
+  WARN: section[0].questions[0].options -- 5/5 options have empty html
+  WARN: section[0].questions[0].options -- no option has a key set
+  INFO: section[0].questions[0] has no correct_answer (answer key not available)
+  WARN: section[0].questions[1].options -- 5/5 options have empty html
+  WARN: section[0].questions[1].options -- no option has a key set
+  INFO: section[0].questions[1] has no correct_answer (answer key not available)
+  WARN: section[0].questions[2].options -- 5/5 options have empty html
+  WARN: section[0].questions[2].options -- no option has a key set
+  INFO: section[0].questions[2] has no correct_answer (answer key not available)
+  WARN: section[0].questions[3].options -- 5/5 options have empty html
+  WARN: section[0].questions[3].options -- no option has a key set
+  INFO: section[0].questions[3] has no correct_answer (answer key not available)
+  WARN: section[0].questions[4].options -- 5/5 options have empty html
+  WARN: section[0].questions[4].options -- no option has a key set
+  INFO: section[0].questions[4] has no correct_answer (answer key not available)
+  WARN: section[0].questions[5].options -- 5/5 options have empty html
+  WARN: section[0].questions[5].options -- no option has a key set
+  INFO: section[0].questions[5] has no correct_answer (answer key not available)
+  WARN: section[0].questions[6].options -- 5/5 options have empty html
+  WARN: section[0].questions[6].options -- no option has a key set
+  INFO: section[0].questions[6] has no correct_answer (answer key not available)
+  WARN: section[0].questions[7].options -- 5/5 options have empty html
+  WARN: section[0].questions[7].options -- no option has a key set
+  INFO: section[0].questions[7] has no correct_answer (answer key not available)
+  WARN: section[0].questions[8].options -- 5/5 options have empty html
+  WARN: section[0].questions[8].options -- no option has a key set
+  INFO: section[0].questions[8] has no correct_answer (answer key not available)
+  WARN: section[0].questions[9].options -- 5/5 options have empty html
+  WARN: section[0].questions[9].options -- no option has a key set
+  INFO: section[0].questions[9] has no correct_answer (answer key not available)
+  WARN: section[0].questions[10].options -- 5/5 options have empty html
+  WARN: section[0].questions[10].options -- no option has a key set
+  INFO: section[0].questions[10] has no correct_answer (answer key not available)
+  WARN: section[0].questions[11].options -- 5/5 options have empty html
+  WARN: section[0].questions[11].options -- no option has a key set
+  INFO: section[0].questions[11] has no correct_answer (answer key not available)
+  WARN: section[0].questions[12].options -- 5/5 options have empty html
+  WARN: section[0].questions[12].options -- no option has a key set
+  INFO: section[0].questions[12] has no correct_answer (answer key not available)
+  WARN: section[0].questions[13].options -- 5/5 options have empty html
+  WARN: section[0].questions[13].options -- no option has a key set
+  INFO: section[0].questions[13] has no correct_answer (answer key not available)
+  WARN: section[0].questions[14].options -- 5/5 options have empty html
+  WARN: section[0].questions[14].options -- no option has a key set
+  INFO: section[0].questions[14] has no correct_answer (answer key not available)
+  WARN: section[0].questions[15].options -- 5/5 options have empty html
+  WARN: section[0].questions[15].options -- no option has a key set
+  INFO: section[0].questions[15] has no correct_answer (answer key not available)
+  WARN: section[0].questions[16].options -- 5/5 options have empty html
+  WARN: section[0].questions[16].options -- no option has a key set
+  INFO: section[0].questions[16] has no correct_answer (answer key not available)
+  WARN: section[0].questions[17].options -- 5/5 options have empty html
+  WARN: section[0].questions[17].options -- no option has a key set
+  INFO: section[0].questions[17] has no correct_answer (answer key not available)
+  WARN: section[0].questions[18].options -- 5/5 options have empty html
+  WARN: section[0].questions[18].options -- no option has a key set
+  INFO: section[0].questions[18] has no correct_answer (answer key not available)
+  WARN: section[0].questions[19].options -- 5/5 options have empty html
+  WARN: section[0].questions[19].options -- no option has a key set
+  INFO: section[0].questions[19] has no correct_answer (answer key not available)
+  WARN: section[0].questions[20].options -- 5/5 options have empty html
+  WARN: section[0].questions[20].options -- no option has a key set
+  INFO: section[0].questions[20] has no correct_answer (answer key not available)
+  WARN: section[0].questions[21].options -- 5/5 options have empty html
+  WARN: section[0].questions[21].options -- no option has a key set
+  INFO: section[0].questions[21] has no correct_answer (answer key not available)
+  WARN: section[0].questions[22].options -- 5/5 options have empty html
+  WARN: section[0].questions[22].options -- no option has a key set
+  INFO: section[0].questions[22] has no correct_answer (answer key not available)
+  WARN: section[0].questions[23].options -- 5/5 options have empty html
+  WARN: section[0].questions[23].options -- no option has a key set
+  INFO: section[0].questions[23] has no correct_answer (answer key not available)
+  WARN: section[0].questions[24].options -- 5/5 options have empty html
+  WARN: section[0].questions[24].options -- no option has a key set
+  INFO: section[0].questions[24] has no correct_answer (answer key not available)
+  WARN: section[0].questions[25].options -- 5/5 options have empty html
+  WARN: section[0].questions[25].options -- no option has a key set
+  INFO: section[0].questions[25] has no correct_answer (answer key not available)
+  WARN: section[0].questions[26].options -- 5/5 options have empty html
+  WARN: section[0].questions[26].options -- no option has a key set
+  INFO: section[0].questions[26] has no correct_answer (answer key not available)
+  WARN: section[0].questions[27].options -- 5/5 options have empty html
+  WARN: section[0].questions[27].options -- no option has a key set
+  INFO: section[0].questions[27] has no correct_answer (answer key not available)
+  WARN: section[0].questions[28].options -- 5/5 options have empty html
+  WARN: section[0].questions[28].options -- no option has a key set
+  INFO: section[0].questions[28] has no correct_answer (answer key not available)
+  WARN: section[0].questions[29].options -- 5/5 options have empty html
+  WARN: section[0].questions[29].options -- no option has a key set
+  INFO: section[0].questions[29] has no correct_answer (answer key not available)
+  WARN: section[0].questions[30].options -- 5/5 options have empty html
+  WARN: section[0].questions[30].options -- no option has a key set
+  INFO: section[0].questions[30] has no correct_answer (answer key not available)
+  Section 1: type=frq, label="Section II: Free Response", questions=3
+  INFO: section[1].questions[0] has no correct_answer (answer key not available)
+  INFO: section[1].questions[1] has no correct_answer (answer key not available)
+  INFO: section[1].questions[2] has no correct_answer (answer key not available)
+  PASS: LaTeX detected in 25 text fields (inline $...$)
+  PASS: state.sections.length matches exam
+  PASS: JSON round-trip preserves structure
+  PASS: state mutation: can set answer
+  Paper.html compatibility:
+
+=== ap-exam-phys2018Intl.json ===
+  PASS: JSON parse
+  PASS: normalizeExam returned result
+  PASS: exam_id = "phys2018Intl"
+  PASS: exam_title = "AP 物理C力学 2018年国际卷"
+  PASS: subject = "physics"
+  PASS: year = 2018
+  PASS: total_questions = 38
+  Sections: 2 total (MCQ=true, FRQ=true)
+  PASS: section order: MCQ before FRQ
+  Section 0: type=mcq, label="Section I: Multiple Choice", questions=35
+  WARN: section[0].questions[0].options -- 5/5 options have empty html
+  WARN: section[0].questions[0].options -- no option has a key set
+  INFO: section[0].questions[0] has no correct_answer (answer key not available)
+  WARN: section[0].questions[1].options -- 5/5 options have empty html
+  WARN: section[0].questions[1].options -- no option has a key set
+  INFO: section[0].questions[1] has no correct_answer (answer key not available)
+  WARN: section[0].questions[2].options -- 5/5 options have empty html
+  WARN: section[0].questions[2].options -- no option has a key set
+  INFO: section[0].questions[2] has no correct_answer (answer key not available)
+  WARN: section[0].questions[3].options -- 5/5 options have empty html
+  WARN: section[0].questions[3].options -- no option has a key set
+  INFO: section[0].questions[3] has no correct_answer (answer key not available)
+  WARN: section[0].questions[4].options -- 5/5 options have empty html
+  WARN: section[0].questions[4].options -- no option has a key set
+  INFO: section[0].questions[4] has no correct_answer (answer key not available)
+  WARN: section[0].questions[5].options -- 5/5 options have empty html
+  WARN: section[0].questions[5].options -- no option has a key set
+  INFO: section[0].questions[5] has no correct_answer (answer key not available)
+  WARN: section[0].questions[6].options -- 5/5 options have empty html
+  WARN: section[0].questions[6].options -- no option has a key set
+  INFO: section[0].questions[6] has no correct_answer (answer key not available)
+  WARN: section[0].questions[7].options -- 5/5 options have empty html
+  WARN: section[0].questions[7].options -- no option has a key set
+  INFO: section[0].questions[7] has no correct_answer (answer key not available)
+  WARN: section[0].questions[8].options -- 5/5 options have empty html
+  WARN: section[0].questions[8].options -- no option has a key set
+  INFO: section[0].questions[8] has no correct_answer (answer key not available)
+  WARN: section[0].questions[9].options -- 5/5 options have empty html
+  WARN: section[0].questions[9].options -- no option has a key set
+  INFO: section[0].questions[9] has no correct_answer (answer key not available)
+  WARN: section[0].questions[10].options -- 5/5 options have empty html
+  WARN: section[0].questions[10].options -- no option has a key set
+  INFO: section[0].questions[10] has no correct_answer (answer key not available)
+  WARN: section[0].questions[11].options -- 5/5 options have empty html
+  WARN: section[0].questions[11].options -- no option has a key set
+  INFO: section[0].questions[11] has no correct_answer (answer key not available)
+  WARN: section[0].questions[12].options -- 5/5 options have empty html
+  WARN: section[0].questions[12].options -- no option has a key set
+  INFO: section[0].questions[12] has no correct_answer (answer key not available)
+  WARN: section[0].questions[13].options -- 5/5 options have empty html
+  WARN: section[0].questions[13].options -- no option has a key set
+  INFO: section[0].questions[13] has no correct_answer (answer key not available)
+  WARN: section[0].questions[14].options -- 5/5 options have empty html
+  WARN: section[0].questions[14].options -- no option has a key set
+  INFO: section[0].questions[14] has no correct_answer (answer key not available)
+  WARN: section[0].questions[15].options -- 5/5 options have empty html
+  WARN: section[0].questions[15].options -- no option has a key set
+  INFO: section[0].questions[15] has no correct_answer (answer key not available)
+  WARN: section[0].questions[16].options -- 5/5 options have empty html
+  WARN: section[0].questions[16].options -- no option has a key set
+  INFO: section[0].questions[16] has no correct_answer (answer key not available)
+  WARN: section[0].questions[17].options -- 5/5 options have empty html
+  WARN: section[0].questions[17].options -- no option has a key set
+  INFO: section[0].questions[17] has no correct_answer (answer key not available)
+  WARN: section[0].questions[18].options -- 5/5 options have empty html
+  WARN: section[0].questions[18].options -- no option has a key set
+  INFO: section[0].questions[18] has no correct_answer (answer key not available)
+  WARN: section[0].questions[19].options -- 5/5 options have empty html
+  WARN: section[0].questions[19].options -- no option has a key set
+  INFO: section[0].questions[19] has no correct_answer (answer key not available)
+  WARN: section[0].questions[20].options -- 5/5 options have empty html
+  WARN: section[0].questions[20].options -- no option has a key set
+  INFO: section[0].questions[20] has no correct_answer (answer key not available)
+  WARN: section[0].questions[21].options -- 5/5 options have empty html
+  WARN: section[0].questions[21].options -- no option has a key set
+  INFO: section[0].questions[21] has no correct_answer (answer key not available)
+  WARN: section[0].questions[22].options -- 4/4 options have empty html
+  WARN: section[0].questions[22].options -- no option has a key set
+  INFO: section[0].questions[22] has no correct_answer (answer key not available)
+  WARN: section[0].questions[23].options -- 5/5 options have empty html
+  WARN: section[0].questions[23].options -- no option has a key set
+  INFO: section[0].questions[23] has no correct_answer (answer key not available)
+  WARN: section[0].questions[24].options -- 5/5 options have empty html
+  WARN: section[0].questions[24].options -- no option has a key set
+  INFO: section[0].questions[24] has no correct_answer (answer key not available)
+  WARN: section[0].questions[25].options -- 5/5 options have empty html
+  WARN: section[0].questions[25].options -- no option has a key set
+  INFO: section[0].questions[25] has no correct_answer (answer key not available)
+  WARN: section[0].questions[26].options -- 5/5 options have empty html
+  WARN: section[0].questions[26].options -- no option has a key set
+  INFO: section[0].questions[26] has no correct_answer (answer key not available)
+  WARN: section[0].questions[27].options -- 5/5 options have empty html
+  WARN: section[0].questions[27].options -- no option has a key set
+  INFO: section[0].questions[27] has no correct_answer (answer key not available)
+  WARN: section[0].questions[28].options -- 5/5 options have empty html
+  WARN: section[0].questions[28].options -- no option has a key set
+  INFO: section[0].questions[28] has no correct_answer (answer key not available)
+  WARN: section[0].questions[29].options -- 5/5 options have empty html
+  WARN: section[0].questions[29].options -- no option has a key set
+  INFO: section[0].questions[29] has no correct_answer (answer key not available)
+  WARN: section[0].questions[30].options -- 5/5 options have empty html
+  WARN: section[0].questions[30].options -- no option has a key set
+  INFO: section[0].questions[30] has no correct_answer (answer key not available)
+  WARN: section[0].questions[31].options -- 5/5 options have empty html
+  WARN: section[0].questions[31].options -- no option has a key set
+  INFO: section[0].questions[31] has no correct_answer (answer key not available)
+  WARN: section[0].questions[32].options -- 5/5 options have empty html
+  WARN: section[0].questions[32].options -- no option has a key set
+  INFO: section[0].questions[32] has no correct_answer (answer key not available)
+  WARN: section[0].questions[33].options -- 5/5 options have empty html
+  WARN: section[0].questions[33].options -- no option has a key set
+  INFO: section[0].questions[33] has no correct_answer (answer key not available)
+  WARN: section[0].questions[34].options -- 5/5 options have empty html
+  WARN: section[0].questions[34].options -- no option has a key set
+  INFO: section[0].questions[34] has no correct_answer (answer key not available)
+  Section 1: type=frq, label="Section II: Free Response", questions=3
+  INFO: FRQ section[1].questions[0] has empty subjectiveList
+  INFO: section[1].questions[0] has no correct_answer (answer key not available)
+  INFO: section[1].questions[1] has no correct_answer (answer key not available)
+  INFO: FRQ section[1].questions[2] has empty subjectiveList
+  INFO: section[1].questions[2] has no correct_answer (answer key not available)
+  PASS: LaTeX detected in 21 text fields (inline $...$)
+  PASS: state.sections.length matches exam
+  PASS: JSON round-trip preserves structure
+  PASS: state mutation: can set answer
+  Paper.html compatibility:
+
+=== ap-exam-phys2018NA.json ===
+  PASS: JSON parse
+  PASS: normalizeExam returned result
+  PASS: exam_id = "phys2018NA"
+  PASS: exam_title = "AP 物理C力学 2018年北美卷"
+  PASS: subject = "physics"
+  PASS: year = 2018
+  PASS: total_questions = 3
+  Sections: 1 total (MCQ=false, FRQ=true)
+  INFO: FRQ-only exam (no MCQ section)
+  Section 0: type=frq, label="Section II: Free Response", questions=3
+  INFO: section[0].questions[0] has no correct_answer (answer key not available)
+  INFO: section[0].questions[1] has no correct_answer (answer key not available)
+  INFO: section[0].questions[2] has no correct_answer (answer key not available)
+  PASS: LaTeX detected in 3 text fields (inline $...$)
+  PASS: state.sections.length matches exam
+  PASS: JSON round-trip preserves structure
+  PASS: state mutation: can set answer
+  Paper.html compatibility:
+
+=== ap-exam-phys2019Intl.json ===
+  PASS: JSON parse
+  PASS: normalizeExam returned result
+  PASS: exam_id = "phys2019Intl"
+  PASS: exam_title = "AP 物理C力学 2019年国际卷"
+  PASS: subject = "physics"
+  PASS: year = 2019
+  PASS: total_questions = 37
+  Sections: 2 total (MCQ=true, FRQ=true)
+  PASS: section order: MCQ before FRQ
+  Section 0: type=mcq, label="Section I: Multiple Choice", questions=34
+  WARN: section[0].questions[0].options -- 5/5 options have empty html
+  WARN: section[0].questions[0].options -- no option has a key set
+  INFO: section[0].questions[0] has no correct_answer (answer key not available)
+  WARN: section[0].questions[1].options -- 5/5 options have empty html
+  WARN: section[0].questions[1].options -- no option has a key set
+  INFO: section[0].questions[1] has no correct_answer (answer key not available)
+  WARN: section[0].questions[2].options -- 5/5 options have empty html
+  WARN: section[0].questions[2].options -- no option has a key set
+  INFO: section[0].questions[2] has no correct_answer (answer key not available)
+  WARN: section[0].questions[3].options -- 5/5 options have empty html
+  WARN: section[0].questions[3].options -- no option has a key set
+  INFO: section[0].questions[3] has no correct_answer (answer key not available)
+  WARN: section[0].questions[4].options -- 5/5 options have empty html
+  WARN: section[0].questions[4].options -- no option has a key set
+  INFO: section[0].questions[4] has no correct_answer (answer key not available)
+  WARN: section[0].questions[5].options -- 5/5 options have empty html
+  WARN: section[0].questions[5].options -- no option has a key set
+  INFO: section[0].questions[5] has no correct_answer (answer key not available)
+  WARN: section[0].questions[6].options -- 5/5 options have empty html
+  WARN: section[0].questions[6].options -- no option has a key set
+  INFO: section[0].questions[6] has no correct_answer (answer key not available)
+  WARN: section[0].questions[7].options -- 5/5 options have empty html
+  WARN: section[0].questions[7].options -- no option has a key set
+  INFO: section[0].questions[7] has no correct_answer (answer key not available)
+  WARN: section[0].questions[8].options -- 5/5 options have empty html
+  WARN: section[0].questions[8].options -- no option has a key set
+  INFO: section[0].questions[8] has no correct_answer (answer key not available)
+  WARN: section[0].questions[9].options -- 5/5 options have empty html
+  WARN: section[0].questions[9].options -- no option has a key set
+  INFO: section[0].questions[9] has no correct_answer (answer key not available)
+  WARN: section[0].questions[10].options -- 5/5 options have empty html
+  WARN: section[0].questions[10].options -- no option has a key set
+  INFO: section[0].questions[10] has no correct_answer (answer key not available)
+  WARN: section[0].questions[11].options -- 5/5 options have empty html
+  WARN: section[0].questions[11].options -- no option has a key set
+  INFO: section[0].questions[11] has no correct_answer (answer key not available)
+  WARN: section[0].questions[12].options -- 5/5 options have empty html
+  WARN: section[0].questions[12].options -- no option has a key set
+  INFO: section[0].questions[12] has no correct_answer (answer key not available)
+  WARN: section[0].questions[13].options -- 5/5 options have empty html
+  WARN: section[0].questions[13].options -- no option has a key set
+  INFO: section[0].questions[13] has no correct_answer (answer key not available)
+  WARN: section[0].questions[14].options -- 5/5 options have empty html
+  WARN: section[0].questions[14].options -- no option has a key set
+  INFO: section[0].questions[14] has no correct_answer (answer key not available)
+  WARN: section[0].questions[15].options -- 5/5 options have empty html
+  WARN: section[0].questions[15].options -- no option has a key set
+  INFO: section[0].questions[15] has no correct_answer (answer key not available)
+  WARN: section[0].questions[16].options -- 5/5 options have empty html
+  WARN: section[0].questions[16].options -- no option has a key set
+  INFO: section[0].questions[16] has no correct_answer (answer key not available)
+  WARN: section[0].questions[17].options -- 5/5 options have empty html
+  WARN: section[0].questions[17].options -- no option has a key set
+  INFO: section[0].questions[17] has no correct_answer (answer key not available)
+  WARN: section[0].questions[18].options -- 5/5 options have empty html
+  WARN: section[0].questions[18].options -- no option has a key set
+  INFO: section[0].questions[18] has no correct_answer (answer key not available)
+  WARN: section[0].questions[19].options -- 5/5 options have empty html
+  WARN: section[0].questions[19].options -- no option has a key set
+  INFO: section[0].questions[19] has no correct_answer (answer key not available)
+  WARN: section[0].questions[20].options -- 5/5 options have empty html
+  WARN: section[0].questions[20].options -- no option has a key set
+  INFO: section[0].questions[20] has no correct_answer (answer key not available)
+  WARN: section[0].questions[21].options -- 5/5 options have empty html
+  WARN: section[0].questions[21].options -- no option has a key set
+  INFO: section[0].questions[21] has no correct_answer (answer key not available)
+  WARN: section[0].questions[22].options -- 5/5 options have empty html
+  WARN: section[0].questions[22].options -- no option has a key set
+  INFO: section[0].questions[22] has no correct_answer (answer key not available)
+  WARN: section[0].questions[23].options -- 5/5 options have empty html
+  WARN: section[0].questions[23].options -- no option has a key set
+  INFO: section[0].questions[23] has no correct_answer (answer key not available)
+  WARN: section[0].questions[24].options -- 5/5 options have empty html
+  WARN: section[0].questions[24].options -- no option has a key set
+  INFO: section[0].questions[24] has no correct_answer (answer key not available)
+  WARN: section[0].questions[25].options -- 5/5 options have empty html
+  WARN: section[0].questions[25].options -- no option has a key set
+  INFO: section[0].questions[25] has no correct_answer (answer key not available)
+  WARN: section[0].questions[26].options -- 5/5 options have empty html
+  WARN: section[0].questions[26].options -- no option has a key set
+  INFO: section[0].questions[26] has no correct_answer (answer key not available)
+  WARN: section[0].questions[27].options -- 5/5 options have empty html
+  WARN: section[0].questions[27].options -- no option has a key set
+  INFO: section[0].questions[27] has no correct_answer (answer key not available)
+  WARN: section[0].questions[28].options -- 5/5 options have empty html
+  WARN: section[0].questions[28].options -- no option has a key set
+  INFO: section[0].questions[28] has no correct_answer (answer key not available)
+  WARN: section[0].questions[29].options -- 5/5 options have empty html
+  WARN: section[0].questions[29].options -- no option has a key set
+  INFO: section[0].questions[29] has no correct_answer (answer key not available)
+  WARN: section[0].questions[30].options -- 5/5 options have empty html
+  WARN: section[0].questions[30].options -- no option has a key set
+  INFO: section[0].questions[30] has no correct_answer (answer key not available)
+  WARN: section[0].questions[31].options -- 5/5 options have empty html
+  WARN: section[0].questions[31].options -- no option has a key set
+  INFO: section[0].questions[31] has no correct_answer (answer key not available)
+  WARN: section[0].questions[32].options -- 5/5 options have empty html
+  WARN: section[0].questions[32].options -- no option has a key set
+  INFO: section[0].questions[32] has no correct_answer (answer key not available)
+  WARN: section[0].questions[33].options -- 5/5 options have empty html
+  WARN: section[0].questions[33].options -- no option has a key set
+  INFO: section[0].questions[33] has no correct_answer (answer key not available)
+  Section 1: type=frq, label="Section II: Free Response", questions=3
+  INFO: FRQ section[1].questions[0] has empty subjectiveList
+  INFO: section[1].questions[0] has no correct_answer (answer key not available)
+  INFO: section[1].questions[1] has no correct_answer (answer key not available)
+  INFO: section[1].questions[2] has no correct_answer (answer key not available)
+  PASS: LaTeX detected in 28 text fields (inline $...$)
+  PASS: state.sections.length matches exam
+  PASS: JSON round-trip preserves structure
+  PASS: state mutation: can set answer
+  Paper.html compatibility:
+
+=== ap-exam-phys2019NASet1.json ===
+  PASS: JSON parse
+  PASS: normalizeExam returned result
+  PASS: exam_id = "phys2019NASet1"
+  PASS: exam_title = "AP 物理C力学 2019年北美卷Set1"
+  PASS: subject = "physics"
+  PASS: year = 2019
+  PASS: total_questions = 3
+  Sections: 1 total (MCQ=false, FRQ=true)
+  INFO: FRQ-only exam (no MCQ section)
+  Section 0: type=frq, label="Section II: Free Response", questions=3
+  INFO: section[0].questions[0] has no correct_answer (answer key not available)
+  INFO: section[0].questions[1] has no correct_answer (answer key not available)
+  INFO: section[0].questions[2] has no correct_answer (answer key not available)
+  PASS: LaTeX detected in 3 text fields (inline $...$)
+  PASS: state.sections.length matches exam
+  PASS: JSON round-trip preserves structure
+  PASS: state mutation: can set answer
+  Paper.html compatibility:
+
+=== ap-exam-phys2019NASet2.json ===
+  PASS: JSON parse
+  PASS: normalizeExam returned result
+  PASS: exam_id = "phys2019NASet2"
+  PASS: exam_title = "AP 物理C力学 2019年北美卷Set2"
+  PASS: subject = "physics"
+  PASS: year = 2019
+  PASS: total_questions = 3
+  Sections: 1 total (MCQ=false, FRQ=true)
+  INFO: FRQ-only exam (no MCQ section)
+  Section 0: type=frq, label="Section II: Free Response", questions=3
+  INFO: section[0].questions[0] has no correct_answer (answer key not available)
+  INFO: section[0].questions[1] has no correct_answer (answer key not available)
+  INFO: section[0].questions[2] has no correct_answer (answer key not available)
+  PASS: LaTeX detected in 3 text fields (inline $...$)
+  PASS: state.sections.length matches exam
+  PASS: JSON round-trip preserves structure
+  PASS: state mutation: can set answer
+  Paper.html compatibility:
+
+=== ap-exam-phys2021NASet1.json ===
+  PASS: JSON parse
+  PASS: normalizeExam returned result
+  PASS: exam_id = "phys2021NASet1"
+  PASS: exam_title = "AP 物理C力学 2021年北美卷Set1"
+  PASS: subject = "physics"
+  PASS: year = 2021
+  PASS: total_questions = 3
+  Sections: 1 total (MCQ=false, FRQ=true)
+  INFO: FRQ-only exam (no MCQ section)
+  Section 0: type=frq, label="Section II: Free Response", questions=3
+  INFO: section[0].questions[0] has no correct_answer (answer key not available)
+  INFO: section[0].questions[1] has no correct_answer (answer key not available)
+  INFO: section[0].questions[2] has no correct_answer (answer key not available)
+  PASS: LaTeX detected in 3 text fields (inline $...$)
+  PASS: state.sections.length matches exam
+  PASS: JSON round-trip preserves structure
+  PASS: state mutation: can set answer
+  Paper.html compatibility:
+
+=== ap-exam-phys2021NASet2.json ===
+  PASS: JSON parse
+  PASS: normalizeExam returned result
+  PASS: exam_id = "phys2021NASet2"
+  PASS: exam_title = "AP 物理C力学 2021年北美卷Set2"
+  PASS: subject = "physics"
+  PASS: year = 2021
+  PASS: total_questions = 3
+  Sections: 1 total (MCQ=false, FRQ=true)
+  INFO: FRQ-only exam (no MCQ section)
+  Section 0: type=frq, label="Section II: Free Response", questions=3
+  INFO: section[0].questions[0] has no correct_answer (answer key not available)
+  INFO: section[0].questions[1] has no correct_answer (answer key not available)
+  INFO: section[0].questions[2] has no correct_answer (answer key not available)
+  PASS: LaTeX detected in 2 text fields (inline $...$)
+  PASS: state.sections.length matches exam
+  PASS: JSON round-trip preserves structure
+  PASS: state mutation: can set answer
+  Paper.html compatibility:
+
+=== ap-exam-phys2022NASet1.json ===
+  PASS: JSON parse
+  PASS: normalizeExam returned result
+  PASS: exam_id = "phys2022NASet1"
+  PASS: exam_title = "AP 物理C力学 2022年北美卷Set1"
+  PASS: subject = "physics"
+  PASS: year = 2022
+  PASS: total_questions = 3
+  Sections: 1 total (MCQ=false, FRQ=true)
+  INFO: FRQ-only exam (no MCQ section)
+  Section 0: type=frq, label="Section II: Free Response", questions=3
+  INFO: section[0].questions[0] has no correct_answer (answer key not available)
+  INFO: section[0].questions[1] has no correct_answer (answer key not available)
+  INFO: section[0].questions[2] has no correct_answer (answer key not available)
+  PASS: LaTeX detected in 3 text fields (inline $...$)
+  PASS: state.sections.length matches exam
+  PASS: JSON round-trip preserves structure
+  PASS: state mutation: can set answer
+  Paper.html compatibility:
+
+=== ap-exam-phys2022NASet2.json ===
+  PASS: JSON parse
+  PASS: normalizeExam returned result
+  PASS: exam_id = "phys2022NASet2"
+  PASS: exam_title = "AP 物理C力学 2022年北美卷Set2"
+  PASS: subject = "physics"
+  PASS: year = 2022
+  PASS: total_questions = 3
+  Sections: 1 total (MCQ=false, FRQ=true)
+  INFO: FRQ-only exam (no MCQ section)
+  Section 0: type=frq, label="Section II: Free Response", questions=3
+  INFO: section[0].questions[0] has no correct_answer (answer key not available)
+  INFO: section[0].questions[1] has no correct_answer (answer key not available)
+  INFO: section[0].questions[2] has no correct_answer (answer key not available)
+  PASS: LaTeX detected in 3 text fields (inline $...$)
+  PASS: state.sections.length matches exam
+  PASS: JSON round-trip preserves structure
+  PASS: state mutation: can set answer
+  Paper.html compatibility:
+
+=== ap-exam-phys2023NASet1.json ===
+  PASS: JSON parse
+  PASS: normalizeExam returned result
+  PASS: exam_id = "phys2023NASet1"
+  PASS: exam_title = "AP 物理C力学 2023年北美卷Set1"
+  PASS: subject = "physics"
+  PASS: year = 2023
+  PASS: total_questions = 3
+  Sections: 1 total (MCQ=false, FRQ=true)
+  INFO: FRQ-only exam (no MCQ section)
+  Section 0: type=frq, label="Section II: Free Response", questions=3
+  INFO: section[0].questions[0] has no correct_answer (answer key not available)
+  INFO: section[0].questions[1] has no correct_answer (answer key not available)
+  INFO: section[0].questions[2] has no correct_answer (answer key not available)
+  PASS: LaTeX detected in 3 text fields (inline $...$)
+  PASS: state.sections.length matches exam
+  PASS: JSON round-trip preserves structure
+  PASS: state mutation: can set answer
+  Paper.html compatibility:
+
+=== ap-exam-phys2023NASet2.json ===
+  PASS: JSON parse
+  PASS: normalizeExam returned result
+  PASS: exam_id = "phys2023NASet2"
+  PASS: exam_title = "AP 物理C力学 2023年北美卷Set2"
+  PASS: subject = "physics"
+  PASS: year = 2023
+  PASS: total_questions = 3
+  Sections: 1 total (MCQ=false, FRQ=true)
+  INFO: FRQ-only exam (no MCQ section)
+  Section 0: type=frq, label="Section II: Free Response", questions=3
+  INFO: section[0].questions[0] has no correct_answer (answer key not available)
+  INFO: section[0].questions[1] has no correct_answer (answer key not available)
+  INFO: section[0].questions[2] has no correct_answer (answer key not available)
+  PASS: LaTeX detected in 3 text fields (inline $...$)
+  PASS: state.sections.length matches exam
+  PASS: JSON round-trip preserves structure
+  PASS: state mutation: can set answer
+  Paper.html compatibility:
+
+=== ap-exam-phys2024Intl.json ===
+  PASS: JSON parse
+  PASS: normalizeExam returned result
+  PASS: exam_id = "phys2024Intl"
+  PASS: exam_title = "AP 物理C力学 2024年国际卷"
+  PASS: subject = "physics"
+  PASS: year = 2024
+  PASS: total_questions = 32
+  Sections: 2 total (MCQ=true, FRQ=true)
+  PASS: section order: MCQ before FRQ
+  Section 0: type=mcq, label="Section I: Multiple Choice", questions=30
+  WARN: section[0].questions[0].options -- 5/5 options have empty html
+  WARN: section[0].questions[0].options -- no option has a key set
+  INFO: section[0].questions[0] has no correct_answer (answer key not available)
+  WARN: section[0].questions[1].options -- 5/5 options have empty html
+  WARN: section[0].questions[1].options -- no option has a key set
+  INFO: section[0].questions[1] has no correct_answer (answer key not available)
+  WARN: section[0].questions[2].options -- 5/5 options have empty html
+  WARN: section[0].questions[2].options -- no option has a key set
+  INFO: section[0].questions[2] has no correct_answer (answer key not available)
+  WARN: section[0].questions[3].options -- 5/5 options have empty html
+  WARN: section[0].questions[3].options -- no option has a key set
+  INFO: section[0].questions[3] has no correct_answer (answer key not available)
+  WARN: section[0].questions[4].options -- 5/5 options have empty html
+  WARN: section[0].questions[4].options -- no option has a key set
+  INFO: section[0].questions[4] has no correct_answer (answer key not available)
+  WARN: section[0].questions[5].options -- 5/5 options have empty html
+  WARN: section[0].questions[5].options -- no option has a key set
+  INFO: section[0].questions[5] has no correct_answer (answer key not available)
+  WARN: section[0].questions[6].options -- 5/5 options have empty html
+  WARN: section[0].questions[6].options -- no option has a key set
+  INFO: section[0].questions[6] has no correct_answer (answer key not available)
+  WARN: section[0].questions[7].options -- 5/5 options have empty html
+  WARN: section[0].questions[7].options -- no option has a key set
+  INFO: section[0].questions[7] has no correct_answer (answer key not available)
+  WARN: section[0].questions[8].options -- 5/5 options have empty html
+  WARN: section[0].questions[8].options -- no option has a key set
+  INFO: section[0].questions[8] has no correct_answer (answer key not available)
+  WARN: section[0].questions[9].options -- 5/5 options have empty html
+  WARN: section[0].questions[9].options -- no option has a key set
+  INFO: section[0].questions[9] has no correct_answer (answer key not available)
+  WARN: section[0].questions[10].options -- 4/4 options have empty html
+  WARN: section[0].questions[10].options -- no option has a key set
+  INFO: section[0].questions[10] has no correct_answer (answer key not available)
+  WARN: section[0].questions[11].options -- 5/5 options have empty html
+  WARN: section[0].questions[11].options -- no option has a key set
+  INFO: section[0].questions[11] has no correct_answer (answer key not available)
+  WARN: section[0].questions[12].options -- 4/4 options have empty html
+  WARN: section[0].questions[12].options -- no option has a key set
+  INFO: section[0].questions[12] has no correct_answer (answer key not available)
+  WARN: section[0].questions[13].options -- 5/5 options have empty html
+  WARN: section[0].questions[13].options -- no option has a key set
+  INFO: section[0].questions[13] has no correct_answer (answer key not available)
+  WARN: section[0].questions[14].options -- 5/5 options have empty html
+  WARN: section[0].questions[14].options -- no option has a key set
+  INFO: section[0].questions[14] has no correct_answer (answer key not available)
+  WARN: section[0].questions[15].options -- 5/5 options have empty html
+  WARN: section[0].questions[15].options -- no option has a key set
+  INFO: section[0].questions[15] has no correct_answer (answer key not available)
+  WARN: section[0].questions[16].options -- 5/5 options have empty html
+  WARN: section[0].questions[16].options -- no option has a key set
+  INFO: section[0].questions[16] has no correct_answer (answer key not available)
+  WARN: section[0].questions[17].options -- 5/5 options have empty html
+  WARN: section[0].questions[17].options -- no option has a key set
+  INFO: section[0].questions[17] has no correct_answer (answer key not available)
+  WARN: section[0].questions[18].options -- 5/5 options have empty html
+  WARN: section[0].questions[18].options -- no option has a key set
+  INFO: section[0].questions[18] has no correct_answer (answer key not available)
+  WARN: section[0].questions[19].options -- 4/4 options have empty html
+  WARN: section[0].questions[19].options -- no option has a key set
+  INFO: section[0].questions[19] has no correct_answer (answer key not available)
+  WARN: section[0].questions[20].options -- 5/5 options have empty html
+  WARN: section[0].questions[20].options -- no option has a key set
+  INFO: section[0].questions[20] has no correct_answer (answer key not available)
+  WARN: section[0].questions[21].options -- 5/5 options have empty html
+  WARN: section[0].questions[21].options -- no option has a key set
+  INFO: section[0].questions[21] has no correct_answer (answer key not available)
+  WARN: section[0].questions[22].options -- 5/5 options have empty html
+  WARN: section[0].questions[22].options -- no option has a key set
+  INFO: section[0].questions[22] has no correct_answer (answer key not available)
+  WARN: section[0].questions[23].options -- 5/5 options have empty html
+  WARN: section[0].questions[23].options -- no option has a key set
+  INFO: section[0].questions[23] has no correct_answer (answer key not available)
+  WARN: section[0].questions[24].options -- 5/5 options have empty html
+  WARN: section[0].questions[24].options -- no option has a key set
+  INFO: section[0].questions[24] has no correct_answer (answer key not available)
+  WARN: section[0].questions[25].options -- 5/5 options have empty html
+  WARN: section[0].questions[25].options -- no option has a key set
+  INFO: section[0].questions[25] has no correct_answer (answer key not available)
+  WARN: section[0].questions[26].options -- 5/5 options have empty html
+  WARN: section[0].questions[26].options -- no option has a key set
+  INFO: section[0].questions[26] has no correct_answer (answer key not available)
+  WARN: section[0].questions[27].options -- 5/5 options have empty html
+  WARN: section[0].questions[27].options -- no option has a key set
+  INFO: section[0].questions[27] has no correct_answer (answer key not available)
+  WARN: section[0].questions[28].options -- 5/5 options have empty html
+  WARN: section[0].questions[28].options -- no option has a key set
+  INFO: section[0].questions[28] has no correct_answer (answer key not available)
+  WARN: section[0].questions[29].options -- 5/5 options have empty html
+  WARN: section[0].questions[29].options -- no option has a key set
+  INFO: section[0].questions[29] has no correct_answer (answer key not available)
+  Section 1: type=frq, label="Section II: Free Response", questions=2
+  INFO: section[1].questions[0] has no correct_answer (answer key not available)
+  INFO: section[1].questions[1] has no correct_answer (answer key not available)
+  PASS: LaTeX detected in 30 text fields (inline $...$)
+  PASS: state.sections.length matches exam
+  PASS: JSON round-trip preserves structure
+  PASS: state mutation: can set answer
+  Paper.html compatibility:
+
+=== ap-exam-phys2024NASet1.json ===
+  PASS: JSON parse
+  PASS: normalizeExam returned result
+  PASS: exam_id = "phys2024NASet1"
+  PASS: exam_title = "AP 物理C力学 2024年北美卷Set1"
+  PASS: subject = "physics"
+  PASS: year = 2024
+  PASS: total_questions = 3
+  Sections: 1 total (MCQ=false, FRQ=true)
+  INFO: FRQ-only exam (no MCQ section)
+  Section 0: type=frq, label="Section II: Free Response", questions=3
+  INFO: section[0].questions[0] has no correct_answer (answer key not available)
+  INFO: section[0].questions[1] has no correct_answer (answer key not available)
+  INFO: section[0].questions[2] has no correct_answer (answer key not available)
+  PASS: LaTeX detected in 3 text fields (inline $...$)
+  PASS: state.sections.length matches exam
+  PASS: JSON round-trip preserves structure
+  PASS: state mutation: can set answer
+  Paper.html compatibility:
+
+=== ap-exam-phys2024NASet2.json ===
+  PASS: JSON parse
+  PASS: normalizeExam returned result
+  PASS: exam_id = "phys2024NASet2"
+  PASS: exam_title = "AP 物理C力学 2024年北美卷Set2"
+  PASS: subject = "physics"
+  PASS: year = 2024
+  PASS: total_questions = 3
+  Sections: 1 total (MCQ=false, FRQ=true)
+  INFO: FRQ-only exam (no MCQ section)
+  Section 0: type=frq, label="Section II: Free Response", questions=3
+  INFO: section[0].questions[0] has no correct_answer (answer key not available)
+  INFO: section[0].questions[1] has no correct_answer (answer key not available)
+  INFO: section[0].questions[2] has no correct_answer (answer key not available)
+  PASS: LaTeX detected in 3 text fields (inline $...$)
+  PASS: state.sections.length matches exam
+  PASS: JSON round-trip preserves structure
+  PASS: state mutation: can set answer
+  Paper.html compatibility:
+
+=== ap-exam-phys2025NA.json ===
+  PASS: JSON parse
+  PASS: normalizeExam returned result
+  PASS: exam_id = "phys2025NA"
+  PASS: exam_title = "AP 物理C力学 2025年北美卷"
+  PASS: subject = "physics"
+  PASS: year = 2025
+  PASS: total_questions = 3
+  Sections: 1 total (MCQ=false, FRQ=true)
+  INFO: FRQ-only exam (no MCQ section)
+  Section 0: type=frq, label="Section II: Free Response", questions=3
+  INFO: FRQ section[0].questions[0] has empty subjectiveList
+  INFO: section[0].questions[0] has no correct_answer (answer key not available)
+  INFO: FRQ section[0].questions[1] has empty subjectiveList
+  INFO: section[0].questions[1] has no correct_answer (answer key not available)
+  INFO: FRQ section[0].questions[2] has empty subjectiveList
+  INFO: section[0].questions[2] has no correct_answer (answer key not available)
+  PASS: LaTeX detected in 3 text fields (inline $...$)
+  PASS: state.sections.length matches exam
+  PASS: JSON round-trip preserves structure
+  PASS: state mutation: can set answer
+  Paper.html compatibility:
+
+================================================================
+SUMMARY
+================================================================
+Total tests: 251
+Passed: 251
+Failed: 0
+Warnings: 660
+Files tested: 22
+
+=== Issues Found ===
+WARNINGS (660):
+  WARN: section[0].questions[0].options -- 5/5 options have empty html
+  WARN: section[0].questions[0].options -- no option has a key set
+  WARN: section[0].questions[1].options -- 5/5 options have empty html
+  WARN: section[0].questions[1].options -- no option has a key set
+  WARN: section[0].questions[2].options -- 5/5 options have empty html
+  WARN: section[0].questions[2].options -- no option has a key set
+  WARN: section[0].questions[3].options -- 5/5 options have empty html
+  WARN: section[0].questions[3].options -- no option has a key set
+  WARN: section[0].questions[4].options -- 5/5 options have empty html
+  WARN: section[0].questions[4].options -- no option has a key set
+  WARN: section[0].questions[5].options -- 5/5 options have empty html
+  WARN: section[0].questions[5].options -- no option has a key set
+  WARN: section[0].questions[6].options -- 5/5 options have empty html
+  WARN: section[0].questions[6].options -- no option has a key set
+  WARN: section[0].questions[7].options -- 5/5 options have empty html
+  WARN: section[0].questions[7].options -- no option has a key set
+  WARN: section[0].questions[8].options -- 5/5 options have empty html
+  WARN: section[0].questions[8].options -- no option has a key set
+  WARN: section[0].questions[9].options -- 5/5 options have empty html
+  WARN: section[0].questions[9].options -- no option has a key set
+  WARN: section[0].questions[10].options -- 5/5 options have empty html
+  WARN: section[0].questions[10].options -- no option has a key set
+  WARN: section[0].questions[11].options -- 5/5 options have empty html
+  WARN: section[0].questions[11].options -- no option has a key set
+  WARN: section[0].questions[12].options -- 5/5 options have empty html
+  WARN: section[0].questions[12].options -- no option has a key set
+  WARN: section[0].questions[13].options -- 5/5 options have empty html
+  WARN: section[0].questions[13].options -- no option has a key set
+  WARN: section[0].questions[14].options -- 5/5 options have empty html
+  WARN: section[0].questions[14].options -- no option has a key set
+  WARN: section[0].questions[15].options -- 5/5 options have empty html
+  WARN: section[0].questions[15].options -- no option has a key set
+  WARN: section[0].questions[16].options -- 5/5 options have empty html
+  WARN: section[0].questions[16].options -- no option has a key set
+  WARN: section[0].questions[17].options -- 5/5 options have empty html
+  WARN: section[0].questions[17].options -- no option has a key set
+  WARN: section[0].questions[18].options -- 5/5 options have empty html
+  WARN: section[0].questions[18].options -- no option has a key set
+  WARN: section[0].questions[19].options -- 5/5 options have empty html
+  WARN: section[0].questions[19].options -- no option has a key set
+  WARN: section[0].questions[20].options -- 5/5 options have empty html
+  WARN: section[0].questions[20].options -- no option has a key set
+  WARN: section[0].questions[21].options -- 5/5 options have empty html
+  WARN: section[0].questions[21].options -- no option has a key set
+  WARN: section[0].questions[22].options -- 5/5 options have empty html
+  WARN: section[0].questions[22].options -- no option has a key set
+  WARN: section[0].questions[23].options -- 5/5 options have empty html
+  WARN: section[0].questions[23].options -- no option has a key set
+  WARN: section[0].questions[24].options -- 5/5 options have empty html
+  WARN: section[0].questions[24].options -- no option has a key set
+  WARN: section[0].questions[25].options -- 5/5 options have empty html
+  WARN: section[0].questions[25].options -- no option has a key set
+  WARN: section[0].questions[26].options -- 5/5 options have empty html
+  WARN: section[0].questions[26].options -- no option has a key set
+  WARN: section[0].questions[27].options -- 5/5 options have empty html
+  WARN: section[0].questions[27].options -- no option has a key set
+  WARN: section[0].questions[0].options -- 5/5 options have empty html
+  WARN: section[0].questions[0].options -- no option has a key set
+  WARN: section[0].questions[1].options -- 5/5 options have empty html
+  WARN: section[0].questions[1].options -- no option has a key set
+  WARN: section[0].questions[2].options -- 5/5 options have empty html
+  WARN: section[0].questions[2].options -- no option has a key set
+  WARN: section[0].questions[3].options -- 5/5 options have empty html
+  WARN: section[0].questions[3].options -- no option has a key set
+  WARN: section[0].questions[4].options -- 5/5 options have empty html
+  WARN: section[0].questions[4].options -- no option has a key set
+  WARN: section[0].questions[5].options -- 5/5 options have empty html
+  WARN: section[0].questions[5].options -- no option has a key set
+  WARN: section[0].questions[6].options -- 5/5 options have empty html
+  WARN: section[0].questions[6].options -- no option has a key set
+  WARN: section[0].questions[7].options -- 5/5 options have empty html
+  WARN: section[0].questions[7].options -- no option has a key set
+  WARN: section[0].questions[8].options -- 5/5 options have empty html
+  WARN: section[0].questions[8].options -- no option has a key set
+  WARN: section[0].questions[9].options -- 5/5 options have empty html
+  WARN: section[0].questions[9].options -- no option has a key set
+  WARN: section[0].questions[10].options -- 5/5 options have empty html
+  WARN: section[0].questions[10].options -- no option has a key set
+  WARN: section[0].questions[11].options -- 5/5 options have empty html
+  WARN: section[0].questions[11].options -- no option has a key set
+  WARN: section[0].questions[12].options -- 5/5 options have empty html
+  WARN: section[0].questions[12].options -- no option has a key set
+  WARN: section[0].questions[13].options -- 5/5 options have empty html
+  WARN: section[0].questions[13].options -- no option has a key set
+  WARN: section[0].questions[14].options -- 5/5 options have empty html
+  WARN: section[0].questions[14].options -- no option has a key set
+  WARN: section[0].questions[15].options -- 5/5 options have empty html
+  WARN: section[0].questions[15].options -- no option has a key set
+  WARN: section[0].questions[16].options -- 5/5 options have empty html
+  WARN: section[0].questions[16].options -- no option has a key set
+  WARN: section[0].questions[17].options -- 5/5 options have empty html
+  WARN: section[0].questions[17].options -- no option has a key set
+  WARN: section[0].questions[18].options -- 5/5 options have empty html
+  WARN: section[0].questions[18].options -- no option has a key set
+  WARN: section[0].questions[19].options -- 5/5 options have empty html
+  WARN: section[0].questions[19].options -- no option has a key set
+  WARN: section[0].questions[20].options -- 5/5 options have empty html
+  WARN: section[0].questions[20].options -- no option has a key set
+  WARN: section[0].questions[21].options -- 5/5 options have empty html
+  WARN: section[0].questions[21].options -- no option has a key set
+  WARN: section[0].questions[22].options -- 5/5 options have empty html
+  WARN: section[0].questions[22].options -- no option has a key set
+  WARN: section[0].questions[23].options -- 5/5 options have empty html
+  WARN: section[0].questions[23].options -- no option has a key set
+  WARN: section[0].questions[24].options -- 5/5 options have empty html
+  WARN: section[0].questions[24].options -- no option has a key set
+  WARN: section[0].questions[25].options -- 5/5 options have empty html
+  WARN: section[0].questions[25].options -- no option has a key set
+  WARN: section[0].questions[26].options -- 5/5 options have empty html
+  WARN: section[0].questions[26].options -- no option has a key set
+  WARN: section[0].questions[27].options -- 5/5 options have empty html
+  WARN: section[0].questions[27].options -- no option has a key set
+  WARN: section[0].questions[28].options -- 5/5 options have empty html
+  WARN: section[0].questions[28].options -- no option has a key set
+  WARN: section[0].questions[29].options -- 5/5 options have empty html
+  WARN: section[0].questions[29].options -- no option has a key set
+  WARN: section[0].questions[30].options -- 5/5 options have empty html
+  WARN: section[0].questions[30].options -- no option has a key set
+  WARN: section[0].questions[31].options -- 5/5 options have empty html
+  WARN: section[0].questions[31].options -- no option has a key set
+  WARN: section[0].questions[32].options -- 5/5 options have empty html
+  WARN: section[0].questions[32].options -- no option has a key set
+  WARN: section[0].questions[0].options -- 5/5 options have empty html
+  WARN: section[0].questions[0].options -- no option has a key set
+  WARN: section[0].questions[1].options -- 5/5 options have empty html
+  WARN: section[0].questions[1].options -- no option has a key set
+  WARN: section[0].questions[2].options -- 5/5 options have empty html
+  WARN: section[0].questions[2].options -- no option has a key set
+  WARN: section[0].questions[3].options -- 5/5 options have empty html
+  WARN: section[0].questions[3].options -- no option has a key set
+  WARN: section[0].questions[4].options -- 5/5 options have empty html
+  WARN: section[0].questions[4].options -- no option has a key set
+  WARN: section[0].questions[5].options -- 5/5 options have empty html
+  WARN: section[0].questions[5].options -- no option has a key set
+  WARN: section[0].questions[6].options -- 5/5 options have empty html
+  WARN: section[0].questions[6].options -- no option has a key set
+  WARN: section[0].questions[7].options -- 5/5 options have empty html
+  WARN: section[0].questions[7].options -- no option has a key set
+  WARN: section[0].questions[8].options -- 5/5 options have empty html
+  WARN: section[0].questions[8].options -- no option has a key set
+  WARN: section[0].questions[9].options -- 5/5 options have empty html
+  WARN: section[0].questions[9].options -- no option has a key set
+  WARN: section[0].questions[10].options -- 5/5 options have empty html
+  WARN: section[0].questions[10].options -- no option has a key set
+  WARN: section[0].questions[11].options -- 5/5 options have empty html
+  WARN: section[0].questions[11].options -- no option has a key set
+  WARN: section[0].questions[12].options -- 5/5 options have empty html
+  WARN: section[0].questions[12].options -- no option has a key set
+  WARN: section[0].questions[13].options -- 5/5 options have empty html
+  WARN: section[0].questions[13].options -- no option has a key set
+  WARN: section[0].questions[14].options -- 5/5 options have empty html
+  WARN: section[0].questions[14].options -- no option has a key set
+  WARN: section[0].questions[15].options -- 5/5 options have empty html
+  WARN: section[0].questions[15].options -- no option has a key set
+  WARN: section[0].questions[16].options -- 5/5 options have empty html
+  WARN: section[0].questions[16].options -- no option has a key set
+  WARN: section[0].questions[17].options -- 5/5 options have empty html
+  WARN: section[0].questions[17].options -- no option has a key set
+  WARN: section[0].questions[18].options -- 5/5 options have empty html
+  WARN: section[0].questions[18].options -- no option has a key set
+  WARN: section[0].questions[19].options -- 5/5 options have empty html
+  WARN: section[0].questions[19].options -- no option has a key set
+  WARN: section[0].questions[20].options -- 5/5 options have empty html
+  WARN: section[0].questions[20].options -- no option has a key set
+  WARN: section[0].questions[21].options -- 5/5 options have empty html
+  WARN: section[0].questions[21].options -- no option has a key set
+  WARN: section[0].questions[22].options -- 5/5 options have empty html
+  WARN: section[0].questions[22].options -- no option has a key set
+  WARN: section[0].questions[23].options -- 5/5 options have empty html
+  WARN: section[0].questions[23].options -- no option has a key set
+  WARN: section[0].questions[24].options -- 5/5 options have empty html
+  WARN: section[0].questions[24].options -- no option has a key set
+  WARN: section[0].questions[25].options -- 5/5 options have empty html
+  WARN: section[0].questions[25].options -- no option has a key set
+  WARN: section[0].questions[26].options -- 5/5 options have empty html
+  WARN: section[0].questions[26].options -- no option has a key set
+  WARN: section[0].questions[27].options -- 5/5 options have empty html
+  WARN: section[0].questions[27].options -- no option has a key set
+  WARN: section[0].questions[28].options -- 5/5 options have empty html
+  WARN: section[0].questions[28].options -- no option has a key set
+  WARN: section[0].questions[29].options -- 5/5 options have empty html
+  WARN: section[0].questions[29].options -- no option has a key set
+  WARN: section[0].questions[30].options -- 5/5 options have empty html
+  WARN: section[0].questions[30].options -- no option has a key set
+  WARN: section[0].questions[31].options -- 5/5 options have empty html
+  WARN: section[0].questions[31].options -- no option has a key set
+  WARN: section[0].questions[32].options -- 5/5 options have empty html
+  WARN: section[0].questions[32].options -- no option has a key set
+  WARN: section[0].questions[33].options -- 5/5 options have empty html
+  WARN: section[0].questions[33].options -- no option has a key set
+  WARN: section[0].questions[34].options -- 5/5 options have empty html
+  WARN: section[0].questions[34].options -- no option has a key set
+  WARN: section[0].questions[0].options -- 5/5 options have empty html
+  WARN: section[0].questions[0].options -- no option has a key set
+  WARN: section[0].questions[1].options -- 5/5 options have empty html
+  WARN: section[0].questions[1].options -- no option has a key set
+  WARN: section[0].questions[2].options -- 5/5 options have empty html
+  WARN: section[0].questions[2].options -- no option has a key set
+  WARN: section[0].questions[3].options -- 5/5 options have empty html
+  WARN: section[0].questions[3].options -- no option has a key set
+  WARN: section[0].questions[4].options -- 5/5 options have empty html
+  WARN: section[0].questions[4].options -- no option has a key set
+  WARN: section[0].questions[5].options -- 5/5 options have empty html
+  WARN: section[0].questions[5].options -- no option has a key set
+  WARN: section[0].questions[6].options -- 5/5 options have empty html
+  WARN: section[0].questions[6].options -- no option has a key set
+  WARN: section[0].questions[7].options -- 5/5 options have empty html
+  WARN: section[0].questions[7].options -- no option has a key set
+  WARN: section[0].questions[8].options -- 5/5 options have empty html
+  WARN: section[0].questions[8].options -- no option has a key set
+  WARN: section[0].questions[9].options -- 5/5 options have empty html
+  WARN: section[0].questions[9].options -- no option has a key set
+  WARN: section[0].questions[10].options -- 5/5 options have empty html
+  WARN: section[0].questions[10].options -- no option has a key set
+  WARN: section[0].questions[11].options -- 5/5 options have empty html
+  WARN: section[0].questions[11].options -- no option has a key set
+  WARN: section[0].questions[12].options -- 5/5 options have empty html
+  WARN: section[0].questions[12].options -- no option has a key set
+  WARN: section[0].questions[13].options -- 5/5 options have empty html
+  WARN: section[0].questions[13].options -- no option has a key set
+  WARN: section[0].questions[14].options -- 5/5 options have empty html
+  WARN: section[0].questions[14].options -- no option has a key set
+  WARN: section[0].questions[15].options -- 5/5 options have empty html
+  WARN: section[0].questions[15].options -- no option has a key set
+  WARN: section[0].questions[16].options -- 5/5 options have empty html
+  WARN: section[0].questions[16].options -- no option has a key set
+  WARN: section[0].questions[17].options -- 5/5 options have empty html
+  WARN: section[0].questions[17].options -- no option has a key set
+  WARN: section[0].questions[18].options -- 5/5 options have empty html
+  WARN: section[0].questions[18].options -- no option has a key set
+  WARN: section[0].questions[19].options -- 5/5 options have empty html
+  WARN: section[0].questions[19].options -- no option has a key set
+  WARN: section[0].questions[20].options -- 5/5 options have empty html
+  WARN: section[0].questions[20].options -- no option has a key set
+  WARN: section[0].questions[21].options -- 5/5 options have empty html
+  WARN: section[0].questions[21].options -- no option has a key set
+  WARN: section[0].questions[22].options -- 5/5 options have empty html
+  WARN: section[0].questions[22].options -- no option has a key set
+  WARN: section[0].questions[23].options -- 5/5 options have empty html
+  WARN: section[0].questions[23].options -- no option has a key set
+  WARN: section[0].questions[24].options -- 5/5 options have empty html
+  WARN: section[0].questions[24].options -- no option has a key set
+  WARN: section[0].questions[25].options -- 5/5 options have empty html
+  WARN: section[0].questions[25].options -- no option has a key set
+  WARN: section[0].questions[26].options -- 5/5 options have empty html
+  WARN: section[0].questions[26].options -- no option has a key set
+  WARN: section[0].questions[27].options -- 5/5 options have empty html
+  WARN: section[0].questions[27].options -- no option has a key set
+  WARN: section[0].questions[28].options -- 5/5 options have empty html
+  WARN: section[0].questions[28].options -- no option has a key set
+  WARN: section[0].questions[29].options -- 5/5 options have empty html
+  WARN: section[0].questions[29].options -- no option has a key set
+  WARN: section[0].questions[30].options -- 5/5 options have empty html
+  WARN: section[0].questions[30].options -- no option has a key set
+  WARN: section[0].questions[31].options -- 5/5 options have empty html
+  WARN: section[0].questions[31].options -- no option has a key set
+  WARN: section[0].questions[32].options -- 5/5 options have empty html
+  WARN: section[0].questions[32].options -- no option has a key set
+  WARN: section[0].questions[33].options -- 5/5 options have empty html
+  WARN: section[0].questions[33].options -- no option has a key set
+  WARN: section[0].questions[0].options -- 5/5 options have empty html
+  WARN: section[0].questions[0].options -- no option has a key set
+  WARN: section[0].questions[1].options -- 5/5 options have empty html
+  WARN: section[0].questions[1].options -- no option has a key set
+  WARN: section[0].questions[2].options -- 5/5 options have empty html
+  WARN: section[0].questions[2].options -- no option has a key set
+  WARN: section[0].questions[3].options -- 5/5 options have empty html
+  WARN: section[0].questions[3].options -- no option has a key set
+  WARN: section[0].questions[4].options -- 5/5 options have empty html
+  WARN: section[0].questions[4].options -- no option has a key set
+  WARN: section[0].questions[5].options -- 5/5 options have empty html
+  WARN: section[0].questions[5].options -- no option has a key set
+  WARN: section[0].questions[6].options -- 5/5 options have empty html
+  WARN: section[0].questions[6].options -- no option has a key set
+  WARN: section[0].questions[7].options -- 5/5 options have empty html
+  WARN: section[0].questions[7].options -- no option has a key set
+  WARN: section[0].questions[8].options -- 5/5 options have empty html
+  WARN: section[0].questions[8].options -- no option has a key set
+  WARN: section[0].questions[9].options -- 5/5 options have empty html
+  WARN: section[0].questions[9].options -- no option has a key set
+  WARN: section[0].questions[10].options -- 5/5 options have empty html
+  WARN: section[0].questions[10].options -- no option has a key set
+  WARN: section[0].questions[11].options -- 5/5 options have empty html
+  WARN: section[0].questions[11].options -- no option has a key set
+  WARN: section[0].questions[12].options -- 5/5 options have empty html
+  WARN: section[0].questions[12].options -- no option has a key set
+  WARN: section[0].questions[13].options -- 5/5 options have empty html
+  WARN: section[0].questions[13].options -- no option has a key set
+  WARN: section[0].questions[14].options -- 5/5 options have empty html
+  WARN: section[0].questions[14].options -- no option has a key set
+  WARN: section[0].questions[15].options -- 5/5 options have empty html
+  WARN: section[0].questions[15].options -- no option has a key set
+  WARN: section[0].questions[16].options -- 5/5 options have empty html
+  WARN: section[0].questions[16].options -- no option has a key set
+  WARN: section[0].questions[17].options -- 5/5 options have empty html
+  WARN: section[0].questions[17].options -- no option has a key set
+  WARN: section[0].questions[18].options -- 5/5 options have empty html
+  WARN: section[0].questions[18].options -- no option has a key set
+  WARN: section[0].questions[19].options -- 5/5 options have empty html
+  WARN: section[0].questions[19].options -- no option has a key set
+  WARN: section[0].questions[20].options -- 5/5 options have empty html
+  WARN: section[0].questions[20].options -- no option has a key set
+  WARN: section[0].questions[21].options -- 5/5 options have empty html
+  WARN: section[0].questions[21].options -- no option has a key set
+  WARN: section[0].questions[22].options -- 5/5 options have empty html
+  WARN: section[0].questions[22].options -- no option has a key set
+  WARN: section[0].questions[23].options -- 5/5 options have empty html
+  WARN: section[0].questions[23].options -- no option has a key set
+  WARN: section[0].questions[24].options -- 5/5 options have empty html
+  WARN: section[0].questions[24].options -- no option has a key set
+  WARN: section[0].questions[25].options -- 5/5 options have empty html
+  WARN: section[0].questions[25].options -- no option has a key set
+  WARN: section[0].questions[26].options -- 5/5 options have empty html
+  WARN: section[0].questions[26].options -- no option has a key set
+  WARN: section[0].questions[27].options -- 5/5 options have empty html
+  WARN: section[0].questions[27].options -- no option has a key set
+  WARN: section[0].questions[28].options -- 5/5 options have empty html
+  WARN: section[0].questions[28].options -- no option has a key set
+  WARN: section[0].questions[29].options -- 5/5 options have empty html
+  WARN: section[0].questions[29].options -- no option has a key set
+  WARN: section[0].questions[30].options -- 5/5 options have empty html
+  WARN: section[0].questions[30].options -- no option has a key set
+  WARN: section[0].questions[31].options -- 5/5 options have empty html
+  WARN: section[0].questions[31].options -- no option has a key set
+  WARN: section[0].questions[32].options -- 5/5 options have empty html
+  WARN: section[0].questions[32].options -- no option has a key set
+  WARN: section[0].questions[33].options -- 5/5 options have empty html
+  WARN: section[0].questions[33].options -- no option has a key set
+  WARN: section[0].questions[34].options -- 5/5 options have empty html
+  WARN: section[0].questions[34].options -- no option has a key set
+  WARN: section[0].questions[0].options -- 5/5 options have empty html
+  WARN: section[0].questions[0].options -- no option has a key set
+  WARN: section[0].questions[1].options -- 5/5 options have empty html
+  WARN: section[0].questions[1].options -- no option has a key set
+  WARN: section[0].questions[2].options -- 5/5 options have empty html
+  WARN: section[0].questions[2].options -- no option has a key set
+  WARN: section[0].questions[3].options -- 5/5 options have empty html
+  WARN: section[0].questions[3].options -- no option has a key set
+  WARN: section[0].questions[4].options -- 5/5 options have empty html
+  WARN: section[0].questions[4].options -- no option has a key set
+  WARN: section[0].questions[5].options -- 5/5 options have empty html
+  WARN: section[0].questions[5].options -- no option has a key set
+  WARN: section[0].questions[6].options -- 5/5 options have empty html
+  WARN: section[0].questions[6].options -- no option has a key set
+  WARN: section[0].questions[7].options -- 5/5 options have empty html
+  WARN: section[0].questions[7].options -- no option has a key set
+  WARN: section[0].questions[8].options -- 5/5 options have empty html
+  WARN: section[0].questions[8].options -- no option has a key set
+  WARN: section[0].questions[9].options -- 5/5 options have empty html
+  WARN: section[0].questions[9].options -- no option has a key set
+  WARN: section[0].questions[10].options -- 5/5 options have empty html
+  WARN: section[0].questions[10].options -- no option has a key set
+  WARN: section[0].questions[11].options -- 5/5 options have empty html
+  WARN: section[0].questions[11].options -- no option has a key set
+  WARN: section[0].questions[12].options -- 5/5 options have empty html
+  WARN: section[0].questions[12].options -- no option has a key set
+  WARN: section[0].questions[13].options -- 5/5 options have empty html
+  WARN: section[0].questions[13].options -- no option has a key set
+  WARN: section[0].questions[14].options -- 5/5 options have empty html
+  WARN: section[0].questions[14].options -- no option has a key set
+  WARN: section[0].questions[15].options -- 5/5 options have empty html
+  WARN: section[0].questions[15].options -- no option has a key set
+  WARN: section[0].questions[16].options -- 5/5 options have empty html
+  WARN: section[0].questions[16].options -- no option has a key set
+  WARN: section[0].questions[17].options -- 5/5 options have empty html
+  WARN: section[0].questions[17].options -- no option has a key set
+  WARN: section[0].questions[18].options -- 5/5 options have empty html
+  WARN: section[0].questions[18].options -- no option has a key set
+  WARN: section[0].questions[19].options -- 5/5 options have empty html
+  WARN: section[0].questions[19].options -- no option has a key set
+  WARN: section[0].questions[20].options -- 5/5 options have empty html
+  WARN: section[0].questions[20].options -- no option has a key set
+  WARN: section[0].questions[21].options -- 5/5 options have empty html
+  WARN: section[0].questions[21].options -- no option has a key set
+  WARN: section[0].questions[22].options -- 5/5 options have empty html
+  WARN: section[0].questions[22].options -- no option has a key set
+  WARN: section[0].questions[23].options -- 5/5 options have empty html
+  WARN: section[0].questions[23].options -- no option has a key set
+  WARN: section[0].questions[24].options -- 5/5 options have empty html
+  WARN: section[0].questions[24].options -- no option has a key set
+  WARN: section[0].questions[25].options -- 5/5 options have empty html
+  WARN: section[0].questions[25].options -- no option has a key set
+  WARN: section[0].questions[26].options -- 5/5 options have empty html
+  WARN: section[0].questions[26].options -- no option has a key set
+  WARN: section[0].questions[27].options -- 5/5 options have empty html
+  WARN: section[0].questions[27].options -- no option has a key set
+  WARN: section[0].questions[28].options -- 5/5 options have empty html
+  WARN: section[0].questions[28].options -- no option has a key set
+  WARN: section[0].questions[29].options -- 5/5 options have empty html
+  WARN: section[0].questions[29].options -- no option has a key set
+  WARN: section[0].questions[30].options -- 5/5 options have empty html
+  WARN: section[0].questions[30].options -- no option has a key set
+  WARN: section[0].questions[31].options -- 5/5 options have empty html
+  WARN: section[0].questions[31].options -- no option has a key set
+  WARN: section[0].questions[32].options -- 5/5 options have empty html
+  WARN: section[0].questions[32].options -- no option has a key set
+  WARN: section[0].questions[33].options -- 5/5 options have empty html
+  WARN: section[0].questions[33].options -- no option has a key set
+  WARN: section[0].questions[34].options -- 5/5 options have empty html
+  WARN: section[0].questions[34].options -- no option has a key set
+  WARN: section[0].questions[0].options -- 5/5 options have empty html
+  WARN: section[0].questions[0].options -- no option has a key set
+  WARN: section[0].questions[1].options -- 5/5 options have empty html
+  WARN: section[0].questions[1].options -- no option has a key set
+  WARN: section[0].questions[2].options -- 5/5 options have empty html
+  WARN: section[0].questions[2].options -- no option has a key set
+  WARN: section[0].questions[3].options -- 5/5 options have empty html
+  WARN: section[0].questions[3].options -- no option has a key set
+  WARN: section[0].questions[4].options -- 5/5 options have empty html
+  WARN: section[0].questions[4].options -- no option has a key set
+  WARN: section[0].questions[5].options -- 5/5 options have empty html
+  WARN: section[0].questions[5].options -- no option has a key set
+  WARN: section[0].questions[6].options -- 5/5 options have empty html
+  WARN: section[0].questions[6].options -- no option has a key set
+  WARN: section[0].questions[7].options -- 5/5 options have empty html
+  WARN: section[0].questions[7].options -- no option has a key set
+  WARN: section[0].questions[8].options -- 5/5 options have empty html
+  WARN: section[0].questions[8].options -- no option has a key set
+  WARN: section[0].questions[9].options -- 5/5 options have empty html
+  WARN: section[0].questions[9].options -- no option has a key set
+  WARN: section[0].questions[10].options -- 5/5 options have empty html
+  WARN: section[0].questions[10].options -- no option has a key set
+  WARN: section[0].questions[11].options -- 5/5 options have empty html
+  WARN: section[0].questions[11].options -- no option has a key set
+  WARN: section[0].questions[12].options -- 5/5 options have empty html
+  WARN: section[0].questions[12].options -- no option has a key set
+  WARN: section[0].questions[13].options -- 5/5 options have empty html
+  WARN: section[0].questions[13].options -- no option has a key set
+  WARN: section[0].questions[14].options -- 5/5 options have empty html
+  WARN: section[0].questions[14].options -- no option has a key set
+  WARN: section[0].questions[15].options -- 5/5 options have empty html
+  WARN: section[0].questions[15].options -- no option has a key set
+  WARN: section[0].questions[16].options -- 5/5 options have empty html
+  WARN: section[0].questions[16].options -- no option has a key set
+  WARN: section[0].questions[17].options -- 5/5 options have empty html
+  WARN: section[0].questions[17].options -- no option has a key set
+  WARN: section[0].questions[18].options -- 5/5 options have empty html
+  WARN: section[0].questions[18].options -- no option has a key set
+  WARN: section[0].questions[19].options -- 5/5 options have empty html
+  WARN: section[0].questions[19].options -- no option has a key set
+  WARN: section[0].questions[20].options -- 5/5 options have empty html
+  WARN: section[0].questions[20].options -- no option has a key set
+  WARN: section[0].questions[21].options -- 5/5 options have empty html
+  WARN: section[0].questions[21].options -- no option has a key set
+  WARN: section[0].questions[22].options -- 5/5 options have empty html
+  WARN: section[0].questions[22].options -- no option has a key set
+  WARN: section[0].questions[23].options -- 5/5 options have empty html
+  WARN: section[0].questions[23].options -- no option has a key set
+  WARN: section[0].questions[24].options -- 5/5 options have empty html
+  WARN: section[0].questions[24].options -- no option has a key set
+  WARN: section[0].questions[25].options -- 5/5 options have empty html
+  WARN: section[0].questions[25].options -- no option has a key set
+  WARN: section[0].questions[26].options -- 5/5 options have empty html
+  WARN: section[0].questions[26].options -- no option has a key set
+  WARN: section[0].questions[27].options -- 5/5 options have empty html
+  WARN: section[0].questions[27].options -- no option has a key set
+  WARN: section[0].questions[28].options -- 5/5 options have empty html
+  WARN: section[0].questions[28].options -- no option has a key set
+  WARN: section[0].questions[29].options -- 5/5 options have empty html
+  WARN: section[0].questions[29].options -- no option has a key set
+  WARN: section[0].questions[30].options -- 5/5 options have empty html
+  WARN: section[0].questions[30].options -- no option has a key set
+  WARN: section[0].questions[0].options -- 5/5 options have empty html
+  WARN: section[0].questions[0].options -- no option has a key set
+  WARN: section[0].questions[1].options -- 5/5 options have empty html
+  WARN: section[0].questions[1].options -- no option has a key set
+  WARN: section[0].questions[2].options -- 5/5 options have empty html
+  WARN: section[0].questions[2].options -- no option has a key set
+  WARN: section[0].questions[3].options -- 5/5 options have empty html
+  WARN: section[0].questions[3].options -- no option has a key set
+  WARN: section[0].questions[4].options -- 5/5 options have empty html
+  WARN: section[0].questions[4].options -- no option has a key set
+  WARN: section[0].questions[5].options -- 5/5 options have empty html
+  WARN: section[0].questions[5].options -- no option has a key set
+  WARN: section[0].questions[6].options -- 5/5 options have empty html
+  WARN: section[0].questions[6].options -- no option has a key set
+  WARN: section[0].questions[7].options -- 5/5 options have empty html
+  WARN: section[0].questions[7].options -- no option has a key set
+  WARN: section[0].questions[8].options -- 5/5 options have empty html
+  WARN: section[0].questions[8].options -- no option has a key set
+  WARN: section[0].questions[9].options -- 5/5 options have empty html
+  WARN: section[0].questions[9].options -- no option has a key set
+  WARN: section[0].questions[10].options -- 5/5 options have empty html
+  WARN: section[0].questions[10].options -- no option has a key set
+  WARN: section[0].questions[11].options -- 5/5 options have empty html
+  WARN: section[0].questions[11].options -- no option has a key set
+  WARN: section[0].questions[12].options -- 5/5 options have empty html
+  WARN: section[0].questions[12].options -- no option has a key set
+  WARN: section[0].questions[13].options -- 5/5 options have empty html
+  WARN: section[0].questions[13].options -- no option has a key set
+  WARN: section[0].questions[14].options -- 5/5 options have empty html
+  WARN: section[0].questions[14].options -- no option has a key set
+  WARN: section[0].questions[15].options -- 5/5 options have empty html
+  WARN: section[0].questions[15].options -- no option has a key set
+  WARN: section[0].questions[16].options -- 5/5 options have empty html
+  WARN: section[0].questions[16].options -- no option has a key set
+  WARN: section[0].questions[17].options -- 5/5 options have empty html
+  WARN: section[0].questions[17].options -- no option has a key set
+  WARN: section[0].questions[18].options -- 5/5 options have empty html
+  WARN: section[0].questions[18].options -- no option has a key set
+  WARN: section[0].questions[19].options -- 5/5 options have empty html
+  WARN: section[0].questions[19].options -- no option has a key set
+  WARN: section[0].questions[20].options -- 5/5 options have empty html
+  WARN: section[0].questions[20].options -- no option has a key set
+  WARN: section[0].questions[21].options -- 5/5 options have empty html
+  WARN: section[0].questions[21].options -- no option has a key set
+  WARN: section[0].questions[22].options -- 4/4 options have empty html
+  WARN: section[0].questions[22].options -- no option has a key set
+  WARN: section[0].questions[23].options -- 5/5 options have empty html
+  WARN: section[0].questions[23].options -- no option has a key set
+  WARN: section[0].questions[24].options -- 5/5 options have empty html
+  WARN: section[0].questions[24].options -- no option has a key set
+  WARN: section[0].questions[25].options -- 5/5 options have empty html
+  WARN: section[0].questions[25].options -- no option has a key set
+  WARN: section[0].questions[26].options -- 5/5 options have empty html
+  WARN: section[0].questions[26].options -- no option has a key set
+  WARN: section[0].questions[27].options -- 5/5 options have empty html
+  WARN: section[0].questions[27].options -- no option has a key set
+  WARN: section[0].questions[28].options -- 5/5 options have empty html
+  WARN: section[0].questions[28].options -- no option has a key set
+  WARN: section[0].questions[29].options -- 5/5 options have empty html
+  WARN: section[0].questions[29].options -- no option has a key set
+  WARN: section[0].questions[30].options -- 5/5 options have empty html
+  WARN: section[0].questions[30].options -- no option has a key set
+  WARN: section[0].questions[31].options -- 5/5 options have empty html
+  WARN: section[0].questions[31].options -- no option has a key set
+  WARN: section[0].questions[32].options -- 5/5 options have empty html
+  WARN: section[0].questions[32].options -- no option has a key set
+  WARN: section[0].questions[33].options -- 5/5 options have empty html
+  WARN: section[0].questions[33].options -- no option has a key set
+  WARN: section[0].questions[34].options -- 5/5 options have empty html
+  WARN: section[0].questions[34].options -- no option has a key set
+  WARN: section[0].questions[0].options -- 5/5 options have empty html
+  WARN: section[0].questions[0].options -- no option has a key set
+  WARN: section[0].questions[1].options -- 5/5 options have empty html
+  WARN: section[0].questions[1].options -- no option has a key set
+  WARN: section[0].questions[2].options -- 5/5 options have empty html
+  WARN: section[0].questions[2].options -- no option has a key set
+  WARN: section[0].questions[3].options -- 5/5 options have empty html
+  WARN: section[0].questions[3].options -- no option has a key set
+  WARN: section[0].questions[4].options -- 5/5 options have empty html
+  WARN: section[0].questions[4].options -- no option has a key set
+  WARN: section[0].questions[5].options -- 5/5 options have empty html
+  WARN: section[0].questions[5].options -- no option has a key set
+  WARN: section[0].questions[6].options -- 5/5 options have empty html
+  WARN: section[0].questions[6].options -- no option has a key set
+  WARN: section[0].questions[7].options -- 5/5 options have empty html
+  WARN: section[0].questions[7].options -- no option has a key set
+  WARN: section[0].questions[8].options -- 5/5 options have empty html
+  WARN: section[0].questions[8].options -- no option has a key set
+  WARN: section[0].questions[9].options -- 5/5 options have empty html
+  WARN: section[0].questions[9].options -- no option has a key set
+  WARN: section[0].questions[10].options -- 5/5 options have empty html
+  WARN: section[0].questions[10].options -- no option has a key set
+  WARN: section[0].questions[11].options -- 5/5 options have empty html
+  WARN: section[0].questions[11].options -- no option has a key set
+  WARN: section[0].questions[12].options -- 5/5 options have empty html
+  WARN: section[0].questions[12].options -- no option has a key set
+  WARN: section[0].questions[13].options -- 5/5 options have empty html
+  WARN: section[0].questions[13].options -- no option has a key set
+  WARN: section[0].questions[14].options -- 5/5 options have empty html
+  WARN: section[0].questions[14].options -- no option has a key set
+  WARN: section[0].questions[15].options -- 5/5 options have empty html
+  WARN: section[0].questions[15].options -- no option has a key set
+  WARN: section[0].questions[16].options -- 5/5 options have empty html
+  WARN: section[0].questions[16].options -- no option has a key set
+  WARN: section[0].questions[17].options -- 5/5 options have empty html
+  WARN: section[0].questions[17].options -- no option has a key set
+  WARN: section[0].questions[18].options -- 5/5 options have empty html
+  WARN: section[0].questions[18].options -- no option has a key set
+  WARN: section[0].questions[19].options -- 5/5 options have empty html
+  WARN: section[0].questions[19].options -- no option has a key set
+  WARN: section[0].questions[20].options -- 5/5 options have empty html
+  WARN: section[0].questions[20].options -- no option has a key set
+  WARN: section[0].questions[21].options -- 5/5 options have empty html
+  WARN: section[0].questions[21].options -- no option has a key set
+  WARN: section[0].questions[22].options -- 5/5 options have empty html
+  WARN: section[0].questions[22].options -- no option has a key set
+  WARN: section[0].questions[23].options -- 5/5 options have empty html
+  WARN: section[0].questions[23].options -- no option has a key set
+  WARN: section[0].questions[24].options -- 5/5 options have empty html
+  WARN: section[0].questions[24].options -- no option has a key set
+  WARN: section[0].questions[25].options -- 5/5 options have empty html
+  WARN: section[0].questions[25].options -- no option has a key set
+  WARN: section[0].questions[26].options -- 5/5 options have empty html
+  WARN: section[0].questions[26].options -- no option has a key set
+  WARN: section[0].questions[27].options -- 5/5 options have empty html
+  WARN: section[0].questions[27].options -- no option has a key set
+  WARN: section[0].questions[28].options -- 5/5 options have empty html
+  WARN: section[0].questions[28].options -- no option has a key set
+  WARN: section[0].questions[29].options -- 5/5 options have empty html
+  WARN: section[0].questions[29].options -- no option has a key set
+  WARN: section[0].questions[30].options -- 5/5 options have empty html
+  WARN: section[0].questions[30].options -- no option has a key set
+  WARN: section[0].questions[31].options -- 5/5 options have empty html
+  WARN: section[0].questions[31].options -- no option has a key set
+  WARN: section[0].questions[32].options -- 5/5 options have empty html
+  WARN: section[0].questions[32].options -- no option has a key set
+  WARN: section[0].questions[33].options -- 5/5 options have empty html
+  WARN: section[0].questions[33].options -- no option has a key set
+  WARN: section[0].questions[0].options -- 5/5 options have empty html
+  WARN: section[0].questions[0].options -- no option has a key set
+  WARN: section[0].questions[1].options -- 5/5 options have empty html
+  WARN: section[0].questions[1].options -- no option has a key set
+  WARN: section[0].questions[2].options -- 5/5 options have empty html
+  WARN: section[0].questions[2].options -- no option has a key set
+  WARN: section[0].questions[3].options -- 5/5 options have empty html
+  WARN: section[0].questions[3].options -- no option has a key set
+  WARN: section[0].questions[4].options -- 5/5 options have empty html
+  WARN: section[0].questions[4].options -- no option has a key set
+  WARN: section[0].questions[5].options -- 5/5 options have empty html
+  WARN: section[0].questions[5].options -- no option has a key set
+  WARN: section[0].questions[6].options -- 5/5 options have empty html
+  WARN: section[0].questions[6].options -- no option has a key set
+  WARN: section[0].questions[7].options -- 5/5 options have empty html
+  WARN: section[0].questions[7].options -- no option has a key set
+  WARN: section[0].questions[8].options -- 5/5 options have empty html
+  WARN: section[0].questions[8].options -- no option has a key set
+  WARN: section[0].questions[9].options -- 5/5 options have empty html
+  WARN: section[0].questions[9].options -- no option has a key set
+  WARN: section[0].questions[10].options -- 4/4 options have empty html
+  WARN: section[0].questions[10].options -- no option has a key set
+  WARN: section[0].questions[11].options -- 5/5 options have empty html
+  WARN: section[0].questions[11].options -- no option has a key set
+  WARN: section[0].questions[12].options -- 4/4 options have empty html
+  WARN: section[0].questions[12].options -- no option has a key set
+  WARN: section[0].questions[13].options -- 5/5 options have empty html
+  WARN: section[0].questions[13].options -- no option has a key set
+  WARN: section[0].questions[14].options -- 5/5 options have empty html
+  WARN: section[0].questions[14].options -- no option has a key set
+  WARN: section[0].questions[15].options -- 5/5 options have empty html
+  WARN: section[0].questions[15].options -- no option has a key set
+  WARN: section[0].questions[16].options -- 5/5 options have empty html
+  WARN: section[0].questions[16].options -- no option has a key set
+  WARN: section[0].questions[17].options -- 5/5 options have empty html
+  WARN: section[0].questions[17].options -- no option has a key set
+  WARN: section[0].questions[18].options -- 5/5 options have empty html
+  WARN: section[0].questions[18].options -- no option has a key set
+  WARN: section[0].questions[19].options -- 4/4 options have empty html
+  WARN: section[0].questions[19].options -- no option has a key set
+  WARN: section[0].questions[20].options -- 5/5 options have empty html
+  WARN: section[0].questions[20].options -- no option has a key set
+  WARN: section[0].questions[21].options -- 5/5 options have empty html
+  WARN: section[0].questions[21].options -- no option has a key set
+  WARN: section[0].questions[22].options -- 5/5 options have empty html
+  WARN: section[0].questions[22].options -- no option has a key set
+  WARN: section[0].questions[23].options -- 5/5 options have empty html
+  WARN: section[0].questions[23].options -- no option has a key set
+  WARN: section[0].questions[24].options -- 5/5 options have empty html
+  WARN: section[0].questions[24].options -- no option has a key set
+  WARN: section[0].questions[25].options -- 5/5 options have empty html
+  WARN: section[0].questions[25].options -- no option has a key set
+  WARN: section[0].questions[26].options -- 5/5 options have empty html
+  WARN: section[0].questions[26].options -- no option has a key set
+  WARN: section[0].questions[27].options -- 5/5 options have empty html
+  WARN: section[0].questions[27].options -- no option has a key set
+  WARN: section[0].questions[28].options -- 5/5 options have empty html
+  WARN: section[0].questions[28].options -- no option has a key set
+  WARN: section[0].questions[29].options -- 5/5 options have empty html
+  WARN: section[0].questions[29].options -- no option has a key set
+
+=== data-service.js normalization analysis ===
+The normalizeExam() in data-service.js handles physics exams correctly:
+  - examId -> exam_id (via rawExam.exam_id || rawExam.examId)
+  - title -> exam_title (via rawExam.exam_title || rawExam.title)
+  - subjectName -> subject (via inferSubject, maps "physics" correctly)
+  - yearLabel -> year (via parseInt)
+  - section type "mcq"/"frq" -> section_type correctly set
+  - question type "single" -> "single_choice"
+  - question type "free-response" -> "free_response"
+  - prompt -> question_html
+  - parts -> subjectiveList (partSign from part.sign, partContent from part.content)
+  - options html preserved (opt.html || opt.content || opt.text)
+
+Potential data-quality issues found in exam files:
+  - Some MCQ options have empty key/html/text (placeholder data)
+  - Some exams are FRQ-only (no MCQ section)
+  - Some FRQ parts arrays are empty
+  - answer/explanation fields often empty (no answer key available)
+
+=== DONE ===
