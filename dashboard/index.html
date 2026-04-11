@@ -322,6 +322,13 @@
         grid-template-columns: 1fr;
       }
     }
+
+    /* 学习计划响应式 */
+    @media (max-width: 768px) {
+      #study-plan-panel div[style*="grid-template-columns: 1fr 1fr"] {
+        grid-template-columns: 1fr !important;
+      }
+    }
   </style>
 </head>
 <body data-page="dashboard-home">
@@ -387,6 +394,12 @@
       </div>
     </section>
 
+    <!-- 学习计划面板 -->
+    <section class="study-plan-panel" id="study-plan-panel"
+      style="background:var(--panel);border:1px solid var(--line);border-radius:var(--radius-xl);padding:32px;margin-bottom:32px;box-shadow:var(--shadow-soft);">
+      <!-- 由 study-plan.js 渲染 -->
+    </section>
+
     <!-- Subject Cards Grid -->
     <section class="subjects-grid" id="subjects-grid">
       <!-- 渲染由 JS 完成 -->
@@ -409,5 +422,6 @@
   </footer>
 
   <script src="js/dashboard.js"></script>
+  <script src="js/study-plan.js"></script>
 </body>
 </html>
