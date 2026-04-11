@@ -1,0 +1,1351 @@
+{
+  "examId": "2018Intl",
+  "title": "AP 微积分BC 2018年国际卷",
+  "subjectName": "Calculus BC",
+  "yearLabel": "2018",
+  "description": "AP Calculus BC 2018年",
+  "answerKeyAvailable": false,
+  "scoring": null,
+  "sections": [
+    {
+      "title": "Section I: Multiple Choice",
+      "type": "mcq",
+      "questions": [
+        {
+          "id": "1",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">2. Do you regularly speak or hear the language at home? ◯ Yes ◯ No  \\section*{QUESTIONS 1-75}  Indicate your answers to the exam questions in this section (pages 2 and 3). Mark only one response per question for Questions 1 through 120. If a question has only four answer options, do not mark option E. Answers written in the multiple-choice booklet will not be scored.  \\section*{EXAMPLES OF INCOMPLETE MARKS} <img src=\"https://cdn.mathpix.com/cropped/2113757d-29b4-4883-a3ee-6c54b883e4e8-14.jpg?height=126&width=209&top_left_y=964&top_left_x=700\" />  You must use a No. 2 pencil and marks must be complete. Do not use mechanical pencil. It is very important that you fill in the entire circle darkly and completely. If you change your response, erase as completely as possible. Incomplete marks or erasures may affect your score.  \\begin{tabular}{|l|l|l|l|l|l|} \\hline 1 & (A) (B) (C) (D) (E) & 26 & (A) (B) (C) (D) (E) & & \\\\ \\hline 2 & (A) (B) (C) (D) (E) & 27 & (A) (B) (C) (D) (E) & & \\\\ \\hline 3 & (A) (B) (C) (D) (E) & 28 & (A)(B)(C)(D)(E) & & \\\\ \\hline 4 & (A) (B) (C) (D) (E) & 29 & (A) (B) (C) (D) (E) & & \\\\ \\hline 5 & (A) (B) (C) (D) (E) & 30 & (A) (B) (C) (D) (E) & & \\\\ \\hline 6 & (A) (B) (C) (D) (E) & 31 & (A) (B) (C) (D) (E) & & \\\\ \\hline 7 & (A) (B) (C) (D) (E) & 32 & (A) (B) (C) (D) (E) & & \\\\ \\hline 8 & (A) (B) (C) (D) (E) & 33 & (A) (B) (C) (D) (E) & & \\\\ \\hline 9 & (A) (B) (C) (D) (E) & 34 & (A) & (B) & (C) (D) \\\\ \\hline 10 & (A) (B) (C) (D) (E) & 35 & (A) & (B) & (E) \\\\ \\hline 11 & (A) & 36 & (A) & (B) & (C) (D) \\\\ \\hline 12 & (A) & 37 & (A) & (B) & (C) (D) \\\\ \\hline 13 & (A) & 38 & (A) & (B) & (E) \\\\ \\hline 14 & (A) & 39 & (A) & (B) & (C) (D) \\\\ \\hline 15 & (A) & 40 & (A) & (B) & (E) \\\\ \\hline 16 & (A) & 41 & (A) & (B) & (E) \\\\ \\hline 17 & (A) & 42 & (A) & (B) & (E) \\\\ \\hline 18 & (A) & 43 & (A) & (B) & (E) \\\\ \\hline 19 & (A) & 44 & (A) & (B) & (E) \\\\ \\hline 20 & (A) & 45 & (A) & (B) & (D) \\\\ \\hline 21 & (A) & 46 & (A) & (B) & (D) \\\\ \\hline 22 & (A) & 47 & (A) & (B) & (D) \\\\ \\hline 23 & (A) & 48 & (A) & (B) & (D) \\\\ \\hline 24 & (A) & 49 & (A) & (B) & (E) \\\\ \\hline 25 & (A) & 50 & (A) & (C) & (E) \\\\ \\hline \\end{tabular}  \\begin{tabular}{|l|l|} \\hline 51 & (A) (B) (C) (D) (E) \\\\ \\hline 52 & (A) (B) (C) (D) (E) \\\\ \\hline 53 & (A) (B) (C) (D) (E) \\\\ \\hline 54 & (A) (B) (C) (D) (E) \\\\ \\hline 55 & (A) (B) (C) (D) (E) \\\\ \\hline 56 & (A) (B) (C) (D) (E) \\\\ \\hline 57 & (A) (B) (C) (D) (E) \\\\ \\hline 58 & (A) (B) (C) (D) (E) \\\\ \\hline 59 & (A) (B) (C) (D) (E) \\\\ \\hline 60 & (A) (B) (C) (D) (E) \\\\ \\hline 61 & (A) (B) (C) (D) (E) \\\\ \\hline 62 & (A) (B) (C) (D) (E) \\\\ \\hline 63 & (A) (B) (C) (D) (E) \\\\ \\hline 64 & (A) (B) (C) (D) (E) \\\\ \\hline 65 & (A) (B) (C) (D) (E) \\\\ \\hline 66 & (A) (B) (C) (D) (E) \\\\ \\hline 67 & (A) (B) (C) (D) (E) \\\\ \\hline 68 & (A) (B) (C) (D) (E) \\\\ \\hline 69 & (A) (B) (C) (D) (E) \\\\ \\hline 70 & (A) (B) (C) (D) (E) \\\\ \\hline 71 & (A) (B) (C) (D) (E) \\\\ \\hline 72 & (A) (B) (C) (D) (E) \\\\ \\hline 73 & (A) (B) (C) (D) (E) \\\\ \\hline 74 & (A) (B) (C) (D) (E) \\\\ \\hline 75 & (A) (B) (C) (D) (E) \\\\ \\hline \\end{tabular}  \\begin{tabular}{|l|l|l|} \\hline \\multirow{2}{*}{ Exam } & (0)(1)(2)(3)(4)(5)(6)(7)(8)(9) \\\\ \\hline & (0)(1)(2)(3)(4)(5)(6)(7)(8)(9) \\\\ \\hline \\multirow{2}{*}{ Exam } & (0)(1)(2)(3)(4)(5)(6)(7)(8)(9) \\\\ \\hline & (0)(1)(2)(3)(4)(5)(6)(7)(8)(9) \\\\ \\hline \\end{tabular}  \\begin{tabular}{|l|l|l|l|l|l|l|l|} \\hline SELECTED MEDIA EXAMS & R & W & 0 & OTHER EXAMS & R & W & 0 \\\\ \\hline PT02 & & & & TOTAL & & & \\\\ \\hline PT03 & & & & Subscore (if applicable) & & & \\\\ \\hline PT04 & & & & Subscore (if applicable) & & & \\\\ \\hline \\end{tabular}  DO NOT WRITE IN THIS AREA  \\begin{table} \\captionsetup{labelformat=empty} \\caption{Be sure each mark is dark and completely fills the circle．If a question has only four answer options，do not mark option E．} \\begin{tabular}{|l|l|l|l|l|l|} \\hline 76 & （A）（B）（C）（D）（E） & 91 & （A）（B）（C）（D）（E） & 106 & （A）（B）（C）（D）（E） \\\\ \\hline 77 & （A）（B）（C）（D）（E） & 92 & （A）（B）（C）（D）（E） & 107 & （A）（B）（C）（D）（E） \\\\ \\hline 78 & （A）（B）（C）（D）（E） & 93 & （A）（B）（C）（D）（E） & 108 & （A）（B）（C）（D）（E） \\\\ \\hline 79 & （A）（B）（C）（D）（E） & 94 & （A）（B）（C）（D）（E） & 109 & （A）（B）（C）（D）（E） \\\\ \\hline 80 & （A）（B）（C）（D）（E） & 95 & （A）（B）（C）（D）（E） & 110 & （A）（B）（C）（D）（E） \\\\ \\hline 81 & （A）（B）（C）（D）（E） & 96 & （A）（B）（C）（D）（E） & 111 & （A）（B）（C）（D）（E） \\\\ \\hline 82 & （A）（B）（C）（D）（E） & 97 & （A）（B）（C）（D）（E） & 112 & （A）（B）（C）（D）（E） \\\\ \\hline 83 & （A）（B）（C）（D）（E） & 98 & （A）（B）（C）（D）（E） & 113 & （A）（B）（C）（D）（E） \\\\ \\hline 84 & （A）（B）（C）（D）（E） & 99 & （A）（B）（C）（D）（E） & 114 & （A）（B）（C）（D）（E） \\\\ \\hline 85 & （A）（B）（C）（D）（E） & 100 & （A）（B）（C）（D）（E） & 115 & （A）（B）（C）（D）（E） \\\\ \\hline 86 & （A）（B）（C）（D）（E） & 101 & （A）（B）（C）（D）（E） & 116 & （A）（B）（C）（D）（E） \\\\ \\hline 87 & （A）（B）（C）（D）（E） & 102 & （A）（B）（C）（D）（E） & 117 & （A）（B）（C）（D）（E） \\\\ \\hline 88 & （A）（B）（C）（D）（E） & 103 & （A）（B）（C）（D）（E） & 118 & （A）（B）（C）（D）（E） \\\\ \\hline 89 & （A）（B）（C）（D）（E） & 104 & （A）（B）（C）（D）（E） & 119 & （A）（B）（C）（D）（E） \\\\ \\hline 90 & （A）（B）（C）（D）（E） & 105 & （A）（B）（C）（D）（E） & 120 & （A）（B）（C）（D）（E） \\\\ \\hline \\end{tabular} \\end{table}  \\section*{QUESTIONS 121－126}  \\section*{QUESTIONS 131－142}  \\begin{table} \\captionsetup{labelformat=empty} \\caption{For Students Taking AP Computer Science Principles，AP Physics 1，or AP Physics 2 Mark two responses per question．You will receive credit only if both correct responses are selected．} \\begin{tabular}{|l|l|l|l|l|l|} \\hline 131 & （A）（B）（C）（D） & 135 & （A）（B）（C）（D） & 139 & （A）（B）（C）（D） \\\\ \\hline 132 & （A）（B）（C）（D） & 136 & （A）（B）（C）（D） & 140 & （A）（B）（C）（D） \\\\ \\hline 133 & （A）（B）（C）（D） & 137 & （A）（B）（C）（D） & 141 & （A）（B）（C）（D） \\\\ \\hline 134 & （A）（B）（C）（D） & 138 & （A）（B）（C）（D） & 142 & （A）（B）（C）（D） \\\\ \\hline \\end{tabular} \\end{table} <img src=\"https://cdn.mathpix.com/cropped/2113757d-29b4-4883-a3ee-6c54b883e4e8-16.jpg?height=1907&width=2643&top_left_y=38&top_left_x=77\" />  \\begin{tabular}{|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|} \\hline Address & & \\multicolumn{11}{|l|}{City} & \\multicolumn{11}{|l|}{State or Province} & \\multicolumn{2}{|c|}{Country} & & & & & & & & & & ZIP or Postal Code & & & \\\\ \\hline U. EMAIL ADDRESS & By providing your email address, you are granting the College Board permission to use your email address in accordance with the policies in the 2017-18 Bulletin for AP Students and Parents. & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & \\\\ \\hline \\end{tabular}  \\section*{Section I: Multiple-Choice Questions}  This is the multiple-choice section of the 2018 AP Exam. It includes cover material and other administrative instructions to help familiarize students with the mechanics of the exam. (Note that future exams may differ in look from the following content.)  \\section*{AP ${ }^{®}$ Calculus BC Exam}  \\section*{SECTION I: Multiple Choice}  \\section*{DO NOT OPEN THIS BOOKLET UNTIL YOU ARE TOLD TO DO SO.}  \\section*{At a Glance}  \\section*{Total Time}  1 hour and 45 minutes Number of Questions 45 Percent of Total Score 50\\% Writing Instrument Pencil required  \\section*{Part A}  Number of Questions 30 Time 1 hour Electronic Device None allowed  \\section*{Part B}  Number of Questions 15 Time 45 minutes Electronic Device Graphing calculator required  \\section*{Instructions}  Section I of this exam contains 45 multiple-choice questions and 4 survey questions. For Part A, fill in only the circles for numbers 1 through 30 on page 2 of the answer sheet. For Part B, fill in only the circles for numbers 76 through 90 on page 3 of the answer sheet. Because Part A and Part B offer only four answer options for each question, do not mark the (E) answer circle for any question. The survey questions are numbers 91 through 94.  Indicate all of your answers to the multiple-choice questions on the answer sheet. No credit will be given for anything written in this exam booklet, but you may use the booklet for notes or scratch work. After you have decided which of the suggested answers is best, completely fill in the corresponding circle on the answer sheet. Give only one answer to each question. If you change an answer, be sure that the previous mark is erased completely. Here is a sample question and answer.  Sample Question Sample Answer Chicago is a (A) () (C) (D) (E)</p>",
+          "options": [
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "2",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">1. If $y=x \\sqrt{2 x+5}$, then $y^{\\prime}=$</p>",
+          "options": [
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "3",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">2. $\\int 2^{x} d x=$</p>",
+          "options": [
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "4",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">3. $\\quad \\lim _{x \\rightarrow-7} \\frac{x+7}{|x+7|}$ is</p>",
+          "options": [
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "5",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">4. $\\int \\frac{\\left(x^{1 / 3}-4\\right)^{5}}{6 x^{2 / 3}} d x=$</p>",
+          "options": [
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "6",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">5. During an evacuation drill, people leave a building at a rate of $R(t)$ people per minute, where $t$ is the number of minutes since the start of the drill. Selected values of $R(t)$ are shown in the table above. Using a right Riemann sum with three subintervals and data from the table, what is the approximation of the number of people who leave the building during the first 15 minutes of the evacuation drill?</p>",
+          "options": [
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "7",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">6. What is the sum of the series $\\frac{\\pi}{e}-\\frac{\\pi}{e^{2}}+\\frac{\\pi}{e^{3}}-\\frac{\\pi}{e^{4}}+\\cdots+(-1)^{n+1} \\frac{\\pi}{e^{n}}+\\cdots$ ?</p>",
+          "options": [
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "8",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">7. If $f(x)=\\left(x^{2}+1\\right)^{3}$, what is $\\lim _{x \\rightarrow-1} \\frac{f(x)-f(-1)}{x+1}$ ?</p>",
+          "options": [
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "9",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">8. The graph of $f^{\\prime \\prime}$, the second derivative of the function $f$, is shown above. Which of the following could be the graph of $f$ ?</p>",
+          "options": [
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "10",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">9. Let $y=f(x)$ be a differentiable function such that $\\frac{d y}{d x}=\\frac{x}{y}$ and $f(8)=2$. What is the approximation of $f(8.1)$ using the line tangent to the graph of $f$ at $x=8$ ?</p>",
+          "options": [
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "11",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">10. The series $1-x^{2}+\\frac{x^{4}}{2!}-\\frac{x^{6}}{3!}+\\frac{x^{8}}{4!}+\\cdots+(-1)^{n} \\frac{x^{2 n}}{n!}+\\cdots$ converges to which of the following?</p>",
+          "options": [
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "12",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">11. $\\int x \\cos (2 x) d x=$</p>",
+          "options": [
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "13",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">12. Given that $3 x-\\tan y=4$, what is $\\frac{d y}{d x}$ in terms of $y$ ?</p>",
+          "options": [
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "14",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">13. Which of the following graphs is the solution to the logistic differential equation $\\frac{d y}{d t}=\\frac{y}{5}\\left(1-\\frac{y}{500}\\right)$ with the initial condition $y(0)=100$ ?</p>",
+          "options": [
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "15",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">14. What is the absolute minimum value of $y=-\\cos x-\\sin x$ on the closed interval $\\left[0, \\frac{\\pi}{2}\\right]$ ?</p>",
+          "options": [
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "16",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">15. The graph of $g^{\\prime}$, the first derivative of the function $g$, consists of a semicircle of radius 2 and two line segments, as shown in the figure above. If $g(0)=1$, what is $g(3)$ ?</p>",
+          "options": [
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "17",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">16. $\\int \\frac{1+3 x}{(1-x)(3 x-5)} d x=$</p>",
+          "options": [
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "18",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">17. A spherical snowball is melting in such a way that it maintains its shape. The snowball is decreasing in volume at a constant rate of 8 cubic centimeters per hour. At what rate, in centimeters per hour, is the radius of the snowball decreasing at the instant when the radius is 10 centimeters? (The volume of a sphere of radius $r$ is $V=\\frac{4}{3} \\pi r^{3}$.)</p>",
+          "options": [
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "19",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">18. If $f(x)=\\int_{0}^{x^{3}} \\cos \\left(t^{2}\\right) d t$, then $f^{\\prime}(\\sqrt{\\pi})=$</p>",
+          "options": [
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "20",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">19. What is the slope of the line tangent to the polar curve $r=2 \\theta^{2}$ when $\\theta=\\pi$ ?</p>",
+          "options": [
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "21",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">20. Let $g$ be a twice-differentiable, increasing function of $t$. If $g(0)=20$ and $g(10)=220$, which of the following must be true on the interval $0<t<10$ ?</p>",
+          "options": [
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "22",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">21. $\\int \\frac{6 x^{2}-4 x-25}{x-2} d x=$</p>",
+          "options": [
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "23",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">22. Which of the following statements about convergence of the series $\\sum_{n=1}^{\\infty} \\frac{1}{\\ln (n+1)}$ is true?</p>",
+          "options": [
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "24",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">23. The length of the curve $y=\\sin x$ from $x=0$ to $x=\\frac{3 \\pi}{4}$ is given by</p>",
+          "options": [
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "25",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">24. Let $f$ be a function such that $f^{\\prime}(x)=\\sin \\left(x^{2}\\right)$ and $f(0)=0$. What are the first three nonzero terms of the Maclaurin series for $f$ ?</p>",
+          "options": [
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "26",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">25. The polar curves $r=1-\\cos \\theta$ and $r=1+\\cos \\theta$ are shown in the figure above. Which of the following expressions gives the total area of the shaded regions?</p>",
+          "options": [
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "27",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">26. The table above gives values of the continuous function $f$ at selected values of $x$. If $f$ has exactly two critical points on the open interval $(10,14)$, which of the following must be true?</p>",
+          "options": [
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "28",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">27. Let $g$ be a function such that $g(y)>0$ for all $y$. Which of the following could be a slope field for the differential equation $\\frac{d y}{d x}=\\left(x^{2}-1\\right) g(y) ?$</p>",
+          "options": [
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "29",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">28. What are all values of $p$ for which $\\int_{1}^{\\infty} \\frac{1}{x^{3 p+1}} d x$ converges?</p>",
+          "options": [
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "30",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">29. The temperature of a solid at time $t \\geq 0$ is modeled by the nonconstant function $H$ and increases according to the differential equation $\\frac{d H}{d t}=2 H+1$, where $H(t)$ is measured in degrees Fahrenheit and $t$ is measured in hours. Which of the following must be true?</p>",
+          "options": [
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "31",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">30. If the power series $\\sum_{n=0}^{\\infty} a_{n}(x-4)^{n}$ converges at $x=7$ and diverges at $x=9$, which of the following must be true? I. The series converges at $x=1$. II. The series converges at $x=2$. III. The series diverges at $x=-1$.</p>",
+          "options": [
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "32",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">76. The graph of the function $f$ is shown in the figure above. Which of the following statements must be false?</p>",
+          "options": [
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "33",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">77. The rate at which water leaks from a tank, in gallons per hour, is modeled by $R$, a differentiable function of the number of hours after the leak is discovered. Which of the following is the best interpretation of $R^{\\prime}(3)$ ?</p>",
+          "options": [
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "34",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">78. On a certain day, the temperature, in degrees Fahrenheit, in a small town $t$ hours after midnight $(t=0)$ is modeled by the function $g(t)=65-8 \\sin \\left(\\frac{\\pi t}{12}\\right)$. What is the average temperature in the town between 3 A.M. $(t=3)$ and 6 A.M. $(t=6)$, in degrees Fahrenheit?</p>",
+          "options": [
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "35",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">79. Let $y=f(x)$ be the solution to the differential equation $\\frac{d y}{d x}=f^{\\prime}(x)$ with initial condition $f(1)=5$. Selected values of $f^{\\prime}(x)$ are given in the table above. What is the approximation for $f(2)$ if Euler's method is used with a step size of 0.5 , starting at $x=1$ ?</p>",
+          "options": [
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "36",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">80. The first derivative of the function $f$ is defined by $f^{\\prime}(x)=\\left(x^{2}+1\\right) \\sin (3 x-1)$ for $-1.5<x<1.5$. On which of the following intervals is the graph of $f$ concave up?</p>",
+          "options": [
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "37",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">81. For $t \\geq 0$, the velocity of a particle moving along the $x$-axis is given by $v(t)=t^{3}-6 t^{2}+10 t-4$. At what time $t$ does the direction of motion of the particle change from right to left?</p>",
+          "options": [
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "38",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">82. Let $f$ be a function such that $f(1)=-2$ and $f(5)=7$. Which of the following conditions ensures that $f(c)=0$ for some value $c$ in the open interval $(1,5)$ ?</p>",
+          "options": [
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "39",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">83. For time $t>0$, the position of an object moving in the $x y$-plane is given by the parametric equations $x(t)=t \\cos \\left(\\frac{t}{2}\\right)$ and $y(t)=\\sqrt{t^{2}+2 t}$. What is the speed of the object at time $t=1$ ?</p>",
+          "options": [
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "40",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">84. The graph of the function $g$ is shown above. If $f$ is the function given by $f(x)=g(g(x))$, what is the value of $f^{\\prime}(0)$ ?</p>",
+          "options": [
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "41",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">85. Let $f$ be a function such that $f(-x)=-f(x)$ for all $x$. If $\\int_{0}^{2} f(x) d x=5$, then $\\int_{-2}^{2}(f(x)+6) d x=$</p>",
+          "options": [
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "42",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">86. Let $R$ be the region in the first quadrant bounded by the graphs of $y=4 \\cos \\left(\\frac{\\pi x}{4}\\right)$ and $y=(x-2)^{2}$, as shown in the figure above. The region $R$ is the base of a solid. For the solid, each cross section perpendicular to the $x$-axis is an isosceles right triangle with a leg in region $R$. What is the volume of the solid?</p>",
+          "options": [
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "43",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">87. Suppose $\\lim _{n \\rightarrow \\infty} a_{n}=\\infty$ and $a_{n+1} \\geq a_{n}>0$ for all $n \\geq 1$. Which of the following statements must be true?</p>",
+          "options": [
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "44",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">88. At time $t \\geq 0$, a particle moving in the $x y$-plane has velocity vector given by $v(t)=\\left\\langle 3,2^{-t^{2}}\\right\\rangle$. If the particle is at the point $\\left(1, \\frac{1}{2}\\right)$ at time $t=0$, how far is the particle from the origin at time $t=1$ ?</p>",
+          "options": [
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "45",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">89. Let $f$ be a function with $f(0)=1, f^{\\prime}(0)=2$, and $f^{\\prime \\prime}(0)=-2$. Which of the following could be the graph of the second-degree Taylor polynomial for $f$ about $x=0$ ?</p>",
+          "options": [
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "46",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">90. The series $\\sum_{n=1}^{\\infty} \\frac{(-1)^{n+1}}{\\sqrt{n}}$ converges to $S$. Based on the alternating series error bound, what is the least number of terms in the series that must be summed to guarantee a partial sum that is within 0.03 of $S$ ?</p>",
+          "options": [
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,829 @@
+{
+  "examId": "2023Intl",
+  "title": "AP 微积分BC 2023年国际卷",
+  "subjectName": "Calculus BC",
+  "yearLabel": "2023",
+  "description": "AP Calculus BC 2023年",
+  "answerKeyAvailable": false,
+  "scoring": null,
+  "sections": [
+    {
+      "title": "Section I: Multiple Choice",
+      "type": "mcq",
+      "questions": [
+        {
+          "id": "1",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">1. If $g(x)=x^{2} \\sqrt{x+1}$, then $g^{\\prime}(3)=\\frac{\\pi}{\\pi}$</p>",
+          "options": [
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "2",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">2. $\\int_{0}^{4} 100 e^{x / 4} d x=$</p>",
+          "options": [
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "3",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">3. An airplane's height above sea level is modeled by the differentiable function $y=h(t)$, where $t$ is the number of minutes after takeoff and $h(t)$ is measured in feet. The graph of $h$ is shown in the figure for $0 \\leq t \\leq 15$. Of the following, which is the best estimate of the rate at which the plane is rising above sea level, in feet per minute, at time $t=9$ ?</p>",
+          "options": [
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "4",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">4. Let $f$ be a vector-valued function with $f(0)=(-2,3)$. If the instantaneous rate of change of $f$ with to $t$ is given by $\\left\\{3 t^{2}+4 t+1,2 t^{3}+t-2\\right\\}$, what is $f(\\mathrm{I})$ ?</p>",
+          "options": [
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "5",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">7. A portion of the slope field for the differential equation $\\frac{d y}{d x}=x-y$ is shown in the figure. If the linear function $y=f(x)$ is the solution to the differential equation such that $f(-1)=-2$, then $f(3)=$</p>",
+          "options": [
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "6",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">8. If $f(x)=\\sin \\left(e^{3 x}\\right)$, then $f^{\\prime}(x)=$</p>",
+          "options": [
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "7",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">9. If the series $\\sum_{n=0}^{\\infty}(-1)^{n} \\frac{B^{n+1}}{A^{n}}$ converges, where $A \\neq 0$ and $B \\neq 0$, what is the sum of the series?</p>",
+          "options": [
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "8",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">10. Of the following series, which can be used with the comparison test to show that $\\sum_{n-3}^{\\infty} \\frac{\\ln n}{n}$ diverges?</p>",
+          "options": [
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "9",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">11. A particle moves in the $x y$-plane so that its position at any time $t$ is given by the parametric equations $x(t)=t^{2}-t^{3}$ and $y(t)=9-6 t$. What is the speed of the particle at time $t=2$ ?</p>",
+          "options": [
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "10",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">12. Which of the following is the solution to the differential equation $\\frac{d y}{d x}=-3 y$ with the initial condition $y(0)=7$ ?</p>",
+          "options": [
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "11",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">13. Consider the series $\\sum_{n=1}^{\\infty} \\frac{(-1)^{n}}{\\cos \\left(\\frac{1}{n}\\right)}$. Which of the following statements is true?</p>",
+          "options": [
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "12",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">14. If $f$ is a function such that $\\lim f(x)=0$, which of the following could be an expression for $f(x)$ ?</p>",
+          "options": [
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "13",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">15. $\\int \\frac{x+1}{x(x+3)} d x=$</p>",
+          "options": [
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "14",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">16. Let $f$ be the function defined as shown. If $f$ is differentiable, which of the following could define $g(x)$ ?</p>",
+          "options": [
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "15",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">17. The function $y=f(x)$-satisfies the differential equation $\\frac{d y}{d x}=2 x$ with the initial condition $f(0)=5$. What i the value of $f(2)$ ?</p>",
+          "options": [
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "16",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">18. Wrich of the following gives the length of the curve $y=\\tan x$ from $x=-\\frac{\\pi}{4}$ to $x=\\frac{\\pi}{4}$ ?</p>",
+          "options": [
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "17",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">19. If $y=f(x)$ is a function such that $\\frac{d y}{d x}=\\frac{2 x-y}{x}$, then $\\frac{d^{2} y}{d x^{2}}=$</p>",
+          "options": [
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "18",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">20. Which of the following series converges to $\\frac{1}{e}$ ?</p>",
+          "options": [
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "19",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">21. The function $g$ has a continuous second derivative. If $g(0)=2, g^{\\prime}(0)-4, g(3)=5$, and $g^{\\prime}(3)=6$, what is the value of $\\int_{0}^{3} x \\cdot g^{n}(x) d x$ ?</p>",
+          "options": [
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "20",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">22. The Maclaurin scries for the function $f$ is given by $\\sum_{n=1}^{n} \\frac{(-2)^{n} x^{2 n}}{n}$ What is the value of $f^{(4)}(0)$ ?</p>",
+          "options": [
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "21",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">25. $\\int \\frac{d x}{x^{2}+4 x+5}=$</p>",
+          "options": [
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "22",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">26. Let $f$ be the function defined by $f(x)=x^{3}+x$. If $g$ is the inverse function of $f$, what is the slope of the line tangent to the graph of $g$ at the point $(2,1)$ ?</p>",
+          "options": [
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "23",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">27. The function $f$ is continuous on the closed interval $[0,5]$ and differentiable on the open interval $(0,5)$. Selected values of $f$ are given in the table shown. The value $c=4$ satisfies the conclusion of the Mean Valoc Theorem for $f$ on the closed interval $[0,5]$. What is the slope of the line tangent to the graph of $f$ at $x=4$ ?</p>",
+          "options": [
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "24",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">28. Let $f$ be the function with $f(0)=0$ and denvative given by $f^{\\prime}(x)-\\cos \\left(x^{2}\\right)$. Which of the following is the Maclaurin series for $f$ ?</p>",
+          "options": [
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "25",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">1. $\\int_{1}^{x^{2}} \\ln x d x$ II. $\\int_{0}^{2} e^{y} d y$  III $\\int_{0}^{2}\\left(e^{2}-e^{y}\\right) d y$</p>",
+          "options": [
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "26",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">30. $\\lim _{n \\rightarrow \\infty} \\sum_{k=1}^{n}\\left(\\frac{3}{n} k\\right)^{2}\\left(\\frac{3}{n}\\right)$ is</p>",
+          "options": [
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "27",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">76. If $f^{\\prime}(x)=1+2 x-x^{3}-\\sqrt{x^{4}+1}$, then $f$ has a local minimem at $x=$</p>",
+          "options": [
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "28",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">18. The function $f$ has derivatives of all orders for all real rumbers. The table shown gives values of $f$ and its first three derivatives at selected values of $x$. What is the value of $\\int_{-1}^{1} f^{\\prime \\prime}(x) d x$ ?</p>",
+          "options": [
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        }
+      ]
+    }
+  ]
+}

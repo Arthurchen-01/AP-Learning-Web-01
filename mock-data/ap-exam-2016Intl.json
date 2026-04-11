@@ -1,0 +1,1547 @@
+{
+  "examId": "2016Intl",
+  "title": "AP 微积分BC 2016年国际卷",
+  "subjectName": "Calculus BC",
+  "yearLabel": "2016",
+  "description": "AP Calculus BC 2016年",
+  "answerKeyAvailable": false,
+  "scoring": null,
+  "sections": [
+    {
+      "title": "Section I: Multiple Choice",
+      "type": "mcq",
+      "questions": [
+        {
+          "id": "1",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">1. $\\quad \\lim _{x \\rightarrow 1} \\frac{x^{2}-1}{\\sin (\\pi x)}$ is</p>",
+          "options": [
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "2",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">2. For time $t>0$, the position of a particle moving in the $x y$-plane is given by the vector $\\left\\langle\\frac{1}{t}, e^{3 t}\\right\\rangle$. What is the velocity vector of the particle at time $t=2$ ?</p>",
+          "options": [
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "3",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">3. Consider the series $\\sum_{n=1}^{\\infty} a_{n}$. If $a_{1}=16$ and $\\frac{a_{n+1}}{a_{n}}=\\frac{1}{2}$ for all integers $n \\geq 1$, then $\\sum_{n=1}^{\\infty} a_{n}$ is</p>",
+          "options": [
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "4",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">4. If $y=\\left(\\frac{x}{x+1}\\right)^{5}$, then $\\frac{d y}{d x}=$</p>",
+          "options": [
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "5",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">5. Which of the following gives the total area enclosed by the graph of the polar curve $r=\\theta \\sin 2 \\theta$ for $0 \\leq \\theta \\leq 2 \\pi ?$</p>",
+          "options": [
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "6",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">6. The slope of the line tangent to the graph of $y=\\ln (1-x)$ at $x=-1$ is</p>",
+          "options": [
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "7",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">7. Let $y=f(x)$ be the solution to the differential equation $\\frac{d y}{d x}=f^{\\prime}(x)$ with initial condition $f(2)=3$. Selected values of $f^{\\prime}$ are given in the table above. What is the approximation for $f(2.4)$ if Euler's method is used, starting at $x=2$ with two steps of equal size?</p>",
+          "options": [
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "8",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">8. $\\int_{0}^{4} \\frac{x}{\\sqrt{x^{2}+9}} d x=$</p>",
+          "options": [
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "9",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">9. Which of the following gives the length of the curve defined by the parametric equations $x(t)=\\frac{t^{2}}{2}$ and $y(t)=\\frac{t^{3}}{3}$ from $t=0$ to $t=1$ ?</p>",
+          "options": [
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "10",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">10. Let $f$ be the function given by $f(x)=3-2 x$. If $g$ is a function with derivative given by $g^{\\prime}(x)=f(x) f^{\\prime}(x)(x-3)$, on what intervals is $g$ increasing?</p>",
+          "options": [
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "11",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">11. The function $f$ is continuous on the closed interval $[0,6]$ and has values as shown in the table above. Using the intervals $[0,2],[2,4]$, and $[4,6]$, what is the approximation of $\\int_{0}^{6} f(x) d x$ obtained from a midpoint Riemann sum?</p>",
+          "options": [
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "12",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">12. $\\int x^{2} \\sin x d x=$</p>",
+          "options": [
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "13",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">13. Shown above is a slope field for which of the following differential equations?</p>",
+          "options": [
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "14",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">14. The figure above shows the graph of a function $f$. Which of the following could be the second-degree Taylor polynomial for $f$ about $x=2$ ?</p>",
+          "options": [
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "15",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">15. What are all values of $p$ for which the series $\\sum_{n=1}^{\\infty} \\frac{1}{n^{2 p}+n}$ diverges?</p>",
+          "options": [
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "16",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">16. If $\\cos (x y)=y-1$, then the value of $\\frac{d y}{d x}$ when $x=\\frac{\\pi}{2}$ and $y=1$ is</p>",
+          "options": [
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "17",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">17. Let $f$ be the function defined by $f(x)=\\frac{1}{x}$. What is the average value of $f$ on the interval $[4,6]$ ?</p>",
+          "options": [
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "18",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">18. Let $P$ be the second-degree Taylor polynomial for $e^{-2 x}$ about $x=3$. What is the slope of the line tangent to the graph of $P$ at $x=3$ ?</p>",
+          "options": [
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "19",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">19. What are all values of $x$ for which $\\int_{x}^{2} t^{3} d t$ is equal to 0 ?</p>",
+          "options": [
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "20",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">20. A curve $C$ is defined by the parametric equations $x(t)=3+t^{2}$ and $y(t)=t^{3}+5 t$. Which of the following is an equation of the line tangent to the graph of $C$ at the point where $t=1$ ?</p>",
+          "options": [
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "21",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">21. The power series $\\sum_{n=1}^{\\infty} \\frac{(x-5)^{n}}{2^{n} n^{2}}$ has radius of convergence 2 . At which of the following values of $x$ can the alternating series test be used with this series to verify convergence at $x$ ?</p>",
+          "options": [
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "22",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">22. Let $f$ be the function given by $f(x)=\\frac{1}{2+x}$. What is the coefficient of $x^{3}$ in the Taylor series for $f$ about $x=0$ ?</p>",
+          "options": [
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "23",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">23. $\\int \\frac{3}{x(x+1)} d x=$</p>",
+          "options": [
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "24",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">24. Which of the following series converge? I. $\\sum_{n=1}^{\\infty} \\frac{1}{n \\sqrt{n}}$ II. $\\sum_{n=1}^{\\infty} \\frac{1}{3^{n}}$ III. $\\sum_{n=2}^{\\infty} \\frac{1}{n \\ln n}$</p>",
+          "options": [
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "25",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">25. $\\lim _{h \\rightarrow 0} \\frac{e^{-1-h}-e^{-1}}{h}$ is</p>",
+          "options": [
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "26",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">26. Let $f$ be the function given by $f(x)=x^{3}-2 x^{2}+5 x-16$. For what value of $x$ in the closed interval $[0,5]$ does the instantaneous rate of change of $f$ equal the average rate of change of $f$ over that interval?</p>",
+          "options": [
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "27",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">27. If $R$ is the unbounded region between the graph of $y=\\frac{1}{x(\\ln x)^{2}}$ and the $x$-axis for $x \\geq 3$, then the area of $R$ is</p>",
+          "options": [
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "28",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">28. A particle travels along the $x$-axis so that at time $t \\geq 0$ its velocity is given by $v(t)=t^{2}-6 t+8$. What is the total distance the particle travels from $t=0$ to $t=3$ ?</p>",
+          "options": [
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "29",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">76. A music group expects to sell a new compact disc (CD) at the rate $R(t)=20,000 e^{-0.12 t}$ CDs per week, where $t$ denotes the number of weeks since the CD was first released. To the nearest thousand, how many CDs are expected to be sold during the first 12 weeks after the release?</p>",
+          "options": [
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "30",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">77. Let $f$ be a function that is continuous on the closed interval $[1,3]$ with $f(1)=10$ and $f(3)=18$. Which of the following statements must be true?</p>",
+          "options": [
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "31",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">78. The graphs of the piecewise linear functions $f$ and $g$ are shown above. If the function $h$ is defined by $h(x)=f(x) g(x)$, then $h^{\\prime}(2)$ is</p>",
+          "options": [
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "32",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">79. The number of people who have entered a museum on a certain day is modeled by a function $f(t)$, where $t$ is measured in hours since the museum opened that day. The number of people who have left the museum since it opened that same day is modeled by a function $g(t)$. If $f^{\\prime}(t)=380\\left(1.02^{t}\\right)$ and $g^{\\prime}(t)=240+240 \\sin \\left(\\frac{\\pi(t-4)}{12}\\right)$, at what time $t$, for $1 \\leq t \\leq 11$, is the number of people in the museum at a maximum?</p>",
+          "options": [
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "33",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">80. The derivative of the function $f$ is continuous on the closed interval $[0,4]$. Values of $f$ and $f^{\\prime}$ for selected values of $x$ are given in the table above. If $\\int_{0}^{4} f^{\\prime}(t) d t=8$, then $f(4)=$</p>",
+          "options": [
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "34",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">81. The figure above shows the graph of the function $f$. If $g(x)=\\int_{1}^{x} f(t) d t$ and the shaded region has an area of 2 , what is the value of $g(2)$ ?</p>",
+          "options": [
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "35",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">82. A particle moves along the $x$-axis so that at time $t \\geq 0$ the position of the particle is given by $x(t)=0.5 t^{4}-1.5 t^{3}-2 t^{2}+6 t-1$. What is the velocity of the particle at the first instance the particle is at the origin?</p>",
+          "options": [
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "36",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">83. The graph of $f^{\\prime}$, the derivative of a function $f$, is shown above. Which of the following could be the graph of $f$ ? I. <img src=\"https://cdn.mathpix.com/cropped/20ab510c-7b46-4201-9113-b7dfe966c127-42.jpg?height=477&width=524&top_left_y=1033&top_left_x=235\" /> II. <img src=\"https://cdn.mathpix.com/cropped/20ab510c-7b46-4201-9113-b7dfe966c127-42.jpg?height=473&width=518&top_left_y=1037&top_left_x=814\" /> III. <img src=\"https://cdn.mathpix.com/cropped/20ab510c-7b46-4201-9113-b7dfe966c127-42.jpg?height=475&width=517&top_left_y=1035&top_left_x=1394\" /></p>",
+          "options": [
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "37",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">84. The figure above shows the region $A$, which is bounded by the $x$ - and $y$-axes, the graph of $f(x)=\\frac{\\sin x}{x}$ for $x>0$, and the vertical line $x=k$. If $k$ increases at a rate of $\\frac{\\pi}{4}$ units per second, how fast is the area of region $A$ increasing when $k=\\frac{\\pi}{6}$ ?</p>",
+          "options": [
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "38",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">85. The function $f$ is defined on the open interval $0.4<x<2.4$ and has first derivative $f^{\\prime}$ given by $f^{\\prime}(x)=\\sin \\left(x^{2}\\right)$. Which of the following statements are true? I. $f$ has a relative maximum on the interval $0.4<x<2.4$. II. $f$ has a relative minimum on the interval $0.4<x<2.4$. III. The graph of $f$ has two points of inflection on the interval $0.4<x<2.4$.</p>",
+          "options": [
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "39",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">86. The position of a particle moving along the $x$-axis is given by a twice-differentiable function $x(t)$. If $x(2)<0$, $x^{\\prime}(2)<0$, and $x^{\\prime \\prime}(2)<0$, which of the following statements must be true about the particle at time $t=2$ ?</p>",
+          "options": [
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "40",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">87. If $0 \\leq b \\leq 2$, for what value of $b$ is $\\int_{0}^{b} \\cos \\left(e^{x}\\right) d x$ a minimum?</p>",
+          "options": [
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "41",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">88. The graph of the function $f$ is shown in the figure above. The value of $\\lim _{x \\rightarrow 0} f\\left(1-x^{2}\\right)$ is</p>",
+          "options": [
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "42",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">89. The velocity of a particle moving along the $x$-axis is given by $v(t)=2-t^{2} \\sin t$ for $0 \\leq t \\leq 2$. What is the total distance traveled by the particle between $t=0$ and $t=2$ ?</p>",
+          "options": [
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "43",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">90. A cup has the shape of a right circular cone. The height of the cup is 12 cm , and the radius of the opening is 3 cm . Water is poured into the cup at a constant rate of $2 \\mathrm{~cm}^{3} / \\mathrm{sec}$. What is the rate at which the water level is rising when the depth of the water in the cup is 5 cm ? (The volume of a cone of height $h$ and radius $r$ is given by $V=\\frac{1}{3} \\pi r^{2} h$.)</p>",
+          "options": [
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "44",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">91. The number of students in a school who have heard a rumor at time $t$ hours is modeled by the function $P$, the solution to a logistic differential equation. At noon, 50 of the school's 500 students have heard the rumor. Also at noon, $P$ is increasing at a rate of 20 students per hour. Which of the following could be the logistic differential equation?</p>",
+          "options": [
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "45",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">92. Let $f$ be a positive, continuous, decreasing function. If $\\int_{1}^{\\infty} f(x) d x=5$, which of the following statements about the series $\\sum_{n=1}^{\\infty} f(n)$ must be true?</p>",
+          "options": [
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        }
+      ]
+    }
+  ]
+}

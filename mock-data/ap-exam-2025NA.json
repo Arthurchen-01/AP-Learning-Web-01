@@ -1,0 +1,191 @@
+{
+  "examId": "2025NA",
+  "title": "AP 微积分BC 2025年北美卷",
+  "subjectName": "Calculus BC",
+  "yearLabel": "2025",
+  "description": "AP Calculus BC 2025年",
+  "answerKeyAvailable": false,
+  "scoring": null,
+  "sections": [
+    {
+      "title": "Section I: Multiple Choice",
+      "type": "mcq",
+      "questions": [
+        {
+          "id": "1",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">An invasive species of plant appears in a fruit grove at time $t=0$ and begins to spread. The function $C$ defined by $C(t)=7.6 \\arctan (0.2 t)$ models the number of acres in the fruit grove affected by the species $t$ weeks after the species appears. It can be shown that $C^{\\prime}(t)=\\frac{38}{25+t^{2}}$.\n\n\\section*{(Note: Your calculator should be in radian mode.)}</p>",
+          "options": [
+            {
+              "key": "A",
+              "text": "<div class=\"choiceTxt\">Find the average number of acres affected by the invasive species from time $t=0$ to time $t=4$ weeks. Show the setup for your calculations.</div>",
+              "html": "<div class=\"choiceTxt\">Find the average number of acres affected by the invasive species from time $t=0$ to time $t=4$ weeks. Show the setup for your calculations.</div>"
+            },
+            {
+              "key": "B",
+              "text": "<div class=\"choiceTxt\">Find the time $t$ when the instantaneous rate of change of $C$ equals the average rate of change of $C$ over the time interval $0 \\leq t \\leq 4$. Show the setup for your calculations.</div>",
+              "html": "<div class=\"choiceTxt\">Find the time $t$ when the instantaneous rate of change of $C$ equals the average rate of change of $C$ over the time interval $0 \\leq t \\leq 4$. Show the setup for your calculations.</div>"
+            },
+            {
+              "key": "C",
+              "text": "<div class=\"choiceTxt\">Assume that the invasive species continues to spread according to the given model for all times $t>0$. Write a limit expression that describes the end behavior of the rate of change in the number of acres affected by the species. Evaluate this limit expression.</div>",
+              "html": "<div class=\"choiceTxt\">Assume that the invasive species continues to spread according to the given model for all times $t>0$. Write a limit expression that describes the end behavior of the rate of change in the number of acres affected by the species. Evaluate this limit expression.</div>"
+            },
+            {
+              "key": "D",
+              "text": "<div class=\"choiceTxt\">At time $t=4$ weeks after the invasive species appears in the fruit grove, measures are taken to counter the spread of the species. The function $A$, defined by $A(t)=C(t)-\\int_{4}^{t} 0.1 \\cdot \\ln (x) d x$, models the number of acres affected by the species over the time interval $4 \\leq t \\leq 36$. At what time $t$, for $4 \\leq t \\leq 36$, does $A$ attain its maximum value? Justify your answer.</div>",
+              "html": "<div class=\"choiceTxt\">At time $t=4$ weeks after the invasive species appears in the fruit grove, measures are taken to counter the spread of the species. The function $A$, defined by $A(t)=C(t)-\\int_{4}^{t} 0.1 \\cdot \\ln (x) d x$, models the number of acres affected by the species over the time interval $4 \\leq t \\leq 36$. At what time $t$, for $4 \\leq t \\leq 36$, does $A$ attain its maximum value? Justify your answer.</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "2",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">Curve $C$ is defined by the polar equation $r(\\theta)=2 \\sin ^{2} \\theta$ for $0 \\leq \\theta \\leq \\pi$. Curve $C$ and the semicircle $r=\\frac{1}{2}$ for $0 \\leq \\theta \\leq \\pi$ are shown in the $x y$-plane.\n![](https://cdn.mathpix.com/cropped/79905445-10c0-4245-ab26-91accfeaa796-4.jpg?height=741&width=733&top_left_y=491&top_left_x=696)\n\n\\section*{(Note: Your calculator should be in radian mode.)}</p>",
+          "options": [
+            {
+              "key": "A",
+              "text": "<div class=\"choiceTxt\">Find the rate of change of $r$ with respect to $\\theta$ at the point on curve $C$ where $\\theta=1.3$. Show the setup for your calculations.</div>",
+              "html": "<div class=\"choiceTxt\">Find the rate of change of $r$ with respect to $\\theta$ at the point on curve $C$ where $\\theta=1.3$. Show the setup for your calculations.</div>"
+            },
+            {
+              "key": "B",
+              "text": "<div class=\"choiceTxt\">Find the area of the region that lies inside curve $C$ but outside the graph of the polar equation $r=\\frac{1}{2}$. Show the setup for your calculations.</div>",
+              "html": "<div class=\"choiceTxt\">Find the area of the region that lies inside curve $C$ but outside the graph of the polar equation $r=\\frac{1}{2}$. Show the setup for your calculations.</div>"
+            },
+            {
+              "key": "C",
+              "text": "<div class=\"choiceTxt\">It can be shown that $\\frac{d x}{d \\theta}=4 \\sin \\theta \\cos ^{2} \\theta-2 \\sin ^{3} \\theta$ for curve $C$. For $0 \\leq \\theta \\leq \\frac{\\pi}{2}$, find the value of $\\theta$ that corresponds to the point on curve $C$ that is farthest from the $y$-axis. Justify your answer.</div>",
+              "html": "<div class=\"choiceTxt\">It can be shown that $\\frac{d x}{d \\theta}=4 \\sin \\theta \\cos ^{2} \\theta-2 \\sin ^{3} \\theta$ for curve $C$. For $0 \\leq \\theta \\leq \\frac{\\pi}{2}$, find the value of $\\theta$ that corresponds to the point on curve $C$ that is farthest from the $y$-axis. Justify your answer.</div>"
+            },
+            {
+              "key": "D",
+              "text": "<div class=\"choiceTxt\">A particle travels along curve $C$ so that $\\frac{d \\theta}{d t}=15$ for all times $t$. Find the rate at which the particle's distance from the origin changes with respect to time when the particle is at the point where $\\theta=1.3$. Show the setup for your calculations.\n\n\\section*{CALCULUS BC \\\\ SECTION II PART B \\\\ TIME - 1 HOUR}\n\n\\section*{Directions:}\n\nSection II, Part B has 4 free-response questions and lasts 1 hour.\n\n\\section*{A calculator is not allowed for this part of the exam.}\n\nYou may use the available paper for scratch work, but you must write your answers in the freeresponse booklet. In the free-response booklet, write your solution to each part of each question in the space provided for that part. For questions that have sub-parts, be sure to label those clearly in your solution. Use a pencil or a pen with black or dark blue ink.\nShow all of your work, even though a question may not explicitly remind you to do so. Clearly label any functions, graphs, tables, or other objects that you use. Justifications require that you give mathematical reasons and that you verify the needed conditions under which relevant theorems, properties, definitions, or tests are applied. Your work will be scored on the correctness and completeness of your methods as well as your answers. Answers without supporting work will usually not receive credit.\nYour work must be expressed in standard mathematical notation rather than calculator syntax. For example, $\\int_{1}^{5} x^{2} d x$ may not be written as $\\operatorname{fnInt}\\left(\\mathrm{X}^{2}, \\mathrm{X}, 1,5\\right)$.\nUnless otherwise specified, answers (numeric or algebraic) need not be simplified. If you use decimal approximations in calculations, your work will be scored on accuracy. Unless otherwise specified, your final answers should be accurate to three places after the decimal point.\n\nUnless otherwise specified, the domain of a function $f$ is assumed to be the set of all real numbers $x$ for which $f(x)$ is a real number.\nYou can go back and forth between questions in this part until time expires. The clock will turn red when 5 minutes remain-the proctor will not give you any time updates or warnings.</div>",
+              "html": "<div class=\"choiceTxt\">A particle travels along curve $C$ so that $\\frac{d \\theta}{d t}=15$ for all times $t$. Find the rate at which the particle's distance from the origin changes with respect to time when the particle is at the point where $\\theta=1.3$. Show the setup for your calculations.\n\n\\section*{CALCULUS BC \\\\ SECTION II PART B \\\\ TIME - 1 HOUR}\n\n\\section*{Directions:}\n\nSection II, Part B has 4 free-response questions and lasts 1 hour.\n\n\\section*{A calculator is not allowed for this part of the exam.}\n\nYou may use the available paper for scratch work, but you must write your answers in the freeresponse booklet. In the free-response booklet, write your solution to each part of each question in the space provided for that part. For questions that have sub-parts, be sure to label those clearly in your solution. Use a pencil or a pen with black or dark blue ink.\nShow all of your work, even though a question may not explicitly remind you to do so. Clearly label any functions, graphs, tables, or other objects that you use. Justifications require that you give mathematical reasons and that you verify the needed conditions under which relevant theorems, properties, definitions, or tests are applied. Your work will be scored on the correctness and completeness of your methods as well as your answers. Answers without supporting work will usually not receive credit.\nYour work must be expressed in standard mathematical notation rather than calculator syntax. For example, $\\int_{1}^{5} x^{2} d x$ may not be written as $\\operatorname{fnInt}\\left(\\mathrm{X}^{2}, \\mathrm{X}, 1,5\\right)$.\nUnless otherwise specified, answers (numeric or algebraic) need not be simplified. If you use decimal approximations in calculations, your work will be scored on accuracy. Unless otherwise specified, your final answers should be accurate to three places after the decimal point.\n\nUnless otherwise specified, the domain of a function $f$ is assumed to be the set of all real numbers $x$ for which $f(x)$ is a real number.\nYou can go back and forth between questions in this part until time expires. The clock will turn red when 5 minutes remain-the proctor will not give you any time updates or warnings.</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "3",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">A student starts reading a book at time $t=0$ minutes and continues reading for the next 10 minutes. The rate at which the student reads is modeled by the differentiable function $R$, where $R(t)$ is measured in words per minute. Selected values of $R(t)$ are given in the table shown.\n\n\\begin{tabular}{|c|c|c|c|c|}\n\\hline$t$ (minutes) & 0 & 2 & 8 & 10 \\\\\n\\hline$R(t)$ (words per minute) & 90 & 100 & 150 & 162 \\\\\n\\hline\n\\end{tabular}</p>",
+          "options": [
+            {
+              "key": "A",
+              "text": "<div class=\"choiceTxt\">Approximate $R^{\\prime}(1)$ using the average rate of change of $R$ over the interval $0 \\leq t \\leq 2$. Show the work that leads to your answer. Indicate units of measure.</div>",
+              "html": "<div class=\"choiceTxt\">Approximate $R^{\\prime}(1)$ using the average rate of change of $R$ over the interval $0 \\leq t \\leq 2$. Show the work that leads to your answer. Indicate units of measure.</div>"
+            },
+            {
+              "key": "B",
+              "text": "<div class=\"choiceTxt\">Must there be a value $c$, for $0<c<10$, such that $R(c)=155$ ? Justify your answer.</div>",
+              "html": "<div class=\"choiceTxt\">Must there be a value $c$, for $0<c<10$, such that $R(c)=155$ ? Justify your answer.</div>"
+            },
+            {
+              "key": "C",
+              "text": "<div class=\"choiceTxt\">Use a trapezoidal sum with the three subintervals indicated by the data in the table to approximate the value of $\\int_{0}^{10} R(t) d t$. Show the work that leads to your answer.</div>",
+              "html": "<div class=\"choiceTxt\">Use a trapezoidal sum with the three subintervals indicated by the data in the table to approximate the value of $\\int_{0}^{10} R(t) d t$. Show the work that leads to your answer.</div>"
+            },
+            {
+              "key": "D",
+              "text": "<div class=\"choiceTxt\">A teacher also starts reading at time $t=0$ minutes and continues reading for the next 10 minutes. The rate at which the teacher reads is modeled by the function $W$ defined by $W(t)=-\\frac{3}{10} t^{2}+8 t+100$, where $W(t)$ is measured in words per minute. Based on the model, how many words has the teacher read by the end of the 10 minutes? Show the work that leads to your answer.</div>",
+              "html": "<div class=\"choiceTxt\">A teacher also starts reading at time $t=0$ minutes and continues reading for the next 10 minutes. The rate at which the teacher reads is modeled by the function $W$ defined by $W(t)=-\\frac{3}{10} t^{2}+8 t+100$, where $W(t)$ is measured in words per minute. Based on the model, how many words has the teacher read by the end of the 10 minutes? Show the work that leads to your answer.</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "4",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">The continuous function $f$ is defined on the closed interval $-6 \\leq x \\leq 12$. The graph of $f$, consisting of two semicircles and one line segment, is shown in the figure.\n![](https://cdn.mathpix.com/cropped/79905445-10c0-4245-ab26-91accfeaa796-7.jpg?height=837&width=1569&top_left_y=455&top_left_x=279)\n\nLet $g$ be the function defined by $g(x)=\\int_{6}^{x} f(t) d t$.</p>",
+          "options": [
+            {
+              "key": "A",
+              "text": "<div class=\"choiceTxt\">Find $g^{\\prime}(8)$. Give a reason for your answer.</div>",
+              "html": "<div class=\"choiceTxt\">Find $g^{\\prime}(8)$. Give a reason for your answer.</div>"
+            },
+            {
+              "key": "B",
+              "text": "<div class=\"choiceTxt\">Find all values of $x$ in the open interval $-6<x<12$ at which the graph of $g$ has a point of inflection. Give a reason for your answer.</div>",
+              "html": "<div class=\"choiceTxt\">Find all values of $x$ in the open interval $-6<x<12$ at which the graph of $g$ has a point of inflection. Give a reason for your answer.</div>"
+            },
+            {
+              "key": "C",
+              "text": "<div class=\"choiceTxt\">Find $g(12)$ and $g(0)$. Label your answers.</div>",
+              "html": "<div class=\"choiceTxt\">Find $g(12)$ and $g(0)$. Label your answers.</div>"
+            },
+            {
+              "key": "D",
+              "text": "<div class=\"choiceTxt\">Find the value of $x$ at which $g$ attains an absolute minimum on the closed interval $-6 \\leq x \\leq 12$. Justify your answer.</div>",
+              "html": "<div class=\"choiceTxt\">Find the value of $x$ at which $g$ attains an absolute minimum on the closed interval $-6 \\leq x \\leq 12$. Justify your answer.</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "5",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">Let $y=f(x)$ be the particular solution to the differential equation $\\frac{d y}{d x}=(3-x) y^{2}$ with initial condition $f(1)=-1$.</p>",
+          "options": [
+            {
+              "key": "A",
+              "text": "<div class=\"choiceTxt\">Find $f^{\\prime \\prime}(1)$, the value of $\\frac{d^{2} y}{d x^{2}}$ at the point $(1,-1)$. Show the work that leads to your answer.</div>",
+              "html": "<div class=\"choiceTxt\">Find $f^{\\prime \\prime}(1)$, the value of $\\frac{d^{2} y}{d x^{2}}$ at the point $(1,-1)$. Show the work that leads to your answer.</div>"
+            },
+            {
+              "key": "B",
+              "text": "<div class=\"choiceTxt\">Write the second-degree Taylor polynomial for $f$ about $x=1$.</div>",
+              "html": "<div class=\"choiceTxt\">Write the second-degree Taylor polynomial for $f$ about $x=1$.</div>"
+            },
+            {
+              "key": "C",
+              "text": "<div class=\"choiceTxt\">The second-degree Taylor polynomial for $f$ about $x=1$ is used to approximate $f(1.1)$. Given that $\\left|f^{\\prime \\prime \\prime}(x)\\right| \\leq 60$ for all $x$ in the interval $1 \\leq x \\leq 1.1$, use the Lagrange error bound to show that this approximation differs from $f(1.1)$ by at most 0.01 .</div>",
+              "html": "<div class=\"choiceTxt\">The second-degree Taylor polynomial for $f$ about $x=1$ is used to approximate $f(1.1)$. Given that $\\left|f^{\\prime \\prime \\prime}(x)\\right| \\leq 60$ for all $x$ in the interval $1 \\leq x \\leq 1.1$, use the Lagrange error bound to show that this approximation differs from $f(1.1)$ by at most 0.01 .</div>"
+            },
+            {
+              "key": "D",
+              "text": "<div class=\"choiceTxt\">Use Euler's method, starting at $x=1$ with two steps of equal size, to approximate $f(1.4)$. Show the work that leads to your answer.</div>",
+              "html": "<div class=\"choiceTxt\">Use Euler's method, starting at $x=1$ with two steps of equal size, to approximate $f(1.4)$. Show the work that leads to your answer.</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "6",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">The Taylor series for a function $f$ about $x=4$ is given by\n$\\sum_{n=1}^{\\infty} \\frac{(x-4)^{n+1}}{(n+1) 3^{n}}=\\frac{(x-4)^{2}}{2 \\cdot 3}+\\frac{(x-4)^{3}}{3 \\cdot 3^{2}}+\\frac{(x-4)^{4}}{4 \\cdot 3^{3}}+\\cdots+\\frac{(x-4)^{n+1}}{(n+1) 3^{n}}+\\cdots$ and converges to $f(x)$ on its interval of convergence.</p>",
+          "options": [
+            {
+              "key": "A",
+              "text": "<div class=\"choiceTxt\">Using the ratio test, find the interval of convergence of the Taylor series for $f$ about $x=4$. Justify your answer.</div>",
+              "html": "<div class=\"choiceTxt\">Using the ratio test, find the interval of convergence of the Taylor series for $f$ about $x=4$. Justify your answer.</div>"
+            },
+            {
+              "key": "B",
+              "text": "<div class=\"choiceTxt\">Find the first three nonzero terms and the general term of the Taylor series for $f^{\\prime}$, the derivative of $f$, about $x=4$.</div>",
+              "html": "<div class=\"choiceTxt\">Find the first three nonzero terms and the general term of the Taylor series for $f^{\\prime}$, the derivative of $f$, about $x=4$.</div>"
+            },
+            {
+              "key": "C",
+              "text": "<div class=\"choiceTxt\">The Taylor series for $f^{\\prime}$ described in part B is a geometric series. For all $x$ in the interval of convergence of the Taylor series for $f^{\\prime}$, show that $f^{\\prime}(x)=\\frac{x-4}{7-x}$.</div>",
+              "html": "<div class=\"choiceTxt\">The Taylor series for $f^{\\prime}$ described in part B is a geometric series. For all $x$ in the interval of convergence of the Taylor series for $f^{\\prime}$, show that $f^{\\prime}(x)=\\frac{x-4}{7-x}$.</div>"
+            },
+            {
+              "key": "D",
+              "text": "<div class=\"choiceTxt\">It is known that the radius of convergence of the Taylor series for $f$ about $x=4$ is the same as the radius of convergence of the Taylor series for $f^{\\prime}$ about $x=4$. Does the Taylor series for $f^{\\prime}$ described in part B converge to $f^{\\prime}(x)=\\frac{x-4}{7-x}$ at $x=8$ ? Give a reason for your answer.\n\n\\section*{STOP \\\\ END OF EXAM}</div>",
+              "html": "<div class=\"choiceTxt\">It is known that the radius of convergence of the Taylor series for $f$ about $x=4$ is the same as the radius of convergence of the Taylor series for $f^{\\prime}$ about $x=4$. Does the Taylor series for $f^{\\prime}$ described in part B converge to $f^{\\prime}(x)=\\frac{x-4}{7-x}$ at $x=8$ ? Give a reason for your answer.\n\n\\section*{STOP \\\\ END OF EXAM}</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        }
+      ]
+    }
+  ]
+}

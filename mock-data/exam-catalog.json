@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-03-27",
-  "total": 29,
+  "generatedAt": "2026-04-11",
+  "total": 48,
   "subjects": [
     "宏观经济",
     "微积分BC",
@@ -13,12 +13,17 @@
   ],
   "years": [
     "2025",
+    "2024",
     "2023",
+    "2022",
     "2021",
     "2020",
     "2019",
     "2018",
-    "2017"
+    "2017",
+    "2016",
+    "2015",
+    "2008"
   ],
   "paperTypes": [
     "国际卷",
@@ -313,6 +318,150 @@
       "paperType": "国际卷",
       "questionCount": 51,
       "sectionCount": 2
+    },
+    {
+      "examId": "2008Intl",
+      "title": "AP 微积分BC 2008年国际卷",
+      "subject": "微积分BC",
+      "year": "2008",
+      "paperType": "国际卷",
+      "questionCount": 51,
+      "sectionCount": 1
+    },
+    {
+      "examId": "2015Intl",
+      "title": "AP 微积分BC 2015年国际卷",
+      "subject": "微积分BC",
+      "year": "2015",
+      "paperType": "国际卷",
+      "questionCount": 45,
+      "sectionCount": 1
+    },
+    {
+      "examId": "2016Intl",
+      "title": "AP 微积分BC 2016年国际卷",
+      "subject": "微积分BC",
+      "year": "2016",
+      "paperType": "国际卷",
+      "questionCount": 45,
+      "sectionCount": 1
+    },
+    {
+      "examId": "2016SQ",
+      "title": "AP 微积分BC 2016年上海卷",
+      "subject": "微积分BC",
+      "year": "2016",
+      "paperType": "练习卷",
+      "questionCount": 44,
+      "sectionCount": 1
+    },
+    {
+      "examId": "2017Intl",
+      "title": "AP 微积分BC 2017年国际卷",
+      "subject": "微积分BC",
+      "year": "2017",
+      "paperType": "国际卷",
+      "questionCount": 45,
+      "sectionCount": 1
+    },
+    {
+      "examId": "2018Intl",
+      "title": "AP 微积分BC 2018年国际卷",
+      "subject": "微积分BC",
+      "year": "2018",
+      "paperType": "国际卷",
+      "questionCount": 46,
+      "sectionCount": 1
+    },
+    {
+      "examId": "2018NA",
+      "title": "AP 微积分BC 2018年北美卷",
+      "subject": "微积分BC",
+      "year": "2018",
+      "paperType": "练习卷",
+      "questionCount": 6,
+      "sectionCount": 1
+    },
+    {
+      "examId": "2019Intl",
+      "title": "AP 微积分BC 2019年国际卷",
+      "subject": "微积分BC",
+      "year": "2019",
+      "paperType": "国际卷",
+      "questionCount": 57,
+      "sectionCount": 1
+    },
+    {
+      "examId": "2019NA",
+      "title": "AP 微积分BC 2019年北美卷",
+      "subject": "微积分BC",
+      "year": "2019",
+      "paperType": "练习卷",
+      "questionCount": 6,
+      "sectionCount": 1
+    },
+    {
+      "examId": "2021NA",
+      "title": "AP 微积分BC 2021年北美卷",
+      "subject": "微积分BC",
+      "year": "2021",
+      "paperType": "练习卷",
+      "questionCount": 6,
+      "sectionCount": 1
+    },
+    {
+      "examId": "2022NA",
+      "title": "AP 微积分BC 2022年北美卷",
+      "subject": "微积分BC",
+      "year": "2022",
+      "paperType": "练习卷",
+      "questionCount": 6,
+      "sectionCount": 1
+    },
+    {
+      "examId": "2023Intl",
+      "title": "AP 微积分BC 2023年国际卷",
+      "subject": "微积分BC",
+      "year": "2023",
+      "paperType": "国际卷",
+      "questionCount": 28,
+      "sectionCount": 1
+    },
+    {
+      "examId": "2023NA",
+      "title": "AP 微积分BC 2023年北美卷",
+      "subject": "微积分BC",
+      "year": "2023",
+      "paperType": "练习卷",
+      "questionCount": 6,
+      "sectionCount": 1
+    },
+    {
+      "examId": "2024Intl",
+      "title": "AP 微积分BC 2024年国际卷",
+      "subject": "微积分BC",
+      "year": "2024",
+      "paperType": "国际卷",
+      "questionCount": 26,
+      "sectionCount": 1
+    },
+    {
+      "examId": "2025Intl",
+      "title": "AP 微积分BC 2025年国际卷",
+      "subject": "微积分BC",
+      "year": "2025",
+      "paperType": "国际卷",
+      "questionCount": 49,
+      "sectionCount": 1
+    },
+    {
+      "examId": "2025NA",
+      "title": "AP 微积分BC 2025年北美卷",
+      "subject": "微积分BC",
+      "year": "2025",
+      "paperType": "练习卷",
+      "questionCount": 6,
+      "sectionCount": 1
     }
   ]
 }

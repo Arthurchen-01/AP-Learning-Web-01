@@ -1,0 +1,1293 @@
+{
+  "examId": "2016SQ",
+  "title": "AP 微积分BC 2016年上海卷",
+  "subjectName": "Calculus BC",
+  "yearLabel": "2016",
+  "description": "AP Calculus BC 2016年",
+  "answerKeyAvailable": false,
+  "scoring": null,
+  "sections": [
+    {
+      "title": "Section I: Multiple Choice",
+      "type": "mcq",
+      "questions": [
+        {
+          "id": "1",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">1. If $f(x)=\\left(x^{2}-3\\right)^{4}$, then $f^{\\prime}(1)=$</p>",
+          "options": [
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "2",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">2. $\\int_{-2}^{1}\\left(8 x^{3}-3 x^{2}\\right) d x=$</p>",
+          "options": [
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "3",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">3. An object moves in the $x y$-plane so that its position at any time $t$ is given by the parametric equations $x(t)=t^{3}-3 t^{2}+2$ and $y(t)=\\sqrt{t^{2}+16}$. What is the rate of change of $y$ with respect to $x$ when $t=3$ ?</p>",
+          "options": [
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "4",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">4. Snow is falling at a rate of $r(t)=2 e^{-0.1 t}$ inches per hour, where $t$ is the time in hours since the beginning of the snowfall. Which of the following expressions gives the amount of snow, in inches, that falls from time $t=0$ to time $t=5$ hours?</p>",
+          "options": [
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "5",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">5. If $e^{x}-y=x y^{3}+e^{2}-18$, what is the value of $\\frac{d y}{d x}$ at the point $(2,2)$ ?</p>",
+          "options": [
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "6",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">6. On a certain day, the rate at which material is deposited at a recycling center is modeled by the function $R$, where $R(t)$ is measured in tons per hour and $t$ is the number of hours since the center opened. Using a trapezoidal sum with the three subintervals indicated by the data in the table, what is the approximate number of tons of material deposited in the first 9 hours since the center opened?</p>",
+          "options": [
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "7",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">7. At time $t \\geq 0$, a particle moving in the $x y$-plane has a velocity vector given by $v(t)=\\left\\langle\\cos (2 t), e^{3 t}\\right\\rangle$. What is the acceleration vector of the particle?</p>",
+          "options": [
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "8",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">8. Consider the geometric series $\\sum_{n=1}^{\\infty} a_{n}$, where $a_{n}>0$ for all $n$. The first term of the series is $a_{1}=48$, and the third term is $a_{3}=12$. Which of the following statements about $\\sum_{n=1}^{\\infty} a_{n}$ is true?</p>",
+          "options": [
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "9",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">9. The function $f$ is defined above. The value of $\\int_{-5}^{3} f(x) d x$ is</p>",
+          "options": [
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "10",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">10. Which of the following series can be used with the limit comparison test to determine whether the series $\\sum_{n=1}^{\\infty} \\frac{n^{2}}{n^{3}+1}$ converges or diverges?</p>",
+          "options": [
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "11",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">11. $\\int_{1}^{e} x^{4} \\ln x d x=$</p>",
+          "options": [
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "12",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">12. An object moves along a straight line so that at any time $t$ its acceleration is given by $a(t)=6 t$. At time $t=0$, the object's velocity is 10 and the object's position is 7 . What is the object's position at time $t=2$ ?</p>",
+          "options": [
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "13",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">13. The graph of a differentiable function $f$ is shown above on the closed interval $[-4,3]$. How many values of $x$ in the open interval $(-4,3)$ satisfy the conclusion of the Mean Value Theorem for $f$ on $[-4,3]$ ?</p>",
+          "options": [
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "14",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">14. $\\int_{0}^{x} \\sin \\left(t^{6}\\right) d t=$</p>",
+          "options": [
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "15",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">15. The speed of a runner, in miles per hour, on a straight trail is modeled by $f(m)=\\frac{1}{10}\\left(-2 m^{3}+9 m^{2}-12 m\\right)+7$, where $m$ is the runner's distance, in miles, from the start of the trail. What is the maximum speed of the runner for $0 \\leq m \\leq 3$ ?</p>",
+          "options": [
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "16",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">17. $\\int \\frac{8 x-10}{(2 x-1)(x+1)} d x=$</p>",
+          "options": [
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "17",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">18. What is the slope of the line tangent to the polar curve $r=2 \\cos \\theta-1$ at the point where $\\theta=\\pi$ ?</p>",
+          "options": [
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "18",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">19. $\\lim _{x \\rightarrow e} \\frac{\\left(x^{20}-3 x\\right)-\\left(e^{20}-3 e\\right)}{x-e}$ is</p>",
+          "options": [
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "19",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">20. What is the radius of convergence for the series $\\sum_{n=0}^{\\infty} \\frac{(x-5)^{n}}{2^{n}(2 n+3)^{2}}$ ?</p>",
+          "options": [
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "20",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">21. Which of the following statements about the integral $\\int_{0}^{\\pi} \\sec ^{2} x d x$ is true?</p>",
+          "options": [
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "21",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">22. Which of the following series are conditionally convergent? I. $\\sum_{n=1}^{\\infty} \\frac{(-1)^{n}}{n}$ II. $\\sum_{n=1}^{\\infty} \\frac{(-1)^{n}}{n^{3}}$ III. $\\sum_{n=1}^{\\infty} \\frac{(-1)^{n}}{\\sqrt{n}}$</p>",
+          "options": [
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "22",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">23. $\\int_{0}^{\\ln 2} \\frac{e^{x}}{1+\\left(e^{x}-1\\right)^{2}} d x=$</p>",
+          "options": [
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "23",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">24. $\\lim _{x \\rightarrow 3} \\frac{\\tan (x-3)}{3 e^{x-3}-x}$ is</p>",
+          "options": [
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "24",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">25. The volume of a sphere is increasing at a rate of $6 \\pi$ cubic centimeters per hour. At what rate, in centimeters per hour, is its diameter increasing with respect to time at the instant the radius of the sphere is 3 centimeters? (Note: The volume of a sphere with radius $r$ is given by $V=\\frac{4}{3} \\pi r^{3}$.)</p>",
+          "options": [
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "25",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">26. The function $f(\\theta)=\\theta^{3}-6 \\theta^{2}+9 \\theta$ satisfies $f(\\theta) \\geq 0$ for $\\theta \\geq 0$. During the time interval $0 \\leq t \\leq 2 \\pi$ seconds, a particle moves along the polar curve $r=f(\\theta)$ so that at time $t$ seconds, $\\theta=t$. On what intervals of time $t$ is the distance between the particle and the origin increasing?</p>",
+          "options": [
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "26",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">27. The graph of the function $f$ is shown above for $-2<x<2$. Let $g$ be the function defined by $g(x)=\\int_{0}^{x} f(t) d t$. On what open interval is $g$ negative and decreasing?</p>",
+          "options": [
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "27",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">28. The function $N$ satisfies the logistic differential equation $\\frac{d N}{d t}=\\frac{N}{10}\\left(1-\\frac{N}{850}\\right)$, where $N(0)=105$. Which of the following statements is false?</p>",
+          "options": [
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "28",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">29. The function $f$ is given by $f(x)=\\ln x$. The graph of $f$ is shown above. Which of the following limits is equal to the area of the shaded region?</p>",
+          "options": [
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "29",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">30. The Taylor series for a function $f$ about $x=0$ is given by $\\sum_{n=1}^{\\infty} \\frac{(-1)^{n+1}}{(2 n+1)!} x^{2 n}$ and converges to $f$ for all real numbers $x$. If the fourth-degree Taylor polynomial for $f$ about $x=0$ is used to approximate $f\\left(\\frac{1}{2}\\right)$, what is the alternating series error bound?</p>",
+          "options": [
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "30",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">76. If $f^{\\prime}(x)=\\sqrt{1+2 x^{3}}$ and $f(2)=0.4$, then $f(5)=$</p>",
+          "options": [
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "31",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">77. The table above shows values of $f^{\\prime}$, the derivative of a function $f$, for selected values of $x$. If $f(-0.2)=1$, what is the approximation for $f(0.4)$ obtained by using Euler's method with a step size of 0.2 starting at $x=-0.2$ ?</p>",
+          "options": [
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "32",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">78. The second derivative of a function $f$ is given by $f^{\\prime \\prime}(x)=\\sin (3 x)-\\cos \\left(x^{2}\\right)$. How many points of inflection does the graph of $f$ have on the interval $0<x<3$ ?</p>",
+          "options": [
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "33",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">79. Over the time interval $0 \\leq t \\leq 5$, a particle moves along the $x$-axis. The graph of the particle's velocity, $v$, is shown above. Over the time interval $0 \\leq t \\leq 5$, the particle's displacement is 3 and the particle travels a total distance of 13 . What is the value of $\\int_{2}^{4} v(t) d t$ ?</p>",
+          "options": [
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "34",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">80. What is the total area between the polar curves $r=5 \\sin (3 \\theta)$ and $r=8 \\sin (3 \\theta)$ ?</p>",
+          "options": [
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "35",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">81. The graph of $f^{\\prime}$, the derivative of the function $f$, is shown above. Which of the following could be the graph of $f$ ?</p>",
+          "options": [
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "36",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">82. On a certain day, the total number of pieces of candy produced by a factory since it opened is modeled by $C$, a differentiable function of the number of hours since the factory opened. Which of the following is the best interpretation of $C^{\\prime}(3)=500$ ?</p>",
+          "options": [
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "37",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">83. The graph of the function $f$ is shown above. Which of the following statements is true?</p>",
+          "options": [
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "38",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">84. At time $t=0$ minutes, a tank contains 48 gallons of water. For $0 \\leq t \\leq 4$ minutes, water flows into the tank at a rate of $E(t)=12 t \\sin \\left(\\frac{\\pi}{4} t\\right)$ gallons per minute, and water leaks out of the tank at a rate of $L(t)=\\frac{6 t^{2}}{t+2}$ gallons per minute. How many gallons of water are in the tank at time $t=4$ minutes?</p>",
+          "options": [
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "39",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">85. What is the average value of $y=\\tan \\left(\\frac{x^{2}}{9}\\right)$ on the closed interval [1.25,2] ?</p>",
+          "options": [
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "40",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">86. The table above gives selected limits of the functions $f$ and $g$. What is $\\lim _{x \\rightarrow 5}(f(-x)+3 g(x))$ ?</p>",
+          "options": [
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "41",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">87. A tire that is leaking air has an initial air pressure of 30 pounds per square inch ( psi ). The function $t=f(p)$ models the amount of time $t$, in hours, it takes for the air pressure of the tire to reach $p \\mathrm{psi}$. What are the units for $f^{\\prime}(p)$ ?</p>",
+          "options": [
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "42",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">88. The position of a particle moving in the $x y$-plane is given by the parametric equations $x(t)=\\cos \\left(2^{t}\\right)$ and $y(t)=\\sin \\left(2^{t}\\right)$ for time $t \\geq 0$. What is the speed of the particle when $t=2.3 ?$</p>",
+          "options": [
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "43",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">89. The function $f$ is defined on the closed interval $[0,1]$ and satisfies $f(0)=f\\left(\\frac{1}{2}\\right)=f(1)$. On the open interval $(0,1), f$ is continuous and strictly increasing. Which of the following statements is true?</p>",
+          "options": [
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "44",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">90. The power series $\\sum_{n=0}^{\\infty} a_{n}(x-1)^{n}$ converges conditionally at $x=5$. Which of the following statements about convergence of the series at $x=-4$ is true?</p>",
+          "options": [
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            },
+            {
+              "key": "",
+              "text": "",
+              "html": ""
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        }
+      ]
+    }
+  ]
+}
