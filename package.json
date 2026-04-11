@@ -1,0 +1,14 @@
+{
+  "name": "ap-learning-web",
+  "version": "1.0.0",
+  "description": "AP Exam Practice Website",
+  "scripts": {
+    "scrape": "node scripts/scrape-ap-data.js",
+    "scrape:verbose": "node scripts/scrape-ap-data.js --verbose",
+    "verify": "node scripts/scrape-ap-data.js --verify-only",
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "keywords": ["ap", "exam", "education", "learning"],
+  "author": "",
+  "license": "MIT"
+}

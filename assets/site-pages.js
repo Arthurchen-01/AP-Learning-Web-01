@@ -418,6 +418,8 @@ async function renderTrainingPage(root) {
     return;
   }
 
+  const unitsData = await loadUnits();
+
   // Group catalog items by subject
   const grouped = {};
   for (const item of catalogItems) {
@@ -435,6 +437,26 @@ async function renderTrainingPage(root) {
   // Determine selected exam from query
   const queryExamId = getQueryValue("exam");
   const selectedExam = exams.find(e => e.examId === queryExamId) || exams[0];
+
+  // Find matching units for selected subject
+  let matchedUnits = [];
+  const zhSubjectName = Object.keys(unitsData).find(zh => getSubjectEnLabel(zh) === selectedSubject);
+  if (zhSubjectName && unitsData[zhSubjectName]?.units) {
+    matchedUnits = unitsData[zhSubjectName].units;
+  }
+
+  // Load mastery data from localStorage for progress estimation
+  function getUnitMastery(unitId) {
+    try {
+      const key = `ap-training-mastery:${selectedSubject}:${unitId}`;
+      const raw = localStorage.getItem(key);
+      if (raw) {
+        const data = JSON.parse(raw);
+        return data.progress || 0;
+      }
+    } catch {}
+    return 0;
+  }
 
   root.innerHTML = `
     <section class="overview-card">
@@ -459,6 +481,45 @@ async function renderTrainingPage(root) {
         </button>
       `).join("")}
     </div>
+
+    ${matchedUnits.length > 0 ? `
+    <section class="page-section-card unit-knowledge-section">
+      <div class="section-card-head">
+        <div>
+          <span class="eyebrow">Knowledge Points</span>
+          <h3>按知识点训练</h3>
+        </div>
+        <span class="summary-badge">${matchedUnits.length} 个单元</span>
+      </div>
+      <div class="unit-training-grid">
+        ${matchedUnits.map((unit) => {
+          const mastery = getUnitMastery(unit.id);
+          const weight = unit.weight || "";
+          return `
+          <article class="unit-training-card">
+            <div class="unit-training-header">
+              <span class="unit-number">Unit ${unit.id}</span>
+              ${weight ? `<span class="unit-weight-tag">${escapeHtml(weight)}</span>` : ""}
+            </div>
+            <h4>${escapeHtml(unit.nameZh || unit.name)}</h4>
+            <p class="unit-en-name">${escapeHtml(unit.name)}</p>
+            <div class="unit-topics">
+              ${(unit.topics || []).slice(0, 4).map(t => `<span class="topic-chip">${escapeHtml(t)}</span>`).join("")}
+              ${(unit.topics || []).length > 4 ? `<span class="topic-chip topic-more">+${(unit.topics || []).length - 4}</span>` : ""}
+            </div>
+            <div class="unit-mastery-bar">
+              <div class="unit-mastery-track">
+                <span class="unit-mastery-fill" style="width: ${Math.min(mastery, 100)}%"></span>
+              </div>
+              <span class="unit-mastery-text">${mastery > 0 ? mastery + "%" : "未开始"}</span>
+            </div>
+          </article>
+          `;
+        }).join("")}
+      </div>
+    </section>
+    ` : ""}
+
     <section class="page-section-grid">
       <article class="page-section-card">
         <div class="section-card-head">
@@ -522,6 +583,10 @@ async function renderTrainingPage(root) {
             <p>共 ${exams.length} 套，涵盖多年真题和样题</p>
           </article>
           <article class="insight-item">
+            <strong>CB官方权重</strong>
+            <p>${matchedUnits.length > 0 ? "每个单元按 College Board 官方考试权重分配，优先练高权重单元" : "该学科暂无单元权重数据"}</p>
+          </article>
+          <article class="insight-item">
             <strong>练习建议</strong>
             <p>建议从最新年份的试卷开始，逐步回溯历年真题</p>
           </article>
@@ -545,6 +610,7 @@ async function renderDashboardHome(root) {
   const user = state.mockData.user || {};
   const userSubjects = getUserDashboardSubjects();
   const userStats = await getUserStats();
+  const schedule = await loadSchedule();
 
   // Build subject list from real stats (subjects with exam activity)
   const realSubjectIds = Object.keys(userStats);
@@ -574,6 +640,26 @@ async function renderDashboardHome(root) {
     return;
   }
 
+  // Enrich subjects with schedule data
+  for (const s of subjects) {
+    const sched = schedule[s.id];
+    if (sched) {
+      if (!s.examDate && sched.examDate) s.examDate = sched.examDate;
+      if (!s.examTime && sched.examTime) s.examTime = sched.examTime;
+      if (sched.fiveRate && !s.fiveRate) s.fiveRate = sched.fiveRate;
+      s.scoring = sched.scoring;
+    }
+  }
+
+  // Sort subjects by days until exam (ascending, past exams last)
+  const countdownSubjects = subjects
+    .map(s => {
+      const days = getDaysUntil(s.examDate);
+      return { subject: s, days };
+    })
+    .filter(x => x.days !== null && x.days >= 0)
+    .sort((a, b) => a.days - b.days);
+
   root.innerHTML = `
     <section class="overview-card">
       <div class="overview-head">
@@ -588,6 +674,37 @@ async function renderDashboardHome(root) {
         ${subjects.map((s) => `<span class="chip">${escapeHtml(s.label)}</span>`).join("")}
       </div>
     </section>
+
+    ${countdownSubjects.length > 0 ? `
+    <section class="exam-countdown-section">
+      <h2 class="section-title">考试倒计时</h2>
+      <div class="countdown-cards">
+        ${countdownSubjects.map(({ subject, days }) => {
+          const sched = schedule[subject.id];
+          const fiveRate = sched ? sched.fiveRate : 0;
+          const threshold = sched?.scoring?.scoreThresholds?.["5"];
+          const totalPts = sched?.scoring?.totalPoints;
+          const countdownText = formatCountdown(days);
+          const isUrgent = days <= 30;
+          const isPast = days < 0;
+          return `
+          <div class="countdown-card ${isUrgent ? 'countdown-urgent' : ''} ${isPast ? 'countdown-past' : ''}">
+            <div class="countdown-header">
+              <h3>${escapeHtml(subject.label)}</h3>
+              <span class="countdown-badge ${isPast ? 'badge-past' : isUrgent ? 'badge-urgent' : 'badge-normal'}">${countdownText}</span>
+            </div>
+            <p class="countdown-date">${escapeHtml(subject.examDate || "")} ${subject.examTime ? "· " + escapeHtml(subject.examTime) : ""}</p>
+            <div class="countdown-stats">
+              ${threshold && totalPts ? `<span class="countdown-threshold">5分线: ${threshold}/${totalPts}分</span>` : ""}
+              ${fiveRate ? `<span class="countdown-five-rate">历史5分率: ${Math.round(fiveRate * 100)}%</span>` : ""}
+            </div>
+          </div>
+          `;
+        }).join("")}
+      </div>
+    </section>
+    ` : ""}
+
     <section class="dashboard-cards dashboard-cards-${subjects.length > 3 ? "dense" : "open"}">
       ${subjects.map((subject, index) => renderDashboardHomeCard(subject, index, userStats)).join("")}
     </section>
@@ -598,10 +715,20 @@ async function renderDashboardSubject(root) {
   const subject = getCurrentDashboardSubject();
   const userStats = await getUserStats();
   const unitsData = await loadUnits();
+  const schedule = await loadSchedule();
 
   if (!subject) {
     root.innerHTML = '<div class="empty-state">没有找到该学科的 Dashboard 数据。</div>';
     return;
+  }
+
+  // Enrich subject with schedule data
+  const sched = schedule[subject.id];
+  if (sched) {
+    if (!subject.examDate && sched.examDate) subject.examDate = sched.examDate;
+    if (!subject.examTime && sched.examTime) subject.examTime = sched.examTime;
+    if (sched.fiveRate && !subject.fiveRate) subject.fiveRate = sched.fiveRate;
+    subject.scoring = sched.scoring;
   }
 
   // Find real stats for this subject
@@ -617,6 +744,20 @@ async function renderDashboardSubject(root) {
   const totalQ = realStats ? realStats.totalQuestions : 0;
   const started = realStats ? realStats.examsStarted : 0;
   const completed = realStats ? realStats.examsCompleted : 0;
+
+  // Countdown
+  const days = getDaysUntil(subject.examDate);
+  const countdownText = formatCountdown(days);
+  const isUrgent = days !== null && days >= 0 && days <= 30;
+
+  // Scoring
+  const scoring = subject.scoring;
+  const threshold5 = scoring?.scoreThresholds?.["5"];
+  const threshold4 = scoring?.scoreThresholds?.["4"];
+  const threshold3 = scoring?.scoreThresholds?.["3"];
+  const threshold2 = scoring?.scoreThresholds?.["2"];
+  const totalPts = scoring?.totalPoints;
+  const fiveRate = subject.fiveRate;
 
   // Build real overview metrics
   const metrics = [
@@ -638,6 +779,7 @@ async function renderDashboardSubject(root) {
       return {
         id: String(u.id),
         title: u.nameZh || u.name,
+        name: u.name,
         weight: u.weight || "",
         masteryState: existingUnit?.masteryState || "one_third",
         masteryText: existingUnit?.masteryText || `${u.nameZh || u.name} - 尚未开始练习`,
@@ -658,7 +800,10 @@ async function renderDashboardSubject(root) {
           <h2>${escapeHtml(subject.label)}</h2>
           <p>${escapeHtml(subject.examDate || "未设定考试时间")} ${subject.examTime ? "· " + escapeHtml(subject.examTime) : ""} · 真实做题数据</p>
         </div>
-        ${renderMasteryPill(subject.masteryState)}
+        <div class="dashboard-home-badges">
+          ${days !== null ? `<span class="countdown-badge ${isUrgent ? 'badge-urgent' : 'badge-normal'}">${escapeHtml(countdownText)}</span>` : ""}
+          ${renderMasteryPill(subject.masteryState)}
+        </div>
       </div>
       <div class="summary-grid summary-grid-four">
         ${metrics.map((metric) => `
@@ -669,6 +814,63 @@ async function renderDashboardSubject(root) {
         `).join("")}
       </div>
     </section>
+
+    ${scoring ? `
+    <section class="page-section-card">
+      <div class="section-card-head">
+        <div>
+          <span class="eyebrow">Exam Scoring</span>
+          <h3>考试评分信息</h3>
+        </div>
+        ${fiveRate ? `<span class="summary-badge five-rate-badge">历史5分率 ${Math.round(fiveRate * 100)}%</span>` : ""}
+      </div>
+      <div class="scoring-breakdown">
+        <div class="scoring-section">
+          <h4>考试结构</h4>
+          <div class="scoring-detail">
+            <div class="scoring-row">
+              <span>MCQ 选择题</span>
+              <strong>${scoring.mcqCount} 题 · ${scoring.mcqPoints} 分</strong>
+            </div>
+            <div class="scoring-row">
+              <span>FRQ 简答题</span>
+              <strong>${scoring.frqCount} 题 · ${scoring.frqPoints} 分</strong>
+            </div>
+            <div class="scoring-row scoring-total">
+              <span>总分</span>
+              <strong>${totalPts} 分</strong>
+            </div>
+          </div>
+        </div>
+        <div class="scoring-section">
+          <h4>分数线 (Score Thresholds)</h4>
+          <div class="threshold-table">
+            <div class="threshold-row threshold-5">
+              <span class="threshold-score">5</span>
+              <span class="threshold-label">优秀</span>
+              <span class="threshold-pts">${threshold5 || "—"}/${totalPts || "—"}分</span>
+            </div>
+            <div class="threshold-row threshold-4">
+              <span class="threshold-score">4</span>
+              <span class="threshold-label">良好</span>
+              <span class="threshold-pts">${threshold4 || "—"}/${totalPts || "—"}分</span>
+            </div>
+            <div class="threshold-row threshold-3">
+              <span class="threshold-score">3</span>
+              <span class="threshold-label">合格</span>
+              <span class="threshold-pts">${threshold3 || "—"}/${totalPts || "—"}分</span>
+            </div>
+            <div class="threshold-row threshold-2">
+              <span class="threshold-score">2</span>
+              <span class="threshold-label">可能合格</span>
+              <span class="threshold-pts">${threshold2 || "—"}/${totalPts || "—"}分</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    ` : ""}
+
     <section class="page-section-card">
       <div class="section-card-head">
         <div>
@@ -819,6 +1021,17 @@ function renderDashboardHomeCard(subject, index, userStats) {
   const accuracyPct = realStats && realStats.totalAnswered > 0
     ? Math.round((realStats.totalAnswered / Math.max(realStats.totalQuestions, 1)) * 100) : 0;
 
+  // Countdown info
+  const days = getDaysUntil(subject.examDate);
+  const countdownText = formatCountdown(days);
+  const isUrgent = days !== null && days >= 0 && days <= 30;
+
+  // Scoring info from schedule data
+  const scoring = subject.scoring;
+  const threshold5 = scoring?.scoreThresholds?.["5"];
+  const totalPts = scoring?.totalPoints;
+  const fiveRate = subject.fiveRate;
+
   return `
     <a class="dashboard-home-card ${layoutClass}" href="${window.sitePath('/dashboard/subject/?subject='+encodeURIComponent(subject.id))}">
       <div class="dashboard-home-top">
@@ -827,24 +1040,27 @@ function renderDashboardHomeCard(subject, index, userStats) {
           <h3>${escapeHtml(subject.label)}</h3>
           <p>${escapeHtml(subject.examDate || "未设定考试时间")} ${subject.examTime ? "· " + escapeHtml(subject.examTime) : ""}</p>
         </div>
-        <span class="mastery-chip ${escapeHtml(stateMeta.tone)}">${escapeHtml(stateMeta.label)}</span>
+        <div class="dashboard-home-badges">
+          ${days !== null ? `<span class="countdown-badge ${isUrgent ? 'badge-urgent' : 'badge-normal'}">${escapeHtml(countdownText)}</span>` : ""}
+          <span class="mastery-chip ${escapeHtml(stateMeta.tone)}">${escapeHtml(stateMeta.label)}</span>
+        </div>
       </div>
       <div class="dashboard-home-metrics">
         <div class="metric-block">
+          <span>距考试</span>
+          <strong>${days !== null ? countdownText : "未定"}</strong>
+        </div>
+        <div class="metric-block">
+          <span>5分线</span>
+          <strong>${threshold5 && totalPts ? threshold5 + "/" + totalPts + "分" : "—"}</strong>
+        </div>
+        <div class="metric-block">
+          <span>历史5分率</span>
+          <strong>${fiveRate ? Math.round(fiveRate * 100) + "%" : "—"}</strong>
+        </div>
+        <div class="metric-block">
           <span>已答题数</span>
           <strong>${answered}</strong>
-        </div>
-        <div class="metric-block">
-          <span>做题进度</span>
-          <strong>${accuracyPct}%</strong>
-        </div>
-        <div class="metric-block">
-          <span>已开考</span>
-          <strong>${started} 次</strong>
-        </div>
-        <div class="metric-block">
-          <span>已完成</span>
-          <strong>${completed} 次</strong>
         </div>
       </div>
       <div class="mastery-progress">
@@ -864,8 +1080,11 @@ function renderUnitOverviewCard(subject, unit) {
     <a class="unit-overview-card" href="${window.sitePath('/dashboard/unit/?subject='+encodeURIComponent(subject.id)+'&unit='+encodeURIComponent(unit.id))}">
       <div class="section-card-head">
         <div>
-          <h4>${escapeHtml(unit.title)}</h4>
-          <p>考试权重 ${escapeHtml(unit.weight)}</p>
+          <div class="unit-card-title-row">
+            <h4>${escapeHtml(unit.title)}</h4>
+            ${unit.weight ? `<span class="unit-weight-tag">${escapeHtml(unit.weight)}</span>` : ""}
+          </div>
+          <p>Unit ${escapeHtml(unit.id)} ${unit.name ? "· " + escapeHtml(unit.name) : ""}</p>
         </div>
         <span class="mastery-chip ${escapeHtml(meta.tone)}">${escapeHtml(meta.label)}</span>
       </div>
@@ -875,6 +1094,7 @@ function renderUnitOverviewCard(subject, unit) {
       </div>
       <div class="card-meta">
         <span class="chip">${unit.skills.length} 个知识点</span>
+        ${unit.weight ? `<span class="chip unit-weight-chip">CB权重 ${escapeHtml(unit.weight)}</span>` : ""}
       </div>
     </a>
   `;
@@ -1130,4 +1350,32 @@ function escapeHtml(value) {
     .replaceAll(">", "&gt;")
     .replaceAll('"', "&quot;")
     .replaceAll("'", "&#39;");
+}
+
+function getDaysUntil(dateStr) {
+  if (!dateStr) return null;
+  const target = new Date(dateStr + "T00:00:00");
+  const today = new Date();
+  today.setHours(0, 0, 0, 0);
+  const diffMs = target.getTime() - today.getTime();
+  return Math.round(diffMs / (1000 * 60 * 60 * 24));
+}
+
+function formatCountdown(days) {
+  if (days === null) return "日期未定";
+  if (days < 0) return "已结束";
+  if (days === 0) return "今天";
+  return `${days}天后`;
+}
+
+async function loadSchedule() {
+  try {
+    const response = await fetch(window.sitePath("/mock-data/ap-schedule.json"));
+    if (!response.ok) return {};
+    const data = await response.json();
+    return data.schedule || {};
+  } catch (error) {
+    console.warn("Failed to load schedule", error);
+    return {};
+  }
 }

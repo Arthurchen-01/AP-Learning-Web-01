@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-04-11",
-  "total": 91,
+  "total": 104,
   "subjects": [
     "宏观经济",
     "微积分BC",
@@ -944,6 +944,136 @@
       "questionCount": 3,
       "sectionCount": 1,
       "subjectId": "physics_c_electricity_magnetism"
+    },
+    {
+      "examId": "csa_1b5d268d",
+      "title": "AP CSA 2008年练习卷",
+      "subject": "计算机科学A",
+      "subjectId": "computer_science_a",
+      "year": "2008",
+      "paperType": "练习卷",
+      "questionCount": 29,
+      "sectionCount": 2
+    },
+    {
+      "examId": "csa_46e0d151",
+      "title": "AP CSA 2009年国际卷",
+      "subject": "计算机科学A",
+      "subjectId": "computer_science_a",
+      "year": "2009",
+      "paperType": "国际卷",
+      "questionCount": 2,
+      "sectionCount": 1
+    },
+    {
+      "examId": "csa_616416b3",
+      "title": "AP CSA 2014年国际卷",
+      "subject": "计算机科学A",
+      "subjectId": "computer_science_a",
+      "year": "2014",
+      "paperType": "国际卷",
+      "questionCount": 29,
+      "sectionCount": 2
+    },
+    {
+      "examId": "csa_87cfbf83",
+      "title": "AP CSA 2015年国际卷",
+      "subject": "计算机科学A",
+      "subjectId": "computer_science_a",
+      "year": "2015",
+      "paperType": "国际卷",
+      "questionCount": 4,
+      "sectionCount": 1
+    },
+    {
+      "examId": "csa_ab00fbd9",
+      "title": "AP CSA 2018年北美卷",
+      "subject": "计算机科学A",
+      "subjectId": "computer_science_a",
+      "year": "2018",
+      "paperType": "北美卷",
+      "questionCount": 4,
+      "sectionCount": 1
+    },
+    {
+      "examId": "csa_6f490a42",
+      "title": "AP CSA 2019年北美卷",
+      "subject": "计算机科学A",
+      "subjectId": "computer_science_a",
+      "year": "2019",
+      "paperType": "北美卷",
+      "questionCount": 9,
+      "sectionCount": 1
+    },
+    {
+      "examId": "csa_d6c9f6e1",
+      "title": "AP CSA 2020年国际卷",
+      "subject": "计算机科学A",
+      "subjectId": "computer_science_a",
+      "year": "2020",
+      "paperType": "国际卷",
+      "questionCount": 46,
+      "sectionCount": 2
+    },
+    {
+      "examId": "csa_8a49a395",
+      "title": "AP CSA 2020年样题",
+      "subject": "计算机科学A",
+      "subjectId": "computer_science_a",
+      "year": "2020",
+      "paperType": "样题",
+      "questionCount": 44,
+      "sectionCount": 2
+    },
+    {
+      "examId": "csa_e104d5e5",
+      "title": "AP CSA 2021年北美卷",
+      "subject": "计算机科学A",
+      "subjectId": "computer_science_a",
+      "year": "2021",
+      "paperType": "北美卷",
+      "questionCount": 4,
+      "sectionCount": 1
+    },
+    {
+      "examId": "csa_0252da8e",
+      "title": "AP CSA 2022年北美卷",
+      "subject": "计算机科学A",
+      "subjectId": "computer_science_a",
+      "year": "2022",
+      "paperType": "北美卷",
+      "questionCount": 4,
+      "sectionCount": 1
+    },
+    {
+      "examId": "csa_22cf90e6",
+      "title": "AP CSA 2023年北美卷",
+      "subject": "计算机科学A",
+      "subjectId": "computer_science_a",
+      "year": "2023",
+      "paperType": "北美卷",
+      "questionCount": 4,
+      "sectionCount": 1
+    },
+    {
+      "examId": "csa_78345a86",
+      "title": "AP CSA 2024年北美卷",
+      "subject": "计算机科学A",
+      "subjectId": "computer_science_a",
+      "year": "2024",
+      "paperType": "北美卷",
+      "questionCount": 4,
+      "sectionCount": 1
+    },
+    {
+      "examId": "csa_6841b8ec",
+      "title": "AP CSA 2025年北美卷",
+      "subject": "计算机科学A",
+      "subjectId": "computer_science_a",
+      "year": "2025",
+      "paperType": "北美卷",
+      "questionCount": 4,
+      "sectionCount": 1
     }
   ]
 }

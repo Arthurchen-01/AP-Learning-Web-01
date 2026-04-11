@@ -1,0 +1,32 @@
+=== AP Data Verification Report ===
+Generated: 2026-04-11T12:30:15.227Z
+
+--- Exam Dates ---
+Scraped dates: 0
+Known dates applied: 9
+
+--- Score Distributions ---
+Scraped scores: 0
+Known 2025 distributions:
+  calculus_bc: 46% (College Board 2025)
+  calculus_ab: 21% (College Board 2025)
+  computer_science_a: 26% (College Board 2025)
+  microeconomics: 23% (College Board 2025)
+  macroeconomics: 17% (College Board 2025)
+  statistics: 17% (College Board 2025)
+  psychology: 18% (College Board 2025)
+  physics_c_mechanics: 33% (College Board 2025)
+  physics_c_electricity_magnetism: 36% (College Board 2025)
+
+--- Unit Weights Verification ---
+Verified: 21 units
+Discrepancies: 0
+Missing official data: macroeconomics, microeconomics, psychology, statistics, computer_science_a
+
+--- File Changes ---
+Differences found: 1
+  lastVerified: value_change
+
+--- Backup Location ---
+Backups: C:\Users\25472\projects\AP-Learning-Web\AP-Learning-Web-01\mock-data\.backup
+Temp files: C:\Users\25472\projects\AP-Learning-Web\AP-Learning-Web-01\mock-data\.tmp

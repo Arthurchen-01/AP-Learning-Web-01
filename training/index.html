@@ -13,383 +13,413 @@
   <style>
     body { overflow-x: hidden; }
 
-    /* Training Layout */
-    .training-layout {
-      display: grid;
-      grid-template-columns: 280px 1fr;
-      gap: 1.5rem;
-      max-width: 1400px;
-      margin: 1.5rem auto;
-      padding: 0 1.5rem;
-    }
-
-    /* Settings Panel */
-    .settings-panel {
-      background: var(--card-bg);
-      border: 1px solid var(--border);
-      border-radius: 12px;
+    .training-container {
+      max-width: 1200px;
+      margin: 0 auto;
       padding: 1.5rem;
-      height: fit-content;
-      position: sticky;
-      top: 100px;
     }
 
-    .settings-panel h2 {
-      font-size: 1.2rem;
-      margin-bottom: 1.5rem;
-      color: var(--text);
-    }
-
-    .setting-group {
-      margin-bottom: 1.5rem;
-    }
-
-    .setting-group label {
-      display: block;
-      margin-bottom: 0.5rem;
-      font-weight: 600;
-      color: var(--text-muted);
-      font-size: 0.85rem;
-    }
-
-    .setting-group select {
-      width: 100%;
-      padding: 10px 14px;
-      border: 1px solid var(--border);
-      border-radius: 8px;
-      background: var(--bg);
-      color: var(--text);
-      font-size: 0.95rem;
-      cursor: pointer;
-    }
-
-    .difficulty-buttons {
+    /* ========== Subject Selector ========== */
+    .subject-selector {
       display: flex;
-      flex-direction: column;
-      gap: 8px;
+      gap: 0.6rem;
+      overflow-x: auto;
+      padding: 0.5rem 0 1rem;
+      -webkit-overflow-scrolling: touch;
+      scrollbar-width: thin;
     }
+    .subject-selector::-webkit-scrollbar { height: 4px; }
+    .subject-selector::-webkit-scrollbar-thumb { background: var(--border); border-radius: 4px; }
 
-    .difficulty-buttons button {
-      padding: 10px 14px;
-      border: 1px solid var(--border);
-      border-radius: 8px;
-      background: var(--bg);
-      color: var(--text);
+    .subject-pill {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      padding: 0.5rem 1rem;
+      border-radius: 24px;
+      border: 1.5px solid var(--border);
+      background: var(--card-bg);
+      color: var(--text-muted);
+      font-size: 0.88rem;
+      font-weight: 600;
       cursor: pointer;
-      font-size: 0.9rem;
-      text-align: left;
+      white-space: nowrap;
       transition: all 0.2s;
+      flex-shrink: 0;
     }
-
-    .difficulty-buttons button:hover {
+    .subject-pill:hover {
       border-color: var(--accent);
+      color: var(--text);
     }
-
-    .difficulty-buttons button.active {
-      background: var(--accent-soft);
+    .subject-pill.active {
+      background: var(--accent);
       border-color: var(--accent);
-      color: var(--accent-strong);
-    }
-
-    .btn-start {
-      width: 100%;
-      padding: 14px;
-      background: linear-gradient(135deg, var(--accent), var(--accent-strong));
       color: white;
-      border: none;
-      border-radius: 10px;
-      font-size: 1rem;
-      font-weight: 700;
-      cursor: pointer;
-      transition: all 0.2s;
-      margin-top: 1rem;
     }
-
-    .btn-start:hover {
-      transform: translateY(-2px);
-      box-shadow: var(--shadow);
-    }
-
-    /* Training Main */
-    .training-main {
-      display: flex;
-      flex-direction: column;
-      gap: 1.5rem;
-    }
-
-    /* Stats Cards */
-    .stats-grid {
-      display: grid;
-      grid-template-columns: repeat(4, 1fr);
-      gap: 1rem;
-    }
-
-    .stat-card {
-      background: var(--card-bg);
-      border: 1px solid var(--border);
-      border-radius: 12px;
-      padding: 1.25rem;
-      text-align: center;
-    }
-
-    .stat-icon {
-      font-size: 1.5rem;
-      margin-bottom: 0.5rem;
-    }
-
-    .stat-value {
-      font-size: 1.75rem;
-      font-weight: 700;
-      color: var(--accent-strong);
-    }
-
-    .stat-label {
-      font-size: 0.8rem;
-      color: var(--text-muted);
-      margin-top: 0.25rem;
-    }
-
-    /* Weak Points Section */
-    .weak-points {
-      background: var(--card-bg);
-      border: 1px solid var(--border);
-      border-radius: 12px;
-      padding: 1.5rem;
-    }
-
-    .weak-points h3 {
+    .subject-pill .pill-icon {
       font-size: 1.1rem;
-      margin-bottom: 1rem;
-      display: flex;
-      align-items: center;
-      gap: 0.5rem;
     }
 
-    .weak-list {
-      display: flex;
-      flex-direction: column;
-      gap: 0.75rem;
-    }
-
-    .weak-item {
-      display: flex;
-      align-items: center;
-      gap: 1rem;
-      padding: 1rem;
-      background: var(--bg);
-      border-radius: 8px;
-      border: 1px solid var(--border);
-      cursor: pointer;
-      transition: all 0.2s;
-    }
-
-    .weak-item:hover {
-      border-color: var(--accent);
-      transform: translateX(4px);
-    }
-
-    .weak-icon {
-      width: 40px;
-      height: 40px;
-      border-radius: 10px;
-      background: linear-gradient(135deg, var(--accent-soft), rgba(255, 228, 207, 0.6));
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-size: 1.2rem;
-    }
-
-    .weak-info {
-      flex: 1;
-    }
-
-    .weak-title {
-      font-weight: 600;
-      color: var(--text);
-      margin-bottom: 0.25rem;
-    }
-
-    .weak-meta {
-      font-size: 0.8rem;
-      color: var(--text-muted);
-    }
-
-    .weak-action {
-      padding: 6px 12px;
-      background: var(--accent-soft);
-      color: var(--accent-strong);
-      border-radius: 6px;
-      font-size: 0.8rem;
-      font-weight: 600;
-    }
-
-    /* Wrong Notebook */
-    .wrong-notebook {
+    /* ========== Subject Header Card ========== */
+    .subject-header {
       background: var(--card-bg);
       border: 1px solid var(--border);
-      border-radius: 12px;
-      padding: 1.5rem;
-    }
-
-    .wrong-notebook h3 {
-      font-size: 1.1rem;
-      margin-bottom: 1rem;
-      display: flex;
+      border-radius: 16px;
+      padding: 1.5rem 2rem;
+      margin-bottom: 1.5rem;
+      display: none;
       align-items: center;
-      gap: 0.5rem;
-    }
-
-    .wrong-tabs {
-      display: flex;
-      gap: 0.5rem;
-      margin-bottom: 1rem;
-    }
-
-    .wrong-tabs button {
-      padding: 8px 16px;
-      border: 1px solid var(--border);
-      border-radius: 20px;
-      background: var(--bg);
-      color: var(--text-muted);
-      cursor: pointer;
-      font-size: 0.85rem;
-      transition: all 0.2s;
-    }
-
-    .wrong-tabs button.active {
-      background: var(--accent-soft);
-      border-color: var(--accent);
-      color: var(--accent-strong);
-    }
-
-    .wrong-list {
-      display: flex;
-      flex-direction: column;
-      gap: 0.75rem;
-      max-height: 400px;
-      overflow-y: auto;
-    }
-
-    .wrong-item {
-      display: flex;
-      align-items: center;
-      gap: 1rem;
-      padding: 1rem;
-      background: var(--bg);
-      border-radius: 8px;
-      border: 1px solid var(--border);
-    }
-
-    .wrong-number {
-      width: 32px;
-      height: 32px;
-      border-radius: 50%;
-      background: var(--danger);
-      color: white;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-weight: 700;
-      font-size: 0.85rem;
-    }
-
-    .wrong-content {
-      flex: 1;
-    }
-
-    .wrong-title {
-      font-weight: 600;
-      color: var(--text);
-      margin-bottom: 0.25rem;
-      font-size: 0.95rem;
-    }
-
-    .wrong-meta {
-      font-size: 0.8rem;
-      color: var(--text-muted);
-    }
-
-    .wrong-action {
-      padding: 6px 12px;
-      background: var(--bg);
-      border: 1px solid var(--border);
-      border-radius: 6px;
-      font-size: 0.8rem;
-      color: var(--text);
-      cursor: pointer;
-    }
-
-    .wrong-action:hover {
-      background: var(--accent-soft);
-      border-color: var(--accent);
-    }
-
-    /* Recent Training */
-    .recent-training {
-      background: var(--card-bg);
-      border: 1px solid var(--border);
-      border-radius: 12px;
-      padding: 1.5rem;
-    }
-
-    .recent-training h3 {
-      font-size: 1.1rem;
-      margin-bottom: 1rem;
-    }
-
-    .recent-list {
-      display: flex;
-      flex-direction: column;
-      gap: 0.75rem;
-    }
-
-    .recent-item {
-      display: flex;
       justify-content: space-between;
-      align-items: center;
-      padding: 1rem;
-      background: var(--bg);
-      border-radius: 8px;
-      border: 1px solid var(--border);
+      flex-wrap: wrap;
+      gap: 1rem;
     }
+    .subject-header.visible { display: flex; }
 
-    .recent-info h4 {
-      font-size: 0.95rem;
-      margin-bottom: 0.25rem;
+    .header-info { display: flex; flex-direction: column; gap: 0.3rem; }
+    .header-title {
+      font-size: 1.4rem;
+      font-weight: 700;
+      color: var(--text);
     }
-
-    .recent-info p {
-      font-size: 0.8rem;
+    .header-subtitle {
+      font-size: 0.9rem;
       color: var(--text-muted);
     }
 
-    .recent-score {
-      text-align: right;
+    .header-meta {
+      display: flex;
+      gap: 1.5rem;
+      align-items: center;
+      flex-wrap: wrap;
     }
-
-    .recent-score .score {
-      font-size: 1.25rem;
+    .meta-item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 0.2rem;
+    }
+    .meta-value {
+      font-size: 1.3rem;
       font-weight: 700;
       color: var(--accent-strong);
     }
-
-    .recent-score .label {
+    .meta-label {
       font-size: 0.75rem;
       color: var(--text-muted);
     }
 
-    /* Responsive */
+    .btn-exam {
+      padding: 0.65rem 1.6rem;
+      background: linear-gradient(135deg, var(--accent), var(--accent-strong));
+      color: white;
+      border: none;
+      border-radius: 10px;
+      font-size: 0.95rem;
+      font-weight: 700;
+      cursor: pointer;
+      text-decoration: none;
+      transition: all 0.2s;
+    }
+    .btn-exam:hover {
+      transform: translateY(-2px);
+      box-shadow: var(--shadow);
+    }
+
+    /* ========== Content Grid ========== */
+    .content-grid {
+      display: grid;
+      grid-template-columns: 1fr 320px;
+      gap: 1.5rem;
+    }
+
+    /* ========== Unit Knowledge Map ========== */
+    .section-title {
+      font-size: 1.15rem;
+      font-weight: 700;
+      color: var(--text);
+      margin-bottom: 1rem;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .unit-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 1rem;
+    }
+
+    .unit-card {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 1.25rem;
+      transition: all 0.2s;
+      display: flex;
+      flex-direction: column;
+      gap: 0.75rem;
+    }
+    .unit-card:hover {
+      border-color: var(--accent);
+      box-shadow: 0 4px 16px rgba(0,0,0,0.06);
+    }
+
+    .unit-top {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 0.5rem;
+    }
+    .unit-badge {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 36px;
+      height: 36px;
+      border-radius: 10px;
+      background: var(--accent-soft);
+      color: var(--accent-strong);
+      font-weight: 800;
+      font-size: 0.85rem;
+      flex-shrink: 0;
+    }
+    .unit-name-group {
+      flex: 1;
+      min-width: 0;
+    }
+    .unit-name-en {
+      font-weight: 700;
+      font-size: 0.95rem;
+      color: var(--text);
+      line-height: 1.3;
+    }
+    .unit-name-zh {
+      font-size: 0.8rem;
+      color: var(--text-muted);
+      margin-top: 0.15rem;
+    }
+
+    .weight-badge {
+      display: inline-block;
+      padding: 0.25rem 0.65rem;
+      border-radius: 20px;
+      font-size: 0.8rem;
+      font-weight: 700;
+      flex-shrink: 0;
+    }
+    .weight-high {
+      background: rgba(239, 68, 68, 0.12);
+      color: #dc2626;
+    }
+    .weight-medium {
+      background: rgba(245, 158, 11, 0.12);
+      color: #d97706;
+    }
+    .weight-low {
+      background: rgba(16, 185, 129, 0.12);
+      color: #059669;
+    }
+
+    .unit-topics {
+      font-size: 0.78rem;
+      color: var(--text-muted);
+      line-height: 1.5;
+    }
+
+    .mastery-bar-wrap {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+    .mastery-label {
+      font-size: 0.75rem;
+      color: var(--text-muted);
+      white-space: nowrap;
+    }
+    .mastery-bar {
+      flex: 1;
+      height: 6px;
+      background: var(--bg);
+      border-radius: 3px;
+      overflow: hidden;
+    }
+    .mastery-fill {
+      height: 100%;
+      border-radius: 3px;
+      background: linear-gradient(90deg, var(--accent), var(--accent-strong));
+      transition: width 0.5s ease;
+    }
+    .mastery-pct {
+      font-size: 0.75rem;
+      font-weight: 700;
+      color: var(--accent-strong);
+      min-width: 28px;
+      text-align: right;
+    }
+
+    .btn-unit-practice {
+      padding: 0.5rem 1rem;
+      background: var(--bg);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      color: var(--text);
+      font-size: 0.82rem;
+      font-weight: 600;
+      cursor: pointer;
+      text-align: center;
+      transition: all 0.2s;
+    }
+    .btn-unit-practice:hover {
+      background: var(--accent-soft);
+      border-color: var(--accent);
+      color: var(--accent-strong);
+    }
+
+    /* ========== Available Exams ========== */
+    .exams-section {
+      margin-top: 1.5rem;
+    }
+    .exam-list {
+      display: flex;
+      flex-direction: column;
+      gap: 0.6rem;
+    }
+    .exam-item {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0.9rem 1.2rem;
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      text-decoration: none;
+      color: var(--text);
+      transition: all 0.2s;
+    }
+    .exam-item:hover {
+      border-color: var(--accent);
+      transform: translateX(4px);
+    }
+    .exam-item-left {
+      display: flex;
+      flex-direction: column;
+      gap: 0.15rem;
+    }
+    .exam-item-title {
+      font-weight: 600;
+      font-size: 0.9rem;
+    }
+    .exam-item-meta {
+      font-size: 0.78rem;
+      color: var(--text-muted);
+    }
+    .exam-item-badge {
+      padding: 0.3rem 0.7rem;
+      background: var(--accent-soft);
+      color: var(--accent-strong);
+      border-radius: 6px;
+      font-size: 0.78rem;
+      font-weight: 600;
+    }
+
+    /* ========== Sidebar ========== */
+    .sidebar {
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+    }
+
+    .sidebar-card {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 1.25rem;
+    }
+    .sidebar-card h3 {
+      font-size: 1rem;
+      font-weight: 700;
+      color: var(--text);
+      margin-bottom: 1rem;
+      display: flex;
+      align-items: center;
+      gap: 0.4rem;
+    }
+
+    .score-table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    .score-table th, .score-table td {
+      padding: 0.45rem 0.6rem;
+      text-align: center;
+      font-size: 0.85rem;
+    }
+    .score-table th {
+      color: var(--text-muted);
+      font-weight: 600;
+      font-size: 0.75rem;
+      border-bottom: 1px solid var(--border);
+    }
+    .score-table td {
+      color: var(--text);
+      font-weight: 600;
+    }
+    .score-table tr td:first-child {
+      font-weight: 700;
+      color: var(--accent-strong);
+    }
+
+    .scoring-breakdown {
+      display: flex;
+      flex-direction: column;
+      gap: 0.6rem;
+      margin-bottom: 1rem;
+    }
+    .scoring-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 0.85rem;
+    }
+    .scoring-row-label { color: var(--text-muted); }
+    .scoring-row-value { font-weight: 700; color: var(--text); }
+
+    .five-rate {
+      text-align: center;
+      padding: 0.75rem;
+      background: var(--accent-soft);
+      border-radius: 10px;
+      margin-top: 0.75rem;
+    }
+    .five-rate-value {
+      font-size: 1.5rem;
+      font-weight: 800;
+      color: var(--accent-strong);
+    }
+    .five-rate-label {
+      font-size: 0.78rem;
+      color: var(--text-muted);
+      margin-top: 0.15rem;
+    }
+
+    .sidebar-hint {
+      text-align: center;
+      color: var(--text-muted);
+      font-size: 0.85rem;
+      padding: 2rem 1rem;
+    }
+
+    /* ========== Responsive ========== */
     @media (max-width: 900px) {
-      .training-layout {
+      .content-grid {
         grid-template-columns: 1fr;
       }
-
-      .settings-panel {
-        position: static;
+      .unit-grid {
+        grid-template-columns: 1fr;
       }
-
-      .stats-grid {
-        grid-template-columns: repeat(2, 1fr);
+      .subject-header {
+        flex-direction: column;
+        align-items: flex-start;
       }
     }
   </style>
@@ -430,187 +460,40 @@
     document.getElementById('nav-profile').href = window.sitePath('/profile/');
   </script>
 
-  <div class="training-layout">
-    <!-- Settings Panel -->
-    <aside class="settings-panel">
-      <h2>📚 专项训练</h2>
+  <div class="training-container">
+    <!-- Subject Selector -->
+    <div class="subject-selector" id="subject-selector"></div>
 
-      <div class="setting-group">
-        <label>选择科目</label>
-        <select id="subject-select">
-          <option value="">全部科目</option>
-          <option value="calculus-bc">AP Calculus BC</option>
-          <option value="calculus-ab">AP Calculus AB</option>
-          <option value="statistics">AP Statistics</option>
-          <option value="microeconomics">AP Microeconomics</option>
-          <option value="macroeconomics">AP Macroeconomics</option>
-          <option value="physics-c-mechanics">AP Physics C: Mechanics</option>
-          <option value="physics-c-em">AP Physics C: E&M</option>
-          <option value="csa">AP Computer Science A</option>
-          <option value="psychology">AP Psychology</option>
-        </select>
+    <!-- Subject Header -->
+    <div class="subject-header" id="subject-header">
+      <div class="header-info">
+        <div class="header-title" id="header-title"></div>
+        <div class="header-subtitle" id="header-subtitle"></div>
       </div>
+      <div class="header-meta" id="header-meta"></div>
+      <a class="btn-exam" id="btn-start-mock" href="#">开始模考 →</a>
+    </div>
 
-      <div class="setting-group">
-        <label>训练类型</label>
-        <select id="type-select">
-          <option value="quick">快速练习 (10题/15分钟)</option>
-          <option value="standard">标准测试 (30题/45分钟)</option>
-          <option value="weak">弱项强化</option>
-          <option value="wrong">错题重做</option>
-        </select>
-      </div>
+    <!-- Content Grid -->
+    <div class="content-grid">
+      <!-- Left: Units + Exams -->
+      <div class="main-col">
+        <div class="section-title">📐 单元知识图谱</div>
+        <div class="unit-grid" id="unit-grid"></div>
 
-      <div class="setting-group">
-        <label>难度设置</label>
-        <div class="difficulty-buttons">
-          <button class="active" data-difficulty="easy">
-            🌱 基础巩固
-          </button>
-          <button data-difficulty="medium">
-            📈 能力提升
-          </button>
-          <button data-difficulty="hard">
-            🔥 挑战高分
-          </button>
+        <div class="exams-section" id="exams-section" style="display:none;">
+          <div class="section-title" style="margin-top:1.5rem;">📄 可用试卷</div>
+          <div class="exam-list" id="exam-list"></div>
         </div>
       </div>
 
-      <button class="btn-start" id="btn-start">
-        开始训练 →
-      </button>
-    </aside>
-
-    <!-- Main Content -->
-    <main class="training-main">
-      <!-- Stats -->
-      <div class="stats-grid">
-        <div class="stat-card">
-          <div class="stat-icon">📝</div>
-          <div class="stat-value" id="stat-total">1,234</div>
-          <div class="stat-label">总练习题数</div>
-        </div>
-        <div class="stat-card">
-          <div class="stat-icon">✅</div>
-          <div class="stat-value" id="stat-accuracy">76%</div>
-          <div class="stat-label">正确率</div>
-        </div>
-        <div class="stat-card">
-          <div class="stat-icon">⏱️</div>
-          <div class="stat-value" id="stat-time">48h</div>
-          <div class="stat-label">训练时长</div>
-        </div>
-        <div class="stat-card">
-          <div class="stat-icon">🔥</div>
-          <div class="stat-value" id="stat-streak">7</div>
-          <div class="stat-label">连续天数</div>
+      <!-- Right Sidebar -->
+      <div class="sidebar" id="sidebar">
+        <div class="sidebar-card">
+          <div class="sidebar-hint">← 选择一个科目查看详情</div>
         </div>
       </div>
-
-      <!-- Weak Points -->
-      <section class="weak-points">
-        <h3>⚠️ 薄弱知识点</h3>
-        <div class="weak-list" id="weak-list">
-          <div class="weak-item" data-subject="calculus-bc" data-unit="series">
-            <div class="weak-icon">∑</div>
-            <div class="weak-info">
-              <div class="weak-title">Series 收敛性判断</div>
-              <div class="weak-meta">Calculus BC · 正确率 45% · 本周错 8 题</div>
-            </div>
-            <div class="weak-action">强化训练</div>
-          </div>
-          <div class="weak-item" data-subject="microeconomics" data-unit="market-structures">
-            <div class="weak-icon">📊</div>
-            <div class="weak-info">
-              <div class="weak-title">市场结构对比</div>
-              <div class="weak-meta">Microeconomics · 正确率 52% · 本周错 6 题</div>
-            </div>
-            <div class="weak-action">强化训练</div>
-          </div>
-          <div class="weak-item" data-subject="physics-c-mechanics" data-unit="rotation">
-            <div class="weak-icon">🔄</div>
-            <div class="weak-info">
-              <div class="weak-title">转动惯量计算</div>
-              <div class="weak-meta">Physics C: Mechanics · 正确率 58% · 本周错 5 题</div>
-            </div>
-            <div class="weak-action">强化训练</div>
-          </div>
-        </div>
-      </section>
-
-      <!-- Wrong Notebook -->
-      <section class="wrong-notebook">
-        <h3>📕 错题本</h3>
-        <div class="wrong-tabs">
-          <button class="active" data-filter="all">全部</button>
-          <button data-filter="recent">最近7天</button>
-          <button data-filter="frequent">高频错题</button>
-        </div>
-        <div class="wrong-list" id="wrong-list">
-          <div class="wrong-item">
-            <div class="wrong-number">1</div>
-            <div class="wrong-content">
-              <div class="wrong-title">求 f(x) = x³ - 3x + 2 的极值点</div>
-              <div class="wrong-meta">Calculus BC · 错误 3 次 · 上次错：2天前</div>
-            </div>
-            <div class="wrong-action">重做</div>
-          </div>
-          <div class="wrong-item">
-            <div class="wrong-number">2</div>
-            <div class="wrong-content">
-              <div class="wrong-title">判断级数 Σ(n²/2ⁿ) 的收敛性</div>
-              <div class="wrong-meta">Calculus BC · 错误 2 次 · 上次错：3天前</div>
-            </div>
-            <div class="wrong-action">重做</div>
-          </div>
-          <div class="wrong-item">
-            <div class="wrong-number">3</div>
-            <div class="wrong-content">
-              <div class="wrong-title">计算完全竞争市场的均衡价格</div>
-              <div class="wrong-meta">Microeconomics · 错误 2 次 · 上次错：4天前</div>
-            </div>
-            <div class="wrong-action">重做</div>
-          </div>
-        </div>
-      </section>
-
-      <!-- Recent Training -->
-      <section class="recent-training">
-        <h3>📋 最近训练记录</h3>
-        <div class="recent-list" id="recent-list">
-          <div class="recent-item">
-            <div class="recent-info">
-              <h4>AP Calculus BC · 快速练习</h4>
-              <p>10 题 · 15 分钟 · 今天 14:30</p>
-            </div>
-            <div class="recent-score">
-              <div class="score">8/10</div>
-              <div class="label">正确率 80%</div>
-            </div>
-          </div>
-          <div class="recent-item">
-            <div class="recent-info">
-              <h4>AP Microeconomics · 弱项强化</h4>
-              <p>15 题 · 22 分钟 · 今天 11:20</p>
-            </div>
-            <div class="recent-score">
-              <div class="score">11/15</div>
-              <div class="label">正确率 73%</div>
-            </div>
-          </div>
-          <div class="recent-item">
-            <div class="recent-info">
-              <h4>AP Physics C · 标准测试</h4>
-              <p>30 题 · 45 分钟 · 昨天 20:15</p>
-            </div>
-            <div class="recent-score">
-              <div class="score">24/30</div>
-              <div class="label">正确率 80%</div>
-            </div>
-          </div>
-        </div>
-      </section>
-    </main>
+    </div>
   </div>
 
   <footer class="shell footer">
@@ -618,51 +501,282 @@
   </footer>
 
   <script>
-    // Difficulty buttons
-    document.querySelectorAll('.difficulty-buttons button').forEach(btn => {
-      btn.addEventListener('click', () => {
-        document.querySelectorAll('.difficulty-buttons button').forEach(b => b.classList.remove('active'));
-        btn.classList.add('active');
+  (function() {
+    // Subject config: zh key, icon, schedule ID mapping
+    const SUBJECTS = [
+      { key: '微积分BC',   icon: '∫',  schedId: 'calculus_bc' },
+      { key: '物理C力学',  icon: '⚙',  schedId: 'physics_c_mechanics' },
+      { key: '物理C电磁',  icon: '⚡', schedId: 'physics_c_electricity_magnetism' },
+      { key: '宏观经济',   icon: '📈', schedId: 'macroeconomics' },
+      { key: '微观经济',   icon: '📊', schedId: 'microeconomics' },
+      { key: '心理学',     icon: '🧠', schedId: 'psychology' },
+      { key: '统计学',     icon: '📉', schedId: 'statistics' },
+      { key: '计算机科学A',icon: '💻', schedId: 'computer_science_a' }
+    ];
+
+    let unitsData = null;
+    let scheduleData = null;
+    let catalogData = null;
+    let activeSubject = null;
+
+    // Fetch all data
+    Promise.all([
+      fetch('../mock-data/units.json').then(r => r.json()),
+      fetch('../mock-data/ap-schedule.json').then(r => r.json()),
+      fetch('../mock-data/exam-catalog.json').then(r => r.json())
+    ]).then(([units, schedule, catalog]) => {
+      unitsData = units;
+      scheduleData = schedule;
+      catalogData = catalog;
+      renderSubjectSelector();
+      // Auto-select first subject
+      selectSubject(SUBJECTS[0].key);
+    }).catch(err => {
+      console.error('Failed to load data:', err);
+      document.getElementById('unit-grid').innerHTML = '<p style="color:var(--text-muted);padding:2rem;">数据加载失败，请刷新重试。</p>';
+    });
+
+    function renderSubjectSelector() {
+      const container = document.getElementById('subject-selector');
+      container.innerHTML = SUBJECTS.map(s => {
+        const subjectData = unitsData.subjects[s.key];
+        if (!subjectData) return '';
+        return `<div class="subject-pill" data-key="${s.key}">
+          <span class="pill-icon">${s.icon}</span>
+          <span>${subjectData.nameZh || s.key}</span>
+        </div>`;
+      }).join('');
+
+      container.querySelectorAll('.subject-pill').forEach(pill => {
+        pill.addEventListener('click', () => selectSubject(pill.dataset.key));
       });
-    });
+    }
 
-    // Wrong notebook tabs
-    document.querySelectorAll('.wrong-tabs button').forEach(btn => {
-      btn.addEventListener('click', () => {
-        document.querySelectorAll('.wrong-tabs button').forEach(b => b.classList.remove('active'));
-        btn.classList.add('active');
-        // Filter logic here
+    function selectSubject(key) {
+      activeSubject = key;
+      // Update pills
+      document.querySelectorAll('.subject-pill').forEach(p => {
+        p.classList.toggle('active', p.dataset.key === key);
       });
-    });
+      renderSubjectContent(key);
+    }
 
-    // Start training
-    document.getElementById('btn-start').addEventListener('click', () => {
-      const subject = document.getElementById('subject-select').value;
-      const type = document.getElementById('type-select').value;
-      const difficulty = document.querySelector('.difficulty-buttons button.active')?.dataset.difficulty || 'easy';
+    function renderSubjectContent(key) {
+      const subjectData = unitsData.subjects[key];
+      if (!subjectData) return;
 
-      // Navigate to training session
-      const params = new URLSearchParams({ subject, type, difficulty });
-      window.location.href = window.sitePath('/v2/exam/paper.html?' + params.toString());
-    });
+      const subjConfig = SUBJECTS.find(s => s.key === key);
+      // scheduleData.schedule is keyed by shorthand (e.g. "macro", "physics-mech")
+      // SUBJECTS entries have schedId matching the full English ID (e.g. "macroeconomics")
+      // Map schedId to schedule shorthand key
+      const schedIdToKey = {
+        'macroeconomics': 'macro',
+        'microeconomics': 'micro',
+        'calculus_bc': 'calc-bc',
+        'calculus_ab': 'calc-ab',
+        'psychology': 'psych',
+        'physics_c_mechanics': 'physics-mech',
+        'physics_c_electricity_magnetism': 'physics-em',
+        'statistics': 'stats',
+        'computer_science_a': 'csa'
+      };
+      const schedKey = schedIdToKey[subjConfig.schedId] || '';
+      const schedEntry = (scheduleData.schedule || {})[schedKey] || {};
+      // Build a sched-compatible object for existing code
+      const sched = {
+        date: schedEntry.examDate || '',
+        time: schedEntry.examTime || '',
+        dayLabel: '',
+        durationMinutes: ''
+      };
+      const scoring = schedEntry.scoring || {};
+      // Attach fiveRate to scoring for sidebar display
+      if (schedEntry.fiveRate) scoring.fiveRate = schedEntry.fiveRate;
+      if (schedEntry.fiveRateNote) scoring.fiveRateNote = schedEntry.fiveRateNote;
+      const examsForSubject = (catalogData.items || []).filter(i => i.subjectId === subjectData.id);
 
-    // Weak point items click
-    document.querySelectorAll('.weak-item').forEach(item => {
-      item.addEventListener('click', () => {
-        const subject = item.dataset.subject;
-        const unit = item.dataset.unit;
-        window.location.href = window.sitePath('/v2/exam/paper.html?subject=' + subject + '&unit=' + unit);
+      // Header
+      const header = document.getElementById('subject-header');
+      header.classList.add('visible');
+      document.getElementById('header-title').textContent = `${subjConfig.icon} ${subjectData.name}`;
+      document.getElementById('header-subtitle').textContent = key;
+
+      // Countdown
+      let countdownText = '';
+      if (sched.date) {
+        const examDate = new Date(sched.date);
+        const today = new Date();
+        today.setHours(0,0,0,0);
+        const diffDays = Math.ceil((examDate - today) / (1000*60*60*24));
+        countdownText = diffDays > 0 ? `距考试 ${diffDays} 天` : '考试已结束';
+      }
+
+      const metaHtml = [];
+      if (countdownText) {
+        metaHtml.push(`<div class="meta-item"><div class="meta-value">${countdownText.replace(/[^0-9]/g,'') || '✓'}</div><div class="meta-label">${countdownText.replace(/[0-9]+/,'').trim()}</div></div>`);
+      }
+      if (sched.dayLabel) {
+        metaHtml.push(`<div class="meta-item"><div class="meta-value" style="font-size:1rem;">${sched.date}</div><div class="meta-label">${sched.dayLabel} ${sched.time || ''}</div></div>`);
+      }
+      metaHtml.push(`<div class="meta-item"><div class="meta-value">${examsForSubject.length}</div><div class="meta-label">可用试卷</div></div>`);
+      document.getElementById('header-meta').innerHTML = metaHtml.join('');
+
+      // Mock exam link
+      document.getElementById('btn-start-mock').href = window.sitePath('/mock/');
+
+      // Units
+      renderUnits(subjectData.units);
+
+      // Exams
+      renderExams(examsForSubject);
+
+      // Sidebar
+      renderSidebar(scoring, sched);
+    }
+
+    function getWeightClass(weight) {
+      const num = parseFloat(weight);
+      if (isNaN(num)) return 'weight-medium';
+      if (num >= 15) return 'weight-high';
+      if (num >= 8) return 'weight-medium';
+      return 'weight-low';
+    }
+
+    function renderUnits(units) {
+      const grid = document.getElementById('unit-grid');
+      if (!units || !units.length) {
+        grid.innerHTML = '<p style="color:var(--text-muted);grid-column:1/-1;padding:2rem;">暂无单元数据</p>';
+        return;
+      }
+
+      grid.innerHTML = units.map(unit => {
+        const topicsStr = unit.topics.length > 3
+          ? unit.topics.slice(0, 3).join('、') + ` +${unit.topics.length - 3} 更多`
+          : unit.topics.join('、');
+
+        const mastery = 0; // No per-unit mastery data yet
+        const wClass = getWeightClass(unit.weight);
+
+        return `<div class="unit-card">
+          <div class="unit-top">
+            <div class="unit-badge">U${unit.id}</div>
+            <div class="unit-name-group">
+              <div class="unit-name-en">${unit.name}</div>
+              <div class="unit-name-zh">${unit.nameZh}</div>
+            </div>
+            <span class="weight-badge ${wClass}">${unit.weight}</span>
+          </div>
+          <div class="unit-topics">${topicsStr}</div>
+          <div class="mastery-bar-wrap">
+            <span class="mastery-label">掌握度</span>
+            <div class="mastery-bar"><div class="mastery-fill" style="width:${mastery}%"></div></div>
+            <span class="mastery-pct">${mastery}%</span>
+          </div>
+          <button class="btn-unit-practice" data-unit-id="${unit.id}">开始练习</button>
+        </div>`;
+      }).join('');
+
+      // Practice button clicks
+      grid.querySelectorAll('.btn-unit-practice').forEach(btn => {
+        btn.addEventListener('click', () => {
+          const unitId = btn.dataset.unitId;
+          const subjData = unitsData.subjects[activeSubject];
+          if (subjData) {
+            window.location.href = window.sitePath('/mock/?subject=' + subjData.id + '&unit=' + unitId);
+          }
+        });
       });
-    });
+    }
 
-    // Wrong item retry
-    document.querySelectorAll('.wrong-action').forEach(btn => {
-      btn.addEventListener('click', (e) => {
-        e.stopPropagation();
-        // Navigate to specific question
-        alert('跳转到错题...');
-      });
-    });
+    function renderExams(exams) {
+      const section = document.getElementById('exams-section');
+      const list = document.getElementById('exam-list');
+      if (!exams.length) {
+        section.style.display = 'none';
+        return;
+      }
+      section.style.display = 'block';
+
+      // Show at most 8 exams
+      const shown = exams.slice(0, 8);
+      list.innerHTML = shown.map(exam => {
+        return `<a class="exam-item" href="${window.sitePath('/mock/?examId=' + exam.examId)}">
+          <div class="exam-item-left">
+            <div class="exam-item-title">${exam.title}</div>
+            <div class="exam-item-meta">${exam.year} · ${exam.paperType} · ${exam.questionCount} 题</div>
+          </div>
+          <span class="exam-item-badge">开始</span>
+        </a>`;
+      }).join('');
+    }
+
+    function renderSidebar(scoring, sched) {
+      const sidebar = document.getElementById('sidebar');
+      if (!scoring || !scoring.totalPoints) {
+        sidebar.innerHTML = `<div class="sidebar-card"><div class="sidebar-hint">暂无考试评分数据</div></div>`;
+        return;
+      }
+
+      const thresholds = scoring.scoreThresholds || {};
+      const fiveRatePercent = scoring.fiveRate ? Math.round(scoring.fiveRate * 100) : null;
+
+      sidebar.innerHTML = `
+        <div class="sidebar-card">
+          <h3>📊 考试评分参考</h3>
+          <div class="scoring-breakdown">
+            <div class="scoring-row">
+              <span class="scoring-row-label">选择题 (MCQ)</span>
+              <span class="scoring-row-value">${scoring.mcqCount} 题 · ${scoring.mcqPoints} 分</span>
+            </div>
+            <div class="scoring-row">
+              <span class="scoring-row-label">自由回答 (FRQ)</span>
+              <span class="scoring-row-value">${scoring.frqCount} 题 · ${scoring.frqPoints} 分</span>
+            </div>
+            <div class="scoring-row">
+              <span class="scoring-row-label">总分</span>
+              <span class="scoring-row-value">${scoring.totalPoints} 分</span>
+            </div>
+          </div>
+          <table class="score-table">
+            <thead><tr><th>分数</th><th>5</th><th>4</th><th>3</th><th>2</th><th>1</th></tr></thead>
+            <tbody><tr>
+              <td>所需分</td>
+              <td>${thresholds['5'] || '-'}</td>
+              <td>${thresholds['4'] || '-'}</td>
+              <td>${thresholds['3'] || '-'}</td>
+              <td>${thresholds['2'] || '-'}</td>
+              <td>&lt;${thresholds['2'] || '-'}</td>
+            </tr></tbody>
+          </table>
+          ${fiveRatePercent !== null ? `
+            <div class="five-rate">
+              <div class="five-rate-value">${fiveRatePercent}%</div>
+              <div class="five-rate-label">${scoring.fiveRateNote || '近5年平均5分率'}</div>
+            </div>
+          ` : ''}
+        </div>
+        <div class="sidebar-card">
+          <h3>📅 考试信息</h3>
+          ${sched.date ? `
+            <div class="scoring-breakdown">
+              <div class="scoring-row">
+                <span class="scoring-row-label">考试日期</span>
+                <span class="scoring-row-value">${sched.date}</span>
+              </div>
+              <div class="scoring-row">
+                <span class="scoring-row-label">考试时间</span>
+                <span class="scoring-row-value">${sched.dayLabel || ''} ${sched.time || ''}</span>
+              </div>
+              <div class="scoring-row">
+                <span class="scoring-row-label">考试时长</span>
+                <span class="scoring-row-value">${sched.durationMinutes || '-'} 分钟</span>
+              </div>
+            </div>
+          ` : '<div class="sidebar-hint">暂无考试日期信息</div>'}
+        </div>
+      `;
+    }
+  })();
   </script>
 </body>
 </html>

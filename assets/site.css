@@ -1305,4 +1305,374 @@ input {
     flex-direction: column;
     align-items: flex-start;
   }
+
+  .countdown-cards {
+    flex-direction: column;
+  }
+
+  .dashboard-home-metrics {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .scoring-breakdown {
+    flex-direction: column;
+  }
+
+  .threshold-table {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .unit-training-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ========== Exam Countdown Section ========== */
+.exam-countdown-section {
+  margin-bottom: 28px;
+}
+
+.countdown-cards {
+  display: flex;
+  gap: 16px;
+  overflow-x: auto;
+  padding-bottom: 8px;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: thin;
+}
+
+.countdown-card {
+  flex: 0 0 auto;
+  min-width: 220px;
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-lg);
+  padding: 18px 20px;
+  box-shadow: var(--shadow-soft);
+  transition: border-color 0.2s, transform 0.2s;
+}
+
+.countdown-card:hover {
+  border-color: var(--accent);
+  transform: translateY(-2px);
+}
+
+.countdown-card.countdown-urgent {
+  border-color: #f59e0b;
+  background: rgba(245, 158, 11, 0.05);
+}
+
+.countdown-card.countdown-past {
+  opacity: 0.6;
+  border-color: var(--line-strong);
+}
+
+.countdown-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 8px;
+}
+
+.countdown-header h3 {
+  margin: 0;
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--text);
+}
+
+.countdown-badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 4px 10px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.badge-normal {
+  background: var(--accent-soft);
+  color: var(--accent-strong);
+}
+
+.badge-urgent {
+  background: #fef3c7;
+  color: #b45309;
+}
+
+.badge-past {
+  background: rgba(0,0,0,0.06);
+  color: var(--text-soft);
+}
+
+.countdown-date {
+  margin: 0 0 10px;
+  font-size: 13px;
+  color: var(--text-soft);
+}
+
+.countdown-stats {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.countdown-threshold,
+.countdown-five-rate {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--text-soft);
+  background: rgba(255,255,255,0.6);
+  padding: 3px 8px;
+  border-radius: 8px;
+}
+
+/* ========== Dashboard Home Card Badges ========== */
+.dashboard-home-badges {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 6px;
+}
+
+/* ========== Scoring Breakdown (Dashboard Subject) ========== */
+.scoring-breakdown {
+  display: flex;
+  gap: 24px;
+}
+
+.scoring-section {
+  flex: 1;
+}
+
+.scoring-section h4 {
+  margin: 0 0 12px;
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--text);
+}
+
+.scoring-detail {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.scoring-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 12px;
+  background: rgba(255,255,255,0.5);
+  border-radius: 10px;
+  font-size: 13px;
+}
+
+.scoring-row span {
+  color: var(--text-soft);
+}
+
+.scoring-row strong {
+  color: var(--text);
+  font-weight: 600;
+}
+
+.scoring-total {
+  border-top: 1px dashed var(--line);
+  border-radius: 0 0 10px 10px;
+  margin-top: 4px;
+  padding-top: 10px;
+}
+
+.scoring-total span,
+.scoring-total strong {
+  font-weight: 700;
+}
+
+/* ========== Threshold Table ========== */
+.threshold-table {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 8px;
+}
+
+.threshold-row {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  padding: 12px 8px;
+  background: rgba(255,255,255,0.5);
+  border-radius: 12px;
+  text-align: center;
+}
+
+.threshold-score {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  font-weight: 800;
+  color: #fff;
+}
+
+.threshold-5 .threshold-score { background: linear-gradient(135deg, #f59e0b, #d97706); }
+.threshold-4 .threshold-score { background: linear-gradient(135deg, #22c55e, #16a34a); }
+.threshold-3 .threshold-score { background: linear-gradient(135deg, #3b82f6, #2563eb); }
+.threshold-2 .threshold-score { background: linear-gradient(135deg, #a855f7, #7c3aed); }
+
+.threshold-label {
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--text-soft);
+}
+
+.threshold-pts {
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--text);
+}
+
+/* ========== Five Rate Badge ========== */
+.five-rate-badge {
+  background: linear-gradient(135deg, #fef3c7, #fde68a);
+  color: #b45309;
+  font-weight: 700;
+  font-size: 13px;
+}
+
+/* ========== Unit Weight Tag ========== */
+.unit-weight-tag {
+  display: inline-flex;
+  align-items: center;
+  padding: 2px 8px;
+  border-radius: 8px;
+  font-size: 12px;
+  font-weight: 700;
+  background: linear-gradient(135deg, var(--accent-soft), #ffe0c2);
+  color: var(--accent-strong);
+  white-space: nowrap;
+}
+
+.unit-weight-chip {
+  background: linear-gradient(135deg, var(--accent-soft), #ffe0c2) !important;
+  color: var(--accent-strong) !important;
+  font-weight: 700 !important;
+}
+
+.unit-card-title-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.unit-card-title-row h4 {
+  margin: 0;
+}
+
+/* ========== Unit Training Cards (Training Page) ========== */
+.unit-knowledge-section {
+  margin-bottom: 24px;
+}
+
+.unit-training-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 16px;
+}
+
+.unit-training-card {
+  background: rgba(255, 255, 255, 0.5);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-md);
+  padding: 16px;
+  transition: all 0.2s ease;
+}
+
+.unit-training-card:hover {
+  border-color: var(--accent);
+  background: rgba(255, 255, 255, 0.8);
+  transform: translateY(-2px);
+}
+
+.unit-training-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.unit-number {
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--accent-strong);
+  text-transform: uppercase;
+}
+
+.unit-training-card h4 {
+  margin: 0 0 4px;
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--text);
+}
+
+.unit-en-name {
+  margin: 0 0 10px;
+  font-size: 12px;
+  color: var(--text-soft);
+}
+
+.unit-topics {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-bottom: 12px;
+}
+
+.topic-chip {
+  display: inline-flex;
+  padding: 3px 8px;
+  border-radius: 6px;
+  font-size: 11px;
+  font-weight: 600;
+  background: rgba(232, 146, 85, 0.1);
+  color: var(--accent-strong);
+}
+
+.topic-more {
+  background: rgba(0,0,0,0.04);
+  color: var(--text-soft);
+}
+
+.unit-mastery-bar {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.unit-mastery-track {
+  flex: 1;
+  height: 6px;
+  background: var(--line);
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.unit-mastery-fill {
+  height: 100%;
+  background: linear-gradient(90deg, var(--accent), var(--accent-strong));
+  border-radius: 3px;
+  transition: width 0.5s ease;
+}
+
+.unit-mastery-text {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--text-soft);
+  white-space: nowrap;
 }

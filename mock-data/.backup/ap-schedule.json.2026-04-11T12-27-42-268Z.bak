@@ -1,0 +1,172 @@
+{
+  "schedule": {
+    "macro": {
+      "subject": "宏观经济",
+      "label": "AP Macro",
+      "examDate": "2026-05-06",
+      "examTime": "12:00 PM",
+      "scoring": {
+        "mcqCount": 60,
+        "mcqPoints": 60,
+        "frqCount": 3,
+        "frqPoints": 48,
+        "totalPoints": 108,
+        "scoreThresholds": {
+          "5": 62,
+          "4": 52,
+          "3": 40,
+          "2": 28,
+          "1": 0
+        }
+      },
+      "fiveRate": 0.16
+    },
+    "micro": {
+      "subject": "微观经济",
+      "label": "AP Micro",
+      "examDate": "2026-05-07",
+      "examTime": "12:00 PM",
+      "scoring": {
+        "mcqCount": 60,
+        "mcqPoints": 60,
+        "frqCount": 3,
+        "frqPoints": 48,
+        "totalPoints": 108,
+        "scoreThresholds": {
+          "5": 62,
+          "4": 52,
+          "3": 40,
+          "2": 28,
+          "1": 0
+        }
+      },
+      "fiveRate": 0.21
+    },
+    "calc-bc": {
+      "subject": "微积分BC",
+      "label": "AP Calculus BC",
+      "examDate": "2026-05-08",
+      "examTime": "8:00 AM",
+      "scoring": {
+        "mcqCount": 45,
+        "mcqPoints": 45,
+        "frqCount": 6,
+        "frqPoints": 54,
+        "totalPoints": 99,
+        "scoreThresholds": {
+          "5": 62,
+          "4": 53,
+          "3": 42,
+          "2": 30,
+          "1": 0
+        }
+      },
+      "fiveRate": 0.43
+    },
+    "psych": {
+      "subject": "心理学",
+      "label": "AP Psychology",
+      "examDate": "2026-05-07",
+      "examTime": "12:00 PM",
+      "scoring": {
+        "mcqCount": 100,
+        "mcqPoints": 100,
+        "frqCount": 2,
+        "frqPoints": 16,
+        "totalPoints": 116,
+        "scoreThresholds": {
+          "5": 75,
+          "4": 62,
+          "3": 49,
+          "2": 34,
+          "1": 0
+        }
+      },
+      "fiveRate": 0.18
+    },
+    "physics-mech": {
+      "subject": "物理C力学",
+      "label": "AP Physics C: Mechanics",
+      "examDate": "2026-05-12",
+      "examTime": "12:00 PM",
+      "scoring": {
+        "mcqCount": 35,
+        "mcqPoints": 35,
+        "frqCount": 3,
+        "frqPoints": 45,
+        "totalPoints": 80,
+        "scoreThresholds": {
+          "5": 52,
+          "4": 42,
+          "3": 31,
+          "2": 22,
+          "1": 0
+        }
+      },
+      "fiveRate": 0.25
+    },
+    "physics-em": {
+      "subject": "物理C电磁",
+      "label": "AP Physics C: E&M",
+      "examDate": "2026-05-12",
+      "examTime": "2:00 PM",
+      "scoring": {
+        "mcqCount": 35,
+        "mcqPoints": 35,
+        "frqCount": 3,
+        "frqPoints": 45,
+        "totalPoints": 80,
+        "scoreThresholds": {
+          "5": 52,
+          "4": 42,
+          "3": 31,
+          "2": 22,
+          "1": 0
+        }
+      },
+      "fiveRate": 0.30
+    },
+    "stats": {
+      "subject": "统计学",
+      "label": "AP Statistics",
+      "examDate": "2026-05-06",
+      "examTime": "12:00 PM",
+      "scoring": {
+        "mcqCount": 40,
+        "mcqPoints": 40,
+        "frqCount": 6,
+        "frqPoints": 50,
+        "totalPoints": 90,
+        "scoreThresholds": {
+          "5": 62,
+          "4": 51,
+          "3": 41,
+          "2": 29,
+          "1": 0
+        }
+      },
+      "fiveRate": 0.17
+    },
+    "csa": {
+      "subject": "计算机科学A",
+      "label": "AP CSA",
+      "examDate": "2026-05-08",
+      "examTime": "12:00 PM",
+      "scoring": {
+        "mcqCount": 40,
+        "mcqPoints": 40,
+        "frqCount": 4,
+        "frqPoints": 36,
+        "totalPoints": 76,
+        "scoreThresholds": {
+          "5": 52,
+          "4": 42,
+          "3": 33,
+          "2": 25,
+          "1": 0
+        }
+      },
+      "fiveRate": 0.27
+    }
+  }
+}
