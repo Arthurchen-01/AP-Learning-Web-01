@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-04-11",
-  "total": 48,
+  "total": 58,
   "subjects": [
     "宏观经济",
     "微积分BC",
@@ -23,6 +23,10 @@
     "2017",
     "2016",
     "2015",
+    "2014",
+    "2013",
+    "2012",
+    "2009",
     "2008"
   ],
   "paperTypes": [
@@ -461,6 +465,96 @@
       "year": "2025",
       "paperType": "练习卷",
       "questionCount": 6,
+      "sectionCount": 1
+    },
+    {
+      "examId": "phys2009Intl",
+      "title": "AP 物理C力学 2009年国际卷",
+      "subject": "物理C力学",
+      "year": "2009",
+      "paperType": "国际卷",
+      "questionCount": 15,
+      "sectionCount": 1
+    },
+    {
+      "examId": "phys2012Intl",
+      "title": "AP 物理C力学 2012年国际卷",
+      "subject": "物理C力学",
+      "year": "2012",
+      "paperType": "国际卷",
+      "questionCount": 10,
+      "sectionCount": 1
+    },
+    {
+      "examId": "phys2013Intl",
+      "title": "AP 物理C力学 2013年国际卷",
+      "subject": "物理C力学",
+      "year": "2013",
+      "paperType": "国际卷",
+      "questionCount": 6,
+      "sectionCount": 1
+    },
+    {
+      "examId": "phys2014Intl",
+      "title": "AP 物理C力学 2014年国际卷",
+      "subject": "物理C力学",
+      "year": "2014",
+      "paperType": "国际卷",
+      "questionCount": 41,
+      "sectionCount": 2
+    },
+    {
+      "examId": "phys2015Intl",
+      "title": "AP 物理C力学 2015年国际卷",
+      "subject": "物理C力学",
+      "year": "2015",
+      "paperType": "国际卷",
+      "questionCount": 39,
+      "sectionCount": 2
+    },
+    {
+      "examId": "phys2016Intl",
+      "title": "AP 物理C力学 2016年国际卷",
+      "subject": "物理C力学",
+      "year": "2016",
+      "paperType": "国际卷",
+      "questionCount": 7,
+      "sectionCount": 1
+    },
+    {
+      "examId": "phys2017Intl",
+      "title": "AP 物理C力学 2017年国际卷",
+      "subject": "物理C力学",
+      "year": "2017",
+      "paperType": "国际卷",
+      "questionCount": 42,
+      "sectionCount": 2
+    },
+    {
+      "examId": "phys2018Intl",
+      "title": "AP 物理C力学 2018年国际卷",
+      "subject": "物理C力学",
+      "year": "2018",
+      "paperType": "国际卷",
+      "questionCount": 46,
+      "sectionCount": 2
+    },
+    {
+      "examId": "phys2019Intl",
+      "title": "AP 物理C力学 2019年国际卷",
+      "subject": "物理C力学",
+      "year": "2019",
+      "paperType": "国际卷",
+      "questionCount": 14,
+      "sectionCount": 1
+    },
+    {
+      "examId": "phys2024Intl",
+      "title": "AP 物理C力学 2024年国际卷",
+      "subject": "物理C力学",
+      "year": "2024",
+      "paperType": "国际卷",
+      "questionCount": 32,
       "sectionCount": 1
     }
   ]

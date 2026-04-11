@@ -1,0 +1,1145 @@
+{
+  "examId": "phys2024Intl",
+  "title": "AP 物理C力学 2024年国际卷",
+  "subjectName": "Physics C: Mechanics",
+  "yearLabel": "2024",
+  "description": "AP Physics C: Mechanics 2024年",
+  "answerKeyAvailable": false,
+  "scoring": null,
+  "sections": [
+    {
+      "title": "Section I: Multiple Choice",
+      "type": "mcq",
+      "questions": [
+        {
+          "id": "1",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">1. A car traveling at $20 \\mathrm{~m} / \\mathrm{s}$ along a straight road passes a road sign at time $t=0$. At time $t=1 \\mathrm{~s}$, the car accelerates at $-6 \\mathrm{~m} / \\mathrm{s}^{2}$. Which of the following is closest to the speed of the car after it has traveled 50 m past the road sign?</p>",
+          "options": [
+            {
+              "key": "A",
+              "text": "<div class=\"choiceTxt\">$2 \\mathrm{~m} / \\mathrm{s}$</div>",
+              "html": "<div class=\"choiceTxt\">$2 \\mathrm{~m} / \\mathrm{s}$</div>"
+            },
+            {
+              "key": "B",
+              "text": "<div class=\"choiceTxt\">$6 \\mathrm{~m} / \\mathrm{s}$</div>",
+              "html": "<div class=\"choiceTxt\">$6 \\mathrm{~m} / \\mathrm{s}$</div>"
+            },
+            {
+              "key": "C",
+              "text": "<div class=\"choiceTxt\">$10 \\mathrm{~m} / \\mathrm{s}$</div>",
+              "html": "<div class=\"choiceTxt\">$10 \\mathrm{~m} / \\mathrm{s}$</div>"
+            },
+            {
+              "key": "D",
+              "text": "<div class=\"choiceTxt\">$14 \\mathrm{~m} / \\mathrm{s}$</div>",
+              "html": "<div class=\"choiceTxt\">$14 \\mathrm{~m} / \\mathrm{s}$</div>"
+            },
+            {
+              "key": "E",
+              "text": "<div class=\"choiceTxt\">The car comes to a stop before reaching a point 50 m past the road sign.\n\n\\begin{figure}\n\\includegraphics[alt={},max width=\\textwidth]{https://cdn.mathpix.com/cropped/d8de69c8-d690-4140-b324-3fa2e68fd571-01.jpg?height=412&width=857&top_left_y=814&top_left_x=1204}\n\\captionsetup{labelformat=empty}\n\\caption{Figure 1}\n\\end{figure}</div>",
+              "html": "<div class=\"choiceTxt\">The car comes to a stop before reaching a point 50 m past the road sign.\n\n\\begin{figure}\n\\includegraphics[alt={},max width=\\textwidth]{https://cdn.mathpix.com/cropped/d8de69c8-d690-4140-b324-3fa2e68fd571-01.jpg?height=412&width=857&top_left_y=814&top_left_x=1204}\n\\captionsetup{labelformat=empty}\n\\caption{Figure 1}\n\\end{figure}</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "2",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">2. Box 1 is in contact with the ground and Box ? on top of Box 1. Boxes 1 and 2 are initially ar rest, as shown in Figure 1. An external force is then exerted on Box I. Figure 2 shows the free-body diagram for Box 2 while the exterres: force is exerted on Box 1. The forces exerted or Box 1 are not shown. Which of the following could describe the motion of the boxes?</p>",
+          "options": [
+            {
+              "key": "A",
+              "text": "<div class=\"choiceTxt\">The boxes move together to the left wits the same acceleration.</div>",
+              "html": "<div class=\"choiceTxt\">The boxes move together to the left wits the same acceleration.</div>"
+            },
+            {
+              "key": "B",
+              "text": "<div class=\"choiceTxt\">The boxes move together to the right wird the same acceleration.</div>",
+              "html": "<div class=\"choiceTxt\">The boxes move together to the right wird the same acceleration.</div>"
+            },
+            {
+              "key": "C",
+              "text": "<div class=\"choiceTxt\">The boxes move together to the left with the same constant speed.</div>",
+              "html": "<div class=\"choiceTxt\">The boxes move together to the left with the same constant speed.</div>"
+            },
+            {
+              "key": "D",
+              "text": "<div class=\"choiceTxt\">The boxes move together to the right with the same constant speed.</div>",
+              "html": "<div class=\"choiceTxt\">The boxes move together to the right with the same constant speed.</div>"
+            },
+            {
+              "key": "E",
+              "text": "<div class=\"choiceTxt\">Box 1 is accelerating to the right while Box 2 is accelerating to the left.</div>",
+              "html": "<div class=\"choiceTxt\">Box 1 is accelerating to the right while Box 2 is accelerating to the left.</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "3",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">3. A 0.9 kg cart is at position $x=0$ and moves with initial velocity $1.5 \\mathrm{~m} / \\mathrm{s}$. A force exerted on the cart is given by $F(x)=\\left(20 \\mathrm{~N} / \\mathrm{m}^{3}\\right) x^{3}+\\left(1.2 \\mathrm{~N} / \\mathrm{m}^{2}\\right) x^{2}$, where $x$ is the position of the cart. What is the change in kinetic energy of the cart when the cart has moved from $x=0$ to position $x=1.0 \\mathrm{~m}$ ?</p>",
+          "options": [
+            {
+              "key": "A",
+              "text": "<div class=\"choiceTxt\">0.11 J</div>",
+              "html": "<div class=\"choiceTxt\">0.11 J</div>"
+            },
+            {
+              "key": "B",
+              "text": "<div class=\"choiceTxt\">0.90 J</div>",
+              "html": "<div class=\"choiceTxt\">0.90 J</div>"
+            },
+            {
+              "key": "C",
+              "text": "<div class=\"choiceTxt\">1.0 J</div>",
+              "html": "<div class=\"choiceTxt\">1.0 J</div>"
+            },
+            {
+              "key": "D",
+              "text": "<div class=\"choiceTxt\">1.9 J</div>",
+              "html": "<div class=\"choiceTxt\">1.9 J</div>"
+            },
+            {
+              "key": "E",
+              "text": "<div class=\"choiceTxt\">3.2 J</div>",
+              "html": "<div class=\"choiceTxt\">3.2 J</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "4",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">4. A person jumps vertically upward. The floor exerts a force $F_{N}$ on the person, and Earth exerts a force $F_{g}$ on the person. Which of the following correctly compares $F_{N}$ and $F_{g}$ while the person is in contact with the floor and accelerating upward?</p>",
+          "options": [
+            {
+              "key": "A",
+              "text": "<div class=\"choiceTxt\">$F_{N}>F_{g}$ because the person is moving upward.</div>",
+              "html": "<div class=\"choiceTxt\">$F_{N}>F_{g}$ because the person is moving upward.</div>"
+            },
+            {
+              "key": "B",
+              "text": "<div class=\"choiceTxt\">$F_{N}>F_{g}$ because the person is accelerating upward.</div>",
+              "html": "<div class=\"choiceTxt\">$F_{N}>F_{g}$ because the person is accelerating upward.</div>"
+            },
+            {
+              "key": "C",
+              "text": "<div class=\"choiceTxt\">$F_{N}=F_{g}$ because the forces are a Newton's third law action-reaction pair.</div>",
+              "html": "<div class=\"choiceTxt\">$F_{N}=F_{g}$ because the forces are a Newton's third law action-reaction pair.</div>"
+            },
+            {
+              "key": "D",
+              "text": "<div class=\"choiceTxt\">$F_{\\mathrm{N}}=F_{g}$ becanse the force of gravity and the normal force acting on an object are always equal.</div>",
+              "html": "<div class=\"choiceTxt\">$F_{\\mathrm{N}}=F_{g}$ becanse the force of gravity and the normal force acting on an object are always equal.</div>"
+            },
+            {
+              "key": "E",
+              "text": "<div class=\"choiceTxt\">$F_{\\mathrm{N}}<F_{g}$ because the person will come back down after jumping.\n![](https://cdn.mathpix.com/cropped/d8de69c8-d690-4140-b324-3fa2e68fd571-03.jpg?height=337&width=475&top_left_y=346&top_left_x=899)</div>",
+              "html": "<div class=\"choiceTxt\">$F_{\\mathrm{N}}<F_{g}$ because the person will come back down after jumping.\n![](https://cdn.mathpix.com/cropped/d8de69c8-d690-4140-b324-3fa2e68fd571-03.jpg?height=337&width=475&top_left_y=346&top_left_x=899)</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "5",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">5. Three forces are exerted on an object in equilibrium, as shown. The magnitudes of $F_{1}$ and $F_{2}$ and the angle $\\theta$ can be changed. The magnitude of $F_{3}$ remains constant. Which of the following changes, if any, to $F_{1}$ and $F_{2}$ would keep the object in equilibrium as $\\theta$ increases to $90^{\\circ}$ ?  \\begin{tabular}{c|cc}  & $F_{1}$ & $F_{2}$ \\\\ \\hline A & Increases & Increases \\\\ B & Decreases & Increases \\\\ C & Increases & Decreases \\\\ D & Remains constant & Increases \\\\ E & Decreases & Remains constant \\end{tabular}</p>",
+          "options": [
+            {
+              "key": "A",
+              "text": "<div class=\"choiceTxt\">A</div>",
+              "html": "<div class=\"choiceTxt\">A</div>"
+            },
+            {
+              "key": "B",
+              "text": "<div class=\"choiceTxt\">B</div>",
+              "html": "<div class=\"choiceTxt\">B</div>"
+            },
+            {
+              "key": "C",
+              "text": "<div class=\"choiceTxt\">C .</div>",
+              "html": "<div class=\"choiceTxt\">C .</div>"
+            },
+            {
+              "key": "D",
+              "text": "<div class=\"choiceTxt\">D</div>",
+              "html": "<div class=\"choiceTxt\">D</div>"
+            },
+            {
+              "key": "E",
+              "text": "<div class=\"choiceTxt\">E\n![](https://cdn.mathpix.com/cropped/d8de69c8-d690-4140-b324-3fa2e68fd571-04.jpg?height=644&width=950&top_left_y=173&top_left_x=187)</div>",
+              "html": "<div class=\"choiceTxt\">E\n![](https://cdn.mathpix.com/cropped/d8de69c8-d690-4140-b324-3fa2e68fd571-04.jpg?height=644&width=950&top_left_y=173&top_left_x=187)</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "6",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">6. The graph shows the velocity as a function of time for an object moving along the $x$-axis. Which of the following equations could correctly represent the motion of the object?</p>",
+          "options": [
+            {
+              "key": "A",
+              "text": "<div class=\"choiceTxt\">$x=4.0-0.57 t$</div>",
+              "html": "<div class=\"choiceTxt\">$x=4.0-0.57 t$</div>"
+            },
+            {
+              "key": "B",
+              "text": "<div class=\"choiceTxt\">$x=-4.0 t+1.15 t^{2}$</div>",
+              "html": "<div class=\"choiceTxt\">$x=-4.0 t+1.15 t^{2}$</div>"
+            },
+            {
+              "key": "C",
+              "text": "<div class=\"choiceTxt\">$x=4.0-1.15 t$</div>",
+              "html": "<div class=\"choiceTxt\">$x=4.0-1.15 t$</div>"
+            },
+            {
+              "key": "D",
+              "text": "<div class=\"choiceTxt\">$x=1.5-4.0 t+0.57 t^{2}$</div>",
+              "html": "<div class=\"choiceTxt\">$x=1.5-4.0 t+0.57 t^{2}$</div>"
+            },
+            {
+              "key": "E",
+              "text": "<div class=\"choiceTxt\">$x=-1.5+4.0 t-0.57 t^{2}$\n\n\\begin{figure}\n\\includegraphics[alt={},max width=\\textwidth]{https://cdn.mathpix.com/cropped/d8de69c8-d690-4140-b324-3fa2e68fd571-05.jpg?height=218&width=783&top_left_y=488&top_left_x=260}\n\\captionsetup{labelformat=empty}\n\\caption{Figure 1}\n\\end{figure}\n\n\\begin{figure}\n\\includegraphics[alt={},max width=\\textwidth]{https://cdn.mathpix.com/cropped/d8de69c8-d690-4140-b324-3fa2e68fd571-05.jpg?height=442&width=775&top_left_y=264&top_left_x=1168}\n\\captionsetup{labelformat=empty}\n\\caption{Figure 2}\n\\end{figure}</div>",
+              "html": "<div class=\"choiceTxt\">$x=-1.5+4.0 t-0.57 t^{2}$\n\n\\begin{figure}\n\\includegraphics[alt={},max width=\\textwidth]{https://cdn.mathpix.com/cropped/d8de69c8-d690-4140-b324-3fa2e68fd571-05.jpg?height=218&width=783&top_left_y=488&top_left_x=260}\n\\captionsetup{labelformat=empty}\n\\caption{Figure 1}\n\\end{figure}\n\n\\begin{figure}\n\\includegraphics[alt={},max width=\\textwidth]{https://cdn.mathpix.com/cropped/d8de69c8-d690-4140-b324-3fa2e68fd571-05.jpg?height=442&width=775&top_left_y=264&top_left_x=1168}\n\\captionsetup{labelformat=empty}\n\\caption{Figure 2}\n\\end{figure}</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "7",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">7. A block is pushed from rest by a force of magnitude $F$ a distance $L$ along an inclined ramp, as shown in Figure 1. The block leaves the end of the ramp and reaches the ground to the right of the ramp with speed $v_{1}$.  The ramp is now raised to a greater angle with the horizontal, and the block is again pushed from rest by a force of magnitude $F$ a distance $L$, as shown in Figure 2. The block leaves the end of the ramp and reaches tl ground to the right of the ramp with speed $v_{2}$. Frictional forces are negligible. Which of the following correct compares $v_{1}$ and $v_{2}$ ?</p>",
+          "options": [
+            {
+              "key": "A",
+              "text": "<div class=\"choiceTxt\">$\\nu_{1}>\\nu_{2}$</div>",
+              "html": "<div class=\"choiceTxt\">$\\nu_{1}>\\nu_{2}$</div>"
+            },
+            {
+              "key": "B",
+              "text": "<div class=\"choiceTxt\">$v_{1}=v_{2}$</div>",
+              "html": "<div class=\"choiceTxt\">$v_{1}=v_{2}$</div>"
+            },
+            {
+              "key": "C",
+              "text": "<div class=\"choiceTxt\">$v_{1}<v_{2}$</div>",
+              "html": "<div class=\"choiceTxt\">$v_{1}<v_{2}$</div>"
+            },
+            {
+              "key": "D",
+              "text": "<div class=\"choiceTxt\">The speeds cannot be compared without knowing the angles of incline for the ramp.</div>",
+              "html": "<div class=\"choiceTxt\">The speeds cannot be compared without knowing the angles of incline for the ramp.</div>"
+            },
+            {
+              "key": "E",
+              "text": "<div class=\"choiceTxt\">The speeds cannot be compared without knowing the mass of the block.\n![](https://cdn.mathpix.com/cropped/d8de69c8-d690-4140-b324-3fa2e68fd571-06.jpg?height=391&width=462&top_left_y=146&top_left_x=424)\n\n\\section*{Top View}\nS. A disk of mass $M$ and radius $R$ is rotating clockwise about its center. At time $t=t_{0}$, the disk has angular momentum $L_{0}$ and a force is applied tangent to the edge of the disk, as shown in the top view. The magnitude of the force is modeled by $F(t)=A t^{2}$, where $A$ is a positive constant with appropriate units. What is the magnitude of the angular momentum of the disk at a later time $t=t_{1}$ ?</div>",
+              "html": "<div class=\"choiceTxt\">The speeds cannot be compared without knowing the mass of the block.\n![](https://cdn.mathpix.com/cropped/d8de69c8-d690-4140-b324-3fa2e68fd571-06.jpg?height=391&width=462&top_left_y=146&top_left_x=424)\n\n\\section*{Top View}\nS. A disk of mass $M$ and radius $R$ is rotating clockwise about its center. At time $t=t_{0}$, the disk has angular momentum $L_{0}$ and a force is applied tangent to the edge of the disk, as shown in the top view. The magnitude of the force is modeled by $F(t)=A t^{2}$, where $A$ is a positive constant with appropriate units. What is the magnitude of the angular momentum of the disk at a later time $t=t_{1}$ ?</div>"
+            },
+            {
+              "key": "A",
+              "text": "<div class=\"choiceTxt\">$A\\left(\\frac{t_{1}^{3}}{3}\\right)-L_{0}$</div>",
+              "html": "<div class=\"choiceTxt\">$A\\left(\\frac{t_{1}^{3}}{3}\\right)-L_{0}$</div>"
+            },
+            {
+              "key": "B",
+              "text": "<div class=\"choiceTxt\">$A\\left(\\frac{t_{1}{ }^{3}-t_{0}{ }^{3}}{3}\\right)+L_{0}$</div>",
+              "html": "<div class=\"choiceTxt\">$A\\left(\\frac{t_{1}{ }^{3}-t_{0}{ }^{3}}{3}\\right)+L_{0}$</div>"
+            },
+            {
+              "key": "C",
+              "text": "<div class=\"choiceTxt\">$A R\\left(\\frac{r_{1}{ }^{3}-r_{0}{ }^{3}}{3}\\right)$</div>",
+              "html": "<div class=\"choiceTxt\">$A R\\left(\\frac{r_{1}{ }^{3}-r_{0}{ }^{3}}{3}\\right)$</div>"
+            },
+            {
+              "key": "D",
+              "text": "<div class=\"choiceTxt\">$A R\\left(\\frac{t_{1}{ }^{3}}{3}\\right)-L_{0}$</div>",
+              "html": "<div class=\"choiceTxt\">$A R\\left(\\frac{t_{1}{ }^{3}}{3}\\right)-L_{0}$</div>"
+            },
+            {
+              "key": "E",
+              "text": "<div class=\"choiceTxt\">$A R\\left(\\frac{t_{1}^{3}-t_{0}^{3}}{3}\\right)+L_{0}$</div>",
+              "html": "<div class=\"choiceTxt\">$A R\\left(\\frac{t_{1}^{3}-t_{0}^{3}}{3}\\right)+L_{0}$</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "8",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">9. A sphere is dropped near the surface of Earth. While falling, the sphere reaches terminal velocity. Which of ufollowing sets of graphs correctly shows the magnitudes of the position $y$, velocity $y$, and acceleration $a$ of $u$ sphere as functions of time $t$ as tho sphere is falling?</p>",
+          "options": [
+            {
+              "key": "A",
+              "text": "<div class=\"choiceTxt\">![](https://cdn.mathpix.com/cropped/d8de69c8-d690-4140-b324-3fa2e68fd571-07.jpg?height=335&width=311&top_left_y=492&top_left_x=262)\n![](https://cdn.mathpix.com/cropped/d8de69c8-d690-4140-b324-3fa2e68fd571-07.jpg?height=305&width=280&top_left_y=506&top_left_x=686)\n![](https://cdn.mathpix.com/cropped/d8de69c8-d690-4140-b324-3fa2e68fd571-07.jpg?height=329&width=304&top_left_y=488&top_left_x=1052)</div>",
+              "html": "<div class=\"choiceTxt\">![](https://cdn.mathpix.com/cropped/d8de69c8-d690-4140-b324-3fa2e68fd571-07.jpg?height=335&width=311&top_left_y=492&top_left_x=262)\n![](https://cdn.mathpix.com/cropped/d8de69c8-d690-4140-b324-3fa2e68fd571-07.jpg?height=305&width=280&top_left_y=506&top_left_x=686)\n![](https://cdn.mathpix.com/cropped/d8de69c8-d690-4140-b324-3fa2e68fd571-07.jpg?height=329&width=304&top_left_y=488&top_left_x=1052)</div>"
+            },
+            {
+              "key": "B",
+              "text": "<div class=\"choiceTxt\">![](https://cdn.mathpix.com/cropped/d8de69c8-d690-4140-b324-3fa2e68fd571-07.jpg?height=316&width=302&top_left_y=903&top_left_x=269)\n![](https://cdn.mathpix.com/cropped/d8de69c8-d690-4140-b324-3fa2e68fd571-07.jpg?height=309&width=281&top_left_y=908&top_left_x=689)\n![](https://cdn.mathpix.com/cropped/d8de69c8-d690-4140-b324-3fa2e68fd571-07.jpg?height=323&width=277&top_left_y=896&top_left_x=1072)</div>",
+              "html": "<div class=\"choiceTxt\">![](https://cdn.mathpix.com/cropped/d8de69c8-d690-4140-b324-3fa2e68fd571-07.jpg?height=316&width=302&top_left_y=903&top_left_x=269)\n![](https://cdn.mathpix.com/cropped/d8de69c8-d690-4140-b324-3fa2e68fd571-07.jpg?height=309&width=281&top_left_y=908&top_left_x=689)\n![](https://cdn.mathpix.com/cropped/d8de69c8-d690-4140-b324-3fa2e68fd571-07.jpg?height=323&width=277&top_left_y=896&top_left_x=1072)</div>"
+            },
+            {
+              "key": "C",
+              "text": "<div class=\"choiceTxt\">![](https://cdn.mathpix.com/cropped/d8de69c8-d690-4140-b324-3fa2e68fd571-07.jpg?height=325&width=309&top_left_y=1298&top_left_x=262)\n![](https://cdn.mathpix.com/cropped/d8de69c8-d690-4140-b324-3fa2e68fd571-07.jpg?height=304&width=286&top_left_y=1314&top_left_x=684)\n![](https://cdn.mathpix.com/cropped/d8de69c8-d690-4140-b324-3fa2e68fd571-07.jpg?height=321&width=278&top_left_y=1300&top_left_x=1067)</div>",
+              "html": "<div class=\"choiceTxt\">![](https://cdn.mathpix.com/cropped/d8de69c8-d690-4140-b324-3fa2e68fd571-07.jpg?height=325&width=309&top_left_y=1298&top_left_x=262)\n![](https://cdn.mathpix.com/cropped/d8de69c8-d690-4140-b324-3fa2e68fd571-07.jpg?height=304&width=286&top_left_y=1314&top_left_x=684)\n![](https://cdn.mathpix.com/cropped/d8de69c8-d690-4140-b324-3fa2e68fd571-07.jpg?height=321&width=278&top_left_y=1300&top_left_x=1067)</div>"
+            },
+            {
+              "key": "D",
+              "text": "<div class=\"choiceTxt\">![](https://cdn.mathpix.com/cropped/d8de69c8-d690-4140-b324-3fa2e68fd571-07.jpg?height=335&width=313&top_left_y=1697&top_left_x=260)\n![](https://cdn.mathpix.com/cropped/d8de69c8-d690-4140-b324-3fa2e68fd571-07.jpg?height=314&width=282&top_left_y=1706&top_left_x=684)\n![](https://cdn.mathpix.com/cropped/d8de69c8-d690-4140-b324-3fa2e68fd571-07.jpg?height=320&width=273&top_left_y=1702&top_left_x=1067)</div>",
+              "html": "<div class=\"choiceTxt\">![](https://cdn.mathpix.com/cropped/d8de69c8-d690-4140-b324-3fa2e68fd571-07.jpg?height=335&width=313&top_left_y=1697&top_left_x=260)\n![](https://cdn.mathpix.com/cropped/d8de69c8-d690-4140-b324-3fa2e68fd571-07.jpg?height=314&width=282&top_left_y=1706&top_left_x=684)\n![](https://cdn.mathpix.com/cropped/d8de69c8-d690-4140-b324-3fa2e68fd571-07.jpg?height=320&width=273&top_left_y=1702&top_left_x=1067)</div>"
+            },
+            {
+              "key": "B",
+              "text": "<div class=\"choiceTxt\">![](https://cdn.mathpix.com/cropped/d8de69c8-d690-4140-b324-3fa2e68fd571-07.jpg?height=330&width=298&top_left_y=2108&top_left_x=262)\n![](https://cdn.mathpix.com/cropped/d8de69c8-d690-4140-b324-3fa2e68fd571-07.jpg?height=318&width=286&top_left_y=2108&top_left_x=675)\n![](https://cdn.mathpix.com/cropped/d8de69c8-d690-4140-b324-3fa2e68fd571-07.jpg?height=320&width=286&top_left_y=2104&top_left_x=1054)\n![](https://cdn.mathpix.com/cropped/d8de69c8-d690-4140-b324-3fa2e68fd571-08.jpg?height=596&width=932&top_left_y=233&top_left_x=161)</div>",
+              "html": "<div class=\"choiceTxt\">![](https://cdn.mathpix.com/cropped/d8de69c8-d690-4140-b324-3fa2e68fd571-07.jpg?height=330&width=298&top_left_y=2108&top_left_x=262)\n![](https://cdn.mathpix.com/cropped/d8de69c8-d690-4140-b324-3fa2e68fd571-07.jpg?height=318&width=286&top_left_y=2108&top_left_x=675)\n![](https://cdn.mathpix.com/cropped/d8de69c8-d690-4140-b324-3fa2e68fd571-07.jpg?height=320&width=286&top_left_y=2104&top_left_x=1054)\n![](https://cdn.mathpix.com/cropped/d8de69c8-d690-4140-b324-3fa2e68fd571-08.jpg?height=596&width=932&top_left_y=233&top_left_x=161)</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "9",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">10. A block of mass $m_{0}$ is in contact with the inner wall of a hollow cylinder and does not slip as the cylinder rotates with angular speed $\\omega_{0}$, as shown. The minimum coefficient of static friction necessary to prevent the block from slipping is $\\mu_{0}$. What minimum coefficient of static friction $\\mu$ is necessary to prevent a block of mass $2 m_{0}$ from slipping when the cylinder rotates with angular speed $2 \\omega_{0}$ ?</p>",
+          "options": [
+            {
+              "key": "A",
+              "text": "<div class=\"choiceTxt\">$\\mu=\\frac{1}{4} \\mu_{0}$</div>",
+              "html": "<div class=\"choiceTxt\">$\\mu=\\frac{1}{4} \\mu_{0}$</div>"
+            },
+            {
+              "key": "B",
+              "text": "<div class=\"choiceTxt\">$\\mu=\\frac{1}{2} \\mu_{0}$</div>",
+              "html": "<div class=\"choiceTxt\">$\\mu=\\frac{1}{2} \\mu_{0}$</div>"
+            },
+            {
+              "key": "C",
+              "text": "<div class=\"choiceTxt\">$\\mu=\\mu_{0}$</div>",
+              "html": "<div class=\"choiceTxt\">$\\mu=\\mu_{0}$</div>"
+            },
+            {
+              "key": "D",
+              "text": "<div class=\"choiceTxt\">$\\mu=2 \\mu_{0}$</div>",
+              "html": "<div class=\"choiceTxt\">$\\mu=2 \\mu_{0}$</div>"
+            },
+            {
+              "key": "E",
+              "text": "<div class=\"choiceTxt\">$\\mu=4 \\mu_{0}$\n![](https://cdn.mathpix.com/cropped/d8de69c8-d690-4140-b324-3fa2e68fd571-09.jpg?height=444&width=848&top_left_y=197&top_left_x=179)</div>",
+              "html": "<div class=\"choiceTxt\">$\\mu=4 \\mu_{0}$\n![](https://cdn.mathpix.com/cropped/d8de69c8-d690-4140-b324-3fa2e68fd571-09.jpg?height=444&width=848&top_left_y=197&top_left_x=179)</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "10",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">11. Three blocks of masses $M, 2 M$, and $3 M$ are connected by strings across two pulleys, as shown. The strings and pulleys have negligible mass. The $2 M$ block is at rest on a rough horizontal surface. The coefficient of kinetic friction between the $2 M$ block and the surface is $\\mu$. The blocks are released from rest and then accelerate. Which of the following equations represents the acceleration $a$ of the blocks?</p>",
+          "options": [
+            {
+              "key": "A",
+              "text": "<div class=\"choiceTxt\">$a=\\frac{(2-\\mu)}{3} g$</div>",
+              "html": "<div class=\"choiceTxt\">$a=\\frac{(2-\\mu)}{3} g$</div>"
+            },
+            {
+              "key": "B",
+              "text": "<div class=\"choiceTxt\">$a=\\frac{(1-\\mu)}{6} g$</div>",
+              "html": "<div class=\"choiceTxt\">$a=\\frac{(1-\\mu)}{6} g$</div>"
+            },
+            {
+              "key": "C",
+              "text": "<div class=\"choiceTxt\">$a=\\frac{(2-\\mu)}{6} g$</div>",
+              "html": "<div class=\"choiceTxt\">$a=\\frac{(2-\\mu)}{6} g$</div>"
+            },
+            {
+              "key": "D",
+              "text": "<div class=\"choiceTxt\">$a=\\frac{(1-\\mu)}{3} g$</div>",
+              "html": "<div class=\"choiceTxt\">$a=\\frac{(1-\\mu)}{3} g$</div>"
+            },
+            {
+              "key": "E",
+              "text": "<div class=\"choiceTxt\">$a=(1-\\mu) g$\n\n\\begin{figure}\n\\includegraphics[alt={},max width=\\textwidth]{https://cdn.mathpix.com/cropped/d8de69c8-d690-4140-b324-3fa2e68fd571-10.jpg?height=510&width=296&top_left_y=269&top_left_x=565}\n\\captionsetup{labelformat=empty}\n\\caption{Q}\n\\end{figure}\n\n\\begin{figure}\n\\includegraphics[alt={},max width=\\textwidth]{https://cdn.mathpix.com/cropped/d8de69c8-d690-4140-b324-3fa2e68fd571-10.jpg?height=430&width=288&top_left_y=349&top_left_x=965}\n\\captionsetup{labelformat=empty}\n\\caption{R}\n\\end{figure}\n\n\\begin{figure}\n\\includegraphics[alt={},max width=\\textwidth]{https://cdn.mathpix.com/cropped/d8de69c8-d690-4140-b324-3fa2e68fd571-10.jpg?height=499&width=291&top_left_y=280&top_left_x=1364}\n\\captionsetup{labelformat=empty}\n\\caption{S}\n\\end{figure}</div>",
+              "html": "<div class=\"choiceTxt\">$a=(1-\\mu) g$\n\n\\begin{figure}\n\\includegraphics[alt={},max width=\\textwidth]{https://cdn.mathpix.com/cropped/d8de69c8-d690-4140-b324-3fa2e68fd571-10.jpg?height=510&width=296&top_left_y=269&top_left_x=565}\n\\captionsetup{labelformat=empty}\n\\caption{Q}\n\\end{figure}\n\n\\begin{figure}\n\\includegraphics[alt={},max width=\\textwidth]{https://cdn.mathpix.com/cropped/d8de69c8-d690-4140-b324-3fa2e68fd571-10.jpg?height=430&width=288&top_left_y=349&top_left_x=965}\n\\captionsetup{labelformat=empty}\n\\caption{R}\n\\end{figure}\n\n\\begin{figure}\n\\includegraphics[alt={},max width=\\textwidth]{https://cdn.mathpix.com/cropped/d8de69c8-d690-4140-b324-3fa2e68fd571-10.jpg?height=499&width=291&top_left_y=280&top_left_x=1364}\n\\captionsetup{labelformat=empty}\n\\caption{S}\n\\end{figure}</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "11",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">12. Uniform bars $\\mathrm{Q}, \\mathrm{R}$, and S , each of mass $M$ and length $L$, can rotate with negligible friction about the fixed pivot points shown in the figure. At time $t=t_{0}$, a force of magnitude $F$ is exerted on each bar at the angle and point of contact shown. The torques exerted on the bars $\\mathrm{Q}, \\mathrm{R}$, and S are $\\tau_{\\mathrm{Q}}, \\tau_{\\mathrm{R}}$, and $\\tau_{\\mathrm{S}}$, respectively. The angular accelerations of bars $Q, R$, and $S$ are $\\alpha_{Q}, \\alpha_{R}$, and $\\alpha_{S}$, respectively. Which of the following correctly ranks the magnitudes of these quantities at $t=t_{0}$ ?  \\begin{tabular}{|l|l|l|} \\hline & Torque ( $\\tau$ ) & Angular Acceleration ( $\\alpha$ ) \\\\ \\hline A & $\\tau_{\\mathrm{Q}}=\\tau_{\\mathrm{R}}=\\tau_{\\mathrm{S}}$ & $\\alpha_{\\mathrm{Q}}=\\alpha_{\\mathrm{R}}=\\alpha_{\\mathrm{S}}$ \\\\ \\hline B & $\\tau_{Q}>\\tau_{R}>\\tau_{S}$ & $\\alpha_{\\mathrm{Q}}>\\alpha_{\\mathrm{R}}>\\alpha_{\\mathrm{S}}$ \\\\ \\hline C & $\\tau_{Q}>\\left(\\tau_{R}=\\tau_{S}\\right)$ & $\\alpha_{\\mathrm{Q}}>\\left(\\alpha_{\\mathrm{R}}=\\alpha_{\\mathrm{S}}\\right)$ \\\\ \\hline D & $\\tau_{Q}>\\left(\\tau_{R}=\\tau_{S}\\right)$ & $\\alpha_{\\mathrm{R}}>\\alpha_{\\mathrm{Q}}>\\alpha_{\\mathrm{S}}$ \\\\ \\hline E & $\\tau_{Q}>\\tau_{R}>\\tau_{S}$ & $\\alpha_{R}>\\alpha_{Q}>\\alpha_{S}$ \\\\ \\hline \\end{tabular}</p>",
+          "options": [
+            {
+              "key": "A",
+              "text": "<div class=\"choiceTxt\">A</div>",
+              "html": "<div class=\"choiceTxt\">A</div>"
+            },
+            {
+              "key": "B",
+              "text": "<div class=\"choiceTxt\">B</div>",
+              "html": "<div class=\"choiceTxt\">B</div>"
+            },
+            {
+              "key": "C",
+              "text": "<div class=\"choiceTxt\">C</div>",
+              "html": "<div class=\"choiceTxt\">C</div>"
+            },
+            {
+              "key": "D",
+              "text": "<div class=\"choiceTxt\">D</div>",
+              "html": "<div class=\"choiceTxt\">D</div>"
+            },
+            {
+              "key": "E",
+              "text": "<div class=\"choiceTxt\">E\n\n\\begin{figure}\n\\includegraphics[alt={},max width=\\textwidth]{https://cdn.mathpix.com/cropped/d8de69c8-d690-4140-b324-3fa2e68fd571-11.jpg?height=295&width=460&top_left_y=374&top_left_x=570}\n\\captionsetup{labelformat=empty}\n\\caption{Figure J}\n\\end{figure}\n\n\\begin{figure}\n\\includegraphics[alt={},max width=\\textwidth]{https://cdn.mathpix.com/cropped/d8de69c8-d690-4140-b324-3fa2e68fd571-11.jpg?height=245&width=236&top_left_y=406&top_left_x=1442}\n\\captionsetup{labelformat=empty}\n\\caption{Figure 2}\n\\end{figure}\n\nNotc: Figure I not drawn to scalc.</div>",
+              "html": "<div class=\"choiceTxt\">E\n\n\\begin{figure}\n\\includegraphics[alt={},max width=\\textwidth]{https://cdn.mathpix.com/cropped/d8de69c8-d690-4140-b324-3fa2e68fd571-11.jpg?height=295&width=460&top_left_y=374&top_left_x=570}\n\\captionsetup{labelformat=empty}\n\\caption{Figure J}\n\\end{figure}\n\n\\begin{figure}\n\\includegraphics[alt={},max width=\\textwidth]{https://cdn.mathpix.com/cropped/d8de69c8-d690-4140-b324-3fa2e68fd571-11.jpg?height=245&width=236&top_left_y=406&top_left_x=1442}\n\\captionsetup{labelformat=empty}\n\\caption{Figure 2}\n\\end{figure}\n\nNotc: Figure I not drawn to scalc.</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "12",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">13. Satellite 1 is at the position shown in Figure 1 while traveling in a circular orbit of radius $r$ around a planet. The velocity and acceleration of Satellite 1 are represented by the vectors $v_{1}$ and $a_{1}$, respectively, shows in Figure 2. Satellite 2 is in a circular orbit around the same planet with velocity and acceleration vectors $v_{2}$ and $a_{2}$, respectively. Which of the following shows a correct pair of orbital and vector diagrams for Satellite 2 ?</p>",
+          "options": [
+            {
+              "key": "A",
+              "text": "<div class=\"choiceTxt\">![](https://cdn.mathpix.com/cropped/d8de69c8-d690-4140-b324-3fa2e68fd571-11.jpg?height=592&width=761&top_left_y=1209&top_left_x=314)\n![](https://cdn.mathpix.com/cropped/d8de69c8-d690-4140-b324-3fa2e68fd571-11.jpg?height=245&width=237&top_left_y=1401&top_left_x=1172)</div>",
+              "html": "<div class=\"choiceTxt\">![](https://cdn.mathpix.com/cropped/d8de69c8-d690-4140-b324-3fa2e68fd571-11.jpg?height=592&width=761&top_left_y=1209&top_left_x=314)\n![](https://cdn.mathpix.com/cropped/d8de69c8-d690-4140-b324-3fa2e68fd571-11.jpg?height=245&width=237&top_left_y=1401&top_left_x=1172)</div>"
+            },
+            {
+              "key": "B",
+              "text": "<div class=\"choiceTxt\">![](https://cdn.mathpix.com/cropped/d8de69c8-d690-4140-b324-3fa2e68fd571-11.jpg?height=585&width=756&top_left_y=1855&top_left_x=319)\n![](https://cdn.mathpix.com/cropped/d8de69c8-d690-4140-b324-3fa2e68fd571-11.jpg?height=327&width=889&top_left_y=1953&top_left_x=1172)\n\nO\n![](https://cdn.mathpix.com/cropped/d8de69c8-d690-4140-b324-3fa2e68fd571-12.jpg?height=656&width=859&top_left_y=212&top_left_x=241)\n![](https://cdn.mathpix.com/cropped/d8de69c8-d690-4140-b324-3fa2e68fd571-12.jpg?height=376&width=302&top_left_y=330&top_left_x=1193)</div>",
+              "html": "<div class=\"choiceTxt\">![](https://cdn.mathpix.com/cropped/d8de69c8-d690-4140-b324-3fa2e68fd571-11.jpg?height=585&width=756&top_left_y=1855&top_left_x=319)\n![](https://cdn.mathpix.com/cropped/d8de69c8-d690-4140-b324-3fa2e68fd571-11.jpg?height=327&width=889&top_left_y=1953&top_left_x=1172)\n\nO\n![](https://cdn.mathpix.com/cropped/d8de69c8-d690-4140-b324-3fa2e68fd571-12.jpg?height=656&width=859&top_left_y=212&top_left_x=241)\n![](https://cdn.mathpix.com/cropped/d8de69c8-d690-4140-b324-3fa2e68fd571-12.jpg?height=376&width=302&top_left_y=330&top_left_x=1193)</div>"
+            },
+            {
+              "key": "D",
+              "text": "<div class=\"choiceTxt\">![](https://cdn.mathpix.com/cropped/d8de69c8-d690-4140-b324-3fa2e68fd571-12.jpg?height=165&width=375&top_left_y=990&top_left_x=260)\n![](https://cdn.mathpix.com/cropped/d8de69c8-d690-4140-b324-3fa2e68fd571-12.jpg?height=275&width=275&top_left_y=956&top_left_x=750)</div>",
+              "html": "<div class=\"choiceTxt\">![](https://cdn.mathpix.com/cropped/d8de69c8-d690-4140-b324-3fa2e68fd571-12.jpg?height=165&width=375&top_left_y=990&top_left_x=260)\n![](https://cdn.mathpix.com/cropped/d8de69c8-d690-4140-b324-3fa2e68fd571-12.jpg?height=275&width=275&top_left_y=956&top_left_x=750)</div>"
+            },
+            {
+              "key": "E",
+              "text": "<div class=\"choiceTxt\">![](https://cdn.mathpix.com/cropped/d8de69c8-d690-4140-b324-3fa2e68fd571-12.jpg?height=455&width=582&top_left_y=1314&top_left_x=753)</div>",
+              "html": "<div class=\"choiceTxt\">![](https://cdn.mathpix.com/cropped/d8de69c8-d690-4140-b324-3fa2e68fd571-12.jpg?height=455&width=582&top_left_y=1314&top_left_x=753)</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "13",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">14. A pendulum is made of a sphere attached to a thin rod of length $L$. The pendulum is suspended from a pivot point opposite the sphere. The diameter of the sphere is small in comparison with $L$. The pendulum is released and oscillates.  Which of the following could explain why the measured period of the pendulum is smaller than $2 \\pi \\sqrt{\\frac{L}{g}}$ ?</p>",
+          "options": [
+            {
+              "key": "A",
+              "text": "<div class=\"choiceTxt\">The density of the rod decreases from the pivot point to the free end of the rod.</div>",
+              "html": "<div class=\"choiceTxt\">The density of the rod decreases from the pivot point to the free end of the rod.</div>"
+            },
+            {
+              "key": "B",
+              "text": "<div class=\"choiceTxt\">The rod was given an initial velocity when released.</div>",
+              "html": "<div class=\"choiceTxt\">The rod was given an initial velocity when released.</div>"
+            },
+            {
+              "key": "C",
+              "text": "<div class=\"choiceTxt\">Air resistance acting on the pendulum is nonnegligible.</div>",
+              "html": "<div class=\"choiceTxt\">Air resistance acting on the pendulum is nonnegligible.</div>"
+            },
+            {
+              "key": "D",
+              "text": "<div class=\"choiceTxt\">Friction at the pivot point is nonnegligible.</div>",
+              "html": "<div class=\"choiceTxt\">Friction at the pivot point is nonnegligible.</div>"
+            },
+            {
+              "key": "E",
+              "text": "<div class=\"choiceTxt\">The experiment is done at a high altitude.\n\n\\begin{tabular}{|c|c|}\n\\hline Time & Position $(x, y)$ \\\\\n\\hline $0 s$ & $(4 \\mathrm{~m}, 10 \\mathrm{~m})$ \\\\\n\\hline 1 s & $(6 \\mathrm{~m}, 6 \\mathrm{~m})$ \\\\\n\\hline 2 s & $(8 \\mathrm{~m}, 3 \\mathrm{~m})$ \\\\\n\\hline 3 s & $(10 \\mathrm{~m}, 1 \\mathrm{~m})$ \\\\\n\\hline 4 s & $(12 \\mathrm{~m}, 0 \\mathrm{~m})$ \\\\\n\\hline\n\\end{tabular}</div>",
+              "html": "<div class=\"choiceTxt\">The experiment is done at a high altitude.\n\n\\begin{tabular}{|c|c|}\n\\hline Time & Position $(x, y)$ \\\\\n\\hline $0 s$ & $(4 \\mathrm{~m}, 10 \\mathrm{~m})$ \\\\\n\\hline 1 s & $(6 \\mathrm{~m}, 6 \\mathrm{~m})$ \\\\\n\\hline 2 s & $(8 \\mathrm{~m}, 3 \\mathrm{~m})$ \\\\\n\\hline 3 s & $(10 \\mathrm{~m}, 1 \\mathrm{~m})$ \\\\\n\\hline 4 s & $(12 \\mathrm{~m}, 0 \\mathrm{~m})$ \\\\\n\\hline\n\\end{tabular}</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "14",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">15. The table shows the position of an object on an $x y$-coordinate plane at each second during the trane interval $0 \\leq t \\leq 4$ s. Which of the following is a correct clain about the $x$-or $y$-componex of the objett's scceleration, $a_{x}$ or $a_{y}$ respectively, and provides correct justification using the object's position?  \\begin{tabular}{|l|l|l|} \\hline & Claim & Justification \\\\ \\hline A & $\\boldsymbol{a}_{\\boldsymbol{x}}>\\mathbf{0}$ & The $x$-position is always posivive \\\\ \\hline B & $\\boldsymbol{a}_{\\boldsymbol{x}}>\\mathbf{0}$ & The $x$-position is always positive and always increasing- \\\\ \\hline C & $a_{y}<0$ & The $y$-position is always decreasing \\\\ \\hline D & $a_{y}>0$ & The $y$-position is always positive \\\\ \\hline E & $a_{y}>0$ & The $y$-position is positive and decreases at a decreasing unc. \\\\ \\hline \\end{tabular}</p>",
+          "options": [
+            {
+              "key": "A",
+              "text": "<div class=\"choiceTxt\">A</div>",
+              "html": "<div class=\"choiceTxt\">A</div>"
+            },
+            {
+              "key": "B",
+              "text": "<div class=\"choiceTxt\">B</div>",
+              "html": "<div class=\"choiceTxt\">B</div>"
+            },
+            {
+              "key": "C",
+              "text": "<div class=\"choiceTxt\">C\n.</div>",
+              "html": "<div class=\"choiceTxt\">C\n.</div>"
+            },
+            {
+              "key": "D",
+              "text": "<div class=\"choiceTxt\">D</div>",
+              "html": "<div class=\"choiceTxt\">D</div>"
+            },
+            {
+              "key": "E",
+              "text": "<div class=\"choiceTxt\">E</div>",
+              "html": "<div class=\"choiceTxt\">E</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "15",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">16. A pendulum is made by attaching Sphere $A$ of mass $m$ to a rigid rod of length $L$ and negligible mass. The pendulum is held at rest horizontally. The pendulum is releasod from rest. At the bottom of the swing, Sphere A collides with an identical Sphere B. Spheres A and B stick rogether and continue to move upward. Which of the following is a correct expression for the velocity of the spheres immediately after the collision?</p>",
+          "options": [
+            {
+              "key": "A",
+              "text": "<div class=\"choiceTxt\">$\\sqrt{2 g L}$</div>",
+              "html": "<div class=\"choiceTxt\">$\\sqrt{2 g L}$</div>"
+            },
+            {
+              "key": "B",
+              "text": "<div class=\"choiceTxt\">$\\frac{\\sqrt{2 g L}}{2}$</div>",
+              "html": "<div class=\"choiceTxt\">$\\frac{\\sqrt{2 g L}}{2}$</div>"
+            },
+            {
+              "key": "C",
+              "text": "<div class=\"choiceTxt\">$2 \\sqrt{g L}$</div>",
+              "html": "<div class=\"choiceTxt\">$2 \\sqrt{g L}$</div>"
+            },
+            {
+              "key": "D",
+              "text": "<div class=\"choiceTxt\">$\\frac{g L}{4}$</div>",
+              "html": "<div class=\"choiceTxt\">$\\frac{g L}{4}$</div>"
+            },
+            {
+              "key": "E",
+              "text": "<div class=\"choiceTxt\">$\\mathbf{2 g L}$</div>",
+              "html": "<div class=\"choiceTxt\">$\\mathbf{2 g L}$</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "16",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">17. A block of mass $M$ rests on a borizontal surface. Frictional forces between the block and the surface are negligible. The block is attached to a spring that exerts a force of maguitode $F(x)=k x^{2}$, where $k$ is a positive constant with appropriate units and $x$ is the displacement from equilibrium. The block reaches a maximum speed $v$ when released from a compression distance $x=D$. What is the maximum speed of the block if $x=2 D$ ?</p>",
+          "options": [
+            {
+              "key": "A",
+              "text": "<div class=\"choiceTxt\">$\\sqrt{2} v$</div>",
+              "html": "<div class=\"choiceTxt\">$\\sqrt{2} v$</div>"
+            },
+            {
+              "key": "B",
+              "text": "<div class=\"choiceTxt\">$2 v$</div>",
+              "html": "<div class=\"choiceTxt\">$2 v$</div>"
+            },
+            {
+              "key": "C",
+              "text": "<div class=\"choiceTxt\">$4 v$</div>",
+              "html": "<div class=\"choiceTxt\">$4 v$</div>"
+            },
+            {
+              "key": "D",
+              "text": "<div class=\"choiceTxt\">$\\sqrt{8} v$</div>",
+              "html": "<div class=\"choiceTxt\">$\\sqrt{8} v$</div>"
+            },
+            {
+              "key": "E",
+              "text": "<div class=\"choiceTxt\">$\\mathbf{8 v}$\n\n\\begin{figure}\n\\includegraphics[alt={},max width=\\textwidth]{https://cdn.mathpix.com/cropped/d8de69c8-d690-4140-b324-3fa2e68fd571-16.jpg?height=172&width=1220&top_left_y=367&top_left_x=408}\n\\captionsetup{labelformat=empty}\n\\caption{Figure 1}\n\\end{figure}\n\n\\begin{figure}\n\\includegraphics[alt={},max width=\\textwidth]{https://cdn.mathpix.com/cropped/d8de69c8-d690-4140-b324-3fa2e68fd571-16.jpg?height=168&width=1229&top_left_y=743&top_left_x=417}\n\\captionsetup{labelformat=empty}\n\\caption{Figure 2}\n\\end{figure}</div>",
+              "html": "<div class=\"choiceTxt\">$\\mathbf{8 v}$\n\n\\begin{figure}\n\\includegraphics[alt={},max width=\\textwidth]{https://cdn.mathpix.com/cropped/d8de69c8-d690-4140-b324-3fa2e68fd571-16.jpg?height=172&width=1220&top_left_y=367&top_left_x=408}\n\\captionsetup{labelformat=empty}\n\\caption{Figure 1}\n\\end{figure}\n\n\\begin{figure}\n\\includegraphics[alt={},max width=\\textwidth]{https://cdn.mathpix.com/cropped/d8de69c8-d690-4140-b324-3fa2e68fd571-16.jpg?height=168&width=1229&top_left_y=743&top_left_x=417}\n\\captionsetup{labelformat=empty}\n\\caption{Figure 2}\n\\end{figure}</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "17",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">18. Blocks A, B, and C with masses $1.0 \\mathrm{~kg}, 3.0 \\mathrm{~kg}$, and 2.0 kg , respectively, are on a level floor. There is negligible friction between the blocks and the floor. Block A moves at $+8.0 \\mathrm{~m} / \\mathrm{s}$, while blocks B and C are at rest, as shown in Figure 1. Block A collides with and sticks to Block B. Blocks A and B then collide with but do not stick to Block C. After the collision, Block C moves at $+2.0 \\mathrm{~m} / \\mathrm{s}$, as shown in Figure 2. What is the velocity of blocks A and B after they collide with Block C?</p>",
+          "options": [
+            {
+              "key": "A",
+              "text": "<div class=\"choiceTxt\">$-3.7 \\mathrm{~m} / \\mathrm{s}$</div>",
+              "html": "<div class=\"choiceTxt\">$-3.7 \\mathrm{~m} / \\mathrm{s}$</div>"
+            },
+            {
+              "key": "B",
+              "text": "<div class=\"choiceTxt\">$-1.4 \\mathrm{~m} / \\mathrm{s}$</div>",
+              "html": "<div class=\"choiceTxt\">$-1.4 \\mathrm{~m} / \\mathrm{s}$</div>"
+            },
+            {
+              "key": "C",
+              "text": "<div class=\"choiceTxt\">$-1.0 \\mathrm{~m} / \\mathrm{s}$</div>",
+              "html": "<div class=\"choiceTxt\">$-1.0 \\mathrm{~m} / \\mathrm{s}$</div>"
+            },
+            {
+              "key": "D",
+              "text": "<div class=\"choiceTxt\">$+1.0 \\mathrm{~m} / \\mathrm{s}$</div>",
+              "html": "<div class=\"choiceTxt\">$+1.0 \\mathrm{~m} / \\mathrm{s}$</div>"
+            },
+            {
+              "key": "E",
+              "text": "<div class=\"choiceTxt\">$+1.4 \\mathrm{~m} / \\mathrm{s}$\n![](https://cdn.mathpix.com/cropped/d8de69c8-d690-4140-b324-3fa2e68fd571-17.jpg?height=483&width=585&top_left_y=387&top_left_x=830)\n![](https://cdn.mathpix.com/cropped/d8de69c8-d690-4140-b324-3fa2e68fd571-17.jpg?height=56&width=1870&top_left_y=908&top_left_x=177) the black as a function of time $x$, as shown. Which of the following graphs test illustrates how ibe velocity reff the bloct varies as a function of pasition $x$ ?</div>",
+              "html": "<div class=\"choiceTxt\">$+1.4 \\mathrm{~m} / \\mathrm{s}$\n![](https://cdn.mathpix.com/cropped/d8de69c8-d690-4140-b324-3fa2e68fd571-17.jpg?height=483&width=585&top_left_y=387&top_left_x=830)\n![](https://cdn.mathpix.com/cropped/d8de69c8-d690-4140-b324-3fa2e68fd571-17.jpg?height=56&width=1870&top_left_y=908&top_left_x=177) the black as a function of time $x$, as shown. Which of the following graphs test illustrates how ibe velocity reff the bloct varies as a function of pasition $x$ ?</div>"
+            },
+            {
+              "key": "A",
+              "text": "<div class=\"choiceTxt\">![](https://cdn.mathpix.com/cropped/d8de69c8-d690-4140-b324-3fa2e68fd571-17.jpg?height=426&width=809&top_left_y=1097&top_left_x=319)</div>",
+              "html": "<div class=\"choiceTxt\">![](https://cdn.mathpix.com/cropped/d8de69c8-d690-4140-b324-3fa2e68fd571-17.jpg?height=426&width=809&top_left_y=1097&top_left_x=319)</div>"
+            },
+            {
+              "key": "B",
+              "text": "<div class=\"choiceTxt\">![](https://cdn.mathpix.com/cropped/d8de69c8-d690-4140-b324-3fa2e68fd571-17.jpg?height=414&width=781&top_left_y=1104&top_left_x=1232)</div>",
+              "html": "<div class=\"choiceTxt\">![](https://cdn.mathpix.com/cropped/d8de69c8-d690-4140-b324-3fa2e68fd571-17.jpg?height=414&width=781&top_left_y=1104&top_left_x=1232)</div>"
+            },
+            {
+              "key": "C",
+              "text": "<div class=\"choiceTxt\">![](https://cdn.mathpix.com/cropped/d8de69c8-d690-4140-b324-3fa2e68fd571-17.jpg?height=414&width=796&top_left_y=1608&top_left_x=330)</div>",
+              "html": "<div class=\"choiceTxt\">![](https://cdn.mathpix.com/cropped/d8de69c8-d690-4140-b324-3fa2e68fd571-17.jpg?height=414&width=796&top_left_y=1608&top_left_x=330)</div>"
+            },
+            {
+              "key": "D",
+              "text": "<div class=\"choiceTxt\">![](https://cdn.mathpix.com/cropped/d8de69c8-d690-4140-b324-3fa2e68fd571-17.jpg?height=414&width=765&top_left_y=1606&top_left_x=1241)</div>",
+              "html": "<div class=\"choiceTxt\">![](https://cdn.mathpix.com/cropped/d8de69c8-d690-4140-b324-3fa2e68fd571-17.jpg?height=414&width=765&top_left_y=1606&top_left_x=1241)</div>"
+            },
+            {
+              "key": "E",
+              "text": "<div class=\"choiceTxt\">![](https://cdn.mathpix.com/cropped/d8de69c8-d690-4140-b324-3fa2e68fd571-17.jpg?height=300&width=767&top_left_y=2067&top_left_x=349)\n\n\\section*{Velocity of Cart A}\n![](https://cdn.mathpix.com/cropped/d8de69c8-d690-4140-b324-3fa2e68fd571-18.jpg?height=777&width=713&top_left_y=460&top_left_x=223)</div>",
+              "html": "<div class=\"choiceTxt\">![](https://cdn.mathpix.com/cropped/d8de69c8-d690-4140-b324-3fa2e68fd571-17.jpg?height=300&width=767&top_left_y=2067&top_left_x=349)\n\n\\section*{Velocity of Cart A}\n![](https://cdn.mathpix.com/cropped/d8de69c8-d690-4140-b324-3fa2e68fd571-18.jpg?height=777&width=713&top_left_y=460&top_left_x=223)</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "18",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">20. Cart A of mass $m_{\\mathrm{A}}$ moves with an initial velocity $\\nu_{\\mathrm{A}}$ and then collides elastically with Cart B. The velocity of Cart A as a function of time is shown in the graph. Which of the following correctly describes the mass and initial velocity of Cart B, $m_{\\mathrm{B}}$ and $\\nu_{\\mathrm{B}}$, respectively?  \\begin{tabular}{|l|l|l|} \\hline & Mass & Velocity \\\\ \\hline A & $m_{\\mathrm{B}}<m_{\\mathrm{A}}$ & $\\nu_{\\mathrm{B}}=0$ \\\\ \\hline B & $m_{\\mathrm{B}}=m_{\\mathrm{A}}$ & $\\nu_{\\mathrm{B}}=0$ \\\\ \\hline C & $m_{\\mathrm{B}}>m_{\\mathrm{A}}$ & $\\nu_{B}=0$ \\\\ \\hline D & $m_{\\mathrm{B}}=m_{\\mathrm{A}}$ & $\\nu_{\\mathrm{B}}=-\\nu_{\\mathrm{A}}$ \\\\ \\hline E & $m_{\\mathrm{B}}>m_{\\mathrm{A}}$ & $\\nu_{\\mathrm{B}}=-\\nu_{\\mathrm{A}}$ \\\\ \\hline \\end{tabular}</p>",
+          "options": [
+            {
+              "key": "A",
+              "text": "<div class=\"choiceTxt\">A</div>",
+              "html": "<div class=\"choiceTxt\">A</div>"
+            },
+            {
+              "key": "B",
+              "text": "<div class=\"choiceTxt\">B</div>",
+              "html": "<div class=\"choiceTxt\">B</div>"
+            },
+            {
+              "key": "C",
+              "text": "<div class=\"choiceTxt\">C</div>",
+              "html": "<div class=\"choiceTxt\">C</div>"
+            },
+            {
+              "key": "D",
+              "text": "<div class=\"choiceTxt\">D</div>",
+              "html": "<div class=\"choiceTxt\">D</div>"
+            },
+            {
+              "key": "E",
+              "text": "<div class=\"choiceTxt\">E</div>",
+              "html": "<div class=\"choiceTxt\">E</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "19",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">21. An object is launched at an angle of $45^{\\circ}$ above the horizontal with a speed of $10 \\mathrm{~m} / \\mathrm{s}$. Which of the following is most nearly the height of the object when the object is a horizontal distance of 10 m from the launch site? Air resistance is negligible.</p>",
+          "options": [
+            {
+              "key": "A",
+              "text": "<div class=\"choiceTxt\">0 m</div>",
+              "html": "<div class=\"choiceTxt\">0 m</div>"
+            },
+            {
+              "key": "B",
+              "text": "<div class=\"choiceTxt\">5 m</div>",
+              "html": "<div class=\"choiceTxt\">5 m</div>"
+            },
+            {
+              "key": "C",
+              "text": "<div class=\"choiceTxt\">10 m</div>",
+              "html": "<div class=\"choiceTxt\">10 m</div>"
+            },
+            {
+              "key": "D",
+              "text": "<div class=\"choiceTxt\">15 m</div>",
+              "html": "<div class=\"choiceTxt\">15 m</div>"
+            },
+            {
+              "key": "E",
+              "text": "<div class=\"choiceTxt\">20 m\n![](https://cdn.mathpix.com/cropped/d8de69c8-d690-4140-b324-3fa2e68fd571-19.jpg?height=446&width=579&top_left_y=237&top_left_x=814)</div>",
+              "html": "<div class=\"choiceTxt\">20 m\n![](https://cdn.mathpix.com/cropped/d8de69c8-d690-4140-b324-3fa2e68fd571-19.jpg?height=446&width=579&top_left_y=237&top_left_x=814)</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "20",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">22. A sphere is conneced to a vertical pole by a string of negligible mass, as shown. The sphere travels in a horizontal circular path around the polo. The angle between the string and the pole is initially $\\theta$. A resistive force is exerted on the sphere that opposes the motion of the sphere. Which of the following correctly predic and justifies the effect of the resistive force on $\\theta$ ?  \\begin{tabular}{|l|l|l|} \\hline & Effect on $\\theta$ & Justification \\\\ \\hline A & $\\theta$ increases & The tension in the string increases. \\\\ \\hline B & 0 increases & The speed of the sphere decreases. \\\\ \\hline C & $\\theta$ decreases & The tension in the string increases. \\\\ \\hline D & $\\theta$ decreases & The speed of the sphere decreases. \\\\ \\hline E & $\\theta$ remains constant & There is no relationship between the resistive force and $\\theta$. \\\\ \\hline \\end{tabular}</p>",
+          "options": [
+            {
+              "key": "A",
+              "text": "<div class=\"choiceTxt\">A</div>",
+              "html": "<div class=\"choiceTxt\">A</div>"
+            },
+            {
+              "key": "B",
+              "text": "<div class=\"choiceTxt\">B</div>",
+              "html": "<div class=\"choiceTxt\">B</div>"
+            },
+            {
+              "key": "C",
+              "text": "<div class=\"choiceTxt\">C</div>",
+              "html": "<div class=\"choiceTxt\">C</div>"
+            },
+            {
+              "key": "D",
+              "text": "<div class=\"choiceTxt\">D</div>",
+              "html": "<div class=\"choiceTxt\">D</div>"
+            },
+            {
+              "key": "E",
+              "text": "<div class=\"choiceTxt\">E\n![](https://cdn.mathpix.com/cropped/d8de69c8-d690-4140-b324-3fa2e68fd571-20.jpg?height=233&width=683&top_left_y=228&top_left_x=570)\n$$\n\\begin{gathered}\nt=f_{1} \\\\\n\\text { Figure } 1\n\\end{gathered}\n$$\n![](https://cdn.mathpix.com/cropped/d8de69c8-d690-4140-b324-3fa2e68fd571-20.jpg?height=629&width=106&top_left_y=314&top_left_x=1430)\n$$\nt=t_{2}\n$$\n\nFigure 2</div>",
+              "html": "<div class=\"choiceTxt\">E\n![](https://cdn.mathpix.com/cropped/d8de69c8-d690-4140-b324-3fa2e68fd571-20.jpg?height=233&width=683&top_left_y=228&top_left_x=570)\n$$\n\\begin{gathered}\nt=f_{1} \\\\\n\\text { Figure } 1\n\\end{gathered}\n$$\n![](https://cdn.mathpix.com/cropped/d8de69c8-d690-4140-b324-3fa2e68fd571-20.jpg?height=629&width=106&top_left_y=314&top_left_x=1430)\n$$\nt=t_{2}\n$$\n\nFigure 2</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "21",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">23. A uniform rod of mass $M$ and length $L$ is free to rotate about a fixed axis about one end. The rod is beld horizontally, as shown in Figure 1, released, and swings in the vertical plane. Time $t_{j}$ is immediately after the rod is released, and time $t_{2}$ is the time when the rod passes through the vertical, as shown in Figure 2. If the procedure is repeated with a rod of the same mass but greater length, which of the following quantities decreases?</p>",
+          "options": [
+            {
+              "key": "A",
+              "text": "<div class=\"choiceTxt\">Torque exerted on the rod at $t_{1}$</div>",
+              "html": "<div class=\"choiceTxt\">Torque exerted on the rod at $t_{1}$</div>"
+            },
+            {
+              "key": "B",
+              "text": "<div class=\"choiceTxt\">Angular acceleration at $t_{1}$.</div>",
+              "html": "<div class=\"choiceTxt\">Angular acceleration at $t_{1}$.</div>"
+            },
+            {
+              "key": "C",
+              "text": "<div class=\"choiceTxt\">Angular momentum of the rod at $t_{2}$</div>",
+              "html": "<div class=\"choiceTxt\">Angular momentum of the rod at $t_{2}$</div>"
+            },
+            {
+              "key": "D",
+              "text": "<div class=\"choiceTxt\">Rotational kinetic energy of the rod at $t_{2}$</div>",
+              "html": "<div class=\"choiceTxt\">Rotational kinetic energy of the rod at $t_{2}$</div>"
+            },
+            {
+              "key": "E",
+              "text": "<div class=\"choiceTxt\">Tangential speed of the free end of the rod at $t_{2}$\n![](https://cdn.mathpix.com/cropped/d8de69c8-d690-4140-b324-3fa2e68fd571-21.jpg?height=428&width=608&top_left_y=387&top_left_x=826)</div>",
+              "html": "<div class=\"choiceTxt\">Tangential speed of the free end of the rod at $t_{2}$\n![](https://cdn.mathpix.com/cropped/d8de69c8-d690-4140-b324-3fa2e68fd571-21.jpg?height=428&width=608&top_left_y=387&top_left_x=826)</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "22",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">35. The position of an object is marked at regular time intervals on a thin strip of paper, which is then placed above a ruler, as shown. The position of the object is modeled by the equation $x=A+B t+C r^{2}$, where $A, B$, and $C$ are constants with appropriate units. The positive direction is to the right. If the motion of the object is changed such that the position of the object is modeled by the equation $x=A-B t+C t^{2}$, which of the following could represent the position of the object at regular time intervals?</p>",
+          "options": [
+            {
+              "key": "A",
+              "text": "<div class=\"choiceTxt\">![](https://cdn.mathpix.com/cropped/d8de69c8-d690-4140-b324-3fa2e68fd571-22.jpg?height=266&width=884&top_left_y=953&top_left_x=333)</div>",
+              "html": "<div class=\"choiceTxt\">![](https://cdn.mathpix.com/cropped/d8de69c8-d690-4140-b324-3fa2e68fd571-22.jpg?height=266&width=884&top_left_y=953&top_left_x=333)</div>"
+            },
+            {
+              "key": "B",
+              "text": "<div class=\"choiceTxt\">![](https://cdn.mathpix.com/cropped/d8de69c8-d690-4140-b324-3fa2e68fd571-22.jpg?height=266&width=879&top_left_y=1307&top_left_x=333)</div>",
+              "html": "<div class=\"choiceTxt\">![](https://cdn.mathpix.com/cropped/d8de69c8-d690-4140-b324-3fa2e68fd571-22.jpg?height=266&width=879&top_left_y=1307&top_left_x=333)</div>"
+            },
+            {
+              "key": "C",
+              "text": "<div class=\"choiceTxt\">![](https://cdn.mathpix.com/cropped/d8de69c8-d690-4140-b324-3fa2e68fd571-22.jpg?height=264&width=870&top_left_y=1665&top_left_x=333)</div>",
+              "html": "<div class=\"choiceTxt\">![](https://cdn.mathpix.com/cropped/d8de69c8-d690-4140-b324-3fa2e68fd571-22.jpg?height=264&width=870&top_left_y=1665&top_left_x=333)</div>"
+            },
+            {
+              "key": "D",
+              "text": "<div class=\"choiceTxt\">![](https://cdn.mathpix.com/cropped/d8de69c8-d690-4140-b324-3fa2e68fd571-22.jpg?height=266&width=879&top_left_y=2019&top_left_x=333)\n\nÆ)\n![](https://cdn.mathpix.com/cropped/d8de69c8-d690-4140-b324-3fa2e68fd571-22.jpg?height=272&width=884&top_left_y=2380&top_left_x=328)</div>",
+              "html": "<div class=\"choiceTxt\">![](https://cdn.mathpix.com/cropped/d8de69c8-d690-4140-b324-3fa2e68fd571-22.jpg?height=266&width=879&top_left_y=2019&top_left_x=333)\n\nÆ)\n![](https://cdn.mathpix.com/cropped/d8de69c8-d690-4140-b324-3fa2e68fd571-22.jpg?height=272&width=884&top_left_y=2380&top_left_x=328)</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "23",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">26. A student is performing an experiment to determine the power delivered to a block then is pulled at a constant speed across a surface by an external force. There is friction between the block and surface. Which of the following sets of equipment and corresponding measurements would allow the student to decermine the power delivered to the block by the external force?</p>",
+          "options": [
+            {
+              "key": "A",
+              "text": "<div class=\"choiceTxt\">A force sensor to measure the applied force, a stopwarch to measure time, and a scale to measure the mass of the block</div>",
+              "html": "<div class=\"choiceTxt\">A force sensor to measure the applied force, a stopwarch to measure time, and a scale to measure the mass of the block</div>"
+            },
+            {
+              "key": "B",
+              "text": "<div class=\"choiceTxt\">A stopwatch to measure time and a motion sensor to measure speed</div>",
+              "html": "<div class=\"choiceTxt\">A stopwatch to measure time and a motion sensor to measure speed</div>"
+            },
+            {
+              "key": "C",
+              "text": "<div class=\"choiceTxt\">A motion sensor to measure speed, a stopwatch to measure time, and a meterstick to measure distance</div>",
+              "html": "<div class=\"choiceTxt\">A motion sensor to measure speed, a stopwatch to measure time, and a meterstick to measure distance</div>"
+            },
+            {
+              "key": "D",
+              "text": "<div class=\"choiceTxt\">A force sensor to measure the applied force and a motion sensor to measure speed</div>",
+              "html": "<div class=\"choiceTxt\">A force sensor to measure the applied force and a motion sensor to measure speed</div>"
+            },
+            {
+              "key": "E",
+              "text": "<div class=\"choiceTxt\">A force sensor to measure the applied force, a scale to measure the mass of the block, and a meterstick to measure distance\n![](https://cdn.mathpix.com/cropped/d8de69c8-d690-4140-b324-3fa2e68fd571-23.jpg?height=510&width=606&top_left_y=410&top_left_x=1350)\n![](https://cdn.mathpix.com/cropped/d8de69c8-d690-4140-b324-3fa2e68fd571-23.jpg?height=503&width=711&top_left_y=969&top_left_x=1245)\n\nNote: Figures not drawn to seale.</div>",
+              "html": "<div class=\"choiceTxt\">A force sensor to measure the applied force, a scale to measure the mass of the block, and a meterstick to measure distance\n![](https://cdn.mathpix.com/cropped/d8de69c8-d690-4140-b324-3fa2e68fd571-23.jpg?height=510&width=606&top_left_y=410&top_left_x=1350)\n![](https://cdn.mathpix.com/cropped/d8de69c8-d690-4140-b324-3fa2e68fd571-23.jpg?height=503&width=711&top_left_y=969&top_left_x=1245)\n\nNote: Figures not drawn to seale.</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "24",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">27. Object A of mass 3.0 kg moves with velocity $6.0 \\mathrm{~m} / \\mathrm{s}$ direcred $30^{\\circ}$ south of eact. is shown. In the same plane, Object B of mass 2.0 kg moves with velocity $9.0 \\mathrm{~m} / \\mathrm{s}$ directed $30^{\\circ}$ noth of east, as shown. The objers then collide and stick together. Which of the following best approximates the velocity of the objects after the collision?</p>",
+          "options": [
+            {
+              "key": "A",
+              "text": "<div class=\"choiceTxt\">Zero</div>",
+              "html": "<div class=\"choiceTxt\">Zero</div>"
+            },
+            {
+              "key": "B",
+              "text": "<div class=\"choiceTxt\">$62 \\mathrm{~m} / \\mathrm{s}$ directed east</div>",
+              "html": "<div class=\"choiceTxt\">$62 \\mathrm{~m} / \\mathrm{s}$ directed east</div>"
+            },
+            {
+              "key": "C",
+              "text": "<div class=\"choiceTxt\">$7.2 \\mathrm{~m} / \\mathrm{s}$ directed east</div>",
+              "html": "<div class=\"choiceTxt\">$7.2 \\mathrm{~m} / \\mathrm{s}$ directed east</div>"
+            },
+            {
+              "key": "D",
+              "text": "<div class=\"choiceTxt\">$13 \\mathrm{~m} / \\mathrm{s}$ directed $7^{\\circ}$ north of east</div>",
+              "html": "<div class=\"choiceTxt\">$13 \\mathrm{~m} / \\mathrm{s}$ directed $7^{\\circ}$ north of east</div>"
+            },
+            {
+              "key": "E",
+              "text": "<div class=\"choiceTxt\">$31 \\mathrm{~m} / \\mathrm{s}$ dirocted east\n\n\\begin{figure}\n\\includegraphics[alt={},max width=\\textwidth]{https://cdn.mathpix.com/cropped/d8de69c8-d690-4140-b324-3fa2e68fd571-24.jpg?height=555&width=663&top_left_y=246&top_left_x=150}\n\\captionsetup{labelformat=empty}\n\\caption{Figure 1}\n\\end{figure}\n\n\\begin{figure}\n\\includegraphics[alt={},max width=\\textwidth]{https://cdn.mathpix.com/cropped/d8de69c8-d690-4140-b324-3fa2e68fd571-24.jpg?height=411&width=969&top_left_y=333&top_left_x=887}\n\\captionsetup{labelformat=empty}\n\\caption{Figure 2}\n\\end{figure}</div>",
+              "html": "<div class=\"choiceTxt\">$31 \\mathrm{~m} / \\mathrm{s}$ dirocted east\n\n\\begin{figure}\n\\includegraphics[alt={},max width=\\textwidth]{https://cdn.mathpix.com/cropped/d8de69c8-d690-4140-b324-3fa2e68fd571-24.jpg?height=555&width=663&top_left_y=246&top_left_x=150}\n\\captionsetup{labelformat=empty}\n\\caption{Figure 1}\n\\end{figure}\n\n\\begin{figure}\n\\includegraphics[alt={},max width=\\textwidth]{https://cdn.mathpix.com/cropped/d8de69c8-d690-4140-b324-3fa2e68fd571-24.jpg?height=411&width=969&top_left_y=333&top_left_x=887}\n\\captionsetup{labelformat=empty}\n\\caption{Figure 2}\n\\end{figure}</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "25",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">28. A pulley consists of an inner disk of radius $r$ and an outer disk of radius $2 r$. The pulley can rotate about an axle perpendicular to the plane of the page. In an experiment, a force of magnitude $F$ is excrted tangent to the edge of the inner disk, as shown in Figure 1, for a time $\\Delta t$. The experiment is repeated but an additional force of magnitude $2 F$ is exerted tangent to the edge of the outer disk, as shown in Figure 2, for the same time $\\Delta t$. The magnitudes of the changes in the angular momentum of the pulley in figures 1 and 2 are $\\Delta L_{1}$ and $\\Delta L_{2}$, respectively. Which of the following correctly relates $\\Delta L_{2}$ and $\\Delta L_{1}$ ?</p>",
+          "options": [
+            {
+              "key": "A",
+              "text": "<div class=\"choiceTxt\">$\\Delta L_{2}=\\frac{1}{3} \\Delta L_{1}$</div>",
+              "html": "<div class=\"choiceTxt\">$\\Delta L_{2}=\\frac{1}{3} \\Delta L_{1}$</div>"
+            },
+            {
+              "key": "B",
+              "text": "<div class=\"choiceTxt\">$\\Delta L_{2}=\\frac{1}{2} \\Delta L_{1}$</div>",
+              "html": "<div class=\"choiceTxt\">$\\Delta L_{2}=\\frac{1}{2} \\Delta L_{1}$</div>"
+            },
+            {
+              "key": "C",
+              "text": "<div class=\"choiceTxt\">$\\Delta L_{2}=\\Delta L_{1}$</div>",
+              "html": "<div class=\"choiceTxt\">$\\Delta L_{2}=\\Delta L_{1}$</div>"
+            },
+            {
+              "key": "D",
+              "text": "<div class=\"choiceTxt\">$\\Delta L_{2}=2 \\Delta L_{1}$</div>",
+              "html": "<div class=\"choiceTxt\">$\\Delta L_{2}=2 \\Delta L_{1}$</div>"
+            },
+            {
+              "key": "E",
+              "text": "<div class=\"choiceTxt\">$\\Delta L_{2}=3 \\Delta L_{1}$\n![](https://cdn.mathpix.com/cropped/d8de69c8-d690-4140-b324-3fa2e68fd571-25.jpg?height=293&width=820&top_left_y=394&top_left_x=725)</div>",
+              "html": "<div class=\"choiceTxt\">$\\Delta L_{2}=3 \\Delta L_{1}$\n![](https://cdn.mathpix.com/cropped/d8de69c8-d690-4140-b324-3fa2e68fd571-25.jpg?height=293&width=820&top_left_y=394&top_left_x=725)</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "26",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">29. An object is launched at an angle of $45^{\\circ}$ above the horizontal across level ground. The horizontal displacement $R_{0}$ of the object is measured, as shown. Air resistance is negligible. The launch angle is increased, and the object is launched again with the same initial speed. The new horizontal displacement $R_{\\text {new }}$ of the object is measured. Which of the following correctly compares $R_{0}$ and $R_{\\text {new }}$ and provides valid justification?  \\begin{tabular}{c|c}  & Displacement \\\\ \\hline A & $R_{0}>R_{\\text {new }}$ \\\\ B & $R_{0}>R_{\\text {new }}$ \\\\ C & $R_{0}<R_{\\text {new }}$ \\\\ D & $R_{0}<R_{\\text {new }}$ \\\\ E & $R_{0}=R_{\\text {new }}$ \\end{tabular}  \\section*{Supporting Claim}  The object would hit the ground after a shorter time. The horizontal component of the object's initial speed would be smaller. The object would hit the ground after a longer time. The initial kinetic energy of the object would be greater.  The initial kinetic energy of the object would be unchanged.</p>",
+          "options": [
+            {
+              "key": "A",
+              "text": "<div class=\"choiceTxt\">A</div>",
+              "html": "<div class=\"choiceTxt\">A</div>"
+            },
+            {
+              "key": "B",
+              "text": "<div class=\"choiceTxt\">B .</div>",
+              "html": "<div class=\"choiceTxt\">B .</div>"
+            },
+            {
+              "key": "C",
+              "text": "<div class=\"choiceTxt\">C</div>",
+              "html": "<div class=\"choiceTxt\">C</div>"
+            },
+            {
+              "key": "D",
+              "text": "<div class=\"choiceTxt\">D</div>",
+              "html": "<div class=\"choiceTxt\">D</div>"
+            },
+            {
+              "key": "E",
+              "text": "<div class=\"choiceTxt\">E\n![](https://cdn.mathpix.com/cropped/d8de69c8-d690-4140-b324-3fa2e68fd571-26.jpg?height=914&width=1168&top_left_y=360&top_left_x=492)</div>",
+              "html": "<div class=\"choiceTxt\">E\n![](https://cdn.mathpix.com/cropped/d8de69c8-d690-4140-b324-3fa2e68fd571-26.jpg?height=914&width=1168&top_left_y=360&top_left_x=492)</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "27",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">30. A car travels with a constant speed $v$ along a circular road, as shown in the Top View. The circular road has radius $r$. The road is banked at an angle $\\theta$ with respect to the $x$-axis. The normal force $F_{N}$ and the gravitational force $F_{g}$ exerted on the car are shown in the Front View. At what angle $\\theta$ should the road be banked so that no frictional force between the car and roed is required to keep the car from slipping?</p>",
+          "options": [
+            {
+              "key": "A",
+              "text": "<div class=\"choiceTxt\">$\\sin ^{-1}\\left(\\frac{v^{2}}{r g}\\right)$</div>",
+              "html": "<div class=\"choiceTxt\">$\\sin ^{-1}\\left(\\frac{v^{2}}{r g}\\right)$</div>"
+            },
+            {
+              "key": "B",
+              "text": "<div class=\"choiceTxt\">$\\sin ^{-1}\\left(\\frac{r g}{y^{2}}\\right)$</div>",
+              "html": "<div class=\"choiceTxt\">$\\sin ^{-1}\\left(\\frac{r g}{y^{2}}\\right)$</div>"
+            },
+            {
+              "key": "C",
+              "text": "<div class=\"choiceTxt\">$\\tan ^{-1}\\left(\\frac{v^{2}}{r g}\\right)$</div>",
+              "html": "<div class=\"choiceTxt\">$\\tan ^{-1}\\left(\\frac{v^{2}}{r g}\\right)$</div>"
+            },
+            {
+              "key": "D",
+              "text": "<div class=\"choiceTxt\">$\\tan ^{-1}\\left(\\frac{r g}{v^{2}}\\right)$</div>",
+              "html": "<div class=\"choiceTxt\">$\\tan ^{-1}\\left(\\frac{r g}{v^{2}}\\right)$</div>"
+            },
+            {
+              "key": "E",
+              "text": "<div class=\"choiceTxt\">$\\tan ^{-1}\\left(\\frac{\\nu}{\\sqrt{\\sqrt{g}}}\\right)$\n![](https://cdn.mathpix.com/cropped/d8de69c8-d690-4140-b324-3fa2e68fd571-27.jpg?height=564&width=738&top_left_y=342&top_left_x=196)</div>",
+              "html": "<div class=\"choiceTxt\">$\\tan ^{-1}\\left(\\frac{\\nu}{\\sqrt{\\sqrt{g}}}\\right)$\n![](https://cdn.mathpix.com/cropped/d8de69c8-d690-4140-b324-3fa2e68fd571-27.jpg?height=564&width=738&top_left_y=342&top_left_x=196)</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "28",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">31. The potential energy $U(x)$ of a system varies with the position $x$ of an object in the system. The potential energy, as shown in the graph, is described by $U(x)=A x^{2}+B$, where $A$ and $B$ are positive constants with appropriate units. There are no external forces acting on the system. Which of the following gives the correct magnitude and direction of the $x$-component of the net force on the object when it is at position $x_{0}$, where $x_{0}>0$ ?  \\begin{tabular}{|l|l|l|} \\hline & Magnitude & Direction \\\\ \\hline A & $\\frac{1}{3} A x_{0}{ }^{3}+B x_{0}$ & +x \\\\ \\hline B & $\\frac{1}{3} A x_{0}{ }^{3}+B x_{0}$ & -x \\\\ \\hline C & $A x_{0}{ }^{2}+B$ & -x \\\\ \\hline D & $2 A x_{0}$ & +x \\\\ \\hline E & $2 \\mathrm{~A} x_{0}$ & -x \\\\ \\hline \\end{tabular}</p>",
+          "options": [
+            {
+              "key": "A",
+              "text": "<div class=\"choiceTxt\">A</div>",
+              "html": "<div class=\"choiceTxt\">A</div>"
+            },
+            {
+              "key": "B",
+              "text": "<div class=\"choiceTxt\">B</div>",
+              "html": "<div class=\"choiceTxt\">B</div>"
+            },
+            {
+              "key": "C",
+              "text": "<div class=\"choiceTxt\">C</div>",
+              "html": "<div class=\"choiceTxt\">C</div>"
+            },
+            {
+              "key": "D",
+              "text": "<div class=\"choiceTxt\">D</div>",
+              "html": "<div class=\"choiceTxt\">D</div>"
+            },
+            {
+              "key": "B",
+              "text": "<div class=\"choiceTxt\">E</div>",
+              "html": "<div class=\"choiceTxt\">E</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "29",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">32. The magnitude of the gravitational force between two planets is $F=\\frac{\\Lambda}{r^{2}}$, where $A=3.2 \\times 10^{37} \\mathrm{~N} \\cdot \\mathrm{~m}^{2}$. How much work would be done by the gravitational force if the planets moved from $r=4.0 \\times 10^{9} \\mathrm{~m}$ apart to $r=3.0 \\times 10^{9} \\mathrm{~m}$ apart?</p>",
+          "options": [
+            {
+              "key": "A",
+              "text": "<div class=\"choiceTxt\">$1.6 \\times 10^{18} \\mathrm{~J}$</div>",
+              "html": "<div class=\"choiceTxt\">$1.6 \\times 10^{18} \\mathrm{~J}$</div>"
+            },
+            {
+              "key": "B",
+              "text": "<div class=\"choiceTxt\">$2.0 \\times 10^{27} \\mathrm{~J}$</div>",
+              "html": "<div class=\"choiceTxt\">$2.0 \\times 10^{27} \\mathrm{~J}$</div>"
+            },
+            {
+              "key": "C",
+              "text": "<div class=\"choiceTxt\">$2.7 \\times 10^{27} \\mathrm{~J}$</div>",
+              "html": "<div class=\"choiceTxt\">$2.7 \\times 10^{27} \\mathrm{~J}$</div>"
+            },
+            {
+              "key": "D",
+              "text": "<div class=\"choiceTxt\">$3.6 \\times 10^{27} \\mathrm{~J}$</div>",
+              "html": "<div class=\"choiceTxt\">$3.6 \\times 10^{27} \\mathrm{~J}$</div>"
+            },
+            {
+              "key": "E",
+              "text": "<div class=\"choiceTxt\">$1.9 \\times 10^{28} \\mathrm{~J}$\n![](https://cdn.mathpix.com/cropped/d8de69c8-d690-4140-b324-3fa2e68fd571-28.jpg?height=99&width=913&top_left_y=335&top_left_x=299)</div>",
+              "html": "<div class=\"choiceTxt\">$1.9 \\times 10^{28} \\mathrm{~J}$\n![](https://cdn.mathpix.com/cropped/d8de69c8-d690-4140-b324-3fa2e68fd571-28.jpg?height=99&width=913&top_left_y=335&top_left_x=299)</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "30",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">33. A thin rod of length $L$ is positioned on the $x$-axis, as shown. The rod has a linear mass density of $\\lambda(x)=A x^{2}$, where $x$ is position and $A$ is a positive constant with appropriate units. At what position is the center of mass of the rod located?</p>",
+          "options": [
+            {
+              "key": "A",
+              "text": "<div class=\"choiceTxt\">$x=\\frac{1}{4} L$</div>",
+              "html": "<div class=\"choiceTxt\">$x=\\frac{1}{4} L$</div>"
+            },
+            {
+              "key": "B",
+              "text": "<div class=\"choiceTxt\">$x=\\frac{1}{2} L$</div>",
+              "html": "<div class=\"choiceTxt\">$x=\\frac{1}{2} L$</div>"
+            },
+            {
+              "key": "C",
+              "text": "<div class=\"choiceTxt\">$x=\\frac{2}{3} L$</div>",
+              "html": "<div class=\"choiceTxt\">$x=\\frac{2}{3} L$</div>"
+            },
+            {
+              "key": "D",
+              "text": "<div class=\"choiceTxt\">$x=\\frac{3}{4} L$</div>",
+              "html": "<div class=\"choiceTxt\">$x=\\frac{3}{4} L$</div>"
+            },
+            {
+              "key": "E",
+              "text": "<div class=\"choiceTxt\">$x=\\frac{4}{5} L$\n\n\\begin{figure}\n\\includegraphics[alt={},max width=\\textwidth]{https://cdn.mathpix.com/cropped/d8de69c8-d690-4140-b324-3fa2e68fd571-29.jpg?height=791&width=811&top_left_y=230&top_left_x=264}\n\\captionsetup{labelformat=empty}\n\\caption{Figure 1}\n\\end{figure}\n\n\\begin{figure}\n\\includegraphics[alt={},max width=\\textwidth]{https://cdn.mathpix.com/cropped/d8de69c8-d690-4140-b324-3fa2e68fd571-29.jpg?height=693&width=770&top_left_y=232&top_left_x=1150}\n\\captionsetup{labelformat=empty}\n\\caption{Top View}\n\\end{figure}\n\nFigure 2</div>",
+              "html": "<div class=\"choiceTxt\">$x=\\frac{4}{5} L$\n\n\\begin{figure}\n\\includegraphics[alt={},max width=\\textwidth]{https://cdn.mathpix.com/cropped/d8de69c8-d690-4140-b324-3fa2e68fd571-29.jpg?height=791&width=811&top_left_y=230&top_left_x=264}\n\\captionsetup{labelformat=empty}\n\\caption{Figure 1}\n\\end{figure}\n\n\\begin{figure}\n\\includegraphics[alt={},max width=\\textwidth]{https://cdn.mathpix.com/cropped/d8de69c8-d690-4140-b324-3fa2e68fd571-29.jpg?height=693&width=770&top_left_y=232&top_left_x=1150}\n\\captionsetup{labelformat=empty}\n\\caption{Top View}\n\\end{figure}\n\nFigure 2</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "31",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">34. A uniform rod of mass $M=3 m$ and length $L=x_{0}$ is rotating in the counterclockwise direction on a horizont: table about a pivot at one end. The free end of the rod has speed $v_{0}$. A ball of mass $m$ slides across the table with speed $v_{0}$, as shown in Figure 1. The ball collides with and sticks to the free end of the rod when the rod is at the position shown in Figure 2. The rotational inertia of a rod about its end is given by $\\frac{1}{3} M L^{2}$. Frictional forces are negligible. Positive values of angular momentum correspond to counterclockwise rotation. Which o the following indicates the change in angular momentum of the rod after the collision?</p>",
+          "options": [
+            {
+              "key": "A",
+              "text": "<div class=\"choiceTxt\">0</div>",
+              "html": "<div class=\"choiceTxt\">0</div>"
+            },
+            {
+              "key": "B",
+              "text": "<div class=\"choiceTxt\">$-m x_{0} v_{0}$</div>",
+              "html": "<div class=\"choiceTxt\">$-m x_{0} v_{0}$</div>"
+            },
+            {
+              "key": "C",
+              "text": "<div class=\"choiceTxt\">$+m x_{0} v_{0}$</div>",
+              "html": "<div class=\"choiceTxt\">$+m x_{0} v_{0}$</div>"
+            },
+            {
+              "key": "D",
+              "text": "<div class=\"choiceTxt\">$-2 m x_{0} v_{0}$</div>",
+              "html": "<div class=\"choiceTxt\">$-2 m x_{0} v_{0}$</div>"
+            },
+            {
+              "key": "E",
+              "text": "<div class=\"choiceTxt\">$+2 m x_{0} v_{0}$\n\n\\begin{figure}\n\\includegraphics[alt={},max width=\\textwidth]{https://cdn.mathpix.com/cropped/d8de69c8-d690-4140-b324-3fa2e68fd571-30.jpg?height=396&width=958&top_left_y=123&top_left_x=565}\n\\captionsetup{labelformat=empty}\n\\caption{Figure 1}\n\\end{figure}\n\n\\begin{figure}\n\\includegraphics[alt={},max width=\\textwidth]{https://cdn.mathpix.com/cropped/d8de69c8-d690-4140-b324-3fa2e68fd571-30.jpg?height=440&width=961&top_left_y=686&top_left_x=559}\n\\captionsetup{labelformat=empty}\n\\caption{Figure 2}\n\\end{figure}\n\nNote: Figures are not drawn to scate.</div>",
+              "html": "<div class=\"choiceTxt\">$+2 m x_{0} v_{0}$\n\n\\begin{figure}\n\\includegraphics[alt={},max width=\\textwidth]{https://cdn.mathpix.com/cropped/d8de69c8-d690-4140-b324-3fa2e68fd571-30.jpg?height=396&width=958&top_left_y=123&top_left_x=565}\n\\captionsetup{labelformat=empty}\n\\caption{Figure 1}\n\\end{figure}\n\n\\begin{figure}\n\\includegraphics[alt={},max width=\\textwidth]{https://cdn.mathpix.com/cropped/d8de69c8-d690-4140-b324-3fa2e68fd571-30.jpg?height=440&width=961&top_left_y=686&top_left_x=559}\n\\captionsetup{labelformat=empty}\n\\caption{Figure 2}\n\\end{figure}\n\nNote: Figures are not drawn to scate.</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "32",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">35. A block sits on a horizontal surface with a section of rongh suffect it its center. The block is pressed against Spring $A$, compressing the spring a distance $D_{0}$, as shown in Figne 1. The bloct is then released and shides across the surface, compressing an identical spring, Spring $B$, a distance $\\frac{\\sqrt{3}}{2} D_{0}$ as shomm in Figne 2 Tre block then moves back across the surface toward Sping A. Friction between the block and surface is negnighit except when the block is on the rough sufface. What is the mariman distance Spring A is compressed affer the block leaves Spring B and passes over the rough surface again?</p>",
+          "options": [
+            {
+              "key": "A",
+              "text": "<div class=\"choiceTxt\">$\\frac{1}{4} D_{0}$</div>",
+              "html": "<div class=\"choiceTxt\">$\\frac{1}{4} D_{0}$</div>"
+            },
+            {
+              "key": "B",
+              "text": "<div class=\"choiceTxt\">$\\frac{\\sqrt{3}}{4} D_{0}$</div>",
+              "html": "<div class=\"choiceTxt\">$\\frac{\\sqrt{3}}{4} D_{0}$</div>"
+            },
+            {
+              "key": "C",
+              "text": "<div class=\"choiceTxt\">$\\frac{1}{2} D_{0}$</div>",
+              "html": "<div class=\"choiceTxt\">$\\frac{1}{2} D_{0}$</div>"
+            },
+            {
+              "key": "D",
+              "text": "<div class=\"choiceTxt\">$\\frac{1}{\\sqrt{2}} D_{0}$</div>",
+              "html": "<div class=\"choiceTxt\">$\\frac{1}{\\sqrt{2}} D_{0}$</div>"
+            },
+            {
+              "key": "E",
+              "text": "<div class=\"choiceTxt\">$\\frac{3}{4} D_{0}$\n\n\\section*{Question 1}\n\n\\section*{Begin your response to QUESTION 1 on this page.}\n\n\\section*{PHYSICS C: MECHANICS \\\\</div>",
+              "html": "<div class=\"choiceTxt\">$\\frac{3}{4} D_{0}$\n\n\\section*{Question 1}\n\n\\section*{Begin your response to QUESTION 1 on this page.}\n\n\\section*{PHYSICS C: MECHANICS \\\\</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        }
+      ]
+    }
+  ]
+}

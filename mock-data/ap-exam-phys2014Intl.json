@@ -1,0 +1,1292 @@
+{
+  "examId": "phys2014Intl",
+  "title": "AP 物理C力学 2014年国际卷",
+  "subjectName": "Physics C: Mechanics",
+  "yearLabel": "2014",
+  "description": "AP Physics C: Mechanics 2014年",
+  "answerKeyAvailable": false,
+  "scoring": null,
+  "sections": [
+    {
+      "title": "Section I: Multiple Choice",
+      "type": "mcq",
+      "questions": [
+        {
+          "id": "1",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">\\section*{SECTION I: Multiple Choice}  Do not begin the exam instructions below until you have completed the appropriate General Instructions for your group.  This exam includes survey questions. The time allowed for the survey questions is in addition to the actual test-taking time.  Make sure that you begin the exam at the designated time. If you are giving the regularly scheduled exam, say: It is Monday afternoon, May 12, and you will be taking the AP Physics C: Mechanics Exam.  If you are giving the alternate exam for late testing, say: It is Friday afternoon, May 23, and you will be taking the AP Physics C: Mechanics Exam.  In a moment, you will open the packet that contains your exam materials. By opening this packet, you agree to all of the AP Program's policies and procedures outlined in the 2013-14 Bulletin for AP Students and Parents. You may now remove the shrinkwrap from your exam packet and take out the Section I booklet, but do not open the booklet or the shrinkwrapped Section II materials. Put the white seals aside. . . .  Carefully remove the AP Exam label found near the top left of your exam booklet cover. Now place it on page 1 of your answer sheet on the light blue box near the top right-hand corner that reads \"AP Exam Label.\"  If students accidentally place the exam label in the space for the number label or vice versa, advise them to leave the labels in place. They should not try to remove the label; their exam will be processed correctly.  Read the statements on the front cover of Section I and look up when you have finished. . . .  Sign your name and write today's date. Look up when you have finished. . . .  Now print your full legal name where indicated. Are there any questions? . . . Turn to the back cover and read it completely. Look up when you have finished. . . .  Are there any questions? . . . Section I is the multiple-choice portion of the exam. You may never discuss these specific multiple-choice questions at any time in any form with anyone, including your teacher and other students. If you disclose these questions through any means, your AP Exam score will be canceled. Are there any questions? . . .  You must complete the answer sheet using a No. 2 pencil only. Mark all of your responses beginning on page 2 of your answer sheet, one response per question. Completely fill in the circles. If you need to erase, do so carefully and completely. No credit will be given for anything written in the exam booklet. Scratch paper is not allowed, but you may use the margins or any blank space in the exam booklet for scratch work. Rulers and straightedges may be used for the entire exam, but calculators are not allowed for Section I. Please put all of your calculators under your chair. Are there any questions? . . .  You have $\\mathbf{4 5}$ minutes for this section. Open your Section I booklet and begin. Note Start Time here $\\_\\_\\_\\_$ Note Stop Time here $\\_\\_\\_\\_$ Check that students are marking their answers in pencil on their answer sheets, and that they are not looking at their shrinkwrapped Section II booklets. After 45 minutes, say:  Stop working and turn to the last page in your booklet. $\\_\\_\\_\\_$ You have $\\mathbf{2}$ minutes to answer Questions 101-106. These are survey questions and will not affect your score. You may not go back to work on any of the exam questions. You may now begin.  To help you and your proctors make sure students are not working on the exam questions, the two pages with the survey questions are identified with a large $S$ on the upper corner of each page. Give students 2 minutes to answer the survey questions. Then say:  Close your booklet and put your answer sheet on your desk, face up. Make sure you have your AP number label and an AP Exam label on page 1 of your answer sheet. I will now collect your answer sheet.  Collect an answer sheet from each student. Check that each answer sheet has an AP number label and an AP Exam label. Then say:  Now you must seal your exam booklet. Remove the white seals from the backing and press one on each area of your exam booklet cover marked \"PLACE SEAL HERE.\" Fold each seal over the back cover. When you have finished, place the booklet on your desk, face up. I will now collect your Section I booklet. . . .  \\section*{SECTION II: Free Response}  Check that each student has signed the front cover of the sealed Section I booklet. When all Section I materials have been collected and accounted for, say:  May I have everyone's attention? Place your Student Pack on your desk. . . . You may now remove the shrinkwrap from the Section II packet, but do not open the exam booklet until you are told to do so. . . .  Read the bulleted statements on the front cover of the exam booklet. Look up when you have finished. . . .  Now place an AP number label on the shaded box. If you don't have any AP number labels, write your AP number in the box. Look up when you have finished. . . .  Read the last statement. . . . Using your pen, print the first, middle and last initials of your legal name in the boxes and print today's date where indicated. This constitutes your signature and your agreement to the statements on the front cover. . . .  Turn to the back cover and complete Item 1 under \"Important Identification Information.\" Print the first two letters of your last name and the first letter of your first name in the boxes. Look up when you have finished. . . .  In Item 2, print your date of birth in the boxes. . . . In Item 3, write the school code you printed on the front of your Student Pack in the boxes. . . .  Read Item 4. . . . Are there any questions? . . . I need to collect the Student Pack from anyone who will be taking another AP Exam. Keep it, however, if you will be taking the Physics C: Electricity and Magnetism exam this afternoon. If you have no other AP Exams to take, place your Student Pack under your chair now. . . .  While Student Packs are being collected, read the information on the back cover of the exam booklet. Do not open the booklet until you are told to do so. Look up when you have finished. . . .  Collect the Student Packs. Then say: Are there any questions? . . . Calculators may be used for Section II. You may get your calculators from under your chair and place them on your desk. . . .  You have $\\mathbf{4 5}$ minutes to complete Section II. You are responsible for pacing yourself, and may proceed freely from one question to the next. You must write your answers in the exam booklet using a pen with black or dark blue ink or a No. 2 pencil. If you use a pencil, be sure that your writing is dark enough to be easily read. If you need more paper during the exam, raise your hand. At the top of each extra piece of paper you use, be sure to write only your AP number and the number of the question you are working on. Do not write your name. Are there any questions? . . .  You may begin. Note Start Time here $\\_\\_\\_\\_$ . Note Stop Time here $\\_\\_\\_\\_$ Check that students are writing their answers in their exam booklets. You should also make sure that Hewlett-Packard calculators' infrared ports are not facing each other and that students are not sharing calculators. After 35 minutes, say:  There are $\\mathbf{1 0}$ minutes remaining. After 10 minutes, say: Stop working and close your exam booklet. Place it on your desk, face up. . . .  If any students used extra paper for the free-response section, have those students staple the extra sheet/s to the first page corresponding to that question in their exam booklets. Then say:  Remain in your seat, without talking, while the exam materials are collected. . . .  Collect a Section II booklet from each student. Check for the following: - Exam booklet front cover: The student placed an AP number label on the shaded box, and printed his or her initials and today's date. - Exam booklet back cover: The student completed the \"Important Identification Information\" area.  When all exam materials have been collected and accounted for, return to students who are taking Mechanics only any electronic devices you may have collected before the start of the exam.  If you are giving the regularly scheduled exam, say: You may not discuss or share these specific free-response questions with anyone unless they are released on the College Board website in about two days. Your AP score results will be available online in July.  If you are giving the alternate exam for late testing, say: None of the questions in this exam may ever be discussed or shared in any way at any time. Your AP score results will be available online in July.  If any students completed the AP number card at the beginning of this exam, and are about to be dismissed, say:  Please remember to take your AP number card with you. You will need the information on this card to view your scores and order AP score reporting services online.  If no students are taking Physics C: Electricity and Magnetism, say: You are now dismissed. If some students are taking Physics C: Electricity and Magnetism, say: Those of you taking Mechanics only are now dismissed. The students taking the Electricity and Magnetism exam now get a 10 -minute break. Remember that the Electricity and Magnetism exam cannot begin before 2 p.m., but should start before 3 p.m. After the students taking Mechanics only have left, say:  If you will also be taking the Physics C: Electricity and Magnetism exam, please listen carefully to these instructions before we take a $\\mathbf{1 0}$-minute break. Please put all of your calculators under your chair. Your calculators and everything you placed under your chair at the beginning of the exam must stay there. You are not allowed to consult teachers, other students, or textbooks about the exam during the break. You may not make phone calls, send text messages, check email, use a social networking site, or access any electronic or communication device. If you do not follow these rules, your score could be canceled. Are there any questions? . . .  You may begin your break. Testing will resume at $\\_\\_\\_\\_$ .  If you will be administering Physics C: Electricity and Magnetism exam at $\\mathbf{2}$ p.m., be sure all exam materials are kept secure during the break. When the students return from break, turn to page 200 and begin the exam administration for Physics C: Electricity and Magnetism.  If you have no students taking Physics C: Electricity and Magnetism, all exam materials should be put in secure storage until they are returned to the AP Program after your school's last administration. Before storing materials, check the \"School Use Only\" section on page 1 of the answer sheet and: - Fill in the appropriate section number circle in order to access a separate AP Instructional Planning Report (for regularly scheduled exams only) or subject score roster at the class section or teacher level. See \"Post-Exam Activities\" in the 2013-14 AP Coordinator's Manual. - Check your list of students who are eligible for fee reductions and fill in the appropriate circle on their registration answer sheets.  \\title{ Student Answer Sheet for the Multiple-Choice Section }  Use this section to capture student responses. (Note that the following answer sheet is a sample, and may differ from one used in an actual exam.)  To maintain the security of the exam and the validity of my AP score, I will allow no one else to see the multiple-choice questions. I will seal the multiple-choice booklet when asked to do so, and I will not discuss these questions with anyone at any time after completing the section. I am aware of and agree to the AP Program's policies and procedures as outlined in the 2013-14 Bulletin for AP Students and Parents, including using testing accommodations (e.g., extended time, computer, etc.) only if I have been preapproved by College Board Services for Students with Disabilities.  \\begin{tabular}{l|l|l}  A. SIGNATURE & Sign your legal name as it will appear on your college applications. & Date \\\\ \\hline \\end{tabular} ![](https://cdn.mathpix.com/cropped/0b14854f-261f-4610-ae9a-5b63f68a0ac1-11.jpg?height=1179&width=1262&top_left_y=1431&top_left_x=518) ![](https://cdn.mathpix.com/cropped/0b14854f-261f-4610-ae9a-5b63f68a0ac1-11.jpg?height=1269&width=125&top_left_y=1433&top_left_x=1775) ![](https://cdn.mathpix.com/cropped/0b14854f-261f-4610-ae9a-5b63f68a0ac1-11.jpg?height=783&width=120&top_left_y=1433&top_left_x=1909) ![](https://cdn.mathpix.com/cropped/0b14854f-261f-4610-ae9a-5b63f68a0ac1-11.jpg?height=602&width=200&top_left_y=453&top_left_x=61) PAGE 1 ![](https://cdn.mathpix.com/cropped/0b14854f-261f-4610-ae9a-5b63f68a0ac1-11.jpg?height=347&width=561&top_left_y=1056&top_left_x=270) ![](https://cdn.mathpix.com/cropped/0b14854f-261f-4610-ae9a-5b63f68a0ac1-11.jpg?height=443&width=653&top_left_y=968&top_left_x=836)  \\begin{table} \\captionsetup{labelformat=empty} \\caption{L. SOCIAL SECURITY NUMBER (Optional)} \\begin{tabular}{|l|l|l|l|l|l|l|l|l|} \\hline (0) & (0) & (0) & (0) & (0) & (0) & (0) & (0) & (0) \\\\ \\hline (1) & (1) & (1) & (1) & (1) & (1) & (1) & (1) & (1) \\\\ \\hline (2) & (2) & (2) & 2 & (2) & (2) & (2) & (2) & (2) \\\\ \\hline (3) & (3) & (3) & 3 & (3) & (3) & (3) & (3) & (3) \\\\ \\hline (4) & (4) & 4 & 4 & 4 & (4) & (4) & (4) & (4) \\\\ \\hline (5) & (5) & 5 & 5 & 5 & 5 & 5 & 5 & 5 \\\\ \\hline 6 & 6 & 6 & 6 & 6 & 6 & 6 & 6 & 6 \\\\ \\hline 7 & 7 & 7 & 7 & 7 & 7 & 7 & 7 & 7 \\\\ \\hline 8 & 8 & 8 & 8 & 8 & 8 & 8 & 8 & 8 \\\\ \\hline (9) & 9 & 9 & 9 & 9 & 9 & 9 & 9 & 9 \\\\ \\hline \\end{tabular} \\end{table} ![](https://cdn.mathpix.com/cropped/0b14854f-261f-4610-ae9a-5b63f68a0ac1-11.jpg?height=182&width=554&top_left_y=844&top_left_x=277) ![](https://cdn.mathpix.com/cropped/0b14854f-261f-4610-ae9a-5b63f68a0ac1-11.jpg?height=117&width=395&top_left_y=712&top_left_x=277) ![](https://cdn.mathpix.com/cropped/0b14854f-261f-4610-ae9a-5b63f68a0ac1-11.jpg?height=473&width=560&top_left_y=220&top_left_x=275)  \\begin{table} \\captionsetup{labelformat=empty} \\caption{COMPLETE THIS AREA ONLY ONCE.} \\begin{tabular}{|l|l|l|l|l|l|l|} \\hline \\multicolumn{7}{|c|}{J. SCHOOL YOU ATTEND} \\\\ \\hline \\multicolumn{6}{|c|}{SCHOOL CODE} & \\multirow{2}{*}{School Name} \\\\ \\hline (0) & (1) & (0) & (0) & (0) & 1 & \\\\ \\hline (4) & (3) & (3) & 3 & (3) & 4 & City \\\\ \\hline (5) & 5 & 5 & 5 & 5 & (5) & State \\\\ \\hline (6) & (6) & 6 & 6 & 6 & 6 & \\\\ \\hline 7 & 7 & 7 & 7 & 7 & 7 & Country \\\\ \\hline 8 & (8) & 8 & 8 & 8 & (8) & \\\\ \\hline (9) & (9) & 9 & 9 & 9 & (9) & \\\\ \\hline \\end{tabular} \\end{table}  \\begin{tabular}{|l|l|l|l|l|} \\hline \\multicolumn{5}{|l|}{M. COLLEGE TO RECEIVE YOUR AP SCORE REPORT} \\\\ \\hline \\multicolumn{4}{|c|}{COLLEGE CODE} & \\begin{tabular}{l} Using the college code listed in the AP Student Pack, indicate the ONE college that you want to receive your AP score report. \\\\ AP score report. \\end{tabular} \\\\ \\hline (1) & (1) & (1) & (1) & College Name \\\\ \\hline 4 & 4 & 4 & 4 & \\\\ \\hline (5) & 5 & 5 & 5 & City \\\\ \\hline 6 & 6 & 6 & 6 & State \\\\ \\hline 8 & 8 & 8 & 8 & Country \\\\ \\hline 9 & 9 & 9 & (9) & \\\\ \\hline \\end{tabular} ![](https://cdn.mathpix.com/cropped/0b14854f-261f-4610-ae9a-5b63f68a0ac1-11.jpg?height=154&width=569&top_left_y=50&top_left_x=266)  \\begin{tabular}{|l|l|l|l|l|} \\hline \\multicolumn{5}{|c|}{K. DATE OF BIRTH} \\\\ \\hline Month & & Day & & Year \\\\ \\hline \\multirow{12}{*}{![](https://cdn.mathpix.com/cropped/0b14854f-261f-4610-ae9a-5b63f68a0ac1-11.jpg?height=82\\&width=497\\&top_left_y=230\\&top_left_x=942)} & & & & \\\\ \\hline & 0 & 0 & 0 & (0) \\\\ \\hline & 1 & 1 & (1) & (1) \\\\ \\hline & 2 & (2) & (2) & (2) \\\\ \\hline & 3 & (3) & (3) & (3) \\\\ \\hline & & 4 & 4 & 4 \\\\ \\hline & & (5) & (5) & (5) \\\\ \\hline & & (6) & 6 & (6) \\\\ \\hline & & 7 & 7 & 7 \\\\ \\hline & & 8 & 8 & 8 \\\\ \\hline & & 9 & 9 & 9 \\\\ \\hline & & & & \\\\ \\hline \\end{tabular} ![](https://cdn.mathpix.com/cropped/0b14854f-261f-4610-ae9a-5b63f68a0ac1-11.jpg?height=267&width=382&top_left_y=59&top_left_x=1471)  \\section*{COMPLETE THIS AREA AT EACH EXAM（IF APPLICABLE）}  \\begin{tabular}{|l|l|l|l|l|l|} \\hline \\multicolumn{6}{|c|}{O．SURVEY QUESTIONS－Answer the survey questions in the AP Student Pack．Do not put responses to exam questions in this section．} \\\\ \\hline & 1 （A）（B）（C）（D）（E）（F）（G）（H）（I） & & 4 （A）（B）（C）（D）（E）（F）（G）（H）（I） & & 7 （A）（B）（C）（D）（E）（F）（G）（H）（I） \\\\ \\hline & 2 （A）（B）（C）（D）（E）（F）（G）（H）（I） & & 5 （A）（B）（C）（D）（E）（F）（G）（H）（I） & & 8 （A）（B）（C）（D）（E）（F）（G）（H）（I） \\\\ \\hline & 3 （A）（B）（C）（D）（E）（F）（G）（H）（I） & & 6 （A）（B）（C）（D）（E）（F）（G）（H）（I） & & 9 （A）（B）（C）（D）（E）（F）（G）（H）（I） \\\\ \\hline \\end{tabular}  \\begin{tabular}{|l|l|} \\hline \\multicolumn{2}{|l|}{P．LANGUAGE－Do not complete this section unless instructed to do so．} \\\\ \\hline \\multicolumn{2}{|c|}{If this answer sheet is for the French Language and Culture，German Language and Culture，Italian Language and Culture，Spanish Language and Culture，or Spanish Literature and Culture Exam，please answer the following questions．Your responses will not affect your score．} \\\\ \\hline 1．Have you lived or studied for one month or more in a country where the language of the exam you are now taking is spoken？ ◯ Yes ◯ No & 2．Do you regularly speak or hear the language at home？ ◯ Yes ◯ No \\\\ \\hline \\end{tabular}  \\section*{QUESTIONS 1－75}  Indicate your answers to the exam questions in this section（pages 2 and 3）．Mark only one response per question． If a question has only four answer options，do not mark option E．Answers written in the multiple－choice booklet will not be scored．  You must use a No． 2 pencil and marks must be complete．Do not use a mechanical pencil．It is very important that you fill in the entire circle darkly and completely．If you change your response， erase as completely as possible．Incomplete marks or erasures may affect your score．  \\begin{tabular}{|l|l|l|l|l|l|} \\hline 1 & （A）（B）（C）（D）（E） & 26 & （A）（B）（C）（D）（E） & 51 & （A）（B）（C）（D）（E） \\\\ \\hline 2 & （A）（B）（C）（D）（E） & 27 & （A）（B）（C）（D）（E） & 52 & （A）（B）（C）（D）（E） \\\\ \\hline 3 & （A）（B）（C）（D）（E） & 28 & （A）（B）（C）（D）（E） & 53 & （A）（B）（C）（D）（E） \\\\ \\hline 4 & （A）（B）（C）（D）（E） & 29 & （A）（B）（C）（D）（E） & 54 & （A）（B）（C）（D）（E） \\\\ \\hline 5 & （A）（B）（C）（D）（E） & 30 & （A）（B）（C）（D）（E） & 55 & （A）（B）（C）（D）（E） \\\\ \\hline 6 & （A）（B）（C）（D）（E） & 31 & （A）（B）（C）（D）（E） & 56 & （A）（B）（C）（D）（E） \\\\ \\hline 7 & （A）（B）（C）（D）（E） & 32 & （A）（B）（C）（D）（E） & 57 & （A）（B）（C）（D）（E） \\\\ \\hline 8 & （A）（B）（C）（D）（E） & 33 & （A）（B）（C）（D）（E） & 58 & （A）（B）（C）（D）（E） \\\\ \\hline 9 & （A）（B）（C）（D）（E） & 34 & （A）（B）（C）（D）（E） & 59 & （A）（B）（C）（D）（E） \\\\ \\hline 10 & （A）（B）（C）（D）（E） & 35 & （A）（B）（C）（D）（E） & 60 & （A）（B）（C）（D）（E） \\\\ \\hline 11 & （A）（B）（C）（D）（E） & 36 & （A）（B）（C）（D）（E） & 61 & （A）（B）（C）（D）（E） \\\\ \\hline 12 & （A）（B）（C）（D）（E） & 37 & （A）（B）（C）（D）（E） & 62 & （A）（B）（C）（D）（E） \\\\ \\hline 13 & （A）（B）（C）（D）（E） & 38 & （A）（B）（C）（D）（E） & 63 & （A）（B）（C）（D）（E） \\\\ \\hline 14 & （A）（B）（C）（D）（E） & 39 & （A）（B）（C）（D）（E） & 64 & （A）（B）（C）（D）（E） \\\\ \\hline 15 & （A）（B）（C）（D）（E） & 40 & （A）（B）（C）（D）（E） & 65 & （A）（B）（C）（D）（E） \\\\ \\hline 16 & （A）（B）（C）（D）（E） & 41 & （A）（B）（C）（D）（E） & 66 & （A）（B）（C）（D）（E） \\\\ \\hline 17 & （A）（B）（C）（D）（E） & 42 & （A）（B）（C）（D）（E） & 67 & （A）（B）（C）（D）（E） \\\\ \\hline 18 & （A）（B）（C）（D）（E） & 43 & （A）（B）（C）（D）（E） & 68 & （A）（B）（C）（D）（E） \\\\ \\hline 19 & （A）（B）（C）（D）（E） & 44 & （A）（B）（C）（D）（E） & 69 & （A）（B）（C）（D）（E） \\\\ \\hline 20 & （A）（B）（C）（D）（E） & 45 & （A）（B）（C）（D）（E） & 70 & （A）（B）（C）（D）（E） \\\\ \\hline 21 & （A）（B）（C）（D）（E） & 46 & （A）（B）（C）（D）（E） & 71 & （A）（B）（C）（D）（E） \\\\ \\hline 22 & （A）（B）（C）（D）（E） & 47 & （A）（B）（C）（D）（E） & 72 & （A）（B）（C）（D）（E） \\\\ \\hline 23 & （A）（B）（C）（D）（E） & 48 & （A）（B）（C）（D）（E） & 73 & （A）（B）（C）（D）（E） \\\\ \\hline 24 & （A）（B）（C）（D）（E） & 49 & （A）（B）（C）（D）（E） & 74 & （A）（B）（C）（D）（E） \\\\ \\hline 25 & （A）（B）（C）（D）（E） & 50 & （A）（B）（C）（D）（E） & 75 & （A）（B）（C）（D）（E） \\\\ \\hline \\end{tabular}  Be sure each mark is dark and completely fills the circle. If a question has only four answer options, do not mark option E.  \\begin{tabular}{|l|l|l|l|l|l|} \\hline 76 & (A) (B) (C) (D) (E) & 91 & (A) (B) (C) (D) (E) & 106 & (A) (B) (C) (D) (E) \\\\ \\hline 77 & (A) (B) (C) (D) (E) & 92 & (A)(B)(C)(D)(E) & 107 & (A) (B) (C) (D) (E) \\\\ \\hline 78 & (A) (B) (C) (D) (E) & 93 & (A) (B) (C) (D) (E) & 108 & (A) (B) (C) (D) (E) \\\\ \\hline 79 & (A) (B) (C) (D) (E) & 94 & (A) (B) (C) (D) (E) & 109 & (A) (B) (C) (D) (E) \\\\ \\hline 80 & (A) (B) (C) (D) (E) & 95 & (A) (B) (C) (D) (E) & 110 & (A) (B) (C) (D) (E) \\\\ \\hline 81 & (A) (B) (C) (D) (E) & 96 & (A) (B) (C) (D) (E) & 111 & (A) (B) (C) (D) (E) \\\\ \\hline 82 & (A) (B) (C) (D) (E) & 97 & (A) (B) (C) (D) (E) & 112 & (A) (B) (C) (D) (E) \\\\ \\hline 83 & (A) (B) (C) (D) (E) & 98 & (A) (B) (C) (D) (E) & 113 & (A) (B) (C) (D) (E) \\\\ \\hline 84 & (A) (B) (C) (D) (E) & 99 & (A)(B)(C)(D)(E) & 114 & (A) (B) (C) (D) (E) \\\\ \\hline 85 & (A) (B) (C) (D) (E) & 100 & (A) (B) (C) (D) (E) & 115 & (A) (B) (C) (D) (E) \\\\ \\hline 86 & (A)(B)(C)(D)(E) & 101 & (A)(B)(C)(D)(E) & 116 & (A) (B) (C) (D) (E) \\\\ \\hline 87 & (A) (B) (C) (D) (E) & 102 & (A) (B) (C) (D) (E) & 117 & (A) (B) (C) (D) (E) \\\\ \\hline 88 & (A) (B) (C) (D) (E) & 103 & (A) (B) (C) (D) (E) & 118 & (A)(B)(C)(D)(E) \\\\ \\hline 89 & (A) (B) (C) (D) (E) & 104 & (A) (B) (C) (D) (E) & 119 & (A) (B) (C) (D) (E) \\\\ \\hline 90 & (A) (B) (C) (D) (E) & 105 & (A)(B)(C)(D)(E) & 120 & (A) (B) (C) (D) (E) \\\\ \\hline \\end{tabular}  \\section*{For Students Taking AP Biology}  Write your answer in the boxes at the top of the griddable area and fill in the corresponding circles. Mark only one circle in any column. You will receive credit only if the circles are filled in correctly. ![](https://cdn.mathpix.com/cropped/0b14854f-261f-4610-ae9a-5b63f68a0ac1-13.jpg?height=601&width=265&top_left_y=1138&top_left_x=180) ![](https://cdn.mathpix.com/cropped/0b14854f-261f-4610-ae9a-5b63f68a0ac1-13.jpg?height=601&width=270&top_left_y=1138&top_left_x=472) ![](https://cdn.mathpix.com/cropped/0b14854f-261f-4610-ae9a-5b63f68a0ac1-13.jpg?height=601&width=274&top_left_y=1138&top_left_x=760) ![](https://cdn.mathpix.com/cropped/0b14854f-261f-4610-ae9a-5b63f68a0ac1-13.jpg?height=603&width=272&top_left_y=1138&top_left_x=1054) ![](https://cdn.mathpix.com/cropped/0b14854f-261f-4610-ae9a-5b63f68a0ac1-13.jpg?height=601&width=274&top_left_y=1138&top_left_x=1344) ![](https://cdn.mathpix.com/cropped/0b14854f-261f-4610-ae9a-5b63f68a0ac1-13.jpg?height=603&width=273&top_left_y=1138&top_left_x=1637)  \\begin{table} \\captionsetup{labelformat=empty} \\caption{ETS USE ONLY} \\begin{tabular}{|l|l|l|l|l|l|l|l|} \\hline SELECTED MEDIA EXAMS & R & W & 0 & OTHER EXAMS & R & W & 0 \\\\ \\hline PT02 & & & & TOTAL & & & \\\\ \\hline PT03 & & & & Subscore (if applicable) & & & \\\\ \\hline PT04 & & & & Subscore (if applicable) & & & \\\\ \\hline \\end{tabular} \\end{table}  \\begin{tabular}{|l|l|l|c|} \\hline \\multirow{2}{*}{ Exam } & (0)(1)(2)(3)(4)(5)(6)(7)(8)(9) \\\\ \\cline { 2 - 2 } & (0)(1)(2)(3)(4)(5)(6)(7)(8)(9) \\\\ \\hline \\multirow{2}{*}{ Exam } & (0)(1)(2)(3)(4)(5)(6)(7)(8)(9) \\\\ \\cline { 2 - 2 } & (0)(1)(2)(3)(4)(5)(6)(7)(8)(9) \\\\ \\hline \\end{tabular}  COMPLETE THIS AREA ONLY ONCE.  \\begin{tabular}{|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|} \\hline Q. & OUR & \\multicolumn{3}{|c|}{AILING ADDRESS} & & \\multicolumn{11}{|c|}{Use the address abbreviations from your AP Student Pack. Fill in only one circle potstont} \\\\ \\hline \\multicolumn{17}{|c|}{STREET ADDRESS (include street number, street name, apartment number, etc.)} \\\\ \\hline & & & & & & & & & & & & & & & & \\\\ \\hline (A) & A & A & A & A & A & A & (A) & A & A & A & A & A & A & A & A & A \\\\ \\hline B & B & B & B & B & B & B & B & B & B & B & B & B (B & B & B & B & B \\\\ \\hline (C) & (C) & (C) & C & (C) & (C) & C & (C) & C & (C) & (C) & C & C (C) & C & (C) & C & C \\\\ \\hline (D) & (D) & (D) & (D) & (D) & (D) & (D) & (D) & (D) & (D) & (D) & (D) & (D) (D) & (D) & (D) & D & (D) \\\\ \\hline (E) & E & (E) & (E) & (E) & (E) & E & (E) & (E) & (E) & E & E & E (E) & E & E & E & E \\\\ \\hline F & F & (F) & F & F & F & F & F & F & F & F & F & F F & F & F & F & F \\\\ \\hline (G) & G & (G) & (G) & (G) & G & G & G & G & G & G & G & G (G) & G & G & G & G \\\\ \\hline H & H & H & H & H & H & H & H & H & H & H & H & H H & H & H & H & H \\\\ \\hline (I) & (I) & (1) & (1) & (I) & (1) & (I) & (I) & (1) & (I) & (I) & (I) & (I) (I) & (I) & (I) & (I) & (I) \\\\ \\hline (J) & J & (J) & (J) & J & J & J & (J) & J & J & J & J & (J) (J) & (J) & J & J & J \\\\ \\hline K & K & K & K & K & K & K & K & K & K & K & K & K K & K & K & K & K \\\\ \\hline (L) & (L) & (L) & (L) & (L) & (L) & L & (L) & L & L & L & L & L (L) & L & L & L & (L) \\\\ \\hline M & (M) & (M) & (M) & M & (M) & M & (M) & M & M & M & M & M (M) & M & M & M & M \\\\ \\hline (N) & (N) & (N) & (N) & N & (N) & N & (N) & N & N & N & N & N (N) & N & (N) & N & (N) \\\\ \\hline - & O & - & - & - & - & O & O & O & O & O & O & - (O) & O & O & O & O \\\\ \\hline P & P & (P & P & (P) & P & P & P & P & P & P & P & P (P) & P & P & P & P \\\\ \\hline Q & Q & @ & Q & (a) & Q & Q & Q & Q & Q & (a) & Q & Q Q & Q & Q & Q & Q \\\\ \\hline R & R & R & R & R & R & R & R & R & R & R & R & R R & R & R & R & R \\\\ \\hline (S) & (S) & (S) & (S) & (S) & (S) & S & (S) & (S) & S & (S) & (S) & S (S) & S & (S) & S & S \\\\ \\hline T & T & (T) & T & (T) & T & T & T & T & T & T & T & T T & T & T & T & T \\\\ \\hline (U) & (U) & (U) & (U) & (U) & (U) & U) & (U) & (U) & U & (U) & U & (U) (U) & (U) & U & U & (U) \\\\ \\hline (V) & V & (V) & V & V & (V) & V & V & V & V & V & V & (V) V & V & V & V & V \\\\ \\hline W & W & (W) & (W) & W & (W) & W & W & W & W & W & W & W (W) & W & W & W & W \\\\ \\hline x & X & X & × & × & x & X & x & x & × & × & × & × × & × & × & × & × \\\\ \\hline Y & Y & Y & Y & Y & Y & Y & Y & Y & Y & Y & Y & Y Y & Y & Y & Y & Y \\\\ \\hline z & Z & Z & Z & Z & Z & Z & Z & Z & Z & Z & Z & z (Z) & z & Z & Z & Z \\\\ \\hline (0) & 0 & (0) & (0) & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & - $(0)$ & 0 & 0 & 0 & 0 \\\\ \\hline (1) & 1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 & 11 & 1 & 1 & 1 & 1 \\\\ \\hline (2) & 2 & (2) & (2) & 2 & 2 & 2 & (2) & 2 & 2 & 2 & 2 & 22 & 2 & 2 & 2 & 2 \\\\ \\hline 3 & 3 & (3) & (3) & 3 & 3 & 3 & (3) & $(3)$ & 3 & 3 & 3 & 3 (3) & 3 & (3) & 3 & (3) \\\\ \\hline 4 & 4 & 4 & 4 & 4 & 4 & 4 & 4 & 4 & 4 & 4 & 4 & 4 (4) & 4 & 4 & 4 & 4 \\\\ \\hline (5) & 5 & 5 & 5 & 5 & 5 & 5 & 5 & 5 & 5 & 5 & 5 & 55 & 5 & 5 & 5 & 5 \\\\ \\hline (6) & 6 & (6) & (6) & 6 & 6 & 6 & 6 & 6 & 6 & 6 & 6 & 6 (6) & 6 & 6 & 6 & 6 \\\\ \\hline 7 & 7 & 7 & 7 & 7 & 7 & 7 & 7 & 77 & 7 & 7 & 7 & 77 & 7 & 7 & 7 & 7 \\\\ \\hline 8 & 8 & 8 & 8 & 8 & 8 & 8 & 8 & 8 & 8 & 8 & 8 & 88 & 8 & 8 & 8 & 8 \\\\ \\hline 9 & 9 & 9 & 9 & 9 & 9 & 9 & 9 & 9 & 9 & 9 & 9 & 99 & 9 & 9 & 9 & 9 \\\\ \\hline & (1) & (1) & (1) & (1)(1)(1) & 1 & (1) & 1)(1) & (1) (1) & 1 & (1) (1) & (1) & (1) (1) & (1) & & (1) (1) (1) & (1) \\\\ \\hline \\end{tabular}  \\section*{R. FOR STUDENTS OUTSIDE THE UNITED STATES ONLY} ![](https://cdn.mathpix.com/cropped/0b14854f-261f-4610-ae9a-5b63f68a0ac1-14.jpg?height=887&width=466&top_left_y=576&top_left_x=1422)  \\section*{X. ETHNICITY/RACE} ◯ ◯ ![](https://cdn.mathpix.com/cropped/0b14854f-261f-4610-ae9a-5b63f68a0ac1-14.jpg?height=46&width=44&top_left_y=496&top_left_x=1218) ![](https://cdn.mathpix.com/cropped/0b14854f-261f-4610-ae9a-5b63f68a0ac1-14.jpg?height=52&width=44&top_left_y=490&top_left_x=1257) Black or African American Mexican or Mexican American PAGE 4  \\section*{U. STUDENT SEARCH SERVICE ${ }^{\\text {® }}$}  Colleges and scholarship programs may request your information to inform you of educational opportunities and financial aid.  Would you like us to supply your information? ![](https://cdn.mathpix.com/cropped/0b14854f-261f-4610-ae9a-5b63f68a0ac1-14.jpg?height=47&width=40&top_left_y=370&top_left_x=343) providing your information.  \\section*{V. SEX} ![](https://cdn.mathpix.com/cropped/0b14854f-261f-4610-ae9a-5b63f68a0ac1-14.jpg?height=49&width=48&top_left_y=368&top_left_x=547) Yes ![](https://cdn.mathpix.com/cropped/0b14854f-261f-4610-ae9a-5b63f68a0ac1-14.jpg?height=44&width=40&top_left_y=247&top_left_x=343) No  If you don't answer and previously chose to participate in this service, we will continue  \\section*{W. WHICH LANGUAGE DO YOU KNOW BEST?}  \\begin{figure} \\captionsetup{labelformat=empty} \\caption{English} \\includegraphics[alt={},max width=\\textwidth]{https://cdn.mathpix.com/cropped/0b14854f-261f-4610-ae9a-5b63f68a0ac1-14.jpg?height=285&width=46&top_left_y=89&top_left_x=768} \\end{figure}  Another language  \\begin{figure} \\captionsetup{labelformat=empty} \\caption{Female} \\includegraphics[alt={},max width=\\textwidth]{https://cdn.mathpix.com/cropped/0b14854f-261f-4610-ae9a-5b63f68a0ac1-14.jpg?height=92&width=40&top_left_y=115&top_left_x=551} \\end{figure} American Indian or Alaska Native Asian, Asian American or Pacific Islander Puerto Rican Other Hispanic, Latino or Latin American White Other  Y. PARENTAL EDUCATION LEVEL  \\section*{Section I: Multiple-Choice Questions}  This is the multiple-choice section of the 2014 AP exam. It includes cover material and other administrative instructions to help familiarize students with the mechanics of the exam. (Note that future exams may differ in look from the following content.)  \\section*{AP ${ }^{\\text {® }}$ Physics C: Mechanics Exam}  \\section*{SECTION I: Multiple Choice}  \\section*{DO NOT OPEN THIS BOOKLET UNTIL YOU ARE TOLD TO DO SO.}  \\section*{At a Glance}  Total Time 45 minutes Number of Questions 35 Percent of Total Score 50\\% Writing Instrument Pencil required Electronic Device None allowed  \\section*{Instructions}  Section I of this exam contains 35 multiple-choice questions. For these questions, fill in only the circles for numbers 1 through 35 on your answer sheet. A table of information that may be helpful is in the booklet. Rulers and straightedges may be used in this section.  Indicate all of your answers to the multiple-choice questions on the answer sheet. No credit will be given for anything written in this exam booklet, but you may use the booklet for notes or scratch work. After you have decided which of the suggested answers is best, completely fill in the corresponding circle on the answer sheet. Give only one answer to each question. If you change an answer, be sure that the previous mark is erased completely. Here is a sample question and answer.  Sample Question Sample Answer Chicago is a (A) (O (C) (D) (E)</p>",
+          "options": [
+            {
+              "key": "A",
+              "text": "<div class=\"choiceTxt\">state</div>",
+              "html": "<div class=\"choiceTxt\">state</div>"
+            },
+            {
+              "key": "B",
+              "text": "<div class=\"choiceTxt\">city</div>",
+              "html": "<div class=\"choiceTxt\">city</div>"
+            },
+            {
+              "key": "C",
+              "text": "<div class=\"choiceTxt\">country</div>",
+              "html": "<div class=\"choiceTxt\">country</div>"
+            },
+            {
+              "key": "D",
+              "text": "<div class=\"choiceTxt\">continent</div>",
+              "html": "<div class=\"choiceTxt\">continent</div>"
+            },
+            {
+              "key": "E",
+              "text": "<div class=\"choiceTxt\">village\n\nUse your time effectively, working as quickly as you can without losing accuracy. Do not spend too much time on any one question. Go on to other questions and come back to the ones you have not answered if you have time. It is not expected that everyone will know the answers to all of the multiple-choice questions.\n\nYour total score on the multiple-choice section is based only on the number of questions answered correctly. Points are not deducted for incorrect answers or unanswered questions.\n\n\\begin{table}\n\\captionsetup{labelformat=empty}\n\\caption{TABLE OF INFORMATION, EFFECTIVE 2012}\n\\begin{tabular}{|l|l|}\n\\hline \\multicolumn{2}{|c|}{CONSTANTS AND CONVERSION FACTORS} \\\\\n\\hline \\begin{tabular}{l}\nProton mass, $m_{p}=1.67 \\times 10^{-27} \\mathrm{~kg}$ \\\\\nNeutron mass, $m_{n}=1.67 \\times 10^{-27} \\mathrm{~kg}$ \\\\\nElectron mass, $m_{e}=9.11 \\times 10^{-31} \\mathrm{~kg}$ \\\\\nAvogadro's number, $N_{0}=6.02 \\times 10^{23} \\mathrm{~mol}^{-1}$ \\\\\nUniversal gas constant, $\\quad R=8.31 \\mathrm{~J} /(\\mathrm{mol} \\cdot \\mathrm{K})$ \\\\\nBoltzmann's constant, $k_{B}=1.38 \\times 10^{-23} \\mathrm{~J} / \\mathrm{K}$\n\\end{tabular} & \\begin{tabular}{l}\nElectron charge magnitude, $\\quad e=1.60 \\times 10^{-19} \\mathrm{C}$ \\\\\n1 electron volt, $1 \\mathrm{eV}=1.60 \\times 10^{-19} \\mathrm{~J}$ \\\\\nSpeed of light, $\\quad c=3.00 \\times 10^{8} \\mathrm{~m} / \\mathrm{s}$ \\\\\nUniversal gravitational $G=6.67 \\times 10^{-11} \\mathrm{~m}^{3} / \\mathrm{kg} \\cdot \\mathrm{s}^{2}$ \\\\\nAcceleration due to gravity $\\quad g=9.8 \\mathrm{~m} / \\mathrm{s}^{2}$\n\\end{tabular} \\\\\n\\hline \\multicolumn{2}{|c|}{\\begin{tabular}{l}\n1 unified atomic mass unit, \\\\\nPlanck's constant, \\\\\nVacuum permittivity,\n$$\n\\begin{aligned}\n1 \\mathrm{u} & =1.66 \\times 10^{-27} \\mathrm{~kg}=931 \\mathrm{MeV} / c^{2} \\\\\nh & =6.63 \\times 10^{-34} \\mathrm{~J} \\cdot \\mathrm{~s}=4.14 \\times 10^{-15} \\mathrm{eV} \\cdot \\mathrm{~s} \\\\\nh c & =1.99 \\times 10^{-25} \\mathrm{~J} \\cdot \\mathrm{~m}=1.24 \\times 10^{3} \\mathrm{eV} \\cdot \\mathrm{~nm} \\\\\n\\epsilon_{0} & =8.85 \\times 10^{-12} \\mathrm{C}^{2} / \\mathrm{N} \\cdot \\mathrm{~m}^{2}\n\\end{aligned}\n$$ \\\\\nCoulomb's law constant,\n$$\nk=1 / 4 \\pi \\epsilon_{0}=9.0 \\times 10^{9} \\mathrm{~N} \\cdot \\mathrm{~m}^{2} / \\mathrm{C}^{2}\n$$ \\\\\nVacuum permeability,\n$$\n\\mu_{0}=4 \\pi \\times 10^{-7}(\\mathrm{~T} \\cdot \\mathrm{~m}) / \\mathrm{A}\n$$ \\\\\nMagnetic constant,\n$$\nk^{\\prime}=\\mu_{0} / 4 \\pi=1 \\times 10^{-7}(\\mathrm{~T} \\cdot \\mathrm{~m}) / \\mathrm{A}\n$$ \\\\\n1 atmosphere pressure,\n$$\n1 \\mathrm{~atm}=1.0 \\times 10^{5} \\mathrm{~N} / \\mathrm{m}^{2}=1.0 \\times 10^{5} \\mathrm{~Pa}\n$$\n\\end{tabular}} \\\\\n\\hline\n\\end{tabular}\n\\end{table}\n\n\\begin{tabular}{|l|l|l|l|l|l|l|l|l|}\n\\hline UNIT SYMBOLS & meter, kilogram, second, ampere, kelvin, & m kg s A K & mole, hertz, newton, pascal, joule, & mol Hz N Pa J & watt, coulomb, volt, ohm, henry, & W C V $\\Omega$ H & farad, tesla, degree Celsius, electron-volt, & F T ${ }^{\\circ} \\mathrm{C}$ eV \\\\\n\\hline\n\\end{tabular}\n\n\\begin{tabular}{|ccc|}\n\\hline \\multicolumn{3}{|c|}{ PREFIXES } \\\\\nFactor & Prefix & Symbol \\\\\n$10^{9}$ & giga & G \\\\\n$10^{6}$ & mega & M \\\\\n$10^{3}$ & kilo & k \\\\\n$10^{-2}$ & centi & c \\\\\n$10^{-3}$ & milli & m \\\\\n$10^{-6}$ & micro & $\\mu$ \\\\\n$10^{-9}$ & nano & n \\\\\n$10^{-12}$ & pico & p \\\\\n\\hline\n\\end{tabular}\n\n\\begin{tabular}{|l|l|l|l|l|l|l|l|}\n\\hline \\multicolumn{8}{|c|}{VALUES OF TRIGONOMETRIC FUNCTIONS FOR COMMON ANGLES} \\\\\n\\hline $\\theta$ & $0^{\\circ}$ & $30^{\\circ}$ & $37^{\\circ}$ & $45^{\\circ}$ & $53^{\\circ}$ & $60^{\\circ}$ & $90^{\\circ}$ \\\\\n\\hline $\\sin \\theta$ & 0 & 1/2 & 3/5 & $\\sqrt{2} / 2$ & 4/5 & $\\sqrt{3} / 2$ & 1 \\\\\n\\hline $\\cos \\theta$ & 1 & $\\sqrt{3} / 2$ & 4/5 & $\\sqrt{2} / 2$ & 3/5 & 1/2 & 0 \\\\\n\\hline $\\tan \\theta$ & 0 & $\\sqrt{3} / 3$ & 3/4 & 1 & 4/3 & $\\sqrt{3}$ & $\\infty$ \\\\\n\\hline\n\\end{tabular}\n\nThe following conventions are used in this exam.\nI. Unless otherwise stated, the frame of reference of any problem is assumed to be inertial.\nII. The direction of any electric current is the direction of flow of positive charge (conventional current).\nIII. For any isolated electric charge, the electric potential is defined as zero at an infinite distance from the charge.\n\n\\title{\nPHYSICS C: MECHANICS \\\\ SECTION I \\\\ Time-45 minutes \\\\ 35 Questions\n}\n\nDirections: Each of the questions or incomplete statements below is followed by five suggested answers or completions. Select the one that is best in each case and then fill in the corresponding circle on the answer sheet.\n\nNote: To simplify calculations, you may use $g=10 \\mathrm{~m} / \\mathrm{s}^{2}$ in all problems.</div>",
+              "html": "<div class=\"choiceTxt\">village\n\nUse your time effectively, working as quickly as you can without losing accuracy. Do not spend too much time on any one question. Go on to other questions and come back to the ones you have not answered if you have time. It is not expected that everyone will know the answers to all of the multiple-choice questions.\n\nYour total score on the multiple-choice section is based only on the number of questions answered correctly. Points are not deducted for incorrect answers or unanswered questions.\n\n\\begin{table}\n\\captionsetup{labelformat=empty}\n\\caption{TABLE OF INFORMATION, EFFECTIVE 2012}\n\\begin{tabular}{|l|l|}\n\\hline \\multicolumn{2}{|c|}{CONSTANTS AND CONVERSION FACTORS} \\\\\n\\hline \\begin{tabular}{l}\nProton mass, $m_{p}=1.67 \\times 10^{-27} \\mathrm{~kg}$ \\\\\nNeutron mass, $m_{n}=1.67 \\times 10^{-27} \\mathrm{~kg}$ \\\\\nElectron mass, $m_{e}=9.11 \\times 10^{-31} \\mathrm{~kg}$ \\\\\nAvogadro's number, $N_{0}=6.02 \\times 10^{23} \\mathrm{~mol}^{-1}$ \\\\\nUniversal gas constant, $\\quad R=8.31 \\mathrm{~J} /(\\mathrm{mol} \\cdot \\mathrm{K})$ \\\\\nBoltzmann's constant, $k_{B}=1.38 \\times 10^{-23} \\mathrm{~J} / \\mathrm{K}$\n\\end{tabular} & \\begin{tabular}{l}\nElectron charge magnitude, $\\quad e=1.60 \\times 10^{-19} \\mathrm{C}$ \\\\\n1 electron volt, $1 \\mathrm{eV}=1.60 \\times 10^{-19} \\mathrm{~J}$ \\\\\nSpeed of light, $\\quad c=3.00 \\times 10^{8} \\mathrm{~m} / \\mathrm{s}$ \\\\\nUniversal gravitational $G=6.67 \\times 10^{-11} \\mathrm{~m}^{3} / \\mathrm{kg} \\cdot \\mathrm{s}^{2}$ \\\\\nAcceleration due to gravity $\\quad g=9.8 \\mathrm{~m} / \\mathrm{s}^{2}$\n\\end{tabular} \\\\\n\\hline \\multicolumn{2}{|c|}{\\begin{tabular}{l}\n1 unified atomic mass unit, \\\\\nPlanck's constant, \\\\\nVacuum permittivity,\n$$\n\\begin{aligned}\n1 \\mathrm{u} & =1.66 \\times 10^{-27} \\mathrm{~kg}=931 \\mathrm{MeV} / c^{2} \\\\\nh & =6.63 \\times 10^{-34} \\mathrm{~J} \\cdot \\mathrm{~s}=4.14 \\times 10^{-15} \\mathrm{eV} \\cdot \\mathrm{~s} \\\\\nh c & =1.99 \\times 10^{-25} \\mathrm{~J} \\cdot \\mathrm{~m}=1.24 \\times 10^{3} \\mathrm{eV} \\cdot \\mathrm{~nm} \\\\\n\\epsilon_{0} & =8.85 \\times 10^{-12} \\mathrm{C}^{2} / \\mathrm{N} \\cdot \\mathrm{~m}^{2}\n\\end{aligned}\n$$ \\\\\nCoulomb's law constant,\n$$\nk=1 / 4 \\pi \\epsilon_{0}=9.0 \\times 10^{9} \\mathrm{~N} \\cdot \\mathrm{~m}^{2} / \\mathrm{C}^{2}\n$$ \\\\\nVacuum permeability,\n$$\n\\mu_{0}=4 \\pi \\times 10^{-7}(\\mathrm{~T} \\cdot \\mathrm{~m}) / \\mathrm{A}\n$$ \\\\\nMagnetic constant,\n$$\nk^{\\prime}=\\mu_{0} / 4 \\pi=1 \\times 10^{-7}(\\mathrm{~T} \\cdot \\mathrm{~m}) / \\mathrm{A}\n$$ \\\\\n1 atmosphere pressure,\n$$\n1 \\mathrm{~atm}=1.0 \\times 10^{5} \\mathrm{~N} / \\mathrm{m}^{2}=1.0 \\times 10^{5} \\mathrm{~Pa}\n$$\n\\end{tabular}} \\\\\n\\hline\n\\end{tabular}\n\\end{table}\n\n\\begin{tabular}{|l|l|l|l|l|l|l|l|l|}\n\\hline UNIT SYMBOLS & meter, kilogram, second, ampere, kelvin, & m kg s A K & mole, hertz, newton, pascal, joule, & mol Hz N Pa J & watt, coulomb, volt, ohm, henry, & W C V $\\Omega$ H & farad, tesla, degree Celsius, electron-volt, & F T ${ }^{\\circ} \\mathrm{C}$ eV \\\\\n\\hline\n\\end{tabular}\n\n\\begin{tabular}{|ccc|}\n\\hline \\multicolumn{3}{|c|}{ PREFIXES } \\\\\nFactor & Prefix & Symbol \\\\\n$10^{9}$ & giga & G \\\\\n$10^{6}$ & mega & M \\\\\n$10^{3}$ & kilo & k \\\\\n$10^{-2}$ & centi & c \\\\\n$10^{-3}$ & milli & m \\\\\n$10^{-6}$ & micro & $\\mu$ \\\\\n$10^{-9}$ & nano & n \\\\\n$10^{-12}$ & pico & p \\\\\n\\hline\n\\end{tabular}\n\n\\begin{tabular}{|l|l|l|l|l|l|l|l|}\n\\hline \\multicolumn{8}{|c|}{VALUES OF TRIGONOMETRIC FUNCTIONS FOR COMMON ANGLES} \\\\\n\\hline $\\theta$ & $0^{\\circ}$ & $30^{\\circ}$ & $37^{\\circ}$ & $45^{\\circ}$ & $53^{\\circ}$ & $60^{\\circ}$ & $90^{\\circ}$ \\\\\n\\hline $\\sin \\theta$ & 0 & 1/2 & 3/5 & $\\sqrt{2} / 2$ & 4/5 & $\\sqrt{3} / 2$ & 1 \\\\\n\\hline $\\cos \\theta$ & 1 & $\\sqrt{3} / 2$ & 4/5 & $\\sqrt{2} / 2$ & 3/5 & 1/2 & 0 \\\\\n\\hline $\\tan \\theta$ & 0 & $\\sqrt{3} / 3$ & 3/4 & 1 & 4/3 & $\\sqrt{3}$ & $\\infty$ \\\\\n\\hline\n\\end{tabular}\n\nThe following conventions are used in this exam.\nI. Unless otherwise stated, the frame of reference of any problem is assumed to be inertial.\nII. The direction of any electric current is the direction of flow of positive charge (conventional current).\nIII. For any isolated electric charge, the electric potential is defined as zero at an infinite distance from the charge.\n\n\\title{\nPHYSICS C: MECHANICS \\\\ SECTION I \\\\ Time-45 minutes \\\\ 35 Questions\n}\n\nDirections: Each of the questions or incomplete statements below is followed by five suggested answers or completions. Select the one that is best in each case and then fill in the corresponding circle on the answer sheet.\n\nNote: To simplify calculations, you may use $g=10 \\mathrm{~m} / \\mathrm{s}^{2}$ in all problems.</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "2",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">1. An object is released from rest from a great height and reaches its terminal velocity. Which of the following statements is true of the object while it is falling with terminal velocity?</p>",
+          "options": [
+            {
+              "key": "A",
+              "text": "<div class=\"choiceTxt\">There is no longer a gravitational force on it.</div>",
+              "html": "<div class=\"choiceTxt\">There is no longer a gravitational force on it.</div>"
+            },
+            {
+              "key": "B",
+              "text": "<div class=\"choiceTxt\">There is no longer a drag (air resistance) force on it.</div>",
+              "html": "<div class=\"choiceTxt\">There is no longer a drag (air resistance) force on it.</div>"
+            },
+            {
+              "key": "C",
+              "text": "<div class=\"choiceTxt\">Its acceleration is upward.</div>",
+              "html": "<div class=\"choiceTxt\">Its acceleration is upward.</div>"
+            },
+            {
+              "key": "D",
+              "text": "<div class=\"choiceTxt\">The magnitudes of the gravitational and drag forces on it are equal.</div>",
+              "html": "<div class=\"choiceTxt\">The magnitudes of the gravitational and drag forces on it are equal.</div>"
+            },
+            {
+              "key": "E",
+              "text": "<div class=\"choiceTxt\">The gravitational and drag forces on it act in the same direction.</div>",
+              "html": "<div class=\"choiceTxt\">The gravitational and drag forces on it act in the same direction.</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "3",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">2. A student with a mass of 50 kg is standing on a bathroom scale while riding in an elevator. If the reading on the scale is 400 N , which of the following is a correct description of the elevator's motion?</p>",
+          "options": [
+            {
+              "key": "A",
+              "text": "<div class=\"choiceTxt\">Moving upward with increasing speed</div>",
+              "html": "<div class=\"choiceTxt\">Moving upward with increasing speed</div>"
+            },
+            {
+              "key": "B",
+              "text": "<div class=\"choiceTxt\">Moving upward with constant speed</div>",
+              "html": "<div class=\"choiceTxt\">Moving upward with constant speed</div>"
+            },
+            {
+              "key": "C",
+              "text": "<div class=\"choiceTxt\">Moving downward with constant speed</div>",
+              "html": "<div class=\"choiceTxt\">Moving downward with constant speed</div>"
+            },
+            {
+              "key": "D",
+              "text": "<div class=\"choiceTxt\">Moving downward with increasing speed</div>",
+              "html": "<div class=\"choiceTxt\">Moving downward with increasing speed</div>"
+            },
+            {
+              "key": "E",
+              "text": "<div class=\"choiceTxt\">Moving downward with decreasing speed\n![](https://cdn.mathpix.com/cropped/0b14854f-261f-4610-ae9a-5b63f68a0ac1-18.jpg?height=310&width=253&top_left_y=684&top_left_x=1415)</div>",
+              "html": "<div class=\"choiceTxt\">Moving downward with decreasing speed\n![](https://cdn.mathpix.com/cropped/0b14854f-261f-4610-ae9a-5b63f68a0ac1-18.jpg?height=310&width=253&top_left_y=684&top_left_x=1415)</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "4",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">3. The system represented above consists of two objects of unequal masses, $M_{1}$ and $M_{2}$, with $M_{1}>M_{2}$. The objects hang from the ends of a cord of negligible mass that passes over a pulley with negligible mass and friction. Which of the following is true about the changes in the gravitational potential energy, $\\Delta U$, and kinetic energy, $\\Delta K$, of the system soon after the objects are released from rest?</p>",
+          "options": [
+            {
+              "key": "A",
+              "text": "<div class=\"choiceTxt\">$\\Delta U<0$ and $\\Delta K>0$</div>",
+              "html": "<div class=\"choiceTxt\">$\\Delta U<0$ and $\\Delta K>0$</div>"
+            },
+            {
+              "key": "B",
+              "text": "<div class=\"choiceTxt\">$\\Delta U=0$ and $\\Delta K>0$</div>",
+              "html": "<div class=\"choiceTxt\">$\\Delta U=0$ and $\\Delta K>0$</div>"
+            },
+            {
+              "key": "C",
+              "text": "<div class=\"choiceTxt\">$\\Delta U<0$ and $\\Delta K=0$</div>",
+              "html": "<div class=\"choiceTxt\">$\\Delta U<0$ and $\\Delta K=0$</div>"
+            },
+            {
+              "key": "D",
+              "text": "<div class=\"choiceTxt\">$\\Delta U=0$ and $\\Delta K=0$</div>",
+              "html": "<div class=\"choiceTxt\">$\\Delta U=0$ and $\\Delta K=0$</div>"
+            },
+            {
+              "key": "E",
+              "text": "<div class=\"choiceTxt\">$\\Delta U>0$ and $\\Delta K<0$\n\n\\section*{Questions 4-6}\n\nA tape attached to a moving object was pulled by the object through a marker that put dots on the tape at a constant rate of 10 dots per second for a period of 2.5 s . The figure below shows the marked tape next to a centimeter ruler.\n![](https://cdn.mathpix.com/cropped/0b14854f-261f-4610-ae9a-5b63f68a0ac1-19.jpg?height=293&width=1805&top_left_y=407&top_left_x=159)</div>",
+              "html": "<div class=\"choiceTxt\">$\\Delta U>0$ and $\\Delta K<0$\n\n\\section*{Questions 4-6}\n\nA tape attached to a moving object was pulled by the object through a marker that put dots on the tape at a constant rate of 10 dots per second for a period of 2.5 s . The figure below shows the marked tape next to a centimeter ruler.\n![](https://cdn.mathpix.com/cropped/0b14854f-261f-4610-ae9a-5b63f68a0ac1-19.jpg?height=293&width=1805&top_left_y=407&top_left_x=159)</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "5",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">4. The average speed of the object for the total time recorded on the tape is most nearly</p>",
+          "options": [
+            {
+              "key": "A",
+              "text": "<div class=\"choiceTxt\">$2.0 \\mathrm{~cm} / \\mathrm{s}$</div>",
+              "html": "<div class=\"choiceTxt\">$2.0 \\mathrm{~cm} / \\mathrm{s}$</div>"
+            },
+            {
+              "key": "B",
+              "text": "<div class=\"choiceTxt\">$3.3 \\mathrm{~cm} / \\mathrm{s}$</div>",
+              "html": "<div class=\"choiceTxt\">$3.3 \\mathrm{~cm} / \\mathrm{s}$</div>"
+            },
+            {
+              "key": "C",
+              "text": "<div class=\"choiceTxt\">$4.5 \\mathrm{~cm} / \\mathrm{s}$</div>",
+              "html": "<div class=\"choiceTxt\">$4.5 \\mathrm{~cm} / \\mathrm{s}$</div>"
+            },
+            {
+              "key": "D",
+              "text": "<div class=\"choiceTxt\">$5.5 \\mathrm{~cm} / \\mathrm{s}$</div>",
+              "html": "<div class=\"choiceTxt\">$5.5 \\mathrm{~cm} / \\mathrm{s}$</div>"
+            },
+            {
+              "key": "E",
+              "text": "<div class=\"choiceTxt\">$7.0 \\mathrm{~cm} / \\mathrm{s}$</div>",
+              "html": "<div class=\"choiceTxt\">$7.0 \\mathrm{~cm} / \\mathrm{s}$</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "6",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">6. Which of the following best represents the graph of the acceleration of the object versus time?</p>",
+          "options": [
+            {
+              "key": "A",
+              "text": "<div class=\"choiceTxt\">![](https://cdn.mathpix.com/cropped/0b14854f-261f-4610-ae9a-5b63f68a0ac1-20.jpg?height=297&width=404&top_left_y=222&top_left_x=287)</div>",
+              "html": "<div class=\"choiceTxt\">![](https://cdn.mathpix.com/cropped/0b14854f-261f-4610-ae9a-5b63f68a0ac1-20.jpg?height=297&width=404&top_left_y=222&top_left_x=287)</div>"
+            },
+            {
+              "key": "B",
+              "text": "<div class=\"choiceTxt\">![](https://cdn.mathpix.com/cropped/0b14854f-261f-4610-ae9a-5b63f68a0ac1-20.jpg?height=293&width=399&top_left_y=224&top_left_x=840)</div>",
+              "html": "<div class=\"choiceTxt\">![](https://cdn.mathpix.com/cropped/0b14854f-261f-4610-ae9a-5b63f68a0ac1-20.jpg?height=293&width=399&top_left_y=224&top_left_x=840)</div>"
+            },
+            {
+              "key": "C",
+              "text": "<div class=\"choiceTxt\">![](https://cdn.mathpix.com/cropped/0b14854f-261f-4610-ae9a-5b63f68a0ac1-20.jpg?height=295&width=402&top_left_y=224&top_left_x=1407)</div>",
+              "html": "<div class=\"choiceTxt\">![](https://cdn.mathpix.com/cropped/0b14854f-261f-4610-ae9a-5b63f68a0ac1-20.jpg?height=295&width=402&top_left_y=224&top_left_x=1407)</div>"
+            },
+            {
+              "key": "D",
+              "text": "<div class=\"choiceTxt\">![](https://cdn.mathpix.com/cropped/0b14854f-261f-4610-ae9a-5b63f68a0ac1-20.jpg?height=289&width=398&top_left_y=558&top_left_x=289)</div>",
+              "html": "<div class=\"choiceTxt\">![](https://cdn.mathpix.com/cropped/0b14854f-261f-4610-ae9a-5b63f68a0ac1-20.jpg?height=289&width=398&top_left_y=558&top_left_x=289)</div>"
+            },
+            {
+              "key": "E",
+              "text": "<div class=\"choiceTxt\">![](https://cdn.mathpix.com/cropped/0b14854f-261f-4610-ae9a-5b63f68a0ac1-20.jpg?height=289&width=397&top_left_y=558&top_left_x=840)\n\n\\section*{Questions 7-8}\n![](https://cdn.mathpix.com/cropped/0b14854f-261f-4610-ae9a-5b63f68a0ac1-21.jpg?height=316&width=471&top_left_y=235&top_left_x=348)\n\nA turntable with mass $m$, radius $R$, and rotational inertia $\\frac{m R^{2}}{2}$ initially rotates freely about an axis through its center at constant angular speed with negligible friction. A piece of clay, also of mass $m$, falls vertically onto the turntable, as shown above, and sticks to it at point $P$, a distance $\\frac{R}{2}$ from the center of rotation.</div>",
+              "html": "<div class=\"choiceTxt\">![](https://cdn.mathpix.com/cropped/0b14854f-261f-4610-ae9a-5b63f68a0ac1-20.jpg?height=289&width=397&top_left_y=558&top_left_x=840)\n\n\\section*{Questions 7-8}\n![](https://cdn.mathpix.com/cropped/0b14854f-261f-4610-ae9a-5b63f68a0ac1-21.jpg?height=316&width=471&top_left_y=235&top_left_x=348)\n\nA turntable with mass $m$, radius $R$, and rotational inertia $\\frac{m R^{2}}{2}$ initially rotates freely about an axis through its center at constant angular speed with negligible friction. A piece of clay, also of mass $m$, falls vertically onto the turntable, as shown above, and sticks to it at point $P$, a distance $\\frac{R}{2}$ from the center of rotation.</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "7",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">7. What is the rotational inertia of the clay-turntable system after the collision?</p>",
+          "options": [
+            {
+              "key": "A",
+              "text": "<div class=\"choiceTxt\">$\\frac{1}{4} m R^{2}$</div>",
+              "html": "<div class=\"choiceTxt\">$\\frac{1}{4} m R^{2}$</div>"
+            },
+            {
+              "key": "B",
+              "text": "<div class=\"choiceTxt\">$\\frac{1}{2} m R^{2}$</div>",
+              "html": "<div class=\"choiceTxt\">$\\frac{1}{2} m R^{2}$</div>"
+            },
+            {
+              "key": "C",
+              "text": "<div class=\"choiceTxt\">$\\frac{3}{4} m R^{2}$</div>",
+              "html": "<div class=\"choiceTxt\">$\\frac{3}{4} m R^{2}$</div>"
+            },
+            {
+              "key": "D",
+              "text": "<div class=\"choiceTxt\">$m R^{2}$</div>",
+              "html": "<div class=\"choiceTxt\">$m R^{2}$</div>"
+            },
+            {
+              "key": "E",
+              "text": "<div class=\"choiceTxt\">$2 m R^{2}$</div>",
+              "html": "<div class=\"choiceTxt\">$2 m R^{2}$</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "8",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">8. What happens to the rotational speed of the turntable and the angular momentum of the clayturntable system about the axis as a result of the  Rotational Speed</p>",
+          "options": [
+            {
+              "key": "A",
+              "text": "<div class=\"choiceTxt\">Stays the same</div>",
+              "html": "<div class=\"choiceTxt\">Stays the same</div>"
+            },
+            {
+              "key": "B",
+              "text": "<div class=\"choiceTxt\">Stays the same</div>",
+              "html": "<div class=\"choiceTxt\">Stays the same</div>"
+            },
+            {
+              "key": "C",
+              "text": "<div class=\"choiceTxt\">Stays the same</div>",
+              "html": "<div class=\"choiceTxt\">Stays the same</div>"
+            },
+            {
+              "key": "D",
+              "text": "<div class=\"choiceTxt\">Decreases</div>",
+              "html": "<div class=\"choiceTxt\">Decreases</div>"
+            },
+            {
+              "key": "E",
+              "text": "<div class=\"choiceTxt\">Decreases collision?\n\nAngular Momentum\nIncreases\nStays the same\nDecreases\nStays the same\nDecreases</div>",
+              "html": "<div class=\"choiceTxt\">Decreases collision?\n\nAngular Momentum\nIncreases\nStays the same\nDecreases\nStays the same\nDecreases</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "9",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">9. Which of the following must be true in order for a rotating platform to continue rotating with a constant angular velocity?</p>",
+          "options": [
+            {
+              "key": "A",
+              "text": "<div class=\"choiceTxt\">There are no forces exerted on it.</div>",
+              "html": "<div class=\"choiceTxt\">There are no forces exerted on it.</div>"
+            },
+            {
+              "key": "B",
+              "text": "<div class=\"choiceTxt\">There is no friction exerted on it.</div>",
+              "html": "<div class=\"choiceTxt\">There is no friction exerted on it.</div>"
+            },
+            {
+              "key": "C",
+              "text": "<div class=\"choiceTxt\">There is zero net force exerted on it.</div>",
+              "html": "<div class=\"choiceTxt\">There is zero net force exerted on it.</div>"
+            },
+            {
+              "key": "D",
+              "text": "<div class=\"choiceTxt\">There are no torques exerted on it.</div>",
+              "html": "<div class=\"choiceTxt\">There are no torques exerted on it.</div>"
+            },
+            {
+              "key": "E",
+              "text": "<div class=\"choiceTxt\">There is zero net torque exerted on it.</div>",
+              "html": "<div class=\"choiceTxt\">There is zero net torque exerted on it.</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "10",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">10. A newly discovered planet is found to have twice the radius and three times the mass of Earth. If the acceleration due to gravity at the surface of Earth is $g$, the acceleration due to gravity at the surface of the new planet is</p>",
+          "options": [
+            {
+              "key": "A",
+              "text": "<div class=\"choiceTxt\">$\\frac{2 g}{3}$</div>",
+              "html": "<div class=\"choiceTxt\">$\\frac{2 g}{3}$</div>"
+            },
+            {
+              "key": "B",
+              "text": "<div class=\"choiceTxt\">$\\frac{3 g}{4}$</div>",
+              "html": "<div class=\"choiceTxt\">$\\frac{3 g}{4}$</div>"
+            },
+            {
+              "key": "C",
+              "text": "<div class=\"choiceTxt\">$g$</div>",
+              "html": "<div class=\"choiceTxt\">$g$</div>"
+            },
+            {
+              "key": "D",
+              "text": "<div class=\"choiceTxt\">$\\frac{4 g}{3}$</div>",
+              "html": "<div class=\"choiceTxt\">$\\frac{4 g}{3}$</div>"
+            },
+            {
+              "key": "E",
+              "text": "<div class=\"choiceTxt\">$\\frac{3 g}{2}$\n![](https://cdn.mathpix.com/cropped/0b14854f-261f-4610-ae9a-5b63f68a0ac1-21.jpg?height=129&width=126&top_left_y=1461&top_left_x=1281)\n![](https://cdn.mathpix.com/cropped/0b14854f-261f-4610-ae9a-5b63f68a0ac1-21.jpg?height=240&width=316&top_left_y=1411&top_left_x=1495)</div>",
+              "html": "<div class=\"choiceTxt\">$\\frac{3 g}{2}$\n![](https://cdn.mathpix.com/cropped/0b14854f-261f-4610-ae9a-5b63f68a0ac1-21.jpg?height=129&width=126&top_left_y=1461&top_left_x=1281)\n![](https://cdn.mathpix.com/cropped/0b14854f-261f-4610-ae9a-5b63f68a0ac1-21.jpg?height=240&width=316&top_left_y=1411&top_left_x=1495)</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "11",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">11. At point $X$ shown above, which is midway between the centers of two isolated planets of radii $R$ and $2 R$, the net gravitational force on an object is zero. If the mass of the smaller planet is $M$, the mass of the larger planet is</p>",
+          "options": [
+            {
+              "key": "A",
+              "text": "<div class=\"choiceTxt\">$\\frac{M}{4}$</div>",
+              "html": "<div class=\"choiceTxt\">$\\frac{M}{4}$</div>"
+            },
+            {
+              "key": "B",
+              "text": "<div class=\"choiceTxt\">$\\frac{M}{2}$</div>",
+              "html": "<div class=\"choiceTxt\">$\\frac{M}{2}$</div>"
+            },
+            {
+              "key": "C",
+              "text": "<div class=\"choiceTxt\">$M$</div>",
+              "html": "<div class=\"choiceTxt\">$M$</div>"
+            },
+            {
+              "key": "D",
+              "text": "<div class=\"choiceTxt\">$2 M$</div>",
+              "html": "<div class=\"choiceTxt\">$2 M$</div>"
+            },
+            {
+              "key": "E",
+              "text": "<div class=\"choiceTxt\">$4 M$</div>",
+              "html": "<div class=\"choiceTxt\">$4 M$</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "12",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">12. A particle moves along a straight line. Its speed in $\\mathrm{m} / \\mathrm{s}$ is given by $v=a+b t^{2}$, where $a$ and $b$ are constants and $t$ is time in seconds. How far does the particle move between $t=1 \\mathrm{~s}$ and $t=2 \\mathrm{~s}$ ?</p>",
+          "options": [
+            {
+              "key": "A",
+              "text": "<div class=\"choiceTxt\">$2 b$</div>",
+              "html": "<div class=\"choiceTxt\">$2 b$</div>"
+            },
+            {
+              "key": "B",
+              "text": "<div class=\"choiceTxt\">$a+b$</div>",
+              "html": "<div class=\"choiceTxt\">$a+b$</div>"
+            },
+            {
+              "key": "C",
+              "text": "<div class=\"choiceTxt\">$a+2 b$</div>",
+              "html": "<div class=\"choiceTxt\">$a+2 b$</div>"
+            },
+            {
+              "key": "D",
+              "text": "<div class=\"choiceTxt\">$a+\\frac{7}{3} b$</div>",
+              "html": "<div class=\"choiceTxt\">$a+\\frac{7}{3} b$</div>"
+            },
+            {
+              "key": "E",
+              "text": "<div class=\"choiceTxt\">$a+\\frac{7}{2} b$\n![](https://cdn.mathpix.com/cropped/0b14854f-261f-4610-ae9a-5b63f68a0ac1-22.jpg?height=206&width=761&top_left_y=863&top_left_x=203)</div>",
+              "html": "<div class=\"choiceTxt\">$a+\\frac{7}{2} b$\n![](https://cdn.mathpix.com/cropped/0b14854f-261f-4610-ae9a-5b63f68a0ac1-22.jpg?height=206&width=761&top_left_y=863&top_left_x=203)</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "13",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">13. A ball is tossed and follows the trajectory shown above. Point $P$ is the highest point on the trajectory, and air resistance is negligible. Which of the following statements is true of the ball while it is in motion?</p>",
+          "options": [
+            {
+              "key": "A",
+              "text": "<div class=\"choiceTxt\">Its speed is constant.</div>",
+              "html": "<div class=\"choiceTxt\">Its speed is constant.</div>"
+            },
+            {
+              "key": "B",
+              "text": "<div class=\"choiceTxt\">Its acceleration is constant.</div>",
+              "html": "<div class=\"choiceTxt\">Its acceleration is constant.</div>"
+            },
+            {
+              "key": "C",
+              "text": "<div class=\"choiceTxt\">The horizontal component of its velocity is zero at point $P$.</div>",
+              "html": "<div class=\"choiceTxt\">The horizontal component of its velocity is zero at point $P$.</div>"
+            },
+            {
+              "key": "D",
+              "text": "<div class=\"choiceTxt\">The vertical component of its velocity is a maximum at point $P$.</div>",
+              "html": "<div class=\"choiceTxt\">The vertical component of its velocity is a maximum at point $P$.</div>"
+            },
+            {
+              "key": "E",
+              "text": "<div class=\"choiceTxt\">Its kinetic energy is a maximum at point $P$.\n\n\\begin{figure}\n\\includegraphics[alt={},max width=\\textwidth]{https://cdn.mathpix.com/cropped/0b14854f-261f-4610-ae9a-5b63f68a0ac1-22.jpg?height=234&width=393&top_left_y=159&top_left_x=1117}\n\\captionsetup{labelformat=empty}\n\\caption{Before Jump}\n\\end{figure}\n\n\\begin{figure}\n\\includegraphics[alt={},max width=\\textwidth]{https://cdn.mathpix.com/cropped/0b14854f-261f-4610-ae9a-5b63f68a0ac1-22.jpg?height=123&width=390&top_left_y=270&top_left_x=1587}\n\\captionsetup{labelformat=empty}\n\\caption{After Jump}\n\\end{figure}</div>",
+              "html": "<div class=\"choiceTxt\">Its kinetic energy is a maximum at point $P$.\n\n\\begin{figure}\n\\includegraphics[alt={},max width=\\textwidth]{https://cdn.mathpix.com/cropped/0b14854f-261f-4610-ae9a-5b63f68a0ac1-22.jpg?height=234&width=393&top_left_y=159&top_left_x=1117}\n\\captionsetup{labelformat=empty}\n\\caption{Before Jump}\n\\end{figure}\n\n\\begin{figure}\n\\includegraphics[alt={},max width=\\textwidth]{https://cdn.mathpix.com/cropped/0b14854f-261f-4610-ae9a-5b63f68a0ac1-22.jpg?height=123&width=390&top_left_y=270&top_left_x=1587}\n\\captionsetup{labelformat=empty}\n\\caption{After Jump}\n\\end{figure}</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "14",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">14. As shown in the figure above, a child of mass 25 kg who is running at a speed of $3 \\mathrm{~m} / \\mathrm{s}$ jumps onto a stationary sled of mass 5 kg on a frozen lake. The speed at which the child and sled begin to slide across the ice is most nearly</p>",
+          "options": [
+            {
+              "key": "A",
+              "text": "<div class=\"choiceTxt\">$0.4 \\mathrm{~m} / \\mathrm{s}$</div>",
+              "html": "<div class=\"choiceTxt\">$0.4 \\mathrm{~m} / \\mathrm{s}$</div>"
+            },
+            {
+              "key": "B",
+              "text": "<div class=\"choiceTxt\">$0.6 \\mathrm{~m} / \\mathrm{s}$</div>",
+              "html": "<div class=\"choiceTxt\">$0.6 \\mathrm{~m} / \\mathrm{s}$</div>"
+            },
+            {
+              "key": "C",
+              "text": "<div class=\"choiceTxt\">$1.3 \\mathrm{~m} / \\mathrm{s}$</div>",
+              "html": "<div class=\"choiceTxt\">$1.3 \\mathrm{~m} / \\mathrm{s}$</div>"
+            },
+            {
+              "key": "D",
+              "text": "<div class=\"choiceTxt\">$2.5 \\mathrm{~m} / \\mathrm{s}$</div>",
+              "html": "<div class=\"choiceTxt\">$2.5 \\mathrm{~m} / \\mathrm{s}$</div>"
+            },
+            {
+              "key": "E",
+              "text": "<div class=\"choiceTxt\">$15 \\mathrm{~m} / \\mathrm{s}$\n![](https://cdn.mathpix.com/cropped/0b14854f-261f-4610-ae9a-5b63f68a0ac1-23.jpg?height=150&width=593&top_left_y=168&top_left_x=287)</div>",
+              "html": "<div class=\"choiceTxt\">$15 \\mathrm{~m} / \\mathrm{s}$\n![](https://cdn.mathpix.com/cropped/0b14854f-261f-4610-ae9a-5b63f68a0ac1-23.jpg?height=150&width=593&top_left_y=168&top_left_x=287)</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "15",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">15. A block of mass $m$ is initially sliding with speed $v_{0}$ on a horizontal frictionless surface, as shown above. It makes an elastic, head-on collision with another block of mass $2 m$ that is initially at rest. Which of the following correctly shows the motion of the blocks after the collision?</p>",
+          "options": [
+            {
+              "key": "A",
+              "text": "<div class=\"choiceTxt\">![](https://cdn.mathpix.com/cropped/0b14854f-261f-4610-ae9a-5b63f68a0ac1-23.jpg?height=162&width=598&top_left_y=651&top_left_x=287)</div>",
+              "html": "<div class=\"choiceTxt\">![](https://cdn.mathpix.com/cropped/0b14854f-261f-4610-ae9a-5b63f68a0ac1-23.jpg?height=162&width=598&top_left_y=651&top_left_x=287)</div>"
+            },
+            {
+              "key": "B",
+              "text": "<div class=\"choiceTxt\">![](https://cdn.mathpix.com/cropped/0b14854f-261f-4610-ae9a-5b63f68a0ac1-23.jpg?height=165&width=596&top_left_y=852&top_left_x=289)</div>",
+              "html": "<div class=\"choiceTxt\">![](https://cdn.mathpix.com/cropped/0b14854f-261f-4610-ae9a-5b63f68a0ac1-23.jpg?height=165&width=596&top_left_y=852&top_left_x=289)</div>"
+            },
+            {
+              "key": "C",
+              "text": "<div class=\"choiceTxt\">![](https://cdn.mathpix.com/cropped/0b14854f-261f-4610-ae9a-5b63f68a0ac1-23.jpg?height=167&width=596&top_left_y=1054&top_left_x=289)</div>",
+              "html": "<div class=\"choiceTxt\">![](https://cdn.mathpix.com/cropped/0b14854f-261f-4610-ae9a-5b63f68a0ac1-23.jpg?height=167&width=596&top_left_y=1054&top_left_x=289)</div>"
+            },
+            {
+              "key": "D",
+              "text": "<div class=\"choiceTxt\">![](https://cdn.mathpix.com/cropped/0b14854f-261f-4610-ae9a-5b63f68a0ac1-23.jpg?height=167&width=596&top_left_y=1255&top_left_x=289)</div>",
+              "html": "<div class=\"choiceTxt\">![](https://cdn.mathpix.com/cropped/0b14854f-261f-4610-ae9a-5b63f68a0ac1-23.jpg?height=167&width=596&top_left_y=1255&top_left_x=289)</div>"
+            },
+            {
+              "key": "E",
+              "text": "<div class=\"choiceTxt\">![](https://cdn.mathpix.com/cropped/0b14854f-261f-4610-ae9a-5b63f68a0ac1-23.jpg?height=167&width=596&top_left_y=1457&top_left_x=289)\n![](https://cdn.mathpix.com/cropped/0b14854f-261f-4610-ae9a-5b63f68a0ac1-23.jpg?height=232&width=788&top_left_y=1719&top_left_x=189)</div>",
+              "html": "<div class=\"choiceTxt\">![](https://cdn.mathpix.com/cropped/0b14854f-261f-4610-ae9a-5b63f68a0ac1-23.jpg?height=167&width=596&top_left_y=1457&top_left_x=289)\n![](https://cdn.mathpix.com/cropped/0b14854f-261f-4610-ae9a-5b63f68a0ac1-23.jpg?height=232&width=788&top_left_y=1719&top_left_x=189)</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "16",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">16. A 2 kg mass is attached to the 0 cm mark of a lightweight meter stick, and a 3 kg mass is attached to the 100 cm mark, as shown above. The center of mass of the combined system (meter stick and both masses) is located nearest which of the following marks on the meter stick?</p>",
+          "options": [
+            {
+              "key": "A",
+              "text": "<div class=\"choiceTxt\">33 cm</div>",
+              "html": "<div class=\"choiceTxt\">33 cm</div>"
+            },
+            {
+              "key": "B",
+              "text": "<div class=\"choiceTxt\">40 cm</div>",
+              "html": "<div class=\"choiceTxt\">40 cm</div>"
+            },
+            {
+              "key": "C",
+              "text": "<div class=\"choiceTxt\">60 cm</div>",
+              "html": "<div class=\"choiceTxt\">60 cm</div>"
+            },
+            {
+              "key": "D",
+              "text": "<div class=\"choiceTxt\">67 cm</div>",
+              "html": "<div class=\"choiceTxt\">67 cm</div>"
+            },
+            {
+              "key": "E",
+              "text": "<div class=\"choiceTxt\">75 cm\n![](https://cdn.mathpix.com/cropped/0b14854f-261f-4610-ae9a-5b63f68a0ac1-23.jpg?height=222&width=503&top_left_y=167&top_left_x=1289)</div>",
+              "html": "<div class=\"choiceTxt\">75 cm\n![](https://cdn.mathpix.com/cropped/0b14854f-261f-4610-ae9a-5b63f68a0ac1-23.jpg?height=222&width=503&top_left_y=167&top_left_x=1289)</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "17",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">17. For a mass attached to a vertical spring, the vertical displacement $y$ of the mass is given as a function of time $t$ in the diagram above. At what time $t$ does the mass experience a maximum positive acceleration?</p>",
+          "options": [
+            {
+              "key": "A",
+              "text": "<div class=\"choiceTxt\">$t=1$</div>",
+              "html": "<div class=\"choiceTxt\">$t=1$</div>"
+            },
+            {
+              "key": "B",
+              "text": "<div class=\"choiceTxt\">$t=2$</div>",
+              "html": "<div class=\"choiceTxt\">$t=2$</div>"
+            },
+            {
+              "key": "C",
+              "text": "<div class=\"choiceTxt\">$t=3$</div>",
+              "html": "<div class=\"choiceTxt\">$t=3$</div>"
+            },
+            {
+              "key": "D",
+              "text": "<div class=\"choiceTxt\">$t=4$</div>",
+              "html": "<div class=\"choiceTxt\">$t=4$</div>"
+            },
+            {
+              "key": "E",
+              "text": "<div class=\"choiceTxt\">None of the above, since its acceleration is constant</div>",
+              "html": "<div class=\"choiceTxt\">None of the above, since its acceleration is constant</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "18",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">18. For an object in simple harmonic motion with amplitude $A$, the kinetic energy will equal the potential energy when the displacement is</p>",
+          "options": [
+            {
+              "key": "A",
+              "text": "<div class=\"choiceTxt\">zero</div>",
+              "html": "<div class=\"choiceTxt\">zero</div>"
+            },
+            {
+              "key": "B",
+              "text": "<div class=\"choiceTxt\">$\\pm A / 4$</div>",
+              "html": "<div class=\"choiceTxt\">$\\pm A / 4$</div>"
+            },
+            {
+              "key": "C",
+              "text": "<div class=\"choiceTxt\">$\\pm A / 2$</div>",
+              "html": "<div class=\"choiceTxt\">$\\pm A / 2$</div>"
+            },
+            {
+              "key": "D",
+              "text": "<div class=\"choiceTxt\">$\\pm A / \\sqrt{2}$</div>",
+              "html": "<div class=\"choiceTxt\">$\\pm A / \\sqrt{2}$</div>"
+            },
+            {
+              "key": "E",
+              "text": "<div class=\"choiceTxt\">$\\pm A$</div>",
+              "html": "<div class=\"choiceTxt\">$\\pm A$</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "19",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">19. Examples of simple harmonic motion include which of the following? I. A mass, hanging from a spring, moves up and down in a uniform gravitational field. II. A puck on an air table bounces back and forth between the walls of the table. III. A ball bounces up and down on a table.</p>",
+          "options": [
+            {
+              "key": "A",
+              "text": "<div class=\"choiceTxt\">I only</div>",
+              "html": "<div class=\"choiceTxt\">I only</div>"
+            },
+            {
+              "key": "B",
+              "text": "<div class=\"choiceTxt\">III only</div>",
+              "html": "<div class=\"choiceTxt\">III only</div>"
+            },
+            {
+              "key": "C",
+              "text": "<div class=\"choiceTxt\">I and II only</div>",
+              "html": "<div class=\"choiceTxt\">I and II only</div>"
+            },
+            {
+              "key": "D",
+              "text": "<div class=\"choiceTxt\">II and III only</div>",
+              "html": "<div class=\"choiceTxt\">II and III only</div>"
+            },
+            {
+              "key": "E",
+              "text": "<div class=\"choiceTxt\">I, II, and III\n\n\\section*{Questions 20-21}\n![](https://cdn.mathpix.com/cropped/0b14854f-261f-4610-ae9a-5b63f68a0ac1-24.jpg?height=306&width=746&top_left_y=243&top_left_x=210)\n\nTwo blocks are stacked on top of each other, as shown in the figure above. The top block, of mass $M$, is attached to a rope that pulls to the left with tension $T_{1}$. The bottom block, of mass $2 M$, is attached to a rope that pulls to the right with tension $T_{2}$. The coefficient of friction between the blocks is $\\mu$. The blocks are at rest relative to each other and move to the right at constant speed relative to the frictionless surface.</div>",
+              "html": "<div class=\"choiceTxt\">I, II, and III\n\n\\section*{Questions 20-21}\n![](https://cdn.mathpix.com/cropped/0b14854f-261f-4610-ae9a-5b63f68a0ac1-24.jpg?height=306&width=746&top_left_y=243&top_left_x=210)\n\nTwo blocks are stacked on top of each other, as shown in the figure above. The top block, of mass $M$, is attached to a rope that pulls to the left with tension $T_{1}$. The bottom block, of mass $2 M$, is attached to a rope that pulls to the right with tension $T_{2}$. The coefficient of friction between the blocks is $\\mu$. The blocks are at rest relative to each other and move to the right at constant speed relative to the frictionless surface.</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "20",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">20. What is the relationship between $T_{1}$ and $T_{2}$ ?</p>",
+          "options": [
+            {
+              "key": "A",
+              "text": "<div class=\"choiceTxt\">$T_{1}=2 T_{2}$</div>",
+              "html": "<div class=\"choiceTxt\">$T_{1}=2 T_{2}$</div>"
+            },
+            {
+              "key": "B",
+              "text": "<div class=\"choiceTxt\">$T_{1}=\\frac{1}{2} T_{2}$</div>",
+              "html": "<div class=\"choiceTxt\">$T_{1}=\\frac{1}{2} T_{2}$</div>"
+            },
+            {
+              "key": "C",
+              "text": "<div class=\"choiceTxt\">$T_{1}=\\mu T_{2}$</div>",
+              "html": "<div class=\"choiceTxt\">$T_{1}=\\mu T_{2}$</div>"
+            },
+            {
+              "key": "D",
+              "text": "<div class=\"choiceTxt\">$T_{1}=\\frac{1}{\\mu} T_{2}$</div>",
+              "html": "<div class=\"choiceTxt\">$T_{1}=\\frac{1}{\\mu} T_{2}$</div>"
+            },
+            {
+              "key": "E",
+              "text": "<div class=\"choiceTxt\">$T_{1}=T_{2}$</div>",
+              "html": "<div class=\"choiceTxt\">$T_{1}=T_{2}$</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "21",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">21. The force of friction experienced by the top block is $f_{1}$, and the force of friction experienced by the bottom block is $f_{2}$. What is the relationship between $f_{1}$ and $f_{2}$ ?</p>",
+          "options": [
+            {
+              "key": "A",
+              "text": "<div class=\"choiceTxt\">$f_{1}=2 f_{2}$</div>",
+              "html": "<div class=\"choiceTxt\">$f_{1}=2 f_{2}$</div>"
+            },
+            {
+              "key": "B",
+              "text": "<div class=\"choiceTxt\">$f_{1}=\\frac{1}{2} f_{2}$</div>",
+              "html": "<div class=\"choiceTxt\">$f_{1}=\\frac{1}{2} f_{2}$</div>"
+            },
+            {
+              "key": "C",
+              "text": "<div class=\"choiceTxt\">$f_{1}=\\mu f_{2}$</div>",
+              "html": "<div class=\"choiceTxt\">$f_{1}=\\mu f_{2}$</div>"
+            },
+            {
+              "key": "D",
+              "text": "<div class=\"choiceTxt\">$f_{1}=\\frac{1}{\\mu} f_{2}$</div>",
+              "html": "<div class=\"choiceTxt\">$f_{1}=\\frac{1}{\\mu} f_{2}$</div>"
+            },
+            {
+              "key": "E",
+              "text": "<div class=\"choiceTxt\">$f_{1}=f_{2}$\n![](https://cdn.mathpix.com/cropped/0b14854f-261f-4610-ae9a-5b63f68a0ac1-24.jpg?height=247&width=365&top_left_y=159&top_left_x=1360)</div>",
+              "html": "<div class=\"choiceTxt\">$f_{1}=f_{2}$\n![](https://cdn.mathpix.com/cropped/0b14854f-261f-4610-ae9a-5b63f68a0ac1-24.jpg?height=247&width=365&top_left_y=159&top_left_x=1360)</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "22",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">22. A uniform beam of mass $m$ is pivoted at one end and held in equilibrium at an angle $\\theta$ by a horizontal wire, as shown above. The tension $T$ in the wire is</p>",
+          "options": [
+            {
+              "key": "A",
+              "text": "<div class=\"choiceTxt\">$\\frac{1}{2} m g \\cot \\theta$</div>",
+              "html": "<div class=\"choiceTxt\">$\\frac{1}{2} m g \\cot \\theta$</div>"
+            },
+            {
+              "key": "B",
+              "text": "<div class=\"choiceTxt\">$m g \\cot \\theta$</div>",
+              "html": "<div class=\"choiceTxt\">$m g \\cot \\theta$</div>"
+            },
+            {
+              "key": "C",
+              "text": "<div class=\"choiceTxt\">$m g \\tan \\theta$</div>",
+              "html": "<div class=\"choiceTxt\">$m g \\tan \\theta$</div>"
+            },
+            {
+              "key": "D",
+              "text": "<div class=\"choiceTxt\">$2 m g \\tan \\theta$</div>",
+              "html": "<div class=\"choiceTxt\">$2 m g \\tan \\theta$</div>"
+            },
+            {
+              "key": "E",
+              "text": "<div class=\"choiceTxt\">$m g$\n![](https://cdn.mathpix.com/cropped/0b14854f-261f-4610-ae9a-5b63f68a0ac1-24.jpg?height=371&width=493&top_left_y=1068&top_left_x=1297)</div>",
+              "html": "<div class=\"choiceTxt\">$m g$\n![](https://cdn.mathpix.com/cropped/0b14854f-261f-4610-ae9a-5b63f68a0ac1-24.jpg?height=371&width=493&top_left_y=1068&top_left_x=1297)</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "23",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">23. A gear containing 20 teeth on its circumference is meshed with a gear containing 60 teeth on its circumference, as shown above. If the angular speed of the 20-tooth gear is $\\omega$, what is the angular speed of the 60-tooth gear?</p>",
+          "options": [
+            {
+              "key": "A",
+              "text": "<div class=\"choiceTxt\">$\\frac{\\omega}{60}$</div>",
+              "html": "<div class=\"choiceTxt\">$\\frac{\\omega}{60}$</div>"
+            },
+            {
+              "key": "B",
+              "text": "<div class=\"choiceTxt\">$\\frac{\\omega}{20}$</div>",
+              "html": "<div class=\"choiceTxt\">$\\frac{\\omega}{20}$</div>"
+            },
+            {
+              "key": "C",
+              "text": "<div class=\"choiceTxt\">$\\frac{\\omega}{3}$</div>",
+              "html": "<div class=\"choiceTxt\">$\\frac{\\omega}{3}$</div>"
+            },
+            {
+              "key": "D",
+              "text": "<div class=\"choiceTxt\">$\\omega$</div>",
+              "html": "<div class=\"choiceTxt\">$\\omega$</div>"
+            },
+            {
+              "key": "E",
+              "text": "<div class=\"choiceTxt\">$3 \\omega$</div>",
+              "html": "<div class=\"choiceTxt\">$3 \\omega$</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "24",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">24. The angular displacement $\\theta$ of a rotating wheel is described by the equation $\\theta=\\theta_{0}+a t^{2}-b t^{3}$, where $t$ is time and $\\theta_{0}, a$, and $b$ are positive constants. The angular acceleration of the wheel as a function of time $t$ is</p>",
+          "options": [
+            {
+              "key": "A",
+              "text": "<div class=\"choiceTxt\">equal to a positive constant</div>",
+              "html": "<div class=\"choiceTxt\">equal to a positive constant</div>"
+            },
+            {
+              "key": "B",
+              "text": "<div class=\"choiceTxt\">zero</div>",
+              "html": "<div class=\"choiceTxt\">zero</div>"
+            },
+            {
+              "key": "C",
+              "text": "<div class=\"choiceTxt\">$2 a-6 b t$</div>",
+              "html": "<div class=\"choiceTxt\">$2 a-6 b t$</div>"
+            },
+            {
+              "key": "D",
+              "text": "<div class=\"choiceTxt\">$2 a t-3 b t^{2}$</div>",
+              "html": "<div class=\"choiceTxt\">$2 a t-3 b t^{2}$</div>"
+            },
+            {
+              "key": "E",
+              "text": "<div class=\"choiceTxt\">$\\theta_{0} t+\\frac{1}{3} a t^{3}-\\frac{1}{4} b t^{4}$\n\n\\section*{Questions 25-27}\n![](https://cdn.mathpix.com/cropped/0b14854f-261f-4610-ae9a-5b63f68a0ac1-25.jpg?height=572&width=526&top_left_y=903&top_left_x=321)\n\nThe motion of an object moving along a straight line is described by the graph of velocity $v$ versus time $t$ above.</div>",
+              "html": "<div class=\"choiceTxt\">$\\theta_{0} t+\\frac{1}{3} a t^{3}-\\frac{1}{4} b t^{4}$\n\n\\section*{Questions 25-27}\n![](https://cdn.mathpix.com/cropped/0b14854f-261f-4610-ae9a-5b63f68a0ac1-25.jpg?height=572&width=526&top_left_y=903&top_left_x=321)\n\nThe motion of an object moving along a straight line is described by the graph of velocity $v$ versus time $t$ above.</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "25",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">25. Which of the following is true about the speed of the object during the time interval from 0 to 8 s ?</p>",
+          "options": [
+            {
+              "key": "A",
+              "text": "<div class=\"choiceTxt\">It increases during the entire interval.</div>",
+              "html": "<div class=\"choiceTxt\">It increases during the entire interval.</div>"
+            },
+            {
+              "key": "B",
+              "text": "<div class=\"choiceTxt\">It decreases during the entire interval.</div>",
+              "html": "<div class=\"choiceTxt\">It decreases during the entire interval.</div>"
+            },
+            {
+              "key": "C",
+              "text": "<div class=\"choiceTxt\">It remains the same.</div>",
+              "html": "<div class=\"choiceTxt\">It remains the same.</div>"
+            },
+            {
+              "key": "D",
+              "text": "<div class=\"choiceTxt\">It first increases and then decreases.</div>",
+              "html": "<div class=\"choiceTxt\">It first increases and then decreases.</div>"
+            },
+            {
+              "key": "E",
+              "text": "<div class=\"choiceTxt\">It first decreases and then increases.</div>",
+              "html": "<div class=\"choiceTxt\">It first decreases and then increases.</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "26",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">26. Which of the following is true about the acceleration of the object during the time interval from 0 to 8 s ?</p>",
+          "options": [
+            {
+              "key": "A",
+              "text": "<div class=\"choiceTxt\">It increases during the entire interval.</div>",
+              "html": "<div class=\"choiceTxt\">It increases during the entire interval.</div>"
+            },
+            {
+              "key": "B",
+              "text": "<div class=\"choiceTxt\">It decreases during the entire interval.</div>",
+              "html": "<div class=\"choiceTxt\">It decreases during the entire interval.</div>"
+            },
+            {
+              "key": "C",
+              "text": "<div class=\"choiceTxt\">It remains the same.</div>",
+              "html": "<div class=\"choiceTxt\">It remains the same.</div>"
+            },
+            {
+              "key": "D",
+              "text": "<div class=\"choiceTxt\">It first increases and then decreases.</div>",
+              "html": "<div class=\"choiceTxt\">It first increases and then decreases.</div>"
+            },
+            {
+              "key": "E",
+              "text": "<div class=\"choiceTxt\">It first decreases and then increases.</div>",
+              "html": "<div class=\"choiceTxt\">It first decreases and then increases.</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "27",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">27. What is the net displacement of the object for the time interval from 0 to 8 s ?</p>",
+          "options": [
+            {
+              "key": "A",
+              "text": "<div class=\"choiceTxt\">0 m</div>",
+              "html": "<div class=\"choiceTxt\">0 m</div>"
+            },
+            {
+              "key": "B",
+              "text": "<div class=\"choiceTxt\">5 m</div>",
+              "html": "<div class=\"choiceTxt\">5 m</div>"
+            },
+            {
+              "key": "C",
+              "text": "<div class=\"choiceTxt\">10 m</div>",
+              "html": "<div class=\"choiceTxt\">10 m</div>"
+            },
+            {
+              "key": "D",
+              "text": "<div class=\"choiceTxt\">20 m</div>",
+              "html": "<div class=\"choiceTxt\">20 m</div>"
+            },
+            {
+              "key": "E",
+              "text": "<div class=\"choiceTxt\">It cannot be determined without knowing the initial position of the object.</div>",
+              "html": "<div class=\"choiceTxt\">It cannot be determined without knowing the initial position of the object.</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "28",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">28. An object starts from rest and accelerates uniformly in the horizontal direction, moving 32 m during the first 4 s . What are the magnitudes of the object's displacement and velocity after it accelerates for the first 3 s  \\begin{tabular}{lcll}  & \\begin{tabular}{c}  Magnitude of \\\\ Displacement \\end{tabular} & & \\begin{tabular}{l}  Magnitude of \\\\ Velocity \\end{tabular} \\\\</p>",
+          "options": [
+            {
+              "key": "A",
+              "text": "<div class=\"choiceTxt\">& 24 m & & $24 \\mathrm{~m} / \\mathrm{s}$ \\\\</div>",
+              "html": "<div class=\"choiceTxt\">& 24 m & & $24 \\mathrm{~m} / \\mathrm{s}$ \\\\</div>"
+            },
+            {
+              "key": "B",
+              "text": "<div class=\"choiceTxt\">& 24 m & & $18 \\mathrm{~m} / \\mathrm{s}$ \\\\</div>",
+              "html": "<div class=\"choiceTxt\">& 24 m & & $18 \\mathrm{~m} / \\mathrm{s}$ \\\\</div>"
+            },
+            {
+              "key": "C",
+              "text": "<div class=\"choiceTxt\">& 18 m & & $18 \\mathrm{~m} / \\mathrm{s}$ \\\\</div>",
+              "html": "<div class=\"choiceTxt\">& 18 m & & $18 \\mathrm{~m} / \\mathrm{s}$ \\\\</div>"
+            },
+            {
+              "key": "D",
+              "text": "<div class=\"choiceTxt\">& 18 m & & $12 \\mathrm{~m} / \\mathrm{s}$ \\\\</div>",
+              "html": "<div class=\"choiceTxt\">& 18 m & & $12 \\mathrm{~m} / \\mathrm{s}$ \\\\</div>"
+            },
+            {
+              "key": "E",
+              "text": "<div class=\"choiceTxt\">& 8 m & & $12 \\mathrm{~m} / \\mathrm{s}$\n\\end{tabular}\n![](https://cdn.mathpix.com/cropped/0b14854f-261f-4610-ae9a-5b63f68a0ac1-26.jpg?height=246&width=684&top_left_y=151&top_left_x=243)</div>",
+              "html": "<div class=\"choiceTxt\">& 8 m & & $12 \\mathrm{~m} / \\mathrm{s}$\n\\end{tabular}\n![](https://cdn.mathpix.com/cropped/0b14854f-261f-4610-ae9a-5b63f68a0ac1-26.jpg?height=246&width=684&top_left_y=151&top_left_x=243)</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "29",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">29. A 2.0 kg cart rolls with negligible friction on a horizontal surface, as shown in the figure above. The coefficient of static friction between the cart and the 1.0 kg block on top of the cart is 0.7 . If a horizontal 15 N force is applied to the cart as shown and the block does not slide on the cart, the magnitude of the horizontal component of the force that the block exerts on the cart is most nearly</p>",
+          "options": [
+            {
+              "key": "A",
+              "text": "<div class=\"choiceTxt\">2 N</div>",
+              "html": "<div class=\"choiceTxt\">2 N</div>"
+            },
+            {
+              "key": "B",
+              "text": "<div class=\"choiceTxt\">5 N</div>",
+              "html": "<div class=\"choiceTxt\">5 N</div>"
+            },
+            {
+              "key": "C",
+              "text": "<div class=\"choiceTxt\">8 N</div>",
+              "html": "<div class=\"choiceTxt\">8 N</div>"
+            },
+            {
+              "key": "D",
+              "text": "<div class=\"choiceTxt\">10 N</div>",
+              "html": "<div class=\"choiceTxt\">10 N</div>"
+            },
+            {
+              "key": "E",
+              "text": "<div class=\"choiceTxt\">15 N</div>",
+              "html": "<div class=\"choiceTxt\">15 N</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "30",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">30. A car rounds a flat curve of radius $R$ with a speed of $v_{0}$. The coefficient of friction between the tires and the road is $\\mu$. For the car not to slide on the road, which of the following statements must be true?</p>",
+          "options": [
+            {
+              "key": "A",
+              "text": "<div class=\"choiceTxt\">The car's speed $v_{0}$ cannot be greater than $\\mu g R$.</div>",
+              "html": "<div class=\"choiceTxt\">The car's speed $v_{0}$ cannot be greater than $\\mu g R$.</div>"
+            },
+            {
+              "key": "B",
+              "text": "<div class=\"choiceTxt\">The car's speed $v_{0}$ cannot be less than $\\mu g R$.</div>",
+              "html": "<div class=\"choiceTxt\">The car's speed $v_{0}$ cannot be less than $\\mu g R$.</div>"
+            },
+            {
+              "key": "C",
+              "text": "<div class=\"choiceTxt\">The radius $R$ of the car's path cannot be greater than $v_{0}^{2} / \\mu g$.</div>",
+              "html": "<div class=\"choiceTxt\">The radius $R$ of the car's path cannot be greater than $v_{0}^{2} / \\mu g$.</div>"
+            },
+            {
+              "key": "D",
+              "text": "<div class=\"choiceTxt\">The radius $R$ of the car's path cannot be less than $v_{0}^{2} / \\mu g$.</div>",
+              "html": "<div class=\"choiceTxt\">The radius $R$ of the car's path cannot be less than $v_{0}^{2} / \\mu g$.</div>"
+            },
+            {
+              "key": "E",
+              "text": "<div class=\"choiceTxt\">The centripetal acceleration must be less than $g$.</div>",
+              "html": "<div class=\"choiceTxt\">The centripetal acceleration must be less than $g$.</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "31",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">31. If two balls collide and there are no external forces acting on the balls, quantities that must be the same for the two-ball system before and after the collision include which of the following? I. Total kinetic energy II. Total momentum III. Momentum in the $x$-direction</p>",
+          "options": [
+            {
+              "key": "A",
+              "text": "<div class=\"choiceTxt\">I only</div>",
+              "html": "<div class=\"choiceTxt\">I only</div>"
+            },
+            {
+              "key": "B",
+              "text": "<div class=\"choiceTxt\">III only</div>",
+              "html": "<div class=\"choiceTxt\">III only</div>"
+            },
+            {
+              "key": "C",
+              "text": "<div class=\"choiceTxt\">I and II only</div>",
+              "html": "<div class=\"choiceTxt\">I and II only</div>"
+            },
+            {
+              "key": "D",
+              "text": "<div class=\"choiceTxt\">II and III only</div>",
+              "html": "<div class=\"choiceTxt\">II and III only</div>"
+            },
+            {
+              "key": "E",
+              "text": "<div class=\"choiceTxt\">I, II, and III</div>",
+              "html": "<div class=\"choiceTxt\">I, II, and III</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "32",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">32. Two objects, $X$ and $Y$, are released from rest at the same height. Object $X$ has three times the mass of object $Y$. Just before reaching the ground, object $Y$ has momentum $p_{Y}$ and kinetic energy $K_{Y}$. If air resistance is negligible, what are the momentum and kinetic energy of object $X$ just before it reaches the ground?  \\begin{tabular}{cccc}  & Momentum & & \\begin{tabular}{c}  Kinetic \\\\ Energy \\end{tabular} \\\\ & $p_{Y}$ & & $K_{Y}$ \\\\</p>",
+          "options": [
+            {
+              "key": "A",
+              "text": "<div class=\"choiceTxt\">& $3 p_{Y}$ & & $3 K_{Y}$ \\\\</div>",
+              "html": "<div class=\"choiceTxt\">& $3 p_{Y}$ & & $3 K_{Y}$ \\\\</div>"
+            },
+            {
+              "key": "B",
+              "text": "<div class=\"choiceTxt\">& $3 p_{Y}$ & & $6 K_{Y}$ \\\\</div>",
+              "html": "<div class=\"choiceTxt\">& $3 p_{Y}$ & & $6 K_{Y}$ \\\\</div>"
+            },
+            {
+              "key": "C",
+              "text": "<div class=\"choiceTxt\">& & & $3 K_{Y}$ \\\\</div>",
+              "html": "<div class=\"choiceTxt\">& & & $3 K_{Y}$ \\\\</div>"
+            },
+            {
+              "key": "D",
+              "text": "<div class=\"choiceTxt\">& $6 p_{Y}$ & & $6 K_{Y}$ \\\\</div>",
+              "html": "<div class=\"choiceTxt\">& $6 p_{Y}$ & & $6 K_{Y}$ \\\\</div>"
+            },
+            {
+              "key": "E",
+              "text": "<div class=\"choiceTxt\">& $6 p_{Y}$ & & $6 K_{Y}$\n\\end{tabular}\n\n\\section*{Questions 33-34}\n\nA very light ball is released from rest at time $t=0$ and falls through the air, which provides significant resistance.</div>",
+              "html": "<div class=\"choiceTxt\">& $6 p_{Y}$ & & $6 K_{Y}$\n\\end{tabular}\n\n\\section*{Questions 33-34}\n\nA very light ball is released from rest at time $t=0$ and falls through the air, which provides significant resistance.</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "33",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">33. Which graph best represents the magnitude of the momentum of the ball?</p>",
+          "options": [
+            {
+              "key": "A",
+              "text": "<div class=\"choiceTxt\">![](https://cdn.mathpix.com/cropped/0b14854f-261f-4610-ae9a-5b63f68a0ac1-27.jpg?height=293&width=331&top_left_y=520&top_left_x=287)</div>",
+              "html": "<div class=\"choiceTxt\">![](https://cdn.mathpix.com/cropped/0b14854f-261f-4610-ae9a-5b63f68a0ac1-27.jpg?height=293&width=331&top_left_y=520&top_left_x=287)</div>"
+            },
+            {
+              "key": "B",
+              "text": "<div class=\"choiceTxt\">![](https://cdn.mathpix.com/cropped/0b14854f-261f-4610-ae9a-5b63f68a0ac1-27.jpg?height=295&width=331&top_left_y=858&top_left_x=289)</div>",
+              "html": "<div class=\"choiceTxt\">![](https://cdn.mathpix.com/cropped/0b14854f-261f-4610-ae9a-5b63f68a0ac1-27.jpg?height=295&width=331&top_left_y=858&top_left_x=289)</div>"
+            },
+            {
+              "key": "C",
+              "text": "<div class=\"choiceTxt\">![](https://cdn.mathpix.com/cropped/0b14854f-261f-4610-ae9a-5b63f68a0ac1-27.jpg?height=301&width=331&top_left_y=1197&top_left_x=289)</div>",
+              "html": "<div class=\"choiceTxt\">![](https://cdn.mathpix.com/cropped/0b14854f-261f-4610-ae9a-5b63f68a0ac1-27.jpg?height=301&width=331&top_left_y=1197&top_left_x=289)</div>"
+            },
+            {
+              "key": "D",
+              "text": "<div class=\"choiceTxt\">![](https://cdn.mathpix.com/cropped/0b14854f-261f-4610-ae9a-5b63f68a0ac1-27.jpg?height=297&width=331&top_left_y=1541&top_left_x=289)</div>",
+              "html": "<div class=\"choiceTxt\">![](https://cdn.mathpix.com/cropped/0b14854f-261f-4610-ae9a-5b63f68a0ac1-27.jpg?height=297&width=331&top_left_y=1541&top_left_x=289)</div>"
+            },
+            {
+              "key": "E",
+              "text": "<div class=\"choiceTxt\">![](https://cdn.mathpix.com/cropped/0b14854f-261f-4610-ae9a-5b63f68a0ac1-27.jpg?height=297&width=331&top_left_y=1881&top_left_x=287)</div>",
+              "html": "<div class=\"choiceTxt\">![](https://cdn.mathpix.com/cropped/0b14854f-261f-4610-ae9a-5b63f68a0ac1-27.jpg?height=297&width=331&top_left_y=1881&top_left_x=287)</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "34",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">34. Which graph best represents the magnitude of the net force on the ball?</p>",
+          "options": [
+            {
+              "key": "A",
+              "text": "<div class=\"choiceTxt\">![](https://cdn.mathpix.com/cropped/0b14854f-261f-4610-ae9a-5b63f68a0ac1-27.jpg?height=301&width=335&top_left_y=256&top_left_x=1247)</div>",
+              "html": "<div class=\"choiceTxt\">![](https://cdn.mathpix.com/cropped/0b14854f-261f-4610-ae9a-5b63f68a0ac1-27.jpg?height=301&width=335&top_left_y=256&top_left_x=1247)</div>"
+            },
+            {
+              "key": "B",
+              "text": "<div class=\"choiceTxt\">![](https://cdn.mathpix.com/cropped/0b14854f-261f-4610-ae9a-5b63f68a0ac1-27.jpg?height=301&width=331&top_left_y=592&top_left_x=1247)</div>",
+              "html": "<div class=\"choiceTxt\">![](https://cdn.mathpix.com/cropped/0b14854f-261f-4610-ae9a-5b63f68a0ac1-27.jpg?height=301&width=331&top_left_y=592&top_left_x=1247)</div>"
+            },
+            {
+              "key": "C",
+              "text": "<div class=\"choiceTxt\">![](https://cdn.mathpix.com/cropped/0b14854f-261f-4610-ae9a-5b63f68a0ac1-27.jpg?height=301&width=331&top_left_y=928&top_left_x=1247)</div>",
+              "html": "<div class=\"choiceTxt\">![](https://cdn.mathpix.com/cropped/0b14854f-261f-4610-ae9a-5b63f68a0ac1-27.jpg?height=301&width=331&top_left_y=928&top_left_x=1247)</div>"
+            },
+            {
+              "key": "D",
+              "text": "<div class=\"choiceTxt\">![](https://cdn.mathpix.com/cropped/0b14854f-261f-4610-ae9a-5b63f68a0ac1-27.jpg?height=299&width=333&top_left_y=1268&top_left_x=1245)</div>",
+              "html": "<div class=\"choiceTxt\">![](https://cdn.mathpix.com/cropped/0b14854f-261f-4610-ae9a-5b63f68a0ac1-27.jpg?height=299&width=333&top_left_y=1268&top_left_x=1245)</div>"
+            },
+            {
+              "key": "E",
+              "text": "<div class=\"choiceTxt\">![](https://cdn.mathpix.com/cropped/0b14854f-261f-4610-ae9a-5b63f68a0ac1-27.jpg?height=299&width=333&top_left_y=1606&top_left_x=1245)</div>",
+              "html": "<div class=\"choiceTxt\">![](https://cdn.mathpix.com/cropped/0b14854f-261f-4610-ae9a-5b63f68a0ac1-27.jpg?height=299&width=333&top_left_y=1606&top_left_x=1245)</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "35",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">35. A satellite can move in a circular orbit about a massive planet of radius $R$. Which of the following graphs could represent the gravitational potential energy $U$ of this satellite as a function of the radius $r$ of the orbit?</p>",
+          "options": [
+            {
+              "key": "A",
+              "text": "<div class=\"choiceTxt\">![](https://cdn.mathpix.com/cropped/0b14854f-261f-4610-ae9a-5b63f68a0ac1-28.jpg?height=459&width=407&top_left_y=260&top_left_x=289)</div>",
+              "html": "<div class=\"choiceTxt\">![](https://cdn.mathpix.com/cropped/0b14854f-261f-4610-ae9a-5b63f68a0ac1-28.jpg?height=459&width=407&top_left_y=260&top_left_x=289)</div>"
+            },
+            {
+              "key": "B",
+              "text": "<div class=\"choiceTxt\">![](https://cdn.mathpix.com/cropped/0b14854f-261f-4610-ae9a-5b63f68a0ac1-28.jpg?height=484&width=404&top_left_y=235&top_left_x=808)</div>",
+              "html": "<div class=\"choiceTxt\">![](https://cdn.mathpix.com/cropped/0b14854f-261f-4610-ae9a-5b63f68a0ac1-28.jpg?height=484&width=404&top_left_y=235&top_left_x=808)</div>"
+            },
+            {
+              "key": "C",
+              "text": "<div class=\"choiceTxt\">![](https://cdn.mathpix.com/cropped/0b14854f-261f-4610-ae9a-5b63f68a0ac1-28.jpg?height=459&width=404&top_left_y=260&top_left_x=1325)</div>",
+              "html": "<div class=\"choiceTxt\">![](https://cdn.mathpix.com/cropped/0b14854f-261f-4610-ae9a-5b63f68a0ac1-28.jpg?height=459&width=404&top_left_y=260&top_left_x=1325)</div>"
+            },
+            {
+              "key": "D",
+              "text": "<div class=\"choiceTxt\">![](https://cdn.mathpix.com/cropped/0b14854f-261f-4610-ae9a-5b63f68a0ac1-28.jpg?height=461&width=409&top_left_y=961&top_left_x=289)</div>",
+              "html": "<div class=\"choiceTxt\">![](https://cdn.mathpix.com/cropped/0b14854f-261f-4610-ae9a-5b63f68a0ac1-28.jpg?height=461&width=409&top_left_y=961&top_left_x=289)</div>"
+            },
+            {
+              "key": "E",
+              "text": "<div class=\"choiceTxt\">![](https://cdn.mathpix.com/cropped/0b14854f-261f-4610-ae9a-5b63f68a0ac1-28.jpg?height=457&width=408&top_left_y=963&top_left_x=804)\n\nSTOP\nEND OF MECHANICS SECTION I\nIF YOU FINISH BEFORE TIME IS CALLED, YOU MAY CHECK YOUR WORK ON MECHANICS SECTION I ONLY.\n\nDO NOT TURN TO ANY OTHER TEST MATERIALS.\n\nMAKE SURE YOU HAVE DONE THE FOLLOWING.\n- PLACED YOUR AP NUMBER LABEL ON YOUR ANSWER SHEET\n- WRITTEN AND GRIDDED YOUR AP NUMBER CORRECTLY ON YOUR ANSWER SHEET\n- TAKEN THE AP EXAM LABEL FROM THE FRONT OF THIS BOOKLET AND PLACED IT ON YOUR ANSWER SHEET\n\n\\section*{Section II: Free-Response Questions}\n\nThis is the free-response section of the 2014 AP exam. It includes cover material and other administrative instructions to help familiarize students with the mechanics of the exam. (Note that future exams may differ in look from the following content.)\n\n\\section*{SECTION II: Free Response}\n\nDO NOT OPEN THIS BOOKLET UNTIL YOU ARE TOLD TO DO SO.\n\n\\section*{At a Glance}\n\n\\section*{Total Time}\n\n45 minutes\nNumber of Questions 3\nPercent of Total Score 50\\%\n\n\\section*{Writing Instrument}\n\nEither pencil or pen with black or dark blue ink\nElectronic Device\nCalculator allowed\nWeight\nThe questions are weighted equally.\n\n\\begin{figure}\n\\includegraphics[alt={},max width=\\textwidth]{https://cdn.mathpix.com/cropped/0b14854f-261f-4610-ae9a-5b63f68a0ac1-30.jpg?height=61&width=96&top_left_y=777&top_left_x=747}\n\\captionsetup{labelformat=empty}\n\\caption{Month}\n\\end{figure}\n\n\\begin{figure}\n\\includegraphics[alt={},max width=\\textwidth]{https://cdn.mathpix.com/cropped/0b14854f-261f-4610-ae9a-5b63f68a0ac1-30.jpg?height=61&width=98&top_left_y=777&top_left_x=856}\n\\captionsetup{labelformat=empty}\n\\caption{Day}\n\\end{figure}\n\n\\begin{figure}\n\\includegraphics[alt={},max width=\\textwidth]{https://cdn.mathpix.com/cropped/0b14854f-261f-4610-ae9a-5b63f68a0ac1-30.jpg?height=66&width=192&top_left_y=777&top_left_x=970}\n\\captionsetup{labelformat=empty}\n\\caption{Year}\n\\end{figure}</div>",
+              "html": "<div class=\"choiceTxt\">![](https://cdn.mathpix.com/cropped/0b14854f-261f-4610-ae9a-5b63f68a0ac1-28.jpg?height=457&width=408&top_left_y=963&top_left_x=804)\n\nSTOP\nEND OF MECHANICS SECTION I\nIF YOU FINISH BEFORE TIME IS CALLED, YOU MAY CHECK YOUR WORK ON MECHANICS SECTION I ONLY.\n\nDO NOT TURN TO ANY OTHER TEST MATERIALS.\n\nMAKE SURE YOU HAVE DONE THE FOLLOWING.\n- PLACED YOUR AP NUMBER LABEL ON YOUR ANSWER SHEET\n- WRITTEN AND GRIDDED YOUR AP NUMBER CORRECTLY ON YOUR ANSWER SHEET\n- TAKEN THE AP EXAM LABEL FROM THE FRONT OF THIS BOOKLET AND PLACED IT ON YOUR ANSWER SHEET\n\n\\section*{Section II: Free-Response Questions}\n\nThis is the free-response section of the 2014 AP exam. It includes cover material and other administrative instructions to help familiarize students with the mechanics of the exam. (Note that future exams may differ in look from the following content.)\n\n\\section*{SECTION II: Free Response}\n\nDO NOT OPEN THIS BOOKLET UNTIL YOU ARE TOLD TO DO SO.\n\n\\section*{At a Glance}\n\n\\section*{Total Time}\n\n45 minutes\nNumber of Questions 3\nPercent of Total Score 50\\%\n\n\\section*{Writing Instrument}\n\nEither pencil or pen with black or dark blue ink\nElectronic Device\nCalculator allowed\nWeight\nThe questions are weighted equally.\n\n\\begin{figure}\n\\includegraphics[alt={},max width=\\textwidth]{https://cdn.mathpix.com/cropped/0b14854f-261f-4610-ae9a-5b63f68a0ac1-30.jpg?height=61&width=96&top_left_y=777&top_left_x=747}\n\\captionsetup{labelformat=empty}\n\\caption{Month}\n\\end{figure}\n\n\\begin{figure}\n\\includegraphics[alt={},max width=\\textwidth]{https://cdn.mathpix.com/cropped/0b14854f-261f-4610-ae9a-5b63f68a0ac1-30.jpg?height=61&width=98&top_left_y=777&top_left_x=856}\n\\captionsetup{labelformat=empty}\n\\caption{Day}\n\\end{figure}\n\n\\begin{figure}\n\\includegraphics[alt={},max width=\\textwidth]{https://cdn.mathpix.com/cropped/0b14854f-261f-4610-ae9a-5b63f68a0ac1-30.jpg?height=66&width=192&top_left_y=777&top_left_x=970}\n\\captionsetup{labelformat=empty}\n\\caption{Year}\n\\end{figure}</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "title": "Section II: Free Response",
+      "type": "frq",
+      "questions": [
+        {
+          "id": "1",
+          "type": "free-response",
+          "prompt": "<p class=\"stem_paragraph\">1.}\n4. Unless I check the box below, I grant the College Board the unlimited right to use, reproduce, and publish my free-response materials, both written and oral, for educational research and instructional purposes. My name and the name of my school will not be used in any way in connection with my free-response materials. I understand that I am free to mark \"No\" with no effect on my score or its reporting.\nNo, I do not grant the College Board these rights. □</p>",
+          "parts": [],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "2",
+          "type": "free-response",
+          "prompt": "<p class=\"stem_paragraph\">Question 1 (continued)}</p>",
+          "parts": [],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "3",
+          "type": "free-response",
+          "prompt": "<p class=\"stem_paragraph\">Question 1 (continued)}\n$F_{\\text {max }}-f_{s}=0$\n$F_{\\max }$ is the component of gravity along the plane, and $f_{s}$ depends on the component of gravity perpendicular to the plane\n$m g \\sin \\theta-\\mu_{s} m g \\cos \\theta=0$\nFor a correct expression for the coefficient of static friction\n$\\mu_{s}=\\tan \\theta$</p>",
+          "parts": [
+            {
+              "partSign": "c",
+              "partContent": "3 points"
+            },
+            {
+              "partSign": "d",
+              "partContent": "i. $\\quad 1$ point"
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "4",
+          "type": "free-response",
+          "prompt": "<p class=\"stem_paragraph\">Question 2}\n\n15 points total</p>",
+          "parts": [
+            {
+              "partSign": "a",
+              "partContent": "i. $\\quad 3$ points"
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "5",
+          "type": "free-response",
+          "prompt": "<p class=\"stem_paragraph\">Question 2 (continued)}</p>",
+          "parts": [
+            {
+              "partSign": "b",
+              "partContent": "4 points"
+            },
+            {
+              "partSign": "c",
+              "partContent": "5 points"
+            },
+            {
+              "partSign": "b",
+              "partContent": "$\\frac{F_{0} S}{2}=-\\frac{G M_{e} m}{4 R_{1}}+\\frac{G M_{e} m}{2 R_{1}}$"
+            },
+            {
+              "partSign": "b",
+              "partContent": "and the change in energy"
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "6",
+          "type": "free-response",
+          "prompt": "<p class=\"stem_paragraph\">Question 3 (continued)}</p>",
+          "parts": [],
+          "answer": "",
+          "explanation": ""
+        }
+      ]
+    }
+  ]
+}

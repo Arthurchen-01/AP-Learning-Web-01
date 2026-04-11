@@ -1,0 +1,195 @@
+{
+  "examId": "phys2019Intl",
+  "title": "AP 物理C力学 2019年国际卷",
+  "subjectName": "Physics C: Mechanics",
+  "yearLabel": "2019",
+  "description": "AP Physics C: Mechanics 2019年",
+  "answerKeyAvailable": false,
+  "scoring": null,
+  "sections": [
+    {
+      "title": "Section II: Free Response",
+      "type": "frq",
+      "questions": [
+        {
+          "id": "1",
+          "type": "free-response",
+          "prompt": "<p class=\"stem_paragraph\">4.}\n4. Unless I check the box below, I grant the College Board the unlimited right to use, reproduce, and publish my free-response materials, both written and oral, for educational research and instructional purposes. My name and the name of my school will not be used in any way in connection with my free-response materials. I understand that I am free to mark \"No\" with no effect on my score or its reporting.\nNo, I do not grant the College Board these rights. □</p>",
+          "parts": [],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "2",
+          "type": "free-response",
+          "prompt": "<p class=\"stem_paragraph\">Question 1 (continued)}\n\nDistribution of points</p>",
+          "parts": [
+            {
+              "partSign": "b",
+              "partContent": "LO CHA-2.C, SP 3.C, 4.D"
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "3",
+          "type": "free-response",
+          "prompt": "<p class=\"stem_paragraph\">Question 1 (continued)}\n\nDistribution of points</p>",
+          "parts": [
+            {
+              "partSign": "c",
+              "partContent": "LO CHA-2.A.f, SP 7.D"
+            },
+            {
+              "partSign": "d",
+              "partContent": "LO CHA-2.A.f, SP 5.A, 5.E"
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "4",
+          "type": "free-response",
+          "prompt": "<p class=\"stem_paragraph\">Question 1 (continued)}</p>",
+          "parts": [
+            {
+              "partSign": "e",
+              "partContent": "i) LO INT-1.H.a, SP 5.A"
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "5",
+          "type": "free-response",
+          "prompt": "<p class=\"stem_paragraph\">Question 1 (continued)}</p>",
+          "parts": [],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "6",
+          "type": "free-response",
+          "prompt": "<p class=\"stem_paragraph\">Question 2 (continued)}</p>",
+          "parts": [
+            {
+              "partSign": "c",
+              "partContent": "Express all answers in terms of $M, R$, and physical constants, as appropriate."
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "7",
+          "type": "free-response",
+          "prompt": "<p class=\"stem_paragraph\">Question 2 (continued)}</p>",
+          "parts": [
+            {
+              "partSign": "c",
+              "partContent": "con't"
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "8",
+          "type": "free-response",
+          "prompt": "<p class=\"stem_paragraph\">Question 2 (continued)}\n\n\n\nNote: Figure not drawn to scale.</p>",
+          "parts": [
+            {
+              "partSign": "d",
+              "partContent": "A very narrow wedge is cut out of the thin uniform disk of mass $M$, as shown above. If $r$ is the distance from the tip of the wedge, then the linear mass density of the wedge can be expressed as follows:"
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "9",
+          "type": "free-response",
+          "prompt": "<p class=\"stem_paragraph\">Question 2 (continued)}</p>",
+          "parts": [],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "10",
+          "type": "free-response",
+          "prompt": "<p class=\"stem_paragraph\">Question 3 (continued)}</p>",
+          "parts": [
+            {
+              "partSign": "a",
+              "partContent": "con't"
+            },
+            {
+              "partSign": "b",
+              "partContent": "LO INT-1.B.b, SP 5.A, 5.E"
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "11",
+          "type": "free-response",
+          "prompt": "<p class=\"stem_paragraph\">Question 3 (continued)}\n\nDistribution of points\n\n\nThe setup is modified, as shown in the figure above. Block A and one of the pulleys are removed, and block B remains on the table. There is still negligible friction between block B and the table. A lump of clay is added to block B. The students use Newton's second law to derive an equation for the acceleration $a_{\\mathrm{C}}$ of block C . The acceleration is given by the equation $a_{\\mathrm{C}}=m_{\\mathrm{C}} g / m_{\\text {tot }}$, where $m_{\\text {tot }}$ is the combined mass of the clay and the two blocks. Students use the setup shown above to experimentally determine the acceleration $g$ due to gravity. In each trial, a student moves a small amount of clay from block B to block C and then releases the blocks from rest, recording the new values of $m_{C}$ and $a_{C}$. The total mass of the clay and the two blocks is $m_{\\text {tot }}=5.0 \\mathrm{~kg}$. The graph below shows $a_{\\mathrm{C}}$ as a function of $m_{\\mathrm{C}}$, where $m_{\\mathrm{C}}$ is now the combined mass of block C and the mass of clay added to block C .</p>",
+          "parts": [
+            {
+              "partSign": "c",
+              "partContent": "i) LO INT-1.C.e, SP 4.C"
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "12",
+          "type": "free-response",
+          "prompt": "<p class=\"stem_paragraph\">Question 3 (continued)}\n\nDistribution of points</p>",
+          "parts": [
+            {
+              "partSign": "c",
+              "partContent": "con't"
+            },
+            {
+              "partSign": "d",
+              "partContent": "LO INT-7.A.a, SP 7.A, 7.C"
+            },
+            {
+              "partSign": "c",
+              "partContent": "is significant, would the experimental value of $g$ be greater than, less than, or equal to the value calculated in part (c)(ii) ?"
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "13",
+          "type": "free-response",
+          "prompt": "<p class=\"stem_paragraph\">Question 3 (continued)}</p>",
+          "parts": [
+            {
+              "partSign": "e",
+              "partContent": "LO INT-1.C.e, SP 7.A, 7.C 2 points"
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "14",
+          "type": "free-response",
+          "prompt": "<p class=\"stem_paragraph\">Question 3 (continued)}\n\nDistribution of points</p>",
+          "parts": [],
+          "answer": "",
+          "explanation": ""
+        }
+      ]
+    }
+  ]
+}

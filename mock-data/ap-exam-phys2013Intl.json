@@ -1,0 +1,126 @@
+{
+  "examId": "phys2013Intl",
+  "title": "AP 物理C力学 2013年国际卷",
+  "subjectName": "Physics C: Mechanics",
+  "yearLabel": "2013",
+  "description": "AP Physics C: Mechanics 2013年",
+  "answerKeyAvailable": false,
+  "scoring": null,
+  "sections": [
+    {
+      "title": "Section II: Free Response",
+      "type": "frq",
+      "questions": [
+        {
+          "id": "1",
+          "type": "free-response",
+          "prompt": "<p class=\"stem_paragraph\">Question 1 (continued)}</p>",
+          "parts": [
+            {
+              "partSign": "c",
+              "partContent": "4 points"
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "2",
+          "type": "free-response",
+          "prompt": "<p class=\"stem_paragraph\">Question 1 (continued)}</p>",
+          "parts": [],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "3",
+          "type": "free-response",
+          "prompt": "<p class=\"stem_paragraph\">Question 2}\n\n15 points total</p>",
+          "parts": [
+            {
+              "partSign": "a",
+              "partContent": "4 points"
+            },
+            {
+              "partSign": "b",
+              "partContent": "2 points"
+            },
+            {
+              "partSign": "c",
+              "partContent": "3 points"
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "4",
+          "type": "free-response",
+          "prompt": "<p class=\"stem_paragraph\">Question 2 (continued)}</p>",
+          "parts": [
+            {
+              "partSign": "d",
+              "partContent": "3 points"
+            },
+            {
+              "partSign": "c",
+              "partContent": "1 point"
+            },
+            {
+              "partSign": "e",
+              "partContent": "3 points"
+            },
+            {
+              "partSign": "c",
+              "partContent": "and with correct sign and units"
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "5",
+          "type": "free-response",
+          "prompt": "<p class=\"stem_paragraph\">Question 3}\n\n15 points total</p>",
+          "parts": [
+            {
+              "partSign": "a",
+              "partContent": "4 points"
+            },
+            {
+              "partSign": "b",
+              "partContent": "5 points"
+            },
+            {
+              "partSign": "a",
+              "partContent": "For correct units"
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "6",
+          "type": "free-response",
+          "prompt": "<p class=\"stem_paragraph\">Question 3 (continued)}</p>",
+          "parts": [
+            {
+              "partSign": "c",
+              "partContent": "4 points"
+            },
+            {
+              "partSign": "a",
+              "partContent": "and part (b)"
+            },
+            {
+              "partSign": "d",
+              "partContent": "2 points"
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        }
+      ]
+    }
+  ]
+}

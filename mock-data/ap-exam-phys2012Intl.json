@@ -1,0 +1,189 @@
+{
+  "examId": "phys2012Intl",
+  "title": "AP 物理C力学 2012年国际卷",
+  "subjectName": "Physics C: Mechanics",
+  "yearLabel": "2012",
+  "description": "AP Physics C: Mechanics 2012年",
+  "answerKeyAvailable": false,
+  "scoring": null,
+  "sections": [
+    {
+      "title": "Section II: Free Response",
+      "type": "frq",
+      "questions": [
+        {
+          "id": "1",
+          "type": "free-response",
+          "prompt": "<p class=\"stem_paragraph\">Question 1}\n\n15 points total</p>",
+          "parts": [
+            {
+              "partSign": "a",
+              "partContent": "4 points"
+            },
+            {
+              "partSign": "c",
+              "partContent": "is used to calculate $\\omega$ using $\\omega=\\sqrt{k / m}$."
+            },
+            {
+              "partSign": "b",
+              "partContent": "2 points"
+            },
+            {
+              "partSign": "a",
+              "partContent": "$x(t)=\\int v(t) d t=\\int(-0.16 \\mathrm{~m} / \\mathrm{s}) \\sin ((9.0 \\mathrm{rad} / \\mathrm{s}) t) d t$"
+            },
+            {
+              "partSign": "a",
+              "partContent": "For a correct $x_{\\text {max }}$ consistent with the integrating the answer from part (a)"
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "2",
+          "type": "free-response",
+          "prompt": "<p class=\"stem_paragraph\">Question 1 (continued)}\nDistribution of points</p>",
+          "parts": [
+            {
+              "partSign": "b",
+              "partContent": "continued"
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "3",
+          "type": "free-response",
+          "prompt": "<p class=\"stem_paragraph\">Question 1 (continued)}</p>",
+          "parts": [
+            {
+              "partSign": "c",
+              "partContent": "continued"
+            },
+            {
+              "partSign": "d",
+              "partContent": "4 points"
+            },
+            {
+              "partSign": "d",
+              "partContent": "4 points"
+            },
+            {
+              "partSign": "d",
+              "partContent": "4 points"
+            },
+            {
+              "partSign": "d",
+              "partContent": "4 points"
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "4",
+          "type": "free-response",
+          "prompt": "<p class=\"stem_paragraph\">Question 1 (continued)}\n\n\\begin{tabular}{|l|l|l|}\n\\hline \\multirow{5}{*}{} &</p>",
+          "parts": [
+            {
+              "partSign": "e",
+              "partContent": "3 points & Distribution of points \\\\"
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "5",
+          "type": "free-response",
+          "prompt": "<p class=\"stem_paragraph\">Question 2}\n\n15 points total</p>",
+          "parts": [
+            {
+              "partSign": "a",
+              "partContent": "1 point"
+            },
+            {
+              "partSign": "b",
+              "partContent": "4 points"
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "6",
+          "type": "free-response",
+          "prompt": "<p class=\"stem_paragraph\">Question 2 (continued)}\n\n\\begin{abstract}\nDistribution of points</p>",
+          "parts": [
+            {
+              "partSign": "b",
+              "partContent": "continued"
+            },
+            {
+              "partSign": "c",
+              "partContent": "6 points"
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "7",
+          "type": "free-response",
+          "prompt": "<p class=\"stem_paragraph\">Question 2 (continued)}</p>",
+          "parts": [
+            {
+              "partSign": "c",
+              "partContent": "continued"
+            },
+            {
+              "partSign": "d",
+              "partContent": "2 points"
+            },
+            {
+              "partSign": "e",
+              "partContent": "2 points"
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "8",
+          "type": "free-response",
+          "prompt": "<p class=\"stem_paragraph\">Question 3}\n\n15 points total</p>",
+          "parts": [
+            {
+              "partSign": "a",
+              "partContent": "i. 3 points"
+            },
+            {
+              "partSign": "b",
+              "partContent": "i. $\\quad 2$ points"
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "9",
+          "type": "free-response",
+          "prompt": "<p class=\"stem_paragraph\">Question 3 (continued)}</p>",
+          "parts": [],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "10",
+          "type": "free-response",
+          "prompt": "<p class=\"stem_paragraph\">Question 3 (continued)}</p>",
+          "parts": [],
+          "answer": "",
+          "explanation": ""
+        }
+      ]
+    }
+  ]
+}

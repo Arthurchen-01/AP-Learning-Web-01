@@ -1,0 +1,114 @@
+{
+  "examId": "phys2016Intl",
+  "title": "AP 物理C力学 2016年国际卷",
+  "subjectName": "Physics C: Mechanics",
+  "yearLabel": "2016",
+  "description": "AP Physics C: Mechanics 2016年",
+  "answerKeyAvailable": false,
+  "scoring": null,
+  "sections": [
+    {
+      "title": "Section II: Free Response",
+      "type": "frq",
+      "questions": [
+        {
+          "id": "1",
+          "type": "free-response",
+          "prompt": "<p class=\"stem_paragraph\">4.}\n4. Unless I check the box below, I grant the College Board the unlimited right to use, reproduce, and publish my free-response materials, both written and oral, for educational research and instructional purposes. My name and the name of my school will not be used in any way in connection with my free-response materials. I understand that I am free to mark \"No\" with no effect on my score or its reporting.\nNo, I do not grant the College Board these rights. □</p>",
+          "parts": [],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "2",
+          "type": "free-response",
+          "prompt": "<p class=\"stem_paragraph\">Question 1 (continued)}\n\nDistribution of points\nii. $\\quad 1$ point\n\nFor selecting \"Down the ramp\"\niii. 1 point\n\nFor a correct answer\n$\\mathrm{a}=g=9.81 \\mathrm{~m} / \\mathrm{s}^{2}$ (Note: $\\mathrm{a}=g=10 \\mathrm{~m} / \\mathrm{s}^{2}$ is also acceptable)\nNote: No work needs to be shown for this part</p>",
+          "parts": [
+            {
+              "partSign": "d",
+              "partContent": "3 points"
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "3",
+          "type": "free-response",
+          "prompt": "<p class=\"stem_paragraph\">Question 2 (continued)}</p>",
+          "parts": [],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "4",
+          "type": "free-response",
+          "prompt": "<p class=\"stem_paragraph\">Question 2 (continued)}</p>",
+          "parts": [
+            {
+              "partSign": "d",
+              "partContent": "i. $\\quad 5$ points"
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "5",
+          "type": "free-response",
+          "prompt": "<p class=\"stem_paragraph\">Question 2 (continued)}\n\nDistribution of points\n\nFor correctly substituting into a correct kinematic equation\n$$\n\\begin{aligned}\n& v_{f A}^{2}=v_{0 A}^{2}+2 a(d / 2) \\\\\n& v_{f A}^{2}=(2.29 \\mathrm{~m} / \\mathrm{s})^{2}+2\\left(-3.35 \\mathrm{~m} / \\mathrm{s}^{2}\\right)\\left(\\frac{0.783 \\mathrm{~m}}{2}\\right)\n\\end{aligned}\n$$\n\nFor a correct answer\n$$\nv_{A}=1.62 \\mathrm{~m} / \\mathrm{s} \\quad\\left(\\text { Note }: v_{A}=1.60 \\mathrm{~m} / \\mathrm{s} \\text { if } g=10 \\mathrm{~m} / \\mathrm{s}^{2} \\text { is used }\\right)\n$$\n\nFor using a correct kinematic equation to determine the speed of block $B$\n$$\n\\begin{aligned}\nv_{f B}^{2} & =v_{0}^{2}+2 a(d / 2) \\\\\nv_{f B}^{2} & =0+2\\left(3.35 \\mathrm{~m} / \\mathrm{s}^{2}\\right)\\left(\\frac{0.783 \\mathrm{~m}}{2}\\right) \\\\\nv_{f B} & =1.62 \\mathrm{~m} / \\mathrm{s}\n\\end{aligned}\n$$\n\nFor correctly using conservation of momentum to determine the speed of the blocks after the collision\n$$\n\\begin{aligned}\n& m_{A} V_{A}+m_{B} V_{B}=\\left(m_{A}+m_{B}\\right) V_{f} \\\\\n& V_{f}=\\frac{(3.0 \\mathrm{~kg})(1.62 \\mathrm{~m} / \\mathrm{s})+(0.50 \\mathrm{~kg})(-1.62 \\mathrm{~m} / \\mathrm{s})}{(3.0 \\mathrm{~kg}+0.50 \\mathrm{~kg})}\n\\end{aligned}\n$$\n\nCorrect answer\n$$\nv_{f}=1.16 \\mathrm{~m} / \\mathrm{s} \\quad\\left(\\text { Note }: v_{f}=1.14 \\mathrm{~m} / \\mathrm{s} \\text { if } g=10 \\mathrm{~m} / \\mathrm{s}^{2} \\text { is used }\\right)\n$$\nii. 1 point\n\nFor selecting \"Up the ramp\"</p>",
+          "parts": [
+            {
+              "partSign": "e",
+              "partContent": "i. $\\quad 1$ point"
+            },
+            {
+              "partSign": "d",
+              "partContent": "$J=-1.38 \\mathrm{~N} \\bullet$ s (Note: $J=-1.38 \\mathrm{~N} \\bullet$ s if $g=10 \\mathrm{~m} / \\mathrm{s}^{2}$ is used)"
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "6",
+          "type": "free-response",
+          "prompt": "<p class=\"stem_paragraph\">Question 3 (continued)}</p>",
+          "parts": [
+            {
+              "partSign": "b",
+              "partContent": "i. $\\quad 2$ points"
+            },
+            {
+              "partSign": "c",
+              "partContent": "1 point"
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "7",
+          "type": "free-response",
+          "prompt": "<p class=\"stem_paragraph\">Question 3 (continued)}</p>",
+          "parts": [
+            {
+              "partSign": "d",
+              "partContent": "4 points"
+            },
+            {
+              "partSign": "c",
+              "partContent": "1 point"
+            },
+            {
+              "partSign": "e",
+              "partContent": "3 points"
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        }
+      ]
+    }
+  ]
+}
