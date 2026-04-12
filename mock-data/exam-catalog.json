@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-04-11",
-  "total": 104,
+  "total": 106,
   "subjects": [
     "宏观经济",
     "微积分BC",
@@ -1073,6 +1073,26 @@
       "year": "2025",
       "paperType": "北美卷",
       "questionCount": 4,
+      "sectionCount": 1
+    },
+    {
+      "examId": "csa2009Intl",
+      "title": "AP CSA 2009年国际卷",
+      "subject": "计算机科学A",
+      "subjectId": "computer_science_a",
+      "year": "2009",
+      "paperType": "国际卷",
+      "questionCount": 32,
+      "sectionCount": 2
+    },
+    {
+      "examId": "csa2024Intl",
+      "title": "AP CSA 2024年国际卷",
+      "subject": "计算机科学A",
+      "subjectId": "computer_science_a",
+      "year": "2024",
+      "paperType": "国际卷",
+      "questionCount": 38,
       "sectionCount": 1
     }
   ]

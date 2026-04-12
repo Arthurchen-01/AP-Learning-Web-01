@@ -9,6 +9,7 @@
     window._b = m ? '/' + m[1] : '';
   </script>
   <script src="../assets/site-base.js"></script>
+  <script src="../assets/nav.js" defer></script>
   <link rel="stylesheet" href="../assets/global-theme.css">
   <style>
     body { overflow-x: hidden; }
@@ -25,11 +26,7 @@
         </span>
       </a>
       <nav class="nav-main" aria-label="Primary">
-        <a id="nav-home">首页</a>
-        <a class="is-active" id="nav-mock">套题模考</a>
-        <a id="nav-training">专项训练</a>
-        <a id="nav-wrong">错题本</a>
-        <a id="nav-dashboard">Dashboard</a>
+        <!-- 由 assets/nav.js 自动注入 -->
       </nav>
       <a class="avatar-entry" id="nav-profile" aria-label="Open profile">
         <span class="avatar">OC</span>
@@ -40,15 +37,7 @@
       </a>
     </div>
   </header>
-  <script>
-    document.getElementById('nav-brand').href = window.sitePath('/');
-    document.getElementById('nav-home').href = window.sitePath('/');
-    document.getElementById('nav-mock').href = window.sitePath('/mock/');
-    document.getElementById('nav-training').href = window.sitePath('/training/');
-    document.getElementById('nav-wrong').href = window.sitePath('/v2/exam/wrong-notebook.html');
-    document.getElementById('nav-dashboard').href = window.sitePath('/dashboard/');
-    document.getElementById('nav-profile').href = window.sitePath('/profile/');
-  </script>
+  <!-- nav hrefs 由 assets/nav.js 自动设置 -->
 
   <main class="page-main shell">
     <section class="page-heading">
@@ -587,7 +576,7 @@
 
         exams.forEach(exam => {
           const progress = getProgress(exam.examId);
-          const examPath = window.sitePath('/v2/exam/paper.html?exam=' + exam.examId);
+          const examPath = window.sitePath('/ap/exam/?examId=' + exam.examId);
           const isNew = String(exam.year) === '2025';
           const pct = progress && progress.total > 0 ? Math.round(progress.answered / progress.total * 100) : 0;
           const btnLabel = progress && progress.answered > 0 ? '继续练习' : '开始练习';

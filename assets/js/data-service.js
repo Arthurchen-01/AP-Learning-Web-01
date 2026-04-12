@@ -3,65 +3,64 @@
  * 统一数据服务：加载考试数据、题目JSON、用户进度
  */
 
-const DATA_BASE = '../data/';
-const MOCK_DATA_BASE = '../../mock-data/';
+const DATA_BASE = (window.sitePath || (p => p))('/v2/data/');
+const MOCK_DATA_BASE = (window.sitePath || (p => p))('/mock-data/');
+const SUBJECT_FOLDERS = [
+  'computer_science_a', 'calculus_bc', 'physics_c_mechanics', 'physics_c_em',
+  'microeconomics', 'macroeconomics', 'statistics', 'psychology', 'chinese'
+];
+
+// 在 mock-data 根目录和科目子文件夹中查找考试文件
+async function fetchExamJson(examId) {
+  // 1. 直接路径: mock-data/ap-exam-{id}.json
+  try {
+    const res = await fetch(`${MOCK_DATA_BASE}ap-exam-${examId}.json`);
+    if (res.ok) return await res.json();
+  } catch (e) {}
+
+  // 2. 科目子文件夹: mock-data/{subject}/ap-exam-{id}.json
+  for (const folder of SUBJECT_FOLDERS) {
+    try {
+      const res = await fetch(`${MOCK_DATA_BASE}${folder}/ap-exam-${examId}.json`);
+      if (res.ok) return await res.json();
+    } catch (e) {}
+  }
+
+  // 3. v2/data 旧格式
+  try {
+    const res = await fetch(`${DATA_BASE}${examId}/exam_packet.json`);
+    if (res.ok) return await res.json();
+  } catch (e) {}
+
+  return null;
+}
 
 // 加载单个考试包
 export async function loadExam(examId) {
-  try {
-    // 先试 v2/data/ 路径（旧格式）
-    const res = await fetch(`${DATA_BASE}${examId}/exam_packet.json`);
-    if (res.ok) {
-      const raw = await res.json();
-      return normalizeExam(raw);
-    }
-  } catch (e) {}
-
-  // 再试 mock-data/ 路径（新格式）
-  try {
-    const res = await fetch(`${MOCK_DATA_BASE}ap-exam-${examId}.json`);
-    if (res.ok) {
-      const raw = await res.json();
-      return normalizeExam(raw);
-    }
-  } catch (e) {
-    console.warn('Failed to load exam:', e);
-  }
-  return null;
+  const raw = await fetchExamJson(examId);
+  return raw ? normalizeExam(raw) : null;
 }
 
 // 加载考试的所有题目
 export async function loadExamQuestions(examId) {
-  try {
-    // 先试 v2/data/ 路径
-    const res = await fetch(`${DATA_BASE}${examId}/questions.json`);
-    if (res.ok) {
-      const raw = await res.json();
-      return normalizeQuestions(raw, examId);
-    }
-  } catch (e) {}
+  // mock-data 格式：题目内嵌在 exam JSON 里
+  const examData = await fetchExamJson(examId);
+  if (!examData) return null;
 
-  // mock-data 格式：题目内嵌在 exam JSON 里，从 exam 提取
-  try {
-    const examRes = await fetch(`${MOCK_DATA_BASE}ap-exam-${examId}.json`);
-    if (examRes.ok) {
-      const examData = await examRes.json();
-      const allQuestions = [];
-      if (examData.sections && Array.isArray(examData.sections)) {
-        examData.sections.forEach((section, sIdx) => {
-          const sectionId = section.section_id || section.id || `section-${sIdx + 1}`;
-          if (section.questions && Array.isArray(section.questions)) {
-            section.questions.forEach(q => {
-              allQuestions.push({ ...q, section_id: sectionId });
-            });
-          }
+  // 检查是否是内嵌题目格式（有 sections）
+  if (examData.sections && Array.isArray(examData.sections)) {
+    const allQuestions = [];
+    examData.sections.forEach((section, sIdx) => {
+      const sectionId = section.section_id || section.id || `section-${sIdx + 1}`;
+      if (section.questions && Array.isArray(section.questions)) {
+        section.questions.forEach(q => {
+          allQuestions.push({ ...q, section_id: sectionId });
         });
       }
-      return normalizeQuestions(allQuestions, examId);
-    }
-  } catch (e) {
-    console.warn('Failed to load questions:', e);
+    });
+    return normalizeQuestions(allQuestions, examId);
   }
+
   return null;
 }
 
@@ -303,34 +302,6 @@ function normalizeQuestions(questions, examId) {
       };
     })
     .filter(q => q !== null); // Skip broken questions
-}
-
-// 加载单个考试包
-export async function loadExam(examId) {
-  try {
-    const res = await fetch(`${DATA_BASE}${examId}/exam_packet.json`);
-    if (res.ok) {
-      const raw = await res.json();
-      return normalizeExam(raw);
-    }
-  } catch (e) {
-    console.warn('Failed to load exam:', e);
-  }
-  return null;
-}
-
-// 加载考试的所有题目
-export async function loadExamQuestions(examId) {
-  try {
-    const res = await fetch(`${DATA_BASE}${examId}/questions.json`);
-    if (res.ok) {
-      const raw = await res.json();
-      return normalizeQuestions(raw, examId);
-    }
-  } catch (e) {
-    console.warn('Failed to load questions:', e);
-  }
-  return null;
 }
 
 // 加载单个题目

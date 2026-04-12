@@ -229,17 +229,37 @@ init().catch((error) => {
   app.innerHTML = `<div class="exam-center"><section class="shell-card"><h1>Unable to load this exam</h1><p>${escapeHtml(String(error.message || error))}</p></section></div>`;
 });
 
+const SUBJECT_FOLDERS = [
+  'computer_science_a', 'calculus_bc', 'physics_c_mechanics', 'physics_c_em',
+  'microeconomics', 'macroeconomics', 'statistics', 'psychology'
+];
+
+async function fetchExamData(examId) {
+  // 1. Try root mock-data path
+  let res = await fetch(window.sitePath(`/mock-data/ap-exam-${examId}.json`));
+  if (res.ok) return await res.json();
+
+  // 2. Try subject subfolders
+  for (const folder of SUBJECT_FOLDERS) {
+    try {
+      res = await fetch(window.sitePath(`/mock-data/${folder}/ap-exam-${examId}.json`));
+      if (res.ok) return await res.json();
+    } catch (e) {}
+  }
+
+  return null;
+}
+
 async function init() {
   if (!examId) {
     throw new Error("Missing examId");
   }
 
-const response = await fetch(window.sitePath(`/mock-data/ap-exam-${examId}.json`));
-  if (!response.ok) {
+  const examData = await fetchExamData(examId);
+  if (!examData) {
     throw new Error(`Missing mock data for examId ${examId}`);
   }
-
-  exam = await response.json();
+  exam = examData;
   state = loadState(examId) || createFreshState(exam);
   ensureStateShape(exam, state);
   if (!state.sectionStates[state.sectionIndex]) {
@@ -444,14 +464,24 @@ function handleChange(event) {
 
 function handleInput(event) {
   const question = currentQuestion();
-  if (!question || question.type !== "frq") {
+  if (!question || (question.type !== "frq" && question.type !== "free-response")) {
     return;
   }
   const textarea = event.target.closest("textarea[name='answer']");
   if (!textarea) {
     return;
   }
-  sectionState().answers[state.questionIndex] = textarea.value;
+  const partSign = textarea.dataset.part;
+  if (partSign) {
+    // FRQ with parts — store as object {a: "...", b: "..."}
+    const current = sectionState().answers[state.questionIndex];
+    const answers = (typeof current === "object" && current !== null && !Array.isArray(current)) ? { ...current } : {};
+    answers[partSign] = textarea.value;
+    sectionState().answers[state.questionIndex] = answers;
+  } else {
+    // FRQ without parts — store as string
+    sectionState().answers[state.questionIndex] = textarea.value;
+  }
   persistState(examId, state);
 }
 
@@ -563,27 +593,32 @@ function renderExam() {
   const meta = deriveSectionMeta(section, exam);
   const flagged = sectionState().flagged[state.questionIndex];
   const answer = sectionState().answers[state.questionIndex];
+  const isFrq = question.type === "frq" || question.type === "free-response";
+  const hasParts = isFrq && Array.isArray(question.parts) && question.parts.length > 0;
 
   app.innerHTML = `
-    <div class="exam-layout ${question.type === "frq" ? "is-frq" : ""}">
+    <div class="exam-layout ${isFrq ? "is-frq" : ""}">
       ${renderTopBar(meta)}
       ${renderToolPanels()}
       <main class="exam-body">
-        <section class="workspace ${question.type === "frq" ? "workspace-frq" : ""}">
+        <section class="workspace ${isFrq ? "workspace-frq" : ""}">
           <div class="question-pane ${state.ui.lineReaderOn ? "line-reader-on" : ""}">
             <div class="question-label">Question ${state.questionIndex + 1}</div>
             <div class="question-content">
               <div class="question-text">${formatText(question.prompt)}</div>
+              ${hasParts ? renderFrqParts(question.parts) : ""}
               ${renderOptions(question, answer)}
             </div>
           </div>
-          ${question.type === "frq" ? `
+          ${isFrq ? `
             <aside class="response-pane">
               <div class="response-head">
                 <strong>Response</strong>
                 <span>Saved automatically</span>
               </div>
-              <textarea name="answer" placeholder="Write your response here.">${escapeHtml(String(answer || ""))}</textarea>
+              ${hasParts ? renderFrqPartInputs(question.parts, answer) : `
+                <textarea name="answer" placeholder="Write your response here.">${escapeHtml(String(answer || ""))}</textarea>
+              `}
             </aside>
           ` : ""}
         </section>
@@ -692,7 +727,7 @@ function renderInfoPanel(title, body) {
 }
 
 function renderOptions(question, answer) {
-  if (question.type === "frq") {
+  if (question.type === "frq" || question.type === "free-response") {
     return "";
   }
   const values = Array.isArray(answer) ? answer : [];
@@ -712,6 +747,37 @@ function renderOptions(question, answer) {
           </label>
         `;
       }).join("")}
+    </div>
+  `;
+}
+
+function renderFrqParts(parts) {
+  return `
+    <div class="frq-parts-list">
+      ${parts.map((part) => `
+        <div class="frq-part-item">
+          <div class="frq-part-label">${escapeHtml(part.partSign)})</div>
+          <div class="frq-part-content">${formatText(part.partContent)}</div>
+        </div>
+      `).join("")}
+    </div>
+  `;
+}
+
+function renderFrqPartInputs(parts, answer) {
+  const answers = (typeof answer === "object" && answer !== null && !Array.isArray(answer)) ? answer : {};
+  return `
+    <div class="frq-part-inputs">
+      ${parts.map((part) => `
+        <div class="frq-part-input-group">
+          <label class="frq-part-input-label">${escapeHtml(part.partSign)})</label>
+          <textarea
+            name="answer"
+            data-part="${escapeHtml(part.partSign)}"
+            placeholder="Write your response for part ${escapeHtml(part.partSign)}..."
+          >${escapeHtml(String(answers[part.partSign] || ""))}</textarea>
+        </div>
+      `).join("")}
     </div>
   `;
 }
@@ -869,6 +935,13 @@ function countAnswered(sectionIndex) {
 function isAnswered(answer, question) {
   if (question.type === "multi") {
     return Array.isArray(answer) && answer.length > 0;
+  }
+  if ((question.type === "frq" || question.type === "free-response") && Array.isArray(question.parts) && question.parts.length > 0) {
+    // FRQ with parts — answer is object {a: "...", b: "..."}
+    if (typeof answer === "object" && answer !== null && !Array.isArray(answer)) {
+      return Object.values(answer).some(v => String(v || "").trim().length > 0);
+    }
+    return false;
   }
   return String(answer || "").trim().length > 0;
 }

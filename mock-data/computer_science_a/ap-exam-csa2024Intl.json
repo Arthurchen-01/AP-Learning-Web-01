@@ -1,0 +1,1114 @@
+{
+  "examId": "csa2024Intl",
+  "title": "AP CSA 2024年国际卷",
+  "subjectName": "计算机科学A",
+  "yearLabel": "2024",
+  "description": "AP Computer Science A 2024年国际卷",
+  "answerKeyAvailable": false,
+  "scoring": {
+    "answerKeyAvailable": false,
+    "apBands": [],
+    "note": "Scoring unavailable until answer keys are imported."
+  },
+  "sections": [
+    {
+      "id": "csa2024Intl-mcq",
+      "title": "Section I: Multiple Choice",
+      "partTitle": "Multiple Choice",
+      "limitMinutes": 95,
+      "directions": "",
+      "questions": [
+        {
+          "id": "csa_mcq_0",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">Consider the following code segment．<br/><br/>Which of the following pairs of $x$ and $y$ values would cause＂platypus＂to be printed？</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<div class=\"choiceTxt\">$x=5, y=30$</div>"
+            },
+            {
+              "key": "B",
+              "content": "<div class=\"choiceTxt\">$x=8, y=5$</div>"
+            },
+            {
+              "key": "C",
+              "content": "<div class=\"choiceTxt\">$x=8, y=15$</div>"
+            },
+            {
+              "key": "D",
+              "content": "<div class=\"choiceTxt\">$x=10, y=15$</div>"
+            },
+            {
+              "key": "E",
+              "content": "<div class=\"choiceTxt\">$x=10, y=30$</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "csa_mcq_1",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">Consider the following class declaration．<br/><br/>The following statement appears in a method in a class other than SomeMethods．<br/>System．out．println（SomeMethods．testMethod（1234））；<br/>What，if anything，is printed as a result of executing the statement？</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<div class=\"choiceTxt\">1</div>"
+            },
+            {
+              "key": "B",
+              "content": "<div class=\"choiceTxt\">2</div>"
+            },
+            {
+              "key": "C",
+              "content": "<div class=\"choiceTxt\">3</div>"
+            },
+            {
+              "key": "D",
+              "content": "<div class=\"choiceTxt\">4</div>"
+            },
+            {
+              "key": "E",
+              "content": "<div class=\"choiceTxt\">Nothing is printed because the class SomeMethods does not compile．</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "csa_mcq_2",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">Consider the following code segment．<br/><br/>After the code segment executes，what is the value of num ？</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<div class=\"choiceTxt\">0</div>"
+            },
+            {
+              "key": "B",
+              "content": "<div class=\"choiceTxt\">1</div>"
+            },
+            {
+              "key": "C",
+              "content": "<div class=\"choiceTxt\">2</div>"
+            },
+            {
+              "key": "D",
+              "content": "<div class=\"choiceTxt\">3</div>"
+            },
+            {
+              "key": "E",
+              "content": "<div class=\"choiceTxt\">4</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "csa_mcq_3",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">Consider the following code segment．Assume that $x$ and $y$ are properly declared and initialized integer variables．<br/><br/>Under which of the following conditions is the variable z set to 20 ？</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<div class=\"choiceTxt\">Whenever x is less than y</div>"
+            },
+            {
+              "key": "B",
+              "content": "<div class=\"choiceTxt\">Whenever x is less than or equal to 0</div>"
+            },
+            {
+              "key": "C",
+              "content": "<div class=\"choiceTxt\">Whenever x is less than y and x is not greater than 0</div>"
+            },
+            {
+              "key": "D",
+              "content": "<div class=\"choiceTxt\">Whenever y is less than or equal to x</div>"
+            },
+            {
+              "key": "E",
+              "content": "<div class=\"choiceTxt\">Whenever $z$ is not set to 10</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "csa_mcq_4",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">Consider the following code segment．<br/><br/>What is printed as a result of executing the code segment？</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<div class=\"choiceTxt\">77</div>"
+            },
+            {
+              "key": "B",
+              "content": "<div class=\"choiceTxt\">78</div>"
+            },
+            {
+              "key": "C",
+              "content": "<div class=\"choiceTxt\">79</div>"
+            },
+            {
+              "key": "D",
+              "content": "<div class=\"choiceTxt\">98</div>"
+            },
+            {
+              "key": "E",
+              "content": "<div class=\"choiceTxt\">99</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "csa_mcq_5",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">Consider the following code segment．<br/><br/>What is printed as a result of executing the code segment？</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<div class=\"choiceTxt\">02468</div>"
+            },
+            {
+              "key": "B",
+              "content": "<div class=\"choiceTxt\">0246810</div>"
+            },
+            {
+              "key": "C",
+              "content": "<div class=\"choiceTxt\">024681012</div>"
+            },
+            {
+              "key": "D",
+              "content": "<div class=\"choiceTxt\">246810</div>"
+            },
+            {
+              "key": "E",
+              "content": "<div class=\"choiceTxt\">24681012</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "csa_mcq_6",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">Consider the following code segment．Assume that value is a properly declared and initialized integer variable．<br/><br/>Which of the following code segments produces the same result as the preceding code segment for all initial values of value ？</p>",
+          "options": [
+            {
+              "key": "D",
+              "content": "<div class=\"choiceTxt\">if（value＞＝7）<br/>\\｛<br/>    value += value;<br/>\\}<br/>else<br/>\\{<br/>    value++;<br/>\\}</div>"
+            },
+            {
+              "key": "E",
+              "content": "<div class=\"choiceTxt\">if（value＞＝7）<br/>\\｛<br/>    value++;<br/>\\}<br/>else<br/>\\{<br/>    value += value;<br/>\\}</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "csa_mcq_7",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">Consider the following code segment．<br/><br/>What is printed as a result of executing the code segment？</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<div class=\"choiceTxt\">000<br/>012<br/>024</div>"
+            },
+            {
+              "key": "B",
+              "content": "<div class=\"choiceTxt\">000<br/>012<br/>024<br/>036</div>"
+            },
+            {
+              "key": "C",
+              "content": "<div class=\"choiceTxt\">0000<br/>0123<br/>0246<br/>0369</div>"
+            },
+            {
+              "key": "D",
+              "content": "<div class=\"choiceTxt\">123<br/>246<br/>369</div>"
+            },
+            {
+              "key": "E",
+              "content": "<div class=\"choiceTxt\">0123<br/>0246<br/>0369</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "csa_mcq_8",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">Assume that $x$ and $y$ are boolean variables and have been properly initialized．<br/>$$<br/>(x \\& \\& y) \\| y<br/>$$<br/><br/>Which of the following always evaluates to the same value as the preceding expression？</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<div class=\"choiceTxt\">$$</div>"
+            },
+            {
+              "key": "B",
+              "content": "<div class=\"choiceTxt\">$y$</div>"
+            },
+            {
+              "key": "C",
+              "content": "<div class=\"choiceTxt\">$x \\& \\& y$</div>"
+            },
+            {
+              "key": "D",
+              "content": "<div class=\"choiceTxt\">$x \\| y$</div>"
+            },
+            {
+              "key": "E",
+              "content": "<div class=\"choiceTxt\">$x!=y$</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "csa_mcq_9",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">Consider the following method，which is intended to print the ArrayList names in reverse order．<br/><br/>Which of the following can be used to replace／＊missing control expressions＊／so that printInReverseOrder will work as intended？</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<div class=\"choiceTxt\">int $k=0 ; k<$ names．size（）；k＋＋</div>"
+            },
+            {
+              "key": "B",
+              "content": "<div class=\"choiceTxt\">int $k=0$ ；$k<$ names．size（）－1；$k++$</div>"
+            },
+            {
+              "key": "C",
+              "content": "<div class=\"choiceTxt\">int $k=$ names．size（）；$k>=0$ ；k－－</div>"
+            },
+            {
+              "key": "D",
+              "content": "<div class=\"choiceTxt\">int $k=$ names．size（）－1；$k>=0$ ；k－－</div>"
+            },
+            {
+              "key": "E",
+              "content": "<div class=\"choiceTxt\">int $k=$ names．size（）－1；$k>0$ ；k－－</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "csa_mcq_10",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">Consider the following method.<br/><br/>What value is returned as a result of the call calc (4) ?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<div class=\"choiceTxt\">0</div>"
+            },
+            {
+              "key": "B",
+              "content": "<div class=\"choiceTxt\">1</div>"
+            },
+            {
+              "key": "C",
+              "content": "<div class=\"choiceTxt\">3</div>"
+            },
+            {
+              "key": "D",
+              "content": "<div class=\"choiceTxt\">6</div>"
+            },
+            {
+              "key": "E",
+              "content": "<div class=\"choiceTxt\">10</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "csa_mcq_11",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">Consider the following code segment.<br/><br/>Assume that $x$ has been previously declared such that the code segment compiles without error. Which of the following best describes the contents of x after the code segment has been executed?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<div class=\"choiceTxt\">An int array containing the entire first row of rectangle</div>"
+            },
+            {
+              "key": "B",
+              "content": "<div class=\"choiceTxt\">An int array containing the entire first column of rectangle</div>"
+            },
+            {
+              "key": "C",
+              "content": "<div class=\"choiceTxt\">An int array containing the full contents of rectangle</div>"
+            },
+            {
+              "key": "D",
+              "content": "<div class=\"choiceTxt\">An int value representing the length of the first row of rectangle</div>"
+            },
+            {
+              "key": "E",
+              "content": "<div class=\"choiceTxt\">The int value in the first row and first column of rectangle</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "csa_mcq_12",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">Consider the following code segment．<br/><br/>Which of the following can be used to replace／＊missing increment＊／so that the variable $t$ has the value 13 as a result of the execution of the code segment？</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<div class=\"choiceTxt\">$v=v * 0$</div>"
+            },
+            {
+              "key": "B",
+              "content": "<div class=\"choiceTxt\">$v=v * 1$</div>"
+            },
+            {
+              "key": "C",
+              "content": "<div class=\"choiceTxt\">$v=v * 2$</div>"
+            },
+            {
+              "key": "D",
+              "content": "<div class=\"choiceTxt\">$v=v * 3$</div>"
+            },
+            {
+              "key": "E",
+              "content": "<div class=\"choiceTxt\">$v=v * 4$</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "csa_mcq_13",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">Consider a method to determine whether two arrays have the same length and same values stored in the same order．<br/><br/>Consider the following implementations of haveSameContents．<br/><br/>Which of the implementations can be used so that haveSameContents will work as intended？</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<div class=\"choiceTxt\">I only</div>"
+            },
+            {
+              "key": "B",
+              "content": "<div class=\"choiceTxt\">II only</div>"
+            },
+            {
+              "key": "C",
+              "content": "<div class=\"choiceTxt\">III only</div>"
+            },
+            {
+              "key": "D",
+              "content": "<div class=\"choiceTxt\">I and III</div>"
+            },
+            {
+              "key": "E",
+              "content": "<div class=\"choiceTxt\">II and III</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "csa_mcq_14",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">Consider the following code segment．<br/><br/>What is the value of $c$ after the code segment has been executed？</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<div class=\"choiceTxt\">0</div>"
+            },
+            {
+              "key": "B",
+              "content": "<div class=\"choiceTxt\">2</div>"
+            },
+            {
+              "key": "C",
+              "content": "<div class=\"choiceTxt\">20</div>"
+            },
+            {
+              "key": "D",
+              "content": "<div class=\"choiceTxt\">97</div>"
+            },
+            {
+              "key": "E",
+              "content": "<div class=\"choiceTxt\">The value of c cannot be determined because the loop does not terminate．</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "csa_mcq_15",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">Consider the following class definition．<br/><br/>The following code segment appears in a class other than Container．Assume that no other Container objects have been created before the code segment is executed．<br/><br/>What value will be assigned to cost as a result of executing the code segment？</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<div class=\"choiceTxt\">0.0</div>"
+            },
+            {
+              "key": "B",
+              "content": "<div class=\"choiceTxt\">2.0</div>"
+            },
+            {
+              "key": "C",
+              "content": "<div class=\"choiceTxt\">3.0</div>"
+            },
+            {
+              "key": "D",
+              "content": "<div class=\"choiceTxt\">5.0</div>"
+            },
+            {
+              "key": "E",
+              "content": "<div class=\"choiceTxt\">6.0</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "csa_mcq_16",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">Consider the following methods．<br/><br/>The following code segment appears in a method in the same class as alpha and beta．<br/><br/>What is printed as a result of executing the code segment？</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<div class=\"choiceTxt\">223</div>"
+            },
+            {
+              "key": "B",
+              "content": "<div class=\"choiceTxt\">245</div>"
+            },
+            {
+              "key": "C",
+              "content": "<div class=\"choiceTxt\">2117</div>"
+            },
+            {
+              "key": "D",
+              "content": "<div class=\"choiceTxt\">2123</div>"
+            },
+            {
+              "key": "E",
+              "content": "<div class=\"choiceTxt\">2245</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "csa_mcq_17",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">Consider the method replaceStr，which is intended to return a string that is identical to orig except that all occurrences of string $a$ are replaced by string $b$ ．<br/><br/>Which of the following statements can be used to show that replaceStr does not always work as intended？</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<div class=\"choiceTxt\">String str＝replaceStr（＂＂，＂C＂，＂D＂）；／／str should be set to＂＂</div>"
+            },
+            {
+              "key": "B",
+              "content": "<div class=\"choiceTxt\">String str＝replaceStr（＂AB＂，＂C＂，＂D＂）；／／str should be set to＂AB＂</div>"
+            },
+            {
+              "key": "C",
+              "content": "<div class=\"choiceTxt\">String str＝replaceStr（＂C＂，＂C＂，＂D＂）；／／str should be set to＂D＂</div>"
+            },
+            {
+              "key": "D",
+              "content": "<div class=\"choiceTxt\">String str＝replaceStr（＂CCC＂，＂C＂，＂D＂）；／／str should be set to＂DDD＂</div>"
+            },
+            {
+              "key": "E",
+              "content": "<div class=\"choiceTxt\">String str＝replaceStr（＂CCD＂，＂C＂，＂C＂）；／／str should be set to＂CCD＂</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "csa_mcq_18",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">Which of the following Java expressions evaluates to true if the int variable number is positive or is between -10 and -5 , inclusive, and evaluates to false otherwise?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<div class=\"choiceTxt\">$(-10<=$ number <= -5$)|$ number $>0$</div>"
+            },
+            {
+              "key": "B",
+              "content": "<div class=\"choiceTxt\">$(-10<=$ number $|$ number $<=-5)|$ number $>0$</div>"
+            },
+            {
+              "key": "C",
+              "content": "<div class=\"choiceTxt\">(-10<= number || number <= -5) \\&\\& number > 0</div>"
+            },
+            {
+              "key": "D",
+              "content": "<div class=\"choiceTxt\">$(-10<=$ number $\\& \\&$ number $<=-5)|$ number $>0$</div>"
+            },
+            {
+              "key": "E",
+              "content": "<div class=\"choiceTxt\">$(-10<=$ number $\\& \\&$ number $<=-5)$ \\&\\& number $>0$</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "csa_mcq_19",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">Consider the following method．<br/><br/>What value is returned as a result of the call doSomething（10）？</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<div class=\"choiceTxt\">＂108642＂</div>"
+            },
+            {
+              "key": "B",
+              "content": "<div class=\"choiceTxt\">＂246810＂</div>"
+            },
+            {
+              "key": "C",
+              "content": "<div class=\"choiceTxt\">＂0246810＂</div>"
+            },
+            {
+              "key": "D",
+              "content": "<div class=\"choiceTxt\">＂ 1086420 ＂</div>"
+            },
+            {
+              "key": "E",
+              "content": "<div class=\"choiceTxt\">＂ 12345678910 ＂</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "csa_mcq_20",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">Consider the following method，which is intended to print the contents of a two－dimensional array of integers in row－major order．<br/><br/>The method does not always work as intended．In some cases it throws an ArrayIndexOutOfBoundsException．Which of the following identifies the error in the method？</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<div class=\"choiceTxt\">Variables a and b are incorrectly initialized．</div>"
+            },
+            {
+              "key": "B",
+              "content": "<div class=\"choiceTxt\">The loop conditions use the incorrect relational operator．</div>"
+            },
+            {
+              "key": "C",
+              "content": "<div class=\"choiceTxt\">The outer and inner for loops contain different Boolean expressions．</div>"
+            },
+            {
+              "key": "D",
+              "content": "<div class=\"choiceTxt\">The loop control variable increments $a++$ and $b++$ are incorrect．</div>"
+            },
+            {
+              "key": "E",
+              "content": "<div class=\"choiceTxt\">The row and column indices in the print method call are reversed．</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "csa_mcq_21",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">Consider the following code segment．<br/><br/>What，if anything，will be printed as a result of executing the code segment？</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<div class=\"choiceTxt\">90</div>"
+            },
+            {
+              "key": "B",
+              "content": "<div class=\"choiceTxt\">110</div>"
+            },
+            {
+              "key": "C",
+              "content": "<div class=\"choiceTxt\">150</div>"
+            },
+            {
+              "key": "D",
+              "content": "<div class=\"choiceTxt\">180</div>"
+            },
+            {
+              "key": "E",
+              "content": "<div class=\"choiceTxt\">Nothing is printed because an ArrayIndexOutOfBoundsException is thrown．</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "csa_mcq_22",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">The following method prints the value of start and then prints every other value up to，and possibly including，end．For example，the method call printRun（1，7）prints the values 1，3，5，and 7.<br/><br/>Consider a modification to the method that changes the Boolean expression in the for loop header so that the for loop header becomes the following．<br/><br/>Which of the following best explains how the output of the modified method differs from the output of the original method？</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<div class=\"choiceTxt\">The modified method always prints fewer values than the original method．</div>"
+            },
+            {
+              "key": "B",
+              "content": "<div class=\"choiceTxt\">The modified method prints fewer values than the original method only when start is even．</div>"
+            },
+            {
+              "key": "C",
+              "content": "<div class=\"choiceTxt\">The modified method prints fewer values than the original method only when start and end are both even or when start and end are both odd．</div>"
+            },
+            {
+              "key": "D",
+              "content": "<div class=\"choiceTxt\">The modified method prints fewer values than the original method only when start is even and end is odd or when start is odd and end is even．</div>"
+            },
+            {
+              "key": "E",
+              "content": "<div class=\"choiceTxt\">The modified method never prints fewer values than the original method．</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "csa_mcq_23",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">Consider the following method．<br/><br/>Assume that int k has been initialized with a value that meets the precondition of the method．Which of the following expressions represents the number of times＂Z＂will be printed as a result of executing the call printLetters（k）？</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<div class=\"choiceTxt\">0</div>"
+            },
+            {
+              "key": "B",
+              "content": "<div class=\"choiceTxt\">k</div>"
+            },
+            {
+              "key": "C",
+              "content": "<div class=\"choiceTxt\">$2 * k$</div>"
+            },
+            {
+              "key": "D",
+              "content": "<div class=\"choiceTxt\">$(k-1) *(k-1)$</div>"
+            },
+            {
+              "key": "E",
+              "content": "<div class=\"choiceTxt\">$k * k$</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "csa_mcq_24",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">The following incomplete method is intended to simulate a spinner in a game by returning＂red＂， ＂blue＂，or＂green＂with equal probability．<br/><br/>The following code segments have been proposed to replace／＊missing code＊／．<br/><br/>Which of the code segments can be used to replace／＊missing code＊／so that spin will work as intended？</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<div class=\"choiceTxt\">I only</div>"
+            },
+            {
+              "key": "B",
+              "content": "<div class=\"choiceTxt\">I and II only</div>"
+            },
+            {
+              "key": "C",
+              "content": "<div class=\"choiceTxt\">I and III only</div>"
+            },
+            {
+              "key": "D",
+              "content": "<div class=\"choiceTxt\">II and III only</div>"
+            },
+            {
+              "key": "E",
+              "content": "<div class=\"choiceTxt\">I，II，and III<br/><br/><h3>Questions 27－28 refer to the following information．</h3><br/><br/>Consider the following correct implementation of the selection sort algorithm．The method sorts an ArrayList of integers into ascending order．</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "csa_mcq_25",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">Assume that selectionSort is called with an ArrayList parameter that has been initialized with the following Integer objects．<br/>$$<br/>[2,3,1,5,6,1]<br/>$$<br/><br/>What will the contents of elements be after three passes of the outer loop（i．e．，when $j==2$ at the point indicated by／＊End of outer loop＊／）？</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<div class=\"choiceTxt\">$[1,1,2,3,5,6]$</div>"
+            },
+            {
+              "key": "B",
+              "content": "<div class=\"choiceTxt\">$[1,1,2,3,6,5]$</div>"
+            },
+            {
+              "key": "C",
+              "content": "<div class=\"choiceTxt\">$[1,1,2,5,6,3]$</div>"
+            },
+            {
+              "key": "D",
+              "content": "<div class=\"choiceTxt\">$[1,2,3,5,6,1]$</div>"
+            },
+            {
+              "key": "E",
+              "content": "<div class=\"choiceTxt\">$[1,3,2,5,6,1]$</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "csa_mcq_26",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">The method can be revised to sort the ArrayList into descending order by changing some or all occurrences of the < operator to the > operator. The lines in the selectionSort method marked Line 1, Line 2, and Line 3 are lines where the < operator is used. In which lines should the < operator be replaced with the > operator so that selectionSort sorts the ArrayList into descending order?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<div class=\"choiceTxt\">Lines 1 and 2 only</div>"
+            },
+            {
+              "key": "B",
+              "content": "<div class=\"choiceTxt\">Lines 1 and 3 only</div>"
+            },
+            {
+              "key": "C",
+              "content": "<div class=\"choiceTxt\">Lines 1, 2, and 3</div>"
+            },
+            {
+              "key": "D",
+              "content": "<div class=\"choiceTxt\">Lines 2 and 3 only</div>"
+            },
+            {
+              "key": "E",
+              "content": "<div class=\"choiceTxt\">Line 3 only</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "csa_mcq_27",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">Consider the following class declarations．<br/><br/>Which of the following can be used to replace／＊missing implementation＊／so that the constructor for Beta initializes the value of thing to 7 ？</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<div class=\"choiceTxt\">thing $=7$ ；</div>"
+            },
+            {
+              "key": "B",
+              "content": "<div class=\"choiceTxt\">Alpha．thing＝7；</div>"
+            },
+            {
+              "key": "C",
+              "content": "<div class=\"choiceTxt\">super（7）；</div>"
+            },
+            {
+              "key": "D",
+              "content": "<div class=\"choiceTxt\">super．thing＝7；</div>"
+            },
+            {
+              "key": "E",
+              "content": "<div class=\"choiceTxt\">super．Alpha（7）；</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "csa_mcq_28",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">Consider the following code segment．<br/><br/>What，if anything，is printed as a result of executing the code segment？</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<div class=\"choiceTxt\">2.03 .0</div>"
+            },
+            {
+              "key": "B",
+              "content": "<div class=\"choiceTxt\">2.33 .0</div>"
+            },
+            {
+              "key": "C",
+              "content": "<div class=\"choiceTxt\">3.02 .0</div>"
+            },
+            {
+              "key": "D",
+              "content": "<div class=\"choiceTxt\">3.02 .3</div>"
+            },
+            {
+              "key": "E",
+              "content": "<div class=\"choiceTxt\">Nothing is printed．A compile－time error occurs because an int value cannot be assigned to a double．</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "csa_mcq_29",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">Consider the following code segment.<br/><br/>The code segment is intended to print the following output.<br/><br/>{lll}<br/>$(0,1)$ & $(0,2)$ & $(0,3)$ <br/><br/>$(1,2)$ & $(1,3)$ & <br/><br/>$(2,3)$ & &<br/><br/>Which of the following can replace /* missing code */ so that the code segment works as intended?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<div class=\"choiceTxt\">int $k=0$; $k<j$; k++</div>"
+            },
+            {
+              "key": "B",
+              "content": "<div class=\"choiceTxt\">int $k=j$; $k<j$; k++</div>"
+            },
+            {
+              "key": "C",
+              "content": "<div class=\"choiceTxt\">int $k=j$; $k<4$; $k++$</div>"
+            },
+            {
+              "key": "D",
+              "content": "<div class=\"choiceTxt\">int k = j + 1; k < j; k++</div>"
+            },
+            {
+              "key": "E",
+              "content": "<div class=\"choiceTxt\">int k = j + 1; k < 4; k++</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "csa_mcq_30",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">Consider the following code segment，which is intended to print true if all elements of the integer array arr are equal in value and false otherwise．Assume arr is properly declared and initialized and has at least two elements．<br/><br/>Which of the following best explains why the code segment does not work as intended？</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<div class=\"choiceTxt\">The code segment accesses a null array element，causing a NullPointerException．</div>"
+            },
+            {
+              "key": "B",
+              "content": "<div class=\"choiceTxt\">The code segment does not compare all pairs of array elements．</div>"
+            },
+            {
+              "key": "C",
+              "content": "<div class=\"choiceTxt\">The code segment incorrectly initializes the variable result．</div>"
+            },
+            {
+              "key": "D",
+              "content": "<div class=\"choiceTxt\">The code segment sets the variable result to false under the wrong conditions．</div>"
+            },
+            {
+              "key": "E",
+              "content": "<div class=\"choiceTxt\">The code segment encounters an invalid array index，causing an ArrayIndexOutOfBoundsException．</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "csa_mcq_31",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">The following method is intended to return a string that is formed by exchanging the first and last characters of its string parameter．For example，the call switchLetters（＂wagon＂）should return the string＂nagow＂．<br/><br/>The following code segments have been proposed as replacements for／＊missing code＊／．<br/><br/>Which of the code segments can be used to replace／＊missing code＊／so that the switchLetters method works as intended？</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<div class=\"choiceTxt\">I only</div>"
+            },
+            {
+              "key": "B",
+              "content": "<div class=\"choiceTxt\">I and II only</div>"
+            },
+            {
+              "key": "C",
+              "content": "<div class=\"choiceTxt\">I and III only</div>"
+            },
+            {
+              "key": "D",
+              "content": "<div class=\"choiceTxt\">II and III only</div>"
+            },
+            {
+              "key": "E",
+              "content": "<div class=\"choiceTxt\">I，II，and III</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "csa_mcq_32",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">Consider the following incomplete method，which is intended to reverse the elements in an array．<br/><br/>For example，if the method is called with the following array<br/><br/>{|l|l|l|l|l|l|l|}<br/> 5 & 8 & 3 & 7 & 4 & 6 & 2 <br/><br/><br/>then，upon completion，the array should contain the following．<br/><br/>{|l|l|l|l|l|l|l|}<br/> 2 & 6 & 4 & 7 & 3 & 8 & 5 <br/><br/><br/>Which of the following can be used to replace／＊condition＊／and／＊expression＊／so that reverse will work as intended？<br/>/* condition */ 1* expression */</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<div class=\"choiceTxt\">$k<$ values．length values．length $-k-1$</div>"
+            },
+            {
+              "key": "B",
+              "content": "<div class=\"choiceTxt\">$k<$ values．length values．length $-k$</div>"
+            },
+            {
+              "key": "C",
+              "content": "<div class=\"choiceTxt\">$k<$ values．length／ 2 values．length－ $k-1$</div>"
+            },
+            {
+              "key": "D",
+              "content": "<div class=\"choiceTxt\">$k<$ values．length／ 2 values．length－$k$</div>"
+            },
+            {
+              "key": "E",
+              "content": "<div class=\"choiceTxt\">$k<$ values．length／ 2 values．length $-k+1$</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "csa_mcq_33",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">Consider the following class definition．<br/><br/>Assume that someArray is a properly declared and initialized two－dimensional array of integers．Which of the following best describes the conditions under which the method call ArrayTester．check（someArray）prints the output true true ？</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<div class=\"choiceTxt\">There are no special rows in someArray，and at least one value in someArray is incredible．</div>"
+            },
+            {
+              "key": "B",
+              "content": "<div class=\"choiceTxt\">All rows in someArray are special，and at least one value in someArray is incredible．</div>"
+            },
+            {
+              "key": "C",
+              "content": "<div class=\"choiceTxt\">All rows in someArray are special，and all values in someArray are incredible．</div>"
+            },
+            {
+              "key": "D",
+              "content": "<div class=\"choiceTxt\">At least one row in someArray is special，and at least one value in someArray is incredible．</div>"
+            },
+            {
+              "key": "E",
+              "content": "<div class=\"choiceTxt\">At least one row in someArray is special，and all values in someArray are incredible．</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "csa_mcq_34",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">Consider the following class BookInfo.<br/><br/>Which of the following would be an appropriate method header for a BookInfo method that would return the title of the book when called from a method in a class other than BookInfo ?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<div class=\"choiceTxt\">public void getBookName(String title)</div>"
+            },
+            {
+              "key": "B",
+              "content": "<div class=\"choiceTxt\">public String getBookName()</div>"
+            },
+            {
+              "key": "C",
+              "content": "<div class=\"choiceTxt\">private String getBookName(String title)</div>"
+            },
+            {
+              "key": "D",
+              "content": "<div class=\"choiceTxt\">private String getBookName()</div>"
+            },
+            {
+              "key": "E",
+              "content": "<div class=\"choiceTxt\">private void getBookName(String title)</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "csa_mcq_35",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">A rectangular playing board is to be set up so that in the even－numbered rows，there is an $x$ in each odd－numbered column，and in the odd－numbered rows，there is an x in each even－numbered column．<br/><br/>The following table shows how a $4  8$ playing board would be initialized．<br/><br/>{l|c|c|c|c|c|c|c|c|} <br/>& 1{l}{$0$} & 1{l}{$1$} & 1{l}{$3$} & 1{l}{$4$} & 1{l}{$5$} & 1{l}{$6$} & 1{l}{$7$} <br/><br/>$0$ & & x & & x & & x & & x <br/><br/>$1$ & x & & x & & x & & x & <br/><br/>$2$ & & x & & x & & x & & x <br/><br/>$3$ & x & & x & & x & & x & <br/><br/> { 2 - 10 } & & & & & & & &<br/><br/>Consider the following incomplete code segment．Assume that board has been declared appropriately and has been initialized with strings containing a single blank character．<br/><br/>Which of the following can be used to replace／＊expr＊／so that the code segment will work correctly？</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<div class=\"choiceTxt\">row／ 2</div>"
+            },
+            {
+              "key": "B",
+              "content": "<div class=\"choiceTxt\">（row／2）＋ 1</div>"
+            },
+            {
+              "key": "C",
+              "content": "<div class=\"choiceTxt\">row \\％ 2</div>"
+            },
+            {
+              "key": "D",
+              "content": "<div class=\"choiceTxt\">（row \\％2）＋ 1</div>"
+            },
+            {
+              "key": "E",
+              "content": "<div class=\"choiceTxt\">$($ row +1$)$ \\％ 2</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "csa_mcq_36",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">Consider the following method.<br/><br/>The following code segment appears in a method in the same class as processWords.<br/><br/>What will be printed as a result of executing the code segment?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<div class=\"choiceTxt\">GorillaAppleBear</div>"
+            },
+            {
+              "key": "B",
+              "content": "<div class=\"choiceTxt\">GorillaHouseCar</div>"
+            },
+            {
+              "key": "C",
+              "content": "<div class=\"choiceTxt\">CarHouseGorilla</div>"
+            },
+            {
+              "key": "D",
+              "content": "<div class=\"choiceTxt\">BearAppleGorilla</div>"
+            },
+            {
+              "key": "E",
+              "content": "<div class=\"choiceTxt\">AppleGorillaHouseCar</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "csa_mcq_37",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">Consider the following class definition.<br/><br/>Assume that the following code segment appears in a class other than WordPlay.<br/><br/>What, if anything, is printed as a result of executing the code segment?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<div class=\"choiceTxt\">scarf3tie</div>"
+            },
+            {
+              "key": "B",
+              "content": "<div class=\"choiceTxt\">scarfdanatie</div>"
+            },
+            {
+              "key": "C",
+              "content": "<div class=\"choiceTxt\">tie3scarf</div>"
+            },
+            {
+              "key": "D",
+              "content": "<div class=\"choiceTxt\">tiedanascarf</div>"
+            },
+            {
+              "key": "E",
+              "content": "<div class=\"choiceTxt\">Nothing is printed. The WordPlay class does not compile because it contains two update methods.<br/><br/><h2><br/>COMPUTER SCIENCE A <br/> SECTION II <br/> Time－1 hour and 30 minutes <br/> 4 Questions<br/></h2><br/><br/>Directions：SHOW ALL YOUR WORK．REMEMBER THAT PROGRAM SEGMENTS ARE TO BE<br/>WRITTEN IN JAVA．You may plan your answers in this orange booklet，but no credit will be given for anything written in this booklet．You will only earn credit for what you write in the separate Free Response booklet．<br/><br/>Notes：<br/>－Assume that the classes listed in the Java Quick Reference have been imported where appropriate．<br/>－Unless otherwise noted in the question，assume that parameters in method calls are not null and that methods are called only when their preconditions are satisfied．<br/>－In writing solutions for each question，you may use any of the accessible methods that are listed in classes defined in that question．Writing significant amounts of code that can be replaced by a call to one of these methods will not receive full credit．<br/><br/><h3>NO TEST MATERIAL ON THIS PAGE</h3></div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        }
+      ]
+    }
+  ]
+}

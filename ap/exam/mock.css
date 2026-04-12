@@ -413,6 +413,73 @@ button {
   line-height: 1.8;
 }
 
+/* ─── FRQ Parts ─── */
+
+.frq-parts-list {
+  margin-top: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.frq-part-item {
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.frq-part-label {
+  background: #f0f4f8;
+  padding: 8px 16px;
+  font-weight: 700;
+  font-size: 0.9rem;
+  color: var(--ink);
+  border-bottom: 1px solid var(--line);
+}
+
+.frq-part-content {
+  padding: 12px 16px;
+  line-height: 1.75;
+  font-size: 0.95rem;
+}
+
+.frq-part-inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  flex: 1;
+}
+
+.frq-part-input-group {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid var(--line);
+}
+
+.frq-part-input-group:last-child {
+  border-bottom: 0;
+}
+
+.frq-part-input-label {
+  padding: 10px 20px;
+  font-weight: 700;
+  font-size: 0.85rem;
+  color: var(--ink);
+  background: #f7f8fa;
+  border-bottom: 1px solid var(--line);
+}
+
+.frq-part-input-group textarea {
+  width: 100%;
+  min-height: 140px;
+  padding: 14px 20px;
+  border: 0;
+  resize: vertical;
+  background: transparent;
+  line-height: 1.8;
+  flex: 1;
+}
+
 /* ─── Bottom Navigation (Blue Book: compact circles) ─── */
 .question-footer {
   position: sticky;
@@ -649,6 +716,10 @@ button {
 
   .response-pane textarea {
     min-height: 280px;
+  }
+
+  .frq-part-input-group textarea {
+    min-height: 120px;
   }
 
   .directions-grid,

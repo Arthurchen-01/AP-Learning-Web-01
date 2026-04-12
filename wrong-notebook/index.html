@@ -14,7 +14,7 @@
     };
   </script>
   <script>document.write('<scr'+'ipt src="'+window._b+'/assets/site-base.js"><\/scr'+'ipt>');</script>
-  <link rel="stylesheet" href="../../assets/global-theme.css">
+  <link rel="stylesheet" href="../assets/global-theme.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css">
   <style>
     body { overflow-x: hidden; }
@@ -412,11 +412,7 @@
         </span>
       </a>
       <nav class="nav-main" aria-label="Primary">
-        <a id="nav-home">首页</a>
-        <a id="nav-mock">套题模考</a>
-        <a id="nav-training">专项训练</a>
-        <a class="is-active" id="nav-wrong">错题本</a>
-        <a id="nav-dashboard">Dashboard</a>
+        <!-- 由 assets/nav.js 自动注入 -->
       </nav>
       <a class="avatar-entry" id="nav-profile" aria-label="Open profile">
         <span class="avatar">OC</span>
@@ -430,11 +426,6 @@
   </header>
   <script>
     document.getElementById('nav-brand').href = window.sitePath('/');
-    document.getElementById('nav-home').href = window.sitePath('/');
-    document.getElementById('nav-mock').href = window.sitePath('/v2/exam/');
-    document.getElementById('nav-training').href = window.sitePath('/training/');
-    document.getElementById('nav-wrong').href = window.sitePath('/v2/exam/wrong-notebook.html');
-    document.getElementById('nav-dashboard').href = window.sitePath('/v2/dashboard/');
     document.getElementById('nav-profile').href = window.sitePath('/profile/');
   </script>
 
@@ -497,8 +488,8 @@
   </footer>
 
   <script type="module">
-    import { loadWrongQuestions, removeWrongQuestion, loadUserProgress } from '../js/exam-engine.js';
-    import { loadExamIndex } from '../js/data-service.js';
+    import { loadWrongQuestions, removeWrongQuestion, loadUserProgress } from '../assets/js/exam-engine.js';
+    import { loadExamIndex } from '../assets/js/data-service.js';
 
     // ========== Constants ==========
     const PRACTICED_KEY = 'ap-learning-wrong-practiced';
